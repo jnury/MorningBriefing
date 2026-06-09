@@ -35,8 +35,11 @@ function runClaude(date, outPath) {
   const promptPath = outPath.replaceAll('\\', '/');
   const prompt = tmpl.replaceAll('{{DATE}}', date).replaceAll('{{OUTPUT_PATH}}', promptPath);
   log(`claude: démarrage de la recherche pour ${date}`);
+  // Scope to exactly the tools the briefing needs. In headless (-p) mode a
+  // non-allowlisted tool is denied (not prompted), so the run stays unattended
+  // without granting blanket bypass permissions.
   const res = spawnSync(
-    'claude -p --model opus --permission-mode bypassPermissions --output-format json',
+    'claude -p --model opus --allowedTools "WebSearch,WebFetch,Write" --output-format json',
     { input: prompt, encoding: 'utf8', shell: true, maxBuffer: 32 * 1024 * 1024, cwd: ROOT },
   );
   if (res.error) throw res.error;
