@@ -6,12 +6,14 @@
       "high": 20,
       "low": 17,
       "condition": "Orages",
+      "weathercode": 95,
       "precipProbability": 78
     },
     "lausanne": {
       "high": 19,
       "low": 15,
       "condition": "Averses de pluie",
+      "weathercode": 80,
       "precipProbability": 90
     }
   },
@@ -27,67 +29,26 @@
     }
   ],
   "markets": {
-    "asOf": "clôture du 8 juin 2026 (Asie : séance du 9 juin)",
-    "regions": [
+    "asOf": "clôture du 8 juin 2026",
+    "indices": [
       {
-        "region": "US",
-        "indices": [
-          {
-            "name": "S&P 500",
-            "level": 7405.73,
-            "changePct": 0.3
-          },
-          {
-            "name": "Nasdaq",
-            "level": 25929.66,
-            "changePct": 0.86
-          },
-          {
-            "name": "Dow Jones",
-            "level": 50786.01,
-            "changePct": -0.16
-          }
-        ],
-        "takeaway": "Wall Street se stabilise après la chute de vendredi : le S&P 500 et le Nasdaq rebondissent grâce au retour des semi-conducteurs, tandis que le Dow recule très légèrement."
+        "name": "Nasdaq",
+        "changePct": 0.86
       },
       {
-        "region": "Europe",
-        "indices": [
-          {
-            "name": "SMI",
-            "level": 13200,
-            "changePct": 0.15
-          },
-          {
-            "name": "Euro Stoxx 50",
-            "level": 6080,
-            "changePct": 0.3
-          }
-        ],
-        "takeaway": "Les places européennes tiennent bon ; le SMI joue son rôle de valeur refuge près de 13 200 points, porté par Roche, Novartis et Nestlé, et l'Euro Stoxx 50 gagne du terrain."
+        "name": "Dow Jones",
+        "changePct": -0.16
       },
       {
-        "region": "Asia",
-        "indices": [
-          {
-            "name": "Nikkei 225",
-            "level": 64654.22,
-            "changePct": 0.98
-          },
-          {
-            "name": "Hang Seng",
-            "level": 24585,
-            "changePct": -1.2
-          },
-          {
-            "name": "Shanghai Composite",
-            "level": 4010,
-            "changePct": 1.28
-          }
-        ],
-        "takeaway": "Séance contrastée en Asie le 9 juin : le Nikkei et Shanghai rebondissent grâce à des données commerciales chinoises solides, alors que le Hang Seng reste sous pression après la déroute de la veille."
+        "name": "SMI",
+        "changePct": 0.15
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 0.3
       }
-    ]
+    ],
+    "summary": "Wall Street rebondit grâce au retour des semi-conducteurs, tandis que les places européennes tiennent bon, le SMI jouant son rôle de valeur refuge."
   },
   "tech": [
     {

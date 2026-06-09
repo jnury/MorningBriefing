@@ -51,14 +51,29 @@ test('rejects non-http url', () => {
   assert.equal(validateBriefing(d).valid, false);
 });
 
-test('rejects wrong market regions', () => {
-  const d = valid(); d.markets.regions[0].region = 'LatAm';
+test('rejects markets with wrong index count', () => {
+  const d = valid(); d.markets.indices = d.markets.indices.slice(0, 3);
   assert.equal(validateBriefing(d).valid, false);
 });
 
-test('rejects a null market region without throwing', () => {
-  const d = valid(); d.markets.regions[0] = null;
+test('rejects markets missing a required index', () => {
+  const d = valid(); d.markets.indices[0].name = 'CAC 40';
+  assert.equal(validateBriefing(d).valid, false);
+});
+
+test('rejects markets without a summary', () => {
+  const d = valid(); delete d.markets.summary;
+  assert.equal(validateBriefing(d).valid, false);
+});
+
+test('rejects a null market index without throwing', () => {
+  const d = valid(); d.markets.indices[0] = null;
   let r;
   assert.doesNotThrow(() => { r = validateBriefing(d); });
   assert.equal(r.valid, false);
+});
+
+test('rejects weather city missing weathercode', () => {
+  const d = valid(); delete d.weather.geneva.weathercode;
+  assert.equal(validateBriefing(d).valid, false);
 });

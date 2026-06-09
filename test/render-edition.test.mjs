@@ -17,21 +17,29 @@ test('renderEdition lists the three world news headlines', () => {
   for (const n of data.worldNews) assert.ok(html.includes(n.headline), `missing: ${n.headline}`);
 });
 
-test('renderEdition shows market indices with numbers and signed percent', () => {
+test('renderEdition shows the four indices on one line with signed percent', () => {
   const html = renderEdition(data, { linkPrefix: '' });
-  assert.match(html, /S&amp;P 500/);
-  assert.match(html, /SMI/);
-  assert.match(html, /\+0[.,]42\s*%/);   // up value formatted with + sign
-  assert.match(html, /-0[.,]12\s*%/);    // down value
+  assert.match(html, /class="markets"/);
+  for (const name of ['Nasdaq', 'Dow Jones', 'SMI', 'Euro Stoxx 50']) {
+    assert.ok(html.includes(name), `missing index: ${name}`);
+  }
+  assert.match(html, /\+0[.,]61\s*%/);   // Nasdaq up
+  assert.match(html, /-0[.,]12\s*%/);    // Dow Jones down
+  assert.match(html, /Séance hésitante/); // single summary sentence
 });
 
-test('renderEdition renders tech items with titles, links and category', () => {
+test('renderEdition includes an inline weather icon for each city', () => {
+  const html = renderEdition(data, { linkPrefix: '' });
+  assert.equal((html.match(/<svg class="wx"/g) || []).length, 2);
+});
+
+test('renderEdition puts a category badge before each tech title', () => {
   const html = renderEdition(data, { linkPrefix: '' });
   assert.match(html, /href="https:\/\/example\.com\/openclaw"/);
   assert.match(html, /OpenClaw/);
-  assert.match(html, /AI/);
-  assert.match(html, /IT/);
-  assert.match(html, /Science/);
+  assert.match(html, /<span class="badge badge-ai">AI<\/span>/);
+  assert.match(html, /badge-it">IT</);
+  assert.match(html, /badge-science">Science</);
 });
 
 test('renderEdition contains no emoji', () => {

@@ -26,17 +26,19 @@ p{margin:8px 0}
 .lead{color:var(--muted);margin-top:0}
 .weather{display:flex;gap:28px;flex-wrap:wrap}
 .weather .city{flex:1 1 200px}
+.weather .city .wx-row{display:flex;align-items:center;gap:10px;margin:4px 0}
+.wx{width:34px;height:34px;color:var(--accent);flex:none}
 .weather .city .t{font-size:22px;font-weight:600}
 .weather .city .c{color:var(--muted)}
-.market{margin:14px 0}
-.market .name{font-weight:600}
-.market table{border-collapse:collapse;width:100%;margin:6px 0;font-size:16px}
-.market td{padding:3px 0;border-bottom:1px solid var(--line)}
-.market td.num{text-align:right;font-variant-numeric:tabular-nums}
+.markets{display:flex;flex-wrap:wrap;gap:14px 26px;margin:10px 0;font-variant-numeric:tabular-nums}
+.markets .idx{display:inline-flex;gap:8px;align-items:baseline}
+.markets .idx-name{font-weight:600}
 .up{color:#0a7a2f}.down{color:#b3261e}
 .world li{margin:6px 0}
-.cat{color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:0.06em}
-.src{font-size:14px}.src a{color:var(--accent);text-decoration:none}
+.badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;padding:2px 8px;border-radius:999px;margin-right:8px;vertical-align:middle;background:#eef1f5;color:#41506b}
+.badge-ai{background:#eae6fb;color:#5b3ea8}
+.badge-science{background:#e3f3ec;color:#1f7a4d}
+.badge-it{background:#e7eefb;color:#28508f}
 .archive li{margin:8px 0;list-style:none}
 .archive ul{padding:0}
 .archive a{color:var(--accent);text-decoration:none;font-size:18px}
@@ -55,11 +57,11 @@ footer.site{margin-top:60px;border-top:1px solid var(--line);padding-top:14px;
 <h2>Météo</h2>
 <div class="weather"><div class="city">
 <div class="name">Genève</div>
-<div class="t">20° / 17°</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 16.326A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 .5 8.973"/><path d="m13 12-3 5h4l-3 5"/></svg><span class="t">20° / 17°</span></div>
 <div class="c">Orages &middot; 78 % de précip.</div>
 </div><div class="city">
 <div class="name">Lausanne</div>
-<div class="t">19° / 15°</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M16 14v6"/><path d="M8 14v6"/><path d="M12 16v6"/></svg><span class="t">19° / 15°</span></div>
 <div class="c">Averses de pluie &middot; 90 % de précip.</div>
 </div></div>
 <h2>Le monde en bref</h2>
@@ -68,107 +70,63 @@ footer.site{margin-top:60px;border-top:1px solid var(--line);padding-top:14px;
 <li>Un séisme de magnitude 7,8 au large du sud des Philippines a fait au moins 32 morts et plus de 200 blessés, déclenchant un petit tsunami sur les côtes voisines.</li>
 <li>Africa CDC alerte sur l'épidémie d'Ebola en République démocratique du Congo, qui se propage à un rythme sans précédent.</li>
 </ul>
-<h2>Marchés &middot; clôture du 8 juin 2026 (Asie : séance du 9 juin)</h2>
-<div class="market">
-<div class="name">US</div>
-<table><tr><td>S&amp;P 500</td>
-<td class="num">7 405,73</td>
-<td class="num up">+0.30 %</td></tr>
-<tr><td>Nasdaq</td>
-<td class="num">25 929,66</td>
-<td class="num up">+0.86 %</td></tr>
-<tr><td>Dow Jones</td>
-<td class="num">50 786,01</td>
-<td class="num down">-0.16 %</td></tr></table>
-<p class="lead">Wall Street se stabilise après la chute de vendredi : le S&amp;P 500 et le Nasdaq rebondissent grâce au retour des semi-conducteurs, tandis que le Dow recule très légèrement.</p>
-</div>
-<div class="market">
-<div class="name">Europe</div>
-<table><tr><td>SMI</td>
-<td class="num">13 200,00</td>
-<td class="num up">+0.15 %</td></tr>
-<tr><td>Euro Stoxx 50</td>
-<td class="num">6 080,00</td>
-<td class="num up">+0.30 %</td></tr></table>
-<p class="lead">Les places européennes tiennent bon ; le SMI joue son rôle de valeur refuge près de 13 200 points, porté par Roche, Novartis et Nestlé, et l&#39;Euro Stoxx 50 gagne du terrain.</p>
-</div>
-<div class="market">
-<div class="name">Asia</div>
-<table><tr><td>Nikkei 225</td>
-<td class="num">64 654,22</td>
-<td class="num up">+0.98 %</td></tr>
-<tr><td>Hang Seng</td>
-<td class="num">24 585,00</td>
-<td class="num down">-1.20 %</td></tr>
-<tr><td>Shanghai Composite</td>
-<td class="num">4 010,00</td>
-<td class="num up">+1.28 %</td></tr></table>
-<p class="lead">Séance contrastée en Asie le 9 juin : le Nikkei et Shanghai rebondissent grâce à des données commerciales chinoises solides, alors que le Hang Seng reste sous pression après la déroute de la veille.</p>
-</div>
+<h2>Marchés &middot; clôture du 8 juin 2026</h2>
+<div class="markets"><span class="idx"><span class="idx-name">Nasdaq</span> <span class="up">+0.86 %</span></span>
+<span class="idx"><span class="idx-name">Dow Jones</span> <span class="down">-0.16 %</span></span>
+<span class="idx"><span class="idx-name">SMI</span> <span class="up">+0.15 %</span></span>
+<span class="idx"><span class="idx-name">Euro Stoxx 50</span> <span class="up">+0.30 %</span></span></div>
+<p class="lead">Wall Street rebondit grâce au retour des semi-conducteurs, tandis que les places européennes tiennent bon, le SMI jouant son rôle de valeur refuge.</p>
 <h2>Tech &middot; IT, Science &amp; IA</h2>
 <article>
-<div class="cat">AI</div>
-<h3><a href="https://www.buildfastwithai.com/blogs/ai-news-today-june-6-2026" target="_blank" rel="noopener">Anthropic atteint 965 milliards de dollars et dépose un dossier d&#39;IPO confidentiel</a></h3>
+<h3><span class="badge badge-ai">AI</span> <a href="https://www.buildfastwithai.com/blogs/ai-news-today-june-6-2026" target="_blank" rel="noopener">Anthropic atteint 965 milliards de dollars et dépose un dossier d&#39;IPO confidentiel</a></h3>
 <p>Anthropic a bouclé un tour de financement valorisant l&#39;entreprise à 965 milliards de dollars, dépassant OpenAI, et a déposé de manière confidentielle un dossier d&#39;introduction en Bourse. Pour soutenir sa croissance, la société s&#39;est engagée à verser 1,25 milliard de dollars par mois à SpaceX jusqu&#39;en mai 2029, soit 15 milliards par an de capacité de calcul. Cette ascension est largement portée par Claude Code, son assistant de programmation, qui a pris une nette avance sur la concurrence. OpenAI devrait viser à son tour une cotation, ouvrant la voie aux deux plus grandes introductions technologiques de 2026.</p>
 </article>
 <article>
-<div class="cat">AI</div>
-<h3><a href="https://www.npr.org/2026/06/08/nx-s1-5847937/apple-wwdc-2026-siri-ai-tim-cook" target="_blank" rel="noopener">Apple dévoile à la WWDC une refonte de Siri dopée à l&#39;IA</a></h3>
+<h3><span class="badge badge-ai">AI</span> <a href="https://www.npr.org/2026/06/08/nx-s1-5847937/apple-wwdc-2026-siri-ai-tim-cook" target="_blank" rel="noopener">Apple dévoile à la WWDC une refonte de Siri dopée à l&#39;IA</a></h3>
 <p>Lors de sa conférence WWDC, Apple a présenté la mise à jour longtemps attendue de Siri ainsi qu&#39;une intégration plus profonde de l&#39;intelligence artificielle dans ses systèmes d&#39;exploitation. Malgré cette annonce, l&#39;action Apple a reculé de près de 2 %, les investisseurs estimant que l&#39;entreprise reste en retard sur OpenAI, Google et Anthropic dans la course à l&#39;IA générative.</p>
 </article>
 <article>
-<div class="cat">IT</div>
-<h3><a href="https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html" target="_blank" rel="noopener">Nvidia bouscule le PC avec sa superpuce ARM « RTX Spark »</a></h3>
+<h3><span class="badge badge-it">IT</span> <a href="https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html" target="_blank" rel="noopener">Nvidia bouscule le PC avec sa superpuce ARM « RTX Spark »</a></h3>
 <p>Au Computex de Taïwan, Jensen Huang a dévoilé une puce PC co-développée avec Microsoft. La « superpuce » RTX Spark combine un processeur ARM Grace de 20 cœurs et un GPU Blackwell RTX, gravée en 3 nm chez TSMC. Elle équipe déjà le Surface Laptop Ultra (128 Go de RAM) et arrivera à l&#39;automne sur des PC Windows de Dell, HP, Asus, Lenovo et MSI. L&#39;annonce a fait chuter Intel et AMD tout en dopant ARM et Qualcomm, sur fond d&#39;engouement pour les « PC IA agentiques ».</p>
 </article>
 <article>
-<div class="cat">AI</div>
-<h3><a href="https://llm-stats.com/llm-updates" target="_blank" rel="noopener">Nouvelle vague de modèles de pointe : Claude Opus 4.8 et Gemini 3.5 Flash</a></h3>
+<h3><span class="badge badge-ai">AI</span> <a href="https://llm-stats.com/llm-updates" target="_blank" rel="noopener">Nouvelle vague de modèles de pointe : Claude Opus 4.8 et Gemini 3.5 Flash</a></h3>
 <p>Le rythme des sorties s&#39;accélère. Claude Opus 4.8 d&#39;Anthropic atteint 88,6 % sur SWE-bench Verified et 74,6 % sur Terminal-Bench 2.1, avec des flux de sous-agents en parallèle et un mode rapide 2,5×. De son côté, Google a rendu Gemini 3.5 Flash disponible, promettant une intelligence de niveau frontière à 4× la vitesse des modèles comparables, pour 1,50/9 dollars par million de tokens et une fenêtre de contexte d&#39;un million de tokens.</p>
 </article>
 <article>
-<div class="cat">IT</div>
-<h3><a href="https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html" target="_blank" rel="noopener">Microsoft lance ses propres modèles d&#39;IA pour réduire sa dépendance à OpenAI</a></h3>
+<h3><span class="badge badge-it">IT</span> <a href="https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html" target="_blank" rel="noopener">Microsoft lance ses propres modèles d&#39;IA pour réduire sa dépendance à OpenAI</a></h3>
 <p>Microsoft a présenté de nouveaux modèles d&#39;IA développés en interne, destinés à réduire sa dépendance à OpenAI et à abaisser les coûts pour les développeurs. Cette initiative s&#39;inscrit dans une stratégie d&#39;autonomisation, alors que Microsoft et Google tentent de rattraper Anthropic et OpenAI, notamment sur les outils de programmation agentique.</p>
 </article>
 <article>
-<div class="cat">IT</div>
-<h3><a href="https://www.aljazeera.com/economy/2026/6/9/us-lists-chinas-byd-alibaba-baidu-as-chinese-military-companies" target="_blank" rel="noopener">Washington classe BYD, Alibaba et Baidu parmi les « entreprises militaires chinoises »</a></h3>
+<h3><span class="badge badge-it">IT</span> <a href="https://www.aljazeera.com/economy/2026/6/9/us-lists-chinas-byd-alibaba-baidu-as-chinese-military-companies" target="_blank" rel="noopener">Washington classe BYD, Alibaba et Baidu parmi les « entreprises militaires chinoises »</a></h3>
 <p>Les États-Unis ont ajouté les géants technologiques chinois BYD, Alibaba et Baidu à leur liste d&#39;« entreprises militaires chinoises ». Cette mesure, qui vise des acteurs clés de la voiture électrique, du cloud et de l&#39;intelligence artificielle, risque d&#39;accentuer les tensions commerciales et de compliquer leurs activités aux États-Unis.</p>
 </article>
 <article>
-<div class="cat">AI</div>
-<h3><a href="https://www.buildfastwithai.com/blogs/ai-news-today-june-6-2026" target="_blank" rel="noopener">OpenAI revoit ses ambitions et ouvre GPT-5.5-Cyber à l&#39;Union européenne</a></h3>
+<h3><span class="badge badge-ai">AI</span> <a href="https://www.buildfastwithai.com/blogs/ai-news-today-june-6-2026" target="_blank" rel="noopener">OpenAI revoit ses ambitions et ouvre GPT-5.5-Cyber à l&#39;Union européenne</a></h3>
 <p>OpenAI tempère son objectif d&#39;une recherche entièrement autonome d&#39;ici 2028, évoquant désormais un « tandem » entre humains et machines. Parallèlement, l&#39;entreprise a accordé à l&#39;Union européenne l&#39;accès à GPT-5.5-Cyber, une variante de son modèle phare conçue pour la cybersécurité, déployée auprès d&#39;équipes vérifiées et d&#39;institutions européennes.</p>
 </article>
 <article>
-<div class="cat">AI</div>
-<h3><a href="https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html" target="_blank" rel="noopener">Microsoft et Google partent à l&#39;assaut d&#39;Anthropic et OpenAI sur les modèles de code</a></h3>
+<h3><span class="badge badge-ai">AI</span> <a href="https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html" target="_blank" rel="noopener">Microsoft et Google partent à l&#39;assaut d&#39;Anthropic et OpenAI sur les modèles de code</a></h3>
 <p>Les outils de programmation deviennent un champ de bataille majeur de l&#39;IA. Microsoft et Google cherchent à rattraper Anthropic et OpenAI, qui dominent grâce à des assistants comme Claude Code. Le PDG de Google, Sundar Pichai, a reconnu être « un peu en retard » sur le codage agentique, l&#39;usage d&#39;outils et les tâches à long horizon.</p>
 </article>
 <article>
-<div class="cat">IT</div>
-<h3><a href="https://www.cnbc.com/2026/05/31/nvidias-new-chip-to-power-fresh-line-of-windows-laptops-by-dell-hp.html" target="_blank" rel="noopener">Qualcomm vise le PC Windows abordable avec sa plateforme Snapdragon C</a></h3>
+<h3><span class="badge badge-it">IT</span> <a href="https://www.cnbc.com/2026/05/31/nvidias-new-chip-to-power-fresh-line-of-windows-laptops-by-dell-hp.html" target="_blank" rel="noopener">Qualcomm vise le PC Windows abordable avec sa plateforme Snapdragon C</a></h3>
 <p>Qualcomm a dévoilé sa plateforme Snapdragon C, qui cible les ordinateurs portables Windows à moins de 600 dollars afin de concurrencer le MacBook Neo d&#39;Apple. La bataille des puces ARM pour PC s&#39;intensifie, alors que Nvidia fait son entrée sur ce marché et qu&#39;Apple poursuit sa route avec ses processeurs maison de la série M.</p>
 </article>
 <article>
-<div class="cat">Science</div>
-<h3><a href="https://www.universetoday.com/" target="_blank" rel="noopener">La carte la plus détaillée de la toile cosmique grâce au télescope James-Webb</a></h3>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.universetoday.com/" target="_blank" rel="noopener">La carte la plus détaillée de la toile cosmique grâce au télescope James-Webb</a></h3>
 <p>Des astronomes menés par l&#39;Université de Californie à Riverside ont produit, à partir des données du télescope spatial James-Webb, la carte la plus détaillée jamais réalisée de la « toile cosmique », ce vaste réseau reliant les galaxies. Elle remonte jusqu&#39;à l&#39;époque où l&#39;Univers n&#39;avait qu&#39;un milliard d&#39;années, offrant un aperçu inédit de la structure à grande échelle du cosmos primitif.</p>
 </article>
 <article>
-<div class="cat">Science</div>
-<h3><a href="https://www.space.com/" target="_blank" rel="noopener">Triton aurait anéanti l&#39;ancien système de lunes de Neptune</a></h3>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.space.com/" target="_blank" rel="noopener">Triton aurait anéanti l&#39;ancien système de lunes de Neptune</a></h3>
 <p>Selon une étude publiée dans Science Advances par des chercheurs de Caltech, Triton — de loin la plus grande lune de Neptune — aurait littéralement détruit le système de lunes régulier que la planète possédait auparavant. Capturée par Neptune, Triton aurait déstabilisé puis pulvérisé les satellites préexistants, ce qui expliquerait l&#39;organisation actuelle très inhabituelle du système.</p>
 </article>
 <article>
-<div class="cat">Science</div>
-<h3><a href="https://www.sciencedaily.com/news/space_time/space_exploration/" target="_blank" rel="noopener">Première observation directe de la rotation d&#39;un disque protoplanétaire</a></h3>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/news/space_time/space_exploration/" target="_blank" rel="noopener">Première observation directe de la rotation d&#39;un disque protoplanétaire</a></h3>
 <p>Une équipe du CNRS et de l&#39;Université de Bordeaux a directement observé la rotation d&#39;un disque protoplanétaire autour de la jeune étoile AB Aurigae. Ces « berceaux » de planètes restaient très difficiles à étudier ; cette avancée éclaire la manière dont la matière s&#39;organise et tourne avant de donner naissance à des planètes.</p>
 </article>
 <article>
-<div class="cat">Science</div>
-<h3><a href="https://www.space.com/news/spherex-satellite-trails" target="_blank" rel="noopener">73 % des images du télescope SPHEREx polluées par des traînées de satellites</a></h3>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.space.com/news/spherex-satellite-trails" target="_blank" rel="noopener">73 % des images du télescope SPHEREx polluées par des traînées de satellites</a></h3>
 <p>Une étude en pré-publication sur arXiv, menée par des chercheurs du centre Ames de la NASA, révèle que 73,3 % des images collectées par le nouveau télescope spatial SPHEREx entre mai et septembre derniers étaient contaminées par au moins une traînée de satellite artificiel. Ce constat illustre l&#39;impact croissant des méga-constellations sur l&#39;observation astronomique.</p>
 </article>
 <footer class="site">Généré automatiquement &middot; Julien Nury</footer>
