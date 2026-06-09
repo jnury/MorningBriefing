@@ -32,14 +32,13 @@ function log(line) {
 
 function runClaude(date, outPath) {
   const tmpl = readFileSync(join(ROOT, 'prompts', 'briefing.md'), 'utf8');
-  const prompt = tmpl.replaceAll('{{DATE}}', date).replaceAll('{{OUTPUT_PATH}}', outPath);
+  const promptPath = outPath.replaceAll('\\', '/');
+  const prompt = tmpl.replaceAll('{{DATE}}', date).replaceAll('{{OUTPUT_PATH}}', promptPath);
   log(`claude: démarrage de la recherche pour ${date}`);
-  const res = spawnSync('claude', [
-    '-p',
-    '--model', 'opus',
-    '--permission-mode', 'bypassPermissions',
-    '--output-format', 'json',
-  ], { input: prompt, encoding: 'utf8', shell: true, maxBuffer: 32 * 1024 * 1024, cwd: ROOT });
+  const res = spawnSync(
+    'claude -p --model opus --permission-mode bypassPermissions --output-format json',
+    { input: prompt, encoding: 'utf8', shell: true, maxBuffer: 32 * 1024 * 1024, cwd: ROOT },
+  );
   if (res.error) throw res.error;
   log(`claude: code de sortie ${res.status}`);
   if (res.status !== 0) log(`claude stderr: ${(res.stderr || '').slice(0, 2000)}`);
@@ -55,16 +54,16 @@ function loadAndValidate(outPath) {
 }
 
 function gitPublish(date) {
-  const run = (args) => {
-    const r = spawnSync('git', args, { cwd: ROOT, encoding: 'utf8', shell: true });
-    if (r.status !== 0) throw new Error(`git ${args.join(' ')} a échoué: ${r.stderr || r.stdout}`);
+  const run = (cmd) => {
+    const r = spawnSync(cmd, { cwd: ROOT, encoding: 'utf8', shell: true });
+    if (r.status !== 0) throw new Error(`${cmd} a échoué: ${r.stderr || r.stdout}`);
     return r.stdout;
   };
-  run(['add', 'docs']);
-  const status = spawnSync('git', ['status', '--porcelain'], { cwd: ROOT, encoding: 'utf8', shell: true }).stdout;
+  run('git add docs');
+  const status = spawnSync('git status --porcelain', { cwd: ROOT, encoding: 'utf8', shell: true }).stdout;
   if (!status.trim()) { log('git: aucun changement à publier'); return; }
-  run(['commit', '-m', `briefing: ${date}`]);
-  run(['push', 'origin', 'main']);
+  run(`git commit -m "briefing: ${date}"`);
+  run('git push origin main');
   log('git: publié sur origin/main');
 }
 
