@@ -1,0 +1,12 @@
+{
+  "name": "morning-briefing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal daily morning briefing static-site generator",
+  "scripts": {
+    "test": "node --test",
+    "generate": "node generate.mjs",
+    "render-only": "node generate.mjs --render-only"
+  }
+}
