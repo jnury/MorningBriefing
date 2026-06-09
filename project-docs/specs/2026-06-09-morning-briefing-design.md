@@ -1,7 +1,7 @@
 # Personal Morning Briefing — Design Spec
 
 **Date:** 2026-06-09
-**Author:** Julien Nury (julien@nury.ch)
+**Author:** Julien Nury
 **Status:** Approved design, ready for implementation planning
 
 ## 1. Purpose
@@ -116,8 +116,8 @@ broken is ever published. The error is logged to `logs/`.
 
 - `git init` in this repo; set **local** (repo-scoped) identity so global/work
   config is untouched:
-  - `user.name = Julien Nury`
-  - `user.email = julien@nury.ch`
+  - `user.name` and `user.email` = the personal identity recorded in the
+    gitignored `config.local.json` (not committed)
 - Wire up the **existing** GitHub remote (URL to be provided during implementation).
 - **GitHub Pages: deploy from branch → `main` / `/docs` folder.** No GitHub Actions
   build; the site is pre-rendered locally and pushed.

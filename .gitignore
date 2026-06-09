@@ -5,3 +5,6 @@ node_modules/
 
 # Reference newsletters forwarded from a work address — keep out of the public repo
 Examples/
+
+# Local config with personal details (email, etc.) — never commit
+config.local.json
