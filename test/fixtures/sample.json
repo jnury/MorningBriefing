@@ -1,0 +1,40 @@
+{
+  "date": "2026-06-09",
+  "generatedAt": "2026-06-09T05:01:23+02:00",
+  "weather": {
+    "geneva":   { "high": 24, "low": 13, "condition": "Ensoleillé", "precipProbability": 10 },
+    "lausanne": { "high": 23, "low": 14, "condition": "Partiellement nuageux", "precipProbability": 20 }
+  },
+  "worldNews": [
+    { "headline": "Le sommet du G20 s'ouvre à Genève sur fond de tensions commerciales." },
+    { "headline": "Une avancée majeure dans les négociations climatiques est annoncée à l'ONU." },
+    { "headline": "Les marchés réagissent à la décision de la banque centrale américaine." }
+  ],
+  "markets": {
+    "asOf": "clôture du 6 juin 2026",
+    "regions": [
+      { "region": "US", "indices": [
+          { "name": "S&P 500", "level": 5234.18, "changePct": 0.42 },
+          { "name": "Nasdaq", "level": 16780.5, "changePct": 0.61 },
+          { "name": "Dow Jones", "level": 39120.7, "changePct": -0.12 } ],
+        "takeaway": "Wall Street termine en légère hausse, portée par la technologie." },
+      { "region": "Europe", "indices": [
+          { "name": "SMI", "level": 12010.3, "changePct": 0.18 },
+          { "name": "Euro Stoxx 50", "level": 4980.6, "changePct": -0.05 } ],
+        "takeaway": "Les bourses européennes hésitent avant les chiffres de l'inflation." },
+      { "region": "Asia", "indices": [
+          { "name": "Nikkei 225", "level": 38900.1, "changePct": 0.74 },
+          { "name": "Hang Seng", "level": 17850.9, "changePct": -0.30 },
+          { "name": "Shanghai Composite", "level": 3050.2, "changePct": 0.11 } ],
+        "takeaway": "Tokyo rebondit tandis que Hong Kong recule légèrement." }
+    ]
+  },
+  "tech": [
+    { "category": "AI", "title": "OpenClaw runtime devient gratuit", "url": "https://example.com/openclaw",
+      "summary": "Microsoft a rendu gratuit le runtime open source OpenClaw et monétise désormais la couche de contrôle autour de celui-ci : identité, gouvernance, audit et gestion d'entreprise." },
+    { "category": "IT", "title": "Google louera de la capacité de calcul à SpaceX", "url": "https://example.com/google-spacex",
+      "summary": "Google paierait près d'un milliard de dollars par mois pour louer de la capacité de centre de données à SpaceX entre 2026 et 2029, sous réserve de la livraison de puces Nvidia." },
+    { "category": "Science", "title": "Une nouvelle méthode d'exécution durable dans PostgreSQL", "url": "https://example.com/pg-durable",
+      "summary": "Microsoft a publié en open source pg_durable, une extension PostgreSQL permettant des workflows tolérants aux pannes avec points de reprise, sans infrastructure externe." }
+  ]
+}
