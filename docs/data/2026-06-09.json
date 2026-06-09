@@ -1,112 +1,172 @@
 {
   "date": "2026-06-09",
-  "generatedAt": "2026-06-09T05:01:23+02:00",
+  "generatedAt": "2026-06-09T05:30:00+02:00",
   "weather": {
     "geneva": {
-      "high": 24,
-      "low": 13,
-      "condition": "Ensoleillé",
-      "precipProbability": 10
+      "high": 20,
+      "low": 17,
+      "condition": "Orages",
+      "precipProbability": 78
     },
     "lausanne": {
-      "high": 23,
-      "low": 14,
-      "condition": "Partiellement nuageux",
-      "precipProbability": 20
+      "high": 19,
+      "low": 15,
+      "condition": "Averses de pluie",
+      "precipProbability": 90
     }
   },
   "worldNews": [
     {
-      "headline": "Le sommet du G20 s'ouvre à Genève sur fond de tensions commerciales."
+      "headline": "Israël et l'Iran disent vouloir cesser leurs attaques mutuelles, sous conditions, après un échange de missiles qui menace de faire voler en éclats un cessez-le-feu fraîchement renouvelé."
     },
     {
-      "headline": "Une avancée majeure dans les négociations climatiques est annoncée à l'ONU."
+      "headline": "Un séisme de magnitude 7,8 au large du sud des Philippines a fait au moins 32 morts et plus de 200 blessés, déclenchant un petit tsunami sur les côtes voisines."
     },
     {
-      "headline": "Les marchés réagissent à la décision de la banque centrale américaine."
+      "headline": "Africa CDC alerte sur l'épidémie d'Ebola en République démocratique du Congo, qui se propage à un rythme sans précédent."
     }
   ],
   "markets": {
-    "asOf": "clôture du 6 juin 2026",
+    "asOf": "clôture du 8 juin 2026 (Asie : séance du 9 juin)",
     "regions": [
       {
         "region": "US",
         "indices": [
           {
             "name": "S&P 500",
-            "level": 5234.18,
-            "changePct": 0.42
+            "level": 7405.73,
+            "changePct": 0.3
           },
           {
             "name": "Nasdaq",
-            "level": 16780.5,
-            "changePct": 0.61
+            "level": 25929.66,
+            "changePct": 0.86
           },
           {
             "name": "Dow Jones",
-            "level": 39120.7,
-            "changePct": -0.12
+            "level": 50786.01,
+            "changePct": -0.16
           }
         ],
-        "takeaway": "Wall Street termine en légère hausse, portée par la technologie."
+        "takeaway": "Wall Street se stabilise après la chute de vendredi : le S&P 500 et le Nasdaq rebondissent grâce au retour des semi-conducteurs, tandis que le Dow recule très légèrement."
       },
       {
         "region": "Europe",
         "indices": [
           {
             "name": "SMI",
-            "level": 12010.3,
-            "changePct": 0.18
+            "level": 13200,
+            "changePct": 0.15
           },
           {
             "name": "Euro Stoxx 50",
-            "level": 4980.6,
-            "changePct": -0.05
+            "level": 6080,
+            "changePct": 0.3
           }
         ],
-        "takeaway": "Les bourses européennes hésitent avant les chiffres de l'inflation."
+        "takeaway": "Les places européennes tiennent bon ; le SMI joue son rôle de valeur refuge près de 13 200 points, porté par Roche, Novartis et Nestlé, et l'Euro Stoxx 50 gagne du terrain."
       },
       {
         "region": "Asia",
         "indices": [
           {
             "name": "Nikkei 225",
-            "level": 38900.1,
-            "changePct": 0.74
+            "level": 64654.22,
+            "changePct": 0.98
           },
           {
             "name": "Hang Seng",
-            "level": 17850.9,
-            "changePct": -0.3
+            "level": 24585,
+            "changePct": -1.2
           },
           {
             "name": "Shanghai Composite",
-            "level": 3050.2,
-            "changePct": 0.11
+            "level": 4010,
+            "changePct": 1.28
           }
         ],
-        "takeaway": "Tokyo rebondit tandis que Hong Kong recule légèrement."
+        "takeaway": "Séance contrastée en Asie le 9 juin : le Nikkei et Shanghai rebondissent grâce à des données commerciales chinoises solides, alors que le Hang Seng reste sous pression après la déroute de la veille."
       }
     ]
   },
   "tech": [
     {
       "category": "AI",
-      "title": "OpenClaw runtime devient gratuit",
-      "url": "https://example.com/openclaw",
-      "summary": "Microsoft a rendu gratuit le runtime open source OpenClaw et monétise désormais la couche de contrôle autour de celui-ci : identité, gouvernance, audit et gestion d'entreprise."
+      "title": "Anthropic atteint 965 milliards de dollars et dépose un dossier d'IPO confidentiel",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-6-2026",
+      "summary": "Anthropic a bouclé un tour de financement valorisant l'entreprise à 965 milliards de dollars, dépassant OpenAI, et a déposé de manière confidentielle un dossier d'introduction en Bourse. Pour soutenir sa croissance, la société s'est engagée à verser 1,25 milliard de dollars par mois à SpaceX jusqu'en mai 2029, soit 15 milliards par an de capacité de calcul. Cette ascension est largement portée par Claude Code, son assistant de programmation, qui a pris une nette avance sur la concurrence. OpenAI devrait viser à son tour une cotation, ouvrant la voie aux deux plus grandes introductions technologiques de 2026."
+    },
+    {
+      "category": "AI",
+      "title": "Apple dévoile à la WWDC une refonte de Siri dopée à l'IA",
+      "url": "https://www.npr.org/2026/06/08/nx-s1-5847937/apple-wwdc-2026-siri-ai-tim-cook",
+      "summary": "Lors de sa conférence WWDC, Apple a présenté la mise à jour longtemps attendue de Siri ainsi qu'une intégration plus profonde de l'intelligence artificielle dans ses systèmes d'exploitation. Malgré cette annonce, l'action Apple a reculé de près de 2 %, les investisseurs estimant que l'entreprise reste en retard sur OpenAI, Google et Anthropic dans la course à l'IA générative."
     },
     {
       "category": "IT",
-      "title": "Google louera de la capacité de calcul à SpaceX",
-      "url": "https://example.com/google-spacex",
-      "summary": "Google paierait près d'un milliard de dollars par mois pour louer de la capacité de centre de données à SpaceX entre 2026 et 2029, sous réserve de la livraison de puces Nvidia."
+      "title": "Nvidia bouscule le PC avec sa superpuce ARM « RTX Spark »",
+      "url": "https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html",
+      "summary": "Au Computex de Taïwan, Jensen Huang a dévoilé une puce PC co-développée avec Microsoft. La « superpuce » RTX Spark combine un processeur ARM Grace de 20 cœurs et un GPU Blackwell RTX, gravée en 3 nm chez TSMC. Elle équipe déjà le Surface Laptop Ultra (128 Go de RAM) et arrivera à l'automne sur des PC Windows de Dell, HP, Asus, Lenovo et MSI. L'annonce a fait chuter Intel et AMD tout en dopant ARM et Qualcomm, sur fond d'engouement pour les « PC IA agentiques »."
+    },
+    {
+      "category": "AI",
+      "title": "Nouvelle vague de modèles de pointe : Claude Opus 4.8 et Gemini 3.5 Flash",
+      "url": "https://llm-stats.com/llm-updates",
+      "summary": "Le rythme des sorties s'accélère. Claude Opus 4.8 d'Anthropic atteint 88,6 % sur SWE-bench Verified et 74,6 % sur Terminal-Bench 2.1, avec des flux de sous-agents en parallèle et un mode rapide 2,5×. De son côté, Google a rendu Gemini 3.5 Flash disponible, promettant une intelligence de niveau frontière à 4× la vitesse des modèles comparables, pour 1,50/9 dollars par million de tokens et une fenêtre de contexte d'un million de tokens."
+    },
+    {
+      "category": "IT",
+      "title": "Microsoft lance ses propres modèles d'IA pour réduire sa dépendance à OpenAI",
+      "url": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+      "summary": "Microsoft a présenté de nouveaux modèles d'IA développés en interne, destinés à réduire sa dépendance à OpenAI et à abaisser les coûts pour les développeurs. Cette initiative s'inscrit dans une stratégie d'autonomisation, alors que Microsoft et Google tentent de rattraper Anthropic et OpenAI, notamment sur les outils de programmation agentique."
+    },
+    {
+      "category": "IT",
+      "title": "Washington classe BYD, Alibaba et Baidu parmi les « entreprises militaires chinoises »",
+      "url": "https://www.aljazeera.com/economy/2026/6/9/us-lists-chinas-byd-alibaba-baidu-as-chinese-military-companies",
+      "summary": "Les États-Unis ont ajouté les géants technologiques chinois BYD, Alibaba et Baidu à leur liste d'« entreprises militaires chinoises ». Cette mesure, qui vise des acteurs clés de la voiture électrique, du cloud et de l'intelligence artificielle, risque d'accentuer les tensions commerciales et de compliquer leurs activités aux États-Unis."
+    },
+    {
+      "category": "AI",
+      "title": "OpenAI revoit ses ambitions et ouvre GPT-5.5-Cyber à l'Union européenne",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-6-2026",
+      "summary": "OpenAI tempère son objectif d'une recherche entièrement autonome d'ici 2028, évoquant désormais un « tandem » entre humains et machines. Parallèlement, l'entreprise a accordé à l'Union européenne l'accès à GPT-5.5-Cyber, une variante de son modèle phare conçue pour la cybersécurité, déployée auprès d'équipes vérifiées et d'institutions européennes."
+    },
+    {
+      "category": "AI",
+      "title": "Microsoft et Google partent à l'assaut d'Anthropic et OpenAI sur les modèles de code",
+      "url": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
+      "summary": "Les outils de programmation deviennent un champ de bataille majeur de l'IA. Microsoft et Google cherchent à rattraper Anthropic et OpenAI, qui dominent grâce à des assistants comme Claude Code. Le PDG de Google, Sundar Pichai, a reconnu être « un peu en retard » sur le codage agentique, l'usage d'outils et les tâches à long horizon."
+    },
+    {
+      "category": "IT",
+      "title": "Qualcomm vise le PC Windows abordable avec sa plateforme Snapdragon C",
+      "url": "https://www.cnbc.com/2026/05/31/nvidias-new-chip-to-power-fresh-line-of-windows-laptops-by-dell-hp.html",
+      "summary": "Qualcomm a dévoilé sa plateforme Snapdragon C, qui cible les ordinateurs portables Windows à moins de 600 dollars afin de concurrencer le MacBook Neo d'Apple. La bataille des puces ARM pour PC s'intensifie, alors que Nvidia fait son entrée sur ce marché et qu'Apple poursuit sa route avec ses processeurs maison de la série M."
     },
     {
       "category": "Science",
-      "title": "Une nouvelle méthode d'exécution durable dans PostgreSQL",
-      "url": "https://example.com/pg-durable",
-      "summary": "Microsoft a publié en open source pg_durable, une extension PostgreSQL permettant des workflows tolérants aux pannes avec points de reprise, sans infrastructure externe."
+      "title": "La carte la plus détaillée de la toile cosmique grâce au télescope James-Webb",
+      "url": "https://www.universetoday.com/",
+      "summary": "Des astronomes menés par l'Université de Californie à Riverside ont produit, à partir des données du télescope spatial James-Webb, la carte la plus détaillée jamais réalisée de la « toile cosmique », ce vaste réseau reliant les galaxies. Elle remonte jusqu'à l'époque où l'Univers n'avait qu'un milliard d'années, offrant un aperçu inédit de la structure à grande échelle du cosmos primitif."
+    },
+    {
+      "category": "Science",
+      "title": "Triton aurait anéanti l'ancien système de lunes de Neptune",
+      "url": "https://www.space.com/",
+      "summary": "Selon une étude publiée dans Science Advances par des chercheurs de Caltech, Triton — de loin la plus grande lune de Neptune — aurait littéralement détruit le système de lunes régulier que la planète possédait auparavant. Capturée par Neptune, Triton aurait déstabilisé puis pulvérisé les satellites préexistants, ce qui expliquerait l'organisation actuelle très inhabituelle du système."
+    },
+    {
+      "category": "Science",
+      "title": "Première observation directe de la rotation d'un disque protoplanétaire",
+      "url": "https://www.sciencedaily.com/news/space_time/space_exploration/",
+      "summary": "Une équipe du CNRS et de l'Université de Bordeaux a directement observé la rotation d'un disque protoplanétaire autour de la jeune étoile AB Aurigae. Ces « berceaux » de planètes restaient très difficiles à étudier ; cette avancée éclaire la manière dont la matière s'organise et tourne avant de donner naissance à des planètes."
+    },
+    {
+      "category": "Science",
+      "title": "73 % des images du télescope SPHEREx polluées par des traînées de satellites",
+      "url": "https://www.space.com/news/spherex-satellite-trails",
+      "summary": "Une étude en pré-publication sur arXiv, menée par des chercheurs du centre Ames de la NASA, révèle que 73,3 % des images collectées par le nouveau télescope spatial SPHEREx entre mai et septembre derniers étaient contaminées par au moins une traînée de satellite artificiel. Ce constat illustre l'impact croissant des méga-constellations sur l'observation astronomique."
     }
   ]
 }
