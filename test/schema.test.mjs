@@ -55,3 +55,10 @@ test('rejects wrong market regions', () => {
   const d = valid(); d.markets.regions[0].region = 'LatAm';
   assert.equal(validateBriefing(d).valid, false);
 });
+
+test('rejects a null market region without throwing', () => {
+  const d = valid(); d.markets.regions[0] = null;
+  let r;
+  assert.doesNotThrow(() => { r = validateBriefing(d); });
+  assert.equal(r.valid, false);
+});
