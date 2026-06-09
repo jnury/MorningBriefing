@@ -1,8 +1,10 @@
 # Morning Briefing
 
-Personal daily briefing (French) — weather for Geneva & Lausanne, 3 world headlines,
-US/Europe/Asia market tendencies, and up to 20 IT/Science/AI items. Generated locally
-every morning at 05:00 (Europe/Zurich) and published to GitHub Pages.
+Personal daily briefing (French) — weather (with icons) for Geneva & Lausanne, 3 world
+headlines, four key market indices on one line (Nasdaq, Dow Jones, SMI, Euro Stoxx 50),
+and up to 20 IT/Science/AI items (each tagged with a category badge). News is restricted
+to the day before (never older than 2 days). Generated locally every morning at 05:00
+(Europe/Zurich) and published to GitHub Pages.
 
 **Live site:** https://jnury.github.io/MorningBriefing/
 
