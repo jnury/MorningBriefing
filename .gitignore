@@ -2,3 +2,6 @@ logs/
 node_modules/
 .DS_Store
 *.log
+
+# Reference newsletters forwarded from a work address — keep out of the public repo
+Examples/
