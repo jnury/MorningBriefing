@@ -22,6 +22,38 @@ test('rejects wrong worldNews count', () => {
   assert.equal(validateBriefing(d).valid, false);
 });
 
+test('rejects empty swissNews', () => {
+  const d = valid(); d.swissNews = [];
+  const r = validateBriefing(d);
+  assert.equal(r.valid, false);
+  assert.match(r.errors.join('; '), /swissNews/);
+});
+
+test('rejects more than 3 swissNews', () => {
+  const d = valid();
+  d.swissNews = Array.from({ length: 4 }, () => ({ headline: 'h', publishedAt: '2026-06-08' }));
+  assert.equal(validateBriefing(d).valid, false);
+});
+
+test('accepts a single swissNews item', () => {
+  const d = valid();
+  d.swissNews = [{ headline: 'Genève vote son budget.', publishedAt: '2026-06-08' }];
+  assert.equal(validateBriefing(d).valid, true);
+});
+
+test('rejects a swissNews item without publishedAt', () => {
+  const d = valid(); delete d.swissNews[0].publishedAt;
+  const r = validateBriefing(d);
+  assert.equal(r.valid, false);
+  assert.match(r.errors.join('; '), /swissNews\[0\]\.publishedAt/);
+});
+
+test('rejects stale swissNews', () => {
+  const d = valid(); // edition date 2026-06-09
+  d.swissNews[0].publishedAt = '2026-06-01';
+  assert.equal(validateBriefing(d).valid, false);
+});
+
 test('rejects missing weather city', () => {
   const d = valid(); delete d.weather.lausanne;
   assert.equal(validateBriefing(d).valid, false);
@@ -75,5 +107,48 @@ test('rejects a null market index without throwing', () => {
 
 test('rejects weather city missing weathercode', () => {
   const d = valid(); delete d.weather.geneva.weathercode;
+  assert.equal(validateBriefing(d).valid, false);
+});
+
+test('rejects a tech item without publishedAt', () => {
+  const d = valid(); delete d.tech[0].publishedAt;
+  const r = validateBriefing(d);
+  assert.equal(r.valid, false);
+  assert.match(r.errors.join('; '), /tech\[0\]\.publishedAt/);
+});
+
+test('rejects a worldNews item without publishedAt', () => {
+  const d = valid(); delete d.worldNews[0].publishedAt;
+  const r = validateBriefing(d);
+  assert.equal(r.valid, false);
+  assert.match(r.errors.join('; '), /worldNews\[0\]\.publishedAt/);
+});
+
+test('rejects tech news older than 2 days', () => {
+  const d = valid(); // edition date 2026-06-09
+  d.tech[0].publishedAt = '2026-06-06'; // 3 days old
+  const r = validateBriefing(d);
+  assert.equal(r.valid, false);
+  assert.match(r.errors.join('; '), /trop ancien/);
+});
+
+test('accepts tech news exactly 2 days old', () => {
+  const d = valid(); // edition date 2026-06-09
+  d.tech.forEach((t) => { t.publishedAt = '2026-06-07'; });
+  d.worldNews.forEach((n) => { n.publishedAt = '2026-06-07'; });
+  assert.equal(validateBriefing(d).valid, true);
+});
+
+test('rejects news dated in the future', () => {
+  const d = valid(); // edition date 2026-06-09
+  d.tech[0].publishedAt = '2026-06-10';
+  const r = validateBriefing(d);
+  assert.equal(r.valid, false);
+  assert.match(r.errors.join('; '), /futur/);
+});
+
+test('rejects a malformed publishedAt', () => {
+  const d = valid();
+  d.tech[0].publishedAt = '9 juin 2026';
   assert.equal(validateBriefing(d).valid, false);
 });

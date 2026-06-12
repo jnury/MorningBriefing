@@ -17,15 +17,32 @@
       "precipProbability": 38
     }
   },
+  "swissNews": [
+    {
+      "headline": "Genève a accueilli un débat entre les candidates au poste de secrétaire générale de l’ONU, Rebeca Grynspan, María Fernanda Espinosa et Michelle Bachelet.",
+      "publishedAt": "2026-06-09"
+    },
+    {
+      "headline": "Genève demeure la ville la plus congestionnée de Suisse et Lausanne la troisième : les autorités préparent plusieurs mesures pour fluidifier le trafic.",
+      "publishedAt": "2026-06-09"
+    },
+    {
+      "headline": "Les CFF prévoient trois TGV quotidiens entre Lausanne et Paris via Genève dès avril 2027, ainsi qu’une nouvelle liaison plus rapide entre Genève et Lyon.",
+      "publishedAt": "2026-06-09"
+    }
+  ],
   "worldNews": [
     {
-      "headline": "Donald Trump menace de reprendre des frappes contre l'Iran après qu'un hélicoptère militaire américain a été pris pour cible, tandis que Téhéran et Israël affirment avoir interrompu, pour l'heure, leur échange de tirs."
+      "headline": "Donald Trump menace de reprendre des frappes contre l'Iran après qu'un hélicoptère militaire américain a été pris pour cible, tandis que Téhéran et Israël affirment avoir interrompu, pour l'heure, leur échange de tirs.",
+      "publishedAt": "2026-06-09"
     },
     {
-      "headline": "La Corée du Nord a accueilli le dirigeant chinois Xi Jinping pour un sommet, le premier entre les deux pays depuis près de sept ans, sur fond de rapprochement de Pyongyang avec Moscou."
+      "headline": "La Corée du Nord a accueilli le dirigeant chinois Xi Jinping pour un sommet, le premier entre les deux pays depuis près de sept ans, sur fond de rapprochement de Pyongyang avec Moscou.",
+      "publishedAt": "2026-06-09"
     },
     {
-      "headline": "Dans un premier discours devant le Parlement espagnol, le pape américain Léon XIV a appelé à un « renouveau moral » de la vie publique afin de garantir le respect de la dignité de chaque personne."
+      "headline": "Dans un premier discours devant le Parlement espagnol, le pape américain Léon XIV a appelé à un « renouveau moral » de la vie publique afin de garantir le respect de la dignité de chaque personne.",
+      "publishedAt": "2026-06-09"
     }
   ],
   "markets": {
@@ -55,109 +72,127 @@
       "category": "AI",
       "title": "OpenAI dépose à son tour un dossier d'introduction en Bourse confidentiel",
       "url": "https://techstartups.com/2026/06/09/top-tech-news-today-june-9-2026/",
-      "summary": "Le créateur de ChatGPT a déposé de manière confidentielle un dossier d'introduction en Bourse aux États-Unis, ouvrant la voie à l'une des cotations technologiques les plus scrutées de la décennie. La valorisation visée pourrait approcher le millier de milliards de dollars, dans le sillage des manœuvres similaires d'Anthropic et de SpaceX. Cette démarche marque le basculement des grands acteurs de l'IA du financement privé vers les marchés publics et la discipline qu'ils imposent."
+      "summary": "Le créateur de ChatGPT a déposé de manière confidentielle un dossier d'introduction en Bourse aux États-Unis, ouvrant la voie à l'une des cotations technologiques les plus scrutées de la décennie. La valorisation visée pourrait approcher le millier de milliards de dollars, dans le sillage des manœuvres similaires d'Anthropic et de SpaceX. Cette démarche marque le basculement des grands acteurs de l'IA du financement privé vers les marchés publics et la discipline qu'ils imposent.",
+      "publishedAt": "2026-06-09"
     },
     {
       "category": "AI",
       "title": "La Chine prépare un plan d'infrastructures d'IA de 295 milliards de dollars",
       "url": "https://techstartups.com/2026/06/09/top-tech-news-today-june-9-2026/",
-      "summary": "Pékin met sur pied un programme quinquennal destiné à bâtir un réseau national de centres de données interconnectés en s'appuyant sur des fournisseurs domestiques comme Huawei. L'objectif est de réduire la dépendance aux technologies américaines et d'établir une infrastructure d'IA autosuffisante, alors que la course au calcul devient un enjeu stratégique majeur entre les deux premières puissances mondiales."
+      "summary": "Pékin met sur pied un programme quinquennal destiné à bâtir un réseau national de centres de données interconnectés en s'appuyant sur des fournisseurs domestiques comme Huawei. L'objectif est de réduire la dépendance aux technologies américaines et d'établir une infrastructure d'IA autosuffisante, alors que la course au calcul devient un enjeu stratégique majeur entre les deux premières puissances mondiales.",
+      "publishedAt": "2026-06-09"
     },
     {
       "category": "AI",
       "title": "L'Union européenne bloque le déploiement de Siri dopé à l'IA d'Apple",
       "url": "https://techstartups.com/2026/06/09/top-tech-news-today-june-9-2026/",
-      "summary": "Les régulateurs européens ont refusé la demande de lancement du nouveau Siri d'Apple, invoquant des préoccupations d'interopérabilité, de confidentialité et de sécurité. Présentée à la WWDC, la refonte conversationnelle de l'assistant se retrouve ainsi confrontée à un déploiement fragmenté, qui prive les utilisateurs européens des fonctions les plus avancées et illustre la pression réglementaire qui pèse sur la compétitivité de l'IA dans l'UE."
+      "summary": "Les régulateurs européens ont refusé la demande de lancement du nouveau Siri d'Apple, invoquant des préoccupations d'interopérabilité, de confidentialité et de sécurité. Présentée à la WWDC, la refonte conversationnelle de l'assistant se retrouve ainsi confrontée à un déploiement fragmenté, qui prive les utilisateurs européens des fonctions les plus avancées et illustre la pression réglementaire qui pèse sur la compétitivité de l'IA dans l'UE.",
+      "publishedAt": "2026-06-09"
     },
     {
       "category": "IT",
       "title": "SpaceX vise une IPO à 1 780 milliards de dollars centrée sur l'infrastructure d'IA",
       "url": "https://techstartups.com/2026/06/09/top-tech-news-today-june-9-2026/",
-      "summary": "SpaceX se positionne comme bien plus qu'une entreprise de fusées : son argumentaire d'introduction en Bourse mêle Starlink, télécommunications et infrastructure d'IA, avec des centres de données orbitaux et une capacité de calcul spatiale liée aux ambitions de xAI. Valorisée autour de 1 780 milliards de dollars, l'opération serait l'une des cotations technologiques les plus atypiques jamais réalisées."
+      "summary": "SpaceX se positionne comme bien plus qu'une entreprise de fusées : son argumentaire d'introduction en Bourse mêle Starlink, télécommunications et infrastructure d'IA, avec des centres de données orbitaux et une capacité de calcul spatiale liée aux ambitions de xAI. Valorisée autour de 1 780 milliards de dollars, l'opération serait l'une des cotations technologiques les plus atypiques jamais réalisées.",
+      "publishedAt": "2026-06-09"
     },
     {
       "category": "IT",
       "title": "Le support client dopé à l'IA de Meta détourné pour pirater plus de 20 000 comptes Instagram",
       "url": "https://techstartups.com/2026/06/09/top-tech-news-today-june-9-2026/",
-      "summary": "Une faille de vérification d'identité dans le système de support automatisé de Meta a permis à des attaquants de réinitialiser des mots de passe et de prendre le contrôle de plus de 20 000 comptes Instagram. L'incident met en lumière les nouvelles vulnérabilités introduites par les services client automatisés par l'IA, où la faiblesse des contrôles d'authentification ouvre la porte à des compromissions à grande échelle."
+      "summary": "Une faille de vérification d'identité dans le système de support automatisé de Meta a permis à des attaquants de réinitialiser des mots de passe et de prendre le contrôle de plus de 20 000 comptes Instagram. L'incident met en lumière les nouvelles vulnérabilités introduites par les services client automatisés par l'IA, où la faiblesse des contrôles d'authentification ouvre la porte à des compromissions à grande échelle.",
+      "publishedAt": "2026-06-09"
     },
     {
       "category": "IT",
       "title": "OpenSSL corrige 18 vulnérabilités, plusieurs repérées à l'aide de l'IA",
       "url": "https://www.securityweek.com/openssl-patches-high-severity-vulnerability-found-with-ai/",
-      "summary": "Les dernières versions d'OpenSSL corrigent un total de 18 vulnérabilités, dont une faille de gravité élevée. Fait notable, plusieurs d'entre elles auraient été découvertes grâce à l'intelligence artificielle, signe de l'usage croissant de ces outils dans l'audit de code critique. OpenSSL équipant une immense partie des communications chiffrées sur Internet, l'application rapide de ces correctifs est fortement recommandée."
+      "summary": "Les dernières versions d'OpenSSL corrigent un total de 18 vulnérabilités, dont une faille de gravité élevée. Fait notable, plusieurs d'entre elles auraient été découvertes grâce à l'intelligence artificielle, signe de l'usage croissant de ces outils dans l'audit de code critique. OpenSSL équipant une immense partie des communications chiffrées sur Internet, l'application rapide de ces correctifs est fortement recommandée.",
+      "publishedAt": "2026-06-09"
     },
     {
       "category": "IT",
       "title": "Adobe corrige 123 vulnérabilités, dont de nombreuses dans Experience Manager",
       "url": "https://www.securityweek.com/adobe-patches-123-vulnerabilities/",
-      "summary": "Adobe a publié des correctifs pour 123 vulnérabilités réparties dans sa gamme de produits. Près de la moitié concernent Experience Manager et permettent, pour la plupart, l'exécution de code arbitraire. L'ampleur de cette mise à jour rappelle la surface d'attaque considérable des suites logicielles d'entreprise et l'importance d'un déploiement diligent des correctifs côté administrateurs."
+      "summary": "Adobe a publié des correctifs pour 123 vulnérabilités réparties dans sa gamme de produits. Près de la moitié concernent Experience Manager et permettent, pour la plupart, l'exécution de code arbitraire. L'ampleur de cette mise à jour rappelle la surface d'attaque considérable des suites logicielles d'entreprise et l'importance d'un déploiement diligent des correctifs côté administrateurs.",
+      "publishedAt": "2026-06-09"
     },
     {
       "category": "IT",
       "title": "SoFi confirme une fuite de données via un sous-traitant",
       "url": "https://techstartups.com/2026/06/09/top-tech-news-today-june-9-2026/",
-      "summary": "La fintech SoFi a confirmé qu'une compromission survenue chez une filiale hongkongaise, par l'intermédiaire de prestataires externes, a exposé des données de clients. L'incident illustre une nouvelle fois les risques liés à la chaîne d'approvisionnement logicielle dans le secteur financier, où la sécurité dépend autant des partenaires tiers que des défenses internes de l'entreprise."
+      "summary": "La fintech SoFi a confirmé qu'une compromission survenue chez une filiale hongkongaise, par l'intermédiaire de prestataires externes, a exposé des données de clients. L'incident illustre une nouvelle fois les risques liés à la chaîne d'approvisionnement logicielle dans le secteur financier, où la sécurité dépend autant des partenaires tiers que des défenses internes de l'entreprise.",
+      "publishedAt": "2026-06-09"
     },
     {
       "category": "AI",
       "title": "Le patron de l'IA chez Microsoft estime que la superintelligence approche",
       "url": "https://techstartups.com/2026/06/09/top-tech-news-today-june-9-2026/",
-      "summary": "Le responsable de l'IA de Microsoft a déclaré que la superintelligence se rapprochait, tout en insistant sur une automatisation des tâches au sein des métiers plutôt que sur une suppression massive d'emplois. Ses propos relancent le débat sur le rythme des progrès et sur la manière dont les entreprises devront réorganiser le travail autour d'agents de plus en plus capables."
+      "summary": "Le responsable de l'IA de Microsoft a déclaré que la superintelligence se rapprochait, tout en insistant sur une automatisation des tâches au sein des métiers plutôt que sur une suppression massive d'emplois. Ses propos relancent le débat sur le rythme des progrès et sur la manière dont les entreprises devront réorganiser le travail autour d'agents de plus en plus capables.",
+      "publishedAt": "2026-06-09"
     },
     {
       "category": "IT",
       "title": "Les géants de la tech plafonnent l'usage interne de l'IA pour maîtriser les coûts",
       "url": "https://techstartups.com/2026/06/09/top-tech-news-today-june-9-2026/",
-      "summary": "Des entreprises comme Amazon et Uber commencent à limiter l'usage de leurs outils d'IA en interne, les dépenses liées aux jetons (tokens) menaçant les budgets. Ce tournant signale une maturation de l'économie de l'IA : après une phase d'adoption tous azimuts, les directions cherchent désormais à mesurer le retour sur investissement et à contenir une facture de calcul en forte hausse."
+      "summary": "Des entreprises comme Amazon et Uber commencent à limiter l'usage de leurs outils d'IA en interne, les dépenses liées aux jetons (tokens) menaçant les budgets. Ce tournant signale une maturation de l'économie de l'IA : après une phase d'adoption tous azimuts, les directions cherchent désormais à mesurer le retour sur investissement et à contenir une facture de calcul en forte hausse.",
+      "publishedAt": "2026-06-09"
     },
     {
       "category": "IT",
       "title": "Applied Digital signe un bail de centre de données de 5,2 milliards de dollars",
       "url": "https://techstartups.com/2026/06/09/top-tech-news-today-june-9-2026/",
-      "summary": "Applied Digital a sécurisé un accord de location sur quinze ans portant sur 210 mégawatts de capacité, pour un montant de 5,2 milliards de dollars. Ce type de contrat de long terme illustre le passage de l'infrastructure d'IA d'une logique spéculative à des engagements fermes chiffrés en milliards, à mesure que la demande de capacité de calcul se contractualise sur la durée."
+      "summary": "Applied Digital a sécurisé un accord de location sur quinze ans portant sur 210 mégawatts de capacité, pour un montant de 5,2 milliards de dollars. Ce type de contrat de long terme illustre le passage de l'infrastructure d'IA d'une logique spéculative à des engagements fermes chiffrés en milliards, à mesure que la demande de capacité de calcul se contractualise sur la durée.",
+      "publishedAt": "2026-06-09"
     },
     {
       "category": "Science",
       "title": "La plus vaste revue mondiale sur les opioïdes conclut à un bénéfice limité",
       "url": "https://www.sciencedaily.com/releases/2026/06/260608040023.htm",
-      "summary": "La plus grande revue jamais réalisée sur les opioïdes contre la douleur aiguë révèle que ces médicaments très prescrits n'apportent souvent que des bénéfices faibles et de courte durée. Leur efficacité se révèle décevante pour des situations courantes comme les suites d'opérations chirurgicales ou les coliques néphrétiques, ce qui interroge leur place dans la prise en charge de la douleur et les risques de dépendance associés."
+      "summary": "La plus grande revue jamais réalisée sur les opioïdes contre la douleur aiguë révèle que ces médicaments très prescrits n'apportent souvent que des bénéfices faibles et de courte durée. Leur efficacité se révèle décevante pour des situations courantes comme les suites d'opérations chirurgicales ou les coliques néphrétiques, ce qui interroge leur place dans la prise en charge de la douleur et les risques de dépendance associés.",
+      "publishedAt": "2026-06-09"
     },
     {
       "category": "Science",
       "title": "Le mystère de la particule Amaterasu peut-être résolu",
       "url": "https://www.sciencedaily.com/releases/2026/06/260608040015.htm",
-      "summary": "De nouveaux travaux suggèrent que la particule Amaterasu, l'un des rayons cosmiques les plus énergétiques jamais détectés, ne serait pas un proton mais un noyau atomique ultralourd, plus lourd que le fer. Cette hypothèse expliquerait comment la particule a pu conserver une telle énergie au cours de son voyage à travers l'espace, et apporte un éclairage nouveau sur l'origine des rayons cosmiques de très haute énergie."
+      "summary": "De nouveaux travaux suggèrent que la particule Amaterasu, l'un des rayons cosmiques les plus énergétiques jamais détectés, ne serait pas un proton mais un noyau atomique ultralourd, plus lourd que le fer. Cette hypothèse expliquerait comment la particule a pu conserver une telle énergie au cours de son voyage à travers l'espace, et apporte un éclairage nouveau sur l'origine des rayons cosmiques de très haute énergie.",
+      "publishedAt": "2026-06-09"
     },
     {
       "category": "Science",
       "title": "La théorie de la « Planète Neuf » fragilisée par une nouvelle étude",
       "url": "https://www.sciencedaily.com/releases/2026/06/260608040009.htm",
-      "summary": "De récentes observations astronomiques remettent en cause l'hypothèse de la « Planète Neuf », ce monde géant supposé caché au-delà de Neptune et invoqué pour expliquer les orbites inhabituelles de certains objets de la ceinture de Kuiper. Les nouvelles données compliquent ce scénario et relancent le débat sur ce qui structure réellement les confins du Système solaire."
+      "summary": "De récentes observations astronomiques remettent en cause l'hypothèse de la « Planète Neuf », ce monde géant supposé caché au-delà de Neptune et invoqué pour expliquer les orbites inhabituelles de certains objets de la ceinture de Kuiper. Les nouvelles données compliquent ce scénario et relancent le débat sur ce qui structure réellement les confins du Système solaire.",
+      "publishedAt": "2026-06-09"
     },
     {
       "category": "Science",
       "title": "Un nouveau déclencheur d'Alzheimer identifié, avec une molécule pour le bloquer",
       "url": "https://www.sciencedaily.com/releases/2026/06/260608035959.htm",
-      "summary": "Des chercheurs ont mis en évidence un mécanisme jusqu'ici méconnu impliqué dans la maladie d'Alzheimer, ainsi qu'un composé expérimental capable de bloquer les processus délétères au sein des cellules cérébrales. Testée sur des souris, la molécule réduit les altérations associées à la maladie, ouvrant une piste thérapeutique prometteuse qui devra encore être confirmée chez l'humain."
+      "summary": "Des chercheurs ont mis en évidence un mécanisme jusqu'ici méconnu impliqué dans la maladie d'Alzheimer, ainsi qu'un composé expérimental capable de bloquer les processus délétères au sein des cellules cérébrales. Testée sur des souris, la molécule réduit les altérations associées à la maladie, ouvrant une piste thérapeutique prometteuse qui devra encore être confirmée chez l'humain.",
+      "publishedAt": "2026-06-09"
     },
     {
       "category": "IT",
       "title": "NinjaOne atteint une valorisation de 12,3 milliards de dollars",
       "url": "https://techstartups.com/2026/06/09/top-tech-news-today-june-9-2026/",
-      "summary": "La plateforme de gestion des opérations informatiques NinjaOne a levé plus de 400 millions de dollars, portant sa valorisation à 12,3 milliards. Ce tour de table traduit l'appétit des entreprises pour des outils capables de gérer la complexité de l'ère de l'IA, notamment en matière de sécurité des terminaux et d'automatisation de l'administration du parc informatique."
+      "summary": "La plateforme de gestion des opérations informatiques NinjaOne a levé plus de 400 millions de dollars, portant sa valorisation à 12,3 milliards. Ce tour de table traduit l'appétit des entreprises pour des outils capables de gérer la complexité de l'ère de l'IA, notamment en matière de sécurité des terminaux et d'automatisation de l'administration du parc informatique.",
+      "publishedAt": "2026-06-09"
     },
     {
       "category": "AI",
       "title": "La start-up française Alta Ares lève 50 millions d'euros pour des systèmes anti-drones",
       "url": "https://techstartups.com/2026/06/09/top-tech-news-today-june-9-2026/",
-      "summary": "Alta Ares, jeune pousse française spécialisée dans les systèmes de lutte anti-drones dopés à l'intelligence artificielle, a obtenu un financement de 50 millions d'euros. L'opération intervient alors que la guerre des drones redessine les marchés de la défense en Europe, poussant gouvernements et industriels à investir massivement dans des contre-mesures automatisées."
+      "summary": "Alta Ares, jeune pousse française spécialisée dans les systèmes de lutte anti-drones dopés à l'intelligence artificielle, a obtenu un financement de 50 millions d'euros. L'opération intervient alors que la guerre des drones redessine les marchés de la défense en Europe, poussant gouvernements et industriels à investir massivement dans des contre-mesures automatisées.",
+      "publishedAt": "2026-06-09"
     },
     {
       "category": "IT",
       "title": "L'essor des centres de données d'IA fait peser une menace sur les ressources en eau",
       "url": "https://techstartups.com/2026/06/09/top-tech-news-today-june-9-2026/",
-      "summary": "Une analyse révèle qu'un grand nombre des centres de données d'IA projetés aux États-Unis seraient implantés dans des régions déjà touchées par la sécheresse. Ces installations, gourmandes en eau pour leur refroidissement, intensifient les inquiétudes environnementales et soulèvent la question de la durabilité d'une expansion effrénée des infrastructures de calcul."
+      "summary": "Une analyse révèle qu'un grand nombre des centres de données d'IA projetés aux États-Unis seraient implantés dans des régions déjà touchées par la sécheresse. Ces installations, gourmandes en eau pour leur refroidissement, intensifient les inquiétudes environnementales et soulèvent la question de la durabilité d'une expansion effrénée des infrastructures de calcul.",
+      "publishedAt": "2026-06-09"
     }
   ]
 }

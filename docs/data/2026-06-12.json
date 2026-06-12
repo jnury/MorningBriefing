@@ -1,0 +1,205 @@
+{
+  "date": "2026-06-12",
+  "generatedAt": "2026-06-12T05:45:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 25,
+      "low": 15,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 23,
+      "low": 15,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Sommet du G7 à Évian : la Suisse a renforcé ses contrôles aux frontières genevoises, ne laissant ouverts que 7 des 35 points de passage avec la France.",
+      "publishedAt": "2026-06-11"
+    },
+    {
+      "headline": "Le sociologue genevois Jean Ziegler, figure de la gauche et ancien rapporteur spécial de l’ONU pour le droit à l’alimentation, est décédé à l’âge de 92 ans.",
+      "publishedAt": "2026-06-11"
+    },
+    {
+      "headline": "La navigation sur le Léman est restreinte près d’Évian du 11 au 17 juin, entraînant la fermeture de l’escale d’Évian tandis que la desserte de Lausanne est maintenue.",
+      "publishedAt": "2026-06-11"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Les États-Unis ont frappé l'Iran pour un deuxième jour consécutif et sanctionné onze personnes et entités liées à l'approvisionnement en armes des Gardiens de la révolution, avant que Donald Trump n'annonce un accord de principe avec plusieurs alliés et l'annulation de nouvelles frappes.",
+      "publishedAt": "2026-06-11"
+    },
+    {
+      "headline": "Amnesty International a accusé Israël de mener une campagne de « nettoyage ethnique » en Cisjordanie occupée, estimant que le déplacement forcé de Palestiniens découle d'une politique d'État concertée visant l'annexion de territoires.",
+      "publishedAt": "2026-06-11"
+    },
+    {
+      "headline": "L'Arabie saoudite a levé l'embargo qu'elle imposait depuis cinq ans sur les importations libanaises, marquant une étape majeure dans le réchauffement des relations entre le Liban et les pays du Golfe.",
+      "publishedAt": "2026-06-11"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 11 juin 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": 2.54
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 1.85
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.49
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 0.9
+      }
+    ],
+    "summary": "Net rebond des marchés après la désescalade au Proche-Orient : Wall Street a vivement rebondi, le Nasdaq bondissant de plus de 2,5 % dans le sillage des semi-conducteurs et de la détente sur les cours du pétrole, tandis que l'Europe terminait elle aussi dans le vert, SMI et Euro Stoxx 50 en hausse."
+  },
+  "tech": [
+    {
+      "category": "IT",
+      "title": "SpaceX réussit la plus grande introduction en Bourse de l’histoire",
+      "url": "https://techcrunch.com/2026/06/11/spacex-officially-prices-shares-at-135-in-the-largest-ipo-ever/",
+      "publishedAt": "2026-06-11",
+      "summary": "SpaceX a fixé le prix de son introduction en Bourse à 135 dollars par action, levant environ 75 milliards de dollars pour une valorisation proche de 1 770 milliards — la plus grande IPO jamais réalisée, devant celle de Saudi Aramco. L’action entre en cotation au Nasdaq le 12 juin sous le symbole SPCX. À ce niveau, SpaceX deviendrait la septième capitalisation des États-Unis, devant Tesla, consacrant sa mue en acteur intégrant lanceurs, constellation Starlink et ambitions d’infrastructure de calcul."
+    },
+    {
+      "category": "AI",
+      "title": "Prometheus, la start-up de Jeff Bezos, lève 12 milliards de dollars",
+      "url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
+      "publishedAt": "2026-06-11",
+      "summary": "Prometheus, jeune pousse fondée par Jeff Bezos, a levé 12 milliards de dollars pour bâtir un « ingénieur général artificiel » destiné au monde physique, c’est-à-dire une IA capable de concevoir et de fabriquer des objets matériels. Ce financement colossal, l’un des plus importants jamais réunis par une start-up, illustre le déplacement de la course à l’IA vers la robotique et l’ingénierie du monde réel, au-delà des seuls logiciels."
+    },
+    {
+      "category": "IT",
+      "title": "Amazon emprunte 17,5 milliards de dollars de plus pour financer l’IA",
+      "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
+      "publishedAt": "2026-06-10",
+      "summary": "À peine après une émission obligataire, Amazon a emprunté 17,5 milliards de dollars supplémentaires auprès de banques pour soutenir ses dépenses massives liées à l’IA. Ce recours accru à la dette montre l’ampleur des investissements en centres de données et en capacité de calcul que s’imposent les géants de la tech, quitte à mobiliser les marchés du crédit en plus de leur trésorerie."
+    },
+    {
+      "category": "IT",
+      "title": "Oracle alerte sur une faille exploitée pour pirater plus de 100 entreprises",
+      "url": "https://techcrunch.com/2026/06/11/oracle-warns-of-security-bug-that-hackers-abused-to-breach-100-companies/",
+      "publishedAt": "2026-06-11",
+      "summary": "Oracle a averti qu’une faille de sécurité avait été exploitée par des pirates pour compromettre plus d’une centaine d’organisations, des cybercriminels affirmant avoir accédé à des serveurs PeopleSoft mal protégés. L’incident rappelle la vulnérabilité persistante des logiciels d’entreprise largement déployés et l’urgence d’appliquer correctifs et durcissements de configuration."
+    },
+    {
+      "category": "AI",
+      "title": "xAI aurait licencié un ingénieur ayant alerté sur la sécurité de Grok",
+      "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
+      "publishedAt": "2026-06-10",
+      "summary": "Selon une nouvelle plainte, xAI aurait licencié un ingénieur ayant tiré la sonnette d’alarme sur la sécurité de son chatbot Grok. Le litige met en lumière les tensions internes autour des garde-fous des modèles d’IA et la question de la protection des lanceurs d’alerte dans un secteur soumis à une pression concurrentielle intense."
+    },
+    {
+      "category": "IT",
+      "title": "Des opérateurs nord-coréens derrière près de la moitié des piratages tech aux États-Unis",
+      "url": "https://techcrunch.com/2026/06/10/north-koreans-behind-nearly-half-of-us-tech-industry-hacks-says-crowdstrike/",
+      "publishedAt": "2026-06-10",
+      "summary": "D’après CrowdStrike, des opérateurs nord-coréens seraient à l’origine de près de la moitié des cyberattaques visant l’industrie technologique américaine, notamment via de faux profils d’informaticiens infiltrés dans les entreprises. Ce constat souligne l’ampleur prise par les opérations étatiques de cyber-espionnage et de financement illicite à travers le secteur de la tech."
+    },
+    {
+      "category": "AI",
+      "title": "Decart présente un « modèle de monde » qui simule des heures de conduite photoréaliste",
+      "url": "https://techcrunch.com/2026/06/10/decarts-new-world-model-can-simulate-hours-of-photorealistic-driving-with-some-caveats/",
+      "publishedAt": "2026-06-10",
+      "summary": "La société Decart a dévoilé un nouveau « modèle de monde » capable de simuler des heures de conduite photoréaliste générée image par image, avec toutefois certaines limites de cohérence sur la durée. Ces modèles, qui apprennent à prédire des environnements visuels interactifs, intéressent autant le jeu vidéo que l’entraînement des systèmes autonomes."
+    },
+    {
+      "category": "AI",
+      "title": "Theker lève 85 millions de dollars pour un robot d’usine polyvalent",
+      "url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
+      "publishedAt": "2026-06-11",
+      "summary": "La start-up Theker a levé 85 millions de dollars pour développer un robot d’usine polyvalent, conçu non pour une tâche unique mais pour s’adapter à de multiples opérations. Cette approche généraliste, portée par les progrès de l’IA, vise à rendre l’automatisation industrielle plus flexible et à réduire les coûts de reconfiguration des lignes de production."
+    },
+    {
+      "category": "AI",
+      "title": "Warner Music rachète Sureel AI, spécialiste de l’attribution des contenus IA",
+      "url": "https://techcrunch.com/2026/06/10/warner-music-acquires-ai-attribution-startup-sureel-ai/",
+      "publishedAt": "2026-06-10",
+      "summary": "Warner Music a racheté Sureel AI, une start-up spécialisée dans l’attribution et la traçabilité des contenus générés par intelligence artificielle. L’acquisition traduit la volonté de l’industrie musicale de mieux identifier et rémunérer les œuvres lorsque l’IA s’en inspire, à l’heure où la création assistée bouscule les questions de droits d’auteur."
+    },
+    {
+      "category": "AI",
+      "title": "Les garde-fous du modèle Fable d’Anthropic inquiètent les chercheurs en sécurité",
+      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+      "publishedAt": "2026-06-10",
+      "summary": "Une partie de la communauté de la cybersécurité s’inquiète des garde-fous imposés au modèle Fable d’Anthropic, qui restreignent les échanges liés à la sécurité informatique, à la biologie et à la chimie. Si ces limites visent à prévenir les usages malveillants, certains chercheurs estiment qu’elles entravent aussi le travail légitime de défense et de recherche."
+    },
+    {
+      "category": "IT",
+      "title": "Deezer lance un outil pour repérer la musique générée par IA",
+      "url": "https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/",
+      "publishedAt": "2026-06-11",
+      "summary": "Deezer a lancé un outil capable de repérer les morceaux entièrement générés par IA, y compris ceux diffusés sur Spotify, Apple Music et d’autres plateformes. Alors que les titres synthétiques se multiplient, cette détection vise à mieux informer les auditeurs et à protéger la rémunération des artistes face à l’afflux de musique automatisée."
+    },
+    {
+      "category": "IT",
+      "title": "ServiceNow signale une faille ayant exposé des données de clients",
+      "url": "https://techcrunch.com/2026/06/10/servicenow-tells-customers-a-bug-left-some-of-their-data-exposed-to-the-internet/",
+      "publishedAt": "2026-06-10",
+      "summary": "ServiceNow a prévenu ses clients qu’une faille de configuration avait laissé certaines de leurs données accessibles sur Internet. L’incident illustre les risques propres aux plateformes SaaS d’entreprise, où une mauvaise gestion des autorisations peut suffire à exposer des informations sensibles sans intrusion sophistiquée."
+    },
+    {
+      "category": "AI",
+      "title": "D’anciens de Datadog lancent Niteshift, un assistant de code contre la dépendance aux géants de l’IA",
+      "url": "https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/",
+      "publishedAt": "2026-06-10",
+      "summary": "D’anciens cadres de Datadog ont lancé Niteshift, une start-up d’aide au codage par IA qui parie contre la dépendance aux grands fournisseurs de modèles. L’initiative reflète une tendance de fond : la recherche d’outils de développement plus ouverts et interopérables, afin d’éviter le verrouillage technologique autour d’un unique acteur de l’IA."
+    },
+    {
+      "category": "Science",
+      "title": "La NASA dévoile l’équipage de la mission Artemis III",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260611024606.htm",
+      "publishedAt": "2026-06-11",
+      "summary": "La NASA a révélé l’équipage de la mission Artemis III, l’une des plus complexes jamais planifiées, qui doit ramener des astronautes à la surface de la Lune. Cette annonce marque une étape clé du programme de retour durable sur la Lune et de préparation des futures missions d’exploration vers des destinations plus lointaines."
+    },
+    {
+      "category": "Science",
+      "title": "James Webb révèle deux crépuscules très différents sur une planète lointaine",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260611024559.htm",
+      "publishedAt": "2026-06-11",
+      "summary": "Le télescope spatial James Webb a observé deux crépuscules radicalement différents de part et d’autre d’une exoplanète, révélant des conditions atmosphériques contrastées entre son côté jour et son côté nuit. Ces mesures affinent la compréhension des atmosphères des planètes lointaines et des vents qui y redistribuent la chaleur."
+    },
+    {
+      "category": "Science",
+      "title": "Un dispositif sans batterie transforme la lumière du soleil en carburant",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260611024601.htm",
+      "publishedAt": "2026-06-11",
+      "summary": "Des scientifiques ont conçu un système de photosynthèse artificielle capable de convertir la lumière du soleil en carburant sans recourir à des batteries. En se passant des composants de stockage habituels, ce dispositif autorégulé simplifie l’architecture nécessaire à la production de carburants solaires et la rend potentiellement plus robuste et moins coûteuse — une étape vers une énergie propre directement issue de la lumière."
+    },
+    {
+      "category": "AI",
+      "title": "L’apprentissage par transfert pourrait accélérer la découverte de nouvelle physique",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260611024557.htm",
+      "publishedAt": "2026-06-11",
+      "summary": "Des chercheurs montrent que l’apprentissage par transfert peut accélérer considérablement la recherche de phénomènes physiques inédits, en réduisant le besoin de simulations coûteuses — mais avec une réserve de taille : mal maniée, la méthode risque d’introduire des biais. En réutilisant des modèles déjà entraînés, les physiciens pourraient explorer plus vite d’immenses jeux de données, comme ceux des grands collisionneurs."
+    },
+    {
+      "category": "Science",
+      "title": "Des déchets de tofu et de fromage transformés en billes capteuses de CO2",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260611024555.htm",
+      "publishedAt": "2026-06-11",
+      "summary": "Des chercheurs ont transformé des déchets de tofu et de fromage en minuscules billes biodégradables capables de capter le dioxyde de carbone de l’atmosphère. Issues de sous-produits alimentaires, ces billes captureraient le CO2 plus efficacement que nombre de technologies existantes, ouvrant une voie de capture du carbone à la fois bon marché et respectueuse de l’environnement."
+    },
+    {
+      "category": "Science",
+      "title": "Une étrange propriété du riz en fait un matériau intelligent",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260611024621.htm",
+      "publishedAt": "2026-06-11",
+      "summary": "Une étude révèle que le riz possède une propriété mécanique inhabituelle : il s’affaiblit sous une compression rapide mais conserve sa résistance lorsque la pression est appliquée lentement. Les chercheurs ont exploité ce comportement dépendant de la vitesse pour en faire un « matériau intelligent », avec des applications possibles dans l’emballage, l’amortissement ou la conception de structures absorbant les chocs."
+    }
+  ]
+}

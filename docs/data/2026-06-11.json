@@ -1,0 +1,212 @@
+{
+  "date": "2026-06-11",
+  "generatedAt": "2026-06-11T05:45:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 21,
+      "low": 11,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 19,
+      "low": 12,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 3
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "La Suisse a accentué les contrôles à ses frontières avec la France du 10 au 19 juin et restreint son espace aérien en prévision du G7 d’Évian.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "headline": "L’armée suisse a mobilisé 4000 militaires en renfort pour garantir la sécurité du sommet du G7 à Évian.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "headline": "Le groupe genevois Givaudan a licencié plusieurs employés pour des vols de parfum et déposé une plainte pénale.",
+      "publishedAt": "2026-06-10"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Les États-Unis ont lancé de nouvelles frappes contre l'Iran, Donald Trump accusant Téhéran de faire traîner les négociations, tandis que la Jordanie, le Koweït et Bahreïn ont intercepté des missiles visant la région d'une base aérienne majeure.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "headline": "Plusieurs quartiers de Belfast ont été le théâtre d'incendies et de violences lors de manifestations anti-immigration déclenchées après une attaque au couteau, avec véhicules brûlés et habitations endommagées.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "headline": "Des frappes israéliennes ont tué au moins treize personnes dans le sud du Liban, ravivant les craintes d'une escalade régionale alors que les tensions au Proche-Orient restent vives.",
+      "publishedAt": "2026-06-10"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 10 juin 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -1.98
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": -1.87
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.28
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": -0.4
+      }
+    ],
+    "summary": "Vif accès d'aversion au risque à Wall Street, où le Dow a cédé près de 950 points et le Nasdaq près de 2 % sous l'effet des nouvelles frappes américaines contre l'Iran, alors que l'Europe s'est montrée plus résiliente, le SMI surnageant quand l'Euro Stoxx 50 reculait modérément."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "Le patron de l'IA chez Microsoft juge la superintelligence proche",
+      "url": "https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/",
+      "summary": "Mustafa Suleyman, responsable de l'IA grand public chez Microsoft, estime que la superintelligence se rapproche, tout en insistant sur le fait qu'elle transformera les tâches plutôt qu'elle ne supprimera des métiers entiers. Ses propos illustrent l'équilibre délicat que cherche Microsoft entre son partenariat avec OpenAI et le développement de ses propres modèles, et relancent le débat sur le rythme réel des progrès de l'IA.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "category": "AI",
+      "title": "Morgan Stanley anticipe plus de 570 milliards de dollars de dette liée à l'IA",
+      "url": "https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/",
+      "summary": "Selon Morgan Stanley, l'émission mondiale de dette liée à l'IA devrait plus que doubler pour approcher 570 milliards de dollars cette année, les hyperscalers et bâtisseurs d'infrastructures se tournant vers les marchés obligataires pour financer l'expansion de leurs centres de données. La course à l'IA se mue ainsi en une course à l'infrastructure et au capital, où le financement devient un facteur de différenciation aussi décisif que la technologie elle-même.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "category": "IT",
+      "title": "OpenAI négocie un campus de centres de données de 10 gigawatts dans l'Ohio",
+      "url": "https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/",
+      "summary": "OpenAI est en pourparlers pour louer un campus de centres de données de 10 gigawatts dans l'Ohio, avec un possible soutien financier de Nvidia. L'ampleur démesurée du projet illustre la fuite en avant des besoins de calcul des grands acteurs de l'IA et la transformation de l'électricité et du foncier industriel en goulots d'étranglement stratégiques de la filière.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "category": "IT",
+      "title": "Broadcom s'allie à Apollo et Blackstone pour 35 milliards de dollars d'infrastructure IA",
+      "url": "https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/",
+      "summary": "Broadcom s'associe aux fonds Apollo et Blackstone dans le cadre d'une initiative de 35 milliards de dollars destinée à fournir capacité de calcul, puces sur mesure et financement pour l'IA. Ce montage mêlant industriels et capital-investissement traduit l'irruption de la finance de marché au cœur de l'infrastructure d'IA, désormais structurée par des engagements chiffrés en dizaines de milliards.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "category": "IT",
+      "title": "Super Micro lève 7 milliards de dollars pour ses serveurs d'IA",
+      "url": "https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/",
+      "summary": "Le fabricant de matériel Super Micro a levé 7 milliards de dollars en fonds propres afin d'accroître sa production de serveurs d'IA et de relever les défis d'efficacité thermique. Cette opération souligne l'intensité capitalistique de la chaîne d'approvisionnement matérielle qui sous-tend l'essor des grands modèles, où la maîtrise du refroidissement devient un avantage concurrentiel.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "category": "AI",
+      "title": "ChatGPT franchit le milliard d'utilisateurs actifs mensuels",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-10-2026",
+      "summary": "ChatGPT a dépassé le milliard d'utilisateurs actifs mensuels, devenant l'application grand public ayant atteint ce seuil le plus rapidement de l'histoire. Ce jalon confirme l'ancrage des assistants conversationnels dans les usages quotidiens et conforte la position dominante d'OpenAI, alors que la concurrence s'intensifie et que l'IA glisse de la simple conversation vers l'exécution de tâches concrètes.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "category": "AI",
+      "title": "Google lance la traduction vocale en direct de Gemini 3.5",
+      "url": "https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/",
+      "summary": "Google a dévoilé une fonction de traduction vocale en temps réel de Gemini 3.5, qui préserve le ton et le rythme de la voix d'origine tout en intégrant des filigranes SynthID pour la traçabilité des contenus. Cette avancée rapproche l'idée d'une conversation multilingue fluide et illustre l'attention croissante portée au marquage des médias générés par l'IA.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "category": "AI",
+      "title": "Apple et l'Union européenne s'opposent sur le déploiement de Siri dopé à l'IA",
+      "url": "https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/",
+      "summary": "Apple et la Commission européenne s'affrontent au sujet du report du nouveau Siri enrichi à l'IA, avec des désaccords portant sur la conformité au Digital Markets Act et la protection de la vie privée. Le différend prive les utilisateurs européens des fonctions les plus avancées de l'assistant et illustre la tension persistante entre innovation et exigences réglementaires dans l'UE.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "category": "AI",
+      "title": "L'UE publie un code pour le marquage des contenus générés par l'IA",
+      "url": "https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/",
+      "summary": "La Commission européenne a publié des lignes directrices pour signaler et étiqueter les contenus générés par l'IA dans le cadre de l'AI Act, afin d'améliorer la transparence. Ce code de conduite vise à aider les utilisateurs à distinguer textes, images et sons synthétiques des contenus humains, et confirme le rôle pionnier de l'Europe dans l'encadrement des usages de l'IA générative.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "category": "IT",
+      "title": "Plus de 34 000 comptes Instagram compromis via une faille liée à l'IA",
+      "url": "https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/",
+      "summary": "Plus de 34 000 comptes Instagram ont été compromis à la faveur d'une vulnérabilité logicielle liée à l'IA, corrigée après sa découverte, sans vol massif de données rapporté à ce stade. L'incident met de nouveau en lumière les surfaces d'attaque inédites qu'introduisent les systèmes automatisés, où une faille d'authentification peut ouvrir la porte à des compromissions de comptes à grande échelle.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "category": "IT",
+      "title": "Microsoft corrige en urgence des failles zero-day, dont « Nightmare Eclipse »",
+      "url": "https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/",
+      "summary": "Microsoft a corrigé rapidement plusieurs failles zero-day divulguées par des chercheurs, parmi lesquelles une vulnérabilité baptisée « Nightmare Eclipse ». La réactivité de l'éditeur intervient dans un contexte de tensions autour de la divulgation publique des vulnérabilités, qui oppose impératif de transparence et risque d'exploitation avant l'application des correctifs.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "category": "IT",
+      "title": "La CISA ordonne de corriger une faille VPN Check Point activement exploitée",
+      "url": "https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/",
+      "summary": "L'agence américaine de cybersécurité CISA a enjoint aux agences fédérales de corriger sans délai une vulnérabilité critique d'un VPN Check Point, activement exploitée pour obtenir un accès non autorisé aux réseaux. Cette directive d'urgence rappelle que les équipements de périphérie réseau demeurent une cible privilégiée des attaquants et un maillon faible récurrent des défenses des organisations.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "category": "AI",
+      "title": "Le patron de Palantir fustige les licenciements justifiés par l'IA",
+      "url": "https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/",
+      "summary": "Alex Karp, dirigeant de Palantir, a condamné les patrons de la tech qui se félicitent des réductions d'effectifs, avertissant qu'une automatisation trop agressive menace l'innovation et la rétention des talents à long terme. Sa prise de position tranche avec le discours ambiant et nourrit le débat sur l'impact réel de l'IA sur l'emploi et l'organisation du travail.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "category": "IT",
+      "title": "Meta et Reliance inaugurent un centre de données de 168 MW au Gujarat",
+      "url": "https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/",
+      "summary": "Meta et le conglomérat indien Reliance ont lancé un centre de données d'IA de 168 mégawatts dans l'État du Gujarat, renforçant l'implantation des géants de la tech sur le marché numérique indien en pleine croissance. Ce projet illustre la diffusion mondiale des infrastructures de calcul et la place stratégique que prend l'Inde dans la cartographie des centres de données d'IA.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "category": "AI",
+      "title": "La Chine prépare un réseau national de centres de données d'IA à 295 milliards de dollars",
+      "url": "https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/",
+      "summary": "Pékin projette un réseau national de centres de données d'IA reposant sur des fournisseurs domestiques comme Huawei, afin de réduire sa dépendance aux technologies américaines. Évalué à 295 milliards de dollars, ce programme s'inscrit dans la rivalité technologique sino-américaine et vise à doter la Chine d'une capacité de calcul souveraine et autosuffisante.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "category": "IT",
+      "title": "Ferveret développe un refroidissement de data centers inspiré du nucléaire",
+      "url": "https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/",
+      "summary": "Ferveret, une start-up issue du MIT, met au point des systèmes de refroidissement inspirés des technologies nucléaires pour les centres de données, afin de répondre aux défis d'efficacité thermique et de consommation d'eau. Alors que l'explosion de l'IA fait grimper les besoins énergétiques et hydriques des infrastructures, ce type d'innovation devient déterminant pour la durabilité du secteur.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "category": "Science",
+      "title": "Un seul carburant pour les propulsions chimique et électrique des satellites",
+      "url": "https://www.sciencedaily.com/news/top/science/",
+      "summary": "Des chercheurs du MIT ont montré qu'un même carburant peut alimenter à la fois des propulseurs chimiques et électriques, ce qui pourrait transformer les capacités des petits satellites. En s'affranchissant de la nécessité d'embarquer deux systèmes distincts, cette approche promet des engins plus simples, plus légers et plus polyvalents, capables d'alterner poussée rapide et propulsion économe selon les besoins de la mission.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "category": "Science",
+      "title": "Les premiers animaux auraient ralenti le cours de l'évolution",
+      "url": "https://www.sciencedaily.com/news/top/science/",
+      "summary": "Selon une nouvelle étude, les tout premiers animaux de la Terre pourraient avoir freiné l'évolution en se reproduisant de façon asexuée, créant des communautés peu compétitives et très stables qui ont peu changé au fil du temps. Ce travail bouscule l'idée d'une diversification précoce et rapide du vivant et éclaire d'un jour nouveau les conditions qui ont préludé à l'explosion de la biodiversité animale.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "category": "Science",
+      "title": "La molécule UNI418 prive les cellules cancéreuses de leur réparation de l'ADN",
+      "url": "https://www.sciencedaily.com/news/top/science/",
+      "summary": "Les cellules cancéreuses survivent souvent aux traitements en réparant les dommages à l'ADN que ceux-ci sont censés provoquer. Des chercheurs ont identifié une molécule, UNI418, capable de perturber cette capacité de réparation, rendant les cellules tumorales plus vulnérables. Cette piste pourrait améliorer l'efficacité des thérapies existantes, sous réserve de confirmation par des essais ultérieurs.",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "category": "AI",
+      "title": "Les grands modèles d'IA échouent à un test d'attention classique de la psychologie",
+      "url": "https://www.sciencedaily.com/news/top/science/",
+      "summary": "Des chercheurs ont soumis les principaux modèles d'IA à un test d'attention classique issu de la psychologie et y ont décelé une faille majeure. Ce résultat met en lumière les limites cognitives persistantes de systèmes pourtant très performants sur de nombreuses tâches, et rappelle que des capacités humaines apparemment élémentaires demeurent difficiles à reproduire par les modèles actuels.",
+      "publishedAt": "2026-06-10"
+    }
+  ]
+}

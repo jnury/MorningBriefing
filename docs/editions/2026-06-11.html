@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Briefing du 11 juin 2026</title>
+<script>(function(){try{var t=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+<style>:root,:root[data-theme="dark"]{--ink:#e7e9ec;--muted:#9aa0aa;--line:#2a2e35;--accent:#6db3f2;--bg:#15171b;
+  --up:#46c46f;--down:#f0635e;
+  --badge-bg:#262a31;--badge-ink:#aab4c2;
+  --badge-ai-bg:#2c2740;--badge-ai-ink:#c4b5f5;
+  --badge-science-bg:#1d3a2c;--badge-science-ink:#7fd6a6;
+  --badge-it-bg:#1f2e47;--badge-it-ink:#8fb6ee}
+:root[data-theme="light"]{--ink:#1a1a1a;--muted:#6b6b6b;--line:#e6e6e6;--accent:#0b5cad;--bg:#ffffff;
+  --up:#0a7a2f;--down:#b3261e;
+  --badge-bg:#eef1f5;--badge-ink:#41506b;
+  --badge-ai-bg:#eae6fb;--badge-ai-ink:#5b3ea8;
+  --badge-science-bg:#e3f3ec;--badge-science-ink:#1f7a4d;
+  --badge-it-bg:#e7eefb;--badge-it-ink:#28508f}
+*{box-sizing:border-box}
+html{color-scheme:dark}
+html[data-theme="light"]{color-scheme:light}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.6;font-size:18px}
+.wrap{max-width:680px;margin:0 auto;padding:24px 20px 80px}
+header.site{display:flex;justify-content:space-between;align-items:baseline;
+  border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:8px;flex-wrap:wrap;gap:8px}
+header.site .date{font-size:15px;color:var(--muted)}
+header.site nav{display:flex;align-items:center}
+header.site nav a{color:var(--accent);text-decoration:none;font-size:15px;margin-left:16px}
+header.site nav a:hover{text-decoration:underline}
+.theme-toggle{margin-left:16px;padding:4px;border:0;background:none;color:var(--muted);cursor:pointer;
+  line-height:0;border-radius:8px;transition:color .15s ease,background .15s ease}
+.theme-toggle:hover{color:var(--accent);background:var(--badge-bg)}
+.theme-toggle svg{width:20px;height:20px;display:block}
+.theme-toggle .icon-sun{display:none}
+.theme-toggle .icon-moon{display:block}
+:root[data-theme="light"] .theme-toggle .icon-sun{display:block}
+:root[data-theme="light"] .theme-toggle .icon-moon{display:none}
+h1{font-size:26px;letter-spacing:-0.01em;margin:18px 0 4px}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);
+  margin:40px 0 12px;font-weight:600}
+h3{font-size:19px;margin:22px 0 4px;line-height:1.35}
+h3 a{color:var(--ink);text-decoration:none}
+h3 a:hover{color:var(--accent)}
+p{margin:8px 0}
+.lead{color:var(--muted);margin-top:0}
+.weather{display:flex;gap:28px;flex-wrap:wrap}
+.weather .city{flex:1 1 200px}
+.weather .city .wx-row{display:flex;align-items:center;gap:10px;margin:4px 0}
+.wx{width:34px;height:34px;color:var(--accent);flex:none}
+.weather .city .t{font-size:22px;font-weight:600}
+.weather .city .c{color:var(--muted)}
+.markets{display:flex;flex-wrap:wrap;gap:14px 26px;margin:10px 0;font-variant-numeric:tabular-nums}
+.markets .idx{display:inline-flex;gap:8px;align-items:baseline}
+.markets .idx-name{font-weight:600}
+.up{color:var(--up)}.down{color:var(--down)}
+.world li{margin:6px 0}
+.badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;padding:2px 8px;border-radius:999px;margin-right:8px;vertical-align:middle;background:var(--badge-bg);color:var(--badge-ink)}
+.badge-ai{background:var(--badge-ai-bg);color:var(--badge-ai-ink)}
+.badge-science{background:var(--badge-science-bg);color:var(--badge-science-ink)}
+.badge-it{background:var(--badge-it-bg);color:var(--badge-it-ink)}
+.archive li{margin:8px 0;list-style:none}
+.archive ul{padding:0}
+.archive a{color:var(--accent);text-decoration:none;font-size:18px}
+footer.site{margin-top:60px;border-top:1px solid var(--line);padding-top:14px;
+  color:var(--muted);font-size:14px}
+@media(max-width:480px){body{font-size:17px}.wrap{padding:18px 16px 60px}h1{font-size:23px}}</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+<span class="brand">Briefing du matin</span>
+<nav><a href="../index.html">Aujourd'hui</a><a href="../archive.html">Archives</a><button class="theme-toggle" type="button" aria-label="Basculer le thème clair/sombre" title="Thème clair/sombre" onclick="(function(){var d=document.documentElement;var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n);}catch(e){}})();"><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></button></nav>
+</header>
+<h1>Briefing du 11 juin 2026</h1>
+<p class="lead">Météo, monde, marchés et tech — l'essentiel du jour.</p>
+<h2>Météo</h2>
+<div class="weather"><div class="city">
+<div class="name">Genève</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg><span class="t">21° / 11°</span></div>
+<div class="c">Couvert &middot; 0 % de précip.</div>
+</div><div class="city">
+<div class="name">Lausanne</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg><span class="t">19° / 12°</span></div>
+<div class="c">Couvert &middot; 3 % de précip.</div>
+</div></div>
+<h2>La Suisse en bref</h2>
+<ul class="world">
+<li>La Suisse a accentué les contrôles à ses frontières avec la France du 10 au 19 juin et restreint son espace aérien en prévision du G7 d’Évian.</li>
+<li>L’armée suisse a mobilisé 4000 militaires en renfort pour garantir la sécurité du sommet du G7 à Évian.</li>
+<li>Le groupe genevois Givaudan a licencié plusieurs employés pour des vols de parfum et déposé une plainte pénale.</li>
+</ul>
+<h2>Le monde en bref</h2>
+<ul class="world">
+<li>Les États-Unis ont lancé de nouvelles frappes contre l'Iran, Donald Trump accusant Téhéran de faire traîner les négociations, tandis que la Jordanie, le Koweït et Bahreïn ont intercepté des missiles visant la région d'une base aérienne majeure.</li>
+<li>Plusieurs quartiers de Belfast ont été le théâtre d'incendies et de violences lors de manifestations anti-immigration déclenchées après une attaque au couteau, avec véhicules brûlés et habitations endommagées.</li>
+<li>Des frappes israéliennes ont tué au moins treize personnes dans le sud du Liban, ravivant les craintes d'une escalade régionale alors que les tensions au Proche-Orient restent vives.</li>
+</ul>
+<h2>Marchés &middot; clôture du 10 juin 2026</h2>
+<div class="markets"><span class="idx"><span class="idx-name">Nasdaq</span> <span class="down">-1.98 %</span></span>
+<span class="idx"><span class="idx-name">Dow Jones</span> <span class="down">-1.87 %</span></span>
+<span class="idx"><span class="idx-name">SMI</span> <span class="up">+0.28 %</span></span>
+<span class="idx"><span class="idx-name">Euro Stoxx 50</span> <span class="down">-0.40 %</span></span></div>
+<p class="lead">Vif accès d&#39;aversion au risque à Wall Street, où le Dow a cédé près de 950 points et le Nasdaq près de 2 % sous l&#39;effet des nouvelles frappes américaines contre l&#39;Iran, alors que l&#39;Europe s&#39;est montrée plus résiliente, le SMI surnageant quand l&#39;Euro Stoxx 50 reculait modérément.</p>
+<h2>Tech &middot; IT, Science &amp; IA</h2>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/" target="_blank" rel="noopener">Le patron de l&#39;IA chez Microsoft juge la superintelligence proche</a></h3>
+<p>Mustafa Suleyman, responsable de l&#39;IA grand public chez Microsoft, estime que la superintelligence se rapproche, tout en insistant sur le fait qu&#39;elle transformera les tâches plutôt qu&#39;elle ne supprimera des métiers entiers. Ses propos illustrent l&#39;équilibre délicat que cherche Microsoft entre son partenariat avec OpenAI et le développement de ses propres modèles, et relancent le débat sur le rythme réel des progrès de l&#39;IA.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/" target="_blank" rel="noopener">Morgan Stanley anticipe plus de 570 milliards de dollars de dette liée à l&#39;IA</a></h3>
+<p>Selon Morgan Stanley, l&#39;émission mondiale de dette liée à l&#39;IA devrait plus que doubler pour approcher 570 milliards de dollars cette année, les hyperscalers et bâtisseurs d&#39;infrastructures se tournant vers les marchés obligataires pour financer l&#39;expansion de leurs centres de données. La course à l&#39;IA se mue ainsi en une course à l&#39;infrastructure et au capital, où le financement devient un facteur de différenciation aussi décisif que la technologie elle-même.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/" target="_blank" rel="noopener">OpenAI négocie un campus de centres de données de 10 gigawatts dans l&#39;Ohio</a></h3>
+<p>OpenAI est en pourparlers pour louer un campus de centres de données de 10 gigawatts dans l&#39;Ohio, avec un possible soutien financier de Nvidia. L&#39;ampleur démesurée du projet illustre la fuite en avant des besoins de calcul des grands acteurs de l&#39;IA et la transformation de l&#39;électricité et du foncier industriel en goulots d&#39;étranglement stratégiques de la filière.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/" target="_blank" rel="noopener">Broadcom s&#39;allie à Apollo et Blackstone pour 35 milliards de dollars d&#39;infrastructure IA</a></h3>
+<p>Broadcom s&#39;associe aux fonds Apollo et Blackstone dans le cadre d&#39;une initiative de 35 milliards de dollars destinée à fournir capacité de calcul, puces sur mesure et financement pour l&#39;IA. Ce montage mêlant industriels et capital-investissement traduit l&#39;irruption de la finance de marché au cœur de l&#39;infrastructure d&#39;IA, désormais structurée par des engagements chiffrés en dizaines de milliards.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/" target="_blank" rel="noopener">Super Micro lève 7 milliards de dollars pour ses serveurs d&#39;IA</a></h3>
+<p>Le fabricant de matériel Super Micro a levé 7 milliards de dollars en fonds propres afin d&#39;accroître sa production de serveurs d&#39;IA et de relever les défis d&#39;efficacité thermique. Cette opération souligne l&#39;intensité capitalistique de la chaîne d&#39;approvisionnement matérielle qui sous-tend l&#39;essor des grands modèles, où la maîtrise du refroidissement devient un avantage concurrentiel.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://www.buildfastwithai.com/blogs/ai-news-today-june-10-2026" target="_blank" rel="noopener">ChatGPT franchit le milliard d&#39;utilisateurs actifs mensuels</a></h3>
+<p>ChatGPT a dépassé le milliard d&#39;utilisateurs actifs mensuels, devenant l&#39;application grand public ayant atteint ce seuil le plus rapidement de l&#39;histoire. Ce jalon confirme l&#39;ancrage des assistants conversationnels dans les usages quotidiens et conforte la position dominante d&#39;OpenAI, alors que la concurrence s&#39;intensifie et que l&#39;IA glisse de la simple conversation vers l&#39;exécution de tâches concrètes.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/" target="_blank" rel="noopener">Google lance la traduction vocale en direct de Gemini 3.5</a></h3>
+<p>Google a dévoilé une fonction de traduction vocale en temps réel de Gemini 3.5, qui préserve le ton et le rythme de la voix d&#39;origine tout en intégrant des filigranes SynthID pour la traçabilité des contenus. Cette avancée rapproche l&#39;idée d&#39;une conversation multilingue fluide et illustre l&#39;attention croissante portée au marquage des médias générés par l&#39;IA.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/" target="_blank" rel="noopener">Apple et l&#39;Union européenne s&#39;opposent sur le déploiement de Siri dopé à l&#39;IA</a></h3>
+<p>Apple et la Commission européenne s&#39;affrontent au sujet du report du nouveau Siri enrichi à l&#39;IA, avec des désaccords portant sur la conformité au Digital Markets Act et la protection de la vie privée. Le différend prive les utilisateurs européens des fonctions les plus avancées de l&#39;assistant et illustre la tension persistante entre innovation et exigences réglementaires dans l&#39;UE.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/" target="_blank" rel="noopener">L&#39;UE publie un code pour le marquage des contenus générés par l&#39;IA</a></h3>
+<p>La Commission européenne a publié des lignes directrices pour signaler et étiqueter les contenus générés par l&#39;IA dans le cadre de l&#39;AI Act, afin d&#39;améliorer la transparence. Ce code de conduite vise à aider les utilisateurs à distinguer textes, images et sons synthétiques des contenus humains, et confirme le rôle pionnier de l&#39;Europe dans l&#39;encadrement des usages de l&#39;IA générative.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/" target="_blank" rel="noopener">Plus de 34 000 comptes Instagram compromis via une faille liée à l&#39;IA</a></h3>
+<p>Plus de 34 000 comptes Instagram ont été compromis à la faveur d&#39;une vulnérabilité logicielle liée à l&#39;IA, corrigée après sa découverte, sans vol massif de données rapporté à ce stade. L&#39;incident met de nouveau en lumière les surfaces d&#39;attaque inédites qu&#39;introduisent les systèmes automatisés, où une faille d&#39;authentification peut ouvrir la porte à des compromissions de comptes à grande échelle.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/" target="_blank" rel="noopener">Microsoft corrige en urgence des failles zero-day, dont « Nightmare Eclipse »</a></h3>
+<p>Microsoft a corrigé rapidement plusieurs failles zero-day divulguées par des chercheurs, parmi lesquelles une vulnérabilité baptisée « Nightmare Eclipse ». La réactivité de l&#39;éditeur intervient dans un contexte de tensions autour de la divulgation publique des vulnérabilités, qui oppose impératif de transparence et risque d&#39;exploitation avant l&#39;application des correctifs.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/" target="_blank" rel="noopener">La CISA ordonne de corriger une faille VPN Check Point activement exploitée</a></h3>
+<p>L&#39;agence américaine de cybersécurité CISA a enjoint aux agences fédérales de corriger sans délai une vulnérabilité critique d&#39;un VPN Check Point, activement exploitée pour obtenir un accès non autorisé aux réseaux. Cette directive d&#39;urgence rappelle que les équipements de périphérie réseau demeurent une cible privilégiée des attaquants et un maillon faible récurrent des défenses des organisations.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/" target="_blank" rel="noopener">Le patron de Palantir fustige les licenciements justifiés par l&#39;IA</a></h3>
+<p>Alex Karp, dirigeant de Palantir, a condamné les patrons de la tech qui se félicitent des réductions d&#39;effectifs, avertissant qu&#39;une automatisation trop agressive menace l&#39;innovation et la rétention des talents à long terme. Sa prise de position tranche avec le discours ambiant et nourrit le débat sur l&#39;impact réel de l&#39;IA sur l&#39;emploi et l&#39;organisation du travail.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/" target="_blank" rel="noopener">Meta et Reliance inaugurent un centre de données de 168 MW au Gujarat</a></h3>
+<p>Meta et le conglomérat indien Reliance ont lancé un centre de données d&#39;IA de 168 mégawatts dans l&#39;État du Gujarat, renforçant l&#39;implantation des géants de la tech sur le marché numérique indien en pleine croissance. Ce projet illustre la diffusion mondiale des infrastructures de calcul et la place stratégique que prend l&#39;Inde dans la cartographie des centres de données d&#39;IA.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/" target="_blank" rel="noopener">La Chine prépare un réseau national de centres de données d&#39;IA à 295 milliards de dollars</a></h3>
+<p>Pékin projette un réseau national de centres de données d&#39;IA reposant sur des fournisseurs domestiques comme Huawei, afin de réduire sa dépendance aux technologies américaines. Évalué à 295 milliards de dollars, ce programme s&#39;inscrit dans la rivalité technologique sino-américaine et vise à doter la Chine d&#39;une capacité de calcul souveraine et autosuffisante.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techstartups.com/2026/06/10/top-tech-news-today-june-10-2026/" target="_blank" rel="noopener">Ferveret développe un refroidissement de data centers inspiré du nucléaire</a></h3>
+<p>Ferveret, une start-up issue du MIT, met au point des systèmes de refroidissement inspirés des technologies nucléaires pour les centres de données, afin de répondre aux défis d&#39;efficacité thermique et de consommation d&#39;eau. Alors que l&#39;explosion de l&#39;IA fait grimper les besoins énergétiques et hydriques des infrastructures, ce type d&#39;innovation devient déterminant pour la durabilité du secteur.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/news/top/science/" target="_blank" rel="noopener">Un seul carburant pour les propulsions chimique et électrique des satellites</a></h3>
+<p>Des chercheurs du MIT ont montré qu&#39;un même carburant peut alimenter à la fois des propulseurs chimiques et électriques, ce qui pourrait transformer les capacités des petits satellites. En s&#39;affranchissant de la nécessité d&#39;embarquer deux systèmes distincts, cette approche promet des engins plus simples, plus légers et plus polyvalents, capables d&#39;alterner poussée rapide et propulsion économe selon les besoins de la mission.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/news/top/science/" target="_blank" rel="noopener">Les premiers animaux auraient ralenti le cours de l&#39;évolution</a></h3>
+<p>Selon une nouvelle étude, les tout premiers animaux de la Terre pourraient avoir freiné l&#39;évolution en se reproduisant de façon asexuée, créant des communautés peu compétitives et très stables qui ont peu changé au fil du temps. Ce travail bouscule l&#39;idée d&#39;une diversification précoce et rapide du vivant et éclaire d&#39;un jour nouveau les conditions qui ont préludé à l&#39;explosion de la biodiversité animale.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/news/top/science/" target="_blank" rel="noopener">La molécule UNI418 prive les cellules cancéreuses de leur réparation de l&#39;ADN</a></h3>
+<p>Les cellules cancéreuses survivent souvent aux traitements en réparant les dommages à l&#39;ADN que ceux-ci sont censés provoquer. Des chercheurs ont identifié une molécule, UNI418, capable de perturber cette capacité de réparation, rendant les cellules tumorales plus vulnérables. Cette piste pourrait améliorer l&#39;efficacité des thérapies existantes, sous réserve de confirmation par des essais ultérieurs.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://www.sciencedaily.com/news/top/science/" target="_blank" rel="noopener">Les grands modèles d&#39;IA échouent à un test d&#39;attention classique de la psychologie</a></h3>
+<p>Des chercheurs ont soumis les principaux modèles d&#39;IA à un test d&#39;attention classique issu de la psychologie et y ont décelé une faille majeure. Ce résultat met en lumière les limites cognitives persistantes de systèmes pourtant très performants sur de nombreuses tâches, et rappelle que des capacités humaines apparemment élémentaires demeurent difficiles à reproduire par les modèles actuels.</p>
+</article>
+<footer class="site">Généré automatiquement &middot; Julien Nury</footer>
+</div>
+</body>
+</html>
