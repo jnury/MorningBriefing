@@ -1,0 +1,177 @@
+{
+  "date": "2026-06-13",
+  "generatedAt": "2026-06-13T09:30:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 29,
+      "low": 15,
+      "condition": "Plutôt ensoleillé",
+      "weathercode": 1,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 27,
+      "low": 16,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Maintenance ferroviaire d'envergure en Suisse romande du 12 au 15 juin : interruption totale du trafic entre Palézieux et Romont ainsi qu'entre Aigle et Saint-Maurice, avec bus de remplacement.",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "headline": "Lausanne célèbre les 125 ans de son Service de l'eau avec un nouveau guide d'architecture qui retrace l'histoire de ce vaste patrimoine souterrain, des fontaines aux réseaux cachés de la ville.",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "headline": "G7 à Évian dès le 15 juin : Genève renforce sa sécurité, le trafic est perturbé depuis le 12 juin et la ville accueille les manifestations des opposants au sommet, avec un grand rassemblement prévu dimanche.",
+      "publishedAt": "2026-06-12"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Donald Trump a annoncé un accord pour mettre fin à la guerre avec l'Iran et renoncé à de nouvelles frappes, mais Téhéran affirme que le texte n'est pas finalisé et accuse Washington de déplacer ses positions.",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "headline": "Au Royaume-Uni, le ministre de la Défense et le ministre des Forces armées ont démissionné, jugeant insuffisants les engagements du Premier ministre Keir Starmer en matière de dépenses militaires.",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "headline": "La Coupe du monde de football 2026, élargie à 48 équipes et organisée aux États-Unis, au Mexique et au Canada, s'est ouverte vendredi soir avec le match inaugural des États-Unis face au Paraguay.",
+      "publishedAt": "2026-06-12"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 12 juin 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": 0.3
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 0.7
+      },
+      {
+        "name": "SMI",
+        "changePct": 1.07
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 1
+      }
+    ],
+    "summary": "Les marchés ont prolongé leur rebond vendredi sur fond de désescalade au Proche-Orient et de baisse des cours du pétrole : Wall Street a fini en hausse, portée par les débuts boursiers réussis de SpaceX, tandis que l'Europe brillait davantage, le SMI gagnant plus de 1 % et l'Euro Stoxx 50 atteignant son plus haut depuis février."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "Le gouvernement américain aurait débranché le modèle d'IA le plus puissant d'Anthropic",
+      "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
+      "publishedAt": "2026-06-12",
+      "summary": "Selon TechCrunch, les avertissements de sécurité rendus publics par Anthropic se seraient retournés contre l'entreprise : les autorités américaines auraient ordonné l'arrêt de son modèle d'IA le plus puissant. L'épisode illustre la tension croissante entre la transparence sur les risques des modèles de pointe et la réaction des gouvernements, qui peuvent y voir un motif d'intervention plutôt qu'un gage de confiance."
+    },
+    {
+      "category": "AI",
+      "title": "Des ingénieurs décrivent l'unité IA de Meta comme un environnement « broyeur d'âmes »",
+      "url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
+      "publishedAt": "2026-06-12",
+      "summary": "Des ingénieurs de la nouvelle division d'intelligence artificielle de Meta décrivent des conditions de travail extrêmement éprouvantes et démoralisantes, allant jusqu'à comparer l'unité à un « goulag broyeur d'âmes ». Ces témoignages mettent en lumière la pression intense qui pèse sur les équipes chargées de rattraper la concurrence dans la course aux grands modèles d'IA."
+    },
+    {
+      "category": "IT",
+      "title": "Google poursuit un réseau cybercriminel chinois qui exploitait l'IA pour des escroqueries de masse",
+      "url": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
+      "publishedAt": "2026-06-12",
+      "summary": "Google a engagé des poursuites contre un réseau criminel sophistiqué qui se servait de l'intelligence artificielle pour escroquer des centaines de milliers de victimes. L'action en justice illustre l'usage croissant de l'IA générative dans les arnaques de masse et la volonté des géants du numérique de démanteler ces opérations par la voie judiciaire."
+    },
+    {
+      "category": "AI",
+      "title": "Mistral lèverait 3 milliards d'euros pour une valorisation de 20 milliards",
+      "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
+      "publishedAt": "2026-06-12",
+      "summary": "Selon plusieurs sources, la start-up française Mistral AI chercherait à lever 3 milliards d'euros pour une valorisation d'environ 20 milliards. Ce tour de table confirmerait le statut de Mistral comme principal champion européen des grands modèles de langage, dans un contexte de financements colossaux à l'échelle mondiale."
+    },
+    {
+      "category": "AI",
+      "title": "Avataar mise sur une IA vidéo « moins chère et culturellement adaptée » pour l'Inde",
+      "url": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
+      "publishedAt": "2026-06-11",
+      "summary": "La société Avataar développe une IA de génération vidéo conçue pour l'échelle du marché indien : plus rapide, moins coûteuse et sensible aux contextes culturels locaux. L'initiative illustre l'émergence d'offres d'IA adaptées aux marchés émergents, là où les modèles occidentaux peinent à répondre aux besoins linguistiques et culturels."
+    },
+    {
+      "category": "IT",
+      "title": "Anthropic s'associe à TCS pour déployer son IA en entreprise à grande échelle",
+      "url": "https://techcrunch.com/2026/06/11/anthropic-taps-tcs-to-scale-its-enterprise-ai-deployments/",
+      "publishedAt": "2026-06-11",
+      "summary": "Anthropic a noué un partenariat avec Tata Consultancy Services (TCS) pour accélérer le déploiement de ses modèles d'IA auprès des grandes entreprises. En s'appuyant sur l'un des plus grands intégrateurs mondiaux, l'entreprise vise à étendre l'adoption de son assistant Claude dans des environnements professionnels complexes."
+    },
+    {
+      "category": "Science",
+      "title": "Les glaciers d'Alaska réagissent de façon alarmante au réchauffement",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260612032047.htm",
+      "publishedAt": "2026-06-12",
+      "summary": "Une étude s'appuyant sur des satellites radar a suivi plus de 3 000 glaciers d'Alaska et constaté que chaque hausse de 1 °C de la température estivale moyenne prolonge nettement la durée de fonte. Ces résultats affinent la compréhension de la sensibilité des glaciers au climat et laissent présager une contribution accrue à l'élévation du niveau des mers."
+    },
+    {
+      "category": "Science",
+      "title": "Une membrane à pores d'un nanomètre pourrait révolutionner la purification de l'eau",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260612032049.htm",
+      "publishedAt": "2026-06-12",
+      "summary": "Des chercheurs ont mis au point une membrane bio-inspirée dotée de pores d'un nanomètre, capable de filtrer les molécules avec une précision remarquable. Destinée notamment aux industries pharmaceutique et textile, cette technologie ouvre la voie à des procédés de purification de l'eau plus sélectifs et potentiellement moins énergivores."
+    },
+    {
+      "category": "Science",
+      "title": "Le jeûne pourrait aider à combattre la maladie des gencives",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260612032032.htm",
+      "publishedAt": "2026-06-12",
+      "summary": "Une étude clinique montre qu'un jeûne hypocalorique réduit significativement l'inflammation associée à la maladie des gencives. Ce lien inattendu entre alimentation et santé bucco-dentaire suggère de nouvelles pistes de prévention de la parodontite, au-delà des seules mesures d'hygiène locale."
+    },
+    {
+      "category": "Science",
+      "title": "Un lien inattendu entre cancers du sang et maladie d'Alzheimer",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260612032044.htm",
+      "publishedAt": "2026-06-12",
+      "summary": "Des chercheurs ont découvert que des mutations associées à certains cancers du sang pourraient déclencher la maladie d'Alzheimer en générant des cellules immunitaires excessivement inflammatoires. Cette piste éclaire les mécanismes inflammatoires de la neurodégénérescence et pourrait orienter de futures stratégies thérapeutiques."
+    },
+    {
+      "category": "Science",
+      "title": "Stanford régénère du cartilage et inverse l'arthrose chez la souris",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260612021604.htm",
+      "publishedAt": "2026-06-12",
+      "summary": "Des scientifiques de Stanford ont restauré du cartilage perdu chez des souris âgées en bloquant une protéine liée au vieillissement, inversant ainsi les signes de l'arthrose. Si ces résultats se confirment chez l'humain, ils pourraient ouvrir la voie à des traitements régénératifs d'une maladie articulaire aujourd'hui incurable."
+    },
+    {
+      "category": "Science",
+      "title": "Le détecteur géant JUNO rapproche les physiciens de l'énigme des neutrinos",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260612032026.htm",
+      "publishedAt": "2026-06-12",
+      "summary": "L'observatoire souterrain chinois JUNO a réalisé l'une des mesures les plus précises à ce jour des propriétés des neutrinos. Ces particules quasi insaisissables restent l'une des grandes énigmes de la physique : des mesures aussi fines pourraient aider à comprendre la hiérarchie de leurs masses et le déséquilibre entre matière et antimatière dans l'Univers."
+    },
+    {
+      "category": "Science",
+      "title": "Une puce inspirée du cerveau fonctionne près du zéro absolu",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260612032024.htm",
+      "publishedAt": "2026-06-12",
+      "summary": "Des chercheurs de l'Université de Hong Kong ont conçu une puce neuromorphique capable de fonctionner juste au-dessus du zéro absolu. En opérant aux températures cryogéniques des ordinateurs quantiques, ce composant pourrait servir d'interface de contrôle et contribuer à rendre l'informatique quantique plus rapide et plus fiable."
+    },
+    {
+      "category": "Science",
+      "title": "Un légendaire tissu d'or disparu depuis 2000 ans recréé en laboratoire",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260612021000.htm",
+      "publishedAt": "2026-06-12",
+      "summary": "Des chercheurs sud-coréens ont recréé la « soie de mer », un tissu doré perdu depuis deux millénaires, à partir de fibres de coquillages. Ils ont montré que son éclat doré provient de minuscules structures protéiques, une découverte qui éclaire à la fois l'histoire textile et la science des matériaux biologiques."
+    },
+    {
+      "category": "Science",
+      "title": "Le bon dosage de musculation pour vivre plus longtemps",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260611024609.htm",
+      "publishedAt": "2026-06-11",
+      "summary": "Une étude portant sur 147 000 personnes établit que 90 à 120 minutes de renforcement musculaire par semaine sont associées à la plus forte réduction du risque de mortalité, le bénéfice plafonnant au-delà. Ces données aident à préciser les recommandations d'activité physique en faveur de la longévité."
+    }
+  ]
+}
