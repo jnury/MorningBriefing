@@ -1,47 +1,43 @@
 {
   "date": "2026-06-16",
-  "generatedAt": "2026-06-16T08:30:00+02:00",
+  "generatedAt": "2026-06-16T06:00:00+02:00",
   "weather": {
     "geneva": {
-      "high": 31,
+      "high": 30,
       "low": 16,
       "condition": "Couvert",
       "weathercode": 3,
       "precipProbability": 0
     },
     "lausanne": {
-      "high": 29,
+      "high": 27,
       "low": 17,
-      "condition": "Couvert",
-      "weathercode": 3,
+      "condition": "Pluie faible",
+      "weathercode": 61,
       "precipProbability": 0
     }
   },
   "swissNews": [
     {
-      "headline": "Lors des votations du 14 juin, le peuple suisse a rejeté à 54,8% l'initiative «Pas de Suisse à 10 millions» et accepté la réforme du service civil.",
-      "publishedAt": "2026-06-14"
-    },
-    {
-      "headline": "Le Conseil des États a levé son opposition au congé parental genevois de 24 semaines, ouvrant la voie à une entrée en vigueur espérée pour janvier 2027.",
+      "headline": "Le Conseil des États a levé son opposition, ouvrant la voie au congé parental de 24 semaines à Genève, qui deviendrait le premier canton à franchir ce cap, avec une entrée en vigueur espérée en janvier 2027.",
       "publishedAt": "2026-06-15"
     },
     {
-      "headline": "En marge du G7 d'Évian, Guy Parmelin a accueilli les chefs d'État à Genève et multiplié les rencontres bilatérales, notamment sur les dossiers européen et ukrainien.",
+      "headline": "Genève a accueilli six chefs d'État et de gouvernement du G7 avant leur déplacement au sommet d'Évian, un dispositif dont le président de la Confédération Guy Parmelin s'est dit fier.",
       "publishedAt": "2026-06-15"
     }
   ],
   "worldNews": [
     {
-      "headline": "Les États-Unis et l'Iran ont annoncé un accord pour mettre fin à la guerre au Moyen-Orient, prévoyant un cessez-le-feu et la réouverture du détroit d'Ormuz, avec une signature attendue vendredi à Genève.",
+      "headline": "Les États-Unis et l'Iran ont finalisé un accord destiné à mettre fin à la guerre et à rouvrir le détroit d'Ormuz, Donald Trump et JD Vance ayant signé virtuellement le texte qui ouvre 60 jours de négociations nucléaires.",
       "publishedAt": "2026-06-15"
     },
     {
-      "headline": "Le sommet du G7 s'est ouvert à Évian sous la présidence française d'Emmanuel Macron, réuni autour des grands dossiers internationaux.",
+      "headline": "La Coupe du monde de football 2026 a battu son plein à travers les villes hôtes américaines, avec notamment un match nul arraché par le Japon face à la Suède.",
       "publishedAt": "2026-06-15"
     },
     {
-      "headline": "La Coupe du monde 2026 est lancée: l'Espagne, championne d'Europe, a été tenue en échec par le Cap-Vert (0-0) et la Belgique a concédé le nul face à l'Égypte (1-1).",
+      "headline": "Le Royaume-Uni a annoncé de nouvelles restrictions d'accès aux grandes plateformes sociales pour les mineurs, rejoignant un mouvement mondial de renforcement de la sécurité des enfants en ligne.",
       "publishedAt": "2026-06-15"
     }
   ],
@@ -62,123 +58,109 @@
       },
       {
         "name": "Euro Stoxx 50",
-        "changePct": 1.4
+        "changePct": 0.82
       }
     ],
-    "summary": "Les Bourses ont fortement progressé lundi après l'annonce d'un accord de paix entre les États-Unis et l'Iran, les indices américains menant la hausse (Nasdaq +3,07%, Dow +0,92%) tandis que l'Euro Stoxx 50 gagnait 1,40% et que le SMI suisse clôturait quasi stable (+0,07%)."
+    "summary": "Les marchés ont nettement progressé, portés par l'annonce d'un accord entre Washington et Téhéran et le repli des cours du pétrole, les indices américains menant la hausse tandis que l'Europe avançait plus modestement."
   },
   "tech": [
     {
-      "category": "IT",
-      "title": "SpaceX entre en Bourse : l'IPO grimpe à 85,7 milliards de dollars",
-      "url": "https://techcrunch.com/2026/06/15/spacexs-biggest-ever-ipo-just-grew-to-85-7-billion-raised/",
-      "publishedAt": "2026-06-15",
-      "summary": "L'introduction en Bourse de SpaceX a été élargie à 85,7 milliards de dollars après que les banques ont exercé leur option d'achat de titres supplémentaires, dépassant les 75 milliards initialement levés. La société prévoit d'utiliser les fonds pour rembourser environ 20 milliards de dette héritée de X et xAI, et pour développer son infrastructure d'IA, ses capacités de lancement et Starlink. Après ses débuts vendredi au Nasdaq, SpaceX dépasse une valorisation de 2 000 milliards de dollars, l'action poursuivant sa hausse lundi."
-    },
-    {
       "category": "AI",
-      "title": "Salesforce rachète la plateforme d'IA de service client Fin pour 3,6 milliards",
+      "title": "Salesforce rachète la plateforme d'IA de service client Fin pour 3,6 milliards de dollars",
       "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/",
       "publishedAt": "2026-06-15",
-      "summary": "Salesforce a annoncé l'acquisition de Fin (anciennement Intercom), plateforme d'IA de service client, pour 3,6 milliards de dollars, avec une clôture attendue au quatrième trimestre de son exercice 2027. L'agent d'IA de Fin résout les demandes des clients sur plusieurs canaux (chat, WhatsApp, SMS, appels téléphoniques) ; Salesforce prévoit d'intégrer cette technologie à sa plateforme Agentforce. Le PDG de Fin, Eoghan McCabe, a déclaré que les ressources de Salesforce ne feront qu'accélérer le développement, l'équipe dirigeante restant en place."
+      "summary": "Salesforce a annoncé l'acquisition de Fin, plateforme d'agents IA de service client (anciennement Intercom), pour 3,6 milliards de dollars. Selon le PDG Marc Benioff, l'opération doit renforcer Agentforce, l'offre d'agents IA d'entreprise du groupe. Fin résout des requêtes clients sur de multiples canaux : chat en direct, WhatsApp, SMS, appels téléphoniques et Slack. La transaction devrait se clôturer au quatrième trimestre de l'exercice fiscal 2027 de Salesforce."
     },
     {
       "category": "IT",
-      "title": "Fox rachète Roku pour 22 milliards de dollars",
+      "title": "Fox rachète Roku dans une opération évaluée à 22 milliards de dollars",
       "url": "https://techcrunch.com/2026/06/15/fox-to-acquire-roku-in-22-billion-deal/",
       "publishedAt": "2026-06-15",
-      "summary": "Fox acquiert Roku dans une transaction en actions et numéraire de 22 milliards de dollars, combinant ses chaînes d'information et de sport et son service de streaming Tubi avec la plateforme de télévision connectée de Roku. L'ensemble deviendra la troisième plus grande entreprise de télévision aux États-Unis, donnant à Fox accès aux 100 millions de foyers de Roku et renforçant sa position sur le marché publicitaire en croissance de la TV connectée. Approuvée par les conseils d'administration des deux sociétés, l'opération devrait être finalisée au premier semestre 2027."
+      "summary": "Fox a confirmé le rachat de la plateforme de streaming Roku pour environ 22 milliards de dollars, en titres et en liquidités. La fusion créerait le troisième plus grand groupe de télévision américain, réunissant les chaînes d'information et de sport de Fox, sa plateforme Tubi et la technologie de télévision connectée de Roku, présente dans 100 millions de foyers. C'est l'une des plus grandes acquisitions médias depuis des années. La transaction est attendue au premier semestre 2027."
     },
     {
-      "category": "AI",
-      "title": "Meta lance un « AI Mode » sur Facebook puisant dans les infos publiques",
-      "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
-      "publishedAt": "2026-06-15",
-      "summary": "Meta a annoncé « AI Mode », une nouvelle fonction de recherche sur Facebook qui synthétise des réponses à partir des publications publiques de la plateforme via Meta AI. La mise à jour inclut aussi des outils d'édition vidéo, des préréglages photo dopés à l'IA permettant de changer de tenue, et fait suite au lancement de Forum, l'application de Meta façon Reddit dotée d'un onglet « Ask ». Cette initiative s'inscrit dans la stratégie plus large de Meta visant à accroître l'engagement et la monétisation via des fonctions d'IA et de nouvelles formules d'abonnement."
-    },
-    {
-      "category": "AI",
-      "title": "Sarvam devient la nouvelle licorne IA de l'Inde avec 234 millions levés",
-      "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
-      "publishedAt": "2026-06-15",
-      "summary": "Sarvam a atteint le statut de licorne avec une levée de 234 millions de dollars menée par un investissement de 150 millions de HCLTech, valorisant la startup de Bengaluru à 1,5 milliard. L'entreprise développe des modèles d'IA adaptés aux langues indiennes et opère sur toute la chaîne : développement de modèles, infrastructure d'inférence et applications d'entreprise pour la banque, l'assurance et le secteur public. Ce financement illustre la volonté de l'Inde de bâtir des capacités d'« IA souveraine » face aux inquiétudes sur la dépendance aux fournisseurs étrangers."
-    },
-    {
-      "category": "AI",
-      "title": "NewCore sort de l'ombre avec 66 millions pour donner une identité aux agents IA",
-      "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
-      "publishedAt": "2026-06-15",
-      "summary": "NewCore, startup de cybersécurité, est sortie de la furtivité avec 66 millions de dollars de financement d'amorçage mené par Cyberstarts, atteignant une valorisation de 300 millions, pour gérer les identités des agents d'IA en entreprise. La plateforme traite les agents IA comme des « identités à part entière » dotées de leurs propres permissions et contrôles, comblant une lacune critique : selon le PDG Zohar Alon, l'échelle et la complexité qu'ils ajoutent feront « casser » les plateformes d'identité vieilles de 15 ou 20 ans. NewCore compte plus de 50 employés aux États-Unis et en Israël."
-    },
-    {
-      "category": "AI",
-      "title": "La vague de licenciements liée à l'IA devient une poudrière",
-      "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/",
-      "publishedAt": "2026-06-15",
-      "summary": "Les licenciements dans la tech ont atteint le mois dernier leur plus haut niveau en deux ans, avec près de 40 000 suppressions de postes, l'IA étant citée comme principale raison pour le troisième mois consécutif selon le cabinet Challenger, Gray & Christmas. Des critiques estiment toutefois que l'« IA » sert de prétexte commode masquant le sur-recrutement de l'ère pandémique et une mauvaise gestion. La situation devient tendue : des dizaines de milliers de travailleurs perdent leur emploi pendant qu'une poignée d'initiés de l'IA accumulent des fortunes via des IPO."
-    },
-    {
-      "category": "AI",
-      "title": "Un satellite apprend à repérer seul des cibles grâce à un modèle de vision",
+      "category": "Science",
+      "title": "Un satellite a appris à repérer des cibles de manière autonome grâce à un modèle de vision-langage",
       "url": "https://techcrunch.com/2026/06/15/a-satellite-just-learned-to-find-things-on-its-own-heres-what-that-means/",
       "publishedAt": "2026-06-15",
-      "summary": "En avril 2026, un satellite d'observation de la Terre (YAM-9) a identifié des cibles de manière autonome en utilisant le modèle vision-langage Gemma 3 de Google DeepMind, première utilisation rapportée d'un tel modèle en orbite. Développé par le Jet Propulsion Laboratory de la NASA et exploité par Loft Orbital, le système peut classer des données de capteurs et identifier des infrastructures en réponse à des requêtes en langage naturel, sans analyste humain. Cette avancée pourrait réduire le volume de données à transmettre et permettre des « couches de patrouille permanentes » dans l'espace."
+      "summary": "En avril 2026, le satellite YAM-9 de Loft Orbital a utilisé le modèle de vision-langage Gemma 3 de Google DeepMind pour identifier seul des zones d'intérêt, première utilisation rapportée d'une telle IA en orbite. L'avancée pourrait transformer l'observation de la Terre en réduisant le volume de données brutes transmises au sol et en ouvrant la voie à une surveillance continue, le traitement s'effectuant directement à bord plutôt que via des analystes humains."
     },
     {
-      "category": "Science",
-      "title": "Une nouvelle pilule GLP-1 offre une nette perte de poids aux diabétiques",
-      "url": "https://www.sciencedaily.com/releases/2026/06/260614011850.htm",
+      "category": "IT",
+      "title": "NewCore sort de l'ombre avec 66 millions de dollars pour donner une identité aux agents IA",
+      "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
       "publishedAt": "2026-06-15",
-      "summary": "Des chercheurs ont testé l'elecoglipron, un médicament oral expérimental de type GLP-1, dans un essai clinique de phase 2b portant sur 406 adultes atteints de diabète de type 2 dans neuf pays. Le traitement a nettement surpassé le placebo : jusqu'à 89,6 % des participants ont atteint la glycémie cible contre 24,9 % sous placebo, et 72,3 % ont perdu au moins 5 % de leur poids contre 20,2 % sous placebo. Ces résultats suggèrent que les médicaments oraux GLP-1 pourraient offrir des alternatives plus simples d'usage que les traitements injectables actuels."
+      "summary": "La start-up de cybersécurité NewCore est sortie de la furtivité avec 66 millions de dollars de financement. Elle entend répondre à un défi que beaucoup d'entreprises rencontreront en déployant des agents IA : comment authentifier, gouverner et contrôler à grande échelle ces agents qui agissent de plus en plus comme des collaborateurs. L'enjeu est d'attribuer une identité vérifiable à chaque agent pour encadrer ses droits et ses actions."
     },
     {
-      "category": "Science",
-      "title": "Des physiciens d'Oxford créent un « chat de Schrödinger » d'un genre nouveau",
-      "url": "https://www.sciencedaily.com/releases/2026/06/260614011848.htm",
+      "category": "AI",
+      "title": "Meta lance un « mode IA » sur Facebook qui exploite les informations publiques de ses plateformes",
+      "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
       "publishedAt": "2026-06-15",
-      "summary": "Des chercheurs d'Oxford ont créé un type inédit de superposition quantique en combinant des composants quantiques fortement non classiques plutôt que des paquets d'ondes classiques. À l'aide d'un système à ion piégé, ils ont intriqué l'état interne de l'ion avec son mouvement, puis réalisé des mesures pour le faire s'effondrer en superpositions choisies d'états comprimés. La technique offre un outil pour « sculpter la superposition quantique dans presque n'importe quelle forme » et pourrait conduire à des ordinateurs quantiques plus résilients et à une compréhension plus fine de la mécanique quantique."
+      "summary": "Meta a déployé un nouveau « mode IA » sur Facebook, capable de puiser dans les informations publiques disponibles à travers ses différentes plateformes pour générer des réponses et des recommandations personnalisées. La fonctionnalité illustre l'intégration croissante de l'IA générative dans les réseaux sociaux du groupe, tout en relançant les questions sur l'usage des données publiques des utilisateurs."
     },
     {
-      "category": "Science",
-      "title": "Cartographie inédite du gigantesque réseau de champignons souterrains",
-      "url": "https://www.sciencedaily.com/releases/2026/06/260614011845.htm",
+      "category": "AI",
+      "title": "Sarvam devient la nouvelle licorne de l'IA en Inde avec une levée de 234 millions de dollars",
+      "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
       "publishedAt": "2026-06-15",
-      "summary": "Des scientifiques ont cartographié pour la première fois les réseaux souterrains de champignons mycorhiziens arbusculaires de la Terre, découvrant qu'ils s'étendent sur environ 110 quadrillions de kilomètres à l'échelle mondiale. Ces réseaux nouent des partenariats avec environ 70 % des espèces végétales, transportant nutriments, eau et carbone, et déplaçant environ 4 milliards de tonnes de CO2 vers les sols chaque année. La recherche révèle que les terres cultivées présentent une densité de réseaux fongiques inférieure d'environ 50 % à celle des écosystèmes sauvages, soulevant des inquiétudes pour la santé des sols et le stockage du carbone."
+      "summary": "La start-up indienne Sarvam est devenue la dernière licorne de l'IA du pays après une levée de fonds de 234 millions de dollars menée par HCLTech. Spécialisée dans les modèles de langue adaptés aux langues et aux usages indiens, l'entreprise illustre la montée en puissance de l'écosystème local de l'intelligence artificielle et l'intérêt des grands groupes technologiques pour les modèles souverains."
+    },
+    {
+      "category": "IT",
+      "title": "Des experts en cybersécurité dénoncent l'interdiction par Washington des modèles les plus puissants d'Anthropic",
+      "url": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
+      "publishedAt": "2026-06-15",
+      "summary": "Des vétérans de la cybersécurité ont protesté contre la décision du gouvernement américain d'interdire l'usage des modèles d'IA les plus puissants d'Anthropic, qualifiant la mesure de « dangereuse ». Selon eux, ces outils sont devenus essentiels à la défense informatique et leur interdiction priverait les équipes de sécurité de capacités d'analyse précieuses. Le débat illustre les tensions entre régulation de l'IA et besoins opérationnels."
     },
     {
       "category": "Science",
-      "title": "Un nouveau matériau capable de durcir ou se désagréger en quelques secondes",
+      "title": "Une étude explore la possible transmission inter-espèces de la maladie du dépérissement chronique",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260615033841.htm",
+      "publishedAt": "2026-06-15",
+      "summary": "De nouveaux travaux montrent que la maladie du dépérissement chronique (chronic wasting disease) peut se propager silencieusement, des prions infectieux étant présents même chez des animaux ne présentant aucun symptôme. Les chercheurs explorent le risque d'une transmission à d'autres espèces, ce qui pose la question de la surveillance des populations de cervidés et de possibles barrières d'espèce encore mal comprises."
+    },
+    {
+      "category": "Science",
+      "title": "Des chercheurs découvrent une faille des « polluants éternels »",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260615033846.htm",
+      "publishedAt": "2026-06-15",
+      "summary": "Des scientifiques ont identifié une faiblesse inattendue des PFAS, ces « polluants éternels » réputés indestructibles. Sous une lumière ultraviolette intense, des radicaux d'hydrogène parviennent à briser les liaisons chimiques très stables de ces composés. La découverte ouvre des pistes pour des méthodes de dégradation et de dépollution plus efficaces de substances aujourd'hui omniprésentes dans l'eau et l'environnement."
+    },
+    {
+      "category": "Science",
+      "title": "Des messages extraterrestres pourraient avoir atteint la Terre sans que nous les remarquions",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260615033851.htm",
+      "publishedAt": "2026-06-15",
+      "summary": "Une recherche en SETI suggère que d'éventuels signaux extraterrestres pourraient nous parvenir brouillés par les étoiles situées sur leur trajet, qui dégraderaient ou déformeraient l'information. Selon les chercheurs, cela impliquerait de revoir les stratégies de détection et d'analyse des signaux, certains messages potentiels ayant pu passer inaperçus avec les méthodes actuelles."
+    },
+    {
+      "category": "Science",
+      "title": "Un matériau étrange peut devenir solide ou se désagréger en quelques secondes",
       "url": "https://www.sciencedaily.com/releases/2026/06/260615033849.htm",
       "publishedAt": "2026-06-15",
-      "summary": "Des chercheurs de CU Boulder ont conçu des particules en forme d'agrafe capables de s'imbriquer pour former des structures solides et résistantes, puis de se désagréger rapidement sous l'effet de vibrations. Ces particules combinent simultanément résistance à la traction et ténacité, deux propriétés habituellement difficiles à concilier dans les matériaux conventionnels. La technologie pourrait à terme permettre des bâtiments recyclables, des structures reconfigurables et des applications de robotique en essaim."
+      "summary": "Des chercheurs ont montré que des particules en forme d'agrafes peuvent s'enchevêtrer pour former un matériau à la fois solide et flexible. Contrairement aux matériaux classiques, ces particules peuvent être verrouillées en une structure rigide puis rapidement défaites par de simples vibrations. Cette réversibilité ouvre des perspectives pour des matériaux reconfigurables, par exemple dans la construction temporaire ou la robotique."
     },
     {
       "category": "Science",
-      "title": "La NASA détecte une houle océanique annonçant le retour d'El Niño",
-      "url": "https://www.sciencedaily.com/releases/2026/06/260614012002.htm",
-      "publishedAt": "2026-06-15",
-      "summary": "Le satellite Sentinel-6 de la NASA a détecté une vaste impulsion d'eau chaude, appelée onde de Kelvin, se déplaçant vers l'est à travers le Pacifique en direction de l'Amérique du Sud, signe probable du développement de conditions El Niño. Cette eau chaude a fait monter le niveau de la mer près du Pérou de plus de 15 cm au-dessus des moyennes historiques à la mi-mai. El Niño provoque généralement des perturbations météorologiques mondiales majeures (inondations, sécheresses, extrêmes de température) susceptibles d'affecter l'agriculture, les ressources en eau et les économies."
-    },
-    {
-      "category": "Science",
-      "title": "Une laitue rouge rendue verte gagne en composés bénéfiques",
+      "title": "En transformant une laitue rouge en laitue verte, des chercheurs font une découverte surprenante",
       "url": "https://www.sciencedaily.com/releases/2026/06/260614011854.htm",
-      "publishedAt": "2026-06-15",
-      "summary": "Des chercheurs ont utilisé l'édition génomique CRISPR/Cas9 pour désactiver un gène responsable de la production de pigment rouge dans la laitue, rendant les plants verts. Cette modification a réorienté la biochimie de la plante, augmentant les niveaux de composés bénéfiques comme la quercétine tout en maintenant une croissance normale. Les résultats ouvrent la voie au développement de variétés de laitue aux profils nutritionnels personnalisés, notamment pour les cultures en intérieur contrôlées."
+      "publishedAt": "2026-06-14",
+      "summary": "À l'aide de l'édition du génome, des chercheurs ont bloqué la production des pigments rouges de la laitue. De façon inattendue, l'absence de ces pigments a entraîné l'accumulation d'autres composés bénéfiques pour la plante. Le résultat illustre comment la modification d'une seule voie métabolique peut rediriger les ressources de la plante et améliorer sa valeur nutritionnelle."
     },
     {
       "category": "Science",
-      "title": "Une étoile mourante pourrait engendrer un univers plutôt qu'un trou noir",
-      "url": "https://www.sciencedaily.com/releases/2026/06/260614011846.htm",
+      "title": "Des physiciens d'Oxford créent un nouvel état quantique « chat de Schrödinger »",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260614011848.htm",
       "publishedAt": "2026-06-14",
-      "summary": "Des physiciens théoriciens proposent que l'effondrement d'étoiles massives puisse former des gravastars, objets exotiques emplis d'énergie sombre, plutôt que des trous noirs. Selon leur modèle, l'effondrement d'une étoile massive pourrait déclencher la naissance d'un univers miniature au sein de la matière elle-même. À mesure que ce minuscule cosmos s'étend, sa pression vers l'extérieur contrebalance l'effondrement gravitationnel, créant un équilibre stable qui empêche la formation d'une singularité ou d'un horizon des événements."
+      "summary": "Des physiciens de l'Université d'Oxford ont créé un nouveau type d'état quantique de type « chat de Schrödinger », assemblé à partir de composantes elles-mêmes hautement quantiques. Cette superposition d'états inédite enrichit la compréhension des systèmes quantiques complexes et pourrait nourrir les recherches sur l'information et le calcul quantiques, où la maîtrise de tels états est cruciale."
     },
     {
       "category": "Science",
-      "title": "Un nouveau catalyseur triple la production de carburant à partir de CO2",
-      "url": "https://www.sciencedaily.com/releases/2026/06/260613034234.htm",
+      "title": "Sous nos pieds s'étend une « autoroute fongique » cartographiée pour la première fois",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260614011845.htm",
       "publishedAt": "2026-06-14",
-      "summary": "Des chercheurs de l'Institut de physique chimique de Dalian ont mis au point un nouveau catalyseur qui améliore nettement la conversion du CO2 en méthanol en séparant spatialement les étapes de réaction sur différents sites catalytiques. Cette innovation surmonte un défi de longue date où l'augmentation de la température accélère les réactions mais génère des sous-produits indésirables. Le catalyseur atteint une production de méthanol environ trois fois supérieure à celle des catalyseurs commerciaux classiques."
+      "summary": "Des scientifiques ont cartographié pour la première fois le vaste réseau souterrain de champignons mycorhiziens qui relie les racines des plantes et soutient une grande partie de la vie sur Terre. Cette « autoroute fongique » s'étend sur des distances vertigineuses et joue un rôle clé dans le stockage du carbone et la santé des écosystèmes, ce qui en fait un enjeu majeur pour la protection des sols."
     }
   ]
 }
