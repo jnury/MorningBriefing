@@ -1,0 +1,212 @@
+{
+  "date": "2026-06-17",
+  "generatedAt": "2026-06-17T05:30:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 33,
+      "low": 19,
+      "condition": "Partiellement nuageux",
+      "weathercode": 2,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 31,
+      "low": 20,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Selon un sondage Tamedia, 46% des Suisses se disent favorables au paquet d'accords bilatéraux avec l'UE (Bilatérales III), contre 40% d'opposants et 14% d'indécis.",
+      "publishedAt": "2026-06-16"
+    },
+    {
+      "headline": "Le président de la Confédération Guy Parmelin a reçu à Genève le président ukrainien Volodymyr Zelensky pour un entretien bilatéral en marge du sommet du G7 d'Évian, évoquant les bons offices suisses et la reconstruction de l'Ukraine.",
+      "publishedAt": "2026-06-16"
+    },
+    {
+      "headline": "Genève annonce sa 35e Fête de la musique, trois jours de concerts gratuits du 19 au 21 juin avec de nouvelles scènes à la Jonction et à la place des Volontaires.",
+      "publishedAt": "2026-06-16"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Au sommet du G7 à Évian, les dirigeants ont reçu Volodymyr Zelensky pour discuter de la relance des négociations de paix entre Kyiv et Moscou et ont annoncé de nouvelles sanctions contre la Russie.",
+      "publishedAt": "2026-06-16"
+    },
+    {
+      "headline": "Donald Trump a mis en avant l'accord de paix avec l'Iran, qui doit être formalisé cette semaine, assurant que le détroit d'Ormuz rouvrirait pleinement au commerce.",
+      "publishedAt": "2026-06-16"
+    },
+    {
+      "headline": "Coupe du monde 2026 : la France affrontait le Sénégal tandis que les nations africaines créaient la surprise, le Cap-Vert accrochant l'Espagne et l'Égypte tenant la Belgique en échec.",
+      "publishedAt": "2026-06-16"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 16 juin 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -1.15
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 0.64
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.32
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 0.4
+      }
+    ],
+    "summary": "Séance contrastée le 16 juin : Wall Street a divergé, le Dow Jones signant un record alors que le Nasdaq reculait avant la décision de la Fed, tandis que le SMI et l'Euro Stoxx 50 prolongeaient leurs gains en Europe sur fond de détente géopolitique et de repli du pétrole."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "SpaceX rachète Cursor pour 60 milliards de dollars en actions",
+      "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
+      "publishedAt": "2026-06-16",
+      "summary": "Quelques jours après son entrée en Bourse retentissante, SpaceX a annoncé l'acquisition de Cursor, l'éditeur de l'assistant de codage par IA, pour 60 milliards de dollars en actions. L'opération marque une diversification spectaculaire du groupe spatial vers les outils de développement logiciel dopés à l'intelligence artificielle et illustre la course des géants technologiques à intégrer les plateformes d'IA générative les plus prisées des développeurs."
+    },
+    {
+      "category": "IT",
+      "title": "Android 17 sort avec de nouveaux outils de multitâche et plus de fonctions Gemini",
+      "url": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
+      "publishedAt": "2026-06-16",
+      "summary": "Google a lancé Android 17, qui introduit de nouveaux outils de multitâche pour mieux jongler entre applications et étend l'intégration de son assistant Gemini au cœur du système. La mise à jour renforce les fonctions d'IA contextuelles sur l'ensemble de l'interface et confirme la stratégie de Google d'ancrer son modèle Gemini comme couche centrale de l'expérience mobile."
+    },
+    {
+      "category": "AI",
+      "title": "La part de marché de ChatGPT passe sous les 50% pour la première fois",
+      "url": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
+      "publishedAt": "2026-06-16",
+      "summary": "Pour la première fois, la part de marché de ChatGPT parmi les chatbots IA grand public est repassée sous la barre des 50%, signe d'une concurrence de plus en plus vive. La montée en puissance de rivaux comme Gemini, Claude et d'autres assistants érode la position dominante d'OpenAI, longtemps quasi hégémonique sur ce segment depuis le lancement initial de son robot conversationnel."
+    },
+    {
+      "category": "IT",
+      "title": "Snap dévoile enfin ses lunettes de réalité augmentée Specs",
+      "url": "https://techcrunch.com/2026/06/16/snap-finally-debuts-its-long-awaited-ar-glasses-specs-and-oof-they-arent-cheap/",
+      "publishedAt": "2026-06-16",
+      "summary": "Snap a présenté Specs, ses lunettes de réalité augmentée très attendues, après des années de développement. L'appareil promet d'afficher des contenus numériques superposés au monde réel, mais son tarif élevé risque de freiner son adoption au-delà des développeurs et des passionnés. Le lancement relance la bataille des lunettes connectées face à Meta, Apple et Google sur ce marché émergent."
+    },
+    {
+      "category": "AI",
+      "title": "La passe d'armes d'Anthropic avec l'administration Trump pourrait doper ses ventes",
+      "url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
+      "publishedAt": "2026-06-16",
+      "summary": "Selon des données de ventes, le récent différend public d'Anthropic avec l'administration Trump pourrait paradoxalement profiter à l'entreprise d'IA. Sa visibilité accrue et son positionnement axé sur la sécurité semblent attirer de nouveaux clients, suggérant que la controverse renforce plutôt qu'elle n'affaiblit la demande pour ses modèles Claude auprès des entreprises."
+    },
+    {
+      "category": "IT",
+      "title": "Qualcomm veut être la puce du successeur du smartphone et annonce deux produits",
+      "url": "https://techcrunch.com/2026/06/16/qualcomm-wants-to-be-the-chip-inside-whatever-replaces-your-smartphone-and-it-just-announced-two-products-toward-that-end/",
+      "publishedAt": "2026-06-16",
+      "summary": "Qualcomm a dévoilé deux nouveaux produits destinés aux appareils susceptibles de succéder au smartphone, des lunettes connectées aux objets pilotés par IA. Le fondeur cherche à s'imposer comme le fournisseur de référence des plateformes informatiques de prochaine génération, en pariant sur la diversification au-delà du téléphone alors que le marché mobile classique arrive à maturité."
+    },
+    {
+      "category": "IT",
+      "title": "La valorisation de SpaceX bondit à 2 600 milliards de dollars et dépasse brièvement Amazon",
+      "url": "https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/",
+      "publishedAt": "2026-06-16",
+      "summary": "La valorisation de SpaceX a grimpé à 2 600 milliards de dollars, dépassant brièvement celle d'Amazon, dans la foulée de son introduction en Bourse. Cette envolée propulse l'entreprise d'Elon Musk parmi les sociétés les plus valorisées au monde, portée par les attentes autour de Starlink et de ses ambitions spatiales et technologiques tous azimuts."
+    },
+    {
+      "category": "IT",
+      "title": "Apple va modifier sa fonction de confidentialité Hide My Email",
+      "url": "https://techcrunch.com/2026/06/16/apple-plans-to-change-its-hide-my-email-privacy-feature-that-could-make-it-less-effective/",
+      "publishedAt": "2026-06-16",
+      "summary": "Apple prévoit de modifier sa fonction Hide My Email, qui permet de masquer sa véritable adresse de courriel derrière un alias. Les changements annoncés pourraient en réduire l'efficacité pour protéger la vie privée des utilisateurs, soulevant des interrogations chez les défenseurs de la confidentialité quant aux compromis opérés par la firme à la pomme."
+    },
+    {
+      "category": "IT",
+      "title": "Une faille du système interne de la Coupe du monde permettait de modifier le flux TV",
+      "url": "https://techcrunch.com/2026/06/16/bug-in-fifa-world-cup-internal-system-gave-anyone-ability-to-modify-tv-stream/",
+      "publishedAt": "2026-06-16",
+      "summary": "Une vulnérabilité dans un système interne de la Coupe du monde de la FIFA permettait à n'importe qui de modifier le flux télévisé diffusé. La faille de sécurité, désormais corrigée, illustre les risques cyber pesant sur les grands événements sportifs hyperconnectés, où les infrastructures numériques deviennent des cibles potentielles à fort retentissement médiatique."
+    },
+    {
+      "category": "AI",
+      "title": "Robinhood : sa note sur 10% de licenciements montre que blâmer l'IA ne suffit pas",
+      "url": "https://techcrunch.com/2026/06/16/robinhoods-note-on-10-layoffs-shows-blaming-ai-isnt-cutting-it/",
+      "publishedAt": "2026-06-16",
+      "summary": "La note de Robinhood justifiant le licenciement de 10% de ses effectifs montre que l'argument de l'automatisation par l'IA convainc de moins en moins. L'épisode alimente le débat sur la tendance des entreprises à invoquer l'intelligence artificielle pour légitimer des coupes d'effectifs, alors que les véritables raisons relèvent souvent de la conjoncture et de la rentabilité."
+    },
+    {
+      "category": "IT",
+      "title": "L'Inde bloque temporairement Telegram sur fond de fraude aux examens",
+      "url": "https://techcrunch.com/2026/06/16/india-temporarily-blocks-access-to-telegram-over-exam-fraud-concerns/",
+      "publishedAt": "2026-06-16",
+      "summary": "L'Inde a ordonné un blocage temporaire de l'accès à Telegram, invoquant des inquiétudes liées à des fraudes aux examens organisées via la messagerie. La décision relance la question de la régulation des plateformes de communication chiffrées et de leur responsabilité face aux usages illicites, dans un pays qui multiplie les mesures de contrôle sur les services numériques."
+    },
+    {
+      "category": "IT",
+      "title": "Threads atteint 500 millions d'utilisateurs mensuels et ajoute de nouvelles fonctions",
+      "url": "https://techcrunch.com/2026/06/16/threads-adds-new-personalization-and-community-features-as-it-reaches-500m-monthly-users/",
+      "publishedAt": "2026-06-16",
+      "summary": "Le réseau social Threads, propriété de Meta, a franchi le cap des 500 millions d'utilisateurs actifs mensuels et déploie de nouvelles fonctionnalités de personnalisation et d'animation de communautés. Cette croissance conforte la plateforme comme rivale sérieuse de X, Meta continuant d'investir pour fidéliser ses utilisateurs autour de la conversation textuelle."
+    },
+    {
+      "category": "IT",
+      "title": "Mobileye lance ses robotaxis aux États-Unis et joue sur les deux tableaux",
+      "url": "https://techcrunch.com/2026/06/16/mobileye-us-robotaxi-launch-will-put-it-on-both-sides-of-the-av-business/",
+      "publishedAt": "2026-06-16",
+      "summary": "Mobileye lance son service de robotaxis aux États-Unis, se positionnant à la fois comme fournisseur de technologies de conduite autonome et comme opérateur de flottes. Cette double casquette dans l'industrie des véhicules autonomes vise à accélérer le déploiement commercial tout en valorisant ses systèmes auprès des constructeurs partenaires."
+    },
+    {
+      "category": "AI",
+      "title": "Plaud dépasse 100 millions de dollars de revenus récurrents avec ses preneurs de notes IA",
+      "url": "https://techcrunch.com/2026/06/16/plaud-says-its-software-business-topped-100m-in-arr-after-shipping-over-2m-ai-notetakers/",
+      "publishedAt": "2026-06-16",
+      "summary": "La start-up Plaud annonce avoir franchi les 100 millions de dollars de revenus annuels récurrents pour son activité logicielle, après avoir vendu plus de deux millions de ses appareils de prise de notes par IA. Ce succès illustre l'appétit du marché pour les assistants matériels capables de transcrire et de résumer automatiquement réunions et conversations."
+    },
+    {
+      "category": "AI",
+      "title": "Le ministère de la Justice américain défend les turbines à gaz non autorisées de xAI",
+      "url": "https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/",
+      "publishedAt": "2026-06-16",
+      "summary": "Le ministère américain de la Justice affirme que les turbines à gaz installées sans autorisation par xAI relèvent de la sécurité « nationale, économique et énergétique ». L'argument vise à protéger l'alimentation électrique des centres de données d'IA d'Elon Musk, dans un contexte de tensions croissantes entre l'explosion des besoins énergétiques de l'IA et les réglementations environnementales."
+    },
+    {
+      "category": "Science",
+      "title": "Un composé à base de cuivre élimine les protéines toxiques d'Alzheimer et restaure la mémoire",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260615033835.htm",
+      "publishedAt": "2026-06-15",
+      "summary": "Des chercheurs rapportent qu'un composé à base de cuivre a rétabli la capacité du cerveau à éliminer les protéines toxiques associées à la maladie d'Alzheimer, réduisant fortement l'accumulation d'amyloïde et améliorant la mémoire lors d'expériences en laboratoire. Ces résultats précliniques ouvrent une piste thérapeutique prometteuse, même s'ils devront encore être confirmés chez l'humain avant toute application clinique."
+    },
+    {
+      "category": "Science",
+      "title": "Une faille cachée découverte dans les « polluants éternels » PFAS",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260615033846.htm",
+      "publishedAt": "2026-06-15",
+      "summary": "Des scientifiques ont identifié un point faible des PFAS, ces « polluants éternels » réputés indestructibles : des radicaux hydrogène générés par une lumière ultraviolette intense parviennent à briser ces molécules persistantes sans ajout de produits chimiques. La découverte laisse entrevoir des méthodes de dépollution plus propres pour éliminer des contaminants omniprésents dans l'eau et l'environnement."
+    },
+    {
+      "category": "Science",
+      "title": "Un signe précoce de dépression repéré dans le regard des enfants",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260616102214.htm",
+      "publishedAt": "2026-06-16",
+      "summary": "Une étude révèle que la dépression modifie ce que les enfants remarquent dans les visages qui les entourent, un indice détectable dans leur manière de regarder. Cette signature visuelle précoce pourrait à terme aider à dépister plus tôt les troubles dépressifs chez l'enfant et à orienter une prise en charge avant l'apparition de symptômes plus marqués."
+    },
+    {
+      "category": "Science",
+      "title": "Diabète et démence : dix liens surprenants mis en lumière",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260616103128.htm",
+      "publishedAt": "2026-06-16",
+      "summary": "Des travaux détaillent comment diabète et démence apparaissent étroitement liés, les troubles de l'insuline affectant l'approvisionnement énergétique du cerveau. Comprendre ces connexions métaboliques pourrait aider à prévenir le déclin cognitif et à concevoir des stratégies communes contre deux maladies au poids croissant dans les populations vieillissantes."
+    },
+    {
+      "category": "AI",
+      "title": "Probably lève 9 millions de dollars pour bâtir une IA plus fiable",
+      "url": "https://techcrunch.com/2026/06/16/probably-raises-9m-to-build-a-more-reliable-kind-of-ai/",
+      "publishedAt": "2026-06-16",
+      "summary": "La jeune pousse Probably a levé 9 millions de dollars pour développer une forme d'intelligence artificielle plus fiable, axée sur le raisonnement probabiliste et la maîtrise de l'incertitude. L'entreprise mise sur des modèles capables de mieux quantifier leur confiance afin de réduire les erreurs et hallucinations, un enjeu clé pour le déploiement de l'IA dans des contextes critiques."
+    }
+  ]
+}
