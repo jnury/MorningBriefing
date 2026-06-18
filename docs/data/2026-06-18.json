@@ -1,0 +1,177 @@
+{
+  "date": "2026-06-18",
+  "generatedAt": "2026-06-18T06:05:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 33,
+      "low": 19,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 31,
+      "low": 20,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Genève a levé dès le 17 juin à 15h30 les restrictions de passage de la frontière vers la France, la situation sécuritaire étant revenue à la normale après le sommet du G7 d'Évian.",
+      "publishedAt": "2026-06-17"
+    },
+    {
+      "headline": "Les cantons de Genève et de Vaud activent leur plan canicule dès le jeudi 18 juin, MétéoSuisse annonçant des températures pouvant atteindre 37 °C jusqu'à mardi.",
+      "publishedAt": "2026-06-17"
+    },
+    {
+      "headline": "Le canton de Genève annonce l'engagement de 1078 apprenties et apprentis pour la rentrée 2026, confirmant son soutien à la formation professionnelle.",
+      "publishedAt": "2026-06-17"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Réunis à Évian, les dirigeants du G7 ont clôturé leur sommet le 17 juin en s'engageant à renforcer les sanctions sur les secteurs pétrolier et gazier russes et à accroître l'aide à la défense aérienne ukrainienne.",
+      "publishedAt": "2026-06-17"
+    },
+    {
+      "headline": "Les États-Unis et l'Iran ont annoncé un accord de paix intérimaire, signé par Donald Trump à Versailles le 17 juin, prévoyant la levée du blocus naval des ports iraniens et la prolongation du cessez-le-feu.",
+      "publishedAt": "2026-06-17"
+    },
+    {
+      "headline": "La Coupe du monde de football 2026 s'est poursuivie le 17 juin avec quatre rencontres, dont Angleterre-Croatie et Portugal-RD Congo, lors de sa septième journée.",
+      "publishedAt": "2026-06-17"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 17 juin 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -1.34
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": -0.98
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.39
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 0.6
+      }
+    ],
+    "summary": "Wall Street a reculé sur fond de craintes d'un possible relèvement des taux de la Fed, tandis que les bourses européennes ont terminé en légère hausse."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "SpaceX rachète Cursor pour 60 milliards de dollars en actions",
+      "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
+      "publishedAt": "2026-06-16",
+      "summary": "Quelques jours après son entrée en bourse retentissante, SpaceX a levé son option pour acquérir Cursor, plateforme de codage assistée par IA, dans une transaction entièrement en actions évaluée à environ 60 milliards de dollars. L'opération, dont la clôture est attendue au troisième trimestre 2026, vise à renforcer les ambitions d'Elon Musk dans l'IA via une intégration avec xAI et à accélérer les applications et infrastructures d'IA pour les entreprises, jusqu'à une éventuelle puissance de calcul satellitaire."
+    },
+    {
+      "category": "AI",
+      "title": "La part de marché de ChatGPT passe sous les 50 % pour la première fois",
+      "url": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
+      "publishedAt": "2026-06-16",
+      "summary": "La part de marché de ChatGPT est tombée sous la barre des 50 % pour la première fois, selon TechCrunch, signe d'une concurrence accrue sur le marché des assistants conversationnels. Les utilisateurs se tournent davantage vers des rivaux comme Gemini de Google, Claude d'Anthropic et Grok de xAI. Ce recul illustre la maturation rapide d'un secteur longtemps dominé par OpenAI, où la différenciation se joue désormais sur les performances, les prix et l'intégration aux outils existants."
+    },
+    {
+      "category": "AI",
+      "title": "Anthropic, première start-up d'IA à rejoindre la coalition Frontier de captation du carbone",
+      "url": "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/",
+      "publishedAt": "2026-06-17",
+      "summary": "Anthropic devient la première start-up d'intelligence artificielle à rejoindre Frontier, le collectif d'achat anticipé de crédits de captation du carbone. L'entreprise contribue à une nouvelle tranche de financement de 915 millions de dollars, signe de l'attention croissante portée par le secteur de l'IA à son empreinte environnementale, alors que la demande énergétique des centres de données ne cesse de croître. Cette adhésion vise à soutenir le développement de technologies durables d'élimination du CO2."
+    },
+    {
+      "category": "AI",
+      "title": "Seuls 16 % des Américains jugent l'impact de l'IA positif, selon une étude",
+      "url": "https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/",
+      "publishedAt": "2026-06-17",
+      "summary": "Une nouvelle étude révèle que seuls 16 % des Américains estiment que l'IA aura un impact positif sur la société au cours des vingt prochaines années, tandis qu'environ 40 % anticipent un effet négatif. Ces chiffres traduisent une défiance persistante du grand public à l'égard de la technologie, malgré son adoption croissante dans les entreprises. Ils soulignent l'enjeu, pour les acteurs du secteur, de mieux démontrer les bénéfices concrets et de répondre aux inquiétudes sociétales."
+    },
+    {
+      "category": "AI",
+      "title": "Pramaana Labs lève 27 millions de dollars pour la vérification formelle de l'IA",
+      "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+      "publishedAt": "2026-06-17",
+      "summary": "La start-up Pramaana Labs a annoncé une levée de 27 millions de dollars en amorçage, menée par Khosla Ventures, pour appliquer la vérification formelle aux systèmes d'IA. L'objectif est de prouver mathématiquement le comportement des modèles afin d'en renforcer la fiabilité et la sécurité, un enjeu majeur à mesure que l'IA s'intègre dans des applications critiques. Cette approche pourrait offrir des garanties plus solides que les seuls tests empiriques face aux risques d'erreurs."
+    },
+    {
+      "category": "AI",
+      "title": "60 % des consommateurs américains rebutés par la mention « IA » dans le marketing",
+      "url": "https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/",
+      "publishedAt": "2026-06-16",
+      "summary": "Selon une enquête relayée par TechCrunch, 60 % des consommateurs américains déclarent que la présence du terme « IA » dans la communication des marques constitue un repoussoir, et 86 % disent ne pas faire pleinement confiance à cette technologie. Ces résultats invitent les entreprises à la prudence dans leur marketing : mettre en avant l'IA comme argument de vente peut se révéler contre-productif auprès d'un public encore méfiant et attaché à la valeur concrète des produits."
+    },
+    {
+      "category": "IT",
+      "title": "Snap dévoile des lunettes de réalité augmentée à près de 2200 dollars",
+      "url": "https://techcrunch.com/2026/06/17/after-unveiling-ridiculously-expensive-ar-glasses-snaps-stock-takes-a-dive/",
+      "publishedAt": "2026-06-17",
+      "summary": "Snap a présenté ses lunettes de réalité augmentée « Specs », affichées à près de 2200 dollars l'unité, un tarif qui a refroidi les investisseurs et fait plonger l'action de l'entreprise. Le groupe mise sur la réalité augmentée pour rendre, selon ses mots, le fait de fixer un smartphone dépassé. Mais le positionnement haut de gamme interroge sur l'adoption grand public d'un produit ambitieux, dans un marché des lunettes connectées encore balbutiant et très concurrentiel."
+    },
+    {
+      "category": "IT",
+      "title": "Apple prévient que les hausses des prix des puces mémoire pourraient renchérir l'iPhone",
+      "url": "https://techcrunch.com/2026/06/17/ai-is-hurting-apple-in-more-ways-than-one-it-may-force-iphone-price-increases/",
+      "publishedAt": "2026-06-17",
+      "summary": "Le directeur général d'Apple, Tim Cook, a averti que les prochains Mac, iPhone et iPad pourraient devenir plus chers en raison de l'envolée des coûts des puces mémoire et de stockage, qualifiant ces hausses d'« inévitables ». La forte demande liée à l'intelligence artificielle tend le marché des composants et pèse sur les marges des fabricants d'électronique grand public. Apple pourrait répercuter une partie de ces surcoûts sur ses prix de vente."
+    },
+    {
+      "category": "IT",
+      "title": "SpaceX cotée en bourse : ce qu'il faut savoir après l'IPO",
+      "url": "https://techcrunch.com/2026/06/16/spacex-is-public-everything-you-need-to-know-post-ipo/",
+      "publishedAt": "2026-06-16",
+      "summary": "Après son introduction en bourse, l'action SpaceX a poursuivi sa progression, propulsant brièvement la capitalisation de l'entreprise au-delà de celle d'Amazon et l'établissant parmi les sociétés cotées les plus valorisées au monde. TechCrunch fait le point sur les implications de cette IPO historique pour le groupe spatial d'Elon Musk : structure de l'actionnariat, perspectives de croissance et liens avec ses autres activités, dont les ambitions dans l'IA et les infrastructures de calcul."
+    },
+    {
+      "category": "Science",
+      "title": "Une start-up développe des « super-métaux » sans fusion de poudre",
+      "url": "https://techcrunch.com/2026/06/16/this-startups-super-metals-could-soon-be-in-military-drones-luxury-watches-and-chefs-knives/",
+      "publishedAt": "2026-06-16",
+      "summary": "La jeune pousse Foundation Alloy a mis au point une technique d'alliage qui assemble les particules de poudre métallique en les compactant plutôt qu'en les faisant fondre. Ce procédé produit des matériaux aux propriétés améliorées qui pourraient équiper drones militaires, montres de luxe ou couteaux de cuisine professionnels. En évitant la fusion, la méthode promet des structures plus homogènes et performantes, ouvrant la voie à de nouvelles applications industrielles exigeant résistance et précision."
+    },
+    {
+      "category": "Science",
+      "title": "Des chercheurs entrevoient des capacités de régénération chez les mammifères",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260617032207.htm",
+      "publishedAt": "2026-06-17",
+      "summary": "Des scientifiques ont franchi une étape surprenante vers la régénération chez les mammifères : la capacité à reconstruire des parties complexes du corps ne serait pas perdue, mais simplement « désactivée ». À l'aide d'une approche en deux temps, les chercheurs sont parvenus à réactiver des mécanismes de régénération, laissant entrevoir des perspectives pour la médecine régénérative. Ces travaux pourraient à terme inspirer de nouvelles stratégies de réparation des tissus humains."
+    },
+    {
+      "category": "Science",
+      "title": "Une avancée en supraconductivité pour des composants ultra-efficaces",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260617032211.htm",
+      "publishedAt": "2026-06-17",
+      "summary": "Des chercheurs suédois ont conçu des modifications de surface à l'échelle nanométrique permettant à des matériaux supraconducteurs de mieux conserver leurs propriétés. Cette avancée pourrait ouvrir la voie à des composants électroniques nettement plus efficaces, en réduisant les pertes d'énergie. Les applications potentielles vont du transport d'électricité à l'informatique, où la supraconductivité promet des gains de performance et de sobriété énergétique majeurs si elle peut être stabilisée dans des conditions plus accessibles."
+    },
+    {
+      "category": "Science",
+      "title": "Les médicaments GLP-1 associés à une baisse des comportements violents",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260617032152.htm",
+      "publishedAt": "2026-06-17",
+      "summary": "Une étude de l'université Rutgers suggère que les médicaments de la classe GLP-1, comme l'Ozempic et le Wegovy, pourraient affaiblir le lien entre les tendances impulsives et les comportements violents. Au-delà de leurs effets sur le poids et le diabète, ces traitements montreraient ainsi des effets inattendus sur le comportement. Les auteurs appellent toutefois à des recherches complémentaires pour confirmer ce mécanisme et en cerner les implications cliniques et éthiques."
+    },
+    {
+      "category": "Science",
+      "title": "Un probiotique quotidien pourrait soulager dépression et anxiété",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260617032149.htm",
+      "publishedAt": "2026-06-17",
+      "summary": "Des résultats cliniques indiquent qu'une supplémentation quotidienne en probiotiques, associée à un traitement antidépresseur classique, a entraîné une amélioration accrue de la santé mentale chez des personnes âgées. Ces travaux renforcent l'hypothèse d'un rôle de l'axe intestin-cerveau dans les troubles de l'humeur. S'ils sont confirmés, ils pourraient ouvrir la voie à des approches complémentaires, simples et peu coûteuses, pour soulager les symptômes de dépression et d'anxiété."
+    },
+    {
+      "category": "Science",
+      "title": "Une araignée amazonienne se déguise en champignon parasite",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260617032201.htm",
+      "publishedAt": "2026-06-17",
+      "summary": "Des scientifiques ont décrit une nouvelle espèce d'araignée amazonienne, Taczanowskia waska, dotée d'un camouflage spectaculaire : elle imite l'apparence et le comportement d'un champignon parasite pour échapper à ses prédateurs. Ce mimétisme rare illustre la diversité des stratégies de survie développées par les arthropodes des forêts tropicales. La découverte enrichit la connaissance de la biodiversité amazonienne et des mécanismes d'évolution du camouflage dans des écosystèmes encore largement inexplorés."
+    }
+  ]
+}
