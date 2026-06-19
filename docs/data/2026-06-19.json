@@ -1,0 +1,163 @@
+{
+  "date": "2026-06-19",
+  "generatedAt": "2026-06-19T05:45:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 34,
+      "low": 21,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 33
+    },
+    "lausanne": {
+      "high": 31,
+      "low": 23,
+      "condition": "Averses de pluie",
+      "weathercode": 80,
+      "precipProbability": 23
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Le sommet du G7 d'Évian salué comme un succès, Genève annonce un retour à la normale plus rapide que prévu après la levée des dispositifs de sécurité.",
+      "publishedAt": "2026-06-18"
+    },
+    {
+      "headline": "Coupe du monde 2026 : la Suisse s'impose 4-1 face à la Bosnie, le jeune Genevois Johan Manzambi décisif avec un doublé.",
+      "publishedAt": "2026-06-18"
+    },
+    {
+      "headline": "La Banque nationale suisse maintient son taux directeur inchangé, confirmant sa prudence face à un environnement international incertain.",
+      "publishedAt": "2026-06-18"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Les États-Unis et l'Iran signent un protocole d'accord visant à mettre fin à leur conflit, ouvrant la voie à une désescalade.",
+      "publishedAt": "2026-06-18"
+    },
+    {
+      "headline": "Le secrétaire américain à la Défense Pete Hegseth annonce un réexamen de la présence militaire des États-Unis en Europe et appelle à une « OTAN 3.0 ».",
+      "publishedAt": "2026-06-18"
+    },
+    {
+      "headline": "Pékin exhorte le G7 à renoncer aux règles « en petit comité » après l'objectif affiché du bloc de réduire sa dépendance aux terres rares chinoises.",
+      "publishedAt": "2026-06-18"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 18 juin 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": 1.91
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 0.14
+      },
+      {
+        "name": "SMI",
+        "changePct": -0.36
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 0.3
+      }
+    ],
+    "summary": "Wall Street a terminé en hausse, portée par la tech après une surprise de la Fed, et l'Euro Stoxx 50 a signé un record, tandis que le SMI suisse reculait à contre-courant après le statu quo de la BNS."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "General Intuition lève environ 300 millions de dollars à une valorisation de 2 milliards",
+      "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/",
+      "publishedAt": "2026-06-18",
+      "summary": "La start-up new-yorkaise General Intuition lève environ 300 millions de dollars pour une valorisation proche de 2 milliards. Elle développe des modèles de fondation qui entraînent des agents IA au raisonnement spatial et temporel à partir de séquences de jeux vidéo, en exploitant le jeu de données de Medal (environ 2 milliards de vidéos par an issues de 10 millions d'utilisateurs mensuels). Le tour de table réunit notamment Jeff Bezos, Eric Schmidt, Khosla Ventures et General Catalyst. L'objectif est d'apprendre aux agents à percevoir et interagir en temps réel dans des simulations."
+    },
+    {
+      "category": "AI",
+      "title": "Adobe étend son assistant IA Firefly à Premiere, Illustrator et InDesign",
+      "url": "https://techcrunch.com/2026/06/18/adobe-adds-its-ai-assistant-to-premiere-illustrator-and-indesign/",
+      "publishedAt": "2026-06-18",
+      "summary": "Adobe déploie son assistant IA Firefly dans Premiere, Illustrator, InDesign et Frame.io, avec de nouvelles fonctions : génération de kits de marque, création de vidéos produit et construction de storyboards. Dans Premiere, l'assistant organise les éléments et renomme les clips ; dans Illustrator, il gère les calques et repère les polices manquantes. L'application Firefly intègre par ailleurs une fonction Elements, en bêta privée, permettant de sauvegarder des personnages et objets générés par IA pour les réutiliser d'un projet à l'autre."
+    },
+    {
+      "category": "IT",
+      "title": "Waymo rappelle près de 4000 robotaxis pour corriger leur comportement dans les zones de chantier",
+      "url": "https://techcrunch.com/2026/06/18/waymo-recalls-nearly-4000-robotaxis-to-stop-them-driving-into-highway-construction-zones/",
+      "publishedAt": "2026-06-18",
+      "summary": "Waymo rappelle près de 4000 robotaxis après avoir identifié au moins 13 cas où des véhicules se sont engagés dans des zones de chantier sur autoroute : six à Phoenix en avril, sept à San Francisco en mai. L'entreprise a restreint la circulation sur voies rapides le 19 mai, le temps de déployer un correctif logiciel améliorant la reconnaissance des panneaux de fermeture de bretelles et des chantiers actifs. Il s'agit du sixième rappel de Waymo, alors que la société étend ses opérations à plus de 20 villes."
+    },
+    {
+      "category": "IT",
+      "title": "Apple ouvre l'App Store à la concurrence au Brésil",
+      "url": "https://techcrunch.com/2026/06/18/apple-opens-up-app-store-to-new-competition-in-brazil/",
+      "publishedAt": "2026-06-18",
+      "summary": "Apple autorise désormais les développeurs brésiliens à distribuer des applications iOS via des boutiques alternatives et à traiter les paiements hors de l'App Store, à la suite d'un accord avec le régulateur de la concurrence CADE. La firme introduit des garde-fous, dont un processus de notarisation des applications alternatives et une commission « Core Technology » de 5 %. Les développeurs doivent accepter les nouvelles conditions de licence d'ici le 6 juillet 2026. Cette ouverture prolonge des pressions réglementaires similaires dans l'UE et au Japon."
+    },
+    {
+      "category": "IT",
+      "title": "Spotify lance ses ventes de billets réservés aux super-fans",
+      "url": "https://techcrunch.com/2026/06/18/spotifys-reserved-ticket-sales-to-musics-superfans-are-now-going-live/",
+      "publishedAt": "2026-06-18",
+      "summary": "Spotify déploie ses ventes de billets de concert réservées aux auditeurs les plus fidèles d'un artiste. Le dispositif s'appuie sur les données d'écoute de la plateforme pour offrir aux super-fans un accès prioritaire à des places, renforçant le lien entre streaming et billetterie et la monétisation de l'engagement des fans."
+    },
+    {
+      "category": "IT",
+      "title": "Pixi transforme les SMS en expériences de réalité augmentée sur iOS",
+      "url": "https://techcrunch.com/2026/06/18/pixis-new-ios-app-turns-text-messages-into-interactive-ar-experiences/",
+      "publishedAt": "2026-06-18",
+      "summary": "La nouvelle application iOS de Pixi convertit les messages texte en expériences de réalité augmentée interactives. L'objectif est de rendre les échanges plus immersifs et ludiques en superposant des éléments AR aux conversations, une approche qui mise sur la créativité pour relancer l'intérêt autour de la messagerie mobile."
+    },
+    {
+      "category": "Science",
+      "title": "Un réservoir d'Arizona s'assèche après l'effondrement du manteau neigeux, provoquant une mortalité massive de poissons",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260618041458.htm",
+      "publishedAt": "2026-06-18",
+      "summary": "Le réservoir de San Carlos, en Arizona, est rempli à moins de 1 % de sa capacité après une défaillance du manteau neigeux. La chute brutale du niveau d'eau a entraîné une mortalité massive de poissons et la fermeture du site. Ce phénomène illustre la vulnérabilité des ressources en eau de l'Ouest américain face à des hivers de plus en plus secs et à un enneigement insuffisant."
+    },
+    {
+      "category": "Science",
+      "title": "Des erreurs majeures identifiées dans la base de données climatique Climate TRACE",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260618041519.htm",
+      "publishedAt": "2026-06-18",
+      "summary": "Une étude de la Northern Arizona University met en évidence d'importants problèmes dans Climate TRACE, la base de données de suivi des émissions cofondée par Al Gore et largement utilisée. Les chercheurs pointent des incohérences susceptibles d'affecter les estimations d'émissions, appelant à une vérification rigoureuse des données avant leur usage dans les analyses et les décisions de politique climatique."
+    },
+    {
+      "category": "Science",
+      "title": "L'ADN ancien révèle que la peste tuait déjà des humains il y a 5500 ans",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260618041450.htm",
+      "publishedAt": "2026-06-18",
+      "summary": "L'analyse d'ADN ancien prélevé dans un cimetière de Sibérie montre que la peste affectait des chasseurs-cueilleurs il y a environ 5500 ans, bien avant l'urbanisation. Cette découverte recule la chronologie connue de la maladie et éclaire la manière dont l'agent pathogène a circulé au sein de populations humaines anciennes, avant l'apparition des grandes agglomérations."
+    },
+    {
+      "category": "Science",
+      "title": "Une « porte sismique » découverte alors que les failles californiennes atteignent un stress record en 1000 ans",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260617032155.htm",
+      "publishedAt": "2026-06-17",
+      "summary": "Des scientifiques décrivent une « porte sismique » dans le grand système de failles du sud de la Californie, plus contraint qu'à tout autre moment des 1000 dernières années. Les travaux, centrés sur la région du Cajon Pass, examinent les conditions qui pourraient favoriser ou freiner la propagation d'une rupture entre segments de faille, un enjeu clé pour l'évaluation du risque sismique régional."
+    },
+    {
+      "category": "Science",
+      "title": "Le rein dispose d'un système de secours insoupçonné",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260617032153.htm",
+      "publishedAt": "2026-06-17",
+      "summary": "Une étude révèle que le rein possède un mécanisme de secours jusqu'ici inconnu, capable de prendre le relais de certaines fonctions. Cette découverte ouvre des pistes pour mieux comprendre la résilience de l'organe et, à terme, développer des approches thérapeutiques contre les maladies rénales."
+    },
+    {
+      "category": "Science",
+      "title": "Huit additifs alimentaires courants associés à l'hypertension et aux maladies cardiaques",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260617032204.htm",
+      "publishedAt": "2026-06-17",
+      "summary": "Des chercheurs établissent un lien entre huit additifs alimentaires courants et un risque accru d'hypertension artérielle et de maladies cardiovasculaires. Ces résultats relancent le débat sur la composition des aliments transformés et appellent à de nouvelles évaluations pour mieux cerner l'impact de ces substances sur la santé cardiométabolique."
+    },
+    {
+      "category": "Science",
+      "title": "Ces abeilles n'ont nulle part où se réfugier face à la chaleur extrême",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260617032157.htm",
+      "publishedAt": "2026-06-17",
+      "summary": "Une étude montre que certaines abeilles ne disposent d'aucun refuge efficace contre la chaleur extrême, ce qui menace leur survie à mesure que les épisodes caniculaires se multiplient. Les chercheurs soulignent les conséquences possibles pour la pollinisation et les écosystèmes, et plaident pour des mesures de protection adaptées au réchauffement."
+    }
+  ]
+}
