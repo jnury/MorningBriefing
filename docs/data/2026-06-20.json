@@ -1,0 +1,173 @@
+{
+  "date": "2026-06-20",
+  "generatedAt": "2026-06-20T06:30:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 34,
+      "low": 19,
+      "condition": "Brouillard matinal",
+      "weathercode": 45,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 32,
+      "low": 20,
+      "condition": "Principalement clair",
+      "weathercode": 1,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "La Banque nationale suisse a maintenu son taux directeur à 0%, pour la quatrième fois consécutive, le spectre d'une forte inflation s'éloignant avec la détente au Moyen-Orient.",
+      "publishedAt": "2026-06-18"
+    },
+    {
+      "headline": "Le Conseil national a fait volte-face et rouvert la voie à la construction de nouvelles centrales nucléaires en Suisse, par 108 voix contre 87 ; le peuple aura le dernier mot via un référendum.",
+      "publishedAt": "2026-06-18"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Israël et le Hezbollah ont conclu un nouveau cessez-le-feu, négocié par les États-Unis et le Qatar, après une flambée de violence dans le sud du Liban.",
+      "publishedAt": "2026-06-19"
+    },
+    {
+      "headline": "Le travailliste Andy Burnham a remporté l'élection partielle de Makerfield, décrochant un siège aux Communes qui le place en position de défier le Premier ministre Keir Starmer.",
+      "publishedAt": "2026-06-19"
+    },
+    {
+      "headline": "Les États-Unis se sont qualifiés pour les huitièmes de finale du Mondial 2026 en battant l'Australie 2-0 à Seattle.",
+      "publishedAt": "2026-06-19"
+    }
+  ],
+  "markets": {
+    "asOf": "Wall Street : clôture du 18 juin (Bourse fermée le 19, Juneteenth) ; Europe : clôture du 19 juin 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": 1.91
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 0.14
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.06
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 0.4
+      }
+    ],
+    "summary": "Wall Street, fermée le 19 juin pour Juneteenth, restait sur une forte progression du Nasdaq la veille, tandis que les Bourses européennes terminaient la séance du 19 juin quasi stables."
+  },
+  "tech": [
+    {
+      "category": "IT",
+      "title": "Les start-up de la fusion nucléaire ont déjà levé plus de 7 milliards de dollars",
+      "url": "https://techcrunch.com/2026/06/19/every-fusion-startup-that-has-raised-over-100m/",
+      "publishedAt": "2026-06-19",
+      "summary": "Les start-up de la fusion nucléaire ont collectivement levé plus de 7,1 milliards de dollars, selon un panorama de TechCrunch recensant seize entreprises ayant dépassé chacune 100 millions de dollars de financement. Commonwealth Fusion Systems domine avec près de 3 milliards levés. L'article détaille la diversité des approches (tokamaks, confinement inertiel, configurations alternatives), des calendriers et des investisseurs, illustrant l'afflux de capitaux privés vers une énergie encore expérimentale mais perçue comme stratégique."
+    },
+    {
+      "category": "AI",
+      "title": "Allbirds se réinvente en Smartbird, société d'infrastructure d'IA",
+      "url": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
+      "publishedAt": "2026-06-19",
+      "summary": "Allbirds, le fabricant de chaussures, s'est métamorphosé en Smartbird, une société d'infrastructure d'IA, après avoir cédé son activité de chaussures pour 43 millions de dollars et levé 100 millions. Sa nouvelle dirigeante, Nadia Carlsten, ancienne d'AWS, doit constituer une équipe de toutes pièces. Smartbird vise les entreprises soucieuses de souveraineté des données et de maîtrise de leur capacité de calcul, plutôt que de concurrencer frontalement les grands fournisseurs de cloud."
+    },
+    {
+      "category": "AI",
+      "title": "General Intuition lève 300 millions de dollars pour des agents IA au raisonnement spatial",
+      "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/",
+      "publishedAt": "2026-06-18",
+      "summary": "La start-up General Intuition lève environ 300 millions de dollars pour une valorisation de 2 milliards. Elle développe des modèles de fondation dotés de raisonnement spatial pour des agents IA, en s'appuyant sur le jeu de données de Medal (2 milliards de vidéos par an) afin d'entraîner une IA incarnée et des « modèles du monde ». Un nouveau produit est attendu d'ici le début de l'automne."
+    },
+    {
+      "category": "AI",
+      "title": "OpenAI recrute Noam Shazeer et Dean Ball avant son entrée en Bourse",
+      "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+      "publishedAt": "2026-06-18",
+      "summary": "À l'approche de son entrée en Bourse, OpenAI recrute deux figures de poids : Noam Shazeer, co-inventeur de l'architecture Transformer venu de Google DeepMind, et Dean Ball, ancien responsable de la politique IA sous l'administration Trump. Ball dirigera une nouvelle équipe « Strategic Futures » consacrée au risque catastrophique, à l'auto-amélioration récursive et à l'impact sur le marché du travail. Ces nominations renforcent le positionnement technique et politique d'OpenAI."
+    },
+    {
+      "category": "IT",
+      "title": "Des centres de données en orbite ? SpaceX face au défi de la chaleur",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260618041501.htm",
+      "publishedAt": "2026-06-18",
+      "summary": "SpaceX et d'autres acteurs explorent l'idée de centres de données en orbite, pour profiter de l'énergie solaire abondante et échapper aux contraintes environnementales terrestres. Mais l'espace impose des obstacles majeurs : évacuer 10 mégawatts de chaleur résiduelle exigerait des radiateurs grands comme deux terrains de football, sans compter les dégâts dus aux radiations et le coût des réparations. Les premières applications viables serviraient surtout des opérations spatiales, la latence empêchant de concurrencer le cloud terrestre."
+    },
+    {
+      "category": "Science",
+      "title": "Une stratégie « théorie de l'information » gagne à Wordle 99 % du temps",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260619020508.htm",
+      "publishedAt": "2026-06-19",
+      "summary": "Des chercheurs ont mis au point, à l'aide de la théorie de l'information, une stratégie pour le jeu Wordle qui gagne dans 99 % des cas. En choisissant les mots de départ et suivants de façon à maximiser l'information obtenue à chaque essai, l'algorithme réduit drastiquement l'incertitude. L'étude, publiée dans le Northeast Journal of Complex Systems, illustre concrètement comment les principes de l'entropie peuvent optimiser la résolution de problèmes ludiques."
+    },
+    {
+      "category": "Science",
+      "title": "Une molécule réactive les défenses immunitaires du cerveau contre Alzheimer",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260619020506.htm",
+      "publishedAt": "2026-06-19",
+      "summary": "Des chercheurs ont identifié une molécule, baptisée OLE, capable de restaurer les fonctions protectrices des microglies, les cellules immunitaires du cerveau. Chez l'animal, le traitement a réduit les plaques de bêta-amyloïde et amélioré la mémoire, ouvrant une piste thérapeutique prometteuse contre la maladie d'Alzheimer. Les travaux, couverts par des brevets européens, doivent encore être validés chez l'humain."
+    },
+    {
+      "category": "Science",
+      "title": "Une galaxie « usine à neutrinos » alimentée par les étoiles, pas par un trou noir",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260619020510.htm",
+      "publishedAt": "2026-06-19",
+      "summary": "Des astronomes s'attendaient à un trou noir mais ont découvert une « usine à neutrinos » alimentée par les étoiles. La galaxie « Shadow Blaster », observée à 11 milliards d'années-lumière grâce à une lentille gravitationnelle, produit des neutrinos de haute énergie via une intense formation d'étoiles dans un cœur dense de gaz et de poussière de quelque 1 500 années-lumière. De telles galaxies compactes pourraient expliquer jusqu'à 20 % des neutrinos de haute énergie observés dans l'Univers."
+    },
+    {
+      "category": "Science",
+      "title": "La « plus grande erreur » d'Einstein trouverait une explication topologique",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260619020516.htm",
+      "publishedAt": "2026-06-19",
+      "summary": "Des chercheurs de l'Université Brown proposent que la forme même de l'espace-temps protégerait la constante cosmologique des effets quantiques déstabilisants. En établissant des similitudes mathématiques entre gravité quantique et effet Hall quantique, ils suggèrent que la topologie « verrouille » la constante sur des valeurs stables. Cette idée pourrait éclairer l'une des plus grandes énigmes de la physique : pourquoi l'expansion de l'Univers est bien plus lente que ne le prédit la théorie quantique."
+    },
+    {
+      "category": "Science",
+      "title": "Moins d'une personne sur cinq consomme assez de flavanols, protecteurs du cœur",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260619020512.htm",
+      "publishedAt": "2026-06-19",
+      "summary": "Une vaste étude internationale révèle que moins d'une personne sur cinq consomme assez de flavanols, ces composés associés à la prévention des maladies cardiovasculaires. Manger cinq portions de fruits et légumes par jour ne suffit pas : ce sont les choix précis qui comptent. Les mûres, les prunes ou le thé vert figurent parmi les sources les plus riches en ces composés bénéfiques pour le cœur."
+    },
+    {
+      "category": "Science",
+      "title": "Un biomatériau à base de jacquier et de grenade pour soigner les gencives",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260618041508.htm",
+      "publishedAt": "2026-06-18",
+      "summary": "Un biomatériau composé de latex de jacquier, d'extrait d'écorce de grenade et de simvastatine pourrait transformer le traitement des parodontites sévères. Mis au point par des chercheurs brésiliens, ce matériau mucoadhésif combat l'infection et l'inflammation tout en stimulant la reconstruction de l'os et des tissus autour des dents. L'application locale du médicament éviterait les effets indésirables liés à la prise orale de simvastatine."
+    },
+    {
+      "category": "Science",
+      "title": "L'ADN ancien révèle que la peste tuait déjà il y a 5 500 ans",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260618041450.htm",
+      "publishedAt": "2026-06-18",
+      "summary": "L'analyse d'ADN ancien issu de cimetières de chasseurs-cueilleurs sibériens montre que la peste tuait déjà des humains il y a 5 500 ans. Près de 40 % des individus examinés portaient des traces de Yersinia pestis, avec des flambées familiales rapides touchant surtout enfants et adolescents. Ces souches anciennes possédaient un superantigène les rendant peut-être très létales, malgré l'absence de transmission efficace par les puces propre aux pestes médiévales."
+    },
+    {
+      "category": "Science",
+      "title": "Des « horodatages » ADN dévoilent les origines surprenantes de la fraise",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260618041515.htm",
+      "publishedAt": "2026-06-18",
+      "summary": "En analysant les « horodatages » génétiques laissés par les éléments transposables, des chercheurs ont reconstitué l'histoire évolutive complexe du génome de la fraise. La méthode révèle que les fraises modernes résultent de l'assemblage de plusieurs origines ancestrales successives. Cette nouvelle approche offre un outil pour décrypter d'autres génomes végétaux complexes et pourrait aider l'amélioration des cultures."
+    },
+    {
+      "category": "Science",
+      "title": "Les vents des trous noirs priveraient les grandes galaxies de leurs futures étoiles",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260618041454.htm",
+      "publishedAt": "2026-06-18",
+      "summary": "Grâce aux observations du télescope spatial XRISM (NASA/JAXA) sur la galaxie proche NGC 4151, des astronomes ont montré que les trous noirs supermassifs peuvent souffler des vents assez puissants pour chasser le gaz d'une galaxie. Or ce gaz est la matière première des futures étoiles : ces vents pourraient ainsi expliquer pourquoi certaines des plus grandes galaxies comptent moins d'étoiles que prévu."
+    },
+    {
+      "category": "Science",
+      "title": "La base climatique Climate TRACE sous-estimerait fortement les émissions des voitures",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260618041519.htm",
+      "publishedAt": "2026-06-18",
+      "summary": "Des chercheurs de la Northern Arizona University montrent que la base de données Climate TRACE, cofondée par Al Gore, sous-estime en moyenne de 70 % les émissions de CO2 des véhicules dans les villes américaines. Comparée à leur base Vulcan sur 260 villes, l'écart dépasse 90 % à Indianapolis ou Nashville. Ces erreurs systématiques du système de suivi par IA pourraient fragiliser les décisions climatiques fondées sur ces données."
+    }
+  ]
+}
