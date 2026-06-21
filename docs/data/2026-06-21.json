@@ -1,0 +1,166 @@
+{
+  "date": "2026-06-21",
+  "generatedAt": "2026-06-21T06:45:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 35,
+      "low": 20,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 3
+    },
+    "lausanne": {
+      "high": 34,
+      "low": 23,
+      "condition": "Partiellement nuageux",
+      "weathercode": 2,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Le Grand Conseil genevois a accepté les comptes 2025 de l'État, qui affichent un excédent de 50 millions de francs, bien au-dessus d'un budget initialement déficitaire.",
+      "publishedAt": "2026-06-19"
+    },
+    {
+      "headline": "La Suisse a confirmé accueillir, au Bürgenstock, les pourparlers entre les États-Unis et l'Iran, renouant avec sa tradition de bons offices diplomatiques.",
+      "publishedAt": "2026-06-20"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Coupe du monde 2026: lors de la 10e journée, les Pays-Bas ont écrasé la Suède 5-1 et l'Allemagne a battu la Côte d'Ivoire 2-1.",
+      "publishedAt": "2026-06-20"
+    },
+    {
+      "headline": "Les États-Unis et l'Iran ont conclu un mémorandum de 14 points instaurant un cessez-le-feu et une fenêtre de 60 jours pour négocier sur le programme nucléaire iranien.",
+      "publishedAt": "2026-06-20"
+    },
+    {
+      "headline": "Réuni les 18 et 19 juin, le Conseil européen a débattu de l'Ukraine, de la défense européenne et du prochain cadre financier pluriannuel de l'UE.",
+      "publishedAt": "2026-06-19"
+    }
+  ],
+  "markets": {
+    "asOf": "Clôtures du 18 juin 2026 (Wall Street, fermée le 19 pour Juneteenth) et du 19 juin 2026 (Europe)",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": 1.91
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 0.14
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.06
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": -0.48
+      }
+    ],
+    "summary": "Avant la pause du Juneteenth, Wall Street a rebondi (Nasdaq +1,91%, Dow +0,14% le 18 juin), tandis que les Bourses européennes ont terminé partagées le 19 juin (SMI +0,06%, Euro Stoxx 50 -0,48%)."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "Reliance veut intégrer l'IA dans chaque appel, application et foyer en Inde",
+      "url": "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
+      "publishedAt": "2026-06-19",
+      "summary": "Reliance Industries, le groupe du milliardaire Mukesh Ambani, a dévoilé une offensive pour intégrer l'intelligence artificielle dans son réseau télécom et la vie quotidienne de ses plus de 500 millions d'abonnés en Inde. Au programme: un agent vocal « Jio Call Agent » capable de transcrire les appels et d'automatiser des tâches, une application MyJio enrichie et un écran domestique « TeleFrame ». S'appuyant sur des partenariats avec Google, Meta et Nvidia, Reliance se positionne en champion national de l'IA, tout en annonçant le feu vert à une future entrée en Bourse de Jio Platforms."
+    },
+    {
+      "category": "IT",
+      "title": "Le japonais Go lève 553 millions de dollars lors de la plus grande IPO de 2026 au Japon",
+      "url": "https://techcrunch.com/2026/06/19/go-eyes-robotaxis-and-acquisitions-after-japans-biggest-ipo-of-2026-heres-why-it-matters/",
+      "publishedAt": "2026-06-19",
+      "summary": "L'application japonaise de réservation de taxis Go a réalisé la plus grande introduction en Bourse du pays en 2026, levant 88,6 milliards de yens (553 millions de dollars). Les fonds financeront le développement de robotaxis et des acquisitions stratégiques, pour répondre à la pénurie de chauffeurs liée au vieillissement de la population, en recul d'environ 20% ces dernières années. Go domine le marché national avec 35 millions de téléchargements et 80% de parts de marché, et coopère avec Waymo sur la conduite autonome."
+    },
+    {
+      "category": "Science",
+      "title": "Les startups de la fusion nucléaire ont déjà levé 7,1 milliards de dollars",
+      "url": "https://techcrunch.com/2026/06/19/every-fusion-startup-that-has-raised-over-100m/",
+      "publishedAt": "2026-06-19",
+      "summary": "TechCrunch recense les startups de la fusion nucléaire ayant levé plus de 100 millions de dollars: seize entreprises totalisent 7,1 milliards de dollars d'investissements privés, Commonwealth Fusion Systems captant à elle seule environ un tiers du capital. L'article passe en revue les approches technologiques (tokamak, confinement inertiel, stellarators) et les calendriers de commercialisation. Parmi les faits marquants figurent l'accord d'achat d'électricité de Microsoft avec Helion et l'engagement de Google à acheter la moitié de la production de la future centrale commerciale de Commonwealth."
+    },
+    {
+      "category": "IT",
+      "title": "Aura présente un cadre photo à encre électronique qui ne paraît pas numérique",
+      "url": "https://techcrunch.com/2026/06/19/auras-impressive-e-ink-photo-frame-doesnt-even-look-digital/",
+      "publishedAt": "2026-06-19",
+      "summary": "La marque Aura présente un nouveau cadre photo doté d'un écran à encre électronique (e-ink) dont le rendu, mat et sans rétroéclairage, imite l'aspect d'un tirage papier plutôt que celui d'un écran. TechCrunch souligne une qualité d'affichage qui « ne paraît même pas numérique », une approche qui tranche avec les cadres connectés classiques et vise les amateurs de photographie cherchant une présentation plus naturelle de leurs images."
+    },
+    {
+      "category": "AI",
+      "title": "De PGP à Mythos: l'histoire des contrôles à l'exportation qui n'ont arrêté personne",
+      "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+      "publishedAt": "2026-06-19",
+      "summary": "Dans une analyse, TechCrunch retrace l'histoire des contrôles à l'exportation appliqués aux technologies sensibles — du chiffrement PGP dans les années 1990 aux logiciels espions — pour éclairer le cas « Mythos », du nom du modèle d'IA visé par des restrictions américaines. L'article soutient que ces contrôles ont historiquement peiné à empêcher la diffusion des technologies et s'interroge sur leur efficacité face aux modèles d'IA de pointe."
+    },
+    {
+      "category": "Science",
+      "title": "Une simple torsion pourrait rapprocher les ordinateurs quantiques de la réalité",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260620100312.htm",
+      "publishedAt": "2026-06-20",
+      "summary": "Des chercheurs décrivent comment une simple « torsion » appliquée à un système quantique pourrait rapprocher les ordinateurs quantiques d'une mise en œuvre pratique. Cette approche viserait à mieux contrôler et stabiliser les qubits, l'un des principaux obstacles à des machines quantiques fiables et capables de passer à l'échelle. ScienceDaily présente ces travaux comme une piste prometteuse pour réduire les erreurs et faciliter la construction de processeurs quantiques exploitables."
+    },
+    {
+      "category": "Science",
+      "title": "Attendant un trou noir, des astronomes trouvent une usine à neutrinos alimentée par des étoiles",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260619020510.htm",
+      "publishedAt": "2026-06-19",
+      "summary": "Des astronomes s'attendaient à trouver un trou noir supermassif, mais ont identifié une véritable « usine à neutrinos » alimentée par une intense formation d'étoiles. Une galaxie lointaine surnommée « Shadow Blaster » suggère que les galaxies à flambée d'étoiles, riches en poussières et difficiles à observer, pourraient produire une fraction importante des neutrinos de haute énergie de l'Univers — une alternative inattendue aux trous noirs comme source de ces particules cosmiques."
+    },
+    {
+      "category": "Science",
+      "title": "Une stratégie de Wordle qui gagne 99% du temps",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260619020508.htm",
+      "publishedAt": "2026-06-19",
+      "summary": "Des chercheurs ont mis au point une stratégie pour résoudre le jeu Wordle avec un taux de réussite de 99%. Plutôt que de viser les réponses les plus probables, la méthode privilégie le « gain d'information » en s'appuyant sur l'entropie de Shannon: elle choisit à chaque tour les propositions révélant le plus d'indices sur le mot caché, optimisant ainsi les chances de trouver la solution dans le nombre d'essais imparti."
+    },
+    {
+      "category": "Science",
+      "title": "Des cellules immunitaires du cerveau reprogrammées contre la maladie d'Alzheimer",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260619020506.htm",
+      "publishedAt": "2026-06-19",
+      "summary": "Une étude identifie une molécule baptisée OLE capable de reprogrammer les cellules immunitaires du cerveau (la microglie) vers un état plus protecteur dans des modèles de la maladie d'Alzheimer. Le traitement a réduit l'accumulation de plaques toxiques et amélioré la mémoire chez les animaux testés, ouvrant une piste thérapeutique fondée sur la restauration des défenses immunitaires cérébrales plutôt que sur la seule élimination des plaques."
+    },
+    {
+      "category": "Science",
+      "title": "La « plus grande erreur » d'Einstein pourrait enfin avoir une explication",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260619020516.htm",
+      "publishedAt": "2026-06-19",
+      "summary": "Des scientifiques avancent une explication possible de la « plus grande erreur » d'Einstein, la constante cosmologique. Ils décrivent un lien surprenant entre la gravité quantique et un état exotique de la matière, qui pourrait expliquer pourquoi l'Univers ne s'étend pas de manière démesurément rapide. Ces travaux théoriques offrent une nouvelle perspective sur l'énergie du vide et l'expansion cosmique, l'un des grands problèmes ouverts de la physique."
+    },
+    {
+      "category": "Science",
+      "title": "Un composé du cannabis soulage la douleur sans l'effet planant",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260619033343.htm",
+      "publishedAt": "2026-06-19",
+      "summary": "Des chercheurs ont identifié un composé issu du cannabis capable de soulager la douleur sans provoquer l'effet psychotrope (« high ») associé au THC. Cette découverte pourrait ouvrir la voie à des analgésiques dérivés du cannabis offrant un soulagement efficace tout en évitant les effets enivrants, un enjeu majeur pour le traitement de la douleur chronique avec un moindre potentiel d'abus."
+    },
+    {
+      "category": "Science",
+      "title": "Un choc sur le cobalt pourrait bouleverser la chaîne des batteries de véhicules électriques",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260619101402.htm",
+      "publishedAt": "2026-06-19",
+      "summary": "Une étude alerte sur la fragilité de la chaîne d'approvisionnement en cobalt, métal essentiel à de nombreuses batteries de véhicules électriques. Les auteurs montrent qu'un choc isolé sur l'offre de cobalt — fortement concentrée géographiquement — pourrait suffire à déstabiliser l'ensemble de la filière mondiale des batteries, soulignant l'importance de diversifier les sources et de développer des chimies de batteries moins dépendantes de ce métal."
+    },
+    {
+      "category": "Science",
+      "title": "L'Ozempic a changé le traitement de l'obésité, mais la vraie révolution serait à venir",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260619020504.htm",
+      "publishedAt": "2026-06-19",
+      "summary": "Si l'Ozempic et les médicaments de la même classe (agonistes du GLP-1) ont transformé le traitement de l'obésité, des experts estiment que la véritable révolution est encore à venir. ScienceDaily fait le point sur les traitements de nouvelle génération en développement, qui promettent une efficacité accrue, moins d'effets secondaires ou de nouveaux modes d'administration, et pourraient redéfinir la prise en charge de l'obésité dans les prochaines années."
+    },
+    {
+      "category": "Science",
+      "title": "Un processus géologique caché compense une partie du carbone du pergélisol qui dégèle",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260619101343.htm",
+      "publishedAt": "2026-06-19",
+      "summary": "Des chercheurs décrivent un processus géologique caché qui compense en partie les émissions de carbone libérées par le dégel du pergélisol. L'altération de certains minéraux capterait du CO2, atténuant l'effet de ces émissions sur le climat. Cette découverte affine la compréhension du bilan carbone des régions arctiques, même si les auteurs rappellent que ce mécanisme naturel ne suffit pas à neutraliser l'ensemble du carbone relâché par le réchauffement."
+    }
+  ]
+}
