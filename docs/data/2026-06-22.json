@@ -1,0 +1,117 @@
+{
+  "date": "2026-06-22",
+  "generatedAt": "2026-06-22T06:00:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 37,
+      "low": 22,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 36,
+      "low": 23,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "La Fête de la musique a animé tout le week-end Genève (près de 500 concerts, spectacles et ateliers du 19 au 21 juin) et Lausanne (60 scènes, 180 concerts et 2500 musiciens le 21 juin).",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "headline": "Quelque 5000 personnes ont participé à Morat (FR) à la cérémonie marquant le 550e anniversaire de la bataille de Morat, au lendemain d'un riche programme commémoratif.",
+      "publishedAt": "2026-06-20"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Les pourparlers de paix entre les États-Unis et l'Iran, sous médiation du Qatar et du Pakistan, se sont ouverts au Bürgenstock en Suisse, le vice-président américain JD Vance saluant une « réunion historique » et de « grands progrès ».",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "headline": "Coupe du monde de football 2026 : l'Espagne a écrasé l'Arabie saoudite 4-0 (doublé d'Oyarzabal, but de Lamine Yamal), l'Uruguay et le Cap-Vert ont fait match nul 2-2 et la Belgique a été tenue en échec par l'Iran 0-0.",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "headline": "La Fête de la musique (World Music Day) a été célébrée pour le solstice d'été dans plus de 120 pays, la France comptant à elle seule environ 18 000 concerts pour quelque 10 millions de spectateurs.",
+      "publishedAt": "2026-06-21"
+    }
+  ],
+  "markets": {
+    "asOf": "Indices américains : clôture du 18 juin 2026 (Bourses US fermées le 19 juin pour Juneteenth) ; indices européens : clôture du 19 juin 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": 1.91
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 0.14
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.06
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": -0.3
+      }
+    ],
+    "summary": "Avant la réouverture de lundi, Wall Street avait terminé en nette hausse le 18 juin (Nasdaq +1,9 %, Dow quasi stable) tandis que les Bourses européennes finissaient le 19 juin sans direction marquée, le SMI à peine positif et l'Euro Stoxx 50 en léger repli."
+  },
+  "tech": [
+    {
+      "category": "IT",
+      "title": "Une simple torsion rapproche les ordinateurs quantiques de la réalité",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260620100312.htm",
+      "publishedAt": "2026-06-20",
+      "summary": "Des chercheurs de l'University of Technology Sydney ont montré qu'en torsadant des couches de nitrure de bore hexagonal, on peut piloter de façon contrôlée les émetteurs de lumière quantique intégrés dans le matériau. Cette technique permet d'ajuster de manière répétée la couleur et la longueur d'onde de la lumière émise, bien plus fortement qu'auparavant. Elle ouvre une voie pratique pour fabriquer des composants quantiques accordables, avec des applications dans l'informatique quantique, les communications sécurisées et les capteurs de haute précision."
+    },
+    {
+      "category": "Science",
+      "title": "Une batterie sodium-ion chinoise rivalise avec les cellules lithium de Tesla",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260621060305.htm",
+      "publishedAt": "2026-06-21",
+      "summary": "Une analyse montre qu'une batterie sodium-ion du fabricant chinois Hina atteint des performances comparables à celles des cellules lithium-ion de Tesla, avec une qualité de fabrication similaire et une conception sans languette à double aluminium. Le sodium, abondant et bon marché, constitue une alternative séduisante au lithium. La technologie doit toutefois encore progresser sur la charge à basse température et la densité énergétique avant une adoption à grande échelle dans les véhicules électriques."
+    },
+    {
+      "category": "Science",
+      "title": "Les neurones brisent leur ADN pour construire le cerveau",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260620100422.htm",
+      "publishedAt": "2026-06-21",
+      "summary": "Des chercheurs de l'Université de Kyoto ont découvert que les neurones en développement subissent des cassures double brin de leur ADN lorsqu'ils se faufilent dans les espaces étroits du cerveau en formation. Malgré la gravité de ces dommages, un cerveau sain les répare en moins de 24 heures, les neurones continuant de fonctionner normalement car les cassures touchent surtout des régions non essentielles du génome plutôt que des gènes critiques."
+    },
+    {
+      "category": "Science",
+      "title": "Des familles de centenaires révèlent un indice génétique rare d'un vieillissement en bonne santé",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260621060301.htm",
+      "publishedAt": "2026-06-21",
+      "summary": "En étudiant des familles particulièrement longévives, des chercheurs ont identifié des variants génétiques rares associés à une meilleure santé prolongée, dont une mutation prometteuse du gène CGAS présente dans deux familles. Ce variant semble réduire la réponse inflammatoire tout en préservant la capacité de l'organisme à combattre les infections et à se réparer. Les résultats suggèrent qu'analyser des familles entières, plutôt que des individus isolés, peut révéler des facteurs protecteurs permettant de rester plus longtemps à l'abri des maladies."
+    },
+    {
+      "category": "Science",
+      "title": "Le brunissement des lacs bouleverse les populations de poissons",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260621060322.htm",
+      "publishedAt": "2026-06-21",
+      "summary": "Les lacs d'eau douce d'Amérique du Nord et d'Europe s'assombrissent sous l'effet d'un afflux de composés carbonés issus des sols et du changement climatique, un phénomène appelé « brunissement ». Cette eau plus sombre favorise les espèces dotées d'adaptations sensorielles spécialisées, comme le doré et le grand brochet, à la vision nocturne et à la ligne latérale performantes, tandis que les espèces dépendantes de la vue, telles que la truite, l'achigan et la perche, déclinent et grandissent plus lentement dans ces eaux troubles."
+    },
+    {
+      "category": "Science",
+      "title": "La tubuline empêche l'agrégation des protéines toxiques liées à Alzheimer et Parkinson",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260620100432.htm",
+      "publishedAt": "2026-06-21",
+      "summary": "Des chercheurs du Baylor College of Medicine ont découvert que la tubuline, protéine qui forme les microtubules des cellules cérébrales, peut empêcher l'accumulation toxique des protéines Tau et alpha-synucléine. Plutôt que de bloquer la formation de gouttelettes protéiques, la tubuline réoriente ces protéines potentiellement nocives vers des fonctions cellulaires productives. Cette approche sélective ouvre une piste thérapeutique prometteuse contre la maladie d'Alzheimer et la maladie de Parkinson."
+    },
+    {
+      "category": "Science",
+      "title": "Étude de Yale : près de la moitié des aînés s'améliorent avec l'âge",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260620100428.htm",
+      "publishedAt": "2026-06-21",
+      "summary": "Une étude de l'Université Yale portant sur plus de dix ans de données et plus de 11 000 Américains âgés révèle que près de la moitié d'entre eux ont connu des progrès mesurables de leurs fonctions cognitives, physiques, ou des deux. Les personnes ayant des croyances plus positives sur le vieillissement étaient nettement plus susceptibles d'enregistrer ces gains, ce qui remet en cause l'idée reçue selon laquelle vieillir signifie un déclin inéluctable et continu."
+    }
+  ]
+}
