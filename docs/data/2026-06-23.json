@@ -1,0 +1,166 @@
+{
+  "date": "2026-06-23",
+  "generatedAt": "2026-06-23T05:45:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 36,
+      "low": 22,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 36,
+      "low": 24,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "À Genève, une large alliance d'associations et de riverains s'oppose au projet d'élargissement de l'autoroute A1 au niveau du contournement, jugé contraire à la volonté populaire exprimée en 2024.",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "headline": "La Suisse a accueilli au Bürgenstock (Nidwald) des pourparlers américano-iraniens qui ont débouché sur une feuille de route diplomatique, confirmant le rôle de Berne comme terrain de médiation.",
+      "publishedAt": "2026-06-22"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Réunis en Suisse, les États-Unis et l'Iran se sont entendus sur une feuille de route visant à conclure un accord final dans un délai de 60 jours.",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "headline": "Le Premier ministre britannique Keir Starmer a annoncé sa démission, ouvrant la voie à un nouveau chef de gouvernement, Andy Burnham étant pressenti pour lui succéder.",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "headline": "La Chine a annoncé des sanctions contre dix entreprises américaines liées à la défense, en réponse à des restrictions visant ses groupes technologiques.",
+      "publishedAt": "2026-06-22"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 22 juin 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -1.32
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 0.29
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.54
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": -0.3
+      }
+    ],
+    "summary": "À la clôture du 22 juin 2026, Wall Street a divergé — le Nasdaq a reculé sous la pression des valeurs technologiques tandis que le Dow Jones gagnait un peu de terrain — alors que les bourses européennes finissaient en ordre dispersé, le SMI suisse en hausse et l'Euro Stoxx 50 en léger repli."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "Groq confirme une levée de 650 millions de dollars après l'accord avec Nvidia",
+      "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
+      "publishedAt": "2026-06-22",
+      "summary": "Le fabricant de puces IA Groq a confirmé une levée d'environ 650 millions de dollars, six mois après que Nvidia a pris une licence non exclusive de sa technologie et recruté son fondateur Jonathan Ross ainsi que plusieurs cadres. L'entreprise se recentre sur son activité « neocloud » d'inférence, qui compte désormais treize centres de données dans le monde et sert plus de cinq millions de développeurs. Groq a aussi renforcé sa direction, avec notamment l'arrivée d'Alan Rice au poste de directeur des opérations."
+    },
+    {
+      "category": "AI",
+      "title": "Google DeepMind investit 75 millions de dollars dans Hollywood avec A24",
+      "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
+      "publishedAt": "2026-06-22",
+      "summary": "Google DeepMind a annoncé un partenariat de 75 millions de dollars avec le studio indépendant A24, pariant sur l'intégration de l'IA générative dans la création cinématographique. L'accord vise à explorer des outils de production vidéo et d'effets visuels destinés aux cinéastes, illustrant le rapprochement accéléré entre laboratoires d'IA et industrie du divertissement."
+    },
+    {
+      "category": "AI",
+      "title": "Anthropic indique que Claude pourrait demander une vérification d'identité",
+      "url": "https://techcrunch.com/2026/06/22/anthropic-says-claude-may-want-to-see-your-id/",
+      "publishedAt": "2026-06-22",
+      "summary": "Anthropic a signalé que son assistant Claude pourrait, dans certains cas, demander à vérifier l'identité des utilisateurs au moyen d'une pièce justificative. La mesure s'inscrit dans un renforcement des dispositifs de conformité et de lutte contre les usages abusifs des modèles d'IA, et soulève des questions de confidentialité."
+    },
+    {
+      "category": "AI",
+      "title": "Amazon teste Alexa+ en Inde avec la prise en charge du hindi",
+      "url": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
+      "publishedAt": "2026-06-22",
+      "summary": "Amazon a commencé à tester son assistant vocal nouvelle génération Alexa+ en Inde, avec la prise en charge du hindi. Ce déploiement marque une première étape vers une offre multilingue sur un marché stratégique et très peuplé, où la concurrence des assistants dopés à l'IA s'intensifie."
+    },
+    {
+      "category": "AI",
+      "title": "SpaceX signe un accord de calcul avec le laboratoire open source Reflection AI",
+      "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+      "publishedAt": "2026-06-22",
+      "summary": "SpaceX a conclu un accord de fourniture de capacité de calcul avec Reflection AI, un laboratoire d'IA open source. L'entente met à disposition des ressources de calcul pour l'entraînement de modèles, signe que des acteurs hors du secteur traditionnel du cloud cherchent à peser dans la course à l'infrastructure d'IA."
+    },
+    {
+      "category": "IT",
+      "title": "Tata Electronics, fournisseur d'Apple et Tesla, confirme une fuite de données",
+      "url": "https://techcrunch.com/2026/06/22/tata-electronics-a-major-tech-supplier-to-apple-and-tesla-confirms-data-breach/",
+      "publishedAt": "2026-06-22",
+      "summary": "Tata Electronics, important sous-traitant d'Apple et de Tesla, a confirmé une violation de données touchant ses systèmes. L'incident relance les inquiétudes sur la sécurité de la chaîne d'approvisionnement électronique mondiale, où la compromission d'un fournisseur peut avoir des répercussions sur de grands donneurs d'ordre."
+    },
+    {
+      "category": "IT",
+      "title": "Une faille non corrigeable dans les puces Apple ouvre la voie à un jailbreak de l'iPhone",
+      "url": "https://techcrunch.com/2026/06/22/a-new-unpatchable-flaw-in-apple-chips-opens-the-door-to-an-iphone-jailbreak/",
+      "publishedAt": "2026-06-22",
+      "summary": "Des chercheurs en sécurité ont mis au jour une faille non corrigeable, située au niveau matériel des puces conçues par Apple, qui ouvre la voie à un jailbreak de l'iPhone. Parce qu'elle réside dans le silicium, la vulnérabilité ne peut être colmatée par une simple mise à jour logicielle, ce qui en fait un enjeu durable pour la sécurité de l'écosystème."
+    },
+    {
+      "category": "IT",
+      "title": "Le piratage de Klue provoque une fuite de données chez plusieurs firmes de cybersécurité",
+      "url": "https://techcrunch.com/2026/06/22/klue-hack-results-in-data-breach-at-several-cybersecurity-firms/",
+      "publishedAt": "2026-06-22",
+      "summary": "Le piratage de la plateforme Klue a entraîné une fuite de données chez plusieurs entreprises de cybersécurité qui l'utilisaient. L'épisode illustre une fois de plus le risque posé par les outils tiers partagés, capables de transformer une seule intrusion en compromission en cascade."
+    },
+    {
+      "category": "IT",
+      "title": "Microsoft et Chevron prévoient l'un des plus grands centres de données au gaz des États-Unis",
+      "url": "https://techcrunch.com/2026/06/22/microsoft-and-chevron-plan-one-of-the-largest-gas-powered-data-center-projects-in-us/",
+      "publishedAt": "2026-06-22",
+      "summary": "Microsoft et Chevron ont dévoilé un projet de centre de données alimenté au gaz parmi les plus grands des États-Unis, destiné à répondre à l'envolée des besoins énergétiques de l'IA. Le projet illustre le recours croissant aux énergies fossiles pour alimenter les infrastructures de calcul, malgré les objectifs climatiques affichés du secteur."
+    },
+    {
+      "category": "IT",
+      "title": "Nvidia veut réduire la consommation d'eau de ses centres de données",
+      "url": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
+      "publishedAt": "2026-06-22",
+      "summary": "Nvidia a présenté des mesures visant à réduire la consommation d'eau de ses centres de données. Les experts soulignent toutefois que ces avancées, bien que bienvenues, ne règlent pas l'ensemble du problème hydrique généré par l'essor de l'IA, dont l'empreinte sur les ressources en eau reste considérable."
+    },
+    {
+      "category": "Science",
+      "title": "Un papillon qui vieillit à peine pourrait éclairer les secrets de la longévité",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260622014302.htm",
+      "publishedAt": "2026-06-22",
+      "summary": "Des scientifiques ont découvert que les papillons du genre Heliconius vivent plusieurs fois plus longtemps que des espèces apparentées, certains ne montrant que peu de signes de déclin avec l'âge. Cette longévité exceptionnelle offre un modèle potentiel pour comprendre les mécanismes biologiques du vieillissement."
+    },
+    {
+      "category": "Science",
+      "title": "De futurs astronautes pourraient fouler des roches venues des profondeurs de la Lune",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260622014258.htm",
+      "publishedAt": "2026-06-22",
+      "summary": "Une étude suggère qu'une collision colossale très ancienne a rapproché de la surface lunaire des roches issues des profondeurs de la Lune. Ces matériaux pourraient se trouver à proximité des futurs sites d'alunissage du programme Artemis, offrant un accès inédit à l'intérieur de notre satellite."
+    },
+    {
+      "category": "Science",
+      "title": "Une vitamine courante pourrait aider à combattre un cancer du cerveau parmi les plus mortels",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260622014313.htm",
+      "publishedAt": "2026-06-22",
+      "summary": "Un essai clinique explore si de fortes doses de vitamine B3 (niacine) pourraient améliorer le pronostic des patients atteints de glioblastome, l'un des cancers du cerveau les plus agressifs. L'approche, peu coûteuse, suscite l'espoir d'un complément aux traitements existants, qui restent aujourd'hui limités."
+    },
+    {
+      "category": "Science",
+      "title": "Ebola et hantavirus peuvent débuter comme une grippe avant de devenir mortels",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260622014257.htm",
+      "publishedAt": "2026-06-22",
+      "summary": "Des spécialistes rappellent que des virus dangereux comme Ebola et les hantavirus peuvent commencer par des symptômes proches de la grippe avant de s'aggraver rapidement. Ce constat souligne l'importance d'une détection précoce et d'une vigilance accrue des autorités sanitaires face aux maladies infectieuses émergentes."
+    }
+  ]
+}
