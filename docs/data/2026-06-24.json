@@ -1,0 +1,152 @@
+{
+  "date": "2026-06-24",
+  "generatedAt": "2026-06-24T05:35:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 36,
+      "low": 22,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 35,
+      "low": 23,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Face à la canicule, Genève et Lausanne adaptent la fête des écoles : les cortèges des 3-4P sont annulés mais les animations, avec brumisation, sont maintenues aux Bastions et au parc de Milan.",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "headline": "La Ville de Genève déploie dès le 23 juin ses installations estivales dans l'espace public pour lutter contre les îlots de chaleur urbains.",
+      "publishedAt": "2026-06-23"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Les pourparlers techniques entre les États-Unis et l'Iran, menés en Suisse, se concluent avec succès : Washington lève temporairement ses sanctions sur le pétrole iranien et 12 milliards de dollars d'avoirs gelés doivent être débloqués.",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "headline": "Au Mondial 2026, Lionel Messi dépasse le record de Miroslav Klose en inscrivant un doublé contre l'Autriche, portant son total à 18 buts en Coupe du monde.",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "headline": "Au Royaume-Uni, Keir Starmer annonce qu'il quitte la direction du Labour, tout en restant Premier ministre jusqu'à la désignation de son successeur, ouvrant une course à la succession.",
+      "publishedAt": "2026-06-22"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 23 juin 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -2.21
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": -0.09
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.45
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": -0.54
+      }
+    ],
+    "summary": "Séance contrastée : Wall Street a reculé sous le poids d'un net repli des semi-conducteurs qui a entraîné le Nasdaq, tandis que le SMI a fini en légère hausse et l'Euro Stoxx 50 dans le rouge."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "Meta lance ses propres lunettes connectées à 299 dollars",
+      "url": "https://techcrunch.com/2026/06/23/meta-debuts-new-cheaper-smart-glasses-under-its-own-brand/",
+      "publishedAt": "2026-06-23",
+      "summary": "Meta a dévoilé une nouvelle gamme de lunettes connectées vendue sous sa propre marque, à partir de 299 dollars, sans logo Ray-Ban ni Oakley mais toujours fabriquée avec EssilorLuxottica. Dépourvues d'écran, elles intègrent une caméra, des haut-parleurs et un bouton dédié à l'assistant Meta AI (questions, compréhension visuelle, future navigation piétonne et 14 nouvelles langues). L'autonomie annoncée dépasse huit heures, avec 40 heures supplémentaires via l'étui de charge. Trois styles sont proposés : Meta Adventurer, Meta Fury et Meta Glasses by Kylie, conçues avec Kylie Jenner. Disponibles dans plusieurs pays dès le 23 juin, elles renforcent la domination de Meta et EssilorLuxottica, qui contrôlent plus de 80 % du marché des lunettes intelligentes selon Counterpoint Research."
+    },
+    {
+      "category": "AI",
+      "title": "Anthropic lance Claude Tag, un coéquipier IA intégré à Slack",
+      "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+      "publishedAt": "2026-06-23",
+      "summary": "Anthropic a présenté Claude Tag, un assistant IA intégré à Slack pour ses clients Enterprise et Team, en bêta. Les utilisateurs peuvent mentionner @Claude dans un canal pour obtenir de l'aide ou lui confier des tâches. L'outil conserve une mémoire persistante des conversations, apprend les habitudes de l'organisation et peut, selon les permissions, croiser des informations entre plusieurs canaux. Tous les membres partagent la même instance, ce qui facilite les passages de relais, et un mode « ambient » lui permet de signaler proactivement les sujets pertinents. Les administrateurs contrôlent finement les outils et canaux accessibles pour éviter les fuites entre départements. Au-delà de la productivité, Claude Tag vise à capter le savoir institutionnel des entreprises, un terrain disputé avec Microsoft, Snowflake, Databricks et Glean."
+    },
+    {
+      "category": "AI",
+      "title": "Menlo Ventures lève un fonds record de 3 milliards après son pari sur Anthropic",
+      "url": "https://techcrunch.com/2026/06/23/after-betting-the-firm-on-anthropic-menlo-ventures-raises-victorious-3b-fund/",
+      "publishedAt": "2026-06-23",
+      "summary": "Menlo Ventures a annoncé un nouveau fonds de 3 milliards de dollars, la plus grosse levée de ses 50 ans d'histoire. Le capital-risqueur récolte les fruits d'un pari engageant la firme : en 2024, il avait mené la Série D d'Anthropic avec 750 millions de dollars (environ 500 millions via un véhicule dédié, 250 millions de son propre fonds), quadruplant la valorisation de la start-up à 18,4 milliards. Sa participation dans Anthropic est désormais estimée à environ 14 milliards. Menlo a suivi sur les Séries E et F et cofondé avec Anthropic le fonds « Anthology », qui a déployé près de 250 millions sur plus de 60 start-up, avec déjà des sorties comme Graphite (racheté par Cursor) et Astrix Security (racheté par Cisco)."
+    },
+    {
+      "category": "AI",
+      "title": "Superhuman rachète GPTZero, spécialiste de la détection de contenus IA",
+      "url": "https://techcrunch.com/2026/06/23/superhuman-acquires-ai-detection-startup-gptzero/",
+      "publishedAt": "2026-06-23",
+      "summary": "Superhuman a racheté GPTZero, start-up de détection de textes générés par IA fondée il y a trois ans par Edward Tian, diplômé de Princeton, à partir de son mémoire de fin d'études. GPTZero revendiquait plus de 19 millions d'utilisateurs inscrits et 30 millions de dollars de revenus annuels récurrents, et était rentable dès 2024, après avoir levé 13,5 millions de dollars au total. Superhuman, né du rachat de la messagerie du même nom par Grammarly en 2025, disposait déjà d'un outil de détection : ses dirigeants résument l'opération par « deux détecteurs valent mieux qu'un ». Les deux technologies sont complémentaires, l'une repérant les contenus produits par IA, l'autre aidant les utilisateurs à écrire sans paraître artificiels. Le montant de la transaction n'a pas été divulgué."
+    },
+    {
+      "category": "AI",
+      "title": "MoEngage rachète Aampe pour miser sur des agents IA marketing",
+      "url": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
+      "publishedAt": "2026-06-23",
+      "summary": "L'éditeur indien MoEngage, spécialisé dans l'engagement client, a racheté la société Aampe, basée à San Francisco, pour « plusieurs dizaines de millions de dollars » en numéraire. Fondée en 2020, Aampe attribue un agent IA dédié à chaque client, permettant aux marques de personnaliser leurs messages selon le comportement individuel plutôt que par segments d'audience traditionnels. La start-up a vu ses revenus récurrents croître de 150 % sur un an et sert plus de 30 clients dont Swiggy, Grab et Taxfix ; une vingtaine de salariés rejoindront MoEngage, portant ses effectifs à environ 820 personnes. Le PDG Raviteja Dodda vise ainsi les grands comptes migrant depuis Salesforce Marketing Cloud et Adobe Experience Cloud, illustrant la tendance des logiciels d'entreprise à intégrer des agents IA autonomes."
+    },
+    {
+      "category": "AI",
+      "title": "Fika Jobs lève 4 millions pour une plateforme de recrutement vidéo où des agents IA mènent les entretiens",
+      "url": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/",
+      "publishedAt": "2026-06-23",
+      "summary": "La start-up suédoise Fika Jobs a levé 4 millions de dollars en pré-amorçage, menés par Luminar Ventures, avec Alliance VC et les cofondateurs de King. Basée à Stockholm, elle propose une plateforme de recrutement « vidéo d'abord » mêlant agents IA et profils en format court. Le candidat relie son profil LinkedIn, l'IA génère des questions personnalisées, puis l'intéressé passe un entretien vidéo d'environ dix minutes propulsé par les modèles Gemini de Google ; ses réponses deviennent des clips formant un profil consultable par les employeurs, sans candidature individuelle. Le service est gratuit pour les chercheurs d'emploi ; les entreprises paient 10 % du salaire annuel du candidat recruté, contre 20 à 30 % pour les recruteurs classiques. L'accès anticipé a démarré en juin 2026, avec un lancement plus large prévu à l'automne, d'abord en Suède."
+    },
+    {
+      "category": "IT",
+      "title": "Mark Zuckerberg veut lancer un marché de prédiction baptisé « Arena »",
+      "url": "https://techcrunch.com/2026/06/23/mark-zuckerberg-wants-meta-to-launch-its-own-prediction-market/",
+      "publishedAt": "2026-06-23",
+      "summary": "Mark Zuckerberg a validé le développement d'un marché de prédiction propre à Meta, baptisé en interne « Arena ». L'application fonctionnerait indépendamment des réseaux sociaux du groupe, qui pourraient toutefois y rediriger leurs utilisateurs. Pour l'heure, Arena est conçue comme un jeu à points plutôt qu'un marché monétaire : les utilisateurs gagnent des points en faisant des prédictions justes sur divers sujets, une dimension financière pouvant être ajoutée plus tard. Le projet est décrit comme « expérimental mais prioritaire ». Le secteur connaît une croissance fulgurante, des plateformes comme Polymarket et Kalshi atteignant des dizaines de milliards de dollars de volume échangé début 2026, tandis que X s'est déjà associé à des opérateurs. L'industrie fait toutefois face à de fortes turbulences juridiques, entre enquêtes pour délit d'initié et poursuites invoquant les lois sur les jeux d'argent."
+    },
+    {
+      "category": "IT",
+      "title": "LastPass touché par la fuite de données du prestataire Klue",
+      "url": "https://techcrunch.com/2026/06/23/password-manager-maker-lastpass-says-hackers-stole-customer-support-case-data-during-klue-breach/",
+      "publishedAt": "2026-06-23",
+      "summary": "LastPass a annoncé que des données personnelles de ses clients ont été compromises via le piratage de Klue, une société d'études de marché qu'il utilise. L'intrusion, survenue le 12 juin 2026, a permis le vol de noms, numéros de téléphone, adresses e-mail et postales, dossiers de support client et informations commerciales. LastPass souligne que sa propre infrastructure n'a pas été touchée et que les coffres de mots de passe chiffrés restent sécurisés. Cette attaque sur la chaîne d'approvisionnement a également frappé d'autres acteurs de la cybersécurité, dont HackerOne, Recorded Future et Tanium. Le nombre exact de personnes concernées reste inconnu, parmi les plus de 33 millions d'utilisateurs du gestionnaire. Un groupe nommé Icarus a revendiqué l'attaque et menace de divulguer les données volées en l'absence de rançon."
+    },
+    {
+      "category": "IT",
+      "title": "Flipkart accélère le commerce ultra-rapide en Inde face à Amazon",
+      "url": "https://techcrunch.com/2026/06/23/walmart-backed-flipkart-expands-quick-commerce-push-as-amazon-ramps-up-in-india/",
+      "publishedAt": "2026-06-23",
+      "summary": "Le service Minutes de Flipkart, détenu par Walmart, a franchi le cap des 1 000 centres de micro-distribution en moins de deux ans depuis son lancement en août 2024, et vise 1 500 centres d'ici fin 2026. Selon la direction, les commandes ont bondi d'environ 400 % sur un an et la fidélisation a progressé de 20 %, la plateforme couvrant plus de 130 villes et 8 000 codes postaux. À ce rythme (75 à 100 ouvertures par mois, avec une forte croissance dans les villes de second rang comme Patna, Guwahati ou Lucknow), Flipkart pourrait devenir le deuxième réseau de quick-commerce d'Inde derrière Blinkit et ses 2 243 centres. Amazon riposte avec son service Amazon Now, déjà présent dans plus de 15 villes via 500 centres, sur fond de bataille intense pour ce marché stratégique."
+    },
+    {
+      "category": "Science",
+      "title": "Le Cold Atom Lab de la NASA façonne une matière exotique dans l'espace",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260622091507.htm",
+      "publishedAt": "2026-06-23",
+      "summary": "Le Cold Atom Lab de la NASA, à bord de la Station spatiale internationale, a été amélioré pour produire des condensats de Bose-Einstein, un cinquième état de la matière. En profitant de la microgravité, l'installation refroidit des atomes à moins de –237 °C afin d'observer des phénomènes quantiques impossibles à étudier sur Terre, où « la nature ondulatoire de la matière domine » et où la matière ultrafroide se comporte de façon inattendue. La dernière mise à niveau, qui redessine les pièges magnétiques et les sources d'atomes, élargit les capacités de recherche et soutient cinq équipes internationales travaillant sur la physique fondamentale et le développement de futures technologies quantiques, destinées aussi bien à l'espace qu'à des applications terrestres."
+    },
+    {
+      "category": "Science",
+      "title": "Les futurs astronautes d'Artemis pourraient marcher sur des roches du manteau lunaire",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260622014258.htm",
+      "publishedAt": "2026-06-22",
+      "summary": "Des chercheurs ont montré que l'impact géant à l'origine du bassin Pôle Sud-Aitken, le plus grand cratère de la Lune, a probablement excavé de la matière issue des profondeurs du manteau lunaire. À l'aide de simulations informatiques et d'analyses gravimétriques, ils ont constaté que ce matériau profond est mélangé dans tout le bassin et dans la couverture d'éjectas qui l'entoure. Une partie de ces roches pourrait se trouver à proximité des sites d'atterrissage envisagés pour la mission Artemis, dans la région polaire sud. Les futurs astronautes auraient ainsi l'occasion d'étudier directement des échantillons de l'intérieur de la Lune et d'en apprendre davantage sur son histoire la plus ancienne, sans avoir à forer en profondeur."
+    },
+    {
+      "category": "Science",
+      "title": "Une embolisation mini-invasive aide à éviter la pose de prothèse du genou",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260622091502.htm",
+      "publishedAt": "2026-06-22",
+      "summary": "L'embolisation des artères géniculées (GAE) est une procédure ambulatoire mini-invasive qui soulage les douleurs chroniques du genou en réduisant le flux sanguin vers les zones enflammées de l'articulation. Réalisée en une à deux heures sous sédation consciente, elle consiste à guider un cathéter jusqu'aux artères du genou pour y injecter des microbilles bloquant les vaisseaux anormaux, le patient rentrant généralement chez lui le jour même. Selon les chercheurs, environ 70 % des patients obtiennent d'excellents résultats, divisant par deux leurs scores de douleur ; des données japonaises montrent un soulagement durant jusqu'à quatre ans. La technique, qui profite surtout aux arthroses légères à modérées, comble le vide entre les traitements conservateurs et la prothèse totale du genou, et pourrait à l'avenir s'appliquer à l'épaule gelée, au tennis elbow ou à la fasciite plantaire."
+    }
+  ]
+}
