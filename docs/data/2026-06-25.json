@@ -1,0 +1,177 @@
+{
+  "date": "2026-06-25",
+  "generatedAt": "2026-06-25T06:05:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 37,
+      "low": 23,
+      "condition": "Orage avec grêle possible",
+      "weathercode": 96,
+      "precipProbability": 10
+    },
+    "lausanne": {
+      "high": 33,
+      "low": 23,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 3
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Le Conseil fédéral présente les grandes lignes de sa stratégie de coopération internationale dès 2029, avec un recentrage du développement, des compétences clarifiées entre DDC et SECO et un renforcement de l'aide humanitaire.",
+      "publishedAt": "2026-06-24"
+    },
+    {
+      "headline": "À la Coupe du monde, la Suisse bat le Canada 3-1 et se qualifie pour la suite du tournoi en terminant deuxième de son groupe.",
+      "publishedAt": "2026-06-24"
+    },
+    {
+      "headline": "À Genève, le Conseil d'État nomme Carlo Panico directeur général de l'office des autorisations de construire (OAC) à compter du 1er octobre 2026.",
+      "publishedAt": "2026-06-24"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Le directeur général de l'AIEA, Rafael Grossi, affirme que ses inspecteurs visiteront les sites nucléaires iraniens dans le cadre de l'accord intérimaire américano-iranien, tandis que Téhéran conditionne toute visite à un accord final.",
+      "publishedAt": "2026-06-24"
+    },
+    {
+      "headline": "Quatorzième journée de la Coupe du monde 2026 : le Brésil s'impose 3-0 face à l'Écosse et plusieurs sélections, dont la Suisse, bouclent leur phase de groupes.",
+      "publishedAt": "2026-06-24"
+    },
+    {
+      "headline": "Une canicule exceptionnelle frappe l'Europe de l'Ouest, avec des records de température battus en France et des alertes rouges déclenchées au Royaume-Uni et en Espagne pour des dizaines de millions de personnes.",
+      "publishedAt": "2026-06-24"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 24 juin 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -0.43
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 0.35
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.66
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": -0.9
+      }
+    ],
+    "summary": "Séance contrastée : Wall Street avance en ordre dispersé (Dow en hausse, Nasdaq en repli avant les résultats de Micron) pendant que le SMI progresse et que l'Euro Stoxx 50 recule après ses récents records."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "OpenAI dévoile « Jalapeño », sa première puce d'inférence maison conçue avec Broadcom",
+      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "publishedAt": "2026-06-24",
+      "summary": "OpenAI a présenté « Jalapeño », son premier processeur d'inférence sur mesure, développé en partenariat avec Broadcom. Pensée pour exécuter des modèles déjà entraînés, la puce vise à réduire les coûts d'exploitation et la dépendance de l'entreprise au matériel de Nvidia. Lors des premiers tests, elle afficherait des performances par watt nettement supérieures, en particulier pour les modèles de codage en temps réel. Cette annonce illustre la course des grands acteurs de l'IA à intégrer leur propre silicium afin de maîtriser leurs infrastructures et leurs marges."
+    },
+    {
+      "category": "AI",
+      "title": "Qualcomm rachète la start-up Modular pour près de 4 milliards de dollars",
+      "url": "https://www.modular.com/blog/qualcomm-to-acquire-modular",
+      "publishedAt": "2026-06-24",
+      "summary": "Qualcomm a annoncé l'acquisition, en actions, de la start-up logicielle d'IA Modular pour environ 3,9 milliards de dollars. Modular développe le langage Mojo et le moteur d'inférence MAX, une pile logicielle indépendante du matériel permettant d'écrire le code d'IA une seule fois et de l'exécuter sur CPU, GPU, NPU et ASIC sans réécriture. L'opération vise directement CUDA, la plateforme qui verrouille les développeurs dans l'écosystème de Nvidia. La transaction, soumise aux approbations réglementaires, devrait être bouclée au second semestre 2026 et renforce la position de Qualcomm dans l'infrastructure d'IA et les centres de données."
+    },
+    {
+      "category": "AI",
+      "title": "Des chercheurs en IA continuent de quitter Google pour ses rivaux",
+      "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+      "publishedAt": "2026-06-24",
+      "summary": "Plusieurs chercheurs de premier plan, dont Jonas Adler et Alexander Pritzel, quittent Google pour rejoindre Anthropic, prolongeant une série de départs marquants après ceux de scientifiques de renom. Ce mouvement illustre la guerre des talents qui fait rage dans l'IA, où les laboratoires se disputent à prix d'or les meilleurs profils. Pour Google, ces départs successifs posent la question de sa capacité à retenir ses équipes de recherche alors que la concurrence s'intensifie autour des modèles de pointe."
+    },
+    {
+      "category": "AI",
+      "title": "Meta lance une application compagnon d'IA pour les créateurs de Facebook",
+      "url": "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/",
+      "publishedAt": "2026-06-24",
+      "summary": "Facebook réinvente son outil Creator Studio sous la forme d'une application autonome dopée à l'IA, destinée à aider les créateurs à développer leur audience sur le réseau social. L'application assistante doit faciliter la gestion des contenus, l'analyse des performances et l'engagement de la communauté. Cette initiative confirme la volonté de Meta d'intégrer l'IA générative au cœur de ses services pour fidéliser les créateurs, un public clé face à la concurrence des autres plateformes."
+    },
+    {
+      "category": "AI",
+      "title": "Figma ajoute des couches de code, des animations et de nouvelles fonctions d'IA",
+      "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
+      "publishedAt": "2026-06-24",
+      "summary": "Figma a présenté une mise à jour majeure de son outil de conception : une nouvelle couche de code, la prise en charge du mouvement et des shaders, ainsi que la possibilité de créer des plug-ins personnalisés à l'aide de l'IA. Ces ajouts rapprochent encore le design et le développement, en permettant aux équipes de prototyper des interactions plus riches et d'automatiser certaines tâches directement dans l'outil. Figma poursuit ainsi sa stratégie d'intégration de l'IA générative pour fluidifier le travail des designers et des développeurs."
+    },
+    {
+      "category": "AI",
+      "title": "Microsoft publie son rapport annuel sur l'IA dans l'éducation",
+      "url": "https://news.microsoft.com/source/2026/06/24/microsofts-new-ai-in-education-report-highlights-widespread-adoption-and-increasing-demand-for-support/",
+      "publishedAt": "2026-06-24",
+      "summary": "Microsoft a dévoilé la troisième édition de son rapport annuel sur l'IA dans l'éducation, qui met en évidence une adoption désormais largement répandue et une demande croissante d'accompagnement. L'entreprise souligne l'enjeu d'aider les établissements à passer de l'expérimentation à une mise en œuvre concrète et responsable. À l'occasion, Microsoft annonce aussi une nouvelle vague d'expériences pédagogiques assistées par l'IA, proposées sans coût supplémentaire en amont du salon ISTELive 26."
+    },
+    {
+      "category": "IT",
+      "title": "L'IA devait supprimer les postes d'ingénieurs : les données montrent leur résilience",
+      "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/",
+      "publishedAt": "2026-06-24",
+      "summary": "Alors que les licenciements dans la tech ont atteint en mai leur plus haut niveau mensuel depuis des années, l'IA étant souvent citée comme cause, de nouvelles données nuancent le tableau pour l'ingénierie logicielle. Loin de s'effondrer, l'emploi des développeurs apparaît parmi les plus résilients face à l'automatisation. L'analyse suggère que l'IA transforme le métier davantage qu'elle ne le détruit, en augmentant la productivité tout en maintenant une demande soutenue de compétences techniques."
+    },
+    {
+      "category": "IT",
+      "title": "La pénurie de puces mémoire profite à un fabricant américain",
+      "url": "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/",
+      "publishedAt": "2026-06-24",
+      "summary": "La grave pénurie de puces mémoire, composant critique pour les modèles d'IA gourmands en calcul, devrait persister jusqu'en 2027. Micron, premier fabricant américain de mémoire informatique, en tire largement parti et voit sa valorisation atteindre des sommets. La tension sur l'offre, alimentée par l'explosion des besoins des centres de données, soutient les prix et redonne du pouvoir de négociation aux producteurs, tout en renchérissant le coût des infrastructures d'IA pour l'ensemble du secteur."
+    },
+    {
+      "category": "IT",
+      "title": "Agility Robotics prévoit son entrée en Bourse via un SPAC à 2,5 milliards de dollars",
+      "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+      "publishedAt": "2026-06-24",
+      "summary": "Le spécialiste des robots humanoïdes Agility Robotics prévoit de s'introduire en Bourse via une fusion avec le véhicule d'acquisition Churchill Capital Corp XI, dans une opération valorisée à environ 2,5 milliards de dollars et générant plus de 620 millions de dollars de produits. Ce financement doit accélérer le déploiement de ses robots, notamment dans la logistique et l'entreposage. L'opération illustre le regain d'intérêt des marchés pour la robotique humanoïde, portée par les promesses d'automatisation des tâches physiques."
+    },
+    {
+      "category": "IT",
+      "title": "Slate Auto dévoile son pick-up électrique à 24 950 dollars",
+      "url": "https://techcrunch.com/2026/06/24/slate-autos-radically-simple-electric-truck-starts-at-24950/",
+      "publishedAt": "2026-06-24",
+      "summary": "La start-up Slate Auto, soutenue par Jeff Bezos, a révélé le prix de départ de son pick-up électrique radicalement simplifié : 24 950 dollars. Le véhicule mise sur une conception épurée et personnalisable pour proposer une électrique abordable, à rebours de la montée en gamme du secteur. Ce positionnement tarifaire agressif vise à élargir l'accès à la mobilité électrique et à se démarquer dans un marché où le coût reste un frein majeur à l'adoption."
+    },
+    {
+      "category": "IT",
+      "title": "Slate explique pourquoi elle a changé la batterie de son pick-up électrique économique",
+      "url": "https://techcrunch.com/2026/06/24/heres-why-slate-changed-the-battery-in-its-cheap-ev-truck/",
+      "publishedAt": "2026-06-24",
+      "summary": "Slate Auto détaille les raisons du changement de batterie de son pick-up électrique à bas coût. Le constructeur a revu sa chimie et son architecture pour optimiser le compromis entre prix, autonomie et disponibilité des composants. Ces ajustements, opérés avant le lancement, montrent les arbitrages techniques nécessaires pour tenir un tarif agressif tout en garantissant fiabilité et performance, dans un contexte de tensions sur l'approvisionnement en cellules et en matériaux pour batteries."
+    },
+    {
+      "category": "Science",
+      "title": "Une étude remet en cause une croyance répandue sur la vitamine D et le soleil",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260623083104.htm",
+      "publishedAt": "2026-06-23",
+      "summary": "Une étude menée auprès de près de 300 personnes dans le nord de la Grande-Bretagne montre que, dans les groupes les plus à risque, les taux de vitamine D restent faibles toute l'année, y compris en été. Ces résultats nuancent l'idée selon laquelle l'exposition au soleil suffit à garantir un statut adéquat en vitamine D. Les chercheurs soulignent l'intérêt d'un suivi et, le cas échéant, d'une supplémentation ciblée pour les populations vulnérables, plutôt que de compter uniquement sur l'ensoleillement saisonnier."
+    },
+    {
+      "category": "Science",
+      "title": "Les virus de la grippe exploiteraient les « empreintes de mort » des cellules",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260623014028.htm",
+      "publishedAt": "2026-06-23",
+      "summary": "En se désagrégeant, les cellules mourantes laissent de minuscules « empreintes de mort » contenant des particules nouvellement découvertes qui aident le système immunitaire à nettoyer les débris. Des chercheurs ont toutefois constaté que les virus de la grippe peuvent détourner ce processus : ils se dissimulent dans ces enveloppes microscopiques et pourraient s'en servir pour se propager vers les cellules voisines. Cette découverte ouvre des pistes pour mieux comprendre la diffusion virale et imaginer de nouvelles stratégies thérapeutiques."
+    },
+    {
+      "category": "Science",
+      "title": "La conscience pourrait émerger sous des formes de vie très différentes",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260623083146.htm",
+      "publishedAt": "2026-06-23",
+      "summary": "Les philosophes Eric Schwitzgebel et Jeremy Pober avancent que la conscience pourrait apparaître sous de nombreuses formes de vie, y compris chez des êtres constitués de matériaux radicalement différents de ceux que l'on connaît sur Terre. Leur réflexion élargit le champ des entités potentiellement conscientes au-delà du modèle biologique terrestre, avec des implications pour l'étude de l'esprit, l'astrobiologie et l'éthique de l'intelligence artificielle. Un travail conceptuel qui invite à repenser les critères mêmes de la conscience."
+    },
+    {
+      "category": "Science",
+      "title": "Comment naissent vraiment les reines des abeilles : la découverte des « berceaux royaux »",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260623083101.htm",
+      "publishedAt": "2026-06-23",
+      "summary": "Pendant des décennies, on a cru que la gelée royale était l'ingrédient secret transformant une simple larve d'abeille en reine. Une nouvelle étude révèle un processus bien plus complexe : de jeunes ouvrières fabriquent de véritables « berceaux royaux » en cire sur mesure, régulent soigneusement la chaleur et l'humidité, et mobilisent des équipes entières de soigneuses pour élever les futures reines. Ces structures, bien plus que de simples contenants protecteurs, jouent un rôle déterminant dans la fabrication d'une reine."
+    }
+  ]
+}
