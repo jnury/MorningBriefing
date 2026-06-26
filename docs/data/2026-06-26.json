@@ -1,0 +1,212 @@
+{
+  "date": "2026-06-26",
+  "generatedAt": "2026-06-26T05:35:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 37,
+      "low": 25,
+      "condition": "Averses de pluie faibles",
+      "weathercode": 80,
+      "precipProbability": 53
+    },
+    "lausanne": {
+      "high": 34,
+      "low": 25,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 35
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "La Suisse a battu le Canada 2-1 à Vancouver pour terminer en tête du groupe B du Mondial 2026, grâce aux buts de Rubén Vargas et Johan Manzambi.",
+      "publishedAt": "2026-06-24"
+    },
+    {
+      "headline": "La Suisse a été désignée pays le plus apprécié du monde, à égalité avec le Canada, dans le Global Perception Ranking 2026, saluée pour sa stabilité, sa qualité de vie et sa diplomatie.",
+      "publishedAt": "2026-06-25"
+    },
+    {
+      "headline": "Dès le 1er août, une amende nationale pouvant atteindre 250 francs sanctionnera le littering, une mesure destinée à harmoniser les pénalités et à promouvoir l'économie circulaire.",
+      "publishedAt": "2026-06-25"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "La dernière journée de la phase de groupes du Mondial 2026 s'est jouée, le Brésil dominant l'Écosse 3-0 tandis que se dessinaient les affiches des huitièmes de finale.",
+      "publishedAt": "2026-06-25"
+    },
+    {
+      "headline": "Le Botswana est devenu le dernier pays à signer les accords Artemis lors d'une cérémonie au siège de la NASA à Washington, renforçant la coopération internationale pour l'exploration lunaire.",
+      "publishedAt": "2026-06-25"
+    },
+    {
+      "headline": "L'Ukraine a frappé l'une des plus grandes usines russes de traitement du gaz ainsi que deux centres de communications satellitaires, intensifiant ses attaques en profondeur sur le territoire russe.",
+      "publishedAt": "2026-06-25"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 25 juin 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -0.46
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 0.14
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.81
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 0.8
+      }
+    ],
+    "summary": "Les places européennes et suisse ont progressé tandis que le Nasdaq reculait pour une quatrième séance consécutive, plombé par la faiblesse des géants technologiques, le Dow grappillant un léger gain."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "La Maison-Blanche demande à OpenAI de ralentir la sortie de son nouveau modèle",
+      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "publishedAt": "2026-06-25",
+      "summary": "La Maison-Blanche a demandé à OpenAI de différer le déploiement de son prochain grand modèle, invoquant des préoccupations de sécurité. Selon TechCrunch, des responsables fédéraux souhaitent davantage de garanties et d'évaluations avant une mise à disposition large, signe d'une attention politique croissante portée aux capacités des modèles de pointe. L'épisode illustre la tension entre la course commerciale à l'innovation et les exigences de prudence réglementaire, alors que les autorités américaines cherchent à encadrer les risques liés aux systèmes les plus puissants sans freiner outre mesure la compétitivité du secteur."
+    },
+    {
+      "category": "AI",
+      "title": "OpenAI dévoile Jalapeño, sa première puce d'inférence conçue avec Broadcom",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+      "publishedAt": "2026-06-24",
+      "summary": "OpenAI et Broadcom ont présenté Jalapeño, premier accélérateur maison d'OpenAI, optimisé pour l'inférence des grands modèles de langage. Conçu en seulement neuf mois, de la conception au tape-out, il vise une efficacité énergétique nettement supérieure à l'état de l'art actuel. Des échantillons font déjà tourner des charges réelles en laboratoire, dont GPT-5.3-Codex-Spark. Un premier déploiement est prévu fin 2026, dans des centres de données à l'échelle du gigawatt opérés avec Microsoft et d'autres partenaires. La puce marque la volonté d'OpenAI de maîtriser toute sa pile matérielle et constitue une attaque directe contre la domination de Nvidia sur l'inférence."
+    },
+    {
+      "category": "AI",
+      "title": "Claude d'Anthropic séduit les abonnés payants, un marché dominé par ChatGPT",
+      "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+      "publishedAt": "2026-06-25",
+      "summary": "Selon TechCrunch, l'assistant Claude d'Anthropic gagne du terrain auprès des consommateurs payants, un segment longtemps tenu par ChatGPT d'OpenAI. La montée en gamme des modèles et leurs performances sur les tâches d'écriture et de code séduiraient une clientèle prête à payer pour la qualité, érodant l'avance d'OpenAI sur le grand public. Ce basculement témoigne de l'intensification de la concurrence entre laboratoires d'IA et de l'importance grandissante des abonnements individuels comme source de revenus durable."
+    },
+    {
+      "category": "AI",
+      "title": "Adobe rachète Topaz Labs, spécialiste de l'amélioration d'images et de vidéos",
+      "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
+      "publishedAt": "2026-06-25",
+      "summary": "Adobe a annoncé l'acquisition de Topaz Labs, éditeur d'outils d'amélioration d'images et de vidéos fondés sur l'IA. Présente depuis plus de vingt ans et primée d'un Emmy l'an dernier pour sa technologie de production, la société renforcera l'offre créative d'Adobe. La transaction devrait être finalisée au second semestre 2026. Ce rachat illustre la stratégie d'Adobe consistant à intégrer des briques d'IA générative et d'amélioration média pour consolider son écosystème destiné aux créateurs et aux professionnels de l'audiovisuel."
+    },
+    {
+      "category": "AI",
+      "title": "Amazon investit 13 milliards de dollars supplémentaires dans l'IA en Inde",
+      "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
+      "publishedAt": "2026-06-25",
+      "summary": "Amazon a annoncé un investissement supplémentaire de 13 milliards de dollars pour étendre, d'ici 2030, ses infrastructures d'IA et de cloud en Inde. Les fonds serviront à accroître la capacité des centres de données d'Amazon Web Services à Mumbai et Hyderabad. Ce pari massif confirme l'importance stratégique du marché indien et la course mondiale aux capacités de calcul nécessaires pour entraîner et exploiter les modèles d'intelligence artificielle, alors que la demande en puissance de traitement explose."
+    },
+    {
+      "category": "AI",
+      "title": "L'ancien patron de l'IA de Databricks veut diviser par 1000 la facture énergétique de l'IA",
+      "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
+      "publishedAt": "2026-06-25",
+      "summary": "L'ancien responsable de l'IA de Databricks a présenté une nouvelle entreprise ambitionnant de réduire d'un facteur 1000 la consommation électrique des systèmes d'IA. Le projet mise sur des approches matérielles et logicielles repensées pour rendre l'inférence et l'entraînement bien plus sobres. Alors que l'envolée de la demande en calcul fait grimper la facture énergétique des centres de données, de telles initiatives répondent à un enjeu central pour la viabilité économique et environnementale de l'intelligence artificielle à grande échelle."
+    },
+    {
+      "category": "AI",
+      "title": "General Intuition parie 2,3 milliards sur les jeux vidéo pour entraîner des agents IA",
+      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+      "publishedAt": "2026-06-25",
+      "summary": "La start-up General Intuition mise, avec une valorisation de 2,3 milliards de dollars, sur l'idée que les environnements de jeux vidéo peuvent entraîner des agents d'IA aux compétences transposables dans le monde réel. En s'appuyant sur des univers simulés riches et variés, l'entreprise espère doter ses agents de capacités de raisonnement spatial et d'action utiles à la robotique et à l'automatisation. Cette approche illustre l'engouement pour l'apprentissage en simulation comme voie vers des agents plus polyvalents."
+    },
+    {
+      "category": "AI",
+      "title": "Patronus AI lève 50 millions pour des « mondes numériques » qui éprouvent les agents IA",
+      "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+      "publishedAt": "2026-06-25",
+      "summary": "Patronus AI a levé 50 millions de dollars pour construire des « mondes numériques » destinés à soumettre les agents d'IA à des tests de résistance avant leur mise en production. L'objectif est d'identifier défaillances, comportements imprévus et failles de sécurité en simulant des scénarios complexes. À mesure que les agents autonomes se déploient dans les entreprises, ce type d'évaluation rigoureuse devient essentiel pour bâtir la confiance et limiter les risques opérationnels liés à leur déploiement."
+    },
+    {
+      "category": "AI",
+      "title": "Contre les prévisions, les emplois d'ingénieurs résistent le mieux à l'IA",
+      "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/",
+      "publishedAt": "2026-06-24",
+      "summary": "De nouvelles données rapportées par TechCrunch suggèrent que, loin d'être balayés par l'IA, les emplois d'ingénierie figurent parmi les plus résilients. Si l'automatisation transforme les tâches, la demande de compétences techniques pour concevoir, superviser et intégrer les systèmes d'IA reste forte. Le constat nuance les prédictions alarmistes sur la disparition massive des métiers techniques et souligne plutôt une évolution des rôles, où les ingénieurs collaborent avec les outils d'IA plutôt que d'être remplacés par eux."
+    },
+    {
+      "category": "AI",
+      "title": "Les chercheurs en IA continuent de quitter Google pour ses rivaux",
+      "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+      "publishedAt": "2026-06-24",
+      "summary": "Plusieurs chercheurs de premier plan quittent Google et DeepMind pour rejoindre des concurrents comme Anthropic et OpenAI. Ces départs, dont celui annoncé de figures reconnues du domaine, illustrent la guerre des talents qui fait rage dans l'intelligence artificielle. Les laboratoires se disputent à prix d'or les profils capables de faire progresser les modèles de pointe, et ces mouvements rebattent les cartes de la course technologique entre les principaux acteurs du secteur."
+    },
+    {
+      "category": "IT",
+      "title": "Un site web épingle les entreprises qui n'offrent toujours pas les passkeys",
+      "url": "https://techcrunch.com/2026/06/24/new-website-names-and-shames-companies-that-still-dont-offer-passkeys-to-users/",
+      "publishedAt": "2026-06-24",
+      "summary": "Un nouveau site recense et pointe du doigt les entreprises qui ne proposent toujours pas l'authentification par passkeys à leurs utilisateurs. Plus résistantes au hameçonnage que les mots de passe traditionnels, les passkeys sont promues par l'industrie comme un standard de sécurité. En exposant les retardataires, l'initiative entend accélérer leur adoption et inciter les services en ligne à mieux protéger les comptes de leurs clients face aux attaques par vol d'identifiants."
+    },
+    {
+      "category": "IT",
+      "title": "Polymarket annonce que des pirates ont dérobé des fonds d'utilisateurs",
+      "url": "https://techcrunch.com/2026/06/25/polymarket-says-hackers-stole-users-funds/",
+      "publishedAt": "2026-06-25",
+      "summary": "La plateforme de marchés prédictifs Polymarket a indiqué que des pirates ont réussi à dérober des fonds appartenant à certains utilisateurs. L'entreprise enquête sur l'incident et évalue son ampleur. Cet épisode rappelle les risques de sécurité persistants qui pèsent sur les services liés aux cryptomonnaies et aux actifs numériques, où les vols de fonds restent fréquents et soulignent l'importance de protections renforcées pour les utilisateurs comme pour les plateformes."
+    },
+    {
+      "category": "IT",
+      "title": "Cellebrite affirmait avoir coupé la Russie, qui a pourtant utilisé ses outils",
+      "url": "https://techcrunch.com/2026/06/25/cellebrite-said-it-cut-off-russia-but-russia-used-is-tools-anyway/",
+      "publishedAt": "2026-06-25",
+      "summary": "Selon TechCrunch, la société Cellebrite, spécialiste de l'extraction de données de téléphones, affirmait avoir cessé toute fourniture à la Russie, mais ses outils y auraient malgré tout été employés. L'affaire soulève des questions sur l'efficacité réelle des restrictions imposées par les éditeurs de technologies de surveillance et sur la traçabilité de leurs produits. Elle alimente le débat sur le contrôle des outils sensibles susceptibles d'être détournés à des fins de surveillance par des régimes visés par des sanctions."
+    },
+    {
+      "category": "IT",
+      "title": "Agility Robotics prévoit son entrée en Bourse via un SPAC à 2,5 milliards",
+      "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+      "publishedAt": "2026-06-24",
+      "summary": "Agility Robotics, concepteur du robot humanoïde Digit, prévoit d'entrer en Bourse par le biais d'une fusion avec un SPAC valorisant l'opération à 2,5 milliards de dollars. Cette cotation doit fournir des capitaux pour accélérer le développement et le déploiement de ses robots dans la logistique et l'industrie. L'opération illustre l'intérêt renouvelé des marchés pour la robotique humanoïde, portée par les progrès de l'IA et la promesse d'automatiser des tâches physiques dans les entrepôts et les usines."
+    },
+    {
+      "category": "IT",
+      "title": "L'ancien dirigeant d'Infosys lance une start-up pour bousculer les services informatiques",
+      "url": "https://techcrunch.com/2026/06/24/former-infosys-chief-has-a-new-startup-that-wants-to-challenge-the-it-services-world/",
+      "publishedAt": "2026-06-24",
+      "summary": "Un ancien dirigeant d'Infosys a fondé une nouvelle start-up ambitionnant de réinventer le secteur des services informatiques, dominé par les grandes ESN traditionnelles. En misant sur l'automatisation et l'IA, l'entreprise entend proposer une prestation plus rapide et moins gourmande en main-d'œuvre. L'initiative reflète la pression que l'intelligence artificielle exerce sur le modèle économique classique des géants de l'externalisation informatique, contraints de repenser leur offre face à de nouveaux entrants plus agiles."
+    },
+    {
+      "category": "Science",
+      "title": "La sonde Lucy de la NASA révèle un astéroïde en forme de cacahuète vacillante",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260624025455.htm",
+      "publishedAt": "2026-06-24",
+      "summary": "La sonde Lucy de la NASA a découvert que l'astéroïde Donaldjohanson est un vestige vacillant, en forme de cacahuète, né d'une collision violente puis lentement remodelé. Les observations révèlent aussi des indices d'eau ancienne. Ces données aident les scientifiques à mieux comprendre la formation et l'évolution des petits corps du Système solaire, qui constituent des reliques de ses premiers temps. La mission Lucy poursuit son exploration d'astéroïdes, offrant un aperçu précieux des matériaux à l'origine des planètes."
+    },
+    {
+      "category": "Science",
+      "title": "Après 70 ans de fouilles, l'antique Sardes inscrite au patrimoine mondial de l'UNESCO",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260625014808.htm",
+      "publishedAt": "2026-06-25",
+      "summary": "La cité antique de Sardes, en Anatolie, a été inscrite au patrimoine mondial de l'UNESCO après sept décennies de travaux archéologiques. Ancienne capitale du royaume de Lydie, réputée pour avoir vu naître la monnaie frappée, elle reçoit ainsi une reconnaissance internationale couronnant un long effort de fouilles et de conservation. Cette inscription consacre l'importance historique du site et devrait renforcer sa protection ainsi que son rayonnement scientifique et touristique."
+    },
+    {
+      "category": "Science",
+      "title": "Des cellules cérébrales ancestrales aident à bloquer les distractions",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260624025426.htm",
+      "publishedAt": "2026-06-24",
+      "summary": "Des chercheurs ont identifié, dans des régions anciennes du cerveau, des neurones qui filtrent les distractions et renforcent la concentration. Cette découverte éclaire les mécanismes fondamentaux de l'attention et suggère que la capacité à ignorer les stimuli parasites repose sur des circuits évolutivement très anciens. Mieux comprendre ces neurones pourrait, à terme, ouvrir des pistes pour étudier et traiter les troubles de l'attention, en ciblant les bases biologiques du contrôle cognitif."
+    },
+    {
+      "category": "Science",
+      "title": "Ils savaient que la pilule était factice, et leur mémoire s'est tout de même améliorée",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260625060159.htm",
+      "publishedAt": "2026-06-25",
+      "summary": "Une étude montre que des adultes âgés en bonne santé ont vu leur mémoire, leurs performances physiques et leur niveau de stress s'améliorer après seulement trois semaines de prise de pilules placebo, qu'ils savaient inactives. Ce résultat sur les placebos « en connaissance de cause » suggère que le simple rituel de soin peut produire des effets mesurables. Ces travaux relancent l'intérêt pour l'exploitation éthique de l'effet placebo afin de soutenir le bien-être, sans recourir à la tromperie."
+    },
+    {
+      "category": "Science",
+      "title": "L'ostéopénie affaiblit silencieusement les os de millions de personnes",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260624025511.htm",
+      "publishedAt": "2026-06-24",
+      "summary": "Des chercheurs alertent sur l'ostéopénie, une baisse de densité osseuse qui touche des millions de personnes sans symptômes apparents et accroît le risque de fractures. Souvent négligée car moins sévère que l'ostéoporose, elle constitue pourtant un signal d'alarme précoce. Les auteurs plaident pour un dépistage et une prévention accrus, notamment par l'activité physique et une nutrition adaptée, afin de préserver la solidité du squelette et de réduire le fardeau des fractures avec l'âge."
+    }
+  ]
+}
