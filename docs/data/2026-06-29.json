@@ -1,0 +1,156 @@
+{
+  "date": "2026-06-29",
+  "generatedAt": "2026-06-29T05:45:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 32,
+      "low": 23,
+      "condition": "Orage",
+      "weathercode": 95,
+      "precipProbability": 73
+    },
+    "lausanne": {
+      "high": 33,
+      "low": 22,
+      "condition": "Orage",
+      "weathercode": 95,
+      "precipProbability": 53
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Le Parc des Evaux à Genève a accueilli dimanche la deuxième édition d'UNISPORT, une journée gratuite dédiée au sport, aux activités ludiques et au vivre-ensemble.",
+      "publishedAt": "2026-06-28"
+    },
+    {
+      "headline": "Des milliers de personnes ont défilé à la marche des Fiertés de Lausanne, dans une ambiance festive et revendicative.",
+      "publishedAt": "2026-06-27"
+    },
+    {
+      "headline": "L'Openair de Saint-Gall s'est achevé sans incident majeur, réunissant quelque 105'000 festivaliers malgré des températures dépassant les 30 degrés.",
+      "publishedAt": "2026-06-28"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Les huitièmes de finale de la Coupe du monde 2026 ont débuté dimanche, le Canada affrontant l'Afrique du Sud à Los Angeles.",
+      "publishedAt": "2026-06-28"
+    },
+    {
+      "headline": "Au Moyen-Orient, le cessez-le-feu fragile entre Washington et Téhéran reste sous tension, l'Iran menaçant de suspendre les négociations avec les États-Unis.",
+      "publishedAt": "2026-06-28"
+    },
+    {
+      "headline": "La pression tarifaire américaine rapproche l'Europe et le Brésil, ouvrant de nouveaux débouchés commerciaux entre les deux partenaires.",
+      "publishedAt": "2026-06-28"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du vendredi 26 juin 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -0.24
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": -0.09
+      },
+      {
+        "name": "SMI",
+        "changePct": -0.21
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": -0.9
+      }
+    ],
+    "summary": "Les marchés ont terminé la semaine en léger repli, le Nasdaq signant une cinquième séance de baisse sur fond de rotation hors des valeurs technologiques, tandis que l'Euro Stoxx 50 reculait plus nettement."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "Ford rappelle ses ingénieurs chevronnés après l'échec de l'IA sur la qualité",
+      "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+      "publishedAt": "2026-06-28",
+      "summary": "Ford a réembauché environ 350 ingénieurs expérimentés, les « gray beards », après avoir constaté que ses systèmes de contrôle qualité automatisés et l'IA ne tenaient pas leurs promesses. Le directeur des opérations Kumar Galhotra a reconnu une dépendance excessive à l'automatisation, et le vice-président Charles Poon a admis l'erreur d'avoir cru qu'« introduire l'IA » suffirait à produire un produit de qualité. Plutôt que d'abandonner l'IA, le constructeur utilise ces vétérans pour repérer les défauts en amont et former les jeunes ingénieurs. Le PDG Jim Farley fait état d'économies substantielles sur les garanties et rappels, et la marque a décroché la première place du classement JD Power Initial Quality Survey."
+    },
+    {
+      "category": "IT",
+      "title": "Pourquoi Wall Street voit dans Micron le prochain Nvidia",
+      "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+      "publishedAt": "2026-06-28",
+      "summary": "Le fabricant américain de mémoires Micron est devenu une valeur favorite de Wall Street, porté par la demande d'infrastructures d'IA. Son action a bondi de plus de 236 % en un mois, dépassant brièvement Meta et Tesla en capitalisation. Au troisième trimestre, son chiffre d'affaires a quadruplé sur un an pour atteindre 41,45 milliards de dollars, avec un bénéfice de 28,2 milliards, dopé par la pénurie de puces DRAM et NAND nécessaires aux serveurs d'IA. Les analystes estiment que Micron pourrait briser le traditionnel cycle d'expansion-récession du secteur grâce à seize accords de long terme conclus avec de grands clients comme Nvidia et Anthropic."
+    },
+    {
+      "category": "AI",
+      "title": "Des start-up asiatiques lancent des modèles à la Mythos face au maintien de l'embargo sur Anthropic",
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "publishedAt": "2026-06-27",
+      "summary": "Des start-up asiatiques se positionnent pour combler le vide laissé par l'embargo américain à l'exportation visant les modèles Mythos et Fable 5 d'Anthropic. La société tokyoïte Sakana AI a dévoilé « Fugu », présenté comme offrant « une capacité de pointe sans le risque des contrôles à l'exportation », tandis que le chinois 360 a lancé « Tulongfeng », un outil axé sur la cybersécurité censé rivaliser avec Mythos. Ces lancements, optimisés pour les langues et besoins régionaux, représentent un défi pour la domination américaine dans l'IA en Asie au moment où les modèles américains font face à des restrictions."
+    },
+    {
+      "category": "AI",
+      "title": "Le patron des paiements indiens mise sur l'IA pour la prochaine vague de croissance",
+      "url": "https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth/",
+      "publishedAt": "2026-06-27",
+      "summary": "Dilip Asbe, directeur de la National Payments Corporation of India, estime que l'intelligence artificielle portera la prochaine phase de croissance de l'UPI, le système de paiement instantané indien, vers un milliard de transactions quotidiennes. Il cite l'acquisition d'utilisateurs, la détection de la fraude et la distribution de crédit comme leviers, et appelle l'écosystème fintech indien à développer des petits modèles de langage spécialisés tirant parti de la richesse des données de paiement du pays. Asbe souligne aussi la nécessité de modèles économiques viables pour que de nouvelles applications puissent concurrencer PhonePe et Google Pay, qui dominent avec plus de 80 % de part de marché."
+    },
+    {
+      "category": "AI",
+      "title": "Le data center orbital d'Elon Musk suscite le scepticisme jusque chez SoftBank",
+      "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+      "publishedAt": "2026-06-27",
+      "summary": "Masayoshi Son, PDG de SoftBank, met en doute la viabilité du projet de data center orbital d'Elon Musk, jugeant que l'infrastructure spatiale ne réduira pas significativement les coûts et que ses délais de développement ne correspondent pas à l'urgence des besoins en IA. « Dans la bataille de l'IA, les prochaines années seront bien plus importantes que ce qui pourrait advenir dans une décennie », a-t-il déclaré. Plusieurs dirigeants du secteur, dont Sam Altman, ont exprimé un scepticisme similaire, même si chacun défend des solutions alternatives dans lesquelles il a des intérêts financiers."
+    },
+    {
+      "category": "AI",
+      "title": "Un fondateur raconte comment il a utilisé l'IA pour affronter son cancer",
+      "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
+      "publishedAt": "2026-06-27",
+      "summary": "Connor Christou, fondateur de 35 ans en pleine forme et adepte du suivi de ses biomarqueurs, a reçu le diagnostic d'un lymphome non hodgkinien agressif. Après avoir réuni douze avis médicaux pour décider d'une chimiothérapie intensive, il a utilisé l'IA Claude pour analyser ses bilans sanguins, ses examens d'imagerie et ses journaux de symptômes tout au long du traitement. L'outil l'a notamment aidé à éviter une radiothérapie inutile, en identifiant un rebond du thymus plutôt qu'une maladie active. « Cela n'a pas remplacé les médecins », précise-t-il, mais « m'a aidé à poser les bonnes questions »."
+    },
+    {
+      "category": "IT",
+      "title": "Un cadre de l'Apple Vision Pro rejoindrait OpenAI",
+      "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+      "publishedAt": "2026-06-27",
+      "summary": "Paul Meade, vice-président d'Apple supervisant le casque Vision Pro et le développement de lunettes connectées dopées à l'IA, quitterait l'entreprise pour rejoindre la division matérielle d'OpenAI. Ce départ fait suite à des réorganisations menées sous l'égide du futur PDG John Ternus, qui auraient laissé certains cadres en position d'infériorité. OpenAI développe en parallèle un appareil d'IA avec l'ancien designer d'Apple Jony Ive, présenté comme « plus apaisant et calme qu'un iPhone »."
+    },
+    {
+      "category": "IT",
+      "title": "Instagram teste de nouvelles façons de personnaliser « Votre algorithme »",
+      "url": "https://techcrunch.com/2026/06/27/instagram-is-testing-more-ways-for-users-to-customize-your-algorithm/",
+      "publishedAt": "2026-06-27",
+      "summary": "Instagram teste de nouveaux moyens d'accéder à la fonction « Votre algorithme » et de la personnaliser, qui permet aux utilisateurs d'indiquer les sujets qu'ils souhaitent voir davantage ou moins. Les essais comprennent un accès par menu déroulant, des invites par balayage sur les Reels et des boutons pour signaler ses préférences de contenu. Le patron d'Instagram, Adam Mosseri, indique vouloir « faire évoluer Votre algorithme, d'un simple réglage vers quelque chose de central » dans l'expérience utilisateur."
+    },
+    {
+      "category": "IT",
+      "title": "La supervision du Full Self-Driving de Tesla s'intensifie",
+      "url": "https://techcrunch.com/2026/06/28/techcrunch-mobility-all-eyes-on-tesla-fsd/",
+      "publishedAt": "2026-06-28",
+      "summary": "La newsletter Mobility de TechCrunch revient sur le renforcement de la surveillance du système Full Self-Driving de Tesla, à la suite d'un accident mortel au Texas et d'enquêtes ouvertes par la NHTSA et le NTSB. En parallèle, Waymo importe environ 3 156 véhicules par an pour son service de robotaxis à Ojai, tandis que des concurrents comme Lyft imposent des normes de sécurité exigeant des systèmes multi-capteurs, ce qui exclut de fait les véhicules de Tesla, dotés uniquement de caméras."
+    },
+    {
+      "category": "IT",
+      "title": "Californie : une loi contre les publicités trop fortes en streaming entre en vigueur",
+      "url": "https://techcrunch.com/2026/06/28/california-law-targeting-loud-streaming-ads-takes-effect-on-july-1/",
+      "publishedAt": "2026-06-28",
+      "summary": "Une loi californienne interdisant aux services de streaming de diffuser des publicités plus fortes que le contenu vidéo qui les accompagne entre en vigueur le 1er juillet 2026. Le texte calque des restrictions déjà appliquées aux publicités de la télévision hertzienne et câblée. Les organisations professionnelles s'y étaient opposées, mais une législation similaire est attendue dans l'Illinois l'an prochain."
+    },
+    {
+      "category": "IT",
+      "title": "L'écrivain Ian Bogost plaide pour « les petites choses » face à l'excès de confort",
+      "url": "https://techcrunch.com/2026/06/28/writer-ian-bogost-says-the-small-stuff-can-help-us-reclaim-our-lives-from-dematerialization/",
+      "publishedAt": "2026-06-28",
+      "summary": "Dans un entretien à TechCrunch, l'écrivain et chercheur Ian Bogost présente son ouvrage à paraître « The Small Stuff: How to Lead a More Gratifying Life ». Il y défend l'idée que de nombreux aspects du quotidien se sont dématérialisés sous l'effet de la technologie et du confort, nous éloignant des objets et gestes concrets. Bogost invite à renouer avec « les petites choses » du réel pour mener une vie plus gratifiante, à rebours d'une commodité numérique devenue omniprésente."
+    },
+    {
+      "category": "IT",
+      "title": "Govee lance une machine à glaçons connectée pour boissons fraîches",
+      "url": "https://techcrunch.com/2026/06/28/govees-smart-nugget-ice-maker-makes-every-iced-drink-feel-like-a-luxury/",
+      "publishedAt": "2026-06-28",
+      "summary": "Govee présente une machine à glaçons connectée produisant de petits glaçons tendres, du type recherché pour donner aux boissons glacées une touche haut de gamme. Pilotable via une application, l'appareil illustre la poursuite de la diversification de la marque, surtout connue pour ses produits d'éclairage connecté, vers les petits électroménagers du quotidien. TechCrunch en livre un test pratique, soulignant l'attrait de ce type de glaçons en pleine vague de chaleur estivale."
+    }
+  ]
+}
