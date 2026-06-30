@@ -1,0 +1,205 @@
+{
+  "date": "2026-06-30",
+  "generatedAt": "2026-06-30T05:35:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 32,
+      "low": 21,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 53
+    },
+    "lausanne": {
+      "high": 30,
+      "low": 22,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 63
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "La 54e édition du Festival de la Cité s'ouvre à Lausanne avec quelque 150 projets artistiques gratuits répartis sur 23 sites jusqu'au 5 juillet.",
+      "publishedAt": "2026-06-29"
+    },
+    {
+      "headline": "Le groupe de construction Implenia a décroché un contrat de plus de 250 millions de francs pour bâtir la gare souterraine de Korsvägen à Göteborg, en Suède.",
+      "publishedAt": "2026-06-29"
+    },
+    {
+      "headline": "Une vague de chaleur exceptionnelle s'installe sur la Suisse romande, pouvant battre des records de longévité dans plusieurs stations avant un rafraîchissement attendu en début de semaine.",
+      "publishedAt": "2026-06-29"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Les tensions s'aggravent autour de l'accord-cadre entre Washington et Téhéran, l'Iran menaçant de suspendre les négociations avec les États-Unis et fragilisant le cessez-le-feu régional.",
+      "publishedAt": "2026-06-29"
+    },
+    {
+      "headline": "Après deux séismes meurtriers au Venezuela, l'Union européenne a mobilisé plus de 520 secouristes pour appuyer les opérations de recherche et de sauvetage.",
+      "publishedAt": "2026-06-29"
+    },
+    {
+      "headline": "Une canicule intense frappe l'Europe, avec des records de température battus en Autriche, Tchéquie, France, Allemagne et Pologne, certaines zones atteignant 40 °C.",
+      "publishedAt": "2026-06-29"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 29 juin 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": 2.07
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 0.59
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.36
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 0.16
+      }
+    ],
+    "summary": "Wall Street a démarré la semaine en forte hausse, portée par les valeurs technologiques — le Dow franchissant pour la première fois les 52 000 points — tandis que les Bourses européennes ont clôturé en ordre dispersé mais légèrement positif."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "Anthropic et le gouverneur Newsom concluent un accord donnant à la Californie l'accès à Claude à moitié prix",
+      "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+      "publishedAt": "2026-06-29",
+      "summary": "Anthropic et le gouverneur de Californie Gavin Newsom ont signé un accord permettant aux agences de l'État d'utiliser l'assistant d'intelligence artificielle Claude à un tarif réduit de moitié. L'initiative vise à accélérer l'adoption de l'IA dans le secteur public californien pour des tâches administratives et de service aux citoyens, tout en posant un cadre d'usage responsable. Le partenariat illustre la concurrence croissante entre laboratoires d'IA pour s'implanter auprès des administrations américaines, un marché stratégique et à fort volume."
+    },
+    {
+      "category": "AI",
+      "title": "Chamath Palihapitiya lève 135 millions de dollars pour sa startup d'IA de programmation et en prend la direction",
+      "url": "https://techcrunch.com/2026/06/29/chamath-palihapitiya-raises-135m-series-a-for-his-ai-coding-startup-takes-ceo-role/",
+      "publishedAt": "2026-06-29",
+      "summary": "L'investisseur Chamath Palihapitiya a annoncé une levée de fonds de série A de 135 millions de dollars, menée par Salesforce Ventures, pour sa startup 8090, qui développe une plateforme d'« usine logicielle » assistée par IA. Fait notable, Palihapitiya reprend un rôle opérationnel à plein temps en devenant directeur général de l'entreprise. Ce financement témoigne de l'appétit persistant des investisseurs pour les outils de génération et d'automatisation de code, malgré les inquiétudes sur les valorisations dans le secteur."
+    },
+    {
+      "category": "AI",
+      "title": "Génération d'images personnalisées de Gemini désormais gratuite pour les utilisateurs américains",
+      "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
+      "publishedAt": "2026-06-29",
+      "summary": "Google a rendu gratuite, pour les utilisateurs aux États-Unis, la fonctionnalité de génération d'images personnalisées de son assistant Gemini. Les utilisateurs peuvent créer des visuels intégrant leur propre apparence ou des éléments personnels, une capacité jusqu'ici réservée aux abonnements payants. Cette ouverture s'inscrit dans la stratégie de Google d'élargir l'audience de Gemini face à la concurrence et de démocratiser des outils créatifs d'IA, tout en soulevant des questions sur les usages détournés et le consentement."
+    },
+    {
+      "category": "AI",
+      "title": "La plateforme de « vibe coding » Base44 lance son propre modèle pour se différencier",
+      "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
+      "publishedAt": "2026-06-29",
+      "summary": "Base44, plateforme de développement assisté par IA dite de « vibe coding », a lancé son propre modèle d'IA. La démarche illustre la recherche de défendabilité des jeunes pousses du secteur, qui dépendaient jusqu'ici des grands modèles tiers et cherchent à se distinguer par une technologie maison. En internalisant son modèle, Base44 vise à mieux contrôler ses coûts, ses performances et son expérience utilisateur, dans un marché de la programmation par IA devenu très concurrentiel."
+    },
+    {
+      "category": "AI",
+      "title": "Arena, le classement de référence des modèles d'IA, devient une activité à 100 millions de dollars",
+      "url": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
+      "publishedAt": "2026-06-29",
+      "summary": "Arena, le tableau de classement comparatif des modèles d'intelligence artificielle largement utilisé par l'industrie pour évaluer les performances, est désormais une entreprise valorisée comme une activité de 100 millions de dollars. Né d'un projet d'évaluation par votes d'utilisateurs, Arena s'est imposé comme une référence du secteur. Sa croissance reflète l'importance prise par les benchmarks indépendants dans un écosystème où les laboratoires multiplient les annonces de modèles toujours plus performants."
+    },
+    {
+      "category": "AI",
+      "title": "Cursor lance une application mobile pour piloter son agent de programmation à distance",
+      "url": "https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/",
+      "publishedAt": "2026-06-29",
+      "summary": "Cursor, l'éditeur de code assisté par IA, a dévoilé une application mobile permettant aux développeurs de superviser et de guider leur agent de programmation depuis leur téléphone. L'application autorise le suivi des tâches en cours, la validation ou la correction du travail de l'agent, et le lancement de nouvelles instructions à distance. Cette extension mobile reflète la montée en puissance des agents de codage autonomes, que les développeurs souhaitent pouvoir contrôler en dehors de leur poste de travail."
+    },
+    {
+      "category": "AI",
+      "title": "TIDAL coupe la monétisation de la musique générée par IA",
+      "url": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
+      "publishedAt": "2026-06-29",
+      "summary": "La plateforme de streaming musical TIDAL a annoncé qu'elle cessait de rémunérer la musique entièrement générée par intelligence artificielle. La mesure vise à protéger les revenus des artistes humains face à la prolifération de titres synthétiques qui détournent une part des écoutes et des royalties. Cette décision s'inscrit dans un mouvement plus large des services de streaming cherchant à encadrer le contenu produit par IA, alors que la frontière entre création humaine et automatisée devient de plus en plus floue."
+    },
+    {
+      "category": "AI",
+      "title": "Pocket lève 11 millions de dollars en pariant sur les appareils de prise de notes par IA",
+      "url": "https://techcrunch.com/2026/06/29/pocket-raises-11m-in-bet-on-rising-demand-for-ai-note-taking-devices/",
+      "publishedAt": "2026-06-29",
+      "summary": "La startup Pocket a annoncé une levée de fonds de 11 millions de dollars pour développer ses appareils dédiés à la prise de notes assistée par intelligence artificielle. L'entreprise mise sur une demande croissante pour des dispositifs matériels capables d'enregistrer, de transcrire et de résumer automatiquement réunions et conversations. Ce financement illustre l'émergence d'une catégorie de gadgets centrés sur l'IA, qui cherchent à se faire une place aux côtés des smartphones et des assistants logiciels."
+    },
+    {
+      "category": "IT",
+      "title": "Les géants technologiques sud-coréens engagent plus de 550 milliards de dollars pour répondre à la pénurie de mémoire",
+      "url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/",
+      "publishedAt": "2026-06-29",
+      "summary": "Les grands groupes technologiques sud-coréens ont annoncé des investissements cumulés de plus de 550 milliards de dollars pour accroître la production de puces mémoire, dans un contexte de pénurie surnommée « RAMageddon ». La demande explosive liée aux centres de données et à l'intelligence artificielle a tendu l'approvisionnement en mémoire vive, faisant grimper les prix. Ces engagements massifs, portés notamment par les leaders des semi-conducteurs, visent à sécuriser les chaînes d'approvisionnement mondiales pour les années à venir."
+    },
+    {
+      "category": "IT",
+      "title": "Victoire pour la vie privée : la Cour suprême juge que les mandats de géolocalisation sont protégés",
+      "url": "https://techcrunch.com/2026/06/29/in-major-privacy-win-supreme-court-rules-geofence-warrants-are-protected-by-privacy-rights/",
+      "publishedAt": "2026-06-29",
+      "summary": "La Cour suprême des États-Unis a rendu une décision majeure en matière de vie privée, jugeant que les mandats dits « geofence » — qui contraignent des entreprises à livrer les données de localisation de tous les appareils présents dans une zone donnée — relèvent des protections constitutionnelles. Cette pratique, utilisée par les forces de l'ordre pour identifier des suspects via les historiques de géolocalisation, est désormais davantage encadrée. La décision a des répercussions importantes pour les géants du numérique détenant ces données."
+    },
+    {
+      "category": "IT",
+      "title": "Rocket Lab poursuit sa série d'acquisitions en rachetant l'opérateur de satellites Iridium",
+      "url": "https://techcrunch.com/2026/06/29/rocket-lab-continues-buying-spree-by-acquiring-satellite-company-iridium/",
+      "publishedAt": "2026-06-29",
+      "summary": "Le groupe spatial Rocket Lab a annoncé l'acquisition de la société de satellites Iridium, prolongeant une stratégie d'expansion par rachats successifs. Iridium exploite une constellation de satellites en orbite basse offrant des services de communication mondiale, notamment dans les zones non couvertes par les réseaux terrestres. Cette opération renforce l'ambition de Rocket Lab de devenir un acteur intégré du spatial, couvrant à la fois le lancement, la fabrication et l'exploitation de services satellitaires, face à des concurrents comme SpaceX."
+    },
+    {
+      "category": "IT",
+      "title": "WhatsApp permet désormais de réserver des noms d'utilisateur",
+      "url": "https://techcrunch.com/2026/06/29/whatsapp-now-lets-you-reserve-usernames/",
+      "publishedAt": "2026-06-29",
+      "summary": "WhatsApp a déployé une fonctionnalité permettant aux utilisateurs de réserver un nom d'utilisateur, en préparation d'un système qui permettra à terme de communiquer sans partager son numéro de téléphone. Cette évolution, attendue de longue date, renforce la confidentialité en dissociant l'identité sur la messagerie du numéro personnel. Elle aligne la plateforme de Meta sur des pratiques déjà courantes chez d'autres applications de messagerie et marque une étape vers une expérience plus respectueuse de la vie privée."
+    },
+    {
+      "category": "IT",
+      "title": "La liseuse Kobo se dote d'un rival de Goodreads",
+      "url": "https://techcrunch.com/2026/06/29/watch-out-amazon-the-kobo-ereader-now-has-a-goodreads-rival/",
+      "publishedAt": "2026-06-29",
+      "summary": "Kobo, fabricant de liseuses électroniques, a intégré à ses appareils une fonctionnalité sociale de suivi de lecture concurrente de Goodreads, le service appartenant à Amazon. Les lecteurs peuvent y consigner leurs livres, partager des avis et suivre leurs objectifs de lecture directement depuis l'écosystème Kobo. Cette offensive vise à fidéliser les utilisateurs et à réduire leur dépendance aux services d'Amazon, dans un marché de la lecture numérique où l'expérience communautaire devient un argument de différenciation."
+    },
+    {
+      "category": "IT",
+      "title": "Waymo et Uber mettent fin discrètement à leur partenariat à Phoenix",
+      "url": "https://techcrunch.com/2026/06/29/waymo-and-uber-quietly-part-ways-in-phoenix/",
+      "publishedAt": "2026-06-29",
+      "summary": "Waymo et Uber ont mis fin sans bruit à leur collaboration à Phoenix, où les courses en robotaxis Waymo étaient proposées via l'application Uber. La séparation reflète l'évolution de la stratégie de Waymo, filiale d'Alphabet, qui privilégie désormais sa propre application pour ses services de véhicules autonomes. Ce retrait souligne les tensions et recompositions dans le secteur des robotaxis, où les acteurs cherchent à contrôler la relation client et les données alors que la technologie gagne en maturité."
+    },
+    {
+      "category": "IT",
+      "title": "Un fabricant de mains robotisées règle un litige avec Tesla et annonce une levée de 11 millions de dollars",
+      "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+      "publishedAt": "2026-06-29",
+      "summary": "Une entreprise spécialisée dans les mains robotisées a réglé à l'amiable un litige l'opposant à Tesla, qui l'accusait d'appropriation de secrets industriels, et a annoncé dans la foulée une levée de fonds de 11 millions de dollars. Le règlement clôt un contentieux sensible autour de la propriété intellectuelle dans la robotique humanoïde, un domaine en pleine effervescence. Le financement doit permettre à la société de poursuivre le développement de ses dispositifs de préhension, composants clés des robots de nouvelle génération."
+    },
+    {
+      "category": "IT",
+      "title": "Flipper Devices présente la Busy Bar, un écran personnalisable dédié à la productivité",
+      "url": "https://techcrunch.com/2026/06/29/flipper-devices-new-busy-bar-is-a-customizable-display-for-productivity/",
+      "publishedAt": "2026-06-29",
+      "summary": "Flipper Devices, connu pour son outil multifonction Flipper Zero, a dévoilé la Busy Bar, un petit écran programmable destiné à améliorer la concentration et la productivité. L'appareil peut afficher des messages personnalisés — par exemple signaler qu'on est occupé — et intégrer minuteurs, notifications ou indicateurs visuels. Pensé pour les bureaux partagés et le télétravail, le produit prolonge l'approche de la marque, axée sur des gadgets ouverts et bidouillables appréciés des passionnés de technologie."
+    },
+    {
+      "category": "Science",
+      "title": "Des millions d'étoiles en explosion pourraient bientôt percer les secrets de l'énergie noire",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260621060315.htm",
+      "publishedAt": "2026-06-29",
+      "summary": "Des astronomes ont mis au point un nouveau cadre exploitant l'intelligence artificielle pour analyser les images de supernovae de type Ia, ces étoiles en explosion utilisées comme « chandelles standard » pour mesurer les distances cosmiques. En traitant des millions de ces événements, la méthode promet d'affiner considérablement la mesure de l'expansion de l'Univers et de mieux contraindre la nature de l'énergie noire, la mystérieuse force qui accélère cette expansion. L'approche pourrait transformer la cosmologie observationnelle à l'ère des grands relevés du ciel."
+    },
+    {
+      "category": "Science",
+      "title": "Des chercheurs de l'USC produisent une réserve quasi illimitée de cellules immunitaires anticancéreuses",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260620100317.htm",
+      "publishedAt": "2026-06-29",
+      "summary": "Des scientifiques de l'Université de Californie du Sud ont mis au point une technique fondée sur les cellules souches permettant de produire de grandes quantités de progéniteurs de cellules immunitaires, modifiés pour combattre le cancer. Cette avancée pourrait lever l'un des principaux obstacles des immunothérapies cellulaires : la difficulté d'obtenir suffisamment de cellules thérapeutiques. En offrant une source renouvelable et standardisée, la méthode ouvre la voie à des traitements plus accessibles et plus efficaces contre diverses tumeurs, même si des essais cliniques restent nécessaires."
+    },
+    {
+      "category": "Science",
+      "title": "Des scientifiques découvrent un moyen inattendu de pousser les cellules du cancer du pancréas à s'autodétruire",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260622091512.htm",
+      "publishedAt": "2026-06-29",
+      "summary": "Des chercheurs ont identifié une nouvelle voie thérapeutique contre le cancer du pancréas, l'un des plus agressifs et des plus difficiles à traiter. Des composés expérimentaux dits PCAI ont démontré de puissants effets anticancéreux en déclenchant l'autodestruction des cellules tumorales pancréatiques. Cette approche, encore au stade préclinique, suscite l'espoir d'options de traitement pour une maladie dont le pronostic reste très sombre. Les scientifiques soulignent toutefois que des recherches supplémentaires sont indispensables avant d'envisager des applications cliniques chez l'humain."
+    }
+  ]
+}
