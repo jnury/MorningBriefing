@@ -1,0 +1,194 @@
+{
+  "date": "2026-07-01",
+  "generatedAt": "2026-07-01T05:30:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 28,
+      "low": 22,
+      "condition": "Orages",
+      "weathercode": 95,
+      "precipProbability": 60
+    },
+    "lausanne": {
+      "high": 28,
+      "low": 22,
+      "condition": "Orages",
+      "weathercode": 95,
+      "precipProbability": 70
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Le canton de Genève lance un plan pour rénover 300 bâtiments énergivores d'ici 2037, avec 1,25 milliard de francs d'investissement.",
+      "publishedAt": "2026-06-30"
+    },
+    {
+      "headline": "À la veille de l'entrée en vigueur du principe d'éducation sans violence dans le Code civil, le canton du Jura renforce sa campagne de sensibilisation des familles.",
+      "publishedAt": "2026-06-29"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "L'Irlande succède à Chypre à la présidence tournante du Conseil de l'Union européenne pour six mois, plaçant compétitivité, sécurité et budget européen au cœur de son agenda.",
+      "publishedAt": "2026-06-29"
+    },
+    {
+      "headline": "En Coupe du monde, l'équipe de France élimine la Suède 3-0, portée par un doublé de Kylian Mbappé, et se qualifie pour les huitièmes de finale.",
+      "publishedAt": "2026-06-30"
+    },
+    {
+      "headline": "La Cour suprême des États-Unis rend une décision saluée comme une victoire pour la vie privée, jugeant que les mandats de géolocalisation « geofence » sont protégés par le droit à la vie privée.",
+      "publishedAt": "2026-06-29"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 30 juin 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": 1.52
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 0.26
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.4
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 1.5
+      }
+    ],
+    "summary": "Les marchés ont clôturé le 30 juin en hausse, tirés par le rebond des valeurs technologiques à Wall Street et une séance positive en Europe, plusieurs indices touchant des records."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "Anthropic lance Claude Sonnet 5, une option moins chère pour faire tourner des agents",
+      "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+      "publishedAt": "2026-06-30",
+      "summary": "Anthropic a présenté Claude Sonnet 5, positionné comme un modèle plus économique destiné à exécuter des agents d'intelligence artificielle à grande échelle. L'entreprise met en avant un meilleur rapport coût/performance pour les développeurs qui déploient des flux de travail automatisés et agentiques, alors que la concurrence s'intensifie sur le segment des modèles intermédiaires optimisés pour l'usage intensif."
+    },
+    {
+      "category": "AI",
+      "title": "Google dévoile Nano Banana 2 Lite, un générateur d'images plus rapide et moins cher",
+      "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
+      "publishedAt": "2026-06-30",
+      "summary": "Google a lancé Nano Banana 2 Lite, une version allégée de son générateur d'images conçue pour être plus rapide et moins coûteuse. Le modèle vise les usages où la vitesse et le prix priment sur la qualité maximale, élargissant l'offre de génération d'images de Google pour les développeurs et les applications grand public."
+    },
+    {
+      "category": "Science",
+      "title": "Realta Fusion produit de l'électricité directement à partir d'une réaction de fusion, une première apparente",
+      "url": "https://techcrunch.com/2026/06/30/realta-fusion-generates-electricity-directly-from-a-fusion-reaction-an-apparent-first/",
+      "publishedAt": "2026-06-30",
+      "summary": "La start-up Realta Fusion affirme avoir généré de l'électricité directement depuis une réaction de fusion, ce qui constituerait une première. L'annonce représente une étape technique dans la course à l'énergie de fusion, même si le chemin vers une production nette et commercialement viable reste long et incertain."
+    },
+    {
+      "category": "IT",
+      "title": "Etched, concurrent de Nvidia, atteint 5 milliards de dollars de valorisation et 1 milliard de ventes pour sa puce d'IA",
+      "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+      "publishedAt": "2026-06-30",
+      "summary": "Etched, qui conçoit des puces spécialisées pour l'intelligence artificielle, revendique une valorisation de 5 milliards de dollars et un milliard de dollars de ventes. La société se positionne comme une alternative à Nvidia sur le marché très disputé des accélérateurs d'IA, misant sur des puces optimisées pour les modèles de type transformeur."
+    },
+    {
+      "category": "AI",
+      "title": "Claude Science : Anthropic mise sur le flux de travail plutôt que sur un nouveau modèle pour séduire les scientifiques",
+      "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
+      "publishedAt": "2026-06-30",
+      "summary": "Anthropic présente Claude Science, une offre destinée aux chercheurs qui privilégie l'intégration aux flux de travail scientifiques plutôt qu'un nouveau modèle. L'objectif est d'aider les scientifiques dans l'analyse, la synthèse et l'exploration de la littérature, en s'appuyant sur les capacités existantes de Claude adaptées aux besoins de la recherche."
+    },
+    {
+      "category": "Science",
+      "title": "Blue Origin ignore toujours pourquoi sa fusée New Glenn a explosé le mois dernier",
+      "url": "https://techcrunch.com/2026/06/30/blue-origin-still-doesnt-know-why-its-new-glenn-rocket-blew-up-last-month/",
+      "publishedAt": "2026-06-30",
+      "summary": "Blue Origin indique ne pas encore avoir identifié la cause de l'explosion de sa fusée New Glenn survenue le mois précédent. L'enquête se poursuit alors que l'entreprise cherche à comprendre l'incident avant de reprendre ses vols, un revers pour ses ambitions spatiales et commerciales."
+    },
+    {
+      "category": "IT",
+      "title": "Tesla teste son Cybercab sans pédales ni volant à Austin",
+      "url": "https://techcrunch.com/2026/06/30/tesla-starts-testing-cybercab-without-pedals-or-a-steering-wheel-in-austin/",
+      "publishedAt": "2026-06-30",
+      "summary": "Tesla a commencé à tester à Austin son Cybercab dépourvu de pédales et de volant, une étape vers son projet de robotaxi entièrement autonome. Ces essais illustrent la volonté du constructeur de déployer un véhicule conçu dès l'origine pour la conduite sans conducteur, dans un contexte réglementaire encore mouvant."
+    },
+    {
+      "category": "IT",
+      "title": "X propose désormais un serveur MCP pour faciliter l'usage de sa plateforme par les outils d'IA",
+      "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
+      "publishedAt": "2026-06-30",
+      "summary": "X met à disposition un serveur MCP (Model Context Protocol) afin de permettre aux outils et agents d'intelligence artificielle d'interagir plus facilement avec sa plateforme. Cette intégration s'inscrit dans l'adoption croissante du protocole MCP comme standard pour connecter les modèles d'IA aux services et sources de données externes."
+    },
+    {
+      "category": "AI",
+      "title": "Wayve lance une offre de rachat d'actions salariés de 85 millions de dollars sur une valorisation de 8,5 milliards",
+      "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
+      "publishedAt": "2026-06-30",
+      "summary": "La société de conduite autonome fondée sur l'IA Wayve lance une offre de rachat d'actions destinée à ses employés, d'un montant de 85 millions de dollars, sur la base d'une valorisation de 8,5 milliards de dollars. L'opération permet aux salariés d'obtenir des liquidités et témoigne de la confiance des investisseurs dans son approche de la conduite autonome."
+    },
+    {
+      "category": "AI",
+      "title": "Lumo, le chatbot d'IA respectueux de la vie privée de Proton, s'offre une mise à jour",
+      "url": "https://techcrunch.com/2026/06/30/lumo-protons-privacy-focused-ai-chatbot-gets-an-upgrade/",
+      "publishedAt": "2026-06-30",
+      "summary": "Proton a mis à jour Lumo, son assistant d'intelligence artificielle centré sur la confidentialité. L'entreprise suisse connue pour sa messagerie chiffrée renforce les capacités de son chatbot tout en maintenant son positionnement axé sur la protection des données personnelles des utilisateurs, en alternative aux assistants des grandes plateformes."
+    },
+    {
+      "category": "AI",
+      "title": "L'administration Trump lève les restrictions sur les modèles Mythos et Fable d'Anthropic",
+      "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
+      "publishedAt": "2026-06-30",
+      "summary": "L'administration Trump a levé les restrictions qui pesaient sur les modèles Mythos et Fable d'Anthropic. Cette décision assouplit l'encadrement de ces modèles avancés, avec des implications pour leur disponibilité et leur usage, dans un contexte où la politique américaine sur l'intelligence artificielle continue d'évoluer."
+    },
+    {
+      "category": "Science",
+      "title": "Arcturus veut réduire de moitié les pertes électriques du réseau grâce à ses métaux enrichis de nanomatériaux",
+      "url": "https://techcrunch.com/2026/06/30/arcturus-could-halve-the-grids-electrical-losses-using-its-nano-infused-copper/",
+      "publishedAt": "2026-06-30",
+      "summary": "La start-up Arcturus développe des métaux enrichis de nanomatériaux qui pourraient réduire de moitié les pertes électriques dans le réseau. En améliorant la conductivité des câbles, la technologie promet des gains d'efficacité énergétique significatifs pour le transport de l'électricité, un enjeu clé de la transition énergétique."
+    },
+    {
+      "category": "IT",
+      "title": "Amazon crée une nouvelle division « FDE » à un milliard de dollars, dans le sillage d'OpenAI et d'Anthropic",
+      "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
+      "publishedAt": "2026-06-30",
+      "summary": "Amazon lance une nouvelle organisation d'« ingénieurs déployés sur le terrain » (forward deployed engineers) dotée d'un milliard de dollars, suivant l'exemple d'OpenAI et d'Anthropic. Cette structure vise à accompagner étroitement les clients dans le déploiement de solutions d'intelligence artificielle sur mesure, un modèle de service de plus en plus répandu dans le secteur."
+    },
+    {
+      "category": "Science",
+      "title": "Alzheimer : des scientifiques pourraient avoir découvert comment la maladie se propage dans le cerveau",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260630020521.htm",
+      "publishedAt": "2026-06-30",
+      "summary": "Des chercheurs suggèrent qu'une protéine cérébrale courante pourrait permettre aux protéines Tau toxiques de se déplacer d'un neurone à l'autre, éclairant le mécanisme de propagation de la maladie d'Alzheimer dans le cerveau. Cette piste pourrait ouvrir de nouvelles approches thérapeutiques visant à freiner la diffusion des lésions."
+    },
+    {
+      "category": "Science",
+      "title": "La créatine pourrait aider à lutter contre la dépression, selon une analyse d'essais cliniques",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260630020231.htm",
+      "publishedAt": "2026-06-30",
+      "summary": "Une analyse portant sur cinq essais cliniques et 238 participants explore si la créatine, un complément connu des sportifs, pourrait soutenir l'énergie cérébrale et contribuer à réduire les symptômes dépressifs. Les résultats suggèrent un effet potentiel, tout en appelant à des études plus larges pour confirmer ces bénéfices."
+    },
+    {
+      "category": "IT",
+      "title": "Des géants technologiques sud-coréens engagent plus de 550 milliards de dollars pour enrayer la pénurie de mémoire",
+      "url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/",
+      "publishedAt": "2026-06-29",
+      "summary": "Des géants technologiques sud-coréens s'engagent à investir plus de 550 milliards de dollars pour atténuer la pénurie mondiale de mémoire, surnommée « RAMageddon ». Ces investissements massifs dans les capacités de production visent à répondre à la demande explosive de puces mémoire, alimentée notamment par l'essor de l'intelligence artificielle."
+    },
+    {
+      "category": "IT",
+      "title": "Rocket Lab poursuit ses acquisitions en rachetant l'opérateur de satellites Iridium",
+      "url": "https://techcrunch.com/2026/06/29/rocket-lab-continues-buying-spree-by-acquiring-satellite-company-iridium/",
+      "publishedAt": "2026-06-29",
+      "summary": "Rocket Lab continue sa série d'acquisitions en rachetant la société de satellites Iridium. L'opération renforce l'intégration verticale de l'entreprise spatiale, qui étend ses activités du lancement de fusées vers les services satellitaires et les communications, dans une stratégie de consolidation du secteur spatial commercial."
+    },
+    {
+      "category": "AI",
+      "title": "La génération d'images IA personnalisée de Gemini devient gratuite pour les utilisateurs américains",
+      "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
+      "publishedAt": "2026-06-29",
+      "summary": "Google rend gratuite pour les utilisateurs américains la génération d'images personnalisée de Gemini. En élargissant l'accès sans frais à cette fonctionnalité, Google cherche à démocratiser ses outils de création visuelle par intelligence artificielle et à concurrencer les autres offres grand public du marché."
+    }
+  ]
+}
