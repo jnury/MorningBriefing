@@ -1,0 +1,177 @@
+{
+  "date": "2026-07-02",
+  "generatedAt": "2026-07-02T06:05:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 29,
+      "low": 18,
+      "condition": "Plutôt ensoleillé",
+      "weathercode": 1,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 28,
+      "low": 19,
+      "condition": "Partiellement nuageux",
+      "weathercode": 2,
+      "precipProbability": 5
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Le Conseil d'État genevois a décidé d'abaisser la limitation de rendement des vins AOC pour ajuster les quotas de production à la réalité du marché et renforce parallèlement son action pour la rénovation énergétique des bâtiments.",
+      "publishedAt": "2026-07-01"
+    },
+    {
+      "headline": "De nouvelles règles fédérales entrent en vigueur le 1er juillet, obligeant les cantons à définir en cinq ans une stratégie pour stabiliser les constructions hors des zones à bâtir.",
+      "publishedAt": "2026-07-01"
+    },
+    {
+      "headline": "La 54e édition du Festival de la Cité s'ouvre à Lausanne avec quelque 150 projets artistiques gratuits répartis sur 23 sites, jusqu'au 5 juillet.",
+      "publishedAt": "2026-06-30"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "La Cour suprême des États-Unis a rejeté la tentative de Donald Trump de mettre fin au droit du sol garantissant la citoyenneté par la naissance.",
+      "publishedAt": "2026-07-01"
+    },
+    {
+      "headline": "L'Australie prévoit de doubler les amendes visant les plateformes de réseaux sociaux, dont Facebook et Instagram, qui ne parviennent pas à empêcher les enfants d'ouvrir un compte.",
+      "publishedAt": "2026-07-01"
+    },
+    {
+      "headline": "Le cabinet israélien a approuvé une proposition reconnaissant comme génocide les violences commises contre les Arméniens par l'Empire ottoman durant la Première Guerre mondiale.",
+      "publishedAt": "2026-07-01"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 1er juillet 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -0.66
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": -0.03
+      },
+      {
+        "name": "SMI",
+        "changePct": -0.56
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 0.25
+      }
+    ],
+    "summary": "Séance contrastée : Wall Street a reculé, plombée par des prises de bénéfices sur les semi-conducteurs, tandis que l'Europe restait proche de ses records, l'Euro Stoxx 50 grappillant du terrain et le SMI cédant un peu de terrain."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "Together AI lève 800 millions de dollars et atteint 8,3 milliards de valorisation",
+      "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
+      "publishedAt": "2026-07-01",
+      "summary": "Le fournisseur d'infrastructure cloud dédiée à l'IA Together AI a annoncé une levée de fonds de 800 millions de dollars, portant sa valorisation à 8,3 milliards. Ce tour de table illustre l'appétit persistant des investisseurs pour les « neoclouds », ces plateformes qui louent de la puissance de calcul GPU aux entreprises développant des modèles d'intelligence artificielle, alors que la demande en capacité de calcul continue de dépasser l'offre."
+    },
+    {
+      "category": "AI",
+      "title": "Gemini Spark, l'assistant agentique de Google, débarque sur Mac",
+      "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+      "publishedAt": "2026-07-01",
+      "summary": "Google a rendu disponible sur macOS son assistant agentique Gemini Spark, capable d'exécuter des tâches en plusieurs étapes pour l'utilisateur plutôt que de se limiter à répondre à des questions. Cette extension au bureau Apple marque une nouvelle avancée dans la bataille des assistants IA « agentiques », qui visent à automatiser des flux de travail complets sur l'ordinateur de l'utilisateur."
+    },
+    {
+      "category": "AI",
+      "title": "Venice AI devient une licorne avec une série A de 65 millions de dollars",
+      "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+      "publishedAt": "2026-07-01",
+      "summary": "La plateforme Venice AI, qui met en avant la confidentialité et le respect de la vie privée, a levé 65 millions de dollars en série A et rejoint le club des licornes. Son positionnement « privacy-first » séduit les utilisateurs soucieux de ne pas voir leurs données exploitées, un argument de différenciation face aux grands acteurs de l'IA générative."
+    },
+    {
+      "category": "AI",
+      "title": "SpaceX travaillerait sur un prototype d'appareil IA aux allures de téléphone",
+      "url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+      "publishedAt": "2026-07-01",
+      "summary": "Selon TechCrunch, SpaceX développerait un prototype d'appareil doté d'intelligence artificielle dont les caractéristiques rappellent fortement celles d'un smartphone. L'initiative s'inscrirait dans la stratégie de connectivité de l'entreprise, potentiellement liée à sa constellation Starlink, et alimente les spéculations sur l'entrée de SpaceX dans le matériel grand public."
+    },
+    {
+      "category": "AI",
+      "title": "Meta cherche à monétiser sa capacité de calcul IA excédentaire",
+      "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+      "publishedAt": "2026-07-01",
+      "summary": "À l'image de SpaceX, Meta étudie des moyens de transformer sa puissance de calcul IA excédentaire en source de revenus. Après avoir massivement investi dans des centres de données et des GPU, l'entreprise pourrait louer cette capacité inutilisée à des tiers, une manière de rentabiliser des dépenses d'infrastructure colossales."
+    },
+    {
+      "category": "IT",
+      "title": "Cloudflare veut faire payer les entreprises d'IA pour le contenu des éditeurs",
+      "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+      "publishedAt": "2026-07-01",
+      "summary": "Cloudflare a dévoilé une nouvelle politique poussant les entreprises d'intelligence artificielle à rémunérer les éditeurs dont elles aspirent les contenus pour entraîner leurs modèles. En s'appuyant sur son infrastructure réseau qui protège une large part du web, Cloudflare entend rééquilibrer le rapport de force entre les producteurs de contenu et les sociétés d'IA qui exploitent leurs données."
+    },
+    {
+      "category": "IT",
+      "title": "Apple préparerait de nouveaux iPad Pro et MacBook Pro pour début 2027",
+      "url": "https://techcrunch.com/2026/07/01/apple-is-reportedly-planning-new-ipad-pro-and-macbook-pro-releases-early-next-year/",
+      "publishedAt": "2026-07-01",
+      "summary": "D'après des informations rapportées par TechCrunch, Apple prévoirait de lancer de nouveaux modèles d'iPad Pro et de MacBook Pro au début de l'année prochaine. Ces mises à jour matérielles s'accompagneraient vraisemblablement de nouvelles puces maison, dans la continuité du renouvellement régulier des gammes professionnelles de la marque."
+    },
+    {
+      "category": "IT",
+      "title": "Un bug de « Masquer mon adresse e-mail » d'Apple exposerait les vraies adresses",
+      "url": "https://techcrunch.com/2026/07/01/apples-hide-my-email-feature-has-a-bug-thats-been-exposing-real-email-addresses-researcher-claims/",
+      "publishedAt": "2026-07-01",
+      "summary": "Un chercheur en sécurité affirme que la fonction « Masquer mon adresse e-mail » d'Apple, censée protéger la confidentialité des utilisateurs en générant des alias, comporterait un défaut exposant dans certains cas les véritables adresses. Si elle est confirmée, cette faille contredirait la promesse de confidentialité de l'un des services phares de l'écosystème Apple."
+    },
+    {
+      "category": "IT",
+      "title": "Les noms d'utilisateur WhatsApp soulèvent déjà des risques d'usurpation d'identité",
+      "url": "https://techcrunch.com/2026/07/01/whatsapp-usernames-are-already-raising-impersonation-red-flags/",
+      "publishedAt": "2026-07-01",
+      "summary": "L'arrivée des noms d'utilisateur sur WhatsApp, destinée à masquer les numéros de téléphone, fait déjà craindre des risques d'usurpation d'identité. Des observateurs redoutent que des acteurs malveillants s'emparent de pseudonymes proches de ceux d'entreprises ou de personnalités pour tromper les utilisateurs, un défi de modération pour la messagerie de Meta."
+    },
+    {
+      "category": "IT",
+      "title": "Sony arrêtera la production de disques physiques pour PlayStation en 2028",
+      "url": "https://techcrunch.com/2026/07/01/sony-to-end-physical-playstation-game-discs-in-2028/",
+      "publishedAt": "2026-07-01",
+      "summary": "Sony a annoncé qu'il cesserait de produire des disques de jeux physiques pour PlayStation en 2028, actant l'accélération de la transition vers le tout-numérique. Cette décision marque un tournant pour l'industrie du jeu vidéo et soulève des questions sur la préservation, la revente et la propriété des jeux à l'ère de la dématérialisation."
+    },
+    {
+      "category": "IT",
+      "title": "Bending Spoons bondit de 40 % pour sa première séance en Bourse après une IPO à 18 milliards",
+      "url": "https://techcrunch.com/2026/07/01/bending-spoons-defies-saas-slump-surges-40-on-first-day-of-trading/",
+      "publishedAt": "2026-07-01",
+      "summary": "L'éditeur italien de logiciels Bending Spoons a vu son titre grimper de 40 % lors de sa première journée de cotation, à contre-courant de la morosité qui touche le secteur des logiciels en tant que service (SaaS). Cette introduction en Bourse valorisée à 18 milliards de dollars marque l'une des plus importantes IPO technologiques européennes de l'année."
+    },
+    {
+      "category": "IT",
+      "title": "Même Honda se tourne vers les centres de données",
+      "url": "https://techcrunch.com/2026/07/01/even-honda-is-pivoting-to-data-centers/",
+      "publishedAt": "2026-07-01",
+      "summary": "Le constructeur automobile Honda rejoint la vague d'entreprises se diversifiant vers les centres de données, portées par l'explosion de la demande liée à l'intelligence artificielle. Ce virage illustre à quel point l'infrastructure de calcul est devenue un secteur stratégique attirant des acteurs bien au-delà de la tech traditionnelle."
+    },
+    {
+      "category": "IT",
+      "title": "Lime entre en Bourse après des années d'incertitude",
+      "url": "https://techcrunch.com/2026/07/01/lime-begins-life-as-a-public-company-after-years-of-uncertainty/",
+      "publishedAt": "2026-07-01",
+      "summary": "L'opérateur de trottinettes et vélos électriques en libre-service Lime est devenu une société cotée en Bourse, tournant la page de plusieurs années d'incertitude sur la rentabilité du secteur de la micromobilité. Cette entrée sur les marchés constitue un test pour un modèle économique longtemps critiqué mais qui a su gagner en maturité."
+    },
+    {
+      "category": "Science",
+      "title": "Alzheimer : une protéine du cerveau aiderait les protéines Tau toxiques à se propager",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260630020521.htm",
+      "publishedAt": "2026-06-30",
+      "summary": "Des chercheurs ont découvert qu'une protéine cérébrale appelée Arc permet aux protéines Tau toxiques de se propager d'un neurone à l'autre via des vésicules extracellulaires. En bloquant ces « colis » nocifs avant qu'ils n'atteignent de nouvelles cellules, il pourrait être possible de ralentir la progression de la maladie d'Alzheimer, ouvrant une piste thérapeutique inédite."
+    },
+    {
+      "category": "Science",
+      "title": "Les scientifiques identifient une manière totalement différente de combattre les virus",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260630020534.htm",
+      "publishedAt": "2026-06-30",
+      "summary": "Une étude révèle un mécanisme de défense antivirale jusqu'ici insoupçonné, suggérant que l'évolution a développé plusieurs voies distinctes pour combattre les virus au-delà des mécanismes immunitaires connus chez l'humain. Cette découverte pourrait inspirer de nouvelles stratégies thérapeutiques contre les infections virales."
+    }
+  ]
+}
