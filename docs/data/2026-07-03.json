@@ -1,0 +1,149 @@
+{
+  "date": "2026-07-03",
+  "generatedAt": "2026-07-03T05:45:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 30,
+      "low": 20,
+      "condition": "Partiellement nuageux",
+      "weathercode": 2,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 28,
+      "low": 21,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "La Chaîne du Bonheur, basée à Genève, a récolté plus de 10 millions de francs de dons en une journée en faveur des victimes du séisme au Venezuela.",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "headline": "Novartis a obtenu de la Commission européenne l'homologation d'une nouvelle version de sa thérapie génique contre l'amyotrophie spinale, désormais destinée aux enfants comme aux adultes.",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "headline": "Les prix à la consommation en Suisse ont entamé leur décrue en juin, portés par un repli dans l'alimentation et les boissons.",
+      "publishedAt": "2026-07-02"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Les pourparlers entre émissaires américains et iraniens au Qatar progressent vers une fin officielle de la guerre, selon les médiateurs.",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "headline": "Les États-Unis lancent une révision annuelle de leur accord commercial avec le Canada et le Mexique, qu'ils ne comptent pas reconduire en l'état.",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "headline": "Coupe du monde 2026 : l'Angleterre décroche sa qualification pour les huitièmes grâce à un doublé de Harry Kane, tandis que l'Espagne s'impose 3-0 face à l'Autriche.",
+      "publishedAt": "2026-07-02"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 2 juillet 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -0.8
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 1.14
+      },
+      {
+        "name": "SMI",
+        "changePct": 1.69
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 1.37
+      }
+    ],
+    "summary": "Séance contrastée à Wall Street — le Dow Jones signe un record de clôture pendant que le Nasdaq recule sous la pression des semi-conducteurs — tandis que les Bourses suisse et européennes progressent nettement après un rapport sur l'emploi américain jugé rassurant."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "Microsoft lance sa propre société de déploiement d'IA avec 2,5 milliards de dollars",
+      "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+      "publishedAt": "2026-07-02",
+      "summary": "Microsoft a annoncé la création de Microsoft Frontier Company, une nouvelle entité chargée de mener à bien les déploiements d'IA en entreprise à partir des outils existants du groupe. Le projet est doté d'un investissement de 2,5 milliards de dollars et mobilise 6000 experts métiers et ingénieurs. L'initiative intervient deux jours après qu'Amazon Web Services a annoncé un engagement interne d'un milliard de dollars pour sa propre activité de déploiement d'IA. Parmi les premiers partenaires figurent le London Stock Exchange Group, Unilever, Land O'Lakes et Accenture. L'objectif affiché est de combler l'écart entre les capacités techniques des modèles et leur adoption concrète dans les organisations."
+    },
+    {
+      "category": "AI",
+      "title": "OpenAI aurait proposé de céder 5 % de son capital à un fonds souverain américain",
+      "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
+      "publishedAt": "2026-07-02",
+      "summary": "OpenAI aurait proposé de donner 5 % de son capital à un fonds souverain américain, selon un article de TechCrunch. Ce geste inhabituel illustre le rapprochement croissant entre les grands acteurs de l'IA et l'État fédéral, à un moment où les questions de souveraineté technologique et de financement des infrastructures d'IA prennent une place centrale dans le débat public américain. La proposition soulève des interrogations sur la gouvernance, la valorisation et les contreparties attendues d'un tel arrangement entre une entreprise privée de premier plan et la puissance publique."
+    },
+    {
+      "category": "AI",
+      "title": "Anthropic en discussion avec Samsung pour une puce personnalisée",
+      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+      "publishedAt": "2026-07-02",
+      "summary": "Anthropic serait en pourparlers avec Samsung pour concevoir une nouvelle puce personnalisée destinée à ses besoins d'entraînement et d'inférence. Cette démarche s'inscrit dans une tendance de fond : les laboratoires d'IA cherchent à réduire leur dépendance aux GPU Nvidia et à maîtriser leurs coûts de calcul en développant du silicium sur mesure. Un partenariat avec Samsung offrirait à Anthropic une alternative en matière de fonderie et de conception, dans un contexte de forte tension sur l'approvisionnement en semi-conducteurs avancés et d'explosion de la demande de puissance de calcul pour l'IA."
+    },
+    {
+      "category": "AI",
+      "title": "Le vrai coût énergétique de l'IA, illustré par Google et Amazon",
+      "url": "https://techcrunch.com/2026/07/02/a-warning-sign-about-ais-real-cost-courtesy-of-google-and-amazon/",
+      "publishedAt": "2026-07-02",
+      "summary": "Un article de TechCrunch met en garde contre le coût réel de l'IA, en s'appuyant sur les cas de Google et d'Amazon. La croissance rapide des centres de données dédiés à l'intelligence artificielle pèse sur les objectifs climatiques des géants technologiques et sur les réseaux électriques. La consommation d'énergie et d'eau associée à l'entraînement et à l'exploitation des grands modèles progresse plus vite que les gains d'efficacité, posant la question de la soutenabilité de cette course. L'analyse invite investisseurs et décideurs à intégrer ces externalités environnementales dans leur évaluation de la vague d'investissements actuelle."
+    },
+    {
+      "category": "AI",
+      "title": "L'introduction en Bourse de Jersey Mike's, symbole de la surchauffe autour de l'IA",
+      "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
+      "publishedAt": "2026-07-02",
+      "summary": "TechCrunch analyse comment l'introduction en Bourse de la chaîne de sandwicheries Jersey Mike's illustre l'ampleur de l'engouement pour l'IA. L'article observe que le récit autour de l'intelligence artificielle s'immisce désormais jusque dans des dossiers qui n'ont, a priori, que peu à voir avec la technologie, gonflant valorisations et attentes des marchés. Ce phénomène nourrit les craintes d'une bulle et interroge la capacité des investisseurs à distinguer les entreprises réellement transformées par l'IA de celles qui se contentent d'en exploiter le vocabulaire pour séduire les marchés."
+    },
+    {
+      "category": "IT",
+      "title": "Le gouvernement américain annonce avoir de nouveau été piraté",
+      "url": "https://techcrunch.com/2026/07/02/us-government-says-it-got-hacked-again/",
+      "publishedAt": "2026-07-02",
+      "summary": "Le gouvernement américain a reconnu avoir de nouveau été victime d'une intrusion informatique, selon TechCrunch. Cette annonce s'ajoute à une série de compromissions touchant des agences fédérales et relance le débat sur la résilience des systèmes publics face à des attaquants toujours plus sophistiqués. L'incident souligne les difficultés persistantes de sécurisation des infrastructures gouvernementales, la lenteur des correctifs et l'exposition des données sensibles. Les détails sur l'ampleur de la compromission et les responsables présumés restaient limités au moment de la publication."
+    },
+    {
+      "category": "Science",
+      "title": "IQM, première société de quantique cotée en Europe, reconnaît un avenir incertain",
+      "url": "https://techcrunch.com/2026/07/02/iqm-europes-first-public-quantum-company-admits-the-future-of-the-tech-is-uncertain/",
+      "publishedAt": "2026-07-02",
+      "summary": "IQM, présentée comme la première entreprise européenne d'informatique quantique cotée en Bourse, admet que l'avenir de cette technologie demeure incertain. Malgré les promesses considérables du calcul quantique, les défis techniques — correction d'erreurs, passage à l'échelle, stabilité des qubits — restent immenses et le calendrier des applications commerciales est difficile à prévoir. La franchise d'IQM tranche avec l'optimisme ambiant du secteur et rappelle aux investisseurs que la maturité de la technologie et la rentabilité des acteurs pourraient prendre encore de nombreuses années."
+    },
+    {
+      "category": "Science",
+      "title": "Une fusée Atlas V place en orbite 29 satellites Amazon Leo lors de son ultime mission",
+      "url": "https://www.clickorlando.com/news/space-news/2026/07/02/ula-atlas-v-rocket-launches-29-amazon-leo-broadband-satellites/",
+      "publishedAt": "2026-07-02",
+      "summary": "Une fusée Atlas V de United Launch Alliance a décollé de Cap Canaveral pour placer en orbite 29 satellites de la constellation à haut débit Amazon Leo. Il s'agissait de la dernière mission de la version Atlas V 551, désormais retirée du service au profit de la nouvelle fusée lourde Vulcan. Ce lancement porte à environ 396 le nombre de satellites Amazon Leo déjà déployés, sur les quelque 3200 prévus à terme pour offrir un accès Internet par satellite en orbite basse. Les prochaines missions du programme s'appuieront sur Vulcan, capable d'emporter des charges plus lourdes et d'accélérer le rythme de déploiement."
+    },
+    {
+      "category": "AI",
+      "title": "Together AI lève 800 millions de dollars et atteint une valorisation de 8,3 milliards",
+      "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
+      "publishedAt": "2026-07-01",
+      "summary": "Together AI, un « neocloud » qui loue des grappes de GPU Nvidia et d'autres infrastructures dédiées à l'IA, a bouclé une levée de série C de 800 millions de dollars, portant sa valorisation à 8,3 milliards. Le tour de table a été mené par Aramco Ventures, avec la participation de Vista Equity Partners, General Catalyst, Nvidia et d'autres. L'entreprise revendique plus de 1,15 milliard de dollars de réservations annuelles, portée par l'adoption croissante de modèles open source performants et moins coûteux via les fournisseurs de neocloud. Cette opération illustre l'appétit persistant des investisseurs pour les infrastructures de calcul destinées à l'IA."
+    },
+    {
+      "category": "AI",
+      "title": "Cloudflare veut faire payer aux entreprises d'IA l'accès aux contenus des éditeurs",
+      "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+      "publishedAt": "2026-07-01",
+      "summary": "Cloudflare a présenté une nouvelle politique visant à contraindre les entreprises d'IA à rémunérer les éditeurs pour l'accès à leurs contenus. Le fournisseur d'infrastructure Internet entend donner aux sites la possibilité de bloquer ou de monétiser le passage des robots d'indexation qui aspirent leurs articles pour entraîner des modèles. Cette initiative s'inscrit dans le bras de fer croissant entre médias et laboratoires d'IA autour de l'utilisation des données journalistiques. Elle pourrait rééquilibrer un rapport de force jugé défavorable aux producteurs de contenus et ouvrir la voie à de nouveaux modèles de licence."
+    },
+    {
+      "category": "AI",
+      "title": "Venice AI devient une licorne avec une série A de 65 millions de dollars",
+      "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+      "publishedAt": "2026-07-01",
+      "summary": "Venice AI a atteint le statut de licorne à la faveur d'une levée de série A de 65 millions de dollars, portée par le succès de sa plateforme d'IA axée sur la confidentialité. L'entreprise mise sur la protection des données des utilisateurs comme argument différenciant face aux grands assistants grand public. Sa croissance rapide témoigne d'une demande pour des solutions d'IA respectueuses de la vie privée, à l'heure où les préoccupations autour de la collecte et de l'exploitation des données personnelles s'intensifient. La valorisation atteinte souligne l'intérêt des investisseurs pour ce positionnement de niche."
+    }
+  ]
+}
