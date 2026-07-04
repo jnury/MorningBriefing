@@ -1,0 +1,180 @@
+{
+  "date": "2026-07-04",
+  "generatedAt": "2026-07-04T05:30:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 31,
+      "low": 18,
+      "condition": "Ensoleillé",
+      "weathercode": 0,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 30,
+      "low": 20,
+      "condition": "Ensoleillé",
+      "weathercode": 0,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "La Suisse bat l'Algérie 2-0 grâce à Embolo et Ndoye et se qualifie pour les huitièmes de finale de la Coupe du monde 2026, déclenchant la liesse dans les fan zones de Genève et Lausanne.",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "headline": "Le Montreux Jazz Festival fête sa 60e édition et anime la Riviera lémanique tout le week-end, en tête de la sélection culturelle romande.",
+      "publishedAt": "2026-07-03"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "L'Iran ouvre des funérailles nationales d'une semaine en l'honneur du guide suprême Ali Khamenei, à travers cinq villes en Iran et en Irak, en présence de plusieurs dignitaires étrangers.",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "headline": "Les Bourses européennes clôturent à des niveaux records, l'Euro Stoxx 50 gagnant 0,9% dans un contexte macroéconomique jugé plus favorable aux actions.",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "headline": "L'emploi américain ralentit nettement en juin avec seulement 57'000 créations de postes, tandis que le taux de chômage recule à 4,2%.",
+      "publishedAt": "2026-07-02"
+    }
+  ],
+  "markets": {
+    "asOf": "clôtures des 2 et 3 juillet 2026 (Bourse américaine fermée le 3 juillet pour l'Independence Day)",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": 0.4
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 0.46
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.5
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 0.9
+      }
+    ],
+    "summary": "Séances bien orientées de part et d'autre de l'Atlantique, les indices européens signant des records pendant que Wall Street terminait en hausse modérée avant la fermeture pour l'Independence Day."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "Mark Zuckerberg reconnaît en interne que les agents IA n'ont pas progressé aussi vite qu'espéré",
+      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+      "publishedAt": "2026-07-02",
+      "summary": "Selon TechCrunch, Mark Zuckerberg a indiqué à ses équipes que les agents d'IA autonomes n'avaient pas atteint le rythme de progrès qu'il anticipait, tempérant les attentes internes chez Meta. Ce constat contraste avec les promesses publiques du secteur, qui présente les agents capables d'exécuter des tâches complexes de bout en bout comme la prochaine grande étape. Il alimente un débat plus large sur l'écart entre les démonstrations et l'usage réellement fiable en production, alors que les entreprises technologiques investissent massivement dans cette technologie."
+    },
+    {
+      "category": "AI",
+      "title": "Anthropic en discussion avec Samsung pour une puce d'IA sur mesure",
+      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+      "publishedAt": "2026-07-02",
+      "summary": "Anthropic serait en pourparlers avec Samsung pour développer une nouvelle puce dédiée à l'intelligence artificielle, rapporte TechCrunch. Une telle collaboration viserait à sécuriser des capacités de calcul et à réduire la dépendance aux fournisseurs habituels de processeurs pour l'entraînement et l'inférence des modèles. La démarche illustre la course des laboratoires d'IA à maîtriser leur chaîne d'approvisionnement matérielle, un enjeu devenu stratégique face à la demande explosive de puissance de calcul et aux coûts associés."
+    },
+    {
+      "category": "AI",
+      "title": "OpenAI aurait proposé de céder 5% de son capital à un fonds souverain américain",
+      "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
+      "publishedAt": "2026-07-02",
+      "summary": "OpenAI aurait proposé de faire don de 5% de son capital à un fonds souverain américain, selon TechCrunch. Une telle opération rapprocherait l'entreprise de l'État et soulèverait des questions sur la gouvernance, les conflits d'intérêts et le rôle des pouvoirs publics dans le financement de l'IA de pointe. Elle s'inscrit dans un contexte où les relations entre laboratoires d'IA et gouvernement se resserrent, entre régulation, sécurité nationale et intérêts industriels."
+    },
+    {
+      "category": "AI",
+      "title": "Microsoft lance sa propre société de déploiement d'IA avec un engagement de 2,5 milliards de dollars",
+      "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+      "publishedAt": "2026-07-02",
+      "summary": "Microsoft a annoncé la création d'une entité dédiée au déploiement de l'intelligence artificielle, assortie d'un engagement de 2,5 milliards de dollars, selon TechCrunch. La structure vise à accélérer l'adoption concrète des outils d'IA au sein des organisations, au-delà des simples licences logicielles. Cette initiative reflète la volonté des grands acteurs technologiques de transformer l'intérêt pour l'IA générative en usages opérationnels et en revenus, dans un marché où la mise en œuvre reste souvent le principal obstacle."
+    },
+    {
+      "category": "AI",
+      "title": "Le vrai coût de l'IA: un signal d'alerte venu de Google et Amazon",
+      "url": "https://techcrunch.com/2026/07/02/a-warning-sign-about-ais-real-cost-courtesy-of-google-and-amazon/",
+      "publishedAt": "2026-07-02",
+      "summary": "TechCrunch analyse un signal d'alerte sur le coût réel de l'intelligence artificielle, à partir des cas de Google et Amazon. L'article met en lumière les dépenses considérables — infrastructures, énergie, calcul — nécessaires pour soutenir les services d'IA à grande échelle, et interroge la soutenabilité économique du modèle actuel. Alors que les investissements atteignent des sommets, la question de la rentabilité et de la maîtrise des coûts devient centrale pour les géants de la tech comme pour leurs clients."
+    },
+    {
+      "category": "AI",
+      "title": "Meta lance discrètement Pocket, une application de jeux « vibe-codée »",
+      "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+      "publishedAt": "2026-07-02",
+      "summary": "Meta a lancé sans grande communication Pocket, une application de jeux décrite comme « vibe-codée », c'est-à-dire largement conçue à l'aide d'outils d'IA générative, rapporte TechCrunch. Le lancement illustre l'expérimentation des grandes plateformes autour de contenus et d'applications produits rapidement grâce à l'assistance de l'IA. Il pose aussi la question de la qualité, de l'originalité et du modèle économique de ces produits développés à moindre coût par génération automatisée."
+    },
+    {
+      "category": "IT",
+      "title": "Un élu ayant enquêté sur les abus des logiciels espions piraté via Pegasus",
+      "url": "https://techcrunch.com/2026/07/02/politician-who-investigated-spyware-abuses-had-his-phone-hacked-with-pegasus-spyware/",
+      "publishedAt": "2026-07-02",
+      "summary": "TechCrunch rapporte qu'un responsable politique ayant enquêté sur les dérives des logiciels espions a lui-même vu son téléphone compromis par Pegasus, l'outil du groupe NSO. Le cas illustre la persistance des logiciels espions de qualité gouvernementale utilisés contre des personnalités publiques, journalistes et militants. Il relance le débat sur la surveillance ciblée, l'encadrement de ces technologies et la protection des acteurs qui documentent précisément ces abus."
+    },
+    {
+      "category": "IT",
+      "title": "Le gouvernement américain annonce avoir de nouveau été piraté",
+      "url": "https://techcrunch.com/2026/07/02/us-government-says-it-got-hacked-again/",
+      "publishedAt": "2026-07-02",
+      "summary": "Le gouvernement américain a reconnu une nouvelle intrusion informatique visant ses systèmes, selon TechCrunch. L'incident s'ajoute à une série de compromissions affectant des administrations et souligne la difficulté persistante à sécuriser des infrastructures étendues et hétérogènes. Il rappelle l'importance des mesures de cybersécurité — segmentation, détection, correctifs — face à des attaquants de plus en plus organisés, y compris des groupes soutenus par des États."
+    },
+    {
+      "category": "Science",
+      "title": "Des pilotes privés effectuent des missions orbitales pour l'US Space Force",
+      "url": "https://techcrunch.com/2026/07/02/private-space-pilots-are-flying-orbital-missions-for-the-us-space-force/",
+      "publishedAt": "2026-07-02",
+      "summary": "TechCrunch décrit l'essor de pilotes issus du secteur privé chargés de missions orbitales pour le compte de l'US Space Force. Ce recours à des opérateurs commerciaux marque une évolution de l'accès à l'espace, où prestataires privés et forces armées collaborent étroitement. Le phénomène traduit la maturité croissante de l'industrie spatiale commerciale et son intégration dans les capacités de défense, avec des enjeux de coûts, de cadence de vols et de souveraineté."
+    },
+    {
+      "category": "Science",
+      "title": "IQM, première société quantique cotée d'Europe, admet l'incertitude sur l'avenir de la technologie",
+      "url": "https://techcrunch.com/2026/07/02/iqm-europes-first-public-quantum-company-admits-the-future-of-the-tech-is-uncertain/",
+      "publishedAt": "2026-07-02",
+      "summary": "IQM, présentée comme la première entreprise quantique cotée en Bourse d'Europe, reconnaît que l'avenir de l'informatique quantique reste incertain, rapporte TechCrunch. Malgré des promesses considérables, la technologie doit encore surmonter d'importants obstacles techniques avant des applications commerciales larges. Cette franchise d'un acteur pionnier tempère l'enthousiasme du secteur et rappelle le caractère encore expérimental d'un domaine où les calendriers et les cas d'usage concrets demeurent difficiles à prévoir."
+    },
+    {
+      "category": "IT",
+      "title": "Tesla enregistre un net rebond de ses ventes au deuxième trimestre",
+      "url": "https://techcrunch.com/2026/07/02/tesla-saw-a-massive-sales-jump-in-the-second-quarter/",
+      "publishedAt": "2026-07-02",
+      "summary": "Tesla a annoncé une forte progression de ses ventes au deuxième trimestre, selon TechCrunch. Ce rebond intervient après une période plus difficile pour le constructeur et suggère un regain de dynamique commerciale sur le marché des véhicules électriques. Les chiffres seront scrutés pour évaluer la santé de la demande, l'effet des prix et de la gamme, ainsi que la position de Tesla face à une concurrence accrue, notamment de nouveaux entrants."
+    },
+    {
+      "category": "IT",
+      "title": "Rivian relève ses prévisions de ventes de véhicules électriques",
+      "url": "https://techcrunch.com/2026/07/02/rivian-thinks-it-will-sell-more-evs-than-expected-this-year/",
+      "publishedAt": "2026-07-02",
+      "summary": "Rivian a revu à la hausse ses prévisions de ventes de véhicules électriques pour l'année, à mesure que sa production monte en cadence au deuxième trimestre, rapporte TechCrunch. Cette révision positive envoie un signal encourageant pour le constructeur, qui cherche à consolider sa place sur le marché des pick-up et SUV électriques. Elle s'inscrit dans un secteur en pleine évolution, entre demande fluctuante, concurrence intense et pression sur les marges."
+    },
+    {
+      "category": "IT",
+      "title": "Hopper versera 35 millions de dollars dans un accord avec la FTC sur des frais cachés",
+      "url": "https://techcrunch.com/2026/07/02/travel-app-hopper-to-pay-35m-in-ftc-settlement-over-unfairly-charging-hidden-fees/",
+      "publishedAt": "2026-07-02",
+      "summary": "L'application de voyage Hopper a accepté de payer 35 millions de dollars pour solder une action de la FTC l'accusant d'avoir facturé de manière « déloyale » des frais cachés, selon TechCrunch. L'accord illustre le durcissement du régulateur américain à l'égard des pratiques tarifaires trompeuses dans les services en ligne. Il rappelle aux plateformes l'exigence croissante de transparence sur les prix affichés aux consommateurs, sous peine de sanctions financières significatives."
+    },
+    {
+      "category": "IT",
+      "title": "Guerre des navigateurs: les meilleures alternatives à Chrome et Safari en 2026",
+      "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "publishedAt": "2026-07-03",
+      "summary": "TechCrunch dresse un panorama des navigateurs web qui montent face à Chrome et Safari, alors que la concurrence se ravive. L'article souligne que l'enjeu ne se limite plus à la recherche, mais s'étend à l'intégration de l'IA, à la protection de la vie privée et à de nouvelles fonctionnalités. Ce regain d'intérêt pour des alternatives traduit une volonté des utilisateurs de diversifier leurs outils et de reprendre la main sur leur expérience de navigation."
+    },
+    {
+      "category": "IT",
+      "title": "Chevrolet a construit un pick-up électrique « 100% américain » qui peine à trouver preneur",
+      "url": "https://techcrunch.com/2026/07/03/chevy-built-an-all-american-ev-truck-why-is-nobody-buying-it/",
+      "publishedAt": "2026-07-03",
+      "summary": "TechCrunch se penche sur le pick-up électrique de Chevrolet, présenté comme entièrement américain, mais dont les ventes restent décevantes. L'article interroge les raisons de ce désamour: prix, autonomie, concurrence, attentes des acheteurs de pick-up ou timing du marché. Le cas illustre les difficultés des constructeurs historiques à convertir leurs modèles emblématiques à l'électrique et à séduire une clientèle attachée aux motorisations thermiques."
+    },
+    {
+      "category": "IT",
+      "title": "Le clavier Dune se veut contrôleur de réunion polyvalent",
+      "url": "https://techcrunch.com/2026/07/03/the-dune-keypad-device-can-be-your-meeting-controller-and-more/",
+      "publishedAt": "2026-07-03",
+      "summary": "TechCrunch présente Dune, un petit clavier physique conçu pour piloter les réunions en ligne et d'autres tâches courantes d'un simple appui. L'appareil vise à simplifier des actions récurrentes — couper le micro, partager l'écran, basculer entre applications — grâce à des touches dédiées et personnalisables. Ce type de périphérique illustre la tendance des accessoires matériels pensés pour fluidifier le travail hybride et les visioconférences devenues quotidiennes."
+    }
+  ]
+}
