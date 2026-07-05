@@ -1,0 +1,138 @@
+{
+  "date": "2026-07-05",
+  "generatedAt": "2026-07-05T06:05:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 32,
+      "low": 17,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 31,
+      "low": 19,
+      "condition": "Partiellement nuageux",
+      "weathercode": 2,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "La Suisse s'est qualifiée pour les huitièmes de finale du Mondial 2026 en battant l'Algérie 2-0, déclenchant des célébrations dans les fan zones de Genève, Lausanne, Nyon et Sion.",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "headline": "Face à la canicule, la Ville de Genève a ouvert dès le 3 juillet ses installations estivales anti-îlots de chaleur (brumisateurs et espaces ombragés) dans plusieurs quartiers.",
+      "publishedAt": "2026-07-03"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Le pape Léon XIV, premier pontife américain, a marqué le 250e anniversaire de l'indépendance des États-Unis en se rendant sur l'île de Lampedusa et en appelant les Américains à accueillir et protéger les migrants.",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "headline": "Les États-Unis ont célébré le 250e anniversaire de la Déclaration d'indépendance lors des festivités du 4 juillet.",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "headline": "L'Iran a annoncé qu'il facturerait « définitivement » des droits de passage aux navires empruntant le détroit d'Ormuz, avec un traitement particulier envisagé pour les pays amis.",
+      "publishedAt": "2026-07-04"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 2 juillet 2026 pour Wall Street (fermé le 3 juillet, Independence Day) et du 3 juillet 2026 pour l'Europe",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -0.8
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 1.14
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.2
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 0.88
+      }
+    ],
+    "summary": "Wall Street a terminé en ordre dispersé avant la fermeture du 3 juillet (Dow à un record, Nasdaq en repli), tandis que les Bourses européennes ont clôturé en hausse vendredi dans de faibles volumes."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "Alibaba interdit à ses employés d'utiliser Claude Code",
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "publishedAt": "2026-07-04",
+      "summary": "Selon plusieurs médias, Alibaba a diffusé le 3 juillet une note interne interdisant à l'ensemble de son personnel d'utiliser l'outil de programmation Claude Code d'Anthropic, à compter du 10 juillet. La décision fait suite à la révélation qu'Anthropic avait intégré à son agent de codage un dispositif capable de détecter si un utilisateur se trouvait en Chine ou était lié à un laboratoire d'IA chinois — présenté par l'entreprise comme une expérience lancée en mars pour lutter contre les abus de comptes et la distillation de modèles. Les employés d'Alibaba sont invités à se rabattre sur la plateforme maison Qoder. L'épisode s'inscrit dans des tensions croissantes entre les deux groupes, Anthropic accusant par ailleurs Alibaba d'avoir mené une vaste opération de distillation via des comptes fictifs."
+    },
+    {
+      "category": "AI",
+      "title": "Midjourney veut forcer les studios hollywoodiens à dévoiler leur propre usage de l'IA",
+      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+      "publishedAt": "2026-07-04",
+      "summary": "Dans le litige qui l'oppose à Disney, Universal et Warner Bros. pour violation de droits d'auteur, la start-up Midjourney demande à la justice de contraindre les studios à révéler comment ils utilisent eux-mêmes l'intelligence artificielle. Midjourney réclame les plans d'affaires liés à l'IA, rapports de recherche, jeux de données d'entraînement, poids de modèles et présentations internes au conseil d'administration. La société invoque le « fair use » pour justifier l'entraînement de ses modèles sur des personnages protégés. Un juge avait déjà ordonné aux studios de fournir des informations sur leur recours à l'IA générative, mais uniquement lorsqu'il aboutissait à des contenus destinés au public ; Midjourney cherche désormais à faire lever cette limitation qu'elle juge injuste."
+    },
+    {
+      "category": "AI",
+      "title": "Une nouvelle publicité Google imagine une Déclaration d'indépendance rédigée avec l'aide de l'IA",
+      "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+      "publishedAt": "2026-07-04",
+      "summary": "Pour le 250e anniversaire de la Déclaration d'indépendance, Google a diffusé une publicité posant la question : « Et si les Pères fondateurs avaient eu accès à Google Workspace ? » Sur le ton « projet de groupe, version 1776 », le spot montre Thomas Jefferson recevant un texto de Ben Franklin, des corrections suggérées dans Google Docs, une réunion planifiée dans Google Calendar et tenue via Google Meet, puis une signature électronique. Les fondateurs fictifs utilisent l'outil « help me visualize » pour tester différents animaux sur le sceau national, tandis que Gemini prend des notes. Si les commentaires sur YouTube et Instagram sont plutôt positifs, la réaction sur Bluesky s'est révélée bien plus critique, relançant le débat sur la place de l'IA dans le travail créatif."
+    },
+    {
+      "category": "AI",
+      "title": "Mistral AI : tout savoir sur le concurrent européen d'OpenAI",
+      "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "publishedAt": "2026-07-04",
+      "summary": "TechCrunch publie un panorama de Mistral AI, la start-up française devenue le principal champion européen de l'intelligence artificielle générative face à OpenAI, Google et Anthropic. L'article retrace la trajectoire de l'entreprise, ses modèles ouverts et propriétaires, sa stratégie commerciale, ses levées de fonds et son positionnement sur la souveraineté technologique du continent. Il détaille les produits phares, les partenariats et les enjeux réglementaires européens, ainsi que la manière dont Mistral tente de se différencier par une approche plus ouverte et une implantation industrielle en Europe. Un point de repère utile alors que la course aux modèles de fondation s'intensifie et que les acteurs non américains cherchent à peser dans un secteur dominé par les géants de la Silicon Valley."
+    },
+    {
+      "category": "IT",
+      "title": "Sept failles dans FatFs exposent des millions d'appareils embarqués",
+      "url": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
+      "publishedAt": "2026-07-03",
+      "summary": "La société de sécurité runZero a révélé sept vulnérabilités dans FatFs, une petite bibliothèque de système de fichiers qui permet de lire et écrire les formats FAT et exFAT des clés USB et cartes SD. FatFs est embarqué dans les firmwares de caméras de sécurité, drones, automates industriels et portefeuilles matériels de cryptomonnaies fonctionnant sur systèmes temps réel. Les failles, notées de moyennes à élevées (CVSS jusqu'à 7,6), incluent des dépassements d'entier et de tampon pouvant conduire à une corruption mémoire et à l'exécution de code, ainsi qu'une division par zéro capable de « briquer » un appareil lors d'une mise à jour. La bibliothèque étant maintenue par un seul développeur injoignable, il n'existe aucun correctif amont pour les bugs de corruption mémoire. runZero a découvert ces failles à l'aide d'un fuzzer construit avec l'aide d'un LLM."
+    },
+    {
+      "category": "IT",
+      "title": "Guerre des navigateurs : les meilleures alternatives à Chrome et Safari en 2026",
+      "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "publishedAt": "2026-07-03",
+      "summary": "Alors que la concurrence entre navigateurs ne se joue plus seulement sur la recherche mais sur l'intégration de l'IA et la protection de la vie privée, TechCrunch passe en revue les alternatives les plus intéressantes à Chrome et Safari. Le tour d'horizon couvre des navigateurs misant sur des fonctionnalités d'assistant IA intégré, sur le blocage des traqueurs et sur de nouvelles approches de la navigation, à l'heure où les grands acteurs cherchent à capter l'attention des utilisateurs par des agents conversationnels. L'article aide à comprendre comment le marché évolue et quelles options privilégier selon que l'on recherche la confidentialité, la performance ou les nouvelles capacités d'intelligence artificielle directement dans le navigateur."
+    },
+    {
+      "category": "IT",
+      "title": "Le clavier Dune se transforme en contrôleur de réunion",
+      "url": "https://techcrunch.com/2026/07/03/the-dune-keypad-device-can-be-your-meeting-controller-and-more/",
+      "publishedAt": "2026-07-03",
+      "summary": "TechCrunch présente Dune, un petit clavier périphérique personnalisable pensé pour la productivité. Au-delà de son rôle de pavé de touches, l'appareil peut servir de contrôleur pour les réunions en visioconférence — couper le micro, activer la caméra, lancer ou quitter un appel — et se reconfigurer pour piloter d'autres applications selon les besoins de l'utilisateur. Ce type d'accessoire répond à la généralisation du télétravail et des réunions à distance, en offrant des raccourcis physiques dédiés qui évitent de naviguer dans les menus logiciels. L'article détaille les usages possibles et le positionnement de ce gadget dans la catégorie en pleine expansion des périphériques de contrôle dédiés."
+    },
+    {
+      "category": "AI",
+      "title": "Le glossaire de l'IA à connaître cette année",
+      "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "publishedAt": "2026-07-03",
+      "summary": "TechCrunch met à jour son glossaire de référence des termes de l'intelligence artificielle, un guide destiné à décrypter le vocabulaire devenu incontournable. Des notions comme les « hallucinations », l'apprentissage par renforcement, les agents autonomes, les modèles de fondation ou la distillation de modèles y sont expliquées de façon accessible. À mesure que l'IA s'immisce dans les produits grand public et professionnels, la maîtrise de ce lexique aide lecteurs et décideurs à suivre l'actualité technique et à distinguer les capacités réelles des promesses marketing. Le document constitue un point d'entrée pratique pour quiconque cherche à comprendre les concepts qui structurent le débat actuel sur l'intelligence artificielle."
+    },
+    {
+      "category": "IT",
+      "title": "Chevrolet a construit un pick-up électrique 100 % américain — mais personne ne l'achète",
+      "url": "https://techcrunch.com/2026/07/03/chevy-built-an-all-american-ev-truck-why-is-nobody-buying-it/",
+      "publishedAt": "2026-07-03",
+      "summary": "TechCrunch analyse le paradoxe du pick-up électrique de Chevrolet, conçu et assemblé aux États-Unis mais qui peine à trouver son public. L'article explore les raisons de ce revers commercial : prix, autonomie, positionnement face aux concurrents, attentes des acheteurs de pick-up et contexte plus large du marché des véhicules électriques. Il illustre les difficultés des constructeurs historiques à convertir leurs gammes emblématiques à l'électrique tout en préservant les volumes de vente. Ce cas éclaire les tensions entre ambitions industrielles, incitations à la production locale et réalités de la demande, dans un secteur automobile en pleine transition où l'électrification ne garantit pas à elle seule le succès commercial."
+    },
+    {
+      "category": "Science",
+      "title": "La NASA lance une mission de sauvetage pour le télescope spatial Swift",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/nasa-to-launch-ambitious-mission-to-save-a-space-telescope-from-burning-up-in-earths-atmosphere",
+      "publishedAt": "2026-07-03",
+      "summary": "La NASA a lancé une mission destinée à empêcher le télescope spatial Swift de retomber et de se consumer dans l'atmosphère terrestre. Le vaisseau LINK, tiré par une fusée Pegasus XL de Northrop Grumman lors de l'ultime vol de ce lanceur historique, doit rejoindre l'observatoire vieillissant et le rehausser sur une orbite plus sûre. Mis en service en novembre 2004 pour étudier les sursauts gamma et autres événements de haute énergie, Swift continue de fournir des données scientifiques précieuses après plus de vingt ans d'activité, mais son orbite a commencé à s'abaisser dangereusement en raison d'un regain d'activité solaire qui accroît le freinage atmosphérique. La manœuvre de rehaussement vise à prolonger la durée de vie de cet instrument emblématique de l'astrophysique."
+    }
+  ]
+}
