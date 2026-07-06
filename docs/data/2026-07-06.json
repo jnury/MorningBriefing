@@ -1,0 +1,163 @@
+{
+  "date": "2026-07-06",
+  "generatedAt": "2026-07-06T05:45:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 32,
+      "low": 20,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 31,
+      "low": 21,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Des chercheurs de l'EPF de Zurich (ETH Zurich) ont mis au point un interrupteur moléculaire activé par la lumière qui réveille les cellules cancéreuses dormantes et les rend à nouveau vulnérables aux traitements.",
+      "publishedAt": "2026-07-05"
+    },
+    {
+      "headline": "Le 60e Montreux Jazz Festival bat son plein sur la Riviera après une soirée d'ouverture mémorable de la Britannique Raye, accompagnée d'Alicia Keys et Mark Ronson.",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "headline": "Le Festival de la Cité referme à Lausanne son édition entièrement gratuite après plusieurs jours de spectacles en accès libre.",
+      "publishedAt": "2026-07-05"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Coupe du monde 2026: la Norvège crée la surprise en éliminant le Brésil (2-1) en huitièmes de finale, portée par un doublé d'Erling Haaland.",
+      "publishedAt": "2026-07-05"
+    },
+    {
+      "headline": "Tour de France: le Mexicain Isaac Del Toro (UAE) s'impose au sommet de Montjuïc lors de la 2e étape à Barcelone, Jonas Vingegaard conservant le maillot jaune.",
+      "publishedAt": "2026-07-05"
+    },
+    {
+      "headline": "Les États-Unis célèbrent le 250e anniversaire de leur indépendance avec des festivités record, dont la parade navale Sail250 dans le port de New York et un feu d'artifice géant à Washington.",
+      "publishedAt": "2026-07-04"
+    }
+  ],
+  "markets": {
+    "asOf": "dernières clôtures avant le week-end: Wall Street le 2 juillet (Bourses fermées le 3 pour l'Independence Day), Europe le 3 juillet 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": 0.4
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 0.46
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.5
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 0.9
+      }
+    ],
+    "summary": "Avant un week-end prolongé par la fermeture de Wall Street le 3 juillet, les places boursières ont terminé en légère hausse des deux côtés de l'Atlantique, les Bourses européennes signant même de nouveaux records."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "Amazon cesse d'accepter de nouveaux clients pour Mechanical Turk",
+      "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+      "publishedAt": "2026-07-05",
+      "summary": "Amazon va cesser d'accepter de nouveaux clients pour Mechanical Turk, sa plateforme historique de micro-tâches réalisées par des humains, à partir du 30 juillet 2026. AWS indique continuer à investir dans la sécurité et la disponibilité du service, mais n'y ajoutera plus de nouvelles fonctionnalités, un signe de son déclin à l'ère de l'automatisation par l'intelligence artificielle."
+    },
+    {
+      "category": "IT",
+      "title": "Bending Spoons, propriétaire d'AOL et Vimeo, fait son entrée en bourse",
+      "url": "https://techcrunch.com/2026/07/05/what-is-bending-spoons-everything-to-know-about-aols-acquirer/",
+      "publishedAt": "2026-07-05",
+      "summary": "TechCrunch dresse le portrait de Bending Spoons, société italienne longtemps discrète devenue propriétaire d'AOL, de Vimeo et de plusieurs applications populaires, qui vient de faire son entrée en bourse. Son modèle consiste à racheter des marques technologiques établies, à en réduire les coûts et à les faire croître, une stratégie qui l'a propulsée parmi les acteurs technologiques à surveiller."
+    },
+    {
+      "category": "IT",
+      "title": "De nombreuses nouvelles licornes créées depuis le début de l'année",
+      "url": "https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/",
+      "publishedAt": "2026-07-05",
+      "summary": "De nombreuses nouvelles licornes — des startups valorisées à plus d'un milliard de dollars — ont vu le jour depuis le début de l'année 2026, portées en grande partie par l'engouement pour l'intelligence artificielle. TechCrunch en publie la liste détaillée, illustrant un marché du capital-risque toujours très actif malgré un contexte économique incertain."
+    },
+    {
+      "category": "AI",
+      "title": "Midjourney veut que les studios hollywoodiens révèlent leur usage de l'IA",
+      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+      "publishedAt": "2026-07-04",
+      "summary": "Dans le cadre de son litige avec trois grands studios hollywoodiens qui l'accusent de violation de droits d'auteur, Midjourney demande à ces studios de révéler comment ils utilisent eux-mêmes l'intelligence artificielle. Cette manœuvre juridique met en lumière l'usage discret, mais bien réel, de l'IA générative au sein de l'industrie du cinéma."
+    },
+    {
+      "category": "AI",
+      "title": "Alibaba aurait interdit à ses employés d'utiliser Claude Code",
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "publishedAt": "2026-07-04",
+      "summary": "Selon des informations rapportées par TechCrunch, Alibaba aurait interdit à ses employés d'utiliser Claude Code, l'outil de programmation assistée par IA d'Anthropic. Cette décision s'inscrirait dans un contexte de tensions géopolitiques et de restrictions croissantes de l'accès des entreprises chinoises aux modèles d'intelligence artificielle américains."
+    },
+    {
+      "category": "AI",
+      "title": "Une pub Google imagine la Déclaration d'indépendance écrite avec l'aide de l'IA",
+      "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+      "publishedAt": "2026-07-04",
+      "summary": "Une nouvelle publicité de Google imagine la Déclaration d'indépendance américaine rédigée avec l'aide de l'intelligence artificielle, à l'occasion du 250e anniversaire des États-Unis. Diffusé pour le 4 juillet, le spot illustre la stratégie de Google visant à normaliser l'usage de ses outils d'IA générative dans la vie quotidienne, non sans susciter des réactions partagées."
+    },
+    {
+      "category": "Science",
+      "title": "Alzheimer: comment la maladie détruit les neurones",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260626124701.htm",
+      "publishedAt": "2026-07-05",
+      "summary": "Une équipe de recherche affirme avoir enfin identifié le mécanisme par lequel la maladie d'Alzheimer détruit les cellules du cerveau. Comprendre comment les neurones meurent — plutôt que de se concentrer uniquement sur l'accumulation de plaques — ouvre la voie à de nouvelles cibles thérapeutiques susceptibles de ralentir ou de stopper la progression de la maladie."
+    },
+    {
+      "category": "Science",
+      "title": "Des loups vieux de 5000 ans bousculent l'histoire de la domestication",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260624115624.htm",
+      "publishedAt": "2026-07-05",
+      "summary": "Des restes de loups vieux de 5000 ans découverts sur une île isolée remettent en question ce que l'on croyait savoir sur la domestication du chien. Leur analyse suggère que le processus ayant conduit du loup au chien fut plus complexe et diversifié qu'on ne le pensait, avec des populations restées longtemps à l'écart de l'influence humaine."
+    },
+    {
+      "category": "Science",
+      "title": "Un forage océanique record éclaire le tsunami meurtrier de 2011 au Japon",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260625060220.htm",
+      "publishedAt": "2026-07-05",
+      "summary": "Un forage océanique record a permis de comprendre pourquoi le tsunami de 2011 au Japon fut aussi dévastateur. Les carottes prélevées le long de la faille révèlent une couche argileuse extrêmement glissante ayant permis à la plaque de se déplacer sur une distance exceptionnelle, ce qui a amplifié la vague meurtrière qui a frappé les côtes."
+    },
+    {
+      "category": "Science",
+      "title": "Il y a 20 000 ans, des abeilles nichaient dans d'anciennes alvéoles",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260625060216.htm",
+      "publishedAt": "2026-07-05",
+      "summary": "Il y a environ 20 000 ans, certaines abeilles utilisaient d'anciennes cavités, comparables à des alvéoles, comme minuscules pouponnières pour abriter leurs larves. Cette découverte paléontologique éclaire les comportements de nidification d'insectes aujourd'hui disparus et enrichit la compréhension de l'évolution des pollinisateurs au fil des millénaires."
+    },
+    {
+      "category": "Science",
+      "title": "Le circuit du sommeil profond qui construit le muscle et brûle la graisse",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260626030433.htm",
+      "publishedAt": "2026-07-05",
+      "summary": "Des chercheurs ont mis en évidence le circuit cérébral du sommeil profond qui relie ce dernier à la libération d'hormone de croissance. Ce mécanisme contribuerait à construire le muscle, à brûler les graisses et à soutenir les fonctions cérébrales, soulignant l'importance d'un sommeil de qualité pour la santé métabolique et le bien-être général."
+    },
+    {
+      "category": "Science",
+      "title": "La mécanique quantique, d'idée déroutante à moteur des technologies de pointe",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260624025516.htm",
+      "publishedAt": "2026-07-05",
+      "summary": "Longtemps jugée déroutante et controversée, la mécanique quantique est devenue le socle de certaines des technologies les plus avancées de l'humanité. Les chercheurs repoussent aujourd'hui ses limites, avec des applications prometteuses dans l'énergie, la médecine, la mesure de précision et le calcul, confirmant son passage de la théorie abstraite à l'ingénierie concrète."
+    },
+    {
+      "category": "Science",
+      "title": "Hubble dévoile un amas d'étoiles étincelant pour le 4 juillet",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260704232642.htm",
+      "publishedAt": "2026-07-05",
+      "summary": "Pour célébrer le 250e anniversaire des États-Unis, le télescope spatial Hubble de la NASA a dévoilé une image spectaculaire, aux teintes rouge, blanche et bleue, de l'un des plus anciens amas d'étoiles de la Voie lactée. Ce type d'amas globulaire, riche de centaines de milliers d'étoiles, aide les astronomes à mieux dater les premières générations d'étoiles de notre galaxie."
+    }
+  ]
+}
