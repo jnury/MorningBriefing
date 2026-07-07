@@ -1,0 +1,201 @@
+{
+  "date": "2026-07-07",
+  "generatedAt": "2026-07-07T06:15:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 34,
+      "low": 19,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 32,
+      "low": 21,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "EasyJet, numéro un des aéroports de Genève et Bâle, annonce un accord de principe sur une offre de rachat de 5,4 milliards par le fonds américain Castlelake, ravivant les interrogations sur son avenir en Suisse.",
+      "publishedAt": "2026-07-06"
+    },
+    {
+      "headline": "Le Festival de la Cité a réuni 110'000 spectateurs à Lausanne pour sa 54e édition, avec 150 projets artistiques présentés gratuitement sur 23 scènes.",
+      "publishedAt": "2026-07-05"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Le Hamas annonce la dissolution de son gouvernement à Gaza pour transférer l'administration à un comité de technocrates soutenu par l'ONU, dans le cadre du plan de paix négocié sous égide américaine.",
+      "publishedAt": "2026-07-06"
+    },
+    {
+      "headline": "L'Australie et les Fidji signent à Suva l'union historique Vuvale et l'alliance Ocean of Peace, premier traité de défense mutuelle pour Suva assorti de plus d'un milliard de dollars australiens d'investissements sur dix ans.",
+      "publishedAt": "2026-07-06"
+    },
+    {
+      "headline": "La sonde japonaise Hayabusa2 réussit un survol rapproché de l'astéroïde Torifune à seulement 800 mètres, une prouesse au service de la science et de la défense planétaire.",
+      "publishedAt": "2026-07-05"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 6 juillet 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": 1.12
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 0.29
+      },
+      {
+        "name": "SMI",
+        "changePct": -0.85
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 0.2
+      }
+    ],
+    "summary": "Wall Street a signé de nouveaux records portée par la tech (Nasdaq +1,12%, Dow +0,29%), tandis que l'Europe divergeait avec un Euro Stoxx 50 quasi stable (+0,2%) et un SMI suisse en net repli (-0,85%)."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "Ouverture à Genève du premier Dialogue mondial de l'ONU sur la gouvernance de l'IA",
+      "url": "https://news.un.org/en/story/2026/07/1167873",
+      "publishedAt": "2026-07-06",
+      "summary": "Le premier Dialogue mondial des Nations Unies sur la gouvernance de l'intelligence artificielle s'est ouvert à Genève (6-7 juillet), réunissant les 193 États membres, entreprises, chercheurs et société civile. Le secrétaire général António Guterres a appelé à des contrôles mondiaux d'envergure sur l'IA, insistant sur des normes de sécurité, la protection des enfants et un accès élargi pour les pays en développement. Parmi les priorités: des cadres de test des systèmes, le maintien de la décision humaine dans les usages à haut risque, et l'alimentation de tous les centres de données en énergies renouvelables d'ici 2030. Un panel scientifique indépendant avertit que les capacités de l'IA progressent plus vite que la capacité des États à les réguler et qu'aucune garantie technique de sûreté n'existe. Un deuxième dialogue est prévu en mai 2027 à New York."
+    },
+    {
+      "category": "IT",
+      "title": "Microsoft supprime près de 4 800 postes, Xbox et ventes commerciales en première ligne",
+      "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
+      "publishedAt": "2026-07-06",
+      "summary": "Microsoft a éliminé environ 4 800 postes, soit 2,1 % de ses effectifs mondiaux, les divisions Xbox et ventes commerciales étant les plus touchées. Xbox perd à elle seule 1 600 employés dans ce que son PDG qualifie de restructuration la plus importante de son histoire, motivée par des marges décevantes et les difficultés du marché matériel. L'entreprise affirme que les rôles supprimés ne sont pas remplacés par l'IA, tout en reconnaissant que l'intelligence artificielle transforme les méthodes de travail. Cette vague s'inscrit dans une tendance sectorielle: environ 120 000 emplois tech ont déjà été supprimés en 2026, souvent en lien avec l'essor et les investissements massifs dans l'IA."
+    },
+    {
+      "category": "AI",
+      "title": "Google peut désormais entraîner son IA sur vos médias: comment se désinscrire",
+      "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
+      "publishedAt": "2026-07-06",
+      "summary": "Google a modifié ses paramètres de confidentialité pour pouvoir conserver et exploiter les médias des utilisateurs — images, audio et vidéos — à des fins d'entraînement de ses modèles d'IA. Ce changement s'applique à ses services de recherche comme Maps, Shopping, Flights et Translate: tout contenu téléversé ou créé via ces plateformes peut servir à améliorer l'IA. La mise à jour a séparé les réglages d'historique de recherche de ceux de l'activité web, rendant plus facile une adhésion involontaire à la collecte. Les utilisateurs peuvent la désactiver en décochant la case « Save Media » dans les réglages d'historique des services de recherche et en ajustant leurs préférences de conservation des données sur les pages de confidentialité de Google."
+    },
+    {
+      "category": "Science",
+      "title": "Des astronomes assistent pour la première fois à la naissance d'un magnétar",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260626030450.htm",
+      "publishedAt": "2026-07-06",
+      "summary": "Des astronomes ont détecté la première preuve directe d'un magnétar nouveau-né alimentant une supernova superlumineuse, grâce à un signal « gazouillant » (chirp) inhabituel dans la lumière de l'explosion. La découverte confirme une théorie proposée seize ans plus tôt et montre que la relativité générale d'Einstein explique la mécanique de ces explosions stellaires extraordinairement brillantes. Le magnétar, situé dans la supernova SN 2024afav à environ un milliard d'années-lumière, tourne sur lui-même toutes les 4,2 millisecondes et possède un champ magnétique environ 300 000 milliards de fois plus intense que celui de la Terre. Ces observations éclairent l'origine des neutrons hyper-magnétisés et le moteur des supernovae les plus lumineuses de l'Univers."
+    },
+    {
+      "category": "AI",
+      "title": "Reddit déploie des LLM pour combattre le spam… largement généré par des LLM",
+      "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
+      "publishedAt": "2026-07-06",
+      "summary": "Reddit utilise désormais de grands modèles de langage pour lutter contre le spam, un fléau lui-même largement produit par des LLM. La plateforme bloque 23 millions de vues de spam par jour et intercepte environ 25 000 nouveaux messages indésirables quotidiennement. Selon Reddit, ces outils dopés à l'IA détectent des schémas de faux comportements subtils et coordonnés que les anciens systèmes manquaient, réduisant de 20 % l'exposition des utilisateurs au spam entre janvier et mars. Alors que des plateformes comme YouTube ou TikTok tolèrent les contenus générés par IA sous réserve de divulgation, les experts rappellent qu'une modération efficace exige de combiner détection automatisée et supervision humaine."
+    },
+    {
+      "category": "AI",
+      "title": "Le PDG de Vercel plaide pour séparer les modèles d'IA des agents",
+      "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+      "publishedAt": "2026-07-06",
+      "summary": "Guillermo Rauch, PDG de Vercel, décrit le passage de l'industrie de l'IA de l'expérimentation à l'optimisation en production. Il identifie deux grands usages des agents: les agents de codage et les agents internes d'entreprise, qui aident à accéder aux données et à les analyser. Rauch défend une approche modulaire où modèles et agents restent séparés, permettant aux entreprises de basculer entre fournisseurs — OpenAI, Anthropic ou alternatives open source — selon la performance et le coût. Il présente cette philosophie d'architecture comme essentielle pour empêcher les grands acteurs de l'IA de créer des écosystèmes verrouillés et de capturer leurs clients."
+    },
+    {
+      "category": "IT",
+      "title": "Le fabricant de lunettes connectées Even Realities atteint 1 milliard de dollars de valorisation",
+      "url": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/",
+      "publishedAt": "2026-07-06",
+      "summary": "Even Realities, start-up de lunettes connectées basée à Shenzhen et fondée par d'anciens ingénieurs d'Apple, devient une licorne après une levée de 150 millions de dollars en pré-Série B menée par Meituan et Tencent. L'entreprise se distingue par des lunettes sans caméra, misant sur une technologie « display-first » et une bague de contrôle compagnon, avec un accent sur la confidentialité et la performance optique. Even a connu une croissance rapide, passant de 30-40 employés en 2024 à 300-400 aujourd'hui, dépassant ses objectifs de vente initiaux et s'imposant comme un acteur rentable sur le marché très concurrentiel des lunettes intelligentes."
+    },
+    {
+      "category": "IT",
+      "title": "Le renseignement canadien révèle avoir piraté trafiquants, extrémistes et un gang de rançongiciels",
+      "url": "https://techcrunch.com/2026/07/06/canadian-spy-agency-says-it-hacked-drug-traffickers-extremists-and-a-ransomware-gang-last-year/",
+      "publishedAt": "2026-07-06",
+      "summary": "Le Centre de la sécurité des télécommunications (CST) du Canada a divulgué avoir mené l'an dernier trois cyberattaques offensives à l'étranger contre des menaces majeures pour la sécurité nationale. Ces opérations ont perturbé des courtiers de précurseurs chimiques du fentanyl, le recrutement d'un groupe extrémiste étranger et une infrastructure de rançongiciel-as-a-service ayant frappé les secteurs canadiens de la santé et des entreprises. L'agence indique aussi avoir mené des opérations défensives contre dix autres groupes de rançongiciels et déjoué une campagne d'hameçonnage visant des institutions gouvernementales canadiennes, même si les détails opérationnels restent classifiés. Ces révélations rares illustrent la montée des cyber-opérations offensives assumées par les États occidentaux."
+    },
+    {
+      "category": "AI",
+      "title": "La start-up Worldmodeldata lève 7 M£ pour transformer le jeu vidéo en données d'entraînement IA",
+      "url": "https://www.uktech.news/funding/worldmodeldata-raises-7m-to-accelerate-gaming-data-for-ai-training-20260706",
+      "publishedAt": "2026-07-06",
+      "summary": "Worldmodeldata, jeune pousse de Cambridge, sort de la clandestinité avec une levée de 7 millions de livres (environ 8 M€) en amorçage, menée par Iona Star Capital. L'entreprise constitue une base de données d'entraînement pour l'IA « physique » à partir de sessions de jeu réelles sur des moteurs comme Unreal et Unity, acquises via des accords de licence formels permettant aux joueurs et développeurs de monétiser leurs parties plutôt que par du web scraping. Elle vise une bibliothèque d'un million d'heures d'ici fin 2026, contre 40 000 heures pour la plus grande base actuelle. Fondée par Rhea Loucas, elle accueille au conseil Lord Richard Allan, ancien VP des affaires publiques de Meta. La société n'a encore aucun contrat client finalisé."
+    },
+    {
+      "category": "AI",
+      "title": "Station F muscle son accélérateur F/ai pour les start-up IA européennes",
+      "url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
+      "publishedAt": "2026-07-06",
+      "summary": "Station F, le hub de start-up parisien fondé par Xavier Niel, lance en septembre la deuxième promotion de son accélérateur F/ai, avec l'objectif d'aider les start-up IA à atteindre 1 million d'euros de revenus en six mois. Le programme bénéficie du soutien de grands acteurs — AMD, Anthropic, AWS, Google, Meta, Microsoft, OpenAI — et de nouveaux partenaires comme ElevenLabs et GitHub. La première promotion a levé collectivement 34 millions de dollars, 80 % des fondateurs étant des entrepreneurs récidivistes, même si le processus de sélection sur invitation a suscité des critiques d'élitisme. Station F entend s'appuyer sur sa position centrale dans l'écosystème tech européen pour connecter les start-up ambitieuses aux leaders de l'industrie et aux investisseurs."
+    },
+    {
+      "category": "IT",
+      "title": "Siri devient réglable: rythme et expressivité personnalisables dans la bêta d'iOS 27",
+      "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+      "publishedAt": "2026-07-06",
+      "summary": "Apple a activé, dans la bêta 3 d'iOS 27, des réglages permettant d'ajuster le « rythme » (Pace) et l'« expressivité » (Expressivity) de Siri, c'est-à-dire la vitesse et la charge émotionnelle de la voix de l'assistant. Cette fonction, jusque-là marquée « à venir », s'inscrit dans l'effort d'Apple pour rendre Siri plus naturel et personnel, en le reconstruisant autour de l'IA générative. La mise à jour propose aussi le choix de voix aux accents variés et des phrases d'exemple pour tester les changements. Les options restent toutefois plus limitées que celles de concurrents comme ChatGPT, qui offre des contrôles supplémentaires de chaleur, d'enthousiasme et de style de communication."
+    },
+    {
+      "category": "IT",
+      "title": "Apple rétablit le paiement par carte pour les achats Apple Account en Inde après quatre ans",
+      "url": "https://techcrunch.com/2026/07/06/apple-brings-back-card-payments-for-apple-account-purchases-in-india-after-a-four-year-hiatus/",
+      "publishedAt": "2026-07-06",
+      "summary": "Apple a lancé un déploiement progressif du paiement par carte pour les achats liés à l'Apple Account en Inde, réintroduisant les options Visa et Mastercard après une suspension de quatre ans entamée en mai 2022. Ce rétablissement fait suite aux évolutions réglementaires de la Reserve Bank of India, qui imposent une authentification renforcée et des identifiants tokenisés pour les paiements récurrents, exigences auxquelles Apple a désormais adapté ses systèmes. Cette décision illustre le défi plus large d'Apple: adapter ses services aux réglementations propres à chaque pays, à l'image de ses récentes modifications de l'App Store en Europe, au Japon et en Corée du Sud."
+    },
+    {
+      "category": "IT",
+      "title": "TechCrunch actualise sa liste des grands licenciements tech de 2026 invoquant l'IA",
+      "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "publishedAt": "2026-07-06",
+      "summary": "TechCrunch a mis à jour son décompte des grandes vagues de licenciements dans la tech en 2026 ayant explicitement cité l'IA comme facteur. Selon le traqueur Layoffs.fyi, environ 120 000 postes tech ont déjà été supprimés cette année. La liste, tenue en ordre chronologique inverse, recense les grandes entreprises invoquant l'intelligence artificielle pour justifier des réductions d'effectifs, à mesure que l'automatisation et la réallocation de budgets vers l'IA transforment l'organisation du travail. Le dossier alimente le débat, de plus en plus houleux, sur l'impact réel de l'IA sur l'emploi, entre gains de productivité affichés et suppressions de postes assumées ou masquées."
+    },
+    {
+      "category": "Science",
+      "title": "Une galaxie naine ultra-faible, And 35, découverte autour d'Andromède",
+      "url": "https://www.universetoday.com/articles/andromedas-newest-dwarf-galaxy-is-extremely-dim",
+      "publishedAt": "2026-07-06",
+      "summary": "Des chercheurs ont identifié une galaxie naine extrêmement peu massive et peu lumineuse en orbite autour d'Andromède, baptisée And 35 et classée comme galaxie naine ultra-faible (UFDG). Les astronomes n'ont pour l'instant détecté que 46 de ses étoiles, tant l'objet est ténu. Débusquer davantage de ces naines ultra-faibles est crucial pour la cosmologie: le modèle standard Lambda-CDM prédit qu'un grand nombre de ces satellites devraient graviter autour de galaxies comme Andromède et la Voie lactée. Chaque nouvelle détection aide donc à tester ce modèle et à mieux comprendre la distribution de la matière noire à petite échelle."
+    },
+    {
+      "category": "Science",
+      "title": "La sonde New Horizons mesure le ralentissement du vent solaire aux confins du Système solaire",
+      "url": "https://www.universetoday.com/articles/new-horizons-watches-the-solar-wind-as-it-slows-down",
+      "publishedAt": "2026-07-06",
+      "summary": "La sonde New Horizons a mesuré un vent solaire de plus en plus lent à mesure qu'elle s'éloigne du Soleil: 5 à 10 % plus lent entre 30 et 43 unités astronomiques, et 13 à 15 % plus lent à 58 UA, par rapport à l'orbite terrestre. Ce ralentissement s'explique par l'entrée de particules neutres interstellaires dans l'héliosphère, ionisées par échange de charge avec les ions du vent solaire, ce qui ajoute de la masse et réduit la vitesse. Ces données concordent avec les modèles existants et aideront à comprendre la frontière de l'héliosphère et son rôle de bouclier contre le rayonnement cosmique, une information précieuse pour planifier de futures explorations interstellaires."
+    },
+    {
+      "category": "Science",
+      "title": "Alzheimer: un nouveau mécanisme de mort des neurones, la « karyoptose », identifié",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260626124701.htm",
+      "publishedAt": "2026-07-05",
+      "summary": "Des chercheurs du King's College de Londres ont identifié un mécanisme de mort cellulaire jusqu'alors inconnu, baptisé « karyoptose », par lequel des protéines toxiques provoquent le rétrécissement et la fragmentation du noyau des cellules cérébrales. En analysant 3 000 cellules de cerveaux de patients atteints de démence, ils ont observé cette karyoptose dans 35 % des cellules de cerveaux Alzheimer, contre 15 % chez des sujets sains. Les scientifiques ont pointé l'interaction entre la kinase p38 MAP et la LaminB1 comme cible thérapeutique potentielle pour ralentir ce processus de mort neuronale, ouvrant une piste inédite contre la neurodégénérescence."
+    },
+    {
+      "category": "Science",
+      "title": "Un mystère vieux de 30 ans sur le pollen de seigle résolu, avec un potentiel anticancer",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260625014838.htm",
+      "publishedAt": "2026-07-06",
+      "summary": "Des chimistes de l'université Northwestern ont élucidé un mystère vieux de trois décennies en déterminant la structure 3D précise de deux molécules — les sécalosides A et B — présentes dans le pollen de seigle et ayant montré chez l'animal un potentiel de lutte contre les tumeurs. En synthétisant ces composés en laboratoire, les chercheurs ont confirmé leur architecture moléculaire exacte, impossible à établir par les techniques de spectroscopie classiques. Ces structures désormais connues, les scientifiques peuvent étudier comment ces composés naturels interagissent avec le système immunitaire et concevoir des versions améliorées, susceptibles d'inspirer de nouvelles approches thérapeutiques contre le cancer."
+    },
+    {
+      "category": "Science",
+      "title": "Une membrane-filet pour capturer les débris spatiaux les plus difficiles",
+      "url": "https://www.universetoday.com/articles/a-new-net-membrane-could-clean-up-some-tricky-space-debris",
+      "publishedAt": "2026-07-06",
+      "summary": "Des chercheurs d'institutions chinoises ont conçu un système de « membrane-filet » déployé par projectiles pour capturer des débris spatiaux. Le dispositif hybride associe des membranes souples intégrant électronique, batteries et alliages à mémoire de forme, lui permettant de s'enrouler autour d'un débris puis de se rétracter dans le satellite chasseur pour être réutilisé. Si des simulations informatiques démontrent la faisabilité théorique, d'importants défis d'ingénierie demeurent: la membrane doit résister à des forces extrêmes tout en opérant dans l'environnement orbital complexe. Cette approche vise les débris difficiles, non coopératifs, qui menacent de plus en plus les satellites en orbite basse."
+    },
+    {
+      "category": "Science",
+      "title": "Des tunnels pressurisés rétractables imaginés pour relier les habitats sur Mars",
+      "url": "https://www.universetoday.com/articles/university-team-proposed-retractable-pressurized-tunnels-for-missions-to-mars",
+      "publishedAt": "2026-07-06",
+      "summary": "L'équipe BLiSS de l'université du Michigan a conçu LATCH, un système de tunnels pressurisés rétractables destiné à relier habitats martiens et aires d'atterrissage, réduisant des temps de trajet d'une journée entière à quelques minutes. Chaque tunnel comprend une enveloppe gonflable, des actionneurs motorisés et des capteurs, permettant aux astronautes de circuler entre les infrastructures de surface sans effectuer de longues sorties extravéhiculaires. Le concept répond à des enjeux critiques: chaque combinaison EVA exigerait environ 560 kg de propergol de plus qu'une activité intravéhiculaire, si bien que ces tunnels réduiraient nettement les coûts de mission et les risques liés à l'exposition aux radiations."
+    }
+  ]
+}
