@@ -1,0 +1,198 @@
+{
+  "date": "2026-07-08",
+  "generatedAt": "2026-07-08T06:35:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 35,
+      "low": 21,
+      "condition": "Partiellement nuageux",
+      "weathercode": 2,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 33,
+      "low": 23,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Face à la canicule, la Ville de Genève ouvre des refuges climatisés en offrant aux 65 ans et plus des séances gratuites l'après-midi dans les cinémas Le City, Les Scala et Le Nord-Sud.",
+      "publishedAt": "2026-07-07"
+    },
+    {
+      "headline": "La Nati dispute son huitième de finale de la Coupe du monde contre la Colombie, malgré les absences sur blessure de plusieurs joueurs clés.",
+      "publishedAt": "2026-07-07"
+    },
+    {
+      "headline": "Confronté au surtourisme, le village de Lauterbrunnen mise sur un parking souterrain et un élargissement routier pour mieux canaliser l'afflux de visiteurs.",
+      "publishedAt": "2026-07-07"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "En huitièmes de la Coupe du monde, la Belgique bat les États-Unis 4-1 (doublé de De Ketelaere), scellant l'élimination des trois pays hôtes.",
+      "publishedAt": "2026-07-07"
+    },
+    {
+      "headline": "Le Premier ministre indien Narendra Modi inaugure la troisième usine de semi-conducteurs du pays (CG Semi, Gujarat), consolidant l'India Semiconductor Mission.",
+      "publishedAt": "2026-07-07"
+    },
+    {
+      "headline": "Au Royaume-Uni, le chef de Reform UK Nigel Farage annonce vouloir démissionner de son siège de député pour se représenter aussitôt.",
+      "publishedAt": "2026-07-07"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 7 juillet 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -1.16
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": -0.25
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.37
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": -0.2
+      }
+    ],
+    "summary": "Séance contrastée : Wall Street recule sous une nouvelle rotation hors des valeurs liées à l'IA et des semi-conducteurs, tandis que le SMI progresse et que l'Euro Stoxx 50 cède un peu de terrain près de ses records."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "Meta lance Muse, son nouveau générateur d'images par IA",
+      "url": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+      "publishedAt": "2026-07-07",
+      "summary": "Meta déploie Muse, un générateur d'images par intelligence artificielle intégré à ses applications. L'outil vise à concurrencer les solutions existantes sur le marché de la création visuelle et s'inscrit dans la stratégie du groupe pour multiplier les fonctionnalités d'IA générative destinées aux créateurs et aux utilisateurs de ses réseaux sociaux."
+    },
+    {
+      "category": "AI",
+      "title": "Microsoft rejoint la tendance à réduire les coûts de l'IA en s'appuyant davantage sur ses propres modèles",
+      "url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/",
+      "publishedAt": "2026-07-07",
+      "summary": "Microsoft cherche à maîtriser la facture croissante de l'IA en faisant tourner davantage de charges sur ses modèles maison plutôt que sur ceux de partenaires externes. Cette bascule, partagée par d'autres géants de la tech, reflète la pression sur les marges à mesure que la demande de calcul explose."
+    },
+    {
+      "category": "AI",
+      "title": "Pourquoi la montée de l'IA open source ne fait pas (encore) mal à Anthropic",
+      "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
+      "publishedAt": "2026-07-07",
+      "summary": "Malgré la prolifération de modèles open source performants et moins chers, Anthropic préserve sa position grâce à ses clients entreprises, ses garanties de fiabilité et son intégration produit. L'analyse examine combien de temps cet avantage peut tenir face à une concurrence ouverte de plus en plus crédible."
+    },
+    {
+      "category": "AI",
+      "title": "Claude Cowork s'étend au mobile et au web",
+      "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
+      "publishedAt": "2026-07-07",
+      "summary": "Anthropic élargit Claude Cowork aux plateformes mobiles et web, signe que la bataille des agents ne se limite plus au code mais gagne l'ensemble des tâches de bureau. L'objectif est d'automatiser davantage de flux de travail professionnels au-delà du développement logiciel."
+    },
+    {
+      "category": "AI",
+      "title": "La start-up juridique Norm lève 120 millions de dollars et atteint le statut de licorne",
+      "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/",
+      "publishedAt": "2026-07-07",
+      "summary": "Norm, jeune pousse spécialisée dans l'IA appliquée au droit, boucle un tour de table de 120 millions de dollars qui la propulse au rang de licorne. Le financement illustre l'appétit persistant des investisseurs pour les outils d'IA verticale destinés aux professions réglementées."
+    },
+    {
+      "category": "AI",
+      "title": "L'application Savi veut protéger les particuliers des arnaques par IA, comme les faux ravisseurs réclamant une rançon",
+      "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/",
+      "publishedAt": "2026-07-07",
+      "summary": "Savi propose une application pour aider les particuliers à déjouer les escroqueries dopées à l'IA, notamment les appels imitant une voix familière pour simuler un enlèvement et exiger une rançon. L'outil vise à vérifier l'authenticité des sollicitations face à des deepfakes vocaux de plus en plus réalistes."
+    },
+    {
+      "category": "AI",
+      "title": "Les modèles d'IA chinois gagnent du terrain auprès des entreprises américaines face à la flambée des coûts d'OpenAI et Anthropic",
+      "url": "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html",
+      "publishedAt": "2026-07-07",
+      "summary": "Alors que les prix des modèles d'OpenAI et d'Anthropic grimpent, des entreprises américaines se tournent vers des modèles chinois, souvent open source et nettement moins chers. Cette dynamique bouscule le rapport de force sur le marché de l'IA générative et alimente le débat sur la souveraineté technologique."
+    },
+    {
+      "category": "IT",
+      "title": "Discord admet qu'un bug de modération par IA a banni à tort des utilisateurs pour des images inoffensives",
+      "url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
+      "publishedAt": "2026-07-07",
+      "summary": "Discord reconnaît qu'une défaillance de son système de modération automatisé a conduit à bannir injustement des comptes en raison d'images pourtant anodines. L'incident relance les critiques sur la fiabilité des filtres d'IA et la difficulté d'un juste équilibre entre automatisation et supervision humaine."
+    },
+    {
+      "category": "IT",
+      "title": "Figma rachète l'équipe derrière une application de « vibe coding »",
+      "url": "https://techcrunch.com/2026/07/07/figma-acquires-team-behind-a-vibe-coding-app/",
+      "publishedAt": "2026-07-07",
+      "summary": "Figma acquiert l'équipe d'une application de développement assisté par IA (« vibe coding »), renforçant son ambition de relier conception et génération de code. L'opération, centrée sur les talents, s'inscrit dans la course des outils de design à intégrer davantage d'automatisation logicielle."
+    },
+    {
+      "category": "IT",
+      "title": "Google fixe son événement Pixel au 12 août",
+      "url": "https://techcrunch.com/2026/07/07/googles-pixel-event-is-set-for-august-12/",
+      "publishedAt": "2026-07-07",
+      "summary": "Google annonce que sa prochaine keynote Pixel se tiendra le 12 août. L'événement devrait dévoiler la nouvelle génération de smartphones et d'accessoires de la marque, avec de fortes attentes autour des fonctionnalités d'IA embarquées."
+    },
+    {
+      "category": "IT",
+      "title": "Netflix teste les formats courts avec de nouveaux accords d'éditeurs",
+      "url": "https://techcrunch.com/2026/07/07/netflix-dabbles-in-shorter-video-content-with-its-new-set-of-publisher-deals-with-variety-others/",
+      "publishedAt": "2026-07-07",
+      "summary": "Netflix s'aventure dans la vidéo courte via des partenariats avec des éditeurs comme Variety. La plateforme cherche à diversifier son offre et à capter l'attention d'un public habitué aux formats brefs, sur un terrain dominé par TikTok, YouTube et Instagram."
+    },
+    {
+      "category": "IT",
+      "title": "Le fonds Chemistry lève 500 millions de dollars pour son deuxième véhicule",
+      "url": "https://techcrunch.com/2026/07/07/chemistry-ventures-is-raising-500m-for-its-second-fund/",
+      "publishedAt": "2026-07-07",
+      "summary": "La société de capital-risque Chemistry lève 500 millions de dollars pour son deuxième fonds, signe que les investisseurs continuent d'allouer des capitaux importants aux start-up early-stage malgré un marché plus sélectif. Le véhicule cible notamment les jeunes pousses technologiques."
+    },
+    {
+      "category": "IT",
+      "title": "Les premiers véhicules terrestres autonomes américains combattent en Ukraine",
+      "url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/",
+      "publishedAt": "2026-07-07",
+      "summary": "Des véhicules terrestres autonomes de conception américaine sont déployés sur le terrain en Ukraine, marquant une étape dans l'usage de la robotique militaire. L'article documente les capacités, les limites et les enjeux éthiques de ces systèmes sans équipage sur le champ de bataille."
+    },
+    {
+      "category": "IT",
+      "title": "X ajoute un éditeur vidéo pour inciter les créateurs à publier du contenu original",
+      "url": "https://techcrunch.com/2026/07/07/x-adds-a-video-editor-to-encourage-creators-to-post-original-content-not-stolen-reposts/",
+      "publishedAt": "2026-07-07",
+      "summary": "X (ex-Twitter) intègre un éditeur vidéo destiné à encourager la publication de contenus originaux plutôt que de reposts détournés. La plateforme cherche à retenir les créateurs et à muscler son offre vidéo pour rivaliser avec les réseaux concurrents."
+    },
+    {
+      "category": "IT",
+      "title": "Des hacktivistes défigurent des sites web de l'armée américaine pour interpeller Trump",
+      "url": "https://techcrunch.com/2026/07/07/hacktivists-call-out-trump-by-hacking-and-defacing-us-army-websites/",
+      "publishedAt": "2026-07-07",
+      "summary": "Un groupe d'hacktivistes revendique le piratage et la défiguration de sites web de l'armée américaine pour adresser un message politique à l'administration Trump. L'incident illustre la vulnérabilité persistante de certaines infrastructures publiques et la dimension protestataire de ces intrusions."
+    },
+    {
+      "category": "IT",
+      "title": "Le fabricant de lunettes connectées Even Realities atteint 1 milliard de dollars de valorisation avec 150 millions levés",
+      "url": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/",
+      "publishedAt": "2026-07-06",
+      "summary": "Even Realities, spécialiste des lunettes connectées, franchit le cap du milliard de dollars de valorisation grâce à une levée de 150 millions menée par Meituan et Tencent. Le tour de table confirme le regain d'intérêt des investisseurs pour les lunettes intelligentes comme prochaine grande interface."
+    },
+    {
+      "category": "Science",
+      "title": "Un nouveau matériau rend la chaleur « programmable »",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260707025046.htm",
+      "publishedAt": "2026-07-07",
+      "summary": "Des chercheurs présentent un matériau capable de contrôler et de « programmer » la chaleur en dirigeant le rayonnement thermique. Cette avancée ouvre des perspectives pour la gestion thermique des appareils électroniques, l'isolation intelligente et de nouvelles technologies de récupération d'énergie."
+    },
+    {
+      "category": "Science",
+      "title": "Les bourdons accumulent jusqu'à 7 fois plus de métaux toxiques que les abeilles",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260707025044.htm",
+      "publishedAt": "2026-07-07",
+      "summary": "Une étude montre que les bourdons emmagasinent jusqu'à sept fois plus de métaux lourds toxiques que les abeilles domestiques lors de leur butinage. Ces résultats font des bourdons de possibles bio-indicateurs de la pollution environnementale et interrogent les risques pesant sur les pollinisateurs."
+    }
+  ]
+}
