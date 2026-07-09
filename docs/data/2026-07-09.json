@@ -1,0 +1,198 @@
+{
+  "date": "2026-07-09",
+  "generatedAt": "2026-07-09T05:35:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 34,
+      "low": 22,
+      "condition": "Principalement ensoleillé",
+      "weathercode": 1,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 33,
+      "low": 23,
+      "condition": "Principalement ensoleillé",
+      "weathercode": 1,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "La Suisse s'est qualifiée mardi soir pour les quarts de finale de la Coupe du monde 2026, une première depuis 1954.",
+      "publishedAt": "2026-07-07"
+    },
+    {
+      "headline": "Face à la crise de trésorerie née du passage à TarDoc, Vaud et Genève relèvent leurs avances au CHUV et aux HUG pour compenser les factures ambulatoires non émises depuis le début 2026.",
+      "publishedAt": "2026-07-08"
+    },
+    {
+      "headline": "La chanteuse franco-haïtienne Naïka a enflammé le Montreux Jazz Lab, confirmant son statut de révélation pop de l'été.",
+      "publishedAt": "2026-07-07"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Au sommet de l'OTAN à Ankara, l'Alliance a dévoilé des dizaines de milliards de contrats d'armement et Donald Trump a annoncé la levée des sanctions contre la Turquie, ouvrant la voie à un possible retour d'Ankara dans le programme F-35.",
+      "publishedAt": "2026-07-07"
+    },
+    {
+      "headline": "En Hongrie, le nouveau Premier ministre Péter Magyar a suspendu les journaux de la télévision publique M1 et de la radio Kossuth pour refonder un service public indépendant, tournant la page de seize ans de médias d'État sous Viktor Orbán.",
+      "publishedAt": "2026-07-07"
+    },
+    {
+      "headline": "Le tableau des quarts de finale de la Coupe du monde 2026 est complet, réunissant France, Maroc, Norvège, Angleterre, Espagne, Belgique, Argentine et Suisse.",
+      "publishedAt": "2026-07-08"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 8 juillet 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": 0.2
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": -1.09
+      },
+      {
+        "name": "SMI",
+        "changePct": -1.3
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": -1.2
+      }
+    ],
+    "summary": "Séance contrastée: le Nasdaq a limité les dégâts (+0,2%) tandis que le Dow Jones (-1,1%), le SMI (-1,3%) et l'Euro Stoxx 50 (-1,2%) ont reculé, plombés par les tensions américano-iraniennes, la flambée du pétrole et une correction dans les semi-conducteurs."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "SpaceXAI lance Grok 4.5, qualifié de modèle « de classe Opus » par Elon Musk",
+      "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+      "publishedAt": "2026-07-08",
+      "summary": "SpaceXAI a dévoilé Grok 4.5, présenté par Elon Musk comme un modèle de tout premier plan, « de classe Opus », capable de rivaliser avec les meilleurs systèmes du marché. Cette nouvelle version marque une montée en gamme notable de la famille Grok, avec des progrès annoncés sur le raisonnement et la qualité des réponses. Le lancement s'inscrit dans une compétition de plus en plus intense entre les grands laboratoires d'IA."
+    },
+    {
+      "category": "AI",
+      "title": "OpenAI publie de nouveaux modèles vocaux pour des conversations en direct plus naturelles",
+      "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
+      "publishedAt": "2026-07-08",
+      "summary": "OpenAI a présenté une nouvelle génération de modèles vocaux destinés à rendre les échanges en temps réel plus fluides et naturels. L'objectif est de réduire la latence et d'améliorer l'expressivité, afin que les assistants conversationnels tiennent un dialogue vocal proche d'une conversation humaine. Ces modèles ouvrent la voie à des applications d'assistance, de service client et d'accessibilité plus réactives."
+    },
+    {
+      "category": "AI",
+      "title": "Google Photos ajoute un outil d'IA « Video Remix »",
+      "url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
+      "publishedAt": "2026-07-08",
+      "summary": "Google Photos intègre un nouvel outil baptisé « Video Remix » qui utilise l'IA générative pour transformer et remixer les vidéos personnelles des utilisateurs. La fonctionnalité permet de recréer ou de restyliser des séquences existantes en quelques manipulations, prolongeant la stratégie de Google visant à enrichir sa galerie photo d'outils créatifs automatisés."
+    },
+    {
+      "category": "AI",
+      "title": "Une startup estime que la robotique va vivre son « moment ChatGPT »",
+      "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+      "publishedAt": "2026-07-08",
+      "summary": "General Intuition ambitionne de devenir le modèle de fondation de l'« IA physique », une base commune sur laquelle d'autres entreprises de robotique construiraient leurs machines. Son dirigeant Pim de Witte estime que l'IA incarnée suivra la trajectoire des grands modèles de langage: des jeux de données de meilleure qualité permettront des modèles capables de transférer l'intuition du mouvement et de l'interaction d'un environnement à un autre."
+    },
+    {
+      "category": "AI",
+      "title": "Meta veut rendre ses lunettes IA moins intrusives, mais sa stratégie interroge",
+      "url": "https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/",
+      "publishedAt": "2026-07-08",
+      "summary": "Meta ajoute une protection à ses lunettes connectées: la caméra sera désactivée si la LED signalant l'enregistrement est masquée ou trafiquée, afin d'empêcher les prises de vue clandestines. Le même jour, l'entreprise a toutefois annoncé que Meta AI pourrait utiliser les photos Instagram publiques des utilisateurs pour générer des images, sauf refus explicite, ravivant les questions sur la vie privée."
+    },
+    {
+      "category": "AI",
+      "title": "Prime Intellect lève 130 millions de dollars pour aider les entreprises à bâtir leurs propres agents IA",
+      "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+      "publishedAt": "2026-07-08",
+      "summary": "Prime Intellect a bouclé une série A de 130 millions de dollars pour développer sa plateforme permettant aux entreprises de concevoir et déployer leurs propres agents IA. La levée illustre l'appétit persistant des investisseurs pour les infrastructures d'agents autonomes, considérées comme la prochaine étape de l'adoption de l'IA en entreprise."
+    },
+    {
+      "category": "AI",
+      "title": "SambaNova lève 1 milliard de dollars et atteint une valorisation de 11 milliards",
+      "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+      "publishedAt": "2026-07-08",
+      "summary": "Le concepteur de puces d'IA SambaNova a annoncé un premier closing de série F de 1 milliard de dollars, portant sa valorisation à 11 milliards, cinq mois seulement après son précédent tour majeur. L'opération confirme la course au financement des fabricants de semi-conducteurs spécialisés dans l'inférence et l'entraînement des modèles."
+    },
+    {
+      "category": "AI",
+      "title": "Ces startups d'IA voient leurs revenus croître de plus en plus vite",
+      "url": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/",
+      "publishedAt": "2026-07-08",
+      "summary": "Plusieurs jeunes pousses de l'IA affichent des accélérations spectaculaires de leurs revenus. Mercor a dépassé 2 milliards de dollars de revenus annualisés bruts en juin, quatre mois après avoir franchi le milliard. Anthropic, de son côté, a annoncé avoir dépassé un rythme de revenus annualisé de 47 milliards de dollars fin mai, moins de deux mois après avoir franchi les 30 milliards."
+    },
+    {
+      "category": "AI",
+      "title": "Le détecteur de deepfakes de Google sert à démentir un montage visant McConnell",
+      "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
+      "publishedAt": "2026-07-08",
+      "summary": "Le système de détection de contenus synthétiques développé par Google a été utilisé pour établir qu'une image circulant à propos du sénateur Mitch McConnell était un montage. Le cas illustre l'usage concret des outils de traçabilité et de provenance des médias pour lutter contre la désinformation à l'ère de l'IA générative."
+    },
+    {
+      "category": "IT",
+      "title": "QuantumDiamonds veut accélérer la fabrication de puces, avec le soutien de l'UE",
+      "url": "https://techcrunch.com/2026/07/08/with-eu-backing-quantumdiamonds-aims-to-speed-up-chip-manufacturing/",
+      "publishedAt": "2026-07-08",
+      "summary": "Soutenue par des financements européens, la startup QuantumDiamonds développe des capteurs quantiques à base de diamant destinés à inspecter les puces électroniques avec une précision inédite. La technologie vise à repérer plus vite les défauts en production, un enjeu clé pour la souveraineté et la compétitivité de l'industrie européenne des semi-conducteurs."
+    },
+    {
+      "category": "IT",
+      "title": "Apple produira aux États-Unis des puces sans fil avec Broadcom",
+      "url": "https://techcrunch.com/2026/07/08/apple-to-produce-made-in-america-wireless-chips-with-broadcom/",
+      "publishedAt": "2026-07-08",
+      "summary": "Apple a annoncé un partenariat avec Broadcom pour fabriquer aux États-Unis des puces sans fil « Made in America ». L'accord s'inscrit dans la stratégie de relocalisation d'une partie de la chaîne d'approvisionnement d'Apple et répond aux pressions politiques en faveur d'une production de semi-conducteurs sur le sol américain."
+    },
+    {
+      "category": "IT",
+      "title": "La startup de livraison par drone Manna prépare une grande expansion aux États-Unis",
+      "url": "https://techcrunch.com/2026/07/08/autonomous-drone-delivery-startup-manna-plots-major-u-s-expansion/",
+      "publishedAt": "2026-07-08",
+      "summary": "La société irlandaise Manna, spécialisée dans la livraison autonome par drone, planifie un déploiement d'ampleur sur le marché américain. Après ses opérations en Europe, l'entreprise mise sur des vols automatisés pour livrer repas et petits colis en quelques minutes, dans un secteur en pleine structuration réglementaire."
+    },
+    {
+      "category": "IT",
+      "title": "Une nouvelle fuite de données expose des millions de numéros de permis de conduire",
+      "url": "https://techcrunch.com/2026/07/08/another-massive-data-breach-exposed-millions-of-drivers-license-numbers/",
+      "publishedAt": "2026-07-08",
+      "summary": "Une importante violation de données a exposé des millions de numéros de permis de conduire, s'ajoutant à une série d'incidents récents touchant des informations personnelles sensibles. L'affaire rappelle la persistance des failles de sécurité chez les grands détenteurs de données et les risques d'usurpation d'identité pour les personnes concernées."
+    },
+    {
+      "category": "IT",
+      "title": "Vingt outils de cybersécurité open source à garder à portée de main",
+      "url": "https://www.helpnetsecurity.com/2026/07/08/20-latest-open-source-cybersecurity-tools/",
+      "publishedAt": "2026-07-08",
+      "summary": "Help Net Security a recensé une nouvelle vague d'outils open source de cybersécurité couvrant la recherche de vulnérabilités, les tests applicatifs, la sécurité des conteneurs, la protection des postes et la sécurité de l'IA. Parmi eux, AIMap cartographie à l'échelle d'Internet les systèmes d'inférence IA exposés, les identifie et évalue leur niveau de risque via des tests d'attaque ciblés sur des cibles autorisées."
+    },
+    {
+      "category": "Science",
+      "title": "Des physiciens de Heidelberg réconcilient deux théories quantiques opposées",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260708022154.htm",
+      "publishedAt": "2026-07-08",
+      "summary": "Des chercheurs de l'Université de Heidelberg affirment avoir unifié deux approches jusqu'ici concurrentes de la théorie quantique, offrant un cadre commun là où les descriptions divergeaient. Ce rapprochement théorique pourrait clarifier des questions fondamentales sur la mesure et la dynamique des systèmes quantiques et ouvrir de nouvelles pistes de recherche."
+    },
+    {
+      "category": "Science",
+      "title": "Un rare requin lutin filmé vivant pour la première fois dans les grands fonds",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260708022208.htm",
+      "publishedAt": "2026-07-08",
+      "summary": "Des scientifiques ont filmé pour la première fois un requin lutin vivant dans son habitat naturel des grandes profondeurs. Cette espèce énigmatique, connue surtout par des spécimens morts, offre aux chercheurs un aperçu inédit de son comportement et de son anatomie, précieux pour comprendre la biodiversité des abysses."
+    },
+    {
+      "category": "Science",
+      "title": "Des scientifiques utilisent l'IA pour percer l'un des grands mystères de l'eau",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260707025047.htm",
+      "publishedAt": "2026-07-07",
+      "summary": "Grâce à l'intelligence artificielle, des chercheurs ont éclairci l'un des comportements les plus déroutants de l'eau, molécule pourtant essentielle mais aux propriétés atypiques. Les simulations assistées par IA ont permis de modéliser sa structure à une échelle inaccessible aux méthodes classiques, avec des implications pour la chimie, la biologie et les sciences des matériaux."
+    },
+    {
+      "category": "Science",
+      "title": "L'ADN ancien révèle l'effondrement mystérieux des bâtisseurs de mégalithes d'Europe",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260707054108.htm",
+      "publishedAt": "2026-07-07",
+      "summary": "L'analyse d'ADN ancien apporte un nouvel éclairage sur le déclin des populations néolithiques qui ont érigé les mégalithes d'Europe. Les données génétiques suggèrent des bouleversements démographiques et des remplacements de populations, aidant à reconstituer une page encore obscure de la préhistoire du continent."
+    }
+  ]
+}
