@@ -1,0 +1,184 @@
+{
+  "date": "2026-07-10",
+  "generatedAt": "2026-07-10T05:30:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 35,
+      "low": 21,
+      "condition": "Averses de pluie",
+      "weathercode": 80,
+      "precipProbability": 10
+    },
+    "lausanne": {
+      "high": 33,
+      "low": 22,
+      "condition": "Averses de pluie",
+      "weathercode": 80,
+      "precipProbability": 3
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Près de 900 vélos électriques en libre-service ont été déployés dans la région Lausanne-Morges, couvrant 27 communes, une extension majeure de la mobilité douce.",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "headline": "La Suisse dispute un quart de finale de Coupe du monde face à l'Argentine, plusieurs cantons autorisant l'ouverture prolongée des bars et restaurants pour diffuser le match.",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "headline": "Le 79e Festival du film de Locarno a dévoilé sa programmation, avec 233 films dont 103 premières mondiales et une coproduction suisse en lice pour le Léopard d'or.",
+      "publishedAt": "2026-07-09"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Les États-Unis ont mené de nouvelles frappes contre l'Iran après que Donald Trump a déclaré le cessez-le-feu caduc, Téhéran affirmant avoir riposté contre des bases américaines dans le Golfe.",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "headline": "En clôture d'un sommet de l'OTAN en Turquie, Donald Trump a rencontré Volodymyr Zelensky et annoncé que les États-Unis accorderaient à l'Ukraine une licence pour produire des systèmes de défense antiaérienne Patriot.",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "headline": "Donald Trump a réaffirmé l'intérêt stratégique du Groenland pour les États-Unis, tandis que la Première ministre danoise Mette Frederiksen a redit que « le Groenland n'est pas à vendre ».",
+      "publishedAt": "2026-07-09"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 9 juillet 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": 1.3
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 0.2
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.29
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 1
+      }
+    ],
+    "summary": "Les Bourses ont rebondi jeudi, portées par l'optimisme autour de l'intelligence artificielle et le reflux des prix du pétrole, avec des hausses des deux côtés de l'Atlantique."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "OpenAI lance sa nouvelle famille de modèles GPT-5.6",
+      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "publishedAt": "2026-07-09",
+      "summary": "OpenAI a dévoilé sa nouvelle famille de modèles GPT-5.6 (déclinaisons Sol, Terra et Luna), désormais disponibles dans ChatGPT, l'API et Codex. Ces modèles alimentent aussi « ChatGPT Work », un agent combinant le chatbot et l'outil de codage Codex pour générer documents, présentations et sites web. OpenAI revendique la tête du classement Terminal-Bench 2.1 et présente GPT-5.6 comme son modèle le plus avancé à ce jour."
+    },
+    {
+      "category": "AI",
+      "title": "SpaceXAI (ex-xAI) lance Grok 4.5, positionné en « classe Opus »",
+      "url": "https://techweez.com/2026/07/09/spacexai-grok-4-5-launch/",
+      "publishedAt": "2026-07-09",
+      "summary": "SpaceXAI (ex-xAI) a lancé Grok 4.5, son modèle le plus performant pour le codage et les tâches agentiques. Bâti sur la nouvelle architecture V9 (~1500 milliards de paramètres) et entraîné sur des sessions réelles de l'éditeur Cursor, il est présenté comme « de classe Opus » mais plus rapide et moins cher : 2 dollars par million de tokens en entrée, 6 en sortie. Disponible via Grok Build, Cursor et la console SpaceXAI, il n'est pas encore accessible dans l'Union européenne."
+    },
+    {
+      "category": "AI",
+      "title": "Meta entre dans la bataille de l'IA pour le codage avec Muse Spark 1.1",
+      "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+      "publishedAt": "2026-07-09",
+      "summary": "Meta est entré dans la bataille très disputée des modèles d'IA dédiés au codage avec Muse Spark 1.1, rejoignant OpenAI, Anthropic, Google et SpaceXAI sur ce créneau devenu central. L'annonce confirme l'ambition du groupe de peser dans les outils de génération et d'assistance au code, un segment où les modèles agentiques se multiplient."
+    },
+    {
+      "category": "AI",
+      "title": "GPT-5.6 devient le « modèle privilégié » de Microsoft Copilot 365",
+      "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+      "publishedAt": "2026-07-09",
+      "summary": "Selon OpenAI, GPT-5.6 devient le « modèle privilégié » pour Microsoft Copilot 365, malgré les rumeurs de tensions entre les deux partenaires. Le choix renforce l'intégration des derniers modèles d'OpenAI dans la suite bureautique de Microsoft et illustre la persistance de leur alliance stratégique."
+    },
+    {
+      "category": "AI",
+      "title": "La start-up parisienne Gradium lève 100 millions pour l'IA vocale",
+      "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/",
+      "publishedAt": "2026-07-09",
+      "summary": "La start-up parisienne Gradium, spécialisée dans l'IA vocale, a levé 100 millions de dollars en amorçage, avec le soutien de Nvidia. Ce tour de table inhabituel par son ampleur illustre l'appétit persistant des investisseurs pour les technologies de voix synthétique et la vitalité de l'écosystème européen de l'IA."
+    },
+    {
+      "category": "AI",
+      "title": "Character.AI se lance dans le « microdrame » avec ses propres productions",
+      "url": "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist/",
+      "publishedAt": "2026-07-09",
+      "summary": "Character.AI se lance dans le « microdrame » avec ses propres productions de courtes séries verticales, un format très populaire sur mobile. La plateforme y ajoute une particularité liée à ses personnages conversationnels générés par IA, cherchant à monétiser de nouveaux formats de divertissement interactif."
+    },
+    {
+      "category": "IT",
+      "title": "Google indiquera quelles publicités ont été créées avec de l'IA",
+      "url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
+      "publishedAt": "2026-07-09",
+      "summary": "Google va désormais indiquer quelles publicités ont été créées à l'aide de l'IA, une mesure de transparence face à la multiplication des contenus générés. Cette divulgation vise à mieux informer les utilisateurs sur l'origine des annonces qu'ils voient et répond aux préoccupations croissantes sur les contenus synthétiques."
+    },
+    {
+      "category": "IT",
+      "title": "Ollama lève 65 millions et approche les 9 millions d'utilisateurs",
+      "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
+      "publishedAt": "2026-07-09",
+      "summary": "Ollama, outil open source populaire permettant d'exécuter des modèles d'IA en local, a levé 65 millions de dollars et approche les 9 millions d'utilisateurs. La levée confirme l'engouement pour les solutions qui font tourner des grands modèles de langage directement sur les machines des développeurs, sans dépendance au cloud."
+    },
+    {
+      "category": "IT",
+      "title": "OpenAI ferme son navigateur Atlas mais poursuit ses ambitions web",
+      "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
+      "publishedAt": "2026-07-09",
+      "summary": "OpenAI ferme Atlas, son navigateur web, tout en affirmant que ses ambitions dans les navigateurs dopés à l'IA restent intactes. L'entreprise réoriente sa stratégie vers de nouvelles approches d'agents web, signe de la maturation encore incertaine des navigateurs pilotés par intelligence artificielle."
+    },
+    {
+      "category": "IT",
+      "title": "Les nouvelles puces d'IA de Meta entreront en production en septembre",
+      "url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
+      "publishedAt": "2026-07-09",
+      "summary": "Les nouvelles puces d'IA de Meta entreront en production en septembre, une étape clé de la stratégie du groupe pour réduire sa dépendance aux fournisseurs externes comme Nvidia et mieux maîtriser ses coûts d'infrastructure. Le mouvement s'inscrit dans la course des géants technologiques à concevoir leurs propres accélérateurs."
+    },
+    {
+      "category": "IT",
+      "title": "Mercor en discussions pour une valorisation de 20 milliards de dollars",
+      "url": "https://techcrunch.com/2026/07/09/mercor-is-in-talks-for-a-20b-valuation/",
+      "publishedAt": "2026-07-09",
+      "summary": "La start-up Mercor, spécialisée dans le recrutement et l'évaluation de talents pour l'entraînement des modèles d'IA, serait en discussions pour une valorisation de 20 milliards de dollars. Ce montant illustre la flambée des valorisations dans l'écosystème de l'IA et l'importance croissante des données annotées par des experts."
+    },
+    {
+      "category": "Science",
+      "title": "Des physiciens font émerger le temps sans horloge dans un « univers » miniature",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260709160632.htm",
+      "publishedAt": "2026-07-09",
+      "summary": "Des physiciens ont créé un « univers » miniature à partir d'atomes ultrafroids dans lequel le temps émerge des changements physiques eux-mêmes, sans horloge ni instrument de mesure extérieur. L'expérience éclaire la question fondamentale de l'origine du temps en physique quantique et la manière dont il pourrait naître des seules interactions internes d'un système."
+    },
+    {
+      "category": "Science",
+      "title": "Une exoplanète « sans lever ni coucher de soleil » pourrait abriter la vie",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260709160657.htm",
+      "publishedAt": "2026-07-09",
+      "summary": "Une étude suggère que des exoplanètes en rotation synchrone — présentant en permanence une face jour et une face nuit — pourraient malgré tout abriter la vie, grâce à des mécanismes de redistribution de la chaleur interne. Ces mondes « sans lever ni coucher de soleil » élargissent la liste des planètes potentiellement habitables."
+    },
+    {
+      "category": "Science",
+      "title": "Les chênes continuent d'absorber du carbone après leur croissance",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260708022210.htm",
+      "publishedAt": "2026-07-08",
+      "summary": "Des chercheurs montrent que les chênes continuent d'absorber du CO2 bien après la fin de leur croissance annuelle, révélant que photosynthèse et production de bois sont moins étroitement liées qu'on le pensait. Une découverte qui affine la compréhension du rôle des forêts dans le cycle du carbone et leur capacité de stockage."
+    },
+    {
+      "category": "Science",
+      "title": "Une découverte sur la vitamine A bouscule la compréhension de la vision",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260708022214.htm",
+      "publishedAt": "2026-07-08",
+      "summary": "Une découverte liée à la vitamine A bouscule la compréhension du développement de la vision : plutôt que de migrer, les cônes bleus de la rétine se transformeraient en cônes rouges et verts durant le développement fœtal. Ce mécanisme expliquerait la formation de la vision centrale nette avant même la naissance."
+    },
+    {
+      "category": "Science",
+      "title": "Un système immunitaire de secours pourrait doper les vaccins anticancéreux à ARNm",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260708022212.htm",
+      "publishedAt": "2026-07-08",
+      "summary": "Des chercheurs ont identifié un système immunitaire de secours insoupçonné qui pourrait renforcer l'efficacité des vaccins anticancéreux à ARN messager : ces vaccins recruteraient des cellules immunitaires inattendues pour combattre les tumeurs. La découverte ouvre des pistes pour améliorer la conception de ces traitements prometteurs."
+    }
+  ]
+}
