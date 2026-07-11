@@ -1,0 +1,166 @@
+{
+  "date": "2026-07-11",
+  "generatedAt": "2026-07-11T06:00:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 31,
+      "low": 23,
+      "condition": "Averses de pluie faibles",
+      "weathercode": 80,
+      "precipProbability": 18
+    },
+    "lausanne": {
+      "high": 30,
+      "low": 23,
+      "condition": "Averses de pluie faibles",
+      "weathercode": 80,
+      "precipProbability": 13
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Face à la canicule, Genève impose dès lundi l'arrêt du travail en extérieur exposé au soleil après 13h, sauf activités essentielles de sécurité publique.",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "headline": "L'intelligence artificielle fera son entrée à l'école obligatoire dès la rentrée 2026 en Suisse romande, les établissements adaptant déjà leurs évaluations.",
+      "publishedAt": "2026-07-10"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "La France s'impose 2-0 face au Maroc, grâce à Mbappé et Dembélé, et rejoint les demi-finales de la Coupe du monde 2026.",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "headline": "Les États-Unis et l'Iran acceptent de poursuivre leurs négociations, de possibles pourparlers étant évoqués en Suisse la semaine prochaine, malgré la fin du cessez-le-feu annoncée par Donald Trump.",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "headline": "Le sud-coréen SK Hynix lève 26,5 milliards de dollars à Wall Street, la plus grande introduction en Bourse d'un groupe étranger de l'histoire américaine.",
+      "publishedAt": "2026-07-10"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 10 juillet 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": 0.29
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 0.29
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.41
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 1.2
+      }
+    ],
+    "summary": "Les marchés ont terminé la séance du 10 juillet en hausse, portés par les valeurs technologiques à Wall Street et une nette progression des indices européens."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "OpenAI lance sa nouvelle famille de modèles GPT-5.6",
+      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "publishedAt": "2026-07-09",
+      "summary": "OpenAI a dévoilé GPT-5.6, une nouvelle famille de modèles déclinée en trois niveaux baptisés Sol, Terra et Luna, présentés comme nettement plus efficients et économiques que les générations précédentes. Selon Sam Altman, Sol serait 54% plus efficace en tokens sur les tâches de programmation. L'entreprise a aussi présenté ChatGPT Work, un agent conçu pour enchaîner des tâches de bureau (rédaction de documents, tableurs, présentations), et qualifie 5.6 de son « modèle de cybersécurité le plus performant à ce jour »."
+    },
+    {
+      "category": "AI",
+      "title": "Apple poursuit OpenAI pour vol présumé de secrets industriels",
+      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+      "publishedAt": "2026-07-10",
+      "summary": "Apple a intenté une action en justice contre OpenAI, l'accusant d'avoir dérobé des secrets industriels. La plainte marque une escalade des tensions entre les deux entreprises, alors que la course à l'intelligence artificielle générative attise les rivalités autour des talents, des données et des architectures de modèles. L'affaire pourrait éclairer les frontières juridiques de la propriété intellectuelle dans un secteur où les mouvements d'ingénieurs entre grands acteurs sont fréquents."
+    },
+    {
+      "category": "AI",
+      "title": "Meta retire une fonction d'IA controversée d'Instagram après un tollé",
+      "url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+      "publishedAt": "2026-07-10",
+      "summary": "Meta a fait marche arrière et supprimé une fonctionnalité d'intelligence artificielle controversée d'Instagram à la suite d'une vague de critiques des utilisateurs. Ce revirement illustre la difficulté des grandes plateformes à intégrer des outils d'IA générative sans heurter les attentes de leur communauté en matière de vie privée et d'expérience. L'épisode s'ajoute aux pressions réglementaires et publiques croissantes qui pèsent sur les fonctionnalités algorithmiques du groupe."
+    },
+    {
+      "category": "AI",
+      "title": "Une start-up laisse son agent IA piloter sa levée de 100 millions",
+      "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+      "publishedAt": "2026-07-09",
+      "summary": "Lyzr, jeune pousse basée à Jersey City qui aide les entreprises à créer des agents d'intelligence artificielle, a confié à son propre agent la conduite de sa levée de fonds. Celui-ci a piloté une série B de 100 millions de dollars, valorisant la société autour de 500 millions, tout en servant de démonstration grandeur nature de la fiabilité de son produit. L'opération illustre la montée en puissance des agents autonomes dans les processus d'entreprise."
+    },
+    {
+      "category": "AI",
+      "title": "Fidji Simo quitte son poste de numéro deux d'OpenAI",
+      "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+      "publishedAt": "2026-07-09",
+      "summary": "Fidji Simo, numéro deux d'OpenAI, quitte ses fonctions à plein temps. Dans une note adressée au personnel, elle explique que son congé médical s'est révélé plus long et difficile que prévu et qu'elle passera à un rôle de conseillère à temps partiel. Ce départ intervient dans une période d'intense activité pour l'entreprise, qui vient de lancer sa nouvelle génération de modèles et multiplie les initiatives destinées aux entreprises."
+    },
+    {
+      "category": "AI",
+      "title": "Pour le patron de Hugging Face, les entreprises cessent de « louer » leur IA",
+      "url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+      "publishedAt": "2026-07-10",
+      "summary": "Clem Delangue, cofondateur de Hugging Face, estime que les entreprises se détournent de la simple location de modèles propriétaires au profit de solutions qu'elles maîtrisent en interne. Il défend une IA plus ouverte, jugée essentielle pour la souveraineté technologique, la maîtrise des coûts et la transparence. Selon lui, l'open source devient un levier stratégique face à la dépendance envers quelques fournisseurs dominants de modèles fermés."
+    },
+    {
+      "category": "IT",
+      "title": "L'UE menace Meta d'amendes pour les fonctionnalités addictives de Facebook et Instagram",
+      "url": "https://techcrunch.com/2026/07/10/eu-threatens-meta-with-fines-over-addictive-features-on-facebook-and-instagram/",
+      "publishedAt": "2026-07-10",
+      "summary": "L'Union européenne menace Meta de sanctions financières en raison de fonctionnalités jugées addictives sur Facebook et Instagram. Bruxelles poursuit son offensive réglementaire contre les grandes plateformes, au nom de la protection des utilisateurs, en particulier des plus jeunes. Ces amendes potentielles s'inscrivent dans le cadre des règles européennes sur les services numériques, qui imposent aux géants du web des obligations renforcées en matière de conception et de transparence."
+    },
+    {
+      "category": "IT",
+      "title": "SK Hynix réussit la plus grande IPO étrangère de l'histoire américaine",
+      "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+      "publishedAt": "2026-07-10",
+      "summary": "Le fabricant de puces mémoire sud-coréen SK Hynix a levé 26,5 milliards de dollars lors de son entrée en Bourse aux États-Unis, la plus importante introduction d'un groupe étranger jamais réalisée sur le marché américain. L'opération traduit l'appétit des investisseurs pour les semi-conducteurs, dopés par la demande liée à l'intelligence artificielle. Le groupe est parallèlement pressé de construire de nouvelles usines sur le sol américain pour renforcer les chaînes d'approvisionnement."
+    },
+    {
+      "category": "IT",
+      "title": "Bluesky confirme Toni Schneider comme PDG à part entière",
+      "url": "https://techcrunch.com/2026/07/10/blueskys-interim-ceo-toni-schneider-drops-the-interim/",
+      "publishedAt": "2026-07-10",
+      "summary": "Le réseau social décentralisé Bluesky a confirmé Toni Schneider à sa tête, celui-ci abandonnant le qualificatif d'« intérimaire ». Cette nomination officialise la direction de la plateforme, qui cherche à consolider sa croissance face aux grands réseaux établis. Elle intervient alors que Bluesky entend affirmer son modèle fondé sur des protocoles ouverts et un contrôle accru des utilisateurs sur leurs données et leur fil d'actualité."
+    },
+    {
+      "category": "IT",
+      "title": "Disney+ envisagerait une offre de streaming gratuite",
+      "url": "https://techcrunch.com/2026/07/10/disney-is-considering-a-free-streaming-tier-report-says/",
+      "publishedAt": "2026-07-10",
+      "summary": "Selon des informations de presse, Disney étudierait le lancement d'un palier gratuit financé par la publicité pour sa plateforme Disney+. Ce mouvement s'inscrirait dans la recherche de nouveaux relais de croissance sur un marché du streaming très concurrentiel, où plusieurs acteurs multiplient les formules pour élargir leur audience. Une telle offre viserait à capter des utilisateurs réticents à l'abonnement payant tout en développant les revenus publicitaires."
+    },
+    {
+      "category": "IT",
+      "title": "Netflix pourrait préparer des chaînes de télévision en direct",
+      "url": "https://techcrunch.com/2026/07/10/netflix-could-be-planning-always-on-live-tv-channels/",
+      "publishedAt": "2026-07-10",
+      "summary": "Netflix envisagerait de proposer des chaînes de télévision « toujours actives », diffusant des programmes en continu à la manière de la télévision linéaire traditionnelle. Cette évolution marquerait un rapprochement du service de streaming avec les habitudes du petit écran classique, en offrant une expérience de visionnage passive complémentaire du catalogue à la demande. Elle s'inscrit dans une stratégie de diversification des formats destinée à retenir davantage l'attention des abonnés."
+    },
+    {
+      "category": "IT",
+      "title": "HyperTexting transforme le web ouvert en fil défilant façon réseau social",
+      "url": "https://techcrunch.com/2026/07/10/a-new-app-hypertexting-turns-the-open-web-into-a-scrollable-social-media-like-feed/",
+      "publishedAt": "2026-07-10",
+      "summary": "Une nouvelle application, HyperTexting, propose de parcourir le web ouvert sous la forme d'un fil défilant proche de celui des réseaux sociaux. L'outil réagence des contenus issus de multiples sites en un flux continu et scrollable, cherchant à réconcilier la richesse du web avec les usages de consultation mobile devenus dominants. L'initiative illustre les tentatives de repenser la navigation et la découverte de contenus à l'ère des interfaces algorithmiques."
+    },
+    {
+      "category": "Science",
+      "title": "Oratomic lève 300 millions pour un ordinateur quantique à seulement 20 000 qubits",
+      "url": "https://techcrunch.com/2026/07/10/oratomic-raises-300m-to-build-a-viable-quantum-computer-that-needs-only-20k-qubits/",
+      "publishedAt": "2026-07-10",
+      "summary": "La start-up Oratomic a levé 300 millions de dollars pour développer un ordinateur quantique qu'elle juge viable avec seulement 20 000 qubits, bien moins que les millions parfois évoqués pour atteindre une correction d'erreurs robuste. L'entreprise mise sur une architecture optimisée censée réduire drastiquement les ressources matérielles nécessaires. Ce financement témoigne de l'intérêt persistant des investisseurs pour l'informatique quantique et la promesse de calculs hors de portée des machines classiques."
+    },
+    {
+      "category": "Science",
+      "title": "La Chine se rapproche des fusées réutilisables d'Elon Musk",
+      "url": "https://techcrunch.com/2026/07/10/china-is-catching-up-to-elon-musks-reusable-rockets/",
+      "publishedAt": "2026-07-10",
+      "summary": "La Chine progresse rapidement dans la maîtrise des lanceurs réutilisables, réduisant l'écart technologique avec SpaceX. Plusieurs acteurs chinois, publics et privés, multiplient les essais de récupération et de réutilisation d'étages de fusées, une capacité clé pour abaisser le coût de l'accès à l'espace. Cette avancée nourrit la compétition spatiale mondiale et pourrait redistribuer les cartes du marché des lancements commerciaux au cours des prochaines années."
+    }
+  ]
+}
