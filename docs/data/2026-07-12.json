@@ -1,0 +1,187 @@
+{
+  "date": "2026-07-12",
+  "generatedAt": "2026-07-12T06:35:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 35,
+      "low": 23,
+      "condition": "Partiellement nuageux",
+      "weathercode": 2,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 35,
+      "low": 22,
+      "condition": "Partiellement nuageux",
+      "weathercode": 2,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "La Nati a affronté l'Argentine de Lionel Messi en quart de finale de la Coupe du monde 2026, Dan Ndoye ayant égalisé en seconde période.",
+      "publishedAt": "2026-07-11"
+    },
+    {
+      "headline": "Genève, Lausanne et Neuchâtel figurent dans un prestigieux guide européen de la pizza, salués pour leurs pâtes au levain et leurs farines spéciales.",
+      "publishedAt": "2026-07-11"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Coupe du monde 2026 : les quarts de finale battent leur plein, l'Angleterre affrontant la Norvège tandis que l'Espagne et la France restent invaincues.",
+      "publishedAt": "2026-07-11"
+    },
+    {
+      "headline": "En marge d'une réunion de l'OTAN, Donald Trump a déclaré le cessez-le-feu avec l'Iran terminé tout en se disant ouvert à des négociations.",
+      "publishedAt": "2026-07-11"
+    },
+    {
+      "headline": "De nouveaux cas suspects d'Ebola ont été signalés dans des zones jusque-là épargnées de République démocratique du Congo.",
+      "publishedAt": "2026-07-11"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 10 juillet 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": 0.29
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 0.29
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.14
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": -0.3
+      }
+    ],
+    "summary": "Wall Street a terminé la semaine en légère hausse, portée par la spectaculaire entrée en Bourse de SK Hynix, tandis que le SMI a fini quasi stable et l'Euro Stoxx 50 a légèrement reculé."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "OpenAI mise sur les familles pour ancrer ChatGPT dans les foyers",
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "publishedAt": "2026-07-11",
+      "summary": "OpenAI recrute un chef de produit dédié pour concevoir des expériences ChatGPT adaptées aux familles, aux aidants et aux personnes âgées, marquant une orientation vers des usages domestiques. La démarche intervient alors que la base d'utilisateurs vieillit — les plus de 35 ans représentent désormais 31 % de l'audience mondiale — et que l'entreprise fait face à des inquiétudes croissantes sur la sécurité des mineurs et à plusieurs poursuites de parents."
+    },
+    {
+      "category": "AI",
+      "title": "Apple poursuit OpenAI pour vol présumé de secrets commerciaux",
+      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+      "publishedAt": "2026-07-10",
+      "summary": "Apple a engagé une action en justice contre OpenAI, l'accusant d'avoir dérobé des secrets commerciaux. Le litige illustre la tension croissante entre les grands acteurs de la technologie autour des talents et des technologies d'intelligence artificielle, alors que la course aux modèles s'intensifie et que les frontières entre partenaires et concurrents se brouillent."
+    },
+    {
+      "category": "AI",
+      "title": "Meta retire une fonctionnalité d'IA controversée d'Instagram après une levée de boucliers",
+      "url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+      "publishedAt": "2026-07-10",
+      "summary": "Meta a fait marche arrière et supprimé une fonctionnalité d'intelligence artificielle d'Instagram après une vague de critiques d'utilisateurs. La controverse portait notamment sur l'utilisation des photos personnelles pour entraîner les systèmes d'IA du groupe, un sujet de préoccupation récurrent en matière de vie privée sur les plateformes de Meta."
+    },
+    {
+      "category": "AI",
+      "title": "Le patron de Hugging Face : les entreprises en ont fini de « louer » leur IA",
+      "url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+      "publishedAt": "2026-07-10",
+      "summary": "Clem Delangue, PDG de Hugging Face, estime que les entreprises se détournent des modèles d'IA propriétaires accessibles uniquement par API pour privilégier des modèles ouverts qu'elles peuvent héberger et contrôler. Il défend l'idée que l'open source compte plus que jamais, offrant indépendance, maîtrise des coûts et souveraineté sur les données, à mesure que l'IA s'installe au cœur des activités."
+    },
+    {
+      "category": "IT",
+      "title": "SK Hynix lève 26,5 milliards de dollars, plus grande introduction étrangère de l'histoire à Wall Street",
+      "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+      "publishedAt": "2026-07-10",
+      "summary": "Le fabricant sud-coréen de mémoires SK Hynix a levé 26,5 milliards de dollars lors de son introduction à la Bourse américaine, la plus importante jamais réalisée par une entreprise étrangère aux États-Unis. L'opération teste l'appétit des investisseurs pour la mémoire à haute performance destinée à l'IA, tandis que des voix appellent le groupe à construire de nouvelles usines de puces sur le sol américain."
+    },
+    {
+      "category": "IT",
+      "title": "La CISA a dû improviser son plan de réponse pendant l'incident lui-même",
+      "url": "https://techcrunch.com/2026/07/10/us-cyber-agency-cisa-had-to-build-its-incident-playbook-during-the-incident-agency-reveals/",
+      "publishedAt": "2026-07-10",
+      "summary": "L'agence américaine de cybersécurité CISA a reconnu avoir dû élaborer son manuel de gestion de crise en pleine intervention, faute de procédure préétablie. Cet aveu met en lumière les difficultés des institutions publiques face à des cyberattaques complexes et souligne l'importance d'une préparation en amont pour coordonner efficacement la réponse aux incidents majeurs."
+    },
+    {
+      "category": "IT",
+      "title": "L'UE menace Meta d'amendes pour les fonctionnalités addictives de Facebook et Instagram",
+      "url": "https://techcrunch.com/2026/07/10/eu-threatens-meta-with-fines-over-addictive-features-on-facebook-and-instagram/",
+      "publishedAt": "2026-07-10",
+      "summary": "La Commission européenne menace Meta de sanctions financières en raison de fonctionnalités jugées addictives sur Facebook et Instagram. Bruxelles s'inquiète des mécanismes de captation de l'attention, en particulier auprès des plus jeunes, et fait pression pour que le groupe modifie la conception de ses services conformément aux règles européennes sur le numérique."
+    },
+    {
+      "category": "IT",
+      "title": "Bluesky confirme Toni Schneider comme PDG à part entière",
+      "url": "https://techcrunch.com/2026/07/10/blueskys-interim-ceo-toni-schneider-drops-the-interim/",
+      "publishedAt": "2026-07-10",
+      "summary": "Le réseau social décentralisé Bluesky a officialisé Toni Schneider au poste de directeur général, mettant fin à son statut intérimaire. Cette nomination apporte de la stabilité à la direction de la plateforme, qui cherche à consolider sa croissance et son modèle ouvert face aux réseaux sociaux traditionnels."
+    },
+    {
+      "category": "IT",
+      "title": "Disney+ envisagerait un palier de streaming gratuit",
+      "url": "https://techcrunch.com/2026/07/10/disney-is-considering-a-free-streaming-tier-report-says/",
+      "publishedAt": "2026-07-10",
+      "summary": "Selon un rapport, Disney+ étudierait le lancement d'une formule gratuite financée par la publicité. Une telle option viserait à élargir l'audience et à concurrencer les services de streaming gratuits, dans un marché où la croissance des abonnements payants ralentit et où les plateformes cherchent de nouveaux relais de revenus."
+    },
+    {
+      "category": "IT",
+      "title": "Netflix préparerait des chaînes de télévision en direct « toujours actives »",
+      "url": "https://techcrunch.com/2026/07/10/netflix-could-be-planning-always-on-live-tv-channels/",
+      "publishedAt": "2026-07-10",
+      "summary": "Netflix envisagerait de proposer des chaînes linéaires « toujours actives », diffusant un flux continu à la manière de la télévision traditionnelle. Cette évolution marquerait un tournant pour le pionnier du streaming à la demande, qui expérimente de nouveaux formats pour capter le temps d'attention et fidéliser ses abonnés."
+    },
+    {
+      "category": "IT",
+      "title": "HyperTexting transforme le web ouvert en fil d'actualité déroulant",
+      "url": "https://techcrunch.com/2026/07/10/a-new-app-hypertexting-turns-the-open-web-into-a-scrollable-social-media-like-feed/",
+      "publishedAt": "2026-07-10",
+      "summary": "La nouvelle application HyperTexting convertit le web ouvert en un fil vertical façon réseau social, que l'on parcourt en faisant défiler l'écran. L'outil propose une manière différente de consommer les contenus en ligne, en reprenant les codes d'engagement des plateformes sociales pour naviguer parmi les sites et articles."
+    },
+    {
+      "category": "Science",
+      "title": "Des physiciens créent enfin un matériau quantique prédit il y a plus de dix ans",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260711010123.htm",
+      "publishedAt": "2026-07-11",
+      "summary": "Une équipe de recherche est parvenue à fabriquer un matériau quantique bidimensionnel dont l'existence était théorisée depuis plus d'une décennie. Ce matériau présente des propriétés de conduction inhabituelles qui pourraient ouvrir la voie à de nouveaux dispositifs électroniques et à une meilleure compréhension des états exotiques de la matière."
+    },
+    {
+      "category": "Science",
+      "title": "De minuscules bulles pourraient révolutionner l'impression à jet d'encre",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260711010112.htm",
+      "publishedAt": "2026-07-11",
+      "summary": "Des chercheurs ont montré que des bulles ultrafines peuvent améliorer l'impression à jet d'encre destinée à l'électronique de nouvelle génération. Cette avancée pourrait accroître la précision et la fiabilité des procédés d'impression, avec des applications potentielles dans la fabrication de circuits et de composants électroniques flexibles."
+    },
+    {
+      "category": "Science",
+      "title": "Les « étoiles » les plus froides de la galaxie, pistes pour traquer les sphères de Dyson",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260710003524.htm",
+      "publishedAt": "2026-07-10",
+      "summary": "Des scientifiques ont identifié de nouveaux indices susceptibles d'aider les astronomes à repérer une hypothétique mégastructure extraterrestre, la sphère de Dyson. En étudiant les naines rouges et blanches, particulièrement froides, ils proposent des signatures observables qui pourraient trahir la présence de telles structures captant l'énergie d'une étoile."
+    },
+    {
+      "category": "Science",
+      "title": "L'Europe dévoile un nouveau rival au Starship de SpaceX",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260710003526.htm",
+      "publishedAt": "2026-07-10",
+      "summary": "L'Europe a présenté un projet de lanceur destiné à concurrencer le Starship de SpaceX. Cette initiative traduit l'ambition européenne de renforcer son autonomie dans l'accès à l'espace et de rester compétitive face à la montée en puissance des fusées réutilisables développées aux États-Unis et ailleurs."
+    },
+    {
+      "category": "Science",
+      "title": "Le principal obstacle aux batteries à état solide serait enfin résolu",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260710003533.htm",
+      "publishedAt": "2026-07-10",
+      "summary": "Des chercheurs ont élucidé comment de fines dendrites de lithium fissurent la céramique dure des batteries à état solide, provoquant des courts-circuits. Cette compréhension du mécanisme de défaillance ouvre la voie à des solutions pour fiabiliser ces batteries, considérées comme prometteuses pour offrir une meilleure autonomie et une plus grande sécurité que les technologies actuelles."
+    },
+    {
+      "category": "Science",
+      "title": "La Chine rattrape les fusées réutilisables d'Elon Musk",
+      "url": "https://techcrunch.com/2026/07/10/china-is-catching-up-to-elon-musks-reusable-rockets/",
+      "publishedAt": "2026-07-10",
+      "summary": "La Chine progresse rapidement dans le développement de fusées réutilisables, réduisant l'avance prise par SpaceX dans ce domaine. Plusieurs acteurs chinois, publics et privés, multiplient les essais de récupération d'étages, ce qui pourrait redéfinir la concurrence mondiale dans l'accès à l'espace et faire baisser les coûts de lancement."
+    }
+  ]
+}
