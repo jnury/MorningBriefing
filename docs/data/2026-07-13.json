@@ -1,0 +1,205 @@
+{
+  "date": "2026-07-13",
+  "generatedAt": "2026-07-13T06:30:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 37,
+      "low": 23,
+      "condition": "Averses faibles",
+      "weathercode": 80,
+      "precipProbability": 3
+    },
+    "lausanne": {
+      "high": 33,
+      "low": 23,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 3
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "La Suisse a été éliminée en quart de finale de la Coupe du monde par l'Argentine (3-1 a.p.) à Kansas City, après avoir égalisé par Dan Ndoye puis évolué à dix suite à l'expulsion de Breel Embolo.",
+      "publishedAt": "2026-07-12"
+    },
+    {
+      "headline": "MétéoSuisse a maintenu et étendu son alerte canicule de degré 3 sur le Plateau romand, le bassin lémanique et le Tessin, avec des maximales de 31 à 35 degrés et une vague de chaleur appelée à durer.",
+      "publishedAt": "2026-07-12"
+    },
+    {
+      "headline": "Genève s'apprête à vivre la 20e édition des Aubes musicales, avec 35 concerts gratuits à 6h sur la jetée des Bains des Pâquis, du 13 juillet au 16 août.",
+      "publishedAt": "2026-07-12"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "L'Iran a lancé des salves de missiles et de drones contre des bases américaines et plusieurs pays du Golfe (Qatar, Émirats, Bahreïn, Koweït) en riposte à des frappes américaines visant environ 140 cibles sur son territoire.",
+      "publishedAt": "2026-07-12"
+    },
+    {
+      "headline": "Les demi-finales de la Coupe du monde sont fixées après des quarts décidés en prolongation: l'Angleterre affrontera l'Argentine à Atlanta et la France jouera contre l'Espagne à Dallas.",
+      "publishedAt": "2026-07-12"
+    },
+    {
+      "headline": "Kiev a de nouveau été visée par des missiles balistiques et des essaims de drones russes, faisant plusieurs blessés et relançant les appels européens à renforcer la défense antiaérienne ukrainienne.",
+      "publishedAt": "2026-07-12"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du vendredi 10 juillet 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": 0.29
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 0.29
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.14
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": -0.23
+      }
+    ],
+    "summary": "Wall Street a terminé la semaine en légère hausse et le SMI a grappillé du terrain, tandis que l'Euro Stoxx 50 a fini en repli, pénalisé par la faiblesse du secteur technologique et les tensions au Moyen-Orient."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "OpenAI lève temporairement les limites d'usage de GPT-5.6 Sol",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/",
+      "publishedAt": "2026-07-12",
+      "summary": "Face à une demande qui a explosé en 48 heures, OpenAI a temporairement supprimé la limite d'usage de cinq heures pour son modèle le plus puissant, GPT-5.6 Sol, sur les formules Plus, Pro et Business, et a réinitialisé les compteurs d'utilisation de tous les comptes. L'entreprise indique par ailleurs optimiser l'efficacité du modèle afin qu'il consomme moins de jetons pour un même travail. Les tâches locales et les tâches exécutées dans le cloud continuent de partager un quota commun, et des plafonds globaux restent en vigueur : l'accès est fortement élargi, mais pas illimité."
+    },
+    {
+      "category": "AI",
+      "title": "Anthropic prolonge l'accès gratuit à Claude Fable 5 pour ses abonnés payants jusqu'au 19 juillet",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/",
+      "publishedAt": "2026-07-12",
+      "summary": "Anthropic prolonge une troisième fois l'accès sans supplément à Claude Fable 5, son modèle le plus capable, pour les abonnés Pro, Max, Team et Enterprise premium, désormais jusqu'au 19 juillet. L'accès reste plafonné à 50% des limites hebdomadaires de l'abonnement, le modèle puisant dans le même réservoir d'usage que les autres versions de Claude ; au-delà, il faut acheter des crédits supplémentaires ou basculer sur un autre modèle. La promotion ne concerne ni les comptes gratuits ni l'API. L'entreprise précise que Fable 5 restera durablement inclus dans les abonnements « lorsqu'il y aura assez de puissance de calcul », signe que la mesure relève avant tout de la gestion de capacité."
+    },
+    {
+      "category": "IT",
+      "title": "« Ghostcommit » : une injection de prompt cachée dans des images piège les agents de revue de code",
+      "url": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
+      "publishedAt": "2026-07-11",
+      "summary": "Des chercheurs de l'Université du Missouri-Kansas City ont démontré une attaque baptisée Ghostcommit, qui dissimule des instructions malveillantes par stéganographie dans des images PNG jointes à une pull request. Un fichier AGENTS.md oriente l'agent de revue vers l'image ; la charge reste dormante jusqu'à ce qu'un développeur demande une fonctionnalité banale, puis l'agent extrait les secrets des fichiers .env et les encode en constantes entières d'apparence légitime. Les chercheurs relèvent que 73% des pull requests fusionnées n'ont reçu aucune revue humaine substantielle et que des outils comme CodeRabbit excluent les images par défaut. L'attaque a fonctionné avec plusieurs modèles ; Claude Code l'a refusée. Un détecteur multimodal atteint 98,75% de précision."
+    },
+    {
+      "category": "IT",
+      "title": "L'Australie alerte sur une campagne mondiale visant les CMS vulnérables",
+      "url": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
+      "publishedAt": "2026-07-11",
+      "summary": "Le Centre australien de cybersécurité (ACSC) met en garde contre une campagne d'exploitation de grande ampleur ciblant des systèmes de gestion de contenu non à jour, qui a déjà touché de nombreuses entreprises australiennes. Les attaquants déposent des webshells sur les sites compromis pour interrompre des services, voler des identifiants, installer d'autres logiciels malveillants et progresser dans le réseau. WordPress, Craft CMS, MaxSite CMS, MetInfo et Joomla JCE sont concernés, ainsi que des extensions comme Simple File List, Ninja Forms, WPvivid Backup ou Gravity Forms. L'ACSC recommande d'appliquer les correctifs, de supprimer les composants inutilisés et de surveiller la création de fichiers non autorisés, et note que la campagne pourrait être assistée par IA."
+    },
+    {
+      "category": "AI",
+      "title": "OpenAI mise sur les familles et fait entrer ChatGPT dans le foyer",
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "publishedAt": "2026-07-11",
+      "summary": "OpenAI recrute un chef de produit dédié aux expériences ChatGPT pour les familles, les aidants et les personnes âgées. Selon Sensor Tower, la base d'utilisateurs vieillit : la part des 35 ans et plus est passée de 26% à 31% en un an, et près d'un parent américain sur quatre utilise désormais le service. Le mouvement intervient alors qu'OpenAI fait face à des plaintes de parents et a déjà déployé des contrôles parentaux, un routage des conversations sensibles et une fonction « contact de confiance ». Des experts y voient l'amorce d'une tendance sectorielle : forfaits familiaux, mémoire partagée au sein du foyer, tutorat par IA et garde-fous renforcés sur l'ensemble des plateformes grand public."
+    },
+    {
+      "category": "IT",
+      "title": "Robotaxis : la NHTSA met les développeurs en demeure après la rupture Waymo-Uber",
+      "url": "https://techcrunch.com/2026/07/12/techcrunch-mobility-a-robotaxi-ultimatum/",
+      "publishedAt": "2026-07-12",
+      "summary": "L'administrateur de la NHTSA, Jonathan Morrison, a adressé une mise en demeure aux développeurs de véhicules autonomes : l'incapacité à détecter et à réagir correctement aux interventions des services d'urgence constitue une « insuffisance fonctionnelle », et l'agence exige des solutions d'ici la fin du mois. Waymo, premier opérateur de robotaxis aux États-Unis, est particulièrement scruté après plusieurs incidents, dont des véhicules à plat devant être remorqués lors des embouteillages du 4 juillet à San Francisco. Le contexte est celui de la fin du partenariat Waymo-Uber à Phoenix. Côté financement, Rivian a levé 1,32 milliard de dollars pour accélérer la production de son SUV R2."
+    },
+    {
+      "category": "IT",
+      "title": "Even Realities G2 : des lunettes connectées sans caméra qui misent sur la productivité",
+      "url": "https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/",
+      "publishedAt": "2026-07-11",
+      "summary": "Even Realities lance les G2, des lunettes connectées à 599 dollars dépourvues de caméra, qui privilégient la productivité plutôt que l'enregistrement de l'entourage. Pesant 35 grammes, elles embarquent un affichage tête haute monochrome vert, plus lumineux (1200 nits) et plus grand que celui des G1, avec traduction en temps réel, transcription de réunions, bulles de contexte générées par IA et navigation pas à pas ; l'autonomie atteint deux jours avec l'étui rechargeable. Le test relève une connexion au téléphone parfois capricieuse, un assistant vocal en difficulté dans le bruit et des usages quotidiens encore limités. L'entreprise, devenue licorne, doit étoffer ses logiciels maison pour rendre l'objet réellement indispensable."
+    },
+    {
+      "category": "AI",
+      "title": "Reed Jobs (Yosemite) veut soigner le cancer en s'appuyant sur l'IA",
+      "url": "https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/",
+      "publishedAt": "2026-07-11",
+      "summary": "Reed Jobs détaille la stratégie de Yosemite, son fonds de capital-risque consacré à l'oncologie : lancé en 2023, il compte désormais 17 collaborateurs et près de 25 sociétés en portefeuille, avec un second fonds visant 350 millions de dollars. Sa particularité est de créer des entreprises à partir de recherches académiques précoces plutôt que d'investir dans des sociétés existantes. Il décrit une industrie pharmaceutique confrontée au plus grand mur de brevets de son histoire, mais assise sur des liquidités record, ce qui alimente les acquisitions. L'IA est passée du gadget au cœur du travail du fonds : accélération des tâches ingrates de la découverte de médicaments et bras de contrôle synthétiques dans les essais cliniques. Cible privilégiée : la protéine p53."
+    },
+    {
+      "category": "Science",
+      "title": "La protéine tau, associée à Alzheimer, jouerait un rôle clé dans la mémoire durable",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260710003535.htm",
+      "publishedAt": "2026-07-12",
+      "summary": "Des chercheurs de l'Université Flinders, avec l'UNSW et Macquarie, montrent chez la souris que la protéine tau, habituellement associée à la maladie d'Alzheimer, possède un rôle physiologique inattendu : elle aide à organiser et à stabiliser les souvenirs pour qu'ils persistent dans le temps. Tau sélectionnerait les neurones chargés de stocker un souvenir et réduirait le bruit de fond neuronal lors de son encodage. Elle n'est pas nécessaire à l'apprentissage immédiat, mais devient déterminante pour la mémoire à long terme. Les formes anormales de tau perturbent à la fois la formation et la récupération des souvenirs, suggérant que les troubles mnésiques d'Alzheimer relèvent d'un défaut d'organisation et d'accès plutôt que d'une simple perte."
+    },
+    {
+      "category": "Science",
+      "title": "Des physiciens reproduisent en laboratoire l'extraction d'énergie d'un trou noir",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260711010120.htm",
+      "publishedAt": "2026-07-12",
+      "summary": "Une équipe de l'Advanced Science Research Center du CUNY Graduate Center a reproduit en laboratoire le processus Penrose-Zel'dovitch, théorisé il y a plus de cinquante ans, qui permet d'extraire de l'énergie d'un trou noir en rotation. Plutôt que de faire tourner un objet, les chercheurs ont construit un anneau de résonateurs électroniques dont les propriétés sont modifiées très rapidement selon des motifs synchronisés, créant l'illusion d'une rotation ultrarapide sans aucun mouvement mécanique. Des ondes électromagnétiques dotées de caractéristiques de rotation précises en ont extrait de l'énergie et se sont trouvées amplifiées. Ce dispositif à métamatériaux ouvre des perspectives en communications sans fil, en photonique et pour les technologies quantiques."
+    },
+    {
+      "category": "Science",
+      "title": "Les grands fonds marins nourris par une source de nourriture insoupçonnée",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260711010127.htm",
+      "publishedAt": "2026-07-12",
+      "summary": "Des chercheurs de l'Université du Danemark du Sud ont recréé de la « neige marine » à partir de diatomées, dans des cuves rotatives sous pression simulant les grands fonds. Résultat : en descendant, les particules perdent environ 50% de leur carbone et 58 à 63% de leur azote, sous l'effet de la pression hydrostatique qui agit « comme un pressoir géant ». La matière organique dissoute ainsi libérée, essentiellement protéines et sucres, nourrit immédiatement les microbes des profondeurs : les populations bactériennes ont été multipliées par trente en deux jours. Cette découverte modifie la compréhension du cycle du carbone : une part importante resterait en suspension dans les eaux profondes pendant des siècles avant de remonter, plutôt que d'être enfouie dans les sédiments."
+    },
+    {
+      "category": "Science",
+      "title": "Le mystère de la plus grande extinction de masse de la Terre enfin élucidé",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260711010122.htm",
+      "publishedAt": "2026-07-12",
+      "summary": "Une équipe de Stanford a mesuré la consommation d'oxygène de divers organismes marins actuels, dont des brachiopodes collectés dans les îles San Juan, à différentes températures. Elle montre que l'extinction Permien-Trias, il y a environ 252 millions d'années, a éliminé quelque 96% des espèces marines parce que les animaux au métabolisme lent n'ont pas pu s'adapter au réchauffement des océans et à la baisse de l'oxygène. Les survivants — poissons, coquillages, gastéropodes, oursins — disposaient d'un métabolisme rapide et d'adaptations (muscles et branchies plus puissants) absentes chez les espèces paléozoïques. Les auteurs soulignent que le rythme actuel du réchauffement dépasse largement celui de l'époque, ce qui rend l'avertissement d'autant plus sérieux."
+    },
+    {
+      "category": "Science",
+      "title": "Le cerveau se recâble pour accomplir réellement plusieurs tâches à la fois",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260712011912.htm",
+      "publishedAt": "2026-07-12",
+      "summary": "Des chercheurs du Georgetown University Medical Center ont fait réaliser à des volontaires plus de 30 000 essais de tri d'images sur une application mobile, pendant cinq à dix semaines, avec IRM fonctionnelle et EEG avant et après entraînement. L'entraînement intensif réorganise physiquement les circuits cérébraux : une tâche qui mobilisait d'abord le cortex préfrontal, centre du contrôle conscient, migre vers le cortex temporal. Le cortex préfrontal, ainsi libéré, redevient disponible pour une seconde tâche, permettant un véritable traitement simultané et non un simple va-et-vient entre activités. Selon le chercheur principal Patrick Cox, l'entraînement crée dans le lobe temporal une aire sélective qui n'existait pas auparavant."
+    },
+    {
+      "category": "Science",
+      "title": "Des ultrasons pour stopper l'arthrose avant qu'elle ne s'installe",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260710003521.htm",
+      "publishedAt": "2026-07-12",
+      "summary": "Des chercheurs de l'Université d'Alabama à Huntsville montrent que des ultrasons continus de faible intensité pourraient prévenir l'arthrose post-traumatique en modifiant le comportement des cellules immunitaires. En exposant des macrophages à des fragments de fibronectine, pour simuler les conditions d'une articulation lésée, puis en analysant la transcriptomique et des modèles computationnels, ils ont observé une baisse des marqueurs inflammatoires et une hausse des marqueurs associés à la réparation tissulaire. Orienter les macrophages vers un état de type M2 réduirait l'inflammation chronique tout en favorisant la cicatrisation. Cette approche non invasive et sans médicament pourrait aider les articulations blessées à guérir au lieu d'évoluer vers une arthrose."
+    },
+    {
+      "category": "Science",
+      "title": "Un lien inattendu entre la sérotonine et la dégénérescence de la valve mitrale",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260711010131.htm",
+      "publishedAt": "2026-07-11",
+      "summary": "Une étude multicentrique menée par le Columbia University Irving Medical Center, avec le Children's Hospital of Philadelphia et l'Université de Pennsylvanie, a croisé les données cliniques de plus de 9000 patients opérés de la valve mitrale, une centaine de biopsies de valves, des souris transgéniques et des cellules valvulaires humaines. Une activité réduite du transporteur de la sérotonine accélérerait la dégénérescence chez les personnes déjà atteintes. Les patients souffrant d'insuffisance mitrale dégénérative, traités par antidépresseurs ISRS et porteurs du variant génétique « long-long » du 5-HTTLPR, ont été opérés plus jeunes. Les valves saines ne semblent pas affectées. Le récepteur HTR2B se dessine comme cible thérapeutique potentielle."
+    },
+    {
+      "category": "Science",
+      "title": "Pourquoi l'or ne se ternit jamais : l'explication atomique",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260710003511.htm",
+      "publishedAt": "2026-07-11",
+      "summary": "Des chercheurs de l'Université Tulane ont simulé par ordinateur le comportement des atomes et des électrons à la surface de l'or, en étudiant l'interaction de molécules d'oxygène avec deux types de surfaces courantes. Ils montrent que les atomes de surface se réarrangent spontanément selon des motifs protecteurs qui rendent la réaction avec l'oxygène extrêmement difficile : ces réagencements réduisent la réactivité d'un facteur d'un milliard à mille milliards, formant une barrière protectrice à l'échelle atomique. Au-delà de l'éclat durable des bijoux, la découverte pourrait aider à concevoir de meilleurs catalyseurs à base d'or pour l'industrie et les énergies propres — à condition, comme le résume un chercheur, de « piéger » l'or pour qu'il dissocie l'oxygène."
+    },
+    {
+      "category": "Science",
+      "title": "Yale identifie comment la maladie de Parkinson se propage dans le cerveau",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260710003529.htm",
+      "publishedAt": "2026-07-11",
+      "summary": "Des chercheurs de la Yale School of Medicine ont criblé 4400 groupes de cellules modifiées portant différentes protéines de surface afin d'identifier celles qui se lient à l'alpha-synucléine mal repliée, protéine centrale de la maladie de Parkinson. Deux protéines neuronales de surface, mGluR4 et NPDC1, agissent comme des transporteurs facilitant la propagation de l'alpha-synucléine d'une cellule cérébrale à l'autre. Des souris génétiquement privées de ces protéines, puis exposées à la protéine toxique, ont montré une progression nettement ralentie de la maladie et une préservation des neurones dopaminergiques. Le responsable de l'étude, Stephen Strittmatter, y voit une cible thérapeutique permettant d'espérer freiner la maladie plutôt que d'en traiter seulement les symptômes."
+    },
+    {
+      "category": "Science",
+      "title": "Un médicament expérimental inverse la stéatohépatite en réparant l'intestin",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260711010116.htm",
+      "publishedAt": "2026-07-11",
+      "summary": "Des chercheurs de Michigan Medicine (Université du Michigan) ont testé le DT-109, un tripeptide dérivé de la glycine, sur des modèles animaux, souris et primates non humains, atteints de forme sévère de maladie du foie gras. Le composé inverse la stéatohépatite associée à un dysfonctionnement métabolique (MASH) en réparant la barrière intestinale : il réduit les populations de Clostridium perfringens et la production d'ammoniac, empêchant les toxines de passer dans la circulation sanguine et de déclencher l'inflammation hépatique. Selon Eugene Chen, le DT-109 protège l'épithélium intestinal et limite l'afflux systémique de produits microbiens nocifs. Cette approche par l'intestin ouvre une piste de traitement pour une maladie qui touche environ 7% de la population mondiale et reste sans thérapie efficace."
+    },
+    {
+      "category": "Science",
+      "title": "Les mantes asiatiques invasives menacent la faune européenne",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260710003540.htm",
+      "publishedAt": "2026-07-11",
+      "summary": "Une étude publiée dans le Journal of Orthoptera Research, menée par Roberto Battiston, classe officiellement deux mantes asiatiques, Hierodula tenuidentata et Hierodula patellifera, parmi les espèces exotiques envahissantes en Europe. Chaque oothèque libère environ 200 jeunes, presque le double de la mante européenne, ce qui permet une croissance rapide des populations. Ces prédatrices s'attaquent à des pollinisateurs comme les abeilles, mais aussi à de petits vertébrés (rainettes, lézards). Les milieux urbains les favorisent, notamment via les hôtels à insectes et les îlots de chaleur qui allongent leur saison d'activité. Surprise de l'étude : les chats domestiques sont leur principal prédateur vertébré (45% des cas observés). Plus de 2300 signalements citoyens alimentent la surveillance."
+    }
+  ]
+}
