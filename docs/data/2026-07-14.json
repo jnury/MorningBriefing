@@ -1,0 +1,205 @@
+{
+  "date": "2026-07-14",
+  "generatedAt": "2026-07-14T06:30:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 36,
+      "low": 24,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 33,
+      "low": 24,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 3
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "La Suisse et le Royaume-Uni ont conclu à Berne les négociations d'un accord de libre-échange modernisé, annoncé par Guy Parmelin et le ministre britannique de l'Économie Peter Kyle, qui élargit le cadre aux services, aux investissements et au commerce numérique.",
+      "publishedAt": "2026-07-13"
+    },
+    {
+      "headline": "L'équipe de Suisse, éliminée en quarts de finale du Mondial par l'Argentine au terme de son meilleur parcours depuis 1954, est attendue mardi à midi sur la Turbinenplatz à Zurich pour une réception avec les supporters.",
+      "publishedAt": "2026-07-13"
+    },
+    {
+      "headline": "Genève et Vaud réactivent leurs plans canicule dès mardi face à une semaine de chaleurs extrêmes, avec suspension des travaux extérieurs exposés au soleil l'après-midi et suivi renforcé des personnes vulnérables.",
+      "publishedAt": "2026-07-13"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Donald Trump a annoncé le rétablissement d'un blocus du trafic maritime iranien dans le détroit d'Ormuz, faisant bondir le baril de Brent de plus de 4% et pesant sur les places financières mondiales.",
+      "publishedAt": "2026-07-13"
+    },
+    {
+      "headline": "Les ministres des Affaires étrangères de l'UE ont approuvé environ 250 nouvelles inscriptions de personnes et d'entités sur la liste des sanctions contre la Russie, la plus vaste série jamais adoptée d'un coup selon Kaja Kallas.",
+      "publishedAt": "2026-07-13"
+    },
+    {
+      "headline": "Jannik Sinner a conservé son titre à Wimbledon en battant Alexander Zverev en quatre sets (6-7, 7-6, 6-3, 6-4) lors de la finale du simple messieurs.",
+      "publishedAt": "2026-07-12"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 13 juillet 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -1.55
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": -0.26
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.22
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": -0.06
+      }
+    ],
+    "summary": "Séance de repli à Wall Street, tirée vers le bas par la technologie après l'annonce d'un nouveau blocage du détroit d'Ormuz qui a fait flamber le pétrole, tandis que l'Europe a terminé sans direction et que le SMI a limité les dégâts grâce à ses valeurs défensives."
+  },
+  "tech": [
+    {
+      "category": "IT",
+      "title": "Apple accuse un ancien employé parti chez OpenAI d'avoir exploité une faille pour aspirer des fichiers confidentiels",
+      "url": "https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/",
+      "publishedAt": "2026-07-13",
+      "summary": "Dans le cadre de sa plainte pour vol de secrets industriels visant OpenAI, Apple affirme qu'un ancien collaborateur a profité d'un bug « rare » de ses systèmes internes pour télécharger des documents confidentiels après avoir quitté l'entreprise. Le dossier, l'un des plus spectaculaires opposant deux poids lourds de la tech, détaille des allégations sur la fuite de travaux liés au matériel et à l'IA d'Apple. L'affaire illustre la brutalité de la guerre des talents en cours entre les groupes historiques de la Silicon Valley et les laboratoires d'IA, et pourrait faire jurisprudence sur la protection des secrets d'affaires lors des départs d'ingénieurs."
+    },
+    {
+      "category": "AI",
+      "title": "Satya Nadella met en garde les entreprises qui déploient l'IA sans repenser leurs processus",
+      "url": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
+      "publishedAt": "2026-07-13",
+      "summary": "Le patron de Microsoft avertit que les organisations qui se contentent de plaquer des outils d'IA sur des flux de travail inchangés n'obtiendront aucun gain de productivité mesurable. Selon lui, la valeur ne vient pas du modèle mais de la refonte des processus autour de lui, faute de quoi les entreprises accumuleront des coûts sans retour. Cette prise de position tranche avec le discours ambiant sur l'adoption massive et rejoint les études qui peinent à démontrer des effets macroéconomiques de l'IA générative. Elle intervient alors que Microsoft pousse fortement Copilot auprès de sa base d'entreprises."
+    },
+    {
+      "category": "AI",
+      "title": "PixVerse lève 439 millions de dollars et dépasse les 2 milliards de valorisation",
+      "url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+      "publishedAt": "2026-07-13",
+      "summary": "La start-up de génération vidéo par IA PixVerse annonce un tour de table de 439 millions de dollars qui propulse sa valorisation au-delà de 2 milliards. Le financement confirme l'appétit des investisseurs pour la vidéo générative, segment le plus gourmand en calcul et le plus disputé après le texte et l'image. PixVerse entend accélérer sur la qualité de rendu, la durée des séquences et les usages professionnels (publicité, divertissement), sur un marché où elle affronte des acteurs comme Runway, Kling ou les modèles vidéo des grands laboratoires."
+    },
+    {
+      "category": "AI",
+      "title": "Nous Research en discussion pour une levée de fonds à 1,5 milliard de dollars",
+      "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+      "publishedAt": "2026-07-13",
+      "summary": "Le laboratoire Nous Research, connu pour sa famille de modèles d'agents Hermes et son ancrage dans l'open source, négocie un nouveau financement qui le valoriserait 1,5 milliard de dollars. La discussion illustre la prime accordée aux équipes capables de produire des modèles agentiques performants en dehors des grands laboratoires fermés. Elle témoigne aussi de la vigueur persistante du financement de l'IA malgré les interrogations sur le retour sur investissement, les fonds pariant sur des acteurs indépendants capables de fournir des alternatives ouvertes aux modèles propriétaires."
+    },
+    {
+      "category": "AI",
+      "title": "Anthropic adapte les tarifs de Claude au marché indien, son deuxième marché après les États-Unis",
+      "url": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
+      "publishedAt": "2026-07-13",
+      "summary": "Anthropic commence à localiser les prix de Claude en Inde, devenu son premier marché hors États-Unis en nombre d'utilisateurs. La tarification adaptée au pouvoir d'achat local vise à convertir une base d'usagers massive mais peu monétisée, sur un terrain où OpenAI a déjà multiplié les offres agressives. Le mouvement s'inscrit dans une bataille plus large pour l'adoption des assistants IA dans les grands marchés émergents, où le volume d'utilisateurs pourrait, à terme, peser autant que les revenus par abonné dans la course à la distribution."
+    },
+    {
+      "category": "AI",
+      "title": "Sam Altman doute des centres de données spatiaux, un scepticisme largement partagé par les experts",
+      "url": "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/",
+      "publishedAt": "2026-07-13",
+      "summary": "Le patron d'OpenAI a douché publiquement l'idée d'installer des centres de données d'IA en orbite, une piste défendue par plusieurs projets récents. Les spécialistes du domaine partagent largement ce diagnostic : l'évacuation de la chaleur dans le vide, les coûts de lancement, la maintenance impossible et la latence rendent l'équation économique très difficile face aux centres terrestres, malgré l'argument de l'énergie solaire continue. Le débat révèle surtout l'ampleur du mur énergétique auquel se heurte l'industrie de l'IA, qui explore des options de plus en plus exotiques pour alimenter ses infrastructures."
+    },
+    {
+      "category": "Science",
+      "title": "SpaceX autorisée à faire revoler Starship après l'échec du booster en mai",
+      "url": "https://techcrunch.com/2026/07/13/spacex-cleared-to-fly-starship-again-after-booster-failure-in-may/",
+      "publishedAt": "2026-07-13",
+      "summary": "Le régulateur américain a donné son feu vert à la reprise des vols de Starship, après l'enquête ouverte à la suite de la défaillance du propulseur survenue en mai. La clôture de l'investigation et les correctifs apportés par SpaceX ouvrent la voie à un nouveau lancement à court terme. Cette reprise est déterminante pour le calendrier du programme Artemis, qui dépend d'une version d'atterrissage lunaire de Starship, ainsi que pour le déploiement des satellites Starlink de nouvelle génération, trop lourds pour Falcon 9."
+    },
+    {
+      "category": "Science",
+      "title": "General Fusion s'envole pour ses débuts en Bourse, première société de fusion cotée",
+      "url": "https://techcrunch.com/2026/07/13/investors-send-general-fusion-soaring-in-debut-as-first-publicly-traded-fusion-company/",
+      "publishedAt": "2026-07-13",
+      "summary": "L'entreprise canadienne General Fusion a connu une première séance en forte hausse, devenant la première société de fusion nucléaire cotée en Bourse. L'accueil des investisseurs traduit l'espoir placé dans une énergie propre et pilotable, dopé par la demande électrique explosive des centres de données d'IA. General Fusion développe une approche de fusion par cible magnétisée, distincte du laser (NIF) et du tokamak (ITER). L'introduction offre au secteur une référence de valorisation publique, mais expose aussi une technologie encore loin de la production commerciale à la volatilité des marchés."
+    },
+    {
+      "category": "IT",
+      "title": "X modifie son algorithme pour apaiser les échanges et réduire les affrontements",
+      "url": "https://techcrunch.com/2026/07/13/x-just-tweaked-its-algorithm-to-make-it-more-friendly-less-battleground/",
+      "publishedAt": "2026-07-13",
+      "summary": "X a ajusté son algorithme de recommandation afin de mettre en avant des contenus jugés plus constructifs et de réduire l'exposition aux publications les plus conflictuelles. Le réseau cherche à contrer la perception d'une plateforme devenue un champ de bataille permanent, qui éloigne annonceurs et utilisateurs occasionnels. Le changement pose la question habituelle de l'arbitrage entre engagement à court terme, nourri par l'indignation, et santé du réseau à long terme. Son efficacité réelle reste à évaluer, les précédents ajustements ayant produit des effets mesurés."
+    },
+    {
+      "category": "IT",
+      "title": "Waze ajoute des fonctions dopées à l'IA et de nouvelles options de personnalisation",
+      "url": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates/",
+      "publishedAt": "2026-07-13",
+      "summary": "L'application de navigation de Google déploie une série de nouveautés fondées sur l'IA, accompagnées d'options de personnalisation de l'interface et des trajets. Waze poursuit ainsi son rapprochement avec les briques d'IA maison de Google tout en cherchant à préserver l'identité communautaire qui la distingue de Google Maps. Ces ajouts visent à mieux anticiper les conditions de circulation et à simplifier le signalement d'incidents par les conducteurs, dans un contexte où la navigation devient un point d'entrée stratégique pour les assistants embarqués."
+    },
+    {
+      "category": "IT",
+      "title": "La police de Los Angeles laisse expirer son contrat avec le géant de la surveillance Flock",
+      "url": "https://techcrunch.com/2026/07/13/lapd-lets-contract-with-surveillance-giant-flock-expire-citing-serious-concerns-over-civil-liberties-and-privacy/",
+      "publishedAt": "2026-07-13",
+      "summary": "Le LAPD a renoncé à renouveler son contrat avec Flock Safety, invoquant de « sérieuses préoccupations » quant aux libertés civiles et à la vie privée. Flock exploite un vaste réseau de caméras de lecture automatisée de plaques d'immatriculation, dont les données ont fait l'objet de partages controversés entre agences. La décision d'une des plus grandes polices américaines constitue un revers notable pour l'entreprise et pourrait influencer d'autres municipalités qui réexaminent leurs dispositifs de surveillance automatisée."
+    },
+    {
+      "category": "IT",
+      "title": "Le lobbying d'Uber sur les robotaxis le met en collision frontale avec Waymo",
+      "url": "https://techcrunch.com/2026/07/13/ubers-robotaxi-lobbying-effort-has-put-it-on-a-collision-course-with-waymo/",
+      "publishedAt": "2026-07-13",
+      "summary": "Uber intensifie son travail d'influence auprès des régulateurs américains sur les règles encadrant les véhicules autonomes, avec des positions qui heurtent désormais celles de Waymo, pourtant partenaire sur plusieurs marchés. L'enjeu porte sur les conditions d'accès aux flottes, la responsabilité et la place des plateformes d'intermédiation dans un secteur où Waymo opère ses propres services. Cette tension illustre la fragilité des alliances nouées dans le robotaxi, où chaque acteur cherche à sécuriser la couche la plus rentable de la chaîne de valeur."
+    },
+    {
+      "category": "IT",
+      "title": "Douze États américains attaquent en justice le rachat de Warner Bros. par Paramount pour 110 milliards",
+      "url": "https://techcrunch.com/2026/07/13/12-states-sue-to-block-paramounts-110b-warner-bros-deal/",
+      "publishedAt": "2026-07-13",
+      "summary": "Une coalition de douze États a déposé plainte pour bloquer l'acquisition de Warner Bros. par Paramount, évaluée à 110 milliards de dollars. Les procureurs généraux invoquent les risques de concentration excessive dans les studios, la distribution et le streaming, avec des conséquences attendues sur les prix pour les consommateurs et sur la diversité des contenus. L'opération, qui redessinerait la carte du divertissement américain, se heurte ainsi à un front juridique susceptible d'en retarder fortement, voire d'en empêcher, la finalisation."
+    },
+    {
+      "category": "Science",
+      "title": "Les lois de Hawking sur les trous noirs étendues aux trous noirs réels et évolutifs",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260713000757.htm",
+      "publishedAt": "2026-07-13",
+      "summary": "Des physiciens proposent un cadre théorique permettant d'appliquer les lois de la thermodynamique non plus seulement aux trous noirs parfaitement stationnaires, mais aussi aux trous noirs réels, dynamiques et en constante évolution. Les célèbres lois formulées par Stephen Hawking et ses collègues supposaient un équilibre idéalisé, très éloigné des objets qui accrètent de la matière ou fusionnent. Cette généralisation rapproche la thermodynamique des trous noirs des observations effectivement accessibles aux détecteurs d'ondes gravitationnelles, et fournit un nouvel angle d'attaque sur la question de l'information et de l'entropie gravitationnelle."
+    },
+    {
+      "category": "Science",
+      "title": "Une expérience d'optique vieille de 200 ans pourrait servir aux ordinateurs du futur",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260713000755.htm",
+      "publishedAt": "2026-07-13",
+      "summary": "Des chercheurs de la Nanyang Technological University, à Singapour, ont découvert une méthode étonnamment simple pour créer des skyrmions optiques, structures lumineuses exotiques et robustes, en s'appuyant sur la tache de Poisson, un effet de diffraction décrit il y a deux siècles. Ces textures de lumière sont étudiées pour le transport et le stockage d'information, car leur topologie les rend résistantes aux perturbations. La simplicité du montage proposé pourrait rendre ces objets bien plus accessibles aux applications en calcul optique, en métrologie et en communications."
+    },
+    {
+      "category": "Science",
+      "title": "La mécanique quantique pourrait se passer des nombres imaginaires",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260713000807.htm",
+      "publishedAt": "2026-07-13",
+      "summary": "Des physiciens de l'université Heinrich Heine de Düsseldorf réexaminent l'un des dogmes du formalisme quantique : le caractère prétendument indispensable des nombres complexes. Leur analyse suggère qu'une formulation reposant uniquement sur des nombres réels pourrait rendre compte des mêmes prédictions, relançant un débat ravivé ces dernières années par plusieurs expériences censées trancher la question. Au-delà de l'élégance mathématique, l'enjeu touche à l'interprétation de la théorie et à la nature exacte de l'information encodée dans l'état quantique."
+    },
+    {
+      "category": "Science",
+      "title": "Le lieu de résidence influencerait le risque de démence, selon une vaste étude",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260713000753.htm",
+      "publishedAt": "2026-07-13",
+      "summary": "Une analyse portant sur plus de 214 000 personnes met en évidence de fortes variations régionales dans les facteurs de risque de démence. Les écarts observés selon les territoires renvoient à des différences d'accès aux soins, de niveau socio-économique, de qualité de l'air et d'habitudes de vie, plutôt qu'à des causes strictement individuelles. Les auteurs y voient un argument pour des politiques de prévention ciblées géographiquement, plusieurs de ces facteurs étant modifiables et donc susceptibles de réduire l'incidence de la maladie à l'échelle des populations."
+    },
+    {
+      "category": "Science",
+      "title": "Dormir 80 minutes de moins par nuit suffit à faire prendre du poids",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260713000800.htm",
+      "publishedAt": "2026-07-13",
+      "summary": "Dans un essai contrôlé, des participants privés d'environ une heure vingt de sommeil par nuit pendant six semaines ont pris du poids et passé davantage de temps inactifs. La restriction, modeste et proche de ce que vivent beaucoup d'actifs, a suffi à modifier la dépense énergétique et le comportement, sans changement volontaire d'alimentation. L'étude renforce l'idée que le sommeil constitue un levier métabolique à part entière, souvent négligé dans les stratégies de prévention de l'obésité au profit du seul couple alimentation-exercice."
+    },
+    {
+      "category": "Science",
+      "title": "Les bactéries des gencives liées à un risque caché pour la valve aortique",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260713000751.htm",
+      "publishedAt": "2026-07-13",
+      "summary": "Des chercheurs montrent que des bactéries associées aux maladies parodontales pourraient favoriser le rétrécissement aortique calcifié, en déclenchant une inflammation et une accumulation de calcium au niveau de la valve. Ce mécanisme apporte un argument supplémentaire au lien, longtemps soupçonné, entre santé bucco-dentaire et maladies cardiovasculaires. Si les résultats se confirment chez l'humain, une hygiène dentaire rigoureuse et le traitement des gingivites pourraient devenir des mesures de prévention cardiaque à part entière, pour une pathologie valvulaire qui ne dispose aujourd'hui d'aucun traitement médicamenteux."
+    }
+  ]
+}
