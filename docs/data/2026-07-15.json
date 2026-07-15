@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-15",
+  "generatedAt": "2026-07-15T05:45:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 31,
+      "low": 24,
+      "condition": "Orages",
+      "weathercode": 95,
+      "precipProbability": 60
+    },
+    "lausanne": {
+      "high": 31,
+      "low": 25,
+      "condition": "Averses de pluie",
+      "weathercode": 80,
+      "precipProbability": 55
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Éliminée en quart de finale du Mondial 2026 par l'Argentine, l'équipe de Suisse a été accueillie en héros par des milliers de supporters réunis sur la Turbinenplatz à Zurich.",
+      "publishedAt": "2026-07-14"
+    },
+    {
+      "headline": "Après des mois de sécheresse et une canicule tenace, un changement de temps ramène orages et humidité sur la Suisse romande, offrant un répit thermique bienvenu.",
+      "publishedAt": "2026-07-14"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "L'Argentine, championne en titre, s'est qualifiée pour les demi-finales du Mondial 2026 grâce à un but de Julián Álvarez en prolongation face à la Suisse.",
+      "publishedAt": "2026-07-14"
+    },
+    {
+      "headline": "L'inflation américaine a ralenti à 3,5% sur un an en juin, sous les attentes, ravivant l'espoir d'une pause dans le resserrement monétaire de la Fed.",
+      "publishedAt": "2026-07-14"
+    },
+    {
+      "headline": "Les exportations chinoises ont bondi de 27% sur un an en juin, portées en partie par la forte demande liée à l'essor de l'intelligence artificielle.",
+      "publishedAt": "2026-07-14"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 14 juillet 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": 0.9
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": 0.02
+      },
+      {
+        "name": "SMI",
+        "changePct": -0.17
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": -0.5
+      }
+    ],
+    "summary": "Wall Street a progressé, portée par un rapport d'inflation américain plus doux que prévu, tandis que les places européennes et le SMI ont légèrement reculé sur fond de tensions au Moyen-Orient."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "Spotify lance un assistant musical conversationnel de type ChatGPT",
+      "url": "https://techcrunch.com/2026/07/14/spotify-expands-its-ai-push-with-a-chatgpt-like-music-assistant/",
+      "publishedAt": "2026-07-14",
+      "summary": "Spotify déploie une fonctionnalité d'IA conversationnelle permettant à ses abonnés Premium de dialoguer avec l'application, par texte ou par la voix, pour découvrir musique, podcasts et livres audio. Accessible depuis les vues Accueil et Lecture en cours, l'outil recommande des titres, renseigne sur l'historique d'écoute et aide à gérer la bibliothèque. Lancée en bêta, la fonction est d'abord réservée aux utilisateurs majeurs aux États-Unis, en Irlande et en Suède, sur iOS et Android. Spotify élargit ainsi son pari sur l'IA générative pour personnaliser l'expérience d'écoute."
+    },
+    {
+      "category": "AI",
+      "title": "DeepSeek en discussions pour lever 1,5 milliard de dollars avant une entrée en Bourse",
+      "url": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/",
+      "publishedAt": "2026-07-14",
+      "summary": "Le développeur chinois de grands modèles de langage DeepSeek serait en pourparlers pour lever environ 1,5 milliard de dollars sur une valorisation de 71 milliards, en vue d'une introduction en Bourse attendue en 2027. Ce tour de table suit un précédent de 7 milliards levé un mois plus tôt sur une valorisation de 50 milliards. DeepSeek, qui s'appuie sur des puces Huawei pour son service cloud, a démontré des performances compétitives face aux modèles américains malgré les restrictions d'exportation de puces. Tencent et un fonds d'investissement public chinois figurent parmi ses principaux soutiens."
+    },
+    {
+      "category": "AI",
+      "title": "Les modèles ouverts chinois prennent l'ascendant sur Hugging Face",
+      "url": "https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face/",
+      "publishedAt": "2026-07-14",
+      "summary": "Selon TechCrunch, les modèles à poids ouverts chinois ont représenté ce printemps 41% des téléchargements sur Hugging Face, dépassant les modèles américains. Sur OpenRouter, les six modèles les plus populaires étaient des modèles ouverts de sociétés chinoises comme Tencent, Xiaomi, DeepSeek, MiniMax et Z.ai. L'article défend l'idée que la véritable course à l'IA ne se joue peut-être plus à la frontière technologique, mais dans l'adoption et la diffusion des modèles ouverts, où la Chine bâtit un avantage rapide au détriment des acteurs occidentaux propriétaires."
+    },
+    {
+      "category": "IT",
+      "title": "Patch Tuesday de juillet : Microsoft corrige un nombre record de vulnérabilités",
+      "url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/07/14/microsoft-and-adobe-patch-tuesday-july-2026-security-update-review",
+      "publishedAt": "2026-07-14",
+      "summary": "Le Patch Tuesday de juillet 2026 est le plus volumineux de l'histoire de Microsoft, avec des correctifs pour un nombre record de vulnérabilités, dont trois failles zero-day. Le lot comprend des dizaines de failles critiques d'exécution de code à distance. Deux vulnérabilités d'élévation de privilèges, l'une dans Active Directory Federation Services et l'autre dans SharePoint Server, ont déjà été ajoutées par la CISA à son catalogue des failles activement exploitées, avec des échéances de remédiation imposées aux agences fédérales américaines. Cette rafale reflète l'usage croissant par Microsoft de l'IA pour découvrir des vulnérabilités."
+    },
+    {
+      "category": "IT",
+      "title": "Journée de mégadeals dans la deep tech : défense et informatique quantique",
+      "url": "https://www.chinatechnews.com/2026/07/15/125576-venture-capital-startup-funding-roundup-july-14-2026-blackstone-general-catalyst-index-ventures-kleiner-perkins-lightspeed-sequoia",
+      "publishedAt": "2026-07-14",
+      "summary": "Le 14 juillet 2026 a été marqué par une intense activité de capital-risque dans la deep tech et l'infrastructure. Les plus grosses opérations de la journée concernaient la défense et l'automatisation, avec un tour de 1,8 milliard de dollars pour Helsing et de 1,2 milliard pour Quantum Systems. Côté matériel, Oratomic a levé 300 millions pour des architectures de puces alternatives, tandis que le londonien Valarian obtenait 50 millions en série A menée par NEA pour un cloud « scellé » sur site dédié aux charges d'IA. Investisseurs et États misent massivement sur l'infrastructure d'IA souveraine et la deep tech."
+    },
+    {
+      "category": "Science",
+      "title": "Le sémaglutide (Ozempic, Wegovy) pourrait ralentir le vieillissement biologique",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260713084907.htm",
+      "publishedAt": "2026-07-14",
+      "summary": "Un essai clinique suggère que le sémaglutide, principe actif des médicaments amaigrissants Ozempic et Wegovy, pourrait ralentir certains processus biologiques associés au vieillissement chez des adultes vivant avec le VIH. En réduisant l'inflammation et l'excès de graisse, la molécule a modifié des marqueurs du vieillissement, ce qui constituerait la première preuve clinique d'un possible effet du médicament sur le vieillissement humain. Les chercheurs restent prudents et appellent à des travaux complémentaires pour confirmer ces observations sur des populations plus larges."
+    },
+    {
+      "category": "Science",
+      "title": "Un fossile de dinosaure fige les derniers instants d'une attaque de T. rex",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260713000811.htm",
+      "publishedAt": "2026-07-13",
+      "summary": "Des paléontologues ont décrit un crâne fossilisé d'Edmontosaurus portant encore une dent de Tyrannosaurus rex plantée dans la face. Cette découverte offre une rare preuve directe d'une interaction prédateur-proie du Crétacé, documentant un affrontement dramatique entre les deux dinosaures. La dent brisée, restée fichée dans l'os, permet aux scientifiques d'étudier le comportement de chasse du T. rex et la manière dont ses proies pouvaient parfois survivre à une attaque, l'os montrant des signes de cicatrisation autour de la blessure."
+    },
+    {
+      "category": "Science",
+      "title": "Une vaste revue lie une forte consommation de piment à un risque accru de cancer de l'œsophage",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260713084921.htm",
+      "publishedAt": "2026-07-13",
+      "summary": "Une importante revue scientifique a établi que les personnes consommant le plus de piments présentaient un risque nettement plus élevé de cancer de l'œsophage. Les données étaient en revanche moins nettes concernant les cancers de l'estomac et colorectaux. Les auteurs soulignent que ces résultats reposent sur des associations statistiques et n'établissent pas à eux seuls un lien de cause à effet, la consommation de piment variant fortement selon les régions et les habitudes alimentaires. Ils appellent à interpréter ces conclusions avec prudence."
+    }
+  ]
+}
