@@ -1,0 +1,198 @@
+{
+  "date": "2026-07-17",
+  "generatedAt": "2026-07-17T05:04:57+02:00",
+  "weather": {
+    "geneva": {
+      "high": 30,
+      "low": 18,
+      "condition": "Orages avec grêle possible",
+      "weathercode": 96,
+      "precipProbability": 83
+    },
+    "lausanne": {
+      "high": 30,
+      "low": 19,
+      "condition": "Orages avec grêle possible",
+      "weathercode": 96,
+      "precipProbability": 88
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "ABB annonce le rachat du britannique Rotork pour 4,1 milliards de livres, la plus grande acquisition de son histoire, afin de renforcer son offre d'automatisation industrielle.",
+      "publishedAt": "2026-07-16"
+    },
+    {
+      "headline": "Le festival Sion sous les étoiles s'ouvre pour trois jours dédiés à la chanson française et attend quelque 45 000 spectateurs dans la capitale valaisanne.",
+      "publishedAt": "2026-07-16"
+    },
+    {
+      "headline": "Yverdon-les-Bains lance un plan d'action pour protéger les hirondelles, martinets et chauves-souris, dont les populations déclinent en milieu urbain.",
+      "publishedAt": "2026-07-16"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Volodymyr Zelensky limoge son populaire ministre de la Défense Mykhaïlo Fedorov, artisan du programme de drones ukrainien, déclenchant des manifestations dans plusieurs villes du pays.",
+      "publishedAt": "2026-07-16"
+    },
+    {
+      "headline": "Les États-Unis et l'Iran échangent des frappes pour le sixième jour consécutif dans le détroit d'Ormuz, laissant leur fragile cessez-le-feu en lambeaux.",
+      "publishedAt": "2026-07-16"
+    },
+    {
+      "headline": "L'administration Trump limite la durée des visas pour les étudiants, les visiteurs d'échange et les journalistes étrangers aux États-Unis.",
+      "publishedAt": "2026-07-16"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 16 juillet 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -1.47
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": -0.2
+      },
+      {
+        "name": "SMI",
+        "changePct": -0.28
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 0.29
+      }
+    ],
+    "summary": "Les marchés ont terminé en ordre dispersé jeudi : la glissade des semi-conducteurs après le relèvement des dépenses d'investissement de TSMC a pesé sur le Nasdaq et, plus modérément, sur le Dow Jones et le SMI, tandis que l'Euro Stoxx 50 a légèrement progressé."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "Apple Intelligence approuvée en Chine avec Alibaba et Baidu",
+      "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "publishedAt": "2026-07-16",
+      "summary": "Le régulateur chinois de l'internet (Cyberspace Administration of China) a approuvé le lancement d'Apple Intelligence en Chine. Alibaba intégrera ses modèles Qwen dans iOS, iPadOS, macOS et visionOS, et Baidu collabore également avec Apple sur des fonctions destinées aux utilisateurs chinois ; des partenariats avec DeepSeek et ByteDance seraient à l'étude. Aucune date de lancement précise n'a été communiquée. C'est une étape majeure pour Apple sur un marché critique, où l'entreprise a réalisé 20,5 milliards de dollars de ventes au deuxième trimestre 2026, après avoir longtemps retardé ces fonctions faute d'aval réglementaire."
+    },
+    {
+      "category": "IT",
+      "title": "Uber rachète Delivery Hero pour 14,8 milliards de dollars",
+      "url": "https://techcrunch.com/2026/07/16/ubers-14-8b-delivery-hero-deal-would-nearly-double-its-global-footprint/",
+      "publishedAt": "2026-07-16",
+      "summary": "Uber annonce l'acquisition en actions de l'allemand Delivery Hero pour 14,8 milliards de dollars, assortie de la vente pour 1,6 milliard des activités de 14 marchés qui se chevauchent à SSW Partners. L'opération étendrait la présence d'Uber à près de 100 marchés en Europe, au Moyen-Orient, en Amérique latine et en Asie, doublant presque son empreinte mondiale face à DoorDash et Just Eat. L'actionnaire principal Prosus s'est engagé à céder sa participation de 17 %. Le rapprochement, qui ferait d'Uber l'une des plus grandes plateformes de livraison de repas hors Chine, devra passer l'examen des régulateurs."
+    },
+    {
+      "category": "Science",
+      "title": "SpaceX interrompt le deuxième lancement du Starship V3 après l'allumage",
+      "url": "https://techcrunch.com/2026/07/16/spacex-suddenly-aborts-second-starship-v3-launch-after-ignition/",
+      "publishedAt": "2026-07-16",
+      "summary": "SpaceX a interrompu jeudi au Texas sa deuxième tentative de lancement du Starship V3 quelques instants après l'allumage : selon Elon Musk, plusieurs moteurs Raptor (quatre d'après certaines sources) ne se sont pas allumés, déclenchant un abandon automatique. L'entreprise va remplacer deux moteurs, dépressuriser le booster et l'étage supérieur, puis enquêter avant de reprogrammer le vol la semaine suivante. L'action SpaceX a perdu plus de 4 % en après-Bourse, passant sous son prix d'introduction de 135 dollars de juin 2026."
+    },
+    {
+      "category": "AI",
+      "title": "Kimi 3 de Moonshot attendu au niveau d'Opus 4.8 d'Anthropic",
+      "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
+      "publishedAt": "2026-07-16",
+      "summary": "Le laboratoire chinois Moonshot AI prépare Kimi 3, un modèle attendu comme capable de combler l'écart avec Opus 4.8 d'Anthropic, illustrant la progression rapide des modèles ouverts chinois face aux systèmes propriétaires américains les plus avancés. Cette montée en puissance accentue la pression concurrentielle sur les laboratoires occidentaux, tant sur les performances que sur les prix."
+    },
+    {
+      "category": "AI",
+      "title": "Google renomme NotebookLM en Gemini Notebook",
+      "url": "https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/",
+      "publishedAt": "2026-07-16",
+      "summary": "Google poursuit l'unification de ses produits sous la marque Gemini en rebaptisant son outil de prise de notes et de recherche assistée NotebookLM en « Gemini Notebook ». Ce changement s'inscrit dans une série de renommages destinés à consolider l'écosystème IA de l'entreprise autour d'une identité unique."
+    },
+    {
+      "category": "AI",
+      "title": "Le mode IA de Google se connecte à des applications tierces",
+      "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+      "publishedAt": "2026-07-16",
+      "summary": "Google enrichit son AI Mode : les utilisateurs peuvent désormais lier certaines applications et interagir avec elles directement depuis l'assistant, qui gagne ainsi des capacités d'action concrètes au-delà de la simple recherche conversationnelle. Cette intégration renforce la stratégie de Google visant à transformer la recherche en agent capable d'exécuter des tâches à travers les services."
+    },
+    {
+      "category": "AI",
+      "title": "Meta alerte les parents si leur adolescent évoque l'automutilation avec son chatbot",
+      "url": "https://techcrunch.com/2026/07/16/meta-now-alerts-parents-if-their-teen-discussed-suicide-or-self-harm-with-its-ai-chatbot/",
+      "publishedAt": "2026-07-16",
+      "summary": "Meta déploie une fonction de notification parentale : si un adolescent aborde le suicide ou l'automutilation avec le chatbot IA de l'entreprise, ses parents peuvent en être avertis. La mesure répond aux critiques croissantes sur les risques des compagnons IA pour la santé mentale des mineurs et s'ajoute aux contrôles parentaux existants des plateformes du groupe."
+    },
+    {
+      "category": "AI",
+      "title": "Roblox lance la création de jeux par IA dans son application mobile",
+      "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
+      "publishedAt": "2026-07-16",
+      "summary": "Roblox intègre à son application mobile un outil de création de jeux propulsé par l'IA, qui permet aux joueurs de générer des expériences directement depuis leur téléphone. La plateforme abaisse ainsi encore la barrière d'entrée à la création, un axe stratégique pour alimenter son écosystème de contenus générés par les utilisateurs."
+    },
+    {
+      "category": "AI",
+      "title": "Google Vids permet de jouer dans ses propres vidéos IA",
+      "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+      "publishedAt": "2026-07-16",
+      "summary": "Google Vids ajoute une fonction permettant aux utilisateurs d'apparaître comme personnages générés par IA dans leurs propres vidéos. L'outil de création vidéo de Google Workspace étend ainsi ses capacités génératives, en misant sur la personnalisation des avatars pour les contenus professionnels et de formation."
+    },
+    {
+      "category": "IT",
+      "title": "Coca-Cola suspend la production de sa laiterie Fairlife après un rançongiciel",
+      "url": "https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/",
+      "publishedAt": "2026-07-16",
+      "summary": "Coca-Cola a suspendu la production de sa filiale laitière Fairlife à la suite d'une attaque par rançongiciel qui a perturbé ses opérations industrielles. L'incident illustre une nouvelle fois la vulnérabilité des chaînes de production agroalimentaires aux cyberattaques et leurs conséquences opérationnelles directes."
+    },
+    {
+      "category": "IT",
+      "title": "Royaume-Uni : l'arrestation de deux jeunes hackers désorganise un groupe cybercriminel notoire",
+      "url": "https://techcrunch.com/2026/07/16/uk-cops-say-arrest-of-two-young-hackers-disrupted-the-operations-of-an-infamous-hacking-group/",
+      "publishedAt": "2026-07-16",
+      "summary": "La police britannique affirme que l'arrestation de deux jeunes pirates informatiques a perturbé les opérations d'un groupe de hackers tristement célèbre. Ce coup de filet s'inscrit dans une série d'actions coordonnées des forces de l'ordre contre la cybercriminalité organisée visant entreprises et infrastructures."
+    },
+    {
+      "category": "IT",
+      "title": "OnePlus renonce à lancer de nouveaux téléphones aux États-Unis et en Europe",
+      "url": "https://techcrunch.com/2026/07/16/phone-maker-oneplus-reportedly-plans-to-wind-down-us-and-europe-operations/",
+      "publishedAt": "2026-07-16",
+      "summary": "Le fabricant de smartphones OnePlus prévoit de ne plus commercialiser de nouveaux téléphones aux États-Unis et en Europe et de réduire progressivement ses opérations sur ces marchés. La marque, autrefois populaire auprès des passionnés pour ses appareils au rapport qualité-prix agressif, se recentrerait sur d'autres régions."
+    },
+    {
+      "category": "IT",
+      "title": "San Francisco veut durcir les règles pour les robotaxis après le fiasco Waymo",
+      "url": "https://techcrunch.com/2026/07/16/san-francisco-mayor-pushes-for-tougher-rules-after-the-waymo-traffic-fiasco/",
+      "publishedAt": "2026-07-16",
+      "summary": "Le maire de San Francisco réclame un durcissement de la réglementation des véhicules autonomes après un fiasco de circulation impliquant des robotaxis Waymo. La ville cherche à obtenir davantage de contrôle sur des services aujourd'hui régulés principalement au niveau de l'État de Californie, relançant le débat sur la supervision locale des flottes autonomes."
+    },
+    {
+      "category": "IT",
+      "title": "L'app de suivi menstruel Stardust partage des données de santé avec un tiers",
+      "url": "https://techcrunch.com/2026/07/16/period-tracker-stardust-shares-users-health-data-with-analytics-firm-says-mozilla-research/",
+      "publishedAt": "2026-07-16",
+      "summary": "Selon des recherches de Mozilla, l'application de suivi menstruel Stardust transmet des données de santé de ses utilisatrices à une société d'analyse tierce. Ces révélations ravivent les inquiétudes sur la confidentialité des applications de santé féminine et sur l'usage commercial de données particulièrement sensibles."
+    },
+    {
+      "category": "Science",
+      "title": "Un gecko léopard devient un modèle inattendu pour la recherche sur le cancer",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260714225525.htm",
+      "publishedAt": "2026-07-15",
+      "summary": "Un gecko léopard qui développe naturellement des tumeurs agressives pourrait devenir un nouveau modèle animal important pour la recherche en oncologie. Les scientifiques espèrent que l'étude de ce reptile éclairera les mécanismes de formation et de progression des tumeurs, offrant une alternative aux modèles murins classiques."
+    },
+    {
+      "category": "Science",
+      "title": "Un « squelette » interne des neurones ouvre une piste contre Alzheimer",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260714225542.htm",
+      "publishedAt": "2026-07-15",
+      "summary": "Des chercheurs ont découvert qu'un squelette microscopique à l'intérieur des neurones agit comme un mécanisme de régulation qui pourrait aider à lutter contre la maladie d'Alzheimer. Cette structure cytosquelettique, jusqu'ici sous-estimée, constitue une cible thérapeutique potentielle pour préserver la fonction neuronale."
+    },
+    {
+      "category": "Science",
+      "title": "Hubble révèle quatre naines blanches cachées près de la Terre",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260714225528.htm",
+      "publishedAt": "2026-07-15",
+      "summary": "Des observations du télescope spatial Hubble ont révélé quatre naines blanches proches de la Terre passées inaperçues jusqu'ici, dissimulées à côté de compagnons plus brillants de type naine rouge. Cette découverte affine le recensement des restes stellaires du voisinage solaire et aide à mieux comprendre l'évolution des systèmes binaires."
+    },
+    {
+      "category": "Science",
+      "title": "Sorties culturelles : un lien mesurable avec un vieillissement biologique ralenti",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260714225526.htm",
+      "publishedAt": "2026-07-15",
+      "summary": "Une étude montre que les personnes âgées qui fréquentent musées, concerts et spectacles présentent des marqueurs de vieillissement biologique associés à une meilleure jeunesse physiologique. Ces résultats renforcent l'idée que l'engagement culturel et social contribue de façon mesurable à la santé et au bien-vieillir."
+    }
+  ]
+}
