@@ -1,0 +1,187 @@
+{
+  "date": "2026-07-18",
+  "generatedAt": "2026-07-18T05:45:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 30,
+      "low": 21,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 15
+    },
+    "lausanne": {
+      "high": 29,
+      "low": 22,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 38
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Romande Energie réalise son premier investissement hors de Suisse en entrant au capital de la start-up finlandaise Hyperion Robotics, spécialisée dans l'impression 3D de structures en béton bas carbone pour les réseaux électriques.",
+      "publishedAt": "2026-07-17"
+    },
+    {
+      "headline": "La vente des puffs (cigarettes électroniques jetables) reste interdite à Genève pendant l'examen du recours par le Tribunal fédéral, la clause d'urgence étant maintenue au nom de la santé publique.",
+      "publishedAt": "2026-07-17"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "L'escalade entre les États-Unis et l'Iran autour du détroit d'Ormuz, par où transite environ 20 % du pétrole mondial, fait grimper les cours du brut et ravive les inquiétudes sur les routes commerciales.",
+      "publishedAt": "2026-07-17"
+    },
+    {
+      "headline": "L'Ukraine combat sous un ministre de la Défense par intérim au lendemain d'un remaniement gouvernemental de Volodymyr Zelensky qui a écarté Mykhaïlo Fedorov et provoqué de vifs remous au sein de l'appareil militaire.",
+      "publishedAt": "2026-07-17"
+    },
+    {
+      "headline": "La finale de la Coupe du monde 2026 opposera l'Espagne à l'Argentine tenante du titre, dimanche au MetLife Stadium du New Jersey, pour un duel entre Lamine Yamal et Lionel Messi.",
+      "publishedAt": "2026-07-16"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 17 juillet 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -1.4
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": -0.77
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.26
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": -0.68
+      }
+    ],
+    "summary": "Wall Street a nettement reculé sous l'effet de la déroute des semi-conducteurs et des tensions américano-iraniennes, tandis que le SMI a légèrement progressé et l'Euro Stoxx 50 a cédé un peu de terrain."
+  },
+  "tech": [
+    {
+      "category": "IT",
+      "title": "Apple repasse devant Nvidia comme première capitalisation mondiale",
+      "url": "https://9to5mac.com/2026/07/17/apple-reclaims-most-valuable-company-title-from-nvidia-as-it-barrels-toward-5t/",
+      "publishedAt": "2026-07-17",
+      "summary": "Apple a repris à Nvidia le titre d'entreprise la plus valorisée au monde lors de la séance de vendredi, sa capitalisation approchant les 5000 milliards de dollars (environ 4,88 billions contre 4,86 pour Nvidia). C'est la première fois depuis avril 2025 qu'Apple retrouve la première place. Ce basculement traduit un changement de sentiment des investisseurs, qui élargissent leur regard au-delà des bénéficiaires évidents du boom de l'IA comme Nvidia. Longtemps perçue comme en retard dans la course à l'IA faute d'investissements massifs dans les modèles, Apple bénéficie désormais d'une confiance renouvelée dans son écosystème matériel. Le groupe traverse par ailleurs une transition de direction, John Ternus devant succéder à Tim Cook comme PDG."
+    },
+    {
+      "category": "AI",
+      "title": "Moonshot AI dévoile Kimi K3, plus grand modèle open-weight à ce jour",
+      "url": "https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html",
+      "publishedAt": "2026-07-17",
+      "summary": "La start-up chinoise Moonshot AI a dévoilé Kimi K3, un modèle open-weight de 2800 milliards de paramètres (architecture mixture-of-experts, compréhension multimodale native, fenêtre de contexte d'un million de tokens). Jamais un modèle aussi volumineux n'avait été publié en poids ouverts. Il introduit deux innovations, Kimi Delta Attention et Attention Residuals, censées améliorer efficacité et raisonnement. Lors de tests à l'aveugle de l'évaluateur Arena, les développeurs ont préféré Kimi à tous les grands modèles américains pour le code front-end (76 % de victoires). Il reste toutefois derrière eux sur la performance globale. Tarification API : 3 dollars par million de tokens en entrée, 15 en sortie. Les poids seront diffusés le 27 juillet. Une étape marquante du basculement vers l'IA ouverte chinoise."
+    },
+    {
+      "category": "AI",
+      "title": "Google retarde Gemini 3.5 Pro, en deçà de ses objectifs internes",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals",
+      "publishedAt": "2026-07-16",
+      "summary": "Google accuse plusieurs mois de retard sur Gemini 3.5 Pro, son modèle phare, en cherchant à en améliorer les capacités, notamment en programmation. Sundar Pichai avait annoncé à la conférence I/O en mai une sortie en juin ; une actualisation des données d'entraînement fin juin a produit des résultats décevants, selon dix employés actuels et anciens. Le modèle reste en preview limitée pour les entreprises pendant que les ingénieurs tentent de rehausser ses performances en code et en raisonnement complexe de long horizon. Le retard suscite une forte frustration en interne, beaucoup craignant que Google ne perde son avance face à Anthropic et OpenAI. L'action Alphabet a reculé de près de 3 % après ces informations."
+    },
+    {
+      "category": "AI",
+      "title": "La Chine lance WAICO, alliance sur l'IA réunissant 29 nations",
+      "url": "https://www.aljazeera.com/news/2026/7/17/chinas-xi-jinping-launches-new-ai-alliance-what-is-it",
+      "publishedAt": "2026-07-17",
+      "summary": "La Chine a officialisé la World Artificial Intelligence Cooperation Organisation (WAICO), coalition de 29 nations fondatrices dont l'Indonésie, le Brésil, la Malaisie, l'Afrique du Sud, le Sénégal, la Russie et le Pakistan, avec siège à Shanghai. L'organisation vise à promouvoir la coopération internationale et à développer une régulation de l'IA garantissant une technologie bénéfique et sûre. Xi Jinping a affirmé que le développement de l'IA ne devait pas être un solo d'un seul pays mais une symphonie de coopération internationale. Les analystes estiment que Pékin entend peser sur les politiques mondiales de l'IA au niveau de l'ONU et façonner une gouvernance reflétant ses intérêts, en particulier une vision centrée sur l'État auprès des pays du Sud global, contrebalançant la domination technologique américaine."
+    },
+    {
+      "category": "IT",
+      "title": "Amazon corrige un bug AWS facturant des milliards à certains clients",
+      "url": "https://techcrunch.com/2026/07/17/amazon-fixing-bug-that-billed-some-aws-customers-billions-of-dollars/",
+      "publishedAt": "2026-07-17",
+      "summary": "Amazon a détecté un bug dans le portail de facturation d'AWS affichant à certains clients des montants erronés ne reflétant pas leur usage réel. Des captures d'écran partagées sur Reddit montraient des factures gonflées allant de plusieurs millions à plusieurs milliards de dollars, un client évoquant un devis d'environ 2,5 milliards pour sa consommation mensuelle. Les données défectueuses sont apparues jeudi soir, Amazon reconnaissant le problème vendredi matin. Une première tentative d'annulation d'une modification récente du sous-système de calcul de facturation s'est révélée inefficace. Malgré ces estimations alarmantes, aucun client n'a été réellement débité. Amazon n'a pas précisé si des comptes avaient été suspendus et prévoyait plusieurs heures supplémentaires pour une résolution complète."
+    },
+    {
+      "category": "AI",
+      "title": "Fireworks lève 1,5 milliard en série D, valorisée à 17,5 milliards",
+      "url": "https://fireworks.ai/blog/series-d-announcement",
+      "publishedAt": "2026-07-17",
+      "summary": "Fireworks, plateforme d'infrastructure d'inférence pour l'IA, a annoncé une levée de 1,505 milliard de dollars en série D, valorisant l'entreprise à 17,5 milliards. Le tour a été mené par Atreides Management, Index Ventures et TCV, avec la participation de Lightspeed, Nvidia, Bessemer, Menlo Ventures et d'autres. Ce jalon intervient alors que Fireworks dépasse un milliard de dollars de revenu annualisé et sert plus de 40 000 milliards de tokens par jour, un chiffre d'affaires multiplié par cinq sur un an. Dirigée par Lin Qiao, la société permet à des clients comme Doximity, Geico, Revolut et Shopify d'entraîner et servir des modèles adaptés à leurs propres données et flux de travail. Les fonds serviront à étendre l'infrastructure de calcul et à agrandir l'équipe d'ingénierie."
+    },
+    {
+      "category": "IT",
+      "title": "Meta recrute le cadre d'AWS Dave Brown pour ses centres de données",
+      "url": "https://www.geekwire.com/2026/departing-aws-exec-dave-brown-is-reportedly-joining-meta-as-facebook-parent-mulls-its-own-cloud/",
+      "publishedAt": "2026-07-17",
+      "summary": "Dave Brown, cadre senior d'AWS dont Amazon a annoncé le départ cette semaine après près de vingt ans, rejoint Meta pour travailler sur le déploiement de ses centres de données, selon le Wall Street Journal. Brown, qui dirigeait les services de calcul (EC2) et d'IA d'AWS, doit arriver dans les prochaines semaines et rapporter au responsable de l'infrastructure de Meta. Ce recrutement de haut niveau illustre les ambitions croissantes de Meta en matière d'infrastructure de calcul pour sa stratégie d'IA. Meta ne s'est pas engagé à devenir fournisseur cloud, mais Mark Zuckerberg a indiqué que l'idée était sur la table, des entreprises sollicitant régulièrement Meta pour accéder à ses modèles d'IA ou à sa capacité de calcul disponible."
+    },
+    {
+      "category": "IT",
+      "title": "Zoox rappelle son logiciel après la confusion d'un robotaxi face à la fumée",
+      "url": "https://techcrunch.com/2026/07/17/zoox-issues-software-recall-after-a-robotaxi-got-confused-by-heavy-smoke/",
+      "publishedAt": "2026-07-17",
+      "summary": "Zoox, filiale d'Amazon, a émis un rappel logiciel visant ses 105 véhicules après un incident du 20 juin : un robotaxi confronté à une épaisse fumée masquant une scène d'incendie active sans cônes de signalisation avait freiné brutalement en tentant de s'écarter avant de s'immobiliser, un opérateur à distance devant le faire reculer. La mise à jour ajoute la capacité de détecter et réagir à la fumée dense aux scènes d'urgence. Aucun passager n'était à bord et aucun blessé n'a été signalé. Ce rappel, le quatrième de Zoox, fait suite à un avertissement de l'administrateur de la NHTSA Jonathan Morrison. L'entreprise prépare son lancement commercial à Las Vegas et San Francisco."
+    },
+    {
+      "category": "IT",
+      "title": "Patreon bloque activement les robots d'entraînement des IA",
+      "url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+      "publishedAt": "2026-07-17",
+      "summary": "Patreon durcit sa défense contre le scraping non autorisé par les IA en s'associant à Cloudflare pour bloquer activement les robots d'entraînement, plutôt que de se contenter de requêtes. La plateforme utilisait auparavant des fichiers robots.txt pour demander aux crawlers de ne pas aspirer les contenus, mais beaucoup ignoraient ces directives. Grâce à la technologie AI Crawl Control de Cloudflare, les tentatives hebdomadaires de certains robots sont tombées de plusieurs milliers à zéro. Le consentement ne devrait pas dépendre du bon vouloir d'un aspirateur de données, affirme Patreon. Les robots qui indexent et renvoient les utilisateurs vers le site resteront autorisés. Ce renforcement accompagne de nouvelles fonctionnalités de découverte et illustre le mouvement du secteur pour protéger les droits des créateurs face à l'entraînement des modèles."
+    },
+    {
+      "category": "IT",
+      "title": "Le FBI arrête un homme accusé d'avoir piégé des jeux Steam pour voler des cryptos",
+      "url": "https://techcrunch.com/2026/07/17/fbi-arrests-man-accused-of-using-steam-games-to-drain-victims-crypto-wallets/",
+      "publishedAt": "2026-07-17",
+      "summary": "Le FBI a arrêté un étudiant floridien de 21 ans accusé d'avoir orchestré un stratagème de logiciels malveillants visant les joueurs. Avec des complices, il aurait publié sur Steam des jeux piégés (BlockBlasters, Dashverse, Lampy, Lunara, PirateFi) conçus pour infecter les ordinateurs, voler mots de passe et données, et vider les portefeuilles de cryptomonnaies. Le bilan atteint environ 8000 victimes infectées, près de 80 portefeuilles compromis et au moins 220 000 dollars dérobés en deux ans. Les jeux étaient promus sur Discord, LinkedIn et Telegram. Les enquêteurs ont remonté les paiements en cryptomonnaie utilisés pour acheter des cartes cadeaux jusqu'à un compte lié au pseudonyme du suspect. Un ordinateur portable, des téléphones et des portefeuilles numériques ont été saisis."
+    },
+    {
+      "category": "IT",
+      "title": "Premier prêt garanti par des puces d'inférence : une opération de 400 millions",
+      "url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
+      "publishedAt": "2026-07-17",
+      "summary": "General Compute a obtenu un prêt de 400 millions de dollars d'Upper90, présenté comme le premier financement utilisant des puces spécialisées dans l'inférence comme garantie, plutôt que des GPU. Fondée par Finn Puklowski et Jason Goodison, General Compute construit une infrastructure d'inférence autour des puces SN50 de SambaNova. Upper90 est dirigée par l'ancien trader de Goldman Sachs Billy Libby, qui parie sur l'importance des modèles open source. L'entreprise affirme délivrer une inférence 16 fois plus rapide que les clouds à base de GPU, sans coûteux refroidissement à eau. L'opération illustre un basculement du marché vers des alternatives moins chères aux puces d'entraînement onéreuses et vers des solutions non-Nvidia, alors que montent les inquiétudes sur les prix des outils d'IA et la saturation du financement des GPU."
+    },
+    {
+      "category": "IT",
+      "title": "Des start-up misent sur des téléphones plus sûrs pour les enfants",
+      "url": "https://techcrunch.com/2026/07/17/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call/",
+      "publishedAt": "2026-07-17",
+      "summary": "Face aux inquiétudes croissantes des parents sur les dangers des smartphones, un marché de terminaux conçus pour les enfants se développe. On distingue les smartphones modifiés, comme le Bark Phone qui détecte cyberharcèlement et manipulation, Gabb qui supprime réseaux sociaux et navigateurs, Pinwheel avec ses modes quotidiens paramétrables, ou le Teracube Thrive doté d'un Android personnalisé avec validation des applications. À côté, des téléphones minimalistes ou de maison, tels l'Ooma MyPhone limitant les appels aux contacts approuvés, le Tin Can (téléphone fixe Wi-Fi) ou les Pinwheel Landlines rétro. Les fonctionnalités communes incluent géolocalisation GPS, gestion du temps d'écran et contrôles parentaux. Un secteur qui répond à une demande de sécurité tout en réintroduisant des usages plus sobres du téléphone."
+    },
+    {
+      "category": "Science",
+      "title": "Une étude de 39 édulcorants révèle des effets inattendus sur le microbiote",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260716023552.htm",
+      "publishedAt": "2026-07-17",
+      "summary": "Une vaste étude de laboratoire a montré que de nombreux édulcorants couramment utilisés peuvent modifier directement la croissance des bactéries intestinales. En testant 39 édulcorants, les chercheurs ont identifié plus d'une centaine de cas où ces substances se comportaient différemment lorsqu'elles étaient combinées à des médicaments, à la caféine ou à d'autres composés. Ces résultats suggèrent que l'effet des édulcorants sur le microbiote n'est pas uniforme et dépend fortement du contexte alimentaire et médicamenteux. Ils invitent à reconsidérer l'idée reçue selon laquelle les édulcorants seraient métaboliquement neutres, et ouvrent des pistes pour mieux comprendre leurs interactions avec la santé digestive et l'équilibre du microbiote."
+    },
+    {
+      "category": "Science",
+      "title": "PLATON : une caméra à champ lumineux qui suit les particules invisibles en 3D",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260716023610.htm",
+      "publishedAt": "2026-07-17",
+      "summary": "Des scientifiques ont mis au point un nouveau détecteur de particules baptisé PLATON, capable de remplacer des millions de minuscules composants de détection par un seul bloc de matériau produisant de la lumière. Le dispositif associe une caméra à champ lumineux (light-field), des capteurs de photons hautement sensibles et de l'intelligence artificielle pour reconstruire en trois dimensions la trajectoire des particules invisibles. Cette approche pourrait considérablement simplifier l'architecture des détecteurs utilisés en physique des particules, en réduisant leur complexité et leur coût tout en conservant une grande précision. En transformant un volume unique de matériau en instrument de suivi 3D, PLATON illustre comment l'imagerie computationnelle et l'IA peuvent renouveler les instruments fondamentaux de la recherche."
+    },
+    {
+      "category": "Science",
+      "title": "L'ADN révèle que les koalas ont failli disparaître avant l'arrivée des humains",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260715083551.htm",
+      "publishedAt": "2026-07-17",
+      "summary": "Une importante étude ADN réécrit l'histoire évolutive du koala en révélant que l'espèce a subi un effondrement démographique spectaculaire il y a environ 100 000 ans, bien avant l'arrivée des humains en Australie. En analysant le taux de mutation de l'espèce, les chercheurs ont pu reconstituer l'évolution de sa population et situer ce déclin majeur à une période très ancienne. Ce résultat suggère que des facteurs environnementaux, et non l'activité humaine, ont d'abord fragilisé les populations de koalas. Ces données éclairent la faible diversité génétique actuelle de l'espèce et pourraient orienter les stratégies de conservation d'un animal aujourd'hui menacé, en montrant qu'il porte les traces génétiques d'une crise démographique très antérieure à la colonisation humaine du continent."
+    },
+    {
+      "category": "Science",
+      "title": "Un nouveau plastique vivant se désintègre en six jours sans microplastiques",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260715083552.htm",
+      "publishedAt": "2026-07-16",
+      "summary": "Des chercheurs ont conçu un nouveau plastique dit vivant qui s'autodétruit en seulement six jours, sans laisser de microplastiques. Le matériau intègre des bactéries modifiées qui, une fois activées, dégradent entièrement le plastique en quelques jours. Contrairement aux plastiques biodégradables classiques, souvent lents et laissant des résidus microscopiques persistants, cette approche vise une décomposition complète et rapide. En logeant les micro-organismes directement dans le matériau, les scientifiques transforment le plastique lui-même en agent de sa propre élimination. Cette innovation pourrait contribuer à réduire la pollution plastique et l'accumulation de microplastiques dans l'environnement, un enjeu sanitaire et écologique majeur, même si des travaux restent nécessaires pour en évaluer la robustesse, le coût et l'usage à grande échelle."
+    },
+    {
+      "category": "Science",
+      "title": "Des nanoparticules enrobées de sucre améliorent la survie au cancer du cerveau chez la souris",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260715083542.htm",
+      "publishedAt": "2026-07-16",
+      "summary": "Une thérapie expérimentale à base de nanoparticules enrobées de sucre a augmenté de 50 % la survie de souris atteintes d'un cancer du cerveau particulièrement agressif. Le revêtement sucré permet aux nanoparticules de franchir la barrière hémato-encéphalique, obstacle majeur au traitement des tumeurs cérébrales, et d'acheminer du matériel génétique jusqu'aux cellules cancéreuses. Cette approche ciblée offre une voie prometteuse pour délivrer des traitements là où les médicaments classiques peinent à pénétrer. Bien qu'encore au stade préclinique chez l'animal, ces résultats ouvrent des perspectives pour des thérapies géniques contre des cancers cérébraux au pronostic souvent sombre, sous réserve de confirmation et d'essais ultérieurs chez l'humain."
+    }
+  ]
+}
