@@ -1,0 +1,212 @@
+{
+  "date": "2026-07-19",
+  "generatedAt": "2026-07-19T06:30:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 30,
+      "low": 20,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 5
+    },
+    "lausanne": {
+      "high": 29,
+      "low": 21,
+      "condition": "Averses faibles",
+      "weathercode": 80,
+      "precipProbability": 8
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "La 60e édition du Montreux Jazz Festival s'est achevée samedi soir avec Van Morrison et James Taylor, réunissant plus de 250'000 personnes et un taux de remplissage de 91% pour son retour au Centre des congrès rénové.",
+      "publishedAt": "2026-07-18"
+    },
+    {
+      "headline": "Le World Masters Tour de tennis s'est ouvert samedi à Lausanne avec près de 250 seniors inscrits, les catégories des plus de 70 et 80 ans n'ayant jamais attiré autant de participants.",
+      "publishedAt": "2026-07-18"
+    },
+    {
+      "headline": "Le premier vin sans alcool entièrement suisse, élaboré entre le canton de Vaud et le Valais, a été présenté ce week-end en Suisse romande.",
+      "publishedAt": "2026-07-18"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Les États-Unis et l'Iran ont échangé des frappes sur des cibles militaires et des infrastructures samedi, sur fond d'escalade autour du détroit d'Ormuz, Téhéran annonçant renoncer à l'accord conclu le mois dernier avec Washington.",
+      "publishedAt": "2026-07-18"
+    },
+    {
+      "headline": "Xi Jinping a lancé à Shanghai l'Organisation mondiale de coopération en intelligence artificielle (WAICO), réunissant 29 pays fondateurs autour d'un cadre commun de gouvernance de l'IA et de 5000 places de formation pour les pays en développement.",
+      "publishedAt": "2026-07-17"
+    },
+    {
+      "headline": "L'Angleterre a décroché la troisième place de la Coupe du monde en battant la France 6-4 à Miami, au terme d'une petite finale spectaculaire à dix buts, veille de la finale Argentine-Espagne.",
+      "publishedAt": "2026-07-18"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du vendredi 17 juillet 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -1.4
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": -0.77
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.54
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": -1.1
+      }
+    ],
+    "summary": "Vendredi a été marqué par une déroute des semi-conducteurs qui a entraîné Wall Street et les places européennes dans le rouge, le SMI faisant exception grâce à son profil défensif."
+  },
+  "tech": [
+    {
+      "category": "AI",
+      "title": "Xi Jinping lance une nouvelle alliance mondiale sur l'IA (WAICO)",
+      "url": "https://www.aljazeera.com/news/2026/7/17/chinas-xi-jinping-launches-new-ai-alliance-what-is-it",
+      "publishedAt": "2026-07-17",
+      "summary": "Lors de la Conférence mondiale sur l'IA à Shanghai, Xi Jinping a lancé l'Organisation mondiale de coopération en intelligence artificielle (WAICO), qui réunit 29 pays fondateurs, dont l'Indonésie, le Brésil, la Malaisie, l'Afrique du Sud, la Russie et le Pakistan. Basée à Shanghai, l'organisation vise à promouvoir la coopération internationale et à élaborer des cadres réglementaires garantissant une IA sûre et bénéfique. Xi a déclaré que le développement de l'IA ne doit pas être le solo d'un seul pays, mais une symphonie de coopération internationale, et a promis 5000 places de formation à l'IA pour les pays en développement. Pékin entend ainsi peser sur la gouvernance mondiale de l'IA, notamment au niveau des Nations unies."
+    },
+    {
+      "category": "AI",
+      "title": "Moonshot dévoile Kimi K3, le plus grand modèle à poids ouverts au monde",
+      "url": "https://www.forbes.com/sites/tylerroush/2026/07/17/chinese-ai-startup-moonshot-unveils-kimi-k3-model-will-it-challenge-openai-and-anthropic/",
+      "publishedAt": "2026-07-17",
+      "summary": "Moonshot AI a dévoilé Kimi K3, présenté comme le plus grand modèle ouvert au monde avec 2800 milliards de paramètres. Ce modèle à poids ouverts peut être téléchargé et modifié librement, contrairement aux systèmes propriétaires. S'il reste derrière les meilleurs modèles fermés d'Anthropic et d'OpenAI, il se montre compétitif sur certains tests, notamment le codage et les tâches d'agents. Fondée en 2023 et soutenue par Alibaba et Tencent, Moonshot a atteint une valorisation de 20 milliards de dollars après une levée de 2 milliards, avec plus de 200 millions de revenus récurrents annuels en avril 2026. L'annonce a fait chuter les actions de ses concurrents Zhipu et MiniMax à Hong Kong."
+    },
+    {
+      "category": "AI",
+      "title": "Databricks atteint une valorisation de 188 milliards de dollars",
+      "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
+      "publishedAt": "2026-07-17",
+      "summary": "Databricks a annoncé une levée d'environ 3 milliards de dollars menée par Coatue, valorisant l'entreprise à 188 milliards. Le tour doit se clôturer durant l'été 2026. En dix-huit mois, la valorisation a grimpé de 62 milliards en décembre 2024 à 100 milliards en septembre 2025, puis 134 milliards en février 2026. L'entreprise a réussi sa transformation de fournisseur d'analytique big data en acteur central de l'IA d'entreprise, avec des produits comme Lakebase (base de données pour agents IA), Unity (passerelle IA) et Omnigent (gestion d'agents). Databricks a aussi publié une étude de référence montrant que les modèles open source traitent les tâches de codage de manière économique face aux modèles propriétaires."
+    },
+    {
+      "category": "AI",
+      "title": "Patreon passe du robots.txt au blocage actif des robots d'IA",
+      "url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+      "publishedAt": "2026-07-17",
+      "summary": "Patreon s'associe à Cloudflare pour bloquer activement les robots d'entraînement d'IA, abandonnant les simples requêtes via robots.txt. Durant les tests, les tentatives hebdomadaires d'accès par des collecteurs d'IA sont passées de plusieurs milliers à zéro, prouvant que ces robots ignoraient les consignes précédentes. La plateforme continue d'autoriser les robots d'indexation qui ramènent des visiteurs vers Patreon, tout en bloquant ceux destinés à entraîner des modèles sans autorisation. Drew Rowny, directeur produit, estime que les créateurs méritent d'avoir leur mot à dire sur l'usage de leur travail par les entreprises d'IA. Cloudflare bloque désormais par défaut les robots à usage mixte et propose une place de marché Pay Per Crawl."
+    },
+    {
+      "category": "AI",
+      "title": "NVIDIA et Hugging Face publient NeMo Automodel pour le fine-tuning de modèles vidéo et image",
+      "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+      "publishedAt": "2026-07-17",
+      "summary": "NVIDIA et Hugging Face présentent NeMo Automodel, une bibliothèque d'entraînement basée sur PyTorch qui fonctionne avec n'importe quel modèle Diffusers du Hub sans conversion de points de contrôle. Elle prend en charge le parallélisme FSDP2, tensoriel, expert, contextuel et pipeline, avec un entraînement par flow-matching, un apprentissage en espace latent via sorties VAE pré-encodées et un chargement multirésolution par lots. Les modèles supportés incluent FLUX.1-dev, FLUX.2-dev, Wan 2.1 et 2.2, HunyuanVideo 1.5 et Qwen-Image. Sur 8 GPU H100, le fine-tuning complet de FLUX.1-dev atteint environ 35,5 images par seconde. Le tout est distribué en open source sous licence Apache 2.0."
+    },
+    {
+      "category": "AI",
+      "title": "Un prêt de 400 millions de dollars gagé sur des puces d'inférence",
+      "url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
+      "publishedAt": "2026-07-17",
+      "summary": "General Compute a obtenu un prêt de 400 millions de dollars auprès d'Upper90, première opération connue utilisant des puces dédiées à l'inférence comme garantie de financement. Fondée par Finn Puklowski et Jason Goodison, la société avait levé 15 millions en amorçage en mai pour bâtir une infrastructure d'inférence reposant sur les puces SN50 de SambaNova, économes en énergie, sans refroidissement à eau et présentées comme seize fois plus rapides que les clouds à base de GPU. Upper90, qui avait financé les achats de GPU de Crusoe Energy en 2021, se tourne vers l'inférence, les GPU étant désormais bien compris voire surachetés."
+    },
+    {
+      "category": "AI",
+      "title": "La pénurie de mémoire liée à l'IA secoue le marché indien du smartphone",
+      "url": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/",
+      "publishedAt": "2026-07-17",
+      "summary": "La demande de puces mémoire liée à l'IA bouleverse l'électronique grand public, et l'Inde en fournit la preuve la plus nette. Samsung, SK Hynix et Micron réorientent leurs capacités vers la mémoire à haute bande passante utilisée dans les accélérateurs d'IA, bien plus rentable par galette de silicium, ce qui raréfie et renchérit la mémoire destinée aux téléphones et ordinateurs. Deuxième marché mondial du smartphone en volume, l'Inde a vu ses livraisons chuter de 10% sur un an au deuxième trimestre, le plus fort recul en six ans. Environ 60% du marché indien se situe sous 20 000 roupies, segment le plus touché. Les prix ont augmenté de 4% à 68% selon les modèles."
+    },
+    {
+      "category": "IT",
+      "title": "7-Zip corrige une faille critique d'exécution de code à distance",
+      "url": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
+      "publishedAt": "2026-07-18",
+      "summary": "7-Zip a publié la version 26.02 qui corrige une faille critique d'exécution de code à distance (ZDI-26-444). Un débordement de tampon dans le tas survient lors du traitement de données compressées au format XZ: une archive spécialement conçue permet d'exécuter du code arbitraire avec les droits de l'utilisateur. Toutes les versions antérieures à 26.02 sont vulnérables. Le correctif ajoute des vérifications empêchant le décodeur d'écrire au-delà de l'espace disponible dans le tampon de sortie. L'exploitation exige une interaction: la victime doit ouvrir un fichier piégé. Aucune exploitation active n'est signalée à ce jour, mais 7-Zip ne disposant pas de mise à jour automatique, le téléchargement manuel depuis 7-zip.org est indispensable."
+    },
+    {
+      "category": "IT",
+      "title": "WordPress: des exploits publics pour les failles wp2shell",
+      "url": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
+      "publishedAt": "2026-07-18",
+      "summary": "Deux failles du coeur de WordPress, baptisées wp2shell, forment une chaîne d'exploitation permettant une prise de contrôle non authentifiée. CVE-2026-63030 exploite une confusion de routes dans l'API REST par lots, CVE-2026-60137 une injection SQL via le paramètre author__not_in. Les versions 6.9.0-6.9.4 et 7.0.0-7.0.1 subissent la chaîne complète; l'injection SQL seule touche les 6.8.0-6.8.5. Des preuves de concept publiques circulent sur GitHub et watchTowr observe déjà des exploitations réelles. Avec plus de 500 millions de sites concernés, la mise à jour vers 7.0.2 ou 6.9.5 est urgente. WordPress a forcé les mises à jour de sécurité automatiques et Cloudflare a déployé des règles WAF."
+    },
+    {
+      "category": "IT",
+      "title": "Microsoft alerte sur une vague d'attaques du voleur ACR Stealer",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
+      "publishedAt": "2026-07-18",
+      "summary": "Microsoft alerte sur une forte hausse des attaques du voleur d'informations ACR Stealer contre ses clients entreprises entre fin avril et mi-juin 2026. Rebaptisage du malware Amatera Stealer, il est diffusé en tant que service via des leurres d'ingénierie sociale ClickFix, des serveurs WebDAV et l'utilitaire MSHTA. Il dérobe mots de passe, cookies, données de session et jetons d'authentification des navigateurs, ainsi que des PDF, documents Microsoft 365 et fichiers du bureau. Certaines variantes utilisent des services blockchain publics comme relais pour récupérer leurs adresses de commande. Microsoft recommande de filtrer le web et de restreindre l'exécution de contenus distants via PowerShell ou Python."
+    },
+    {
+      "category": "IT",
+      "title": "Un zero-day Windows baptisé LegacyHive octroie des droits administrateur",
+      "url": "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/",
+      "publishedAt": "2026-07-17",
+      "summary": "Un chercheur surnommé Nightmare Eclipse a publié une preuve de concept pour une faille zero-day baptisée LegacyHive, quelques heures après le Patch Tuesday de juillet 2026. La vulnérabilité vise le service de profils utilisateur de Windows et permet une élévation de privilèges: un utilisateur non administrateur peut modifier la ruche de registre des classes et obtenir une exécution de code automatique lors de la connexion d'un compte administrateur. Les systèmes Windows à jour restent affectés et aucun identifiant CVE n'a encore été attribué. L'exploit publié requiert des identifiants supplémentaires, ce qui limite son armement immédiat. Microsoft indique enquêter activement, sans calendrier de correctif annoncé."
+    },
+    {
+      "category": "IT",
+      "title": "HollowByte: 11 octets suffisent à saturer la mémoire d'un serveur OpenSSL",
+      "url": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
+      "publishedAt": "2026-07-17",
+      "summary": "La faille HollowByte permet de saturer la mémoire d'un serveur OpenSSL avec seulement 11 octets. Lors d'une poignée de main TLS, les versions vulnérables allouent la mémoire selon la taille annoncée dans l'en-tête du message avant de vérifier que les données arrivent réellement. L'attaquant annonce un message volumineux puis n'envoie rien: le serveur réserve la mémoire et attend. En multipliant les connexions avec des tailles aléatoires, il empêche l'allocateur de réutiliser les blocs libérés et provoque un gonflement mémoire durable. Les versions antérieures à 3.0.21, 3.4.6, 3.5.7, 3.6.3 et 4.0.1 sont concernées. Le problème est traité comme un durcissement, sans CVE."
+    },
+    {
+      "category": "IT",
+      "title": "Failles critiques de FortiSandbox activement exploitées, la CISA impose la mise à jour",
+      "url": "https://www.theregister.com/security/2026/07/17/attackers-target-critical-fortisandbox-flaws-as-cisa-issues-patch-order/5274287",
+      "publishedAt": "2026-07-17",
+      "summary": "Deux failles critiques de FortiSandbox (CVE-2026-39808 et CVE-2026-25089, CVSS 9.1) sont activement exploitées. Ces injections de commandes système permettent à un attaquant non authentifié d'exécuter des commandes arbitraires via des requêtes HTTP spécialement conçues, sur FortiSandbox, FortiSandbox Cloud et FortiSandbox PaaS. Les correctifs existent depuis avril et juin 2026, mais de nombreux systèmes restent exposés. La CISA a ajouté les deux vulnérabilités à son catalogue des failles activement exploitées, obligeant les agences fédérales américaines à corriger dans les délais fixés par la directive BOD 26-04 ou à retirer les produits concernés."
+    },
+    {
+      "category": "IT",
+      "title": "Un bug d'Android 16 permet à Gemini d'envoyer des SMS sans code PIN",
+      "url": "https://www.theregister.com/security/2026/07/17/google-fixing-android-lock-screen-bug-that-lets-gemini-send-sms-without-a-pin/5273027",
+      "publishedAt": "2026-07-17",
+      "summary": "Un bug d'Android 16 permet de contourner l'écran de verrouillage pour envoyer des SMS ou des messages WhatsApp via Gemini, sans saisir le code PIN. La manipulation repose sur un problème de synchronisation: lorsque Gemini réclame la vérification du PIN avant l'envoi, appuyer simultanément sur Continuer et sur le bouton d'ajout de pièce jointe court-circuite l'authentification. Une fois ce premier contournement réussi, l'attaquant peut étendre l'accès de Gemini à d'autres applications. Le risque est réel dans un contexte de vols de téléphones en hausse, notamment au Royaume-Uni. Google confirme un correctif en cours de déploiement cette semaine, sur plusieurs fabricants."
+    },
+    {
+      "category": "IT",
+      "title": "Mozilla accélère le rythme des versions de Firefox à deux semaines",
+      "url": "https://www.theregister.com/software/2026/07/17/mozilla-speeds-firefox-release-schedule-to-biweekly/5274423",
+      "publishedAt": "2026-07-17",
+      "summary": "Mozilla va faire passer Firefox d'un cycle de publication de quatre semaines à deux semaines, à partir de septembre 2026. Sylvestre Ledru, directeur de l'ingénierie, précise que le changement concerne Firefox Desktop et Android, et débutera avec Firefox 155 livré le 1er septembre au lieu du 15. Mozilla présente la démarche comme une expérimentation et souligne que les travaux insuffisamment mûrs ne seront pas précipités. Les versions ESR, destinées aux entreprises, ne sont pas concernées: Firefox 153, attendu le 21 juillet, conserve un rythme annuel avec des correctifs de sécurité pendant au moins quinze mois. Cette décision suit une annonce comparable de Google pour Chrome en mars 2026."
+    },
+    {
+      "category": "IT",
+      "title": "Une panne mobile australienne causée par un serveur NTP revenu en 2006",
+      "url": "https://www.theregister.com/networks/2026/07/17/ntp_server_that_traveled_back_in_time_caused_massive_aussie_mobile_outage/5274059",
+      "publishedAt": "2026-07-17",
+      "summary": "L'opérateur australien Telstra a publié l'analyse de la panne majeure du 8 juillet 2026, qui a perturbé le réseau mobile, les appels d'urgence, les paiements et les transports. La cause: un serveur NTP dont les horloges internes sont revenues en 2006. Lors du remplacement d'une alimentation de secours défaillante, un technicien a redémarré un serveur dont la carte GPS n'a pas fonctionné comme prévu; une modification de conception jamais documentée lui a fait diffuser une heure erronée sur le réseau. Les systèmes recevant cette information ont alors rejeté les connexions, les certificats numériques devenant invalides. Telstra promet de corriger ses procédures."
+    },
+    {
+      "category": "IT",
+      "title": "Un étudiant réimplémente le noyau Linux 0.11 entièrement en Rust",
+      "url": "https://www.theregister.com/os-platforms/2026/07/17/torvalds-challenged-the-haters-to-fork-linux-someone-said-hold-my-beer/5274275",
+      "publishedAt": "2026-07-17",
+      "summary": "Un étudiant de l'université Beihang à Pékin a publié linux-0.11-rs, une réimplémentation complète en Rust du noyau Linux 0.11, sorti en décembre 1991. Le projet répond avec humour au défi lancé par Linus Torvalds aux détracteurs de la place croissante de l'IA dans le développement du noyau. L'ensemble représente environ 47 000 lignes de Rust, dont 15 000 pour le noyau lui-même, le reste couvrant les utilitaires et programmes de base du système. Il ne s'agit ni d'un fork ni d'un portage, mais d'une reconstruction depuis zéro d'un prototype vieux de 35 ans, réalisée avec l'aide de l'IA. Une démarche exploratoire et pédagogique."
+    },
+    {
+      "category": "Science",
+      "title": "Le jeûne intermittent aide à maintenir la perte de poids un an après",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260718010154.htm",
+      "publishedAt": "2026-07-18",
+      "summary": "Des chercheurs de l'Université de Grenade montrent, dans la revue Clinical Nutrition, qu'un programme de jeûne intermittent de douze semaines produit des bénéfices durables. L'essai a suivi 99 adultes en surpoids ou obèses pratiquant la méthode 16:8, qui consiste à concentrer les prises alimentaires sur une fenêtre de huit heures. Un an après la fin de l'intervention encadrée, les participants du groupe jeûne conservaient une perte de poids nettement supérieure à celle des personnes gardant des horaires alimentaires classiques. Le résultat suggère qu'une restriction temporelle simple peut aider au maintien du poids sur le long terme, un point faible habituel des régimes."
+    },
+    {
+      "category": "Science",
+      "title": "Les édulcorants de synthèse associés à un vieillissement cérébral accéléré",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260717033213.htm",
+      "publishedAt": "2026-07-17",
+      "summary": "Une étude publiée dans Neurology a suivi près de 13 000 adultes brésiliens pendant huit ans et associe une consommation élevée d'édulcorants de synthèse à un déclin cognitif accéléré. Sept substances ont été analysées: aspartame, saccharine, acésulfame K, érythritol, xylitol, sorbitol et tagatose, présentes dans les sodas light, eaux aromatisées et aliments transformés. Les plus gros consommateurs ont montré une baisse de mémoire et des capacités de réflexion équivalant à environ 1,6 année de vieillissement supplémentaire. L'effet était plus marqué chez les moins de 60 ans et les personnes diabétiques. Les auteurs soulignent qu'il s'agit d'une corrélation et non d'une relation de cause à effet démontrée."
+    },
+    {
+      "category": "Science",
+      "title": "Le rapport entre les doigts, indice possible de l'évolution du cerveau humain",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260717033350.htm",
+      "publishedAt": "2026-07-17",
+      "summary": "Des chercheurs de l'Université de Swansea, en collaboration avec le département d'anthropologie de l'Université d'Istanbul, ont étudié 225 nouveau-nés afin d'explorer un lien entre exposition hormonale prénatale et taille du cerveau. Le rapport entre la longueur de l'index et celle de l'annulaire, appelé rapport 2D:4D, sert d'indicateur indirect de l'exposition aux oestrogènes durant la vie foetale. Chez les garçons, un rapport élevé, signe d'une forte exposition aux oestrogènes, s'accompagne d'un périmètre crânien plus important. Cette relation n'apparaît pas chez les filles. Les résultats paraissent dans Early Human Development."
+    }
+  ]
+}
