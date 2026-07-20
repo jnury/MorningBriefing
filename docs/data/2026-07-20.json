@@ -1,0 +1,145 @@
+{
+  "date": "2026-07-20",
+  "generatedAt": "2026-07-20T05:45:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 29,
+      "low": 18,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 28,
+      "low": 18,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Au Swiss Open de Gstaad, le Grec Stefanos Tsitsipas a remporté la finale face au Belge Raphaël Collignon (6-4, 6-7, 6-3).",
+      "publishedAt": "2026-07-19"
+    },
+    {
+      "headline": "Le Temps consacre une analyse à un fleuron industriel suisse actif depuis plus de trente ans dans les périphériques de jeu vidéo, dont cette activité pèse de plus en plus sur les ventes.",
+      "publishedAt": "2026-07-19"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "L'Espagne a remporté la Coupe du monde 2026 en battant l'Argentine 1-0 après prolongation, grâce à un but de Ferran Torres, décrochant son deuxième titre mondial.",
+      "publishedAt": "2026-07-19"
+    },
+    {
+      "headline": "Andy Burnham a succédé à Keir Starmer au poste de Premier ministre du Royaume-Uni, promettant de mettre fin à l'instabilité politique.",
+      "publishedAt": "2026-07-19"
+    },
+    {
+      "headline": "En visite à Washington, l'Irak a signé 48 accords avec des entreprises américaines, dont un partenariat avec la Syrie pour réhabiliter l'oléoduc reliant Kirkouk à la Méditerranée.",
+      "publishedAt": "2026-07-18"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 17 juillet 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -1.4
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": -0.77
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.54
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": -0.84
+      }
+    ],
+    "summary": "Vendredi, Wall Street a nettement reculé sous l'effet d'un repli des semi-conducteurs et des tensions au Proche-Orient, tandis que le SMI a fini en légère hausse et l'Euro Stoxx 50 dans le rouge."
+  },
+  "tech": [
+    {
+      "category": "IT",
+      "title": "Les fonctionnaires fédéraux américains peuvent de nouveau installer TikTok sur leurs téléphones professionnels",
+      "url": "https://techcrunch.com/2026/07/18/federal-employees-can-download-tiktok-on-their-work-phones-again/",
+      "publishedAt": "2026-07-18",
+      "summary": "Le département américain de la Justice a levé l'interdiction, en vigueur depuis 2022, empêchant les employés fédéraux d'installer TikTok sur leurs appareils professionnels. Ce revirement fait suite à l'accord transférant les activités américaines de TikTok à une coentreprise soutenue par Oracle, Silver Lake et MGX, ByteDance ne conservant que 19,9 % du capital. Selon une note du DOJ, le président Donald Trump a autorisé les employés des agences de l'exécutif à télécharger l'application, à la discrétion de chaque agence et dans le respect des règles internes."
+    },
+    {
+      "category": "IT",
+      "title": "Waymo rétablit son service à San Francisco après une interruption liée à une panne de courant",
+      "url": "https://techcrunch.com/2026/07/18/waymo-appears-to-pause-san-francisco-service-amidst-power-outage/",
+      "publishedAt": "2026-07-18",
+      "summary": "Le service de robotaxis Waymo a été brièvement suspendu à San Francisco à la suite d'une panne d'électricité, avant de reprendre environ une heure plus tard. L'entreprise, filiale d'Alphabet, a indiqué que ses véhicules autonomes avaient été mis en pause par précaution le temps que la situation se normalise, sans incident signalé. Cet épisode illustre la sensibilité des flottes de véhicules autonomes aux perturbations des infrastructures urbaines."
+    },
+    {
+      "category": "IT",
+      "title": "Panorama des véhicules électriques abandonnés ou retirés du marché américain en 2026",
+      "url": "https://techcrunch.com/2026/07/18/all-the-evs-that-were-discontinued-or-killed-off-in-the-u-s-this-year/",
+      "publishedAt": "2026-07-18",
+      "summary": "TechCrunch recense les modèles de véhicules électriques retirés ou abandonnés aux États-Unis en 2026. La liste reflète un marché en recomposition, où plusieurs constructeurs revoient leurs gammes face à l'évolution de la demande, à la concurrence et aux changements de politiques de soutien. Certains modèles disparaissent faute de ventes suffisantes, d'autres cèdent la place à de nouvelles générations. Ce panorama souligne la maturation, parfois brutale, du secteur de l'électrique outre-Atlantique."
+    },
+    {
+      "category": "IT",
+      "title": "Un road trip de près de 1000 km montre que la recharge des véhicules électriques n'est plus un cauchemar",
+      "url": "https://techcrunch.com/2026/07/18/a-600-mile-road-trip-and-data-proves-ev-charging-doesnt-suck-anymore/",
+      "publishedAt": "2026-07-18",
+      "summary": "À l'appui de données recueillies lors d'un trajet de quelque 960 km, TechCrunch conclut que l'expérience de recharge des véhicules électriques s'est nettement améliorée. Le déploiement de bornes rapides plus nombreuses et plus fiables, ainsi que l'accès élargi aux réseaux de superchargeurs, réduisent l'anxiété liée à l'autonomie. L'article documente les temps d'arrêt, les vitesses de charge et la planification d'itinéraire, illustrant les progrès concrets de l'infrastructure sur longue distance."
+    },
+    {
+      "category": "AI",
+      "title": "Kimi K3 : menace ou simple rival ? TechCrunch décrypte le modèle chinois à poids ouverts",
+      "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+      "publishedAt": "2026-07-18",
+      "summary": "TechCrunch s'interroge sur l'impact de Kimi K3, le modèle ouvert de la start-up chinoise Moonshot AI, qui bouscule les acteurs américains de l'IA. Avec ses performances de pointe revendiquées en programmation et en raisonnement, Kimi K3 alimente les inquiétudes sur l'avance des laboratoires occidentaux et sur la pression concurrentielle exercée par les modèles chinois à poids ouverts. L'article met en perspective l'engouement suscité par le modèle et les questions qu'il soulève pour l'écosystème."
+    },
+    {
+      "category": "AI",
+      "title": "Alibaba dévoile Qwen3.8-Max, un modèle multimodal de 2 400 milliards de paramètres",
+      "url": "https://www.marktechpost.com/2026/07/19/alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch/",
+      "publishedAt": "2026-07-19",
+      "summary": "Alibaba a présenté en avant-première Qwen3.8-Max, un modèle multimodal revendiquant 2 400 milliards de paramètres, décrit comme second seulement derrière Fable 5 parmi les systèmes de pointe. Le modèle traite texte, images, vidéos et documents, avec une fenêtre de contexte d'un million de jetons, et une version d'essai est proposée à 10 % du tarif standard. L'annonce, faite lors de la conférence mondiale sur l'IA à Shanghai, intervient quelques jours après le lancement de Kimi K3 par Moonshot. Plusieurs détails clés (nombre de paramètres actifs, calendrier et licence des poids ouverts) restent toutefois non confirmés, les chiffres de performance provenant des évaluations internes d'Alibaba."
+    },
+    {
+      "category": "Science",
+      "title": "Deux nouvelles méthodes pour détruire les polluants éternels (PFAS)",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260718010147.htm",
+      "publishedAt": "2026-07-18",
+      "summary": "Des chercheurs testent deux procédés prometteurs pour détruire les PFAS, ces polluants éternels qui s'accumulent dans l'eau et résistent aux traitements classiques. La première méthode, par cavitation hydrodynamique, force l'eau contaminée à travers un étranglement : la chute puis la remontée brutale de pression forment des bulles de vapeur qui implosent, générant des pics de température de plusieurs milliers de degrés et des radicaux hydroxyles très réactifs qui fracturent les molécules. La seconde exploite un plasma froid à l'interface entre bulles de gaz et eau. Une fois matures, ces technologies pourraient aider à traiter les eaux industrielles avant leur rejet dans les rivières et les lacs."
+    },
+    {
+      "category": "Science",
+      "title": "Une crème solaire minérale sans effet blanc grâce à des particules d'oxyde de zinc repensées",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260718010200.htm",
+      "publishedAt": "2026-07-18",
+      "summary": "Des scientifiques de l'UCLA ont mis au point une crème solaire minérale qui protège des rayons ultraviolets sans laisser l'effet blanchâtre caractéristique. L'équipe a façonné l'oxyde de zinc en structures microscopiques à quatre branches, appelées tétrapodes, qui ne peuvent pas s'agglomérer étroitement et restent réparties uniformément dans la crème. Cette formule SPF 30 offre une forte protection tout en réduisant le voile blanc, ce qui pourrait rendre la protection solaire plus attrayante pour un plus large éventail de teintes de peau. Les résultats ont été publiés dans ACS Materials Letters."
+    },
+    {
+      "category": "Science",
+      "title": "De la poussière cosmique recréée en laboratoire éclaire les origines de la vie",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260718010156.htm",
+      "publishedAt": "2026-07-18",
+      "summary": "Une doctorante de Sydney a fabriqué de la poussière cosmique en recréant les conditions du vide spatial dans des tubes de verre. En évacuant l'air puis en introduisant azote, dioxyde de carbone et acétylène, soumis à environ 10 000 volts pour créer un plasma, l'expérience a produit des molécules riches en carbone contenant des éléments essentiels à la vie et émettant des signatures infrarouges proches de celles observées dans l'espace. Ces échantillons permettent d'étudier comment la chimie organique se forme autour des étoiles et comment comètes, astéroïdes et météorites ont pu apporter ces ingrédients sur Terre avant même sa formation."
+    },
+    {
+      "category": "Science",
+      "title": "Douze semaines de jeûne intermittent aident à maintenir la perte de poids un an plus tard",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260718010154.htm",
+      "publishedAt": "2026-07-18",
+      "summary": "Une étude publiée dans Clinical Nutrition et menée sur 99 adultes en surpoids ou obèses montre qu'un programme de jeûne intermittent de douze semaines procure des bénéfices encore visibles un an après. Les participants limitant leur alimentation à une fenêtre de huit heures ont mieux préservé leur perte de poids que ceux conservant leurs horaires habituels. Les fenêtres précoces comme tardives se sont révélées efficaces, le jeûne débutant tôt dans la journée semblant particulièrement utile pour préserver la perte de masse grasse. Ces résultats confirment l'intérêt de l'alimentation à horaires restreints comme stratégie durable."
+    },
+    {
+      "category": "Science",
+      "title": "Un antidépresseur courant réduit la fatigue du COVID long",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260718010158.htm",
+      "publishedAt": "2026-07-18",
+      "summary": "Un essai clinique international co-dirigé par l'Université McMaster a montré que la fluvoxamine, un médicament peu coûteux habituellement utilisé contre la dépression, réduit la fatigue et améliore la qualité de vie des adultes souffrant de COVID long. Dans cet essai randomisé contre placebo (REVIVE-TOGETHER) portant sur 399 adultes au Brésil ayant une fatigue persistante depuis au moins 90 jours, la fluvoxamine a significativement surpassé le placebo, alors que la metformine n'a apporté aucun bénéfice notable. Il s'agit de l'un des premiers traitements à démontrer des effets tangibles sur cette affection invalidante. Les résultats sont parus dans les Annals of Internal Medicine."
+    }
+  ]
+}
