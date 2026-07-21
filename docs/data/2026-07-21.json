@@ -1,0 +1,212 @@
+{
+  "date": "2026-07-21",
+  "generatedAt": "2026-07-21T06:15:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 28,
+      "low": 19,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 3
+    },
+    "lausanne": {
+      "high": 27,
+      "low": 18,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Nestlé, dont le siège est à Vevey, investit 520 millions de francs dans une nouvelle usine d'aliments pour animaux de compagnie dans le nord de l'Italie.",
+      "publishedAt": "2026-07-20"
+    },
+    {
+      "headline": "Une pétition demandant un congé maternité porté à six mois a été déposée à Berne.",
+      "publishedAt": "2026-07-20"
+    },
+    {
+      "headline": "Le cinéaste américain James Gray recevra le Pardo d'honneur du Festival du film de Locarno pour l'ensemble de sa carrière.",
+      "publishedAt": "2026-07-20"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Andy Burnham a été formellement nommé Premier ministre britannique par le roi Charles III, succédant à Keir Starmer et devenant le septième chef de gouvernement du Royaume-Uni en une décennie.",
+      "publishedAt": "2026-07-20"
+    },
+    {
+      "headline": "L'Espagne a remporté la Coupe du monde de football 2026 en battant l'Argentine 1-0 après prolongation grâce à un but de Ferran Torres, décrochant son deuxième titre mondial.",
+      "publishedAt": "2026-07-19"
+    },
+    {
+      "headline": "Les États-Unis ont mené une dixième nuit consécutive de frappes sur l'Iran, sur fond de crise persistante autour du détroit d'Ormuz.",
+      "publishedAt": "2026-07-20"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 20 juillet 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -1.4
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": -0.8
+      },
+      {
+        "name": "SMI",
+        "changePct": -0.62
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": -1.1
+      }
+    ],
+    "summary": "Séance de repli généralisé lundi, les prises de bénéfices sur les valeurs technologiques liées à l'IA et les tensions géopolitiques autour de l'Iran ayant pesé sur l'appétit pour le risque des deux côtés de l'Atlantique."
+  },
+  "tech": [
+    {
+      "category": "IT",
+      "title": "Hugging Face confirme une intrusion menée par un agent IA autonome",
+      "url": "https://techcrunch.com/2026/07/20/hugging-face-confirms-breach-affected-internal-datasets-and-credentials-urges-users-to-take-action/",
+      "publishedAt": "2026-07-20",
+      "summary": "Hugging Face a confirmé qu'une cyberattaque a compromis des jeux de données internes et des identifiants de service. Un dataset malveillant a exploité une vulnérabilité pour exécuter du code sur les serveurs de l'entreprise, permettant aux attaquants d'élever leurs privilèges et d'accéder à des systèmes internes plus larges. La plateforme attribue l'attaque à un agent IA externe ayant exécuté plusieurs milliers d'actions individuelles à travers des bacs à sable temporaires, avec une infrastructure de commande et contrôle hébergée sur des services publics. Hugging Face a révoqué et renouvelé les identifiants dérobés, corrigé le code vulnérable et appelle ses utilisateurs à faire tourner leurs jetons d'accès. Fait notable : un modèle commercial de pointe ayant refusé d'analyser les journaux pour raisons de sécurité, l'entreprise a déployé son propre modèle local."
+    },
+    {
+      "category": "IT",
+      "title": "Des failles WordPress récemment corrigées exploitées massivement",
+      "url": "https://techcrunch.com/2026/07/20/hackers-are-exploiting-recently-patched-wordpress-bugs-putting-millions-of-websites-at-risk/",
+      "publishedAt": "2026-07-20",
+      "summary": "Deux failles critiques affectant WordPress 6.9.0 à 6.9.4 et 7.0.0 à 7.0.1 sont activement exploitées. L'une d'elles, découverte par Adam Kues de Searchlight Cyber, a été baptisée « WP2Shell ». Combinées, ces vulnérabilités permettent la prise de contrôle à distance complète des sites concernés. Les sociétés Patchstack, Hexastrike et WatchTowr confirment des exploitations dans la nature. Selon l'échantillonnage d'un consultant, moins de 15 % des sites WordPress resteraient vulnérables, ce qui représenterait tout de même environ 90 millions de sites dans le monde. WordPress a déployé des mises à jour forcées lorsque c'était possible et exhorte à corriger immédiatement. Automattic affirme avoir protégé des millions de sites hébergés dès la publication du correctif, et Cloudflare a mis en place des protections contre les tentatives d'exploitation."
+    },
+    {
+      "category": "AI",
+      "title": "Google développe « Frozen v2 », une puce dédiée à l'efficacité de Gemini",
+      "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+      "publishedAt": "2026-07-20",
+      "summary": "Alphabet développe une nouvelle puce serveur baptisée « Frozen v2 » destinée à améliorer l'efficacité de ses modèles Gemini. Attendue pour 2028, elle serait, selon les sources de The Information, six à dix fois plus efficace que les puces IA actuelles de Google, mesurée en jetons générés par unité d'énergie. Google n'a pas confirmé directement. Cette initiative s'inscrit dans une tendance de fond : les grands acteurs de l'IA conçoivent leurs propres puces pour réduire leur dépendance à Nvidia et desserrer la contrainte de capacité de calcul. OpenAI a récemment dévoilé son processeur d'inférence « Jalapeño », et Anthropic explorerait un partenariat avec Samsung. L'information a fait progresser l'action Alphabet d'environ 3 % lundi matin, alors que le groupe prévoit 180 à 190 milliards de dollars d'investissements."
+    },
+    {
+      "category": "Science",
+      "title": "Un ordinateur portable résout un problème quantique réputé inaccessible aux machines classiques",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260719040000.htm",
+      "publishedAt": "2026-07-19",
+      "summary": "Des chercheurs du Center for Computational Quantum Physics de la Simons Foundation et de l'université de Boston ont démontré que des ordinateurs classiques peuvent résoudre des problèmes de simulation quantique jusqu'ici jugés hors de portée sans matériel quantique. L'équipe a modélisé la dynamique de centaines de qubits en interaction disposés en différentes structures de réseau, en s'appuyant sur les réseaux de tenseurs pour compresser les données de la fonction d'onde. Le chercheur Joseph Tindall compare cette approche à « un fichier zip pour la fonction d'onde ». Les scientifiques ont adapté la propagation de croyance, un algorithme des années 1980, aux systèmes quantiques, permettant des calculs sur un simple ordinateur portable via le logiciel ITensor. Les simulations concordent avec les prédictions théoriques et les résultats d'ordinateurs quantiques. Travaux publiés dans Science."
+    },
+    {
+      "category": "IT",
+      "title": "Une faille critique de ServiceNow désormais exploitée dans des attaques",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/",
+      "publishedAt": "2026-07-20",
+      "summary": "La vulnérabilité CVE-2026-6875, une exécution de code à distance pré-authentification avec évasion de bac à sable, est activement exploitée. Découverte par Searchlight Cyber, elle permet à un attaquant non authentifié de s'échapper du bac à sable et d'exécuter du code à distance au sein de la plateforme ServiceNow. Chronologie : divulgation publique le 1er avril 2026, correction des instances hébergées en avril, puis publication de mises à jour pour les instances auto-hébergées le 13 juillet 2026. Les premières tentatives d'exploitation dans la nature ont été observées le 18 juillet, et l'exploitation active a été confirmée par les chercheurs de Defused le 19 juillet. ServiceNow affirme n'avoir observé aucun élément indiquant que cette activité concerne les instances qu'elle héberge. La plateforme est utilisée par 85 % des entreprises du Fortune 500."
+    },
+    {
+      "category": "IT",
+      "title": "Cursor, Codex, Gemini CLI et Antigravity touchés par des évasions de bac à sable",
+      "url": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
+      "publishedAt": "2026-07-20",
+      "summary": "Les chercheurs de Pillar Security ont divulgué des vulnérabilités d'évasion de bac à sable affectant quatre grands agents de codage IA : Cursor, Codex d'OpenAI, Gemini CLI et Antigravity de Google. Les exploits ne ciblent pas directement le bac à sable : ils abusent de fichiers écrits par les agents puis exécutés par des outils externes de confiance. Côté Cursor, la CVE-2026-48124 concerne une configuration de hook contrôlée par l'espace de travail permettant l'exécution de commandes hors bac à sable, corrigée en v3.0.0 ; deux autres failles exploitent l'édition d'interpréteur virtualenv et les métadonnées Git. Codex faisait confiance à « git show » par son nom dans sa liste blanche de commandes sûres (corrigé en v0.95.0). Le vecteur d'origine reste l'injection de prompt via README, dépendances ou diffs."
+    },
+    {
+      "category": "IT",
+      "title": "Des failles SonicWall SMA1000 exploitées en zero-day pour déployer des maliciels sur mesure",
+      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/",
+      "publishedAt": "2026-07-20",
+      "summary": "Deux vulnérabilités des appliances SonicWall SMA1000 ont été exploitées en zero-day : CVE-2026-15409, une falsification de requête côté serveur (SSRF) critique, et CVE-2026-15410, une injection de commande de sévérité élevée. Les modèles 6210, 7210 et 8200v sont concernés. L'acteur malveillant UTA0533 exploite ces failles depuis le 22 juin 2026, soit plusieurs semaines avant leur divulgation publique. La chaîne d'attaque consiste à utiliser la SSRF pour établir des tunnels WebSocket non authentifiés vers des services internes, dont CouchDB, puis à recourir à l'injection de commande pour exécuter du code avec les privilèges root. Trois composants malveillants ont été identifiés : le dropper KNUCKLEBALL, le proxy inverse Sou5 et le webshell Java ORANGETAIL. Correctifs disponibles en versions 12.4.3-03453 et 12.5.0-02835."
+    },
+    {
+      "category": "AI",
+      "title": "OpenAI redoute les modèles à poids ouverts chinois — Washington doit-il s'en inquiéter ?",
+      "url": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/",
+      "publishedAt": "2026-07-20",
+      "summary": "OpenAI et d'autres laboratoires américains de pointe craignent que les modèles chinois à poids ouverts, comme Kimi K3 de Moonshot, n'érodent leurs marges en proposant une intelligence nettement moins chère. Cette inquiétude alimente un débat sur une éventuelle interdiction de ces modèles aux États-Unis. L'administration Trump envisagerait de bannir les modèles chinois avancés, même si des informations contradictoires suggèrent que le département du Commerce n'agirait pas à court terme. Les justifications avancées portent sur la protection des données américaines et la sécurité des garde-fous. Les critiques rétorquent que certaines entreprises américaines se tournent vers les modèles chinois précisément parce que les modèles américains refusent des tâches sensibles. Plusieurs experts estiment que les contrôles à l'exportation de puces seraient plus efficaces qu'une interdiction."
+    },
+    {
+      "category": "Science",
+      "title": "L'oxygène disparaît des eaux de la planète : les scientifiques appellent à en faire une limite planétaire",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260719035939.htm",
+      "publishedAt": "2026-07-19",
+      "summary": "Une équipe de la Scripps Institution of Oceanography (UC San Diego), dirigée par Erica Ferrer, alerte sur la désoxygénation accélérée des océans, eaux côtières, rivières, lacs et cours d'eau. Les causes principales sont le réchauffement d'origine humaine, la pollution par les nutriments et la modification des circulations d'eau. Cette perte d'oxygène dissous perturbe les processus biologiques et chimiques qui régulent le climat terrestre et menace les organismes aquatiques à tous les niveaux des réseaux trophiques. Les chercheurs plaident pour l'ajout formel de l'oxygène dissous au cadre des limites planétaires, qui suit neuf seuils environnementaux critiques. « La santé et la stabilité de notre planète dépendent de la santé et de la stabilité des écosystèmes aquatiques », souligne Erica Ferrer. Étude publiée dans Limnology and Oceanography."
+    },
+    {
+      "category": "IT",
+      "title": "Vol de données massif chez Craneware, fournisseur de milliers d'hôpitaux américains",
+      "url": "https://techcrunch.com/2026/07/20/hackers-stole-significant-amount-of-data-from-tech-firm-relied-on-by-thousands-of-us-hospitals-and-pharmacies/",
+      "publishedAt": "2026-07-20",
+      "summary": "L'entreprise écossaise Craneware, basée à Édimbourg, a confirmé que des pirates ont dérobé un volume significatif de données clients lors d'une cyberattaque. L'enquête est toujours en cours, même si les attaquants semblent avoir été expulsés des systèmes. Craneware indique qu'un pourcentage de données d'employés, de dossiers clients et d'informations de partenaires a été exfiltré, sans en préciser l'ampleur exacte. L'enjeu est considérable : le logiciel de facturation de Craneware équipe des milliers d'hôpitaux, pharmacies et cliniques aux États-Unis. La société avait racheté en 2021 l'éditeur Sentry, accédant à 147 millions de dossiers patients. Cette brèche s'inscrit dans une série noire pour le secteur de la santé, après TriZetto, CareCloud et le piratage de Change Healthcare en 2024."
+    },
+    {
+      "category": "AI",
+      "title": "Le Model Context Protocol devient « stateless » pour simplifier son déploiement à grande échelle",
+      "url": "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/",
+      "publishedAt": "2026-07-20",
+      "summary": "Le Model Context Protocol (MCP), présenté comme l'un des blocs fondamentaux de l'interopérabilité de l'IA, reçoit une mise à jour majeure destinée à simplifier son fonctionnement à grande échelle. Le protocole actuel impose aux serveurs de conserver des identifiants de session pour suivre les conversations. Comme l'explique Nate Barbettini, fondateur d'Arcade, cela devient problématique lorsque les entreprises répartissent les requêtes via des répartiteurs de charge sur plusieurs serveurs dans différentes régions. La nouvelle version adopte une approche sans état, proche de la gestion des sessions sur les sites web classiques, ce qui doit réduire la complexité opérationnelle et les coûts d'infrastructure. Arcade, spécialisée dans la sécurisation des connexions entre agents IA et outils d'entreprise comme Gmail et Slack, a récemment levé 60 millions de dollars."
+    },
+    {
+      "category": "Science",
+      "title": "Alzheimer : ce sont les cellules immunitaires du cerveau, pas les plaques, qui volent le sommeil",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260719035931.htm",
+      "publishedAt": "2026-07-19",
+      "summary": "Des chercheurs de l'université du Kentucky ont découvert que ce sont les microglies hyperactives — les cellules immunitaires du cerveau — et non les plaques amyloïdes elles-mêmes, qui provoquent la perte de sommeil dans la maladie d'Alzheimer. En éliminant temporairement environ 87 % de ces cellules chez des souris à l'aide du pexidartinib, les animaux ont récupéré plus de deux heures de sommeil quotidien, alors même que le niveau de plaques restait inchangé. Les microglies réagissent aux plaques en déclenchant une inflammation généralisée. La pathologie réduit sélectivement le sommeil profond non-REM, essentiel à la réparation et à l'élimination des toxines, tandis que le vieillissement normal affecte surtout le sommeil REM. L'équipe explore désormais des médicaments existants comme la metformine et le stiripentol pour apaiser les microglies sans les éliminer."
+    },
+    {
+      "category": "Science",
+      "title": "Colossal Biosciences en discussion pour une levée valorisant la société 20 à 30 milliards",
+      "url": "https://techcrunch.com/2026/07/20/colossal-biosciences-reportedly-in-talks-to-raise-new-capital-at-20b-30b-valuation/",
+      "publishedAt": "2026-07-20",
+      "summary": "La start-up de dé-extinction Colossal Biosciences négocierait une levée de fonds sur la base d'une valorisation de 20 à 30 milliards de dollars, soit deux à trois fois sa valorisation de 10,2 milliards obtenue début 2025. Contrairement à beaucoup de jeunes pousses biotech, Colossal génère désormais des revenus via trois canaux : des technologies de conservation licenciées à des gouvernements, trois spin-offs — Breaking, Form Bio et Astromech — et, à terme, des crédits biodiversité si les projets de dé-extinction aboutissent. L'entreprise cible désormais six espèces, dont le mammouth laineux, le loup terrible et le blaubok. Elle collabore aussi avec l'université de Tasmanie sur la prévention des maladies du diable de Tasmanie. Une technologie d'utérus artificiel est attendue pour 2027."
+    },
+    {
+      "category": "AI",
+      "title": "Le dernier « tsar de l'IA » de Trump a déjà démissionné",
+      "url": "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/",
+      "publishedAt": "2026-07-20",
+      "summary": "Chris Fall, directeur du Center for AI Standards and Innovation (CAISI), a démissionné après seulement trois mois en poste. Il s'agit du troisième départ à ce poste en quelques mois. David Sacks, responsable IA et cryptomonnaies à la Maison-Blanche, s'était retiré en mars ; Collin Burns était parti en moins d'une semaine en avril. Chris Fall n'a fourni aucune explication. Il avait dirigé l'Office of Science du département de l'Énergie sous la première administration Trump. Le CAISI, rattaché au NIST, élabore les normes techniques et les méthodes de test des modèles d'IA. L'agence a été écartée de la nouvelle initiative de cybersécurité « Gold Eagle » de la Maison-Blanche, et le PDG de Google DeepMind a récemment plaidé pour un organisme de normalisation indépendant du gouvernement."
+    },
+    {
+      "category": "IT",
+      "title": "JadePuffer : un rançongiciel agentique cible désormais les modèles et jeux de données d'IA",
+      "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/",
+      "publishedAt": "2026-07-20",
+      "summary": "L'acteur malveillant autonome JadePuffer a déployé un nouveau rançongiciel écrit en Go, baptisé EncForge, qui vise spécifiquement les infrastructures d'IA et d'apprentissage automatique. Selon le rapport de Sysdig, l'attaquant a exploité une instance Langflow vulnérable à la CVE-2025-3248, puis découvert un socket Docker exposé lui donnant un accès root. Face à l'échec de la livraison initiale de sa charge utile, l'opérateur a développé et déployé de manière itérative six scripts Python en seulement cinq minutes. EncForge cible environ 180 extensions de fichiers, dont les points de contrôle de modèles, les modèles PyTorch et TensorFlow, les bases de données vectorielles et les jeux de données d'entraînement. Sysdig estime le coût du chiffrement des poids et des données d'entraînement entre 75 000 et 500 000 dollars par modèle."
+    },
+    {
+      "category": "Science",
+      "title": "L'ADN du Suaire de Turin révèle son histoire biologique",
+      "url": "https://phys.org/news/2026-07-shroud-turin-dna-biological-history.html",
+      "publishedAt": "2026-07-20",
+      "summary": "Une collaboration internationale, à laquelle participe Noemi Procopio, professeure de sciences forensiques à l'université de Central Lancashire, a appliqué un séquençage métagénomique de nouvelle génération sans PCR à des échantillons officiels prélevés en 1978 sur le Suaire de Turin. L'analyse a identifié de multiples lignées d'ADN mitochondrial humain provenant de différents individus, ainsi que des bactéries, des champignons et des archées halophiles. Ont également été détectés de l'ADN végétal — blé, carottes, maïs, bananes, arachides — et animal — bovins, porcs, poulets, chiens, chats — de même que des traces de corail rouge de Méditerranée. Les auteurs insistent sur une limite essentielle : l'étude ne détermine ni l'âge ni l'authenticité du linge. Elle démontre en revanche comment la génomique forensique moderne peut reconstituer l'histoire biologique d'un objet. Publiée dans Scientific Reports."
+    },
+    {
+      "category": "Science",
+      "title": "La chimie pilotée par la lumière dépasse les limites du potentiel redox",
+      "url": "https://phys.org/news/2026-07-driven-chemistry-electron-redox-limits.html",
+      "publishedAt": "2026-07-20",
+      "summary": "Une équipe menée par Joseph M. Edgecomb signe une avancée en chimie du transfert monoélectronique en utilisant des catalyseurs puissants activés par la lumière pour dépasser les limites traditionnelles de potentiel redox. Les chercheurs ont combiné l'électrochimie avec l'activation par lumière bleue d'un catalyseur à base de pérylène, rendant possibles des réactions jusqu'ici thermodynamiquement interdites. La technique s'appuie sur un transfert d'électron retour avec des photoréducteurs pour réduire sélectivement des molécules difficiles à réduire, comme les cétones, aux nombreuses applications pharmaceutiques et industrielles. Grâce à des réducteurs ultra-puissants générés par la lumière, l'équipe obtient des vitesses de réduction quasi identiques entre molécules concurrentes. La réaction de démonstration associe des cétones cyclopropyliques à des alcènes pour former des cycles à cinq chaînons. Publié dans Nature."
+    },
+    {
+      "category": "IT",
+      "title": "Estée Lauder révèle une fuite de données liée à la faille Oracle E-Business Suite",
+      "url": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
+      "publishedAt": "2026-07-20",
+      "summary": "Estée Lauder a divulgué une violation de données touchant ses systèmes de ressources humaines. L'intrusion remonte au 9 août 2025 mais n'a été découverte que le 19 juin 2026, soit près d'un an plus tard. Elle exploite la CVE-2025-61882 d'Oracle E-Business Suite, qui affecte les versions 12.2.3 à 12.2.14 et permettait de contourner l'authentification et d'exécuter du code à distance via le composant BI Publisher Integration. Oracle avait publié des correctifs le 4 octobre 2025. Les données exposées comprennent noms, adresses, courriels, dates de naissance, numéros de sécurité sociale et de passeport, coordonnées bancaires ainsi que des dossiers de santé et d'emploi. Le gang de rançongiciels Clop avait exploité cette faille en zero-day dès août 2025, touchant aussi Harvard, le Washington Post et Logitech."
+    },
+    {
+      "category": "AI",
+      "title": "YouTube précise ses règles sur le contenu IA de basse qualité",
+      "url": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
+      "publishedAt": "2026-07-20",
+      "summary": "YouTube a déployé le 16 juillet 2026 des règles de monétisation clarifiées visant les contenus générés par IA de faible qualité. La plateforme identifie trois catégories de contenu inauthentique ne pouvant plus générer de revenus via le Programme Partenaire : les vidéos génériques, répétitives ou basées sur des modèles, créées avec IA, images de synthèse ou gabarits, sans originalité ni profondeur narrative ; les contenus rebutants ou perturbants conçus pour manipuler les émotions ; et les personas artificiels abordant des sujets sensibles de finance, de santé, de droit ou de médecine. Matt Halprin, responsable confiance et sécurité de YouTube, résume : « la même technologie permet de très bonnes choses, mais aussi une forme de ferme à contenu ». Les chaînes dépassant les seuils perdront leur monétisation."
+    },
+    {
+      "category": "Science",
+      "title": "Les « petits points rouges » du JWST seraient des amas globulaires en formation",
+      "url": "https://phys.org/news/2026-07-idea-cosmic-mysteries-linking-red.html",
+      "publishedAt": "2026-07-20",
+      "summary": "Une équipe dirigée par John Chisholm à l'université du Texas à Austin propose que les « Little Red Dots » — ces objets compacts mystérieux détectés par le télescope spatial James Webb dans l'univers primitif — soient en réalité des amas globulaires en cours de formation. Plutôt que deux phénomènes distincts, l'un serait le précurseur évolutif de l'autre. La théorie repose sur une étoile supermassive au cœur d'un amas globulaire primitif : née de collisions stellaires, cette géante à courte durée de vie produirait par fusion nucléaire extrême les signatures chimiques inhabituelles observées aujourd'hui dans les amas anciens — excès d'hélium, d'azote, de sodium et d'aluminium. Publié dans The Astrophysical Journal Letters."
+    }
+  ]
+}
