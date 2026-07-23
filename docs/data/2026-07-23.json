@@ -1,0 +1,152 @@
+{
+  "date": "2026-07-23",
+  "generatedAt": "2026-07-23T05:35:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 29,
+      "low": 17,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 28,
+      "low": 19,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Les exportations horlogères suisses ont rebondi en juin, en hausse de 11,2 % sur un an à 2,4 milliards de francs, marquant un redressement bienvenu du secteur.",
+      "publishedAt": "2026-07-21"
+    },
+    {
+      "headline": "Le commerce extérieur suisse a nettement progressé au deuxième trimestre, les exportations grimpant de 8,8 % portées par la pharma et un bond de 21,5 % des livraisons vers les États-Unis.",
+      "publishedAt": "2026-07-21"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Le président ukrainien Volodymyr Zelensky a remplacé le commandant en chef de l'armée Oleksandr Syrskyi par le général Mykhailo Drapatyi, à la suite de manifestations réclamant ce changement.",
+      "publishedAt": "2026-07-21"
+    },
+    {
+      "headline": "Le Parlement moldave a approuvé un nouveau gouvernement pro-européen dirigé par Vasile Tofan, centré sur la croissance économique et l'intégration à l'Union européenne.",
+      "publishedAt": "2026-07-21"
+    },
+    {
+      "headline": "Les chefs de la diplomatie de l'ASEAN ont ouvert à Manille leur 59e réunion annuelle, quatre jours d'échanges consacrés à la coopération régionale et à la sécurité.",
+      "publishedAt": "2026-07-21"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 22 juillet 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -0.57
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": -0.01
+      },
+      {
+        "name": "SMI",
+        "changePct": 0.12
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": 0.54
+      }
+    ],
+    "summary": "Séance contrastée : Wall Street a fléchi avant les résultats de Tesla et d'Alphabet, tandis que les Bourses européennes ont fini en hausse, portées par l'énergie et la défense."
+  },
+  "tech": [
+    {
+      "category": "IT",
+      "title": "Glow sort de la clandestinité à 1,2 milliard de dollars pour sécuriser l'ère de l'IA",
+      "url": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
+      "publishedAt": "2026-07-22",
+      "summary": "Glow, une start-up de cybersécurité fondée par d'anciens dirigeants de Meta et Snowflake, est sortie de la clandestinité avec une valorisation de 1,2 milliard de dollars après une levée de 180 millions en série A menée par Sequoia. Sa plateforme s'attaque à une nouvelle classe de risques sur les postes de travail, créés par l'adoption rapide d'agents d'IA et d'outils de développement en entreprise, à l'aide d'agents spécialisés qui surveillent logiciels, outils d'IA et applications installés sur les appareils des employés. La société revendique déjà des clients payants dans la santé, la distribution et la finance."
+    },
+    {
+      "category": "AI",
+      "title": "Monday.com supprime 20 % de ses effectifs pour se recentrer sur l'IA",
+      "url": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/",
+      "publishedAt": "2026-07-22",
+      "summary": "L'éditeur israélien de logiciels de travail collaboratif Monday.com va supprimer environ 20 % de ses effectifs, soit près de 630 postes, afin de concentrer ses investissements sur sa plateforme « AI Work Platform ». La restructuration devrait coûter entre 45 et 55 millions de dollars. L'entreprise illustre une tendance de fond en 2026 : un nombre record de sociétés technologiques justifient leurs réductions d'effectifs par la nécessité de réorienter leurs ressources autour de l'intelligence artificielle."
+    },
+    {
+      "category": "AI",
+      "title": "Google lance trois nouveaux modèles Gemini, mais toujours pas de 3.5 Pro",
+      "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
+      "publishedAt": "2026-07-21",
+      "summary": "Google a dévoilé trois nouveaux modèles Gemini — 3.6 Flash, 3.5 Flash-Lite et 3.5 Flash Cyber — axés sur l'efficacité et le faible coût pour les agents d'IA. La très attendue mise à jour Gemini 3.5 Pro reste toutefois indisponible : selon Bloomberg, le modèle peine à atteindre les objectifs de performance internes de l'entreprise. Le responsable produit de Google DeepMind a indiqué que la version Pro est actuellement testée avec des partenaires et devrait être publiée prochainement."
+    },
+    {
+      "category": "AI",
+      "title": "Meshy lève près de 400 millions de dollars, record pour la 3D générée par IA",
+      "url": "https://www.prnewswire.com/news-releases/meshy-raises-nearly-400-million-at-a-1-5-billion-valuation-the-largest-round-to-date-in-ai-3d-302828384.html",
+      "publishedAt": "2026-07-21",
+      "summary": "Meshy, qui développe des modèles de fondation pour la génération de contenus 3D par IA, a annoncé une levée de près de 400 millions de dollars en série B, valorisant l'entreprise à 1,5 milliard — le plus gros tour de table à ce jour dans la 3D générative. À partir d'une simple ligne de texte ou d'une image, ses outils produisent en une minute un modèle 3D directement utilisable dans les jeux et, de plus en plus, imprimable. La société revendique plus de 12 millions d'utilisateurs inscrits et plus de 100 millions de modèles créés."
+    },
+    {
+      "category": "AI",
+      "title": "Dimension Capital lève un troisième fonds de 800 millions à la croisée de la science et du calcul",
+      "url": "https://techcrunch.com/2026/07/21/dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming/",
+      "publishedAt": "2026-07-21",
+      "summary": "Dimension Capital, société de capital-risque fondée il y a quatre ans par d'anciens associés de Lux Capital, a annoncé un troisième fonds de 800 millions de dollars, soit 60 % de plus que son fonds précédent de 500 millions bouclé dix-huit mois plus tôt. La firme investit à l'intersection des sciences du vivant et de l'informatique, un créneau en plein essor illustré par des participations valorisées à plusieurs milliards, comme Chai Discovery et New Limit. La levée confirme l'appétit des investisseurs pour les start-up mêlant biologie et calcul intensif."
+    },
+    {
+      "category": "AI",
+      "title": "La rumeur d'un rachat de Physical Intelligence par Anthropic agite le milieu de l'IA",
+      "url": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
+      "publishedAt": "2026-07-21",
+      "summary": "Une rumeur de week-end affirmant qu'Anthropic s'apprêtait à racheter la start-up de robotique Physical Intelligence s'est propagée rapidement sur les réseaux, malgré un démenti de son PDG. Selon TechCrunch, les deux entreprises auraient bien tenu des discussions d'acquisition au printemps 2026, mais Physical Intelligence a nié toute négociation en cours. L'épisode illustre l'effervescence spéculative autour du rapprochement entre modèles d'IA de pointe et robotique physique."
+    },
+    {
+      "category": "IT",
+      "title": "Un ordinateur quantique au format serveur dévoilé à la WAIC 2026",
+      "url": "https://thequantuminsider.com/2026/07/22/shanghai-startup-unveils-data-center-ready-quantum-computer-at-waic-2026/",
+      "publishedAt": "2026-07-22",
+      "summary": "Une start-up shanghaïenne a présenté à la Conférence mondiale sur l'intelligence artificielle (WAIC 2026) un ordinateur quantique conçu pour s'installer directement dans les racks des centres de données existants. Cette machine de deuxième génération serait le premier concept quantique pensé au format serveur standard, une étape vers l'intégration du calcul quantique dans les infrastructures informatiques classiques plutôt que dans des laboratoires spécialisés."
+    },
+    {
+      "category": "Science",
+      "title": "Une cartographie moléculaire révèle comment le virus de la grippe détourne nos cellules",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260721000816.htm",
+      "publishedAt": "2026-07-21",
+      "summary": "Des chercheurs du Laboratoire européen de biologie moléculaire ont établi une carte détaillée montrant comment le virus de la grippe A prend le contrôle des cellules humaines. Le virus exploite des protéines humaines pour replier correctement ses propres protéines de surface et provoque la dissolution de structures nucléaires appelées paraspeckles, libérant des protéines utiles à sa réplication tout en affaiblissant les défenses antivirales de la cellule. L'étude, combinant spectrométrie de masse par pontage et modélisation AlphaFold, ouvre une nouvelle voie pour étudier les interactions virus-hôte dans leur contexte naturel."
+    },
+    {
+      "category": "Science",
+      "title": "Première atmosphère confirmée autour d'une planète rocheuse en zone habitable",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260721000825.htm",
+      "publishedAt": "2026-07-21",
+      "summary": "Des astronomes ont détecté la première atmosphère confirmée autour d'une planète rocheuse située dans la zone habitable d'une autre étoile. La planète, LHS 1140 b, à 48 années-lumière, a trahi son atmosphère par de l'hélium s'échappant lentement dans l'espace. Les chercheurs estiment qu'elle conserve cette enveloppe gazeuse depuis plus de trois milliards d'années. Il s'agit d'une étape majeure dans la recherche de mondes potentiellement habitables, semblables à la Terre, au-delà de notre système solaire."
+    },
+    {
+      "category": "Science",
+      "title": "Un signal solaire caché pourrait prédire les tempêtes spatiales sept ans à l'avance",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260721000818.htm",
+      "publishedAt": "2026-07-21",
+      "summary": "Un nouveau point de bascule découvert dans le cycle solaire de onze ans pourrait permettre de prévoir l'activité du Soleil bien plus tôt qu'auparavant. À ce moment de « bascule », la météorologie spatiale la plus violente s'interrompt brusquement, et le nombre de taches solaires restantes renseigne sur la vigueur du cycle suivant. Présentée à la réunion nationale d'astronomie de la Royal Astronomical Society, la méthode pourrait révéler la force du prochain cycle jusqu'à sept ans avant son maximum ; les premières projections suggèrent un cycle 26 d'intensité modérée."
+    },
+    {
+      "category": "Science",
+      "title": "De nouvelles bactéries découvertes dans l'estomac de cachalots pygmées",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260721000847.htm",
+      "publishedAt": "2026-07-21",
+      "summary": "En étudiant des décennies d'échouages de cachalots pygmées, des scientifiques ont identifié trois souches jusqu'alors inconnues de bactéries du genre Helicobacter dans l'estomac de ces cétacés. Les quatre animaux infectés présentaient d'importantes lésions gastro-intestinales — inflammations, ulcères, cicatrices et parasites — sans que les bactéries aient été formellement reliées à leur mort. La découverte montre comment le suivi à long terme des mammifères marins peut révéler de nouveaux pathogènes chez des animaux difficiles à observer."
+    },
+    {
+      "category": "Science",
+      "title": "Des mini-cerveaux de laboratoire pour prédire l'efficacité des traitements d'Alzheimer",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260721000844.htm",
+      "publishedAt": "2026-07-21",
+      "summary": "Des modèles miniatures de cerveau cultivés à partir des cellules de patients ont révélé des différences marquées dans la manière dont les tissus atteints par la maladie d'Alzheimer réagissent à un antidépresseur. Ces « organoïdes » pourraient à terme aider à prédire quels traitements fonctionneront chez tel ou tel patient, ouvrant la voie à une approche plus personnalisée de cette maladie neurodégénérative dont les essais cliniques restent souvent décevants."
+    }
+  ]
+}
