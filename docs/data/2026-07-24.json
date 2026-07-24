@@ -1,0 +1,212 @@
+{
+  "date": "2026-07-24",
+  "generatedAt": "2026-07-24T06:30:00+02:00",
+  "weather": {
+    "geneva": {
+      "high": 30,
+      "low": 18,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    },
+    "lausanne": {
+      "high": 29,
+      "low": 18,
+      "condition": "Couvert",
+      "weathercode": 3,
+      "precipProbability": 0
+    }
+  },
+  "swissNews": [
+    {
+      "headline": "Nestlé s'allie au fonds américain Platinum Equity pour créer Peranel, une coentreprise 50/50 regroupant plus de 30 marques d'eaux et boissons premium (S.Pellegrino, Perrier, Henniez) valorisée 4,9 milliards d'euros.",
+      "publishedAt": "2026-07-23"
+    },
+    {
+      "headline": "La Suisse envisage de restreindre l'accès des moins de 16 ans aux réseaux sociaux, le Conseil fédéral devant rendre d'ici l'an prochain un rapport qui pourrait nourrir une future loi sur la régulation des plateformes.",
+      "publishedAt": "2026-07-23"
+    },
+    {
+      "headline": "La Tour-de-Peilz consacre une exposition en plein air aux Genevoises Ella Maillart et Hermine de Saussure, pionnières de la navigation qui ouvrirent la voie à de nouvelles libertés pour les femmes entre 1918 et 1926.",
+      "publishedAt": "2026-07-23"
+    }
+  ],
+  "worldNews": [
+    {
+      "headline": "Donald Trump a conditionné l'accord de coopération nucléaire civile signé la veille avec l'Arabie saoudite à une normalisation des relations du royaume avec Israël dans le cadre des accords d'Abraham, tout en excluant tout enrichissement d'uranium.",
+      "publishedAt": "2026-07-23"
+    },
+    {
+      "headline": "Washington a annoncé de nouvelles surtaxes douanières de 10 à 12,5% visant une soixantaine de pays, dont la Suisse, la Chine et le Japon, applicables dès vendredi pour une durée de 150 jours.",
+      "publishedAt": "2026-07-23"
+    },
+    {
+      "headline": "Le Conseil de sécurité de l'ONU a tenu un débat public sur le règlement pacifique des différends, alors que l'escalade au Moyen-Orient poussait les cours du pétrole vers les 100 dollars le baril.",
+      "publishedAt": "2026-07-23"
+    }
+  ],
+  "markets": {
+    "asOf": "clôture du 23 juillet 2026",
+    "indices": [
+      {
+        "name": "Nasdaq",
+        "changePct": -2.15
+      },
+      {
+        "name": "Dow Jones",
+        "changePct": -0.97
+      },
+      {
+        "name": "SMI",
+        "changePct": -0.71
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "changePct": -1.7
+      }
+    ],
+    "summary": "Séance nettement négative de part et d'autre de l'Atlantique, la flambée des cours du pétrole, la remontée des rendements obligataires et les inquiétudes sur les dépenses d'IA d'Alphabet ayant lourdement pesé sur les valeurs technologiques."
+  },
+  "tech": [
+    {
+      "category": "IT",
+      "title": "AMD dévoile Helios, son système AI en rack pour défier Nvidia",
+      "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+      "publishedAt": "2026-07-23",
+      "summary": "AMD a officialisé Helios, un système d'intelligence artificielle à l'échelle du rack destiné aux centres de données et à l'entraînement de très grands modèles. Le fondeur le présente comme « le rack IA le plus performant », avec des mesures supérieures à celles du système Vera Rubin de Nvidia sur plusieurs critères. Les livraisons aux clients débuteront plus tard en 2026. OpenAI, Meta, Oracle, Anthropic et Microsoft figurent parmi les déploiements confirmés, un partenariat stratégique avec Anthropic portant sur jusqu'à 2 gigawatts de GPU. AMD a également présenté Venice-X, un processeur pour centres de données attendu en 2027. La directrice générale Lisa Su a estimé que le marché des accélérateurs d'IA pourrait atteindre environ 1400 milliards de dollars d'ici 2030, soit presque la taille actuelle de toute l'industrie des semiconducteurs."
+    },
+    {
+      "category": "AI",
+      "title": "Gemini approche le milliard d'utilisateurs mensuels",
+      "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
+      "publishedAt": "2026-07-23",
+      "summary": "Google a annoncé que Gemini dépassait les 950 millions d'utilisateurs actifs mensuels, un chiffre triplé en un an après les 750 millions atteints en février 2026. L'assistant talonne désormais ChatGPT, qui avait franchi le milliard d'utilisateurs mensuels en juin. Google a mis en avant de nouvelles capacités agentiques, dont « Daily Brief » et « Gemini Spark », un agent personnalisé déployé aux États-Unis et à l'international. Sur iOS seul, l'application a été téléchargée plus de 137 millions de fois en douze mois. Selon le rapport Sensor Tower du premier semestre 2026, la part de marché de Gemini parmi les assistants IA est montée à 27,7%, tandis que celle de ChatGPT passait pour la première fois sous les 50%. Le mode questions-réponses dopé à l'IA dans la recherche Google a lui aussi franchi le milliard d'utilisateurs."
+    },
+    {
+      "category": "AI",
+      "title": "OpenAI ouvre ChatGPT Health à tous les utilisateurs américains",
+      "url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
+      "publishedAt": "2026-07-23",
+      "summary": "OpenAI a rendu ChatGPT Health accessible à tous les utilisateurs américains majeurs, sur l'ensemble des formules (gratuite, Go, Plus, Pro), sur le web et sur iOS. Les utilisateurs peuvent y connecter leurs données personnelles issues d'Apple Health, MyFitnessPal ou Function, ainsi que leurs dossiers médicaux hébergés chez Epic, Oracle Health ou One Medical. Les requêtes liées à la santé sont passées de 230 millions par semaine lors des tests en janvier 2026 à 300 millions aujourd'hui. Contrairement au module dédié initial, les informations connectées peuvent désormais nourrir l'ensemble des conversations. OpenAI indique que son modèle GPT 5.6-Luna devance GPT 5.5 sur l'évaluation HealthBench, tout en rappelant que le service n'est pas destiné au diagnostic ni au traitement d'une pathologie."
+    },
+    {
+      "category": "AI",
+      "title": "Anthropic enrichit le mode vocal de Claude avec des modèles plus puissants",
+      "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+      "publishedAt": "2026-07-23",
+      "summary": "Anthropic a mis à jour le mode vocal de Claude, jusqu'ici limité au modèle Haiku : les utilisateurs peuvent désormais choisir entre Opus, Sonnet et Haiku. Le mode vocal supporte des conversations plus longues et complexes et accède à des applications tierces comme Gmail, Google Calendar, Slack, Canva et Notion, permettant par exemple de déplacer une réunion ou de rédiger un courriel à la voix — une capacité qui distingue Claude du mode vocal d'OpenAI. La mise à jour inclut un support multilingue en bêta pour dix langues, l'utilisateur devant toutefois préciser manuellement sa langue. Les comptes gratuits restent limités à Haiku et à une seule application connectée. Le modèle vocal lui-même n'a pas changé : la gestion des interruptions ne s'améliore donc pas."
+    },
+    {
+      "category": "IT",
+      "title": "Washington accuse des pirates liés à l'Iran de perturber l'eau et l'énergie aux États-Unis",
+      "url": "https://techcrunch.com/2026/07/23/us-government-says-iran-linked-hackers-are-disrupting-american-water-and-energy-providers/",
+      "publishedAt": "2026-07-23",
+      "summary": "Le FBI, la NSA, le Département de l'énergie et la CISA ont publié une alerte conjointe affirmant que des pirates soutenus par l'État iranien perturbent activement les systèmes de contrôle industriel de fournisseurs d'eau et d'énergie américains. Les attaquants ciblent des automates programmables exposés sur des réseaux opérationnels connectés à internet, notamment des équipements Rockwell, Schneider Electric et Siemens. Dans un incident, les pirates ont reprogrammé un automate pour « désactiver les processus gérant les arrêts d'urgence et les alarmes ». La campagne semble liée au conflit engagé en février 2026 entre l'Iran, les États-Unis et Israël. Le groupe « Handala » avait revendiqué en juin l'intrusion chez le fournisseur d'eau californien Cal Water. L'avis exhorte les exploitants d'infrastructures critiques à protéger leurs installations."
+    },
+    {
+      "category": "Science",
+      "title": "Le télescope Webb découvre une planète géante cachée autour de Beta Pictoris",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260722032111.htm",
+      "publishedAt": "2026-07-23",
+      "summary": "Le télescope spatial James Webb a mis au jour une exoplanète géante jusqu'ici invisible, baptisée Beta Pictoris d, dans l'un des systèmes planétaires les plus étudiés de l'astronomie. Situé à environ 63 années-lumière et âgé de quelque 23 millions d'années, ce système abrite désormais trois planètes connues. Beta Pictoris d pèse au moins deux masses de Jupiter et orbite à environ 30 unités astronomiques, soit une distance comparable à celle de Neptune. La détection ne repose pas sur l'imagerie directe mais sur l'analyse spectroscopique : l'équipe a repéré les signatures atmosphériques du monoxyde de carbone, de la vapeur d'eau et du méthane. « Nous ne cherchions pas une nouvelle planète », explique l'auteur principal Aidan Gibbs. C'est la première planète imagée découverte principalement par spectroscopie à résolution moyenne."
+    },
+    {
+      "category": "IT",
+      "title": "Etched atteint 10,3 milliards de dollars de valorisation pour ses puces d'inférence",
+      "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+      "publishedAt": "2026-07-23",
+      "summary": "La start-up américaine Etched a bouclé une série C de 300 millions de dollars valorisant l'entreprise 10,3 milliards, sous la conduite de Sequoia Capital avec Andreessen Horowitz, SK Hynix et Jane Street. La valorisation a doublé en sept mois, après les 5 milliards de décembre 2025. Fondée par trois anciens étudiants de Harvard — Gavin Uberti, Robert Wachen et Chris Zhu —, la société conçoit des puces et des systèmes mémoire spécialisés dans l'inférence, qu'elle présente comme compatibles avec toute architecture de modèle sans recourir aux GPU traditionnels. Etched revendique un milliard de dollars de commandes déjà enregistrées et a fabriqué ses premières puces chez TSMC. L'entreprise exploite un centre de données de 2 mégawatts et vient d'ouvrir un site de 10 mégawatts à Milpitas, en Californie."
+    },
+    {
+      "category": "Science",
+      "title": "L'Antarctique laisserait au monde plusieurs décennies pour préparer la montée des eaux",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260722032123.htm",
+      "publishedAt": "2026-07-23",
+      "summary": "Une étude menée par la chercheuse Felicity McCormack de l'université Monash et publiée dans Nature identifie une fenêtre critique pour l'action climatique. Les scientifiques constatent que la perte de glace antarctique « reste fortement et constamment prévisible jusqu'au milieu du siècle environ », ce qui offre trente à cinquante ans de prévisions fiables pour anticiper l'élévation du niveau des mers. Au-delà, la prévisibilité décline nettement à mesure que les processus de retrait instable de la glace deviennent probables. Dans les scénarios d'émissions élevées, le niveau global des mers pourrait s'élever de plus de deux mètres d'ici 2100 en cas d'effondrement majeur de la calotte antarctique, ce qui déplacerait des centaines de millions de personnes. Les auteurs y voient la meilleure occasion de planifier dès maintenant l'adaptation des littoraux."
+    },
+    {
+      "category": "IT",
+      "title": "Nvidia envoie ses puces sur la Lune",
+      "url": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/",
+      "publishedAt": "2026-07-23",
+      "summary": "L'entreprise Lunar Outpost a annoncé que son prochain rover lunaire utilisera des puces Nvidia Jetson pour piloter son système lidar, ce qui en ferait vraisemblablement le premier GPU posé sur la surface de la Lune. La NASA finance des sociétés privées pour explorer notre satellite avant un possible retour d'astronautes vers 2028. Nvidia s'est par ailleurs associé à Firefly Aerospace pour déployer la plateforme Jetson sur un satellite en orbite lunaire, dédié au traitement d'images et à la cartographie. Le rover devra fonctionner dans des conditions extrêmes : radiations, écarts thermiques et nuits lunaires à très faible puissance. Lunar Outpost prévoit plusieurs missions d'ici la fin de l'année à bord de fusées Falcon 9, dont l'exploration de l'anomalie magnétique de Reiner Gamma."
+    },
+    {
+      "category": "Science",
+      "title": "La puce PRIMA, qui restaure la vision, obtient le feu vert européen",
+      "url": "https://techcrunch.com/2026/07/22/science-corporations-vision-restoring-chip-wins-eu-approval/",
+      "publishedAt": "2026-07-22",
+      "summary": "Science Corporation a obtenu le marquage CE pour PRIMA, une interface cerveau-machine qui restaure la vision chez des patients atteints de dégénérescence maculaire liée à l'âge. Le dispositif a également été retenu par la FDA américaine pour un examen accéléré. L'intervention, réalisée en ambulatoire, consiste à implanter une petite puce derrière l'œil ; le patient porte ensuite des lunettes équipées d'une caméra qui transmet l'information visuelle à l'implant. La société a été fondée par Max Hodak, ancien cofondateur et président de Neuralink. Le coût attendu se chiffre en centaines de milliers de dollars par dispositif, et les premières poses sont prévues en Allemagne en septembre 2026. Selon Max Hodak, des patients ont pu lire des romans, dessiner et résoudre des casse-tête grâce à l'appareil."
+    },
+    {
+      "category": "AI",
+      "title": "Des experts doutent que Kimi K3 doive sa qualité à une distillation de Fable",
+      "url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/",
+      "publishedAt": "2026-07-23",
+      "summary": "Le conseiller scientifique de la Maison-Blanche Michael Kratsios a accusé Moonshot, créateur de Kimi K3, d'avoir copié le modèle Fable d'Anthropic à l'aide de puces obtenues en contournant les restrictions à l'exportation. Des chercheurs se montrent sceptiques : « Je ne pense pas qu'on obtienne un modèle aussi solide et aussi vite dans le sillage de Fable par la seule distillation », observe l'un d'eux. Le calendrier pose problème, Fable n'ayant été rendu public que le 1er juillet, peu avant le lancement de Kimi K3. Anthropic avait déjà accusé plus tôt en 2026 Moonshot, DeepSeek et MiniMax d'extraire systématiquement les capacités de ses modèles via des millions de requêtes API. L'accès à des puces Nvidia Grace Blackwell 300 par des circuits parallèles aurait davantage compté que la distillation."
+    },
+    {
+      "category": "IT",
+      "title": "Ford choisit Apple pour l'infodivertissement de ses futurs véhicules électriques",
+      "url": "https://techcrunch.com/2026/07/23/ford-bets-on-apple-for-its-next-generation-of-evs/",
+      "publishedAt": "2026-07-23",
+      "summary": "Apple a présenté MapKit for Automotive, un kit de développement permettant aux constructeurs d'intégrer nativement Apple Plans dans les systèmes embarqués. Ford est le premier constructeur à l'adopter, sur ses prochains véhicules électriques. L'intégration débutera avec le pick-up compact de 30 000 dollars attendu en 2027, bâti sur la plateforme Universal EV qui servira ensuite à des berlines, des crossovers, des SUV trois rangées et des utilitaires. La cartographie embarquée offre un calcul d'itinéraire adapté aux véhicules électriques, le trafic en temps réel, le préconditionnement de la batterie — qui réduit les temps de charge en amenant la batterie à sa température optimale — et une intégration avec la nouvelle génération de BlueCruise. Le dispositif fonctionne indépendamment de CarPlay, qui se contente de dupliquer l'écran de l'iPhone."
+    },
+    {
+      "category": "AI",
+      "title": "Les dépenses d'infrastructure d'OpenAI atteignent 750 milliards de dollars",
+      "url": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/",
+      "publishedAt": "2026-07-22",
+      "summary": "OpenAI a relevé de 25% son plan d'investissement en infrastructures, désormais chiffré à 750 milliards de dollars d'ici 2030. Le premier chantier majeur, baptisé Project Camellia, est un campus de centres de données de 20 milliards de dollars s'étendant sur environ 570 hectares au nord-ouest de Savannah, en Géorgie. L'installation consommera au moins 3,2 gigawatts fournis par Georgia Power, avec une montée en puissance échelonnée entre 2028 et 2032. OpenAI affirme prendre en charge l'intégralité du coût des infrastructures et de la fourniture d'électricité, tout en bénéficiant d'un abattement de 50% de la taxe foncière pendant quinze ans. Les documents réglementaires de Georgia Power indiquent que la nouvelle capacité proviendra majoritairement du gaz naturel, complété par des batteries et du solaire."
+    },
+    {
+      "category": "AI",
+      "title": "Runway lance un routeur de modèles pour les médias génératifs",
+      "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+      "publishedAt": "2026-07-23",
+      "summary": "Runway a dévoilé Media Router sur sa plateforme Runway Dev, un service qui sélectionne automatiquement le meilleur modèle de génération d'image, de vidéo ou d'audio selon les priorités du développeur : qualité, vitesse ou coût. Selon Anthony Maggio, directeur produit de Runway, il s'agit du premier routeur « conçu spécifiquement pour les médias génératifs ». La plateforme intègre des modèles tiers aux côtés de ceux de Runway et compte parmi ses clients Adobe, Cloudflare, ElevenLabs, Expedia, Shutterstock et Quora. Ce virage traduit le repositionnement de l'entreprise, qui passe du statut de laboratoire de modèles à celui de fournisseur d'infrastructure. Runway n'a pas publié de nouveau modèle vidéo de pointe depuis Gen 4.5 en décembre et ses modèles actuels ne dominent plus les classements face à Google et ByteDance."
+    },
+    {
+      "category": "IT",
+      "title": "Google permet désormais de se connecter à son compte par une vidéo selfie",
+      "url": "https://techcrunch.com/2026/07/23/google-will-now-let-you-sign-in-to-your-account-with-a-selfie-video/",
+      "publishedAt": "2026-07-23",
+      "summary": "Google a annoncé une nouvelle option d'authentification biométrique reposant sur une courte vidéo selfie. L'inscription se fait en réalisant des mouvements guidés de la tête — rotations, hochements — afin de capturer plusieurs angles du visage. Lors d'une connexion, Google compare la nouvelle vidéo à celle enregistrée pour vérifier l'identité. L'entreprise dit empiler plusieurs couches de sécurité contre la fraude, dont des contrôles de vivacité et une détection des hypertrucages : « nous comparons votre vidéo à votre selfie enregistré et exigeons des mouvements simples pour prouver qu'il s'agit d'une vidéo en direct ». La fonction vise avant tout les utilisateurs bloqués hors de leur compte ou privés de leurs appareils habituels. Les vidéos sont chiffrées et peuvent être supprimées à tout moment, dans un contexte de vigilance accrue des régulateurs sur les données biométriques."
+    },
+    {
+      "category": "Science",
+      "title": "Des orques filmées en train de pulvériser un poisson-lune géant",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260723084040.htm",
+      "publishedAt": "2026-07-23",
+      "summary": "Des chercheurs ont documenté dans le golfe de Californie une technique de chasse d'orques jusqu'ici inconnue. « Nous montrons comment une orque maintient le poisson-lune et le lâche juste avant qu'une autre ne le percute à grande vitesse, faisant éclater les tissus en des milliers de morceaux », explique la chercheuse Kathryn Ayres. Deux épisodes distincts, séparés d'environ un an — en juillet 2024 puis en septembre 2025 —, ont été observés. Cette fragmentation coordonnée pourrait remplir plusieurs fonctions : rendre de petites portions accessibles aux jeunes orques, apporter des bénéfices nutritionnels ou immunitaires par l'exposition au microbiome, ou relever de l'interaction sociale et du jeu. Le comportement n'a été constaté que sur des poissons-lunes à queue pointue, dont les tissus gélatineux réagiraient de façon particulière à un choc violent."
+    },
+    {
+      "category": "IT",
+      "title": "Meta quitte le pacte RE100 alors que s'accélère sa construction de centrales à gaz",
+      "url": "https://techcrunch.com/2026/07/23/meta-drops-out-of-a-major-clean-energy-pact-as-its-natural-gas-buildout-accelerates/",
+      "publishedAt": "2026-07-23",
+      "summary": "Meta a quitté RE100, l'initiative d'entreprises engagées sur les énergies renouvelables, après une décennie d'adhésion ; un porte-parole évoque une séparation « mutuelle », alors que RE100 vient de durcir ses exigences de reporting. Apple, Google et Microsoft restent membres, parmi 444 organisations. En un an, Meta a financé la construction d'au moins une douzaine de centrales au gaz naturel, dont un projet louisianais de dix unités totalisant 7,5 gigawatts. L'article souligne la contradiction : l'entreprise affirme couvrir la consommation de ses centres de données par « 100% d'énergie propre et renouvelable », en s'appuyant sur l'achat de certificats environnementaux ailleurs tout en exploitant localement des centrales fossiles. Un centre de données au gaz d'un gigawatt émettrait chaque année 438 tonnes d'oxydes d'azote et 149 tonnes de particules fines."
+    },
+    {
+      "category": "AI",
+      "title": "Le Trésor américain menace Moonshot de sanctions après les accusations de la Maison-Blanche",
+      "url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+      "publishedAt": "2026-07-22",
+      "summary": "Le Trésor américain a brandi la menace de sanctions contre le laboratoire chinois Moonshot AI après que la Maison-Blanche a accusé l'entreprise d'avoir distillé le modèle Fable d'Anthropic pour bâtir son modèle Kimi K3. Le directeur du bureau de la politique scientifique et technologique, Michael Kratsios, a publiquement qualifié l'opération de distillation industrielle clandestine à grande échelle visant à s'approprier de la technologie américaine. L'affaire s'inscrit dans une séquence plus large de tensions autour du contrôle des exportations de puces et de la protection des modèles de pointe. Anthropic avait déjà reproché plus tôt dans l'année à plusieurs laboratoires chinois d'extraire les capacités de ses modèles par des requêtes API massives, une pratique dont les experts rappellent qu'elle est répandue dans l'ensemble du secteur."
+    },
+    {
+      "category": "IT",
+      "title": "AegisAI lève 36 millions de dollars contre le hameçonnage ciblé généré par IA",
+      "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
+      "publishedAt": "2026-07-23",
+      "summary": "AegisAI, une jeune pousse de cybersécurité fondée par d'anciens responsables de la sécurité chez Google, a levé 36 millions de dollars pour contrer le hameçonnage ciblé assisté par intelligence artificielle. Les modèles génératifs permettent aujourd'hui de produire à grande échelle des courriels de spear phishing personnalisés, sans les fautes de langue ni les maladresses qui trahissaient auparavant ces tentatives, ce qui rend les filtres traditionnels nettement moins efficaces. La société entend appliquer les mêmes techniques d'IA à la défense, en analysant le contexte et les signaux comportementaux des messages plutôt que leurs seules signatures. Ce financement illustre l'appétit des investisseurs pour les outils de sécurité conçus spécifiquement pour l'ère des attaques automatisées."
+    },
+    {
+      "category": "Science",
+      "title": "Le MIT met au point une puce lidar offrant un champ de vision élargi",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260722032127.htm",
+      "publishedAt": "2026-07-22",
+      "summary": "Des ingénieurs du MIT ont développé un lidar sur puce doté d'antennes de formes différentes, capable de fonctionner sans aucune pièce mobile. Cette architecture élargit le champ de vision du capteur tout en réduisant sa taille, son coût et sa fragilité mécanique par rapport aux lidars rotatifs classiques utilisés aujourd'hui sur les véhicules autonomes. La suppression des éléments mécaniques promet une meilleure fiabilité dans la durée et ouvre la voie à une intégration à grande échelle dans les systèmes de perception embarqués. Au-delà de la conduite automatisée, ce type de composant photonique intéresse la robotique et la cartographie tridimensionnelle, où la miniaturisation des capteurs constitue un frein persistant."
+    }
+  ]
+}
