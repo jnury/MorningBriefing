@@ -1,0 +1,6 @@
+{
+  "id": "weather",
+  "kind": "provider",
+  "label": "Météo",
+  "provider": "open-meteo"
+}

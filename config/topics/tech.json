@@ -1,0 +1,17 @@
+{
+  "id": "tech",
+  "kind": "topic",
+  "label": "Tech · IT, Science & IA",
+  "shape": "card",
+  "categories": ["IT", "Science", "AI"],
+  "bucketMin": 30,
+  "maxAgeDays": 2,
+  "summaryMaxWords": 150,
+  "research": "Actualités pertinentes en informatique (IT), science et intelligence artificielle, publiées la veille. Pour chaque élément : une `category` parmi celles autorisées, un `title`, l'`url` de la source PRIMAIRE, un `publishedAt` vérifié et un `summary` en français.",
+  "sources": [
+    "archives datées d'éditeurs (ex. techcrunch.com/2026/MM/JJ/)",
+    "blogs officiels des entreprises",
+    "ScienceDaily",
+    "bulletins de sécurité"
+  ]
+}

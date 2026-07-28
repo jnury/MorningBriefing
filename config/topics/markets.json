@@ -1,0 +1,6 @@
+{
+  "id": "markets",
+  "kind": "dataset",
+  "label": "Marchés",
+  "research": "Donne la variation en pourcentage par rapport à la séance précédente (la veille) pour chacun des indices demandés. Indique la date de référence dans `asOf` (ex. « clôture du 27 juillet 2026 »). Rédige UNE SEULE phrase de synthèse globale dans `summary`, et non une phrase par indice."
+}

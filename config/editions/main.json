@@ -1,0 +1,17 @@
+{
+  "id": "main",
+  "title": "Briefing du matin",
+  "order": 1,
+  "sections": [
+    { "topic": "weather", "params": { "cities": [
+        { "name": "Genève",   "lat": 46.20, "lon": 6.14 },
+        { "name": "Lausanne", "lat": 46.52, "lon": 6.63 } ] } },
+    { "topic": "swiss", "max": 3,
+      "prefs": "Priorité à Genève et Lausanne, puis au reste de la Suisse romande et de la Confédération." },
+    { "topic": "world", "max": 3 },
+    { "topic": "markets", "params": { "indices": ["Nasdaq", "Dow Jones", "SMI", "Euro Stoxx 50"] } },
+    { "topic": "tech", "max": 20,
+      "prefs": "Équilibre entre IT, Science et IA, avec un léger penchant pour l'IA. Classe par importance.",
+      "hints": ["IA", "modèles de langage", "cloud", "sécurité"] }
+  ]
+}

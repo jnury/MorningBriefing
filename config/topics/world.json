@@ -1,0 +1,11 @@
+{
+  "id": "world",
+  "kind": "topic",
+  "label": "Le monde en bref",
+  "shape": "headline",
+  "bucketMin": 10,
+  "maxAgeDays": 2,
+  "research": "Actualités internationales les plus importantes de la veille. Une phrase maximum par élément, classées par importance.",
+  "sources": ["AFP", "Reuters", "RTS", "Le Temps", "swissinfo"],
+  "editorial": "Ne rapporte AUCUN fait divers (crimes, agressions, accidents, drames individuels, affaires judiciaires de personnes privées) — écarte-les même s'ils sont très commentés. Privilégie TOUJOURS les bonnes nouvelles et les sujets constructifs (avancées, accords, initiatives positives, culture, sport, économie, science) ; à défaut, retiens des nouvelles d'intérêt général sérieuses, mais jamais des faits divers."
+}
