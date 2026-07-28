@@ -91,3 +91,37 @@ test('the real config/ tree loads without errors', () => {
   assert.ok(cfg.topics.tech, 'topic tech attendu');
   assert.ok(cfg.editions.some((e) => e.id === 'main'), 'édition main attendue');
 });
+
+test('loadConfig collects every independent error in a single throw', () => {
+  // Three unrelated defects at once: an unknown topic kind, an edition id that
+  // disagrees with its filename, and a section pointing at a nonexistent topic.
+  // A fail-fast regression would only report the first of these.
+  const root = tmpConfig({
+    topics: { tech: { ...TECH, kind: 'bizarre' } },
+    editions: { main: { id: 'autre', title: 'M', sections: [{ topic: 'sport', max: 3 }] } },
+  });
+  assert.throws(() => loadConfig(root), (err) => {
+    assert.match(err.message, /bizarre/);
+    assert.match(err.message, /autre/);
+    assert.match(err.message, /sport/);
+    return true;
+  });
+});
+
+test('loadConfig reports malformed JSON as a French collected error, not a raw SyntaxError', () => {
+  const root = mkdtempSync(join(tmpdir(), 'mb-cfg-'));
+  mkdirSync(join(root, 'config', 'topics'), { recursive: true });
+  mkdirSync(join(root, 'config', 'editions'), { recursive: true });
+  writeFileSync(join(root, 'config', 'house.md'), 'règles');
+  writeFileSync(join(root, 'config', 'topics', 'tech.json'), JSON.stringify(TECH));
+  writeFileSync(join(root, 'config', 'topics', 'broken.json'), '{ not valid json');
+  writeFileSync(
+    join(root, 'config', 'editions', 'main.json'),
+    JSON.stringify({ id: 'main', title: 'M', sections: [{ topic: 'tech', max: 5 }] }),
+  );
+  assert.throws(() => loadConfig(root), (err) => {
+    assert.ok(!(err instanceof SyntaxError), 'ne doit pas laisser fuiter un SyntaxError brut');
+    assert.match(err.message, /broken/);
+    return true;
+  });
+});
