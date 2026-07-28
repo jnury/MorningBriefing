@@ -83,6 +83,12 @@ test('nav links use the given prefix for depth-1 pages', () => {
   assert.match(renderEdition(data, { linkPrefix: '../' }), /href="\.\.\/archive\.html"/);
 });
 
-test('links back to the landing page', () => {
-  assert.match(renderEdition(data, { linkPrefix: '../' }), /href="\.\.\/\.\.\/index\.html"/);
+test('links back to the landing page from the real (no-prefix) calling convention', () => {
+  // lib/site.mjs always calls renderEdition with linkPrefix: '' — edition pages
+  // (index/archive/dated) all live in docs/e/<id>/, two directories below docs/.
+  assert.match(renderEdition(data, { linkPrefix: '' }), /href="\.\.\/\.\.\/index\.html"/);
+});
+
+test('links back to the landing page, composing with a non-empty prefix', () => {
+  assert.match(renderEdition(data, { linkPrefix: '../' }), /href="\.\.\/\.\.\/\.\.\/index\.html"/);
 });

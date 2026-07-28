@@ -29,3 +29,10 @@ test('an edition with no published date is shown without a link to today', () =>
   assert.match(html, /Nouveau/);
   assert.ok(!html.includes('href="e/neuf/index.html"'), 'pas de lien vers une édition jamais publiée');
 });
+
+test('escapes a hostile edition id so it cannot break out of the href attribute', () => {
+  const evil = [{ id: '"><script>alert(2)</script>', title: 'Malveillant', latestDate: '2026-07-28' }];
+  const html = renderLanding(evil);
+  assert.ok(!html.includes('<script>alert(2)</script>'));
+  assert.match(html, /href="e\/&quot;&gt;&lt;script&gt;alert\(2\)&lt;\/script&gt;\/index\.html"/);
+});

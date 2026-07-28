@@ -21,3 +21,9 @@ test('carries the edition title', () => {
 test('renders an empty archive without crashing', () => {
   assert.match(renderArchive({ ...edition, dates: [] }), /<h1>Archives<\/h1>/);
 });
+
+test('links back to the landing page from the real (no-options) calling convention', () => {
+  // lib/site.mjs always calls renderArchive with no linkPrefix at all — the
+  // archive page lives in docs/e/<id>/, two directories below docs/.
+  assert.match(renderArchive(edition), /href="\.\.\/\.\.\/index\.html"/);
+});
