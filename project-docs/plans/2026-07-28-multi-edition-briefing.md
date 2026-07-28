@@ -1696,7 +1696,8 @@ test('both pages sit at the same depth, so their nav prefixes match', () => {
   const dated = readFileSync(join(root, 'docs', 'e', 'main', '2026-07-28.html'), 'utf8');
   assert.match(index, /href="archive\.html"/);
   assert.match(dated, /href="archive\.html"/);
-  assert.match(index, /href="\.\.\/index\.html"/);   // back to the landing page
+  // docs/e/main/ is two levels below docs/, where the landing page lives.
+  assert.match(index, /href="\.\.\/\.\.\/index\.html"/);
 });
 
 test('listEditionDates returns that edition dates newest first', () => {
