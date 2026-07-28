@@ -65,6 +65,16 @@ test('selectIndices picks the edition indices in configured order', () => {
   assert.equal(out.summary, 'Calme.');
 });
 
+test('selectCities reports a city name that did not match the bucket', () => {
+  const s = { topic: 'weather', params: { cities: [{ name: 'Genève' }, { name: 'Berne' }] } };
+  assert.deepEqual(selectCities(s, WEATHER_BUCKET).missing, ['Berne']);
+});
+
+test('selectIndices reports an index name that did not match the bucket', () => {
+  const s = { topic: 'markets', params: { indices: ['Nasdaq', 'Nasdaq Composite'] } };
+  assert.deepEqual(selectIndices(s, MARKETS_BUCKET).missing, ['Nasdaq Composite']);
+});
+
 test('fallbackItems takes the top max in bucket order', () => {
   assert.deepEqual(fallbackItems({ max: 2 }, TECH_BUCKET).map((i) => i.title), ['t1', 't2']);
 });
@@ -180,4 +190,40 @@ test('an edition whose every bucket failed produces no sections', async () => {
   const edition = { id: 'main', title: 'B', sections: [{ topic: 'tech', max: 2 }] };
   const data = await composeEdition(edition, ctx(tmpRoot(), { bucketResults }));
   assert.deepEqual(data.sections, []);
+});
+
+// Market/city names are model-authored or hand-edited free text matched by
+// exact string; a config/bucket mismatch must drop only that section, not
+// the whole edition, and must be visible in the log rather than silent.
+test('a dataset section is omitted when none of its indices match the bucket, other sections still publish', async () => {
+  const logs = [];
+  const edition = { id: 'main', title: 'B', sections: [
+    { topic: 'weather', params: { cities: [{ name: 'Genève' }] } },
+    { topic: 'markets', params: { indices: ['Nasdaq Composite'] } },
+  ] };
+  const data = await composeEdition(edition, ctx(tmpRoot(), { log: (l) => logs.push(l) }));
+  assert.deepEqual(data.sections.map((s) => s.topic), ['weather']);
+  assert.ok(logs.some((l) => l.includes('markets') && l.includes('omise')));
+});
+
+test('a dataset section with a partial index match is still published, with the misses logged', async () => {
+  const logs = [];
+  const edition = { id: 'main', title: 'B', sections: [
+    { topic: 'markets', params: { indices: ['Nasdaq', 'Nasdaq Composite', 'SMI'] } },
+  ] };
+  const data = await composeEdition(edition, ctx(tmpRoot(), { log: (l) => logs.push(l) }));
+  assert.equal(data.sections.length, 1);
+  assert.deepEqual(data.sections[0].indices.map((i) => i.name), ['Nasdaq', 'SMI']);
+  assert.ok(logs.some((l) => l.includes('Nasdaq Composite')));
+});
+
+test('a provider section is omitted when none of its cities match the bucket, other sections still publish', async () => {
+  const logs = [];
+  const edition = { id: 'main', title: 'B', sections: [
+    { topic: 'weather', params: { cities: [{ name: 'Berne' }] } },
+    { topic: 'tech', max: 2 },
+  ] };
+  const data = await composeEdition(edition, ctx(tmpRoot(), { log: (l) => logs.push(l) }));
+  assert.deepEqual(data.sections.map((s) => s.topic), ['tech']);
+  assert.ok(logs.some((l) => l.includes('weather') && l.includes('omise')));
 });
