@@ -7,14 +7,19 @@ $ErrorActionPreference = 'Stop'
 $repo = $PSScriptRoot
 $node = (Get-Command node).Source
 $taskName = 'MorningBriefing'
+$me = "$env:USERDOMAIN\$env:USERNAME"
 
+# generate.mjs handles the gh-account switch itself, tightly around the push.
 $action = New-ScheduledTaskAction -Execute $node -Argument 'generate.mjs' -WorkingDirectory $repo
 $trigger = New-ScheduledTaskTrigger -Daily -At 5:00am
 
 # StartWhenAvailable = catch up after a missed 05:00 (e.g. PC was off).
 $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Minutes 30)
 
-Register-ScheduledTask -TaskName $taskName -Action $action -Trigger $trigger -Settings $settings `
-  -Description 'Generate and publish the daily morning briefing' -Force
+# Run as the current user, only when logged on (needed for gh keyring + git credentials).
+$principal = New-ScheduledTaskPrincipal -UserId $me -LogonType Interactive -RunLevel Limited
 
-Write-Host "Scheduled task '$taskName' registered for 05:00 daily (StartWhenAvailable)."
+Register-ScheduledTask -TaskName $taskName -Action $action -Trigger $trigger -Settings $settings `
+  -Principal $principal -Description 'Generate and publish the daily morning briefing' -Force
+
+Write-Host "Scheduled task '$taskName' registered for 05:00 daily as $me (StartWhenAvailable)."

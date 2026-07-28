@@ -56,6 +56,26 @@ function loadAndValidate(outPath) {
   return data;
 }
 
+// The repo is published under an account whose write access lives in a separate
+// GitHub login (gh keyring). git uses gh as its credential helper, so the PUSH
+// authenticates as whichever account is gh-"active". We flip to the publishing
+// account for the push ONLY, then restore whatever was active before — the switch
+// is global to the user, so we keep that window as small as possible to avoid
+// disrupting any other git/gh work happening on the machine.
+const PUBLISH_GH_USER = 'jnury';
+
+function ghActiveUser() {
+  const r = spawnSync('gh auth status --active', { cwd: ROOT, encoding: 'utf8', shell: true });
+  const m = (r.stdout || '').match(/account\s+(\S+)/);
+  return m ? m[1] : null;
+}
+
+function ghSwitch(user) {
+  const s = spawnSync(`gh auth switch --user ${user}`, { cwd: ROOT, encoding: 'utf8', shell: true });
+  if (s.status !== 0) throw new Error(`gh auth switch --user ${user} a échoué: ${s.stderr || s.stdout}`);
+  spawnSync('gh auth setup-git', { cwd: ROOT, encoding: 'utf8', shell: true });
+}
+
 function gitPublish(date) {
   const run = (cmd) => {
     const r = spawnSync(cmd, { cwd: ROOT, encoding: 'utf8', shell: true });
@@ -66,8 +86,17 @@ function gitPublish(date) {
   const status = spawnSync('git status --porcelain', { cwd: ROOT, encoding: 'utf8', shell: true }).stdout;
   if (!status.trim()) { log('git: aucun changement à publier'); return; }
   run(`git commit -m "briefing: ${date}"`);
-  run('git push origin main');
-  log('git: publié sur origin/main');
+
+  // Switch gh account for the push only, then restore the previous one.
+  const previous = ghActiveUser();
+  const mustSwitch = previous !== PUBLISH_GH_USER;
+  try {
+    if (mustSwitch) { ghSwitch(PUBLISH_GH_USER); log(`git: bascule gh ${previous ?? '?'} -> ${PUBLISH_GH_USER}`); }
+    run('git push origin main');
+    log('git: publié sur origin/main');
+  } finally {
+    if (mustSwitch && previous) { ghSwitch(previous); log(`git: gh restauré -> ${previous}`); }
+  }
 }
 
 async function main() {
