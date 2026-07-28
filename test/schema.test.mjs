@@ -1,154 +1,116 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
-import { validateBriefing, countWords } from '../lib/schema.mjs';
+import { countWords, validateBucket, validateEditionData } from '../lib/schema.mjs';
 
-const valid = () => JSON.parse(readFileSync(new URL('./fixtures/sample.json', import.meta.url)));
+const TECH = {
+  id: 'tech', kind: 'topic', label: 'Tech', shape: 'card',
+  categories: ['IT', 'Science', 'AI'], bucketMin: 30, maxAgeDays: 2, summaryMaxWords: 150,
+};
+const WORLD = { id: 'world', kind: 'topic', label: 'Monde', shape: 'headline', bucketMin: 10, maxAgeDays: 2 };
+const WEATHER = { id: 'weather', kind: 'provider', label: 'Météo' };
+const MARKETS = { id: 'markets', kind: 'dataset', label: 'Marchés' };
+
+const card = (over = {}) => ({
+  category: 'AI', title: 'Titre', url: 'https://example.com/a',
+  publishedAt: '2026-07-27', summary: 'Résumé court.', ...over,
+});
+const headline = (over = {}) => ({ headline: 'Une nouvelle', publishedAt: '2026-07-27', ...over });
+
+const bucket = (over = {}) => ({
+  bucketId: 'tech', date: '2026-07-28', collectedAt: '2026-07-28T05:02:00+02:00',
+  shape: 'card', items: [card()], ...over,
+});
 
 test('countWords counts whitespace-separated words', () => {
   assert.equal(countWords('un deux trois'), 3);
-  assert.equal(countWords('  espaces   multiples  '), 2);
-  assert.equal(countWords(''), 0);
+  assert.equal(countWords('   '), 0);
+  assert.equal(countWords(null), 0);
 });
 
-test('valid fixture passes', () => {
-  const r = validateBriefing(valid());
-  assert.equal(r.valid, true, r.errors.join('; '));
-  assert.deepEqual(r.errors, []);
+test('a well-formed card bucket validates', () => {
+  assert.deepEqual(validateBucket(bucket(), TECH, '2026-07-28'), { valid: true, errors: [] });
 });
 
-test('rejects wrong worldNews count', () => {
-  const d = valid(); d.worldNews = d.worldNews.slice(0, 2);
-  assert.equal(validateBriefing(d).valid, false);
-});
-
-test('rejects empty swissNews', () => {
-  const d = valid(); d.swissNews = [];
-  const r = validateBriefing(d);
+test('bucket rejects an item older than the topic maxAgeDays', () => {
+  const r = validateBucket(bucket({ items: [card({ publishedAt: '2026-07-20' })] }), TECH, '2026-07-28');
   assert.equal(r.valid, false);
-  assert.match(r.errors.join('; '), /swissNews/);
+  assert.match(r.errors.join(' '), /trop ancien/);
 });
 
-test('rejects more than 3 swissNews', () => {
-  const d = valid();
-  d.swissNews = Array.from({ length: 4 }, () => ({ headline: 'h', publishedAt: '2026-06-08' }));
-  assert.equal(validateBriefing(d).valid, false);
+test('bucket rejects a publishedAt in the future', () => {
+  const r = validateBucket(bucket({ items: [card({ publishedAt: '2026-07-29' })] }), TECH, '2026-07-28');
+  assert.match(r.errors.join(' '), /futur/);
 });
 
-test('accepts a single swissNews item', () => {
-  const d = valid();
-  d.swissNews = [{ headline: 'Genève vote son budget.', publishedAt: '2026-06-08' }];
-  assert.equal(validateBriefing(d).valid, true);
+test('bucket rejects a category outside the topic list', () => {
+  const r = validateBucket(bucket({ items: [card({ category: 'Sport' })] }), TECH, '2026-07-28');
+  assert.match(r.errors.join(' '), /category/);
 });
 
-test('rejects a swissNews item without publishedAt', () => {
-  const d = valid(); delete d.swissNews[0].publishedAt;
-  const r = validateBriefing(d);
-  assert.equal(r.valid, false);
-  assert.match(r.errors.join('; '), /swissNews\[0\]\.publishedAt/);
+test('bucket rejects a non-http url', () => {
+  const r = validateBucket(bucket({ items: [card({ url: 'ftp://x' })] }), TECH, '2026-07-28');
+  assert.match(r.errors.join(' '), /url/);
 });
 
-test('rejects stale swissNews', () => {
-  const d = valid(); // edition date 2026-06-09
-  d.swissNews[0].publishedAt = '2026-06-01';
-  assert.equal(validateBriefing(d).valid, false);
+test('bucket rejects a summary over summaryMaxWords', () => {
+  const long = Array.from({ length: 151 }, (_, i) => `m${i}`).join(' ');
+  const r = validateBucket(bucket({ items: [card({ summary: long })] }), TECH, '2026-07-28');
+  assert.match(r.errors.join(' '), /150 mots/);
 });
 
-test('rejects missing weather city', () => {
-  const d = valid(); delete d.weather.lausanne;
-  assert.equal(validateBriefing(d).valid, false);
-});
-
-test('rejects more than 20 tech items', () => {
-  const d = valid();
-  d.tech = Array.from({ length: 21 }, () => ({
-    category: 'AI', title: 't', url: 'https://x.com', summary: 'résumé'
-  }));
-  assert.equal(validateBriefing(d).valid, false);
-});
-
-test('rejects summary over 150 words', () => {
-  const d = valid();
-  d.tech[0].summary = Array.from({ length: 151 }, () => 'mot').join(' ');
-  assert.equal(validateBriefing(d).valid, false);
-});
-
-test('rejects bad tech category', () => {
-  const d = valid(); d.tech[0].category = 'Sports';
-  assert.equal(validateBriefing(d).valid, false);
-});
-
-test('rejects non-http url', () => {
-  const d = valid(); d.tech[0].url = 'ftp://x.com';
-  assert.equal(validateBriefing(d).valid, false);
-});
-
-test('rejects markets with wrong index count', () => {
-  const d = valid(); d.markets.indices = d.markets.indices.slice(0, 3);
-  assert.equal(validateBriefing(d).valid, false);
-});
-
-test('rejects markets missing a required index', () => {
-  const d = valid(); d.markets.indices[0].name = 'CAC 40';
-  assert.equal(validateBriefing(d).valid, false);
-});
-
-test('rejects markets without a summary', () => {
-  const d = valid(); delete d.markets.summary;
-  assert.equal(validateBriefing(d).valid, false);
-});
-
-test('rejects a null market index without throwing', () => {
-  const d = valid(); d.markets.indices[0] = null;
-  let r;
-  assert.doesNotThrow(() => { r = validateBriefing(d); });
+test('bucket rejects an empty item list', () => {
+  const r = validateBucket(bucket({ items: [] }), TECH, '2026-07-28');
   assert.equal(r.valid, false);
 });
 
-test('rejects weather city missing weathercode', () => {
-  const d = valid(); delete d.weather.geneva.weathercode;
-  assert.equal(validateBriefing(d).valid, false);
+test('a headline bucket validates and requires headline text', () => {
+  const ok = validateBucket({ bucketId: 'world', date: '2026-07-28', collectedAt: 'x', shape: 'headline', items: [headline()] }, WORLD, '2026-07-28');
+  assert.equal(ok.valid, true);
+  const bad = validateBucket({ bucketId: 'world', date: '2026-07-28', collectedAt: 'x', shape: 'headline', items: [{ publishedAt: '2026-07-27' }] }, WORLD, '2026-07-28');
+  assert.match(bad.errors.join(' '), /headline/);
 });
 
-test('rejects a tech item without publishedAt', () => {
-  const d = valid(); delete d.tech[0].publishedAt;
-  const r = validateBriefing(d);
+test('a markets dataset bucket validates asOf, summary and numeric changePct', () => {
+  const good = { bucketId: 'markets', date: '2026-07-28', collectedAt: 'x', asOf: 'clôture du 27 juillet', summary: 'Séance calme.', indices: [{ name: 'SMI', changePct: 0.4 }] };
+  assert.equal(validateBucket(good, MARKETS, '2026-07-28').valid, true);
+  const bad = { ...good, indices: [{ name: 'SMI', changePct: '0.4' }] };
+  assert.match(validateBucket(bad, MARKETS, '2026-07-28').errors.join(' '), /changePct/);
+});
+
+test('a weather provider bucket validates its cities', () => {
+  const good = { bucketId: 'weather', date: '2026-07-28', collectedAt: 'x', cities: [{ name: 'Genève', high: 24, low: 13, condition: 'Ensoleillé', weathercode: 0, precipProbability: 10 }] };
+  assert.equal(validateBucket(good, WEATHER, '2026-07-28').valid, true);
+  const bad = { ...good, cities: [{ name: 'Genève', high: 24, low: 13, condition: 'Ensoleillé', precipProbability: 10 }] };
+  assert.match(validateBucket(bad, WEATHER, '2026-07-28').errors.join(' '), /weathercode/);
+});
+
+const CONFIG = { topics: { tech: TECH, world: WORLD, weather: WEATHER, markets: MARKETS }, editions: [] };
+
+const editionData = (over = {}) => ({
+  edition: 'main', title: 'Briefing du matin', date: '2026-07-28',
+  generatedAt: '2026-07-28T05:04:00+02:00',
+  sections: [
+    { topic: 'tech', label: 'Tech', kind: 'topic', shape: 'card', items: [card()] },
+  ],
+  ...over,
+});
+
+test('a well-formed edition validates', () => {
+  assert.deepEqual(validateEditionData(editionData(), CONFIG), { valid: true, errors: [] });
+});
+
+test('edition rejects an unknown topic in a section', () => {
+  const r = validateEditionData(editionData({ sections: [{ topic: 'sport', label: 'S', kind: 'topic', shape: 'card', items: [card()] }] }), CONFIG);
+  assert.match(r.errors.join(' '), /sport/);
+});
+
+test('edition rejects a stale item, same rule as the bucket', () => {
+  const r = validateEditionData(editionData({ sections: [{ topic: 'tech', label: 'Tech', kind: 'topic', shape: 'card', items: [card({ publishedAt: '2026-07-01' })] }] }), CONFIG);
+  assert.match(r.errors.join(' '), /trop ancien/);
+});
+
+test('edition rejects an empty sections array — a fully failed run publishes nothing, not an empty page', () => {
+  const r = validateEditionData(editionData({ sections: [] }), CONFIG);
   assert.equal(r.valid, false);
-  assert.match(r.errors.join('; '), /tech\[0\]\.publishedAt/);
-});
-
-test('rejects a worldNews item without publishedAt', () => {
-  const d = valid(); delete d.worldNews[0].publishedAt;
-  const r = validateBriefing(d);
-  assert.equal(r.valid, false);
-  assert.match(r.errors.join('; '), /worldNews\[0\]\.publishedAt/);
-});
-
-test('rejects tech news older than 2 days', () => {
-  const d = valid(); // edition date 2026-06-09
-  d.tech[0].publishedAt = '2026-06-06'; // 3 days old
-  const r = validateBriefing(d);
-  assert.equal(r.valid, false);
-  assert.match(r.errors.join('; '), /trop ancien/);
-});
-
-test('accepts tech news exactly 2 days old', () => {
-  const d = valid(); // edition date 2026-06-09
-  d.tech.forEach((t) => { t.publishedAt = '2026-06-07'; });
-  d.worldNews.forEach((n) => { n.publishedAt = '2026-06-07'; });
-  assert.equal(validateBriefing(d).valid, true);
-});
-
-test('rejects news dated in the future', () => {
-  const d = valid(); // edition date 2026-06-09
-  d.tech[0].publishedAt = '2026-06-10';
-  const r = validateBriefing(d);
-  assert.equal(r.valid, false);
-  assert.match(r.errors.join('; '), /futur/);
-});
-
-test('rejects a malformed publishedAt', () => {
-  const d = valid();
-  d.tech[0].publishedAt = '9 juin 2026';
-  assert.equal(validateBriefing(d).valid, false);
+  assert.match(r.errors.join(' '), /aucune section/);
 });
