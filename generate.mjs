@@ -90,7 +90,10 @@ function gitPublish(date) {
   run('git add docs');
   const status = spawnSync('git status --porcelain docs', { cwd: ROOT, encoding: 'utf8', shell: true }).stdout;
   if (!status.trim()) { log('git: aucun changement à publier'); return; }
-  run(`git commit -m "briefing: ${date}"`);
+  // Scoped to the docs pathspec: this repo is worked on directly on main, so
+  // without it anything else left staged at 05:00 would be swept into the
+  // briefing commit and pushed to a public repository unattended.
+  run(`git commit -m "briefing: ${date}" -- docs`);
 
   const previous = ghActiveUser();
   // An indeterminate previous account must stop the publish before any
