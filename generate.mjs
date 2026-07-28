@@ -57,10 +57,22 @@ function log(line) {
 // disrupting any other git/gh work happening on the machine.
 const PUBLISH_GH_USER = 'jnury';
 
-function ghActiveUser() {
-  const r = spawnSync('gh auth status --active', { cwd: ROOT, encoding: 'utf8', shell: true });
-  const m = (r.stdout || '').match(/account\s+(\S+)/);
+// Extracted from ghActiveUser so the parsing logic -- the actual fix -- is
+// unit-testable without spawning the real gh binary. `gh auth status` writes
+// its human-readable summary to stderr by convention, not stdout, so both
+// streams are scanned; a non-zero exit is never treated as a match. Returning
+// null here is a hard-error signal to the caller -- it must NOT be read as
+// "nothing to restore".
+export function parseGhActiveUser(result) {
+  if (result.status !== 0) return null;
+  const m = `${result.stdout || ''}\n${result.stderr || ''}`.match(/account\s+(\S+)/);
   return m ? m[1] : null;
+}
+
+// Returns the currently gh-active account, or null if that could not be
+// determined reliably (gh missing, not logged in, unexpected output).
+function ghActiveUser() {
+  return parseGhActiveUser(spawnSync('gh auth status --active', { cwd: ROOT, encoding: 'utf8', shell: true }));
 }
 
 function ghSwitch(user) {
@@ -81,13 +93,30 @@ function gitPublish(date) {
   run(`git commit -m "briefing: ${date}"`);
 
   const previous = ghActiveUser();
+  // An indeterminate previous account must stop the publish before any
+  // switch happens -- proceeding would risk leaving the machine switched to
+  // PUBLISH_GH_USER with no way to know what to restore it to.
+  if (previous === null) {
+    throw new Error('compte gh actif indéterminable ; publication interrompue avant toute bascule');
+  }
   const mustSwitch = previous !== PUBLISH_GH_USER;
   try {
-    if (mustSwitch) { ghSwitch(PUBLISH_GH_USER); log(`git: bascule gh ${previous ?? '?'} -> ${PUBLISH_GH_USER}`); }
+    if (mustSwitch) { ghSwitch(PUBLISH_GH_USER); log(`git: bascule gh ${previous} -> ${PUBLISH_GH_USER}`); }
     run('git push origin main');
     log('git: publié sur origin/main');
   } finally {
-    if (mustSwitch && previous) { ghSwitch(previous); log(`git: gh restauré -> ${previous}`); }
+    if (mustSwitch) {
+      try {
+        ghSwitch(previous);
+        log(`git: gh restauré -> ${previous}`);
+      } catch (err) {
+        // A restore failure here must never throw over whatever error (if
+        // any) came out of the try block above -- log loudly instead, since
+        // the machine is now left switched to PUBLISH_GH_USER with no
+        // automatic way back.
+        log(`ERREUR: restauration du compte gh a échoué, compte laissé sur ${PUBLISH_GH_USER} : ${err.message}`);
+      }
+    }
   }
 }
 

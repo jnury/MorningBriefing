@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { mkdtempSync, mkdirSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { parseArgs, resolveEditions, loadBucketsFromDisk } from '../generate.mjs';
+import { parseArgs, resolveEditions, loadBucketsFromDisk, parseGhActiveUser } from '../generate.mjs';
 import { composeEdition } from '../lib/compose.mjs';
 
 test('defaults: full run, push enabled, every edition', () => {
@@ -102,6 +102,31 @@ test('loadBucketsFromDisk accepts a well-formed on-disk bucket', () => {
 // relies on, instead of letting composeEdition dereference invalid data and
 // throw out of the whole run (fallbackItems is called from inside a catch
 // block, so that throw used to escape composeEdition entirely).
+// `gh auth status` writes its human-readable summary to stderr by
+// convention, not stdout -- a previous version only ever scanned stdout, so
+// it always read as "indeterminate", which (before this fix) meant "nothing
+// to restore" rather than a hard error. These pin the parsing logic that
+// replaced that assumption.
+test('parseGhActiveUser reads the account from stderr, where gh actually writes it', () => {
+  const r = { status: 0, stdout: '', stderr: 'Logged in to github.com account jnury (keyring)' };
+  assert.equal(parseGhActiveUser(r), 'jnury');
+});
+
+test('parseGhActiveUser also reads the account from stdout', () => {
+  const r = { status: 0, stdout: 'Logged in to github.com account jnury (keyring)', stderr: '' };
+  assert.equal(parseGhActiveUser(r), 'jnury');
+});
+
+test('parseGhActiveUser returns null on a non-zero exit even if the text would otherwise match', () => {
+  const r = { status: 1, stdout: '', stderr: 'Logged in to github.com account jnury (keyring)' };
+  assert.equal(parseGhActiveUser(r), null);
+});
+
+test('parseGhActiveUser returns null when neither stream mentions an account', () => {
+  const r = { status: 0, stdout: '', stderr: 'You are not logged into any GitHub hosts.' };
+  assert.equal(parseGhActiveUser(r), null);
+});
+
 test('a malformed on-disk bucket degrades composeEdition to a skipped section rather than throwing', async () => {
   const root = tmpRoot();
   writeBucket(root, 'tech', { bucketId: 'tech', date: DATE }); // fails validateBucket
