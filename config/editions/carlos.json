@@ -1,0 +1,13 @@
+{
+  "id": "carlos",
+  "title": "Briefing de Carlos",
+  "order": 2,
+  "sections": [
+    { "topic": "weather", "params": { "cities": [{ "name": "Zurich", "lat": 47.37, "lon": 8.54 }] } },
+    { "topic": "world", "max": 5, "prefs": "Accent sur l'Amérique latine et l'Europe." },
+    { "topic": "tech", "max": 10,
+      "prefs": "Cybersécurité d'abord, puis infrastructure et cloud. Peu d'IA générative.",
+      "hints": ["cybersécurité", "CVE", "ransomware", "Kubernetes"] },
+    { "topic": "sport", "max": 3 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "sport",
+  "kind": "topic",
+  "label": "Sport",
+  "shape": "headline",
+  "bucketMin": 10,
+  "maxAgeDays": 2,
+  "research": "Résultats et actualités sportives marquants de la veille. Une phrase maximum par élément, classés par importance.",
+  "sources": ["RTS Sport", "L'Équipe", "Reuters Sports"]
+}
