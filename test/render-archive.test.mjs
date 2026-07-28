@@ -2,22 +2,22 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { renderArchive } from '../lib/render.mjs';
 
-const editions = [{ date: '2026-06-07' }, { date: '2026-06-09' }, { date: '2026-06-08' }];
+const edition = { id: 'main', title: 'Briefing du matin', dates: ['2026-07-26', '2026-07-28', '2026-07-27'] };
 
-test('renderArchive lists editions newest first', () => {
-  const html = renderArchive(editions, { linkPrefix: '' });
-  const i9 = html.indexOf('2026-06-09');
-  const i8 = html.indexOf('2026-06-08');
-  const i7 = html.indexOf('2026-06-07');
-  assert.ok(i9 < i8 && i8 < i7, 'order should be 9, 8, 7');
+test('lists every date, newest first, in French', () => {
+  const html = renderArchive(edition);
+  assert.ok(html.indexOf('28 juillet 2026') < html.indexOf('27 juillet 2026'));
+  assert.ok(html.indexOf('27 juillet 2026') < html.indexOf('26 juillet 2026'));
 });
 
-test('renderArchive links to edition permalinks with linkPrefix', () => {
-  const html = renderArchive(editions, { linkPrefix: '' });
-  assert.match(html, /href="editions\/2026-06-09\.html"/);
+test('links to the dated page inside the same edition directory', () => {
+  assert.match(renderArchive(edition), /href="2026-07-28\.html"/);
 });
 
-test('renderArchive uses French date labels', () => {
-  const html = renderArchive(editions, { linkPrefix: '' });
-  assert.match(html, /9 juin 2026/);
+test('carries the edition title', () => {
+  assert.match(renderArchive(edition), /Briefing du matin/);
+});
+
+test('renders an empty archive without crashing', () => {
+  assert.match(renderArchive({ ...edition, dates: [] }), /<h1>Archives<\/h1>/);
 });

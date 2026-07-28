@@ -7,7 +7,7 @@ test('escapeHtml escapes dangerous characters', () => {
 });
 
 test('pageLayout produces a full responsive HTML document', () => {
-  const html = pageLayout({ title: 'Test', bodyHtml: '<p>hello</p>', linkPrefix: '' });
+  const html = pageLayout({ title: 'Test', brand: 'Test', bodyHtml: '<p>hello</p>', linkPrefix: '' });
   assert.match(html, /<!doctype html>/i);
   assert.match(html, /<html lang="fr">/);
   assert.match(html, /name="viewport"/);
@@ -18,7 +18,7 @@ test('pageLayout produces a full responsive HTML document', () => {
 });
 
 test('pageLayout nav links respect linkPrefix', () => {
-  const deep = pageLayout({ title: 'T', bodyHtml: '', linkPrefix: '../' });
+  const deep = pageLayout({ title: 'T', brand: 'T', bodyHtml: '', linkPrefix: '../', homeHref: '../../index.html' });
   assert.match(deep, /href="\.\.\/index\.html"/);
   assert.match(deep, /href="\.\.\/archive\.html"/);
 });
