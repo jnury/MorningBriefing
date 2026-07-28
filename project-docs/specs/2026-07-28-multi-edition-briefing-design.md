@@ -94,13 +94,22 @@ candidate list.
 **Bucket size is derived, never hand-tuned**, for `topic` buckets:
 
 ```
-bucketSize = max(topic.bucketMin, ceil(largestConsumerMax × 2.5))
+bucketSize = max(topic.bucketMin, ceil(largestConsumerMax × 1.5))
 ```
 
 where `largestConsumerMax` is the greatest `max` declared by any edition using
 that topic. An edition asking for 30 tech items automatically widens the bucket
-for everyone. The 2.5 over-collection factor absorbs the freshness filter, which
+for everyone. The over-collection factor absorbs the freshness filter, which
 historically discards a large fraction of candidates.
+
+> **Update (post-launch):** the factor was originally 2.5 (tech bucket = 50
+> candidates). A measured live run showed collection taking over an hour,
+> dominated by the tech bucket — each candidate's `publishedAt` is verified
+> against its primary source, so cost scales directly with bucket size — against
+> a 30-minute scheduled-task budget. Reduced to 1.5, bringing the tech bucket to
+> 30, which matches the original single-edition prompt's "collect at least 30
+> candidates". Every other topic is dominated by its `bucketMin` of 10 and is
+> unaffected.
 
 `provider` and `dataset` buckets have no `max` and no derived size — their
 content is fully determined by the union of collection parameters.

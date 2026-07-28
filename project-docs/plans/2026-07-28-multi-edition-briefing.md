@@ -429,7 +429,7 @@ git commit -m "feat(config): topic and edition configuration with validation"
 **Interfaces:**
 - Consumes: `loadConfig(root) -> { house, topics, editions }` from Task 1.
 - Produces:
-  - `OVERCOLLECT = 2.5`
+  - `OVERCOLLECT = 1.5` (reduced from 2.5 post-launch; see spec update note)
   - `planBuckets(config, { editionIds = null } = {}) -> Bucket[]`
   - `Bucket = { id, kind, size?, hints: string[], params: object, consumers: string[] }`, ordered by bucket id. `size` is present only for `kind === 'topic'`. `params.cities` (weather) and `params.indices` (markets) are unions, deduplicated by `name`, in first-seen edition order.
 
@@ -462,12 +462,15 @@ const CARLOS = {
   id: 'carlos', title: 'C', order: 2,
   sections: [
     { topic: 'weather', params: { cities: [{ name: 'Zurich', lat: 47.37, lon: 8.54 }, { name: 'Genève', lat: 46.2, lon: 6.14 }] } },
-    { topic: 'world', max: 5 },
+    { topic: 'world', max: 8 },
     { topic: 'tech', max: 10, hints: ['cybersécurité', 'IA'] },
   ],
 };
 
 const cfg = { house: 'h', topics: TOPICS, editions: [MAIN, CARLOS] };
+// NOTE: 'world' max is 8 (not the original 5) so this fixture still exercises
+// the ceil(max * OVERCOLLECT) branch after OVERCOLLECT was lowered to 1.5 —
+// see the size test below.
 
 test('one bucket per distinct topic, ordered by id', () => {
   assert.deepEqual(planBuckets(cfg).map((b) => b.id), ['markets', 'tech', 'weather', 'world']);
@@ -490,10 +493,10 @@ test('hints are unioned across editions, deduplicated, first-seen order', () => 
 
 test('topic bucket size is the larger of bucketMin and largest max x OVERCOLLECT', () => {
   const byId = Object.fromEntries(planBuckets(cfg).map((b) => [b.id, b]));
-  // tech: largest max is 20 -> ceil(20 * 2.5) = 50, above bucketMin 30
+  // tech: largest max is 20 -> ceil(20 * 1.5) = 30, exactly ties bucketMin 30
   assert.equal(byId.tech.size, Math.ceil(20 * OVERCOLLECT));
-  // world: largest max is 5 -> ceil(5 * 2.5) = 13, below bucketMin 10? no: 13 > 10
-  assert.equal(byId.world.size, 13);
+  // world: largest max is 8 -> ceil(8 * 1.5) = 12, above bucketMin 10
+  assert.equal(byId.world.size, Math.ceil(8 * OVERCOLLECT));
 });
 
 test('bucketMin wins when demand is small', () => {
@@ -538,8 +541,11 @@ Create `lib/plan.mjs`:
 
 // Over-collection factor for researched topics. The freshness filter discards a
 // large fraction of candidates, so the bucket must be substantially wider than
-// the largest edition's appetite.
-export const OVERCOLLECT = 2.5;
+// the largest edition's appetite. Was 2.5 (tech bucket = 50); a measured live
+// run showed collection past an hour, dominated by that bucket (each candidate's
+// date is verified against its primary source, so cost scales with bucket size),
+// against a 30-minute scheduled-task budget. Lowered to 1.5 (tech bucket = 30).
+export const OVERCOLLECT = 1.5;
 
 function pushUnique(list, value, key) {
   if (!list.some((existing) => key(existing) === key(value))) list.push(value);

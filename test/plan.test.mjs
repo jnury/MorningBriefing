@@ -23,7 +23,7 @@ const CARLOS = {
   sections: [
     { topic: 'weather', params: { cities: [{ name: 'Zurich', lat: 47.37, lon: 8.54 }, { name: 'Genève', lat: 46.2, lon: 6.14 }] } },
     { topic: 'markets', params: { indices: ['SMI', 'CAC 40'] } },
-    { topic: 'world', max: 5 },
+    { topic: 'world', max: 8 },
     { topic: 'tech', max: 10, hints: ['cybersécurité', 'IA'] },
   ],
 };
@@ -51,10 +51,11 @@ test('hints are unioned across editions, deduplicated, first-seen order', () => 
 
 test('topic bucket size is the larger of bucketMin and largest max x OVERCOLLECT', () => {
   const byId = Object.fromEntries(planBuckets(cfg).map((b) => [b.id, b]));
-  // tech: largest max is 20 -> ceil(20 * 2.5) = 50, above bucketMin 30
+  // tech: largest max is 20 -> ceil(20 * 1.5) = 30, exactly ties bucketMin 30
   assert.equal(byId.tech.size, Math.ceil(20 * OVERCOLLECT));
-  // world: largest max is 5 -> ceil(5 * 2.5) = 13, below bucketMin 10? no: 13 > 10
-  assert.equal(byId.world.size, 13);
+  // world: largest max is 8 -> ceil(8 * 1.5) = 12, above bucketMin 10 (keeps this
+  // branch covered now that tech's max no longer strictly exceeds its bucketMin)
+  assert.equal(byId.world.size, Math.ceil(8 * OVERCOLLECT));
 });
 
 test('bucketMin wins when demand is small', () => {
