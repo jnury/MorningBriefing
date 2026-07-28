@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseArgs } from '../generate.mjs';
+import { parseArgs, resolveEditions } from '../generate.mjs';
 
 test('defaults: full run, push enabled, every edition', () => {
   assert.deepEqual(parseArgs([]), {
@@ -38,4 +38,22 @@ test('unknown arguments are rejected', () => {
 
 test('--render-only and --recompose together are rejected', () => {
   assert.throws(() => parseArgs(['--render-only', '--recompose']), /ensemble|incompatible/i);
+});
+
+const CONFIG_EDITIONS = [{ id: 'main' }, { id: 'carlos' }];
+
+test('resolveEditions with no ids returns every configured edition', () => {
+  assert.deepEqual(resolveEditions(CONFIG_EDITIONS, null), CONFIG_EDITIONS);
+});
+
+test('resolveEditions narrows to the requested ids', () => {
+  assert.deepEqual(resolveEditions(CONFIG_EDITIONS, ['carlos']), [{ id: 'carlos' }]);
+});
+
+test('resolveEditions rejects a single unknown id even when others match', () => {
+  assert.throws(() => resolveEditions(CONFIG_EDITIONS, ['main', 'carlso']), /carlso/);
+});
+
+test('resolveEditions rejects when every requested id is unknown', () => {
+  assert.throws(() => resolveEditions(CONFIG_EDITIONS, ['nope']), /nope/);
 });

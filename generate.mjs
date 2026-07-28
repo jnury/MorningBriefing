@@ -32,6 +32,16 @@ export function parseArgs(argv) {
   return o;
 }
 
+// A typo in --edition must fail loudly, not silently shrink the run: every
+// requested id has to resolve to a configured edition.
+export function resolveEditions(configEditions, editionIds) {
+  if (!editionIds) return configEditions;
+  const known = new Set(configEditions.map((e) => e.id));
+  const unknown = editionIds.filter((id) => !known.has(id));
+  if (unknown.length > 0) throw new Error(`édition(s) inconnue(s): ${unknown.join(', ')}`);
+  return configEditions.filter((e) => editionIds.includes(e.id));
+}
+
 function log(line) {
   const dir = join(ROOT, 'logs');
   mkdirSync(dir, { recursive: true });
@@ -99,10 +109,8 @@ async function main() {
 
   try {
     const config = loadConfig(ROOT);
-    const editions = opts.editionIds
-      ? config.editions.filter((e) => opts.editionIds.includes(e.id))
-      : config.editions;
-    if (editions.length === 0) throw new Error(`aucune édition ne correspond à ${opts.editionIds?.join(', ')}`);
+    const editions = resolveEditions(config.editions, opts.editionIds);
+    let generationFailed = false;
 
     if (opts.renderOnly) {
       let rendered = 0;
@@ -130,6 +138,7 @@ async function main() {
       }
 
       const selectTemplate = readFileSync(join(ROOT, 'prompts', 'select.md'), 'utf8');
+      let published = 0;
       for (const edition of editions) {
         const data = await composeEdition(edition, {
           root: ROOT, date, topics: config.topics, template: selectTemplate,
@@ -139,7 +148,13 @@ async function main() {
         if (!valid) { log(`édition ${edition.id}: NON PUBLIÉE — ${errors.join(' | ')}`); continue; }
         writeEditionPages(ROOT, data);
         log(`édition ${edition.id}: publiée (${data.sections.length} section(s))`);
+        published++;
       }
+      // Some editions failing while others publish is a partial success — the whole
+      // point of per-edition isolation. But nothing published is a failed run: an
+      // unattended job that reports OK on a morning with an empty site is worse
+      // than one that fails loudly.
+      if (published === 0) generationFailed = true;
     }
 
     // Archives and landing are rebuilt from every configured edition, not just
@@ -148,7 +163,13 @@ async function main() {
     rebuildLanding(ROOT, config.editions);
 
     if (opts.push) gitPublish(date);
-    log(`OK: briefing ${date} terminé`);
+
+    if (generationFailed) {
+      log(`ÉCHEC: aucune édition publiée pour ${date}`);
+      process.exitCode = 1;
+    } else {
+      log(`OK: briefing ${date} terminé`);
+    }
   } catch (err) {
     log(`ERREUR: ${err.message}`);
     process.exitCode = 1;
