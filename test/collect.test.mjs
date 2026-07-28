@@ -1,9 +1,9 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtempSync, mkdirSync, writeFileSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, writeFileSync, readFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { collectAll } from '../lib/collect.mjs';
+import { collectAll, bucketPath } from '../lib/collect.mjs';
 
 const TOPICS = {
   weather: { id: 'weather', kind: 'provider', label: 'Météo' },
@@ -59,6 +59,31 @@ test('collects a researched bucket and validates it', async () => {
   const results = await collectAll(buckets, ctx(root, run));
   assert.equal(results.get('tech').ok, true);
   assert.equal(results.get('tech').data.items.length, 1);
+});
+
+// --recompose reloads buckets from disk (buckets/<date>/<id>.json) instead of
+// re-collecting, so every successfully collected bucket must leave that file
+// behind — regardless of which branch of collectOne produced it.
+test('persists a provider bucket to disk so --recompose can reload it', async () => {
+  const root = tmpRoot();
+  const buckets = [{ id: 'weather', kind: 'provider', hints: [], params: { cities: [{ name: 'Genève', lat: 46.2, lon: 6.14 }] }, consumers: ['main'] }];
+  const results = await collectAll(buckets, ctx(root, () => ({ status: 0 })));
+  assert.equal(results.get('weather').ok, true);
+  const onDisk = JSON.parse(readFileSync(bucketPath(root, DATE, 'weather'), 'utf8'));
+  assert.deepEqual(onDisk, results.get('weather').data);
+});
+
+test('persists a researched bucket to disk so --recompose can reload it', async () => {
+  const root = tmpRoot();
+  const run = writingRunner(() => ({
+    bucketId: 'world', date: DATE, collectedAt: 'x', shape: 'headline',
+    items: [{ headline: 'h', publishedAt: '2026-07-27' }],
+  }));
+  const buckets = [{ id: 'world', kind: 'topic', size: 10, hints: [], params: {}, consumers: ['main'] }];
+  const results = await collectAll(buckets, ctx(root, run));
+  assert.equal(results.get('world').ok, true);
+  const onDisk = JSON.parse(readFileSync(bucketPath(root, DATE, 'world'), 'utf8'));
+  assert.deepEqual(onDisk, results.get('world').data);
 });
 
 test('marks a bucket failed when the run exits non-zero', async () => {
