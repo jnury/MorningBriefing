@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Briefing du matin — 24 juin 2026</title>
+<script>(function(){try{var t=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+<style>:root,:root[data-theme="dark"]{--ink:#e7e9ec;--muted:#9aa0aa;--line:#2a2e35;--accent:#6db3f2;--bg:#15171b;
+  --up:#46c46f;--down:#f0635e;
+  --badge-bg:#262a31;--badge-ink:#aab4c2;
+  --badge-ai-bg:#2c2740;--badge-ai-ink:#c4b5f5;
+  --badge-science-bg:#1d3a2c;--badge-science-ink:#7fd6a6;
+  --badge-it-bg:#1f2e47;--badge-it-ink:#8fb6ee}
+:root[data-theme="light"]{--ink:#1a1a1a;--muted:#6b6b6b;--line:#e6e6e6;--accent:#0b5cad;--bg:#ffffff;
+  --up:#0a7a2f;--down:#b3261e;
+  --badge-bg:#eef1f5;--badge-ink:#41506b;
+  --badge-ai-bg:#eae6fb;--badge-ai-ink:#5b3ea8;
+  --badge-science-bg:#e3f3ec;--badge-science-ink:#1f7a4d;
+  --badge-it-bg:#e7eefb;--badge-it-ink:#28508f}
+*{box-sizing:border-box}
+html{color-scheme:dark}
+html[data-theme="light"]{color-scheme:light}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.6;font-size:18px}
+.wrap{max-width:680px;margin:0 auto;padding:24px 20px 80px}
+header.site{display:flex;justify-content:space-between;align-items:baseline;
+  border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:8px;flex-wrap:wrap;gap:8px}
+header.site .date{font-size:15px;color:var(--muted)}
+header.site nav{display:flex;align-items:center}
+header.site nav a{color:var(--accent);text-decoration:none;font-size:15px;margin-left:16px}
+header.site nav a:hover{text-decoration:underline}
+.theme-toggle{margin-left:16px;padding:4px;border:0;background:none;color:var(--muted);cursor:pointer;
+  line-height:0;border-radius:8px;transition:color .15s ease,background .15s ease}
+.theme-toggle:hover{color:var(--accent);background:var(--badge-bg)}
+.theme-toggle svg{width:20px;height:20px;display:block}
+.theme-toggle .icon-sun{display:none}
+.theme-toggle .icon-moon{display:block}
+:root[data-theme="light"] .theme-toggle .icon-sun{display:block}
+:root[data-theme="light"] .theme-toggle .icon-moon{display:none}
+h1{font-size:26px;letter-spacing:-0.01em;margin:18px 0 4px}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);
+  margin:40px 0 12px;font-weight:600}
+h3{font-size:19px;margin:22px 0 4px;line-height:1.35}
+h3 a{color:var(--ink);text-decoration:none}
+h3 a:hover{color:var(--accent)}
+p{margin:8px 0}
+.lead{color:var(--muted);margin-top:0}
+.weather{display:flex;gap:28px;flex-wrap:wrap}
+.weather .city{flex:1 1 200px}
+.weather .city .wx-row{display:flex;align-items:center;gap:10px;margin:4px 0}
+.wx{width:34px;height:34px;color:var(--accent);flex:none}
+.weather .city .t{font-size:22px;font-weight:600}
+.weather .city .c{color:var(--muted)}
+.markets{display:flex;flex-wrap:wrap;gap:14px 26px;margin:10px 0;font-variant-numeric:tabular-nums}
+.markets .idx{display:inline-flex;gap:8px;align-items:baseline}
+.markets .idx-name{font-weight:600}
+.up{color:var(--up)}.down{color:var(--down)}
+.world li{margin:6px 0}
+.badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;padding:2px 8px;border-radius:999px;margin-right:8px;vertical-align:middle;background:var(--badge-bg);color:var(--badge-ink)}
+.badge-ai{background:var(--badge-ai-bg);color:var(--badge-ai-ink)}
+.badge-science{background:var(--badge-science-bg);color:var(--badge-science-ink)}
+.badge-it{background:var(--badge-it-bg);color:var(--badge-it-ink)}
+.archive li{margin:8px 0;list-style:none}
+.archive ul{padding:0}
+.archive a{color:var(--accent);text-decoration:none;font-size:18px}
+.degraded{color:var(--muted);font-size:14px;font-style:italic;margin:4px 0 0}
+.editions{display:grid;gap:14px;padding:0;margin:18px 0}
+.editions li{list-style:none;border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.editions h3{margin:0 0 4px}
+.editions .meta{color:var(--muted);font-size:14px}
+.editions a{color:var(--accent);text-decoration:none}
+.editions a:hover{text-decoration:underline}
+footer.site{margin-top:60px;border-top:1px solid var(--line);padding-top:14px;
+  color:var(--muted);font-size:14px}
+@media(max-width:480px){body{font-size:17px}.wrap{padding:18px 16px 60px}h1{font-size:23px}}</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+<span class="brand">Briefing du matin</span>
+<nav><a href="../../index.html">Éditions</a><a href="index.html">Aujourd'hui</a><a href="archive.html">Archives</a><button class="theme-toggle" type="button" aria-label="Basculer le thème clair/sombre" title="Thème clair/sombre" onclick="(function(){var d=document.documentElement;var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n);}catch(e){}})();"><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></button></nav>
+</header>
+<h1>Briefing du 24 juin 2026</h1>
+<h2>Météo</h2>
+<div class="weather"><div class="city">
+<div class="name">Genève</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg><span class="t">36° / 22°</span></div>
+<div class="c">Couvert &middot; 0 % de précip.</div>
+</div><div class="city">
+<div class="name">Lausanne</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg><span class="t">35° / 23°</span></div>
+<div class="c">Couvert &middot; 0 % de précip.</div>
+</div></div>
+<h2>La Suisse en bref</h2>
+<ul class="world">
+<li>Face à la canicule, Genève et Lausanne adaptent la fête des écoles : les cortèges des 3-4P sont annulés mais les animations, avec brumisation, sont maintenues aux Bastions et au parc de Milan.</li>
+<li>La Ville de Genève déploie dès le 23 juin ses installations estivales dans l'espace public pour lutter contre les îlots de chaleur urbains.</li>
+</ul>
+<h2>Le monde en bref</h2>
+<ul class="world">
+<li>Les pourparlers techniques entre les États-Unis et l'Iran, menés en Suisse, se concluent avec succès : Washington lève temporairement ses sanctions sur le pétrole iranien et 12 milliards de dollars d'avoirs gelés doivent être débloqués.</li>
+<li>Au Mondial 2026, Lionel Messi dépasse le record de Miroslav Klose en inscrivant un doublé contre l'Autriche, portant son total à 18 buts en Coupe du monde.</li>
+<li>Au Royaume-Uni, Keir Starmer annonce qu'il quitte la direction du Labour, tout en restant Premier ministre jusqu'à la désignation de son successeur, ouvrant une course à la succession.</li>
+</ul>
+<h2>Marchés &middot; clôture du 23 juin 2026</h2>
+<div class="markets"><span class="idx"><span class="idx-name">Nasdaq</span> <span class="down">-2.21 %</span></span>
+<span class="idx"><span class="idx-name">Dow Jones</span> <span class="down">-0.09 %</span></span>
+<span class="idx"><span class="idx-name">SMI</span> <span class="up">+0.45 %</span></span>
+<span class="idx"><span class="idx-name">Euro Stoxx 50</span> <span class="down">-0.54 %</span></span></div>
+<p class="lead">Séance contrastée : Wall Street a reculé sous le poids d&#39;un net repli des semi-conducteurs qui a entraîné le Nasdaq, tandis que le SMI a fini en légère hausse et l&#39;Euro Stoxx 50 dans le rouge.</p>
+<h2>Tech · IT, Science &amp; IA</h2>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/06/23/meta-debuts-new-cheaper-smart-glasses-under-its-own-brand/" target="_blank" rel="noopener">Meta lance ses propres lunettes connectées à 299 dollars</a></h3>
+<p>Meta a dévoilé une nouvelle gamme de lunettes connectées vendue sous sa propre marque, à partir de 299 dollars, sans logo Ray-Ban ni Oakley mais toujours fabriquée avec EssilorLuxottica. Dépourvues d&#39;écran, elles intègrent une caméra, des haut-parleurs et un bouton dédié à l&#39;assistant Meta AI (questions, compréhension visuelle, future navigation piétonne et 14 nouvelles langues). L&#39;autonomie annoncée dépasse huit heures, avec 40 heures supplémentaires via l&#39;étui de charge. Trois styles sont proposés : Meta Adventurer, Meta Fury et Meta Glasses by Kylie, conçues avec Kylie Jenner. Disponibles dans plusieurs pays dès le 23 juin, elles renforcent la domination de Meta et EssilorLuxottica, qui contrôlent plus de 80 % du marché des lunettes intelligentes selon Counterpoint Research.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/" target="_blank" rel="noopener">Anthropic lance Claude Tag, un coéquipier IA intégré à Slack</a></h3>
+<p>Anthropic a présenté Claude Tag, un assistant IA intégré à Slack pour ses clients Enterprise et Team, en bêta. Les utilisateurs peuvent mentionner @Claude dans un canal pour obtenir de l&#39;aide ou lui confier des tâches. L&#39;outil conserve une mémoire persistante des conversations, apprend les habitudes de l&#39;organisation et peut, selon les permissions, croiser des informations entre plusieurs canaux. Tous les membres partagent la même instance, ce qui facilite les passages de relais, et un mode « ambient » lui permet de signaler proactivement les sujets pertinents. Les administrateurs contrôlent finement les outils et canaux accessibles pour éviter les fuites entre départements. Au-delà de la productivité, Claude Tag vise à capter le savoir institutionnel des entreprises, un terrain disputé avec Microsoft, Snowflake, Databricks et Glean.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/06/23/after-betting-the-firm-on-anthropic-menlo-ventures-raises-victorious-3b-fund/" target="_blank" rel="noopener">Menlo Ventures lève un fonds record de 3 milliards après son pari sur Anthropic</a></h3>
+<p>Menlo Ventures a annoncé un nouveau fonds de 3 milliards de dollars, la plus grosse levée de ses 50 ans d&#39;histoire. Le capital-risqueur récolte les fruits d&#39;un pari engageant la firme : en 2024, il avait mené la Série D d&#39;Anthropic avec 750 millions de dollars (environ 500 millions via un véhicule dédié, 250 millions de son propre fonds), quadruplant la valorisation de la start-up à 18,4 milliards. Sa participation dans Anthropic est désormais estimée à environ 14 milliards. Menlo a suivi sur les Séries E et F et cofondé avec Anthropic le fonds « Anthology », qui a déployé près de 250 millions sur plus de 60 start-up, avec déjà des sorties comme Graphite (racheté par Cursor) et Astrix Security (racheté par Cisco).</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/06/23/superhuman-acquires-ai-detection-startup-gptzero/" target="_blank" rel="noopener">Superhuman rachète GPTZero, spécialiste de la détection de contenus IA</a></h3>
+<p>Superhuman a racheté GPTZero, start-up de détection de textes générés par IA fondée il y a trois ans par Edward Tian, diplômé de Princeton, à partir de son mémoire de fin d&#39;études. GPTZero revendiquait plus de 19 millions d&#39;utilisateurs inscrits et 30 millions de dollars de revenus annuels récurrents, et était rentable dès 2024, après avoir levé 13,5 millions de dollars au total. Superhuman, né du rachat de la messagerie du même nom par Grammarly en 2025, disposait déjà d&#39;un outil de détection : ses dirigeants résument l&#39;opération par « deux détecteurs valent mieux qu&#39;un ». Les deux technologies sont complémentaires, l&#39;une repérant les contenus produits par IA, l&#39;autre aidant les utilisateurs à écrire sans paraître artificiels. Le montant de la transaction n&#39;a pas été divulgué.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/" target="_blank" rel="noopener">MoEngage rachète Aampe pour miser sur des agents IA marketing</a></h3>
+<p>L&#39;éditeur indien MoEngage, spécialisé dans l&#39;engagement client, a racheté la société Aampe, basée à San Francisco, pour « plusieurs dizaines de millions de dollars » en numéraire. Fondée en 2020, Aampe attribue un agent IA dédié à chaque client, permettant aux marques de personnaliser leurs messages selon le comportement individuel plutôt que par segments d&#39;audience traditionnels. La start-up a vu ses revenus récurrents croître de 150 % sur un an et sert plus de 30 clients dont Swiggy, Grab et Taxfix ; une vingtaine de salariés rejoindront MoEngage, portant ses effectifs à environ 820 personnes. Le PDG Raviteja Dodda vise ainsi les grands comptes migrant depuis Salesforce Marketing Cloud et Adobe Experience Cloud, illustrant la tendance des logiciels d&#39;entreprise à intégrer des agents IA autonomes.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/" target="_blank" rel="noopener">Fika Jobs lève 4 millions pour une plateforme de recrutement vidéo où des agents IA mènent les entretiens</a></h3>
+<p>La start-up suédoise Fika Jobs a levé 4 millions de dollars en pré-amorçage, menés par Luminar Ventures, avec Alliance VC et les cofondateurs de King. Basée à Stockholm, elle propose une plateforme de recrutement « vidéo d&#39;abord » mêlant agents IA et profils en format court. Le candidat relie son profil LinkedIn, l&#39;IA génère des questions personnalisées, puis l&#39;intéressé passe un entretien vidéo d&#39;environ dix minutes propulsé par les modèles Gemini de Google ; ses réponses deviennent des clips formant un profil consultable par les employeurs, sans candidature individuelle. Le service est gratuit pour les chercheurs d&#39;emploi ; les entreprises paient 10 % du salaire annuel du candidat recruté, contre 20 à 30 % pour les recruteurs classiques. L&#39;accès anticipé a démarré en juin 2026, avec un lancement plus large prévu à l&#39;automne, d&#39;abord en Suède.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/06/23/mark-zuckerberg-wants-meta-to-launch-its-own-prediction-market/" target="_blank" rel="noopener">Mark Zuckerberg veut lancer un marché de prédiction baptisé « Arena »</a></h3>
+<p>Mark Zuckerberg a validé le développement d&#39;un marché de prédiction propre à Meta, baptisé en interne « Arena ». L&#39;application fonctionnerait indépendamment des réseaux sociaux du groupe, qui pourraient toutefois y rediriger leurs utilisateurs. Pour l&#39;heure, Arena est conçue comme un jeu à points plutôt qu&#39;un marché monétaire : les utilisateurs gagnent des points en faisant des prédictions justes sur divers sujets, une dimension financière pouvant être ajoutée plus tard. Le projet est décrit comme « expérimental mais prioritaire ». Le secteur connaît une croissance fulgurante, des plateformes comme Polymarket et Kalshi atteignant des dizaines de milliards de dollars de volume échangé début 2026, tandis que X s&#39;est déjà associé à des opérateurs. L&#39;industrie fait toutefois face à de fortes turbulences juridiques, entre enquêtes pour délit d&#39;initié et poursuites invoquant les lois sur les jeux d&#39;argent.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/06/23/password-manager-maker-lastpass-says-hackers-stole-customer-support-case-data-during-klue-breach/" target="_blank" rel="noopener">LastPass touché par la fuite de données du prestataire Klue</a></h3>
+<p>LastPass a annoncé que des données personnelles de ses clients ont été compromises via le piratage de Klue, une société d&#39;études de marché qu&#39;il utilise. L&#39;intrusion, survenue le 12 juin 2026, a permis le vol de noms, numéros de téléphone, adresses e-mail et postales, dossiers de support client et informations commerciales. LastPass souligne que sa propre infrastructure n&#39;a pas été touchée et que les coffres de mots de passe chiffrés restent sécurisés. Cette attaque sur la chaîne d&#39;approvisionnement a également frappé d&#39;autres acteurs de la cybersécurité, dont HackerOne, Recorded Future et Tanium. Le nombre exact de personnes concernées reste inconnu, parmi les plus de 33 millions d&#39;utilisateurs du gestionnaire. Un groupe nommé Icarus a revendiqué l&#39;attaque et menace de divulguer les données volées en l&#39;absence de rançon.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/06/23/walmart-backed-flipkart-expands-quick-commerce-push-as-amazon-ramps-up-in-india/" target="_blank" rel="noopener">Flipkart accélère le commerce ultra-rapide en Inde face à Amazon</a></h3>
+<p>Le service Minutes de Flipkart, détenu par Walmart, a franchi le cap des 1 000 centres de micro-distribution en moins de deux ans depuis son lancement en août 2024, et vise 1 500 centres d&#39;ici fin 2026. Selon la direction, les commandes ont bondi d&#39;environ 400 % sur un an et la fidélisation a progressé de 20 %, la plateforme couvrant plus de 130 villes et 8 000 codes postaux. À ce rythme (75 à 100 ouvertures par mois, avec une forte croissance dans les villes de second rang comme Patna, Guwahati ou Lucknow), Flipkart pourrait devenir le deuxième réseau de quick-commerce d&#39;Inde derrière Blinkit et ses 2 243 centres. Amazon riposte avec son service Amazon Now, déjà présent dans plus de 15 villes via 500 centres, sur fond de bataille intense pour ce marché stratégique.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260622091507.htm" target="_blank" rel="noopener">Le Cold Atom Lab de la NASA façonne une matière exotique dans l&#39;espace</a></h3>
+<p>Le Cold Atom Lab de la NASA, à bord de la Station spatiale internationale, a été amélioré pour produire des condensats de Bose-Einstein, un cinquième état de la matière. En profitant de la microgravité, l&#39;installation refroidit des atomes à moins de –237 °C afin d&#39;observer des phénomènes quantiques impossibles à étudier sur Terre, où « la nature ondulatoire de la matière domine » et où la matière ultrafroide se comporte de façon inattendue. La dernière mise à niveau, qui redessine les pièges magnétiques et les sources d&#39;atomes, élargit les capacités de recherche et soutient cinq équipes internationales travaillant sur la physique fondamentale et le développement de futures technologies quantiques, destinées aussi bien à l&#39;espace qu&#39;à des applications terrestres.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260622014258.htm" target="_blank" rel="noopener">Les futurs astronautes d&#39;Artemis pourraient marcher sur des roches du manteau lunaire</a></h3>
+<p>Des chercheurs ont montré que l&#39;impact géant à l&#39;origine du bassin Pôle Sud-Aitken, le plus grand cratère de la Lune, a probablement excavé de la matière issue des profondeurs du manteau lunaire. À l&#39;aide de simulations informatiques et d&#39;analyses gravimétriques, ils ont constaté que ce matériau profond est mélangé dans tout le bassin et dans la couverture d&#39;éjectas qui l&#39;entoure. Une partie de ces roches pourrait se trouver à proximité des sites d&#39;atterrissage envisagés pour la mission Artemis, dans la région polaire sud. Les futurs astronautes auraient ainsi l&#39;occasion d&#39;étudier directement des échantillons de l&#39;intérieur de la Lune et d&#39;en apprendre davantage sur son histoire la plus ancienne, sans avoir à forer en profondeur.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260622091502.htm" target="_blank" rel="noopener">Une embolisation mini-invasive aide à éviter la pose de prothèse du genou</a></h3>
+<p>L&#39;embolisation des artères géniculées (GAE) est une procédure ambulatoire mini-invasive qui soulage les douleurs chroniques du genou en réduisant le flux sanguin vers les zones enflammées de l&#39;articulation. Réalisée en une à deux heures sous sédation consciente, elle consiste à guider un cathéter jusqu&#39;aux artères du genou pour y injecter des microbilles bloquant les vaisseaux anormaux, le patient rentrant généralement chez lui le jour même. Selon les chercheurs, environ 70 % des patients obtiennent d&#39;excellents résultats, divisant par deux leurs scores de douleur ; des données japonaises montrent un soulagement durant jusqu&#39;à quatre ans. La technique, qui profite surtout aux arthroses légères à modérées, comble le vide entre les traitements conservateurs et la prothèse totale du genou, et pourrait à l&#39;avenir s&#39;appliquer à l&#39;épaule gelée, au tennis elbow ou à la fasciite plantaire.</p>
+</article>
+<footer class="site">Généré automatiquement &middot; Julien Nury</footer>
+</div>
+</body>
+</html>

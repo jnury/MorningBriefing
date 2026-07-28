@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Briefing du matin — 6 juillet 2026</title>
+<script>(function(){try{var t=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+<style>:root,:root[data-theme="dark"]{--ink:#e7e9ec;--muted:#9aa0aa;--line:#2a2e35;--accent:#6db3f2;--bg:#15171b;
+  --up:#46c46f;--down:#f0635e;
+  --badge-bg:#262a31;--badge-ink:#aab4c2;
+  --badge-ai-bg:#2c2740;--badge-ai-ink:#c4b5f5;
+  --badge-science-bg:#1d3a2c;--badge-science-ink:#7fd6a6;
+  --badge-it-bg:#1f2e47;--badge-it-ink:#8fb6ee}
+:root[data-theme="light"]{--ink:#1a1a1a;--muted:#6b6b6b;--line:#e6e6e6;--accent:#0b5cad;--bg:#ffffff;
+  --up:#0a7a2f;--down:#b3261e;
+  --badge-bg:#eef1f5;--badge-ink:#41506b;
+  --badge-ai-bg:#eae6fb;--badge-ai-ink:#5b3ea8;
+  --badge-science-bg:#e3f3ec;--badge-science-ink:#1f7a4d;
+  --badge-it-bg:#e7eefb;--badge-it-ink:#28508f}
+*{box-sizing:border-box}
+html{color-scheme:dark}
+html[data-theme="light"]{color-scheme:light}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.6;font-size:18px}
+.wrap{max-width:680px;margin:0 auto;padding:24px 20px 80px}
+header.site{display:flex;justify-content:space-between;align-items:baseline;
+  border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:8px;flex-wrap:wrap;gap:8px}
+header.site .date{font-size:15px;color:var(--muted)}
+header.site nav{display:flex;align-items:center}
+header.site nav a{color:var(--accent);text-decoration:none;font-size:15px;margin-left:16px}
+header.site nav a:hover{text-decoration:underline}
+.theme-toggle{margin-left:16px;padding:4px;border:0;background:none;color:var(--muted);cursor:pointer;
+  line-height:0;border-radius:8px;transition:color .15s ease,background .15s ease}
+.theme-toggle:hover{color:var(--accent);background:var(--badge-bg)}
+.theme-toggle svg{width:20px;height:20px;display:block}
+.theme-toggle .icon-sun{display:none}
+.theme-toggle .icon-moon{display:block}
+:root[data-theme="light"] .theme-toggle .icon-sun{display:block}
+:root[data-theme="light"] .theme-toggle .icon-moon{display:none}
+h1{font-size:26px;letter-spacing:-0.01em;margin:18px 0 4px}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);
+  margin:40px 0 12px;font-weight:600}
+h3{font-size:19px;margin:22px 0 4px;line-height:1.35}
+h3 a{color:var(--ink);text-decoration:none}
+h3 a:hover{color:var(--accent)}
+p{margin:8px 0}
+.lead{color:var(--muted);margin-top:0}
+.weather{display:flex;gap:28px;flex-wrap:wrap}
+.weather .city{flex:1 1 200px}
+.weather .city .wx-row{display:flex;align-items:center;gap:10px;margin:4px 0}
+.wx{width:34px;height:34px;color:var(--accent);flex:none}
+.weather .city .t{font-size:22px;font-weight:600}
+.weather .city .c{color:var(--muted)}
+.markets{display:flex;flex-wrap:wrap;gap:14px 26px;margin:10px 0;font-variant-numeric:tabular-nums}
+.markets .idx{display:inline-flex;gap:8px;align-items:baseline}
+.markets .idx-name{font-weight:600}
+.up{color:var(--up)}.down{color:var(--down)}
+.world li{margin:6px 0}
+.badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;padding:2px 8px;border-radius:999px;margin-right:8px;vertical-align:middle;background:var(--badge-bg);color:var(--badge-ink)}
+.badge-ai{background:var(--badge-ai-bg);color:var(--badge-ai-ink)}
+.badge-science{background:var(--badge-science-bg);color:var(--badge-science-ink)}
+.badge-it{background:var(--badge-it-bg);color:var(--badge-it-ink)}
+.archive li{margin:8px 0;list-style:none}
+.archive ul{padding:0}
+.archive a{color:var(--accent);text-decoration:none;font-size:18px}
+.degraded{color:var(--muted);font-size:14px;font-style:italic;margin:4px 0 0}
+.editions{display:grid;gap:14px;padding:0;margin:18px 0}
+.editions li{list-style:none;border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.editions h3{margin:0 0 4px}
+.editions .meta{color:var(--muted);font-size:14px}
+.editions a{color:var(--accent);text-decoration:none}
+.editions a:hover{text-decoration:underline}
+footer.site{margin-top:60px;border-top:1px solid var(--line);padding-top:14px;
+  color:var(--muted);font-size:14px}
+@media(max-width:480px){body{font-size:17px}.wrap{padding:18px 16px 60px}h1{font-size:23px}}</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+<span class="brand">Briefing du matin</span>
+<nav><a href="../../index.html">Éditions</a><a href="index.html">Aujourd'hui</a><a href="archive.html">Archives</a><button class="theme-toggle" type="button" aria-label="Basculer le thème clair/sombre" title="Thème clair/sombre" onclick="(function(){var d=document.documentElement;var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n);}catch(e){}})();"><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></button></nav>
+</header>
+<h1>Briefing du 6 juillet 2026</h1>
+<h2>Météo</h2>
+<div class="weather"><div class="city">
+<div class="name">Genève</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg><span class="t">32° / 20°</span></div>
+<div class="c">Couvert &middot; 0 % de précip.</div>
+</div><div class="city">
+<div class="name">Lausanne</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg><span class="t">31° / 21°</span></div>
+<div class="c">Couvert &middot; 0 % de précip.</div>
+</div></div>
+<h2>La Suisse en bref</h2>
+<ul class="world">
+<li>Des chercheurs de l'EPF de Zurich (ETH Zurich) ont mis au point un interrupteur moléculaire activé par la lumière qui réveille les cellules cancéreuses dormantes et les rend à nouveau vulnérables aux traitements.</li>
+<li>Le 60e Montreux Jazz Festival bat son plein sur la Riviera après une soirée d'ouverture mémorable de la Britannique Raye, accompagnée d'Alicia Keys et Mark Ronson.</li>
+<li>Le Festival de la Cité referme à Lausanne son édition entièrement gratuite après plusieurs jours de spectacles en accès libre.</li>
+</ul>
+<h2>Le monde en bref</h2>
+<ul class="world">
+<li>Coupe du monde 2026: la Norvège crée la surprise en éliminant le Brésil (2-1) en huitièmes de finale, portée par un doublé d'Erling Haaland.</li>
+<li>Tour de France: le Mexicain Isaac Del Toro (UAE) s'impose au sommet de Montjuïc lors de la 2e étape à Barcelone, Jonas Vingegaard conservant le maillot jaune.</li>
+<li>Les États-Unis célèbrent le 250e anniversaire de leur indépendance avec des festivités record, dont la parade navale Sail250 dans le port de New York et un feu d'artifice géant à Washington.</li>
+</ul>
+<h2>Marchés &middot; dernières clôtures avant le week-end: Wall Street le 2 juillet (Bourses fermées le 3 pour l'Independence Day), Europe le 3 juillet 2026</h2>
+<div class="markets"><span class="idx"><span class="idx-name">Nasdaq</span> <span class="up">+0.40 %</span></span>
+<span class="idx"><span class="idx-name">Dow Jones</span> <span class="up">+0.46 %</span></span>
+<span class="idx"><span class="idx-name">SMI</span> <span class="up">+0.50 %</span></span>
+<span class="idx"><span class="idx-name">Euro Stoxx 50</span> <span class="up">+0.90 %</span></span></div>
+<p class="lead">Avant un week-end prolongé par la fermeture de Wall Street le 3 juillet, les places boursières ont terminé en légère hausse des deux côtés de l&#39;Atlantique, les Bourses européennes signant même de nouveaux records.</p>
+<h2>Tech · IT, Science &amp; IA</h2>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/" target="_blank" rel="noopener">Amazon cesse d&#39;accepter de nouveaux clients pour Mechanical Turk</a></h3>
+<p>Amazon va cesser d&#39;accepter de nouveaux clients pour Mechanical Turk, sa plateforme historique de micro-tâches réalisées par des humains, à partir du 30 juillet 2026. AWS indique continuer à investir dans la sécurité et la disponibilité du service, mais n&#39;y ajoutera plus de nouvelles fonctionnalités, un signe de son déclin à l&#39;ère de l&#39;automatisation par l&#39;intelligence artificielle.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/07/05/what-is-bending-spoons-everything-to-know-about-aols-acquirer/" target="_blank" rel="noopener">Bending Spoons, propriétaire d&#39;AOL et Vimeo, fait son entrée en bourse</a></h3>
+<p>TechCrunch dresse le portrait de Bending Spoons, société italienne longtemps discrète devenue propriétaire d&#39;AOL, de Vimeo et de plusieurs applications populaires, qui vient de faire son entrée en bourse. Son modèle consiste à racheter des marques technologiques établies, à en réduire les coûts et à les faire croître, une stratégie qui l&#39;a propulsée parmi les acteurs technologiques à surveiller.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/" target="_blank" rel="noopener">De nombreuses nouvelles licornes créées depuis le début de l&#39;année</a></h3>
+<p>De nombreuses nouvelles licornes — des startups valorisées à plus d&#39;un milliard de dollars — ont vu le jour depuis le début de l&#39;année 2026, portées en grande partie par l&#39;engouement pour l&#39;intelligence artificielle. TechCrunch en publie la liste détaillée, illustrant un marché du capital-risque toujours très actif malgré un contexte économique incertain.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/" target="_blank" rel="noopener">Midjourney veut que les studios hollywoodiens révèlent leur usage de l&#39;IA</a></h3>
+<p>Dans le cadre de son litige avec trois grands studios hollywoodiens qui l&#39;accusent de violation de droits d&#39;auteur, Midjourney demande à ces studios de révéler comment ils utilisent eux-mêmes l&#39;intelligence artificielle. Cette manœuvre juridique met en lumière l&#39;usage discret, mais bien réel, de l&#39;IA générative au sein de l&#39;industrie du cinéma.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/" target="_blank" rel="noopener">Alibaba aurait interdit à ses employés d&#39;utiliser Claude Code</a></h3>
+<p>Selon des informations rapportées par TechCrunch, Alibaba aurait interdit à ses employés d&#39;utiliser Claude Code, l&#39;outil de programmation assistée par IA d&#39;Anthropic. Cette décision s&#39;inscrirait dans un contexte de tensions géopolitiques et de restrictions croissantes de l&#39;accès des entreprises chinoises aux modèles d&#39;intelligence artificielle américains.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/" target="_blank" rel="noopener">Une pub Google imagine la Déclaration d&#39;indépendance écrite avec l&#39;aide de l&#39;IA</a></h3>
+<p>Une nouvelle publicité de Google imagine la Déclaration d&#39;indépendance américaine rédigée avec l&#39;aide de l&#39;intelligence artificielle, à l&#39;occasion du 250e anniversaire des États-Unis. Diffusé pour le 4 juillet, le spot illustre la stratégie de Google visant à normaliser l&#39;usage de ses outils d&#39;IA générative dans la vie quotidienne, non sans susciter des réactions partagées.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260626124701.htm" target="_blank" rel="noopener">Alzheimer: comment la maladie détruit les neurones</a></h3>
+<p>Une équipe de recherche affirme avoir enfin identifié le mécanisme par lequel la maladie d&#39;Alzheimer détruit les cellules du cerveau. Comprendre comment les neurones meurent — plutôt que de se concentrer uniquement sur l&#39;accumulation de plaques — ouvre la voie à de nouvelles cibles thérapeutiques susceptibles de ralentir ou de stopper la progression de la maladie.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260624115624.htm" target="_blank" rel="noopener">Des loups vieux de 5000 ans bousculent l&#39;histoire de la domestication</a></h3>
+<p>Des restes de loups vieux de 5000 ans découverts sur une île isolée remettent en question ce que l&#39;on croyait savoir sur la domestication du chien. Leur analyse suggère que le processus ayant conduit du loup au chien fut plus complexe et diversifié qu&#39;on ne le pensait, avec des populations restées longtemps à l&#39;écart de l&#39;influence humaine.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260625060220.htm" target="_blank" rel="noopener">Un forage océanique record éclaire le tsunami meurtrier de 2011 au Japon</a></h3>
+<p>Un forage océanique record a permis de comprendre pourquoi le tsunami de 2011 au Japon fut aussi dévastateur. Les carottes prélevées le long de la faille révèlent une couche argileuse extrêmement glissante ayant permis à la plaque de se déplacer sur une distance exceptionnelle, ce qui a amplifié la vague meurtrière qui a frappé les côtes.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260625060216.htm" target="_blank" rel="noopener">Il y a 20 000 ans, des abeilles nichaient dans d&#39;anciennes alvéoles</a></h3>
+<p>Il y a environ 20 000 ans, certaines abeilles utilisaient d&#39;anciennes cavités, comparables à des alvéoles, comme minuscules pouponnières pour abriter leurs larves. Cette découverte paléontologique éclaire les comportements de nidification d&#39;insectes aujourd&#39;hui disparus et enrichit la compréhension de l&#39;évolution des pollinisateurs au fil des millénaires.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260626030433.htm" target="_blank" rel="noopener">Le circuit du sommeil profond qui construit le muscle et brûle la graisse</a></h3>
+<p>Des chercheurs ont mis en évidence le circuit cérébral du sommeil profond qui relie ce dernier à la libération d&#39;hormone de croissance. Ce mécanisme contribuerait à construire le muscle, à brûler les graisses et à soutenir les fonctions cérébrales, soulignant l&#39;importance d&#39;un sommeil de qualité pour la santé métabolique et le bien-être général.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260624025516.htm" target="_blank" rel="noopener">La mécanique quantique, d&#39;idée déroutante à moteur des technologies de pointe</a></h3>
+<p>Longtemps jugée déroutante et controversée, la mécanique quantique est devenue le socle de certaines des technologies les plus avancées de l&#39;humanité. Les chercheurs repoussent aujourd&#39;hui ses limites, avec des applications prometteuses dans l&#39;énergie, la médecine, la mesure de précision et le calcul, confirmant son passage de la théorie abstraite à l&#39;ingénierie concrète.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260704232642.htm" target="_blank" rel="noopener">Hubble dévoile un amas d&#39;étoiles étincelant pour le 4 juillet</a></h3>
+<p>Pour célébrer le 250e anniversaire des États-Unis, le télescope spatial Hubble de la NASA a dévoilé une image spectaculaire, aux teintes rouge, blanche et bleue, de l&#39;un des plus anciens amas d&#39;étoiles de la Voie lactée. Ce type d&#39;amas globulaire, riche de centaines de milliers d&#39;étoiles, aide les astronomes à mieux dater les premières générations d&#39;étoiles de notre galaxie.</p>
+</article>
+<footer class="site">Généré automatiquement &middot; Julien Nury</footer>
+</div>
+</body>
+</html>

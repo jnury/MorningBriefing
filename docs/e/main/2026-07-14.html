@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Briefing du matin — 14 juillet 2026</title>
+<script>(function(){try{var t=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+<style>:root,:root[data-theme="dark"]{--ink:#e7e9ec;--muted:#9aa0aa;--line:#2a2e35;--accent:#6db3f2;--bg:#15171b;
+  --up:#46c46f;--down:#f0635e;
+  --badge-bg:#262a31;--badge-ink:#aab4c2;
+  --badge-ai-bg:#2c2740;--badge-ai-ink:#c4b5f5;
+  --badge-science-bg:#1d3a2c;--badge-science-ink:#7fd6a6;
+  --badge-it-bg:#1f2e47;--badge-it-ink:#8fb6ee}
+:root[data-theme="light"]{--ink:#1a1a1a;--muted:#6b6b6b;--line:#e6e6e6;--accent:#0b5cad;--bg:#ffffff;
+  --up:#0a7a2f;--down:#b3261e;
+  --badge-bg:#eef1f5;--badge-ink:#41506b;
+  --badge-ai-bg:#eae6fb;--badge-ai-ink:#5b3ea8;
+  --badge-science-bg:#e3f3ec;--badge-science-ink:#1f7a4d;
+  --badge-it-bg:#e7eefb;--badge-it-ink:#28508f}
+*{box-sizing:border-box}
+html{color-scheme:dark}
+html[data-theme="light"]{color-scheme:light}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.6;font-size:18px}
+.wrap{max-width:680px;margin:0 auto;padding:24px 20px 80px}
+header.site{display:flex;justify-content:space-between;align-items:baseline;
+  border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:8px;flex-wrap:wrap;gap:8px}
+header.site .date{font-size:15px;color:var(--muted)}
+header.site nav{display:flex;align-items:center}
+header.site nav a{color:var(--accent);text-decoration:none;font-size:15px;margin-left:16px}
+header.site nav a:hover{text-decoration:underline}
+.theme-toggle{margin-left:16px;padding:4px;border:0;background:none;color:var(--muted);cursor:pointer;
+  line-height:0;border-radius:8px;transition:color .15s ease,background .15s ease}
+.theme-toggle:hover{color:var(--accent);background:var(--badge-bg)}
+.theme-toggle svg{width:20px;height:20px;display:block}
+.theme-toggle .icon-sun{display:none}
+.theme-toggle .icon-moon{display:block}
+:root[data-theme="light"] .theme-toggle .icon-sun{display:block}
+:root[data-theme="light"] .theme-toggle .icon-moon{display:none}
+h1{font-size:26px;letter-spacing:-0.01em;margin:18px 0 4px}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);
+  margin:40px 0 12px;font-weight:600}
+h3{font-size:19px;margin:22px 0 4px;line-height:1.35}
+h3 a{color:var(--ink);text-decoration:none}
+h3 a:hover{color:var(--accent)}
+p{margin:8px 0}
+.lead{color:var(--muted);margin-top:0}
+.weather{display:flex;gap:28px;flex-wrap:wrap}
+.weather .city{flex:1 1 200px}
+.weather .city .wx-row{display:flex;align-items:center;gap:10px;margin:4px 0}
+.wx{width:34px;height:34px;color:var(--accent);flex:none}
+.weather .city .t{font-size:22px;font-weight:600}
+.weather .city .c{color:var(--muted)}
+.markets{display:flex;flex-wrap:wrap;gap:14px 26px;margin:10px 0;font-variant-numeric:tabular-nums}
+.markets .idx{display:inline-flex;gap:8px;align-items:baseline}
+.markets .idx-name{font-weight:600}
+.up{color:var(--up)}.down{color:var(--down)}
+.world li{margin:6px 0}
+.badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;padding:2px 8px;border-radius:999px;margin-right:8px;vertical-align:middle;background:var(--badge-bg);color:var(--badge-ink)}
+.badge-ai{background:var(--badge-ai-bg);color:var(--badge-ai-ink)}
+.badge-science{background:var(--badge-science-bg);color:var(--badge-science-ink)}
+.badge-it{background:var(--badge-it-bg);color:var(--badge-it-ink)}
+.archive li{margin:8px 0;list-style:none}
+.archive ul{padding:0}
+.archive a{color:var(--accent);text-decoration:none;font-size:18px}
+.degraded{color:var(--muted);font-size:14px;font-style:italic;margin:4px 0 0}
+.editions{display:grid;gap:14px;padding:0;margin:18px 0}
+.editions li{list-style:none;border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.editions h3{margin:0 0 4px}
+.editions .meta{color:var(--muted);font-size:14px}
+.editions a{color:var(--accent);text-decoration:none}
+.editions a:hover{text-decoration:underline}
+footer.site{margin-top:60px;border-top:1px solid var(--line);padding-top:14px;
+  color:var(--muted);font-size:14px}
+@media(max-width:480px){body{font-size:17px}.wrap{padding:18px 16px 60px}h1{font-size:23px}}</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+<span class="brand">Briefing du matin</span>
+<nav><a href="../../index.html">Éditions</a><a href="index.html">Aujourd'hui</a><a href="archive.html">Archives</a><button class="theme-toggle" type="button" aria-label="Basculer le thème clair/sombre" title="Thème clair/sombre" onclick="(function(){var d=document.documentElement;var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n);}catch(e){}})();"><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></button></nav>
+</header>
+<h1>Briefing du 14 juillet 2026</h1>
+<h2>Météo</h2>
+<div class="weather"><div class="city">
+<div class="name">Genève</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg><span class="t">36° / 24°</span></div>
+<div class="c">Couvert &middot; 0 % de précip.</div>
+</div><div class="city">
+<div class="name">Lausanne</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg><span class="t">33° / 24°</span></div>
+<div class="c">Couvert &middot; 3 % de précip.</div>
+</div></div>
+<h2>La Suisse en bref</h2>
+<ul class="world">
+<li>La Suisse et le Royaume-Uni ont conclu à Berne les négociations d'un accord de libre-échange modernisé, annoncé par Guy Parmelin et le ministre britannique de l'Économie Peter Kyle, qui élargit le cadre aux services, aux investissements et au commerce numérique.</li>
+<li>L'équipe de Suisse, éliminée en quarts de finale du Mondial par l'Argentine au terme de son meilleur parcours depuis 1954, est attendue mardi à midi sur la Turbinenplatz à Zurich pour une réception avec les supporters.</li>
+<li>Genève et Vaud réactivent leurs plans canicule dès mardi face à une semaine de chaleurs extrêmes, avec suspension des travaux extérieurs exposés au soleil l'après-midi et suivi renforcé des personnes vulnérables.</li>
+</ul>
+<h2>Le monde en bref</h2>
+<ul class="world">
+<li>Donald Trump a annoncé le rétablissement d'un blocus du trafic maritime iranien dans le détroit d'Ormuz, faisant bondir le baril de Brent de plus de 4% et pesant sur les places financières mondiales.</li>
+<li>Les ministres des Affaires étrangères de l'UE ont approuvé environ 250 nouvelles inscriptions de personnes et d'entités sur la liste des sanctions contre la Russie, la plus vaste série jamais adoptée d'un coup selon Kaja Kallas.</li>
+<li>Jannik Sinner a conservé son titre à Wimbledon en battant Alexander Zverev en quatre sets (6-7, 7-6, 6-3, 6-4) lors de la finale du simple messieurs.</li>
+</ul>
+<h2>Marchés &middot; clôture du 13 juillet 2026</h2>
+<div class="markets"><span class="idx"><span class="idx-name">Nasdaq</span> <span class="down">-1.55 %</span></span>
+<span class="idx"><span class="idx-name">Dow Jones</span> <span class="down">-0.26 %</span></span>
+<span class="idx"><span class="idx-name">SMI</span> <span class="up">+0.22 %</span></span>
+<span class="idx"><span class="idx-name">Euro Stoxx 50</span> <span class="down">-0.06 %</span></span></div>
+<p class="lead">Séance de repli à Wall Street, tirée vers le bas par la technologie après l&#39;annonce d&#39;un nouveau blocage du détroit d&#39;Ormuz qui a fait flamber le pétrole, tandis que l&#39;Europe a terminé sans direction et que le SMI a limité les dégâts grâce à ses valeurs défensives.</p>
+<h2>Tech · IT, Science &amp; IA</h2>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/" target="_blank" rel="noopener">Apple accuse un ancien employé parti chez OpenAI d&#39;avoir exploité une faille pour aspirer des fichiers confidentiels</a></h3>
+<p>Dans le cadre de sa plainte pour vol de secrets industriels visant OpenAI, Apple affirme qu&#39;un ancien collaborateur a profité d&#39;un bug « rare » de ses systèmes internes pour télécharger des documents confidentiels après avoir quitté l&#39;entreprise. Le dossier, l&#39;un des plus spectaculaires opposant deux poids lourds de la tech, détaille des allégations sur la fuite de travaux liés au matériel et à l&#39;IA d&#39;Apple. L&#39;affaire illustre la brutalité de la guerre des talents en cours entre les groupes historiques de la Silicon Valley et les laboratoires d&#39;IA, et pourrait faire jurisprudence sur la protection des secrets d&#39;affaires lors des départs d&#39;ingénieurs.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/" target="_blank" rel="noopener">Satya Nadella met en garde les entreprises qui déploient l&#39;IA sans repenser leurs processus</a></h3>
+<p>Le patron de Microsoft avertit que les organisations qui se contentent de plaquer des outils d&#39;IA sur des flux de travail inchangés n&#39;obtiendront aucun gain de productivité mesurable. Selon lui, la valeur ne vient pas du modèle mais de la refonte des processus autour de lui, faute de quoi les entreprises accumuleront des coûts sans retour. Cette prise de position tranche avec le discours ambiant sur l&#39;adoption massive et rejoint les études qui peinent à démontrer des effets macroéconomiques de l&#39;IA générative. Elle intervient alors que Microsoft pousse fortement Copilot auprès de sa base d&#39;entreprises.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/" target="_blank" rel="noopener">PixVerse lève 439 millions de dollars et dépasse les 2 milliards de valorisation</a></h3>
+<p>La start-up de génération vidéo par IA PixVerse annonce un tour de table de 439 millions de dollars qui propulse sa valorisation au-delà de 2 milliards. Le financement confirme l&#39;appétit des investisseurs pour la vidéo générative, segment le plus gourmand en calcul et le plus disputé après le texte et l&#39;image. PixVerse entend accélérer sur la qualité de rendu, la durée des séquences et les usages professionnels (publicité, divertissement), sur un marché où elle affronte des acteurs comme Runway, Kling ou les modèles vidéo des grands laboratoires.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/" target="_blank" rel="noopener">Nous Research en discussion pour une levée de fonds à 1,5 milliard de dollars</a></h3>
+<p>Le laboratoire Nous Research, connu pour sa famille de modèles d&#39;agents Hermes et son ancrage dans l&#39;open source, négocie un nouveau financement qui le valoriserait 1,5 milliard de dollars. La discussion illustre la prime accordée aux équipes capables de produire des modèles agentiques performants en dehors des grands laboratoires fermés. Elle témoigne aussi de la vigueur persistante du financement de l&#39;IA malgré les interrogations sur le retour sur investissement, les fonds pariant sur des acteurs indépendants capables de fournir des alternatives ouvertes aux modèles propriétaires.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/" target="_blank" rel="noopener">Anthropic adapte les tarifs de Claude au marché indien, son deuxième marché après les États-Unis</a></h3>
+<p>Anthropic commence à localiser les prix de Claude en Inde, devenu son premier marché hors États-Unis en nombre d&#39;utilisateurs. La tarification adaptée au pouvoir d&#39;achat local vise à convertir une base d&#39;usagers massive mais peu monétisée, sur un terrain où OpenAI a déjà multiplié les offres agressives. Le mouvement s&#39;inscrit dans une bataille plus large pour l&#39;adoption des assistants IA dans les grands marchés émergents, où le volume d&#39;utilisateurs pourrait, à terme, peser autant que les revenus par abonné dans la course à la distribution.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/" target="_blank" rel="noopener">Sam Altman doute des centres de données spatiaux, un scepticisme largement partagé par les experts</a></h3>
+<p>Le patron d&#39;OpenAI a douché publiquement l&#39;idée d&#39;installer des centres de données d&#39;IA en orbite, une piste défendue par plusieurs projets récents. Les spécialistes du domaine partagent largement ce diagnostic : l&#39;évacuation de la chaleur dans le vide, les coûts de lancement, la maintenance impossible et la latence rendent l&#39;équation économique très difficile face aux centres terrestres, malgré l&#39;argument de l&#39;énergie solaire continue. Le débat révèle surtout l&#39;ampleur du mur énergétique auquel se heurte l&#39;industrie de l&#39;IA, qui explore des options de plus en plus exotiques pour alimenter ses infrastructures.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://techcrunch.com/2026/07/13/spacex-cleared-to-fly-starship-again-after-booster-failure-in-may/" target="_blank" rel="noopener">SpaceX autorisée à faire revoler Starship après l&#39;échec du booster en mai</a></h3>
+<p>Le régulateur américain a donné son feu vert à la reprise des vols de Starship, après l&#39;enquête ouverte à la suite de la défaillance du propulseur survenue en mai. La clôture de l&#39;investigation et les correctifs apportés par SpaceX ouvrent la voie à un nouveau lancement à court terme. Cette reprise est déterminante pour le calendrier du programme Artemis, qui dépend d&#39;une version d&#39;atterrissage lunaire de Starship, ainsi que pour le déploiement des satellites Starlink de nouvelle génération, trop lourds pour Falcon 9.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://techcrunch.com/2026/07/13/investors-send-general-fusion-soaring-in-debut-as-first-publicly-traded-fusion-company/" target="_blank" rel="noopener">General Fusion s&#39;envole pour ses débuts en Bourse, première société de fusion cotée</a></h3>
+<p>L&#39;entreprise canadienne General Fusion a connu une première séance en forte hausse, devenant la première société de fusion nucléaire cotée en Bourse. L&#39;accueil des investisseurs traduit l&#39;espoir placé dans une énergie propre et pilotable, dopé par la demande électrique explosive des centres de données d&#39;IA. General Fusion développe une approche de fusion par cible magnétisée, distincte du laser (NIF) et du tokamak (ITER). L&#39;introduction offre au secteur une référence de valorisation publique, mais expose aussi une technologie encore loin de la production commerciale à la volatilité des marchés.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/07/13/x-just-tweaked-its-algorithm-to-make-it-more-friendly-less-battleground/" target="_blank" rel="noopener">X modifie son algorithme pour apaiser les échanges et réduire les affrontements</a></h3>
+<p>X a ajusté son algorithme de recommandation afin de mettre en avant des contenus jugés plus constructifs et de réduire l&#39;exposition aux publications les plus conflictuelles. Le réseau cherche à contrer la perception d&#39;une plateforme devenue un champ de bataille permanent, qui éloigne annonceurs et utilisateurs occasionnels. Le changement pose la question habituelle de l&#39;arbitrage entre engagement à court terme, nourri par l&#39;indignation, et santé du réseau à long terme. Son efficacité réelle reste à évaluer, les précédents ajustements ayant produit des effets mesurés.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates/" target="_blank" rel="noopener">Waze ajoute des fonctions dopées à l&#39;IA et de nouvelles options de personnalisation</a></h3>
+<p>L&#39;application de navigation de Google déploie une série de nouveautés fondées sur l&#39;IA, accompagnées d&#39;options de personnalisation de l&#39;interface et des trajets. Waze poursuit ainsi son rapprochement avec les briques d&#39;IA maison de Google tout en cherchant à préserver l&#39;identité communautaire qui la distingue de Google Maps. Ces ajouts visent à mieux anticiper les conditions de circulation et à simplifier le signalement d&#39;incidents par les conducteurs, dans un contexte où la navigation devient un point d&#39;entrée stratégique pour les assistants embarqués.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/07/13/lapd-lets-contract-with-surveillance-giant-flock-expire-citing-serious-concerns-over-civil-liberties-and-privacy/" target="_blank" rel="noopener">La police de Los Angeles laisse expirer son contrat avec le géant de la surveillance Flock</a></h3>
+<p>Le LAPD a renoncé à renouveler son contrat avec Flock Safety, invoquant de « sérieuses préoccupations » quant aux libertés civiles et à la vie privée. Flock exploite un vaste réseau de caméras de lecture automatisée de plaques d&#39;immatriculation, dont les données ont fait l&#39;objet de partages controversés entre agences. La décision d&#39;une des plus grandes polices américaines constitue un revers notable pour l&#39;entreprise et pourrait influencer d&#39;autres municipalités qui réexaminent leurs dispositifs de surveillance automatisée.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/07/13/ubers-robotaxi-lobbying-effort-has-put-it-on-a-collision-course-with-waymo/" target="_blank" rel="noopener">Le lobbying d&#39;Uber sur les robotaxis le met en collision frontale avec Waymo</a></h3>
+<p>Uber intensifie son travail d&#39;influence auprès des régulateurs américains sur les règles encadrant les véhicules autonomes, avec des positions qui heurtent désormais celles de Waymo, pourtant partenaire sur plusieurs marchés. L&#39;enjeu porte sur les conditions d&#39;accès aux flottes, la responsabilité et la place des plateformes d&#39;intermédiation dans un secteur où Waymo opère ses propres services. Cette tension illustre la fragilité des alliances nouées dans le robotaxi, où chaque acteur cherche à sécuriser la couche la plus rentable de la chaîne de valeur.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/07/13/12-states-sue-to-block-paramounts-110b-warner-bros-deal/" target="_blank" rel="noopener">Douze États américains attaquent en justice le rachat de Warner Bros. par Paramount pour 110 milliards</a></h3>
+<p>Une coalition de douze États a déposé plainte pour bloquer l&#39;acquisition de Warner Bros. par Paramount, évaluée à 110 milliards de dollars. Les procureurs généraux invoquent les risques de concentration excessive dans les studios, la distribution et le streaming, avec des conséquences attendues sur les prix pour les consommateurs et sur la diversité des contenus. L&#39;opération, qui redessinerait la carte du divertissement américain, se heurte ainsi à un front juridique susceptible d&#39;en retarder fortement, voire d&#39;en empêcher, la finalisation.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260713000757.htm" target="_blank" rel="noopener">Les lois de Hawking sur les trous noirs étendues aux trous noirs réels et évolutifs</a></h3>
+<p>Des physiciens proposent un cadre théorique permettant d&#39;appliquer les lois de la thermodynamique non plus seulement aux trous noirs parfaitement stationnaires, mais aussi aux trous noirs réels, dynamiques et en constante évolution. Les célèbres lois formulées par Stephen Hawking et ses collègues supposaient un équilibre idéalisé, très éloigné des objets qui accrètent de la matière ou fusionnent. Cette généralisation rapproche la thermodynamique des trous noirs des observations effectivement accessibles aux détecteurs d&#39;ondes gravitationnelles, et fournit un nouvel angle d&#39;attaque sur la question de l&#39;information et de l&#39;entropie gravitationnelle.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260713000755.htm" target="_blank" rel="noopener">Une expérience d&#39;optique vieille de 200 ans pourrait servir aux ordinateurs du futur</a></h3>
+<p>Des chercheurs de la Nanyang Technological University, à Singapour, ont découvert une méthode étonnamment simple pour créer des skyrmions optiques, structures lumineuses exotiques et robustes, en s&#39;appuyant sur la tache de Poisson, un effet de diffraction décrit il y a deux siècles. Ces textures de lumière sont étudiées pour le transport et le stockage d&#39;information, car leur topologie les rend résistantes aux perturbations. La simplicité du montage proposé pourrait rendre ces objets bien plus accessibles aux applications en calcul optique, en métrologie et en communications.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260713000807.htm" target="_blank" rel="noopener">La mécanique quantique pourrait se passer des nombres imaginaires</a></h3>
+<p>Des physiciens de l&#39;université Heinrich Heine de Düsseldorf réexaminent l&#39;un des dogmes du formalisme quantique : le caractère prétendument indispensable des nombres complexes. Leur analyse suggère qu&#39;une formulation reposant uniquement sur des nombres réels pourrait rendre compte des mêmes prédictions, relançant un débat ravivé ces dernières années par plusieurs expériences censées trancher la question. Au-delà de l&#39;élégance mathématique, l&#39;enjeu touche à l&#39;interprétation de la théorie et à la nature exacte de l&#39;information encodée dans l&#39;état quantique.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260713000753.htm" target="_blank" rel="noopener">Le lieu de résidence influencerait le risque de démence, selon une vaste étude</a></h3>
+<p>Une analyse portant sur plus de 214 000 personnes met en évidence de fortes variations régionales dans les facteurs de risque de démence. Les écarts observés selon les territoires renvoient à des différences d&#39;accès aux soins, de niveau socio-économique, de qualité de l&#39;air et d&#39;habitudes de vie, plutôt qu&#39;à des causes strictement individuelles. Les auteurs y voient un argument pour des politiques de prévention ciblées géographiquement, plusieurs de ces facteurs étant modifiables et donc susceptibles de réduire l&#39;incidence de la maladie à l&#39;échelle des populations.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260713000800.htm" target="_blank" rel="noopener">Dormir 80 minutes de moins par nuit suffit à faire prendre du poids</a></h3>
+<p>Dans un essai contrôlé, des participants privés d&#39;environ une heure vingt de sommeil par nuit pendant six semaines ont pris du poids et passé davantage de temps inactifs. La restriction, modeste et proche de ce que vivent beaucoup d&#39;actifs, a suffi à modifier la dépense énergétique et le comportement, sans changement volontaire d&#39;alimentation. L&#39;étude renforce l&#39;idée que le sommeil constitue un levier métabolique à part entière, souvent négligé dans les stratégies de prévention de l&#39;obésité au profit du seul couple alimentation-exercice.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260713000751.htm" target="_blank" rel="noopener">Les bactéries des gencives liées à un risque caché pour la valve aortique</a></h3>
+<p>Des chercheurs montrent que des bactéries associées aux maladies parodontales pourraient favoriser le rétrécissement aortique calcifié, en déclenchant une inflammation et une accumulation de calcium au niveau de la valve. Ce mécanisme apporte un argument supplémentaire au lien, longtemps soupçonné, entre santé bucco-dentaire et maladies cardiovasculaires. Si les résultats se confirment chez l&#39;humain, une hygiène dentaire rigoureuse et le traitement des gingivites pourraient devenir des mesures de prévention cardiaque à part entière, pour une pathologie valvulaire qui ne dispose aujourd&#39;hui d&#39;aucun traitement médicamenteux.</p>
+</article>
+<footer class="site">Généré automatiquement &middot; Julien Nury</footer>
+</div>
+</body>
+</html>

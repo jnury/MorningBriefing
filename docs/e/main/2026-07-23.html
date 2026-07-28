@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Briefing du matin — 23 juillet 2026</title>
+<script>(function(){try{var t=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+<style>:root,:root[data-theme="dark"]{--ink:#e7e9ec;--muted:#9aa0aa;--line:#2a2e35;--accent:#6db3f2;--bg:#15171b;
+  --up:#46c46f;--down:#f0635e;
+  --badge-bg:#262a31;--badge-ink:#aab4c2;
+  --badge-ai-bg:#2c2740;--badge-ai-ink:#c4b5f5;
+  --badge-science-bg:#1d3a2c;--badge-science-ink:#7fd6a6;
+  --badge-it-bg:#1f2e47;--badge-it-ink:#8fb6ee}
+:root[data-theme="light"]{--ink:#1a1a1a;--muted:#6b6b6b;--line:#e6e6e6;--accent:#0b5cad;--bg:#ffffff;
+  --up:#0a7a2f;--down:#b3261e;
+  --badge-bg:#eef1f5;--badge-ink:#41506b;
+  --badge-ai-bg:#eae6fb;--badge-ai-ink:#5b3ea8;
+  --badge-science-bg:#e3f3ec;--badge-science-ink:#1f7a4d;
+  --badge-it-bg:#e7eefb;--badge-it-ink:#28508f}
+*{box-sizing:border-box}
+html{color-scheme:dark}
+html[data-theme="light"]{color-scheme:light}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.6;font-size:18px}
+.wrap{max-width:680px;margin:0 auto;padding:24px 20px 80px}
+header.site{display:flex;justify-content:space-between;align-items:baseline;
+  border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:8px;flex-wrap:wrap;gap:8px}
+header.site .date{font-size:15px;color:var(--muted)}
+header.site nav{display:flex;align-items:center}
+header.site nav a{color:var(--accent);text-decoration:none;font-size:15px;margin-left:16px}
+header.site nav a:hover{text-decoration:underline}
+.theme-toggle{margin-left:16px;padding:4px;border:0;background:none;color:var(--muted);cursor:pointer;
+  line-height:0;border-radius:8px;transition:color .15s ease,background .15s ease}
+.theme-toggle:hover{color:var(--accent);background:var(--badge-bg)}
+.theme-toggle svg{width:20px;height:20px;display:block}
+.theme-toggle .icon-sun{display:none}
+.theme-toggle .icon-moon{display:block}
+:root[data-theme="light"] .theme-toggle .icon-sun{display:block}
+:root[data-theme="light"] .theme-toggle .icon-moon{display:none}
+h1{font-size:26px;letter-spacing:-0.01em;margin:18px 0 4px}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);
+  margin:40px 0 12px;font-weight:600}
+h3{font-size:19px;margin:22px 0 4px;line-height:1.35}
+h3 a{color:var(--ink);text-decoration:none}
+h3 a:hover{color:var(--accent)}
+p{margin:8px 0}
+.lead{color:var(--muted);margin-top:0}
+.weather{display:flex;gap:28px;flex-wrap:wrap}
+.weather .city{flex:1 1 200px}
+.weather .city .wx-row{display:flex;align-items:center;gap:10px;margin:4px 0}
+.wx{width:34px;height:34px;color:var(--accent);flex:none}
+.weather .city .t{font-size:22px;font-weight:600}
+.weather .city .c{color:var(--muted)}
+.markets{display:flex;flex-wrap:wrap;gap:14px 26px;margin:10px 0;font-variant-numeric:tabular-nums}
+.markets .idx{display:inline-flex;gap:8px;align-items:baseline}
+.markets .idx-name{font-weight:600}
+.up{color:var(--up)}.down{color:var(--down)}
+.world li{margin:6px 0}
+.badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;padding:2px 8px;border-radius:999px;margin-right:8px;vertical-align:middle;background:var(--badge-bg);color:var(--badge-ink)}
+.badge-ai{background:var(--badge-ai-bg);color:var(--badge-ai-ink)}
+.badge-science{background:var(--badge-science-bg);color:var(--badge-science-ink)}
+.badge-it{background:var(--badge-it-bg);color:var(--badge-it-ink)}
+.archive li{margin:8px 0;list-style:none}
+.archive ul{padding:0}
+.archive a{color:var(--accent);text-decoration:none;font-size:18px}
+.degraded{color:var(--muted);font-size:14px;font-style:italic;margin:4px 0 0}
+.editions{display:grid;gap:14px;padding:0;margin:18px 0}
+.editions li{list-style:none;border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.editions h3{margin:0 0 4px}
+.editions .meta{color:var(--muted);font-size:14px}
+.editions a{color:var(--accent);text-decoration:none}
+.editions a:hover{text-decoration:underline}
+footer.site{margin-top:60px;border-top:1px solid var(--line);padding-top:14px;
+  color:var(--muted);font-size:14px}
+@media(max-width:480px){body{font-size:17px}.wrap{padding:18px 16px 60px}h1{font-size:23px}}</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+<span class="brand">Briefing du matin</span>
+<nav><a href="../../index.html">Éditions</a><a href="index.html">Aujourd'hui</a><a href="archive.html">Archives</a><button class="theme-toggle" type="button" aria-label="Basculer le thème clair/sombre" title="Thème clair/sombre" onclick="(function(){var d=document.documentElement;var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n);}catch(e){}})();"><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></button></nav>
+</header>
+<h1>Briefing du 23 juillet 2026</h1>
+<h2>Météo</h2>
+<div class="weather"><div class="city">
+<div class="name">Genève</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg><span class="t">29° / 17°</span></div>
+<div class="c">Couvert &middot; 0 % de précip.</div>
+</div><div class="city">
+<div class="name">Lausanne</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg><span class="t">28° / 19°</span></div>
+<div class="c">Couvert &middot; 0 % de précip.</div>
+</div></div>
+<h2>La Suisse en bref</h2>
+<ul class="world">
+<li>Les exportations horlogères suisses ont rebondi en juin, en hausse de 11,2 % sur un an à 2,4 milliards de francs, marquant un redressement bienvenu du secteur.</li>
+<li>Le commerce extérieur suisse a nettement progressé au deuxième trimestre, les exportations grimpant de 8,8 % portées par la pharma et un bond de 21,5 % des livraisons vers les États-Unis.</li>
+</ul>
+<h2>Le monde en bref</h2>
+<ul class="world">
+<li>Le président ukrainien Volodymyr Zelensky a remplacé le commandant en chef de l'armée Oleksandr Syrskyi par le général Mykhailo Drapatyi, à la suite de manifestations réclamant ce changement.</li>
+<li>Le Parlement moldave a approuvé un nouveau gouvernement pro-européen dirigé par Vasile Tofan, centré sur la croissance économique et l'intégration à l'Union européenne.</li>
+<li>Les chefs de la diplomatie de l'ASEAN ont ouvert à Manille leur 59e réunion annuelle, quatre jours d'échanges consacrés à la coopération régionale et à la sécurité.</li>
+</ul>
+<h2>Marchés &middot; clôture du 22 juillet 2026</h2>
+<div class="markets"><span class="idx"><span class="idx-name">Nasdaq</span> <span class="down">-0.57 %</span></span>
+<span class="idx"><span class="idx-name">Dow Jones</span> <span class="down">-0.01 %</span></span>
+<span class="idx"><span class="idx-name">SMI</span> <span class="up">+0.12 %</span></span>
+<span class="idx"><span class="idx-name">Euro Stoxx 50</span> <span class="up">+0.54 %</span></span></div>
+<p class="lead">Séance contrastée : Wall Street a fléchi avant les résultats de Tesla et d&#39;Alphabet, tandis que les Bourses européennes ont fini en hausse, portées par l&#39;énergie et la défense.</p>
+<h2>Tech · IT, Science &amp; IA</h2>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/" target="_blank" rel="noopener">Glow sort de la clandestinité à 1,2 milliard de dollars pour sécuriser l&#39;ère de l&#39;IA</a></h3>
+<p>Glow, une start-up de cybersécurité fondée par d&#39;anciens dirigeants de Meta et Snowflake, est sortie de la clandestinité avec une valorisation de 1,2 milliard de dollars après une levée de 180 millions en série A menée par Sequoia. Sa plateforme s&#39;attaque à une nouvelle classe de risques sur les postes de travail, créés par l&#39;adoption rapide d&#39;agents d&#39;IA et d&#39;outils de développement en entreprise, à l&#39;aide d&#39;agents spécialisés qui surveillent logiciels, outils d&#39;IA et applications installés sur les appareils des employés. La société revendique déjà des clients payants dans la santé, la distribution et la finance.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/" target="_blank" rel="noopener">Monday.com supprime 20 % de ses effectifs pour se recentrer sur l&#39;IA</a></h3>
+<p>L&#39;éditeur israélien de logiciels de travail collaboratif Monday.com va supprimer environ 20 % de ses effectifs, soit près de 630 postes, afin de concentrer ses investissements sur sa plateforme « AI Work Platform ». La restructuration devrait coûter entre 45 et 55 millions de dollars. L&#39;entreprise illustre une tendance de fond en 2026 : un nombre record de sociétés technologiques justifient leurs réductions d&#39;effectifs par la nécessité de réorienter leurs ressources autour de l&#39;intelligence artificielle.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/" target="_blank" rel="noopener">Google lance trois nouveaux modèles Gemini, mais toujours pas de 3.5 Pro</a></h3>
+<p>Google a dévoilé trois nouveaux modèles Gemini — 3.6 Flash, 3.5 Flash-Lite et 3.5 Flash Cyber — axés sur l&#39;efficacité et le faible coût pour les agents d&#39;IA. La très attendue mise à jour Gemini 3.5 Pro reste toutefois indisponible : selon Bloomberg, le modèle peine à atteindre les objectifs de performance internes de l&#39;entreprise. Le responsable produit de Google DeepMind a indiqué que la version Pro est actuellement testée avec des partenaires et devrait être publiée prochainement.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://www.prnewswire.com/news-releases/meshy-raises-nearly-400-million-at-a-1-5-billion-valuation-the-largest-round-to-date-in-ai-3d-302828384.html" target="_blank" rel="noopener">Meshy lève près de 400 millions de dollars, record pour la 3D générée par IA</a></h3>
+<p>Meshy, qui développe des modèles de fondation pour la génération de contenus 3D par IA, a annoncé une levée de près de 400 millions de dollars en série B, valorisant l&#39;entreprise à 1,5 milliard — le plus gros tour de table à ce jour dans la 3D générative. À partir d&#39;une simple ligne de texte ou d&#39;une image, ses outils produisent en une minute un modèle 3D directement utilisable dans les jeux et, de plus en plus, imprimable. La société revendique plus de 12 millions d&#39;utilisateurs inscrits et plus de 100 millions de modèles créés.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/21/dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming/" target="_blank" rel="noopener">Dimension Capital lève un troisième fonds de 800 millions à la croisée de la science et du calcul</a></h3>
+<p>Dimension Capital, société de capital-risque fondée il y a quatre ans par d&#39;anciens associés de Lux Capital, a annoncé un troisième fonds de 800 millions de dollars, soit 60 % de plus que son fonds précédent de 500 millions bouclé dix-huit mois plus tôt. La firme investit à l&#39;intersection des sciences du vivant et de l&#39;informatique, un créneau en plein essor illustré par des participations valorisées à plusieurs milliards, comme Chai Discovery et New Limit. La levée confirme l&#39;appétit des investisseurs pour les start-up mêlant biologie et calcul intensif.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/" target="_blank" rel="noopener">La rumeur d&#39;un rachat de Physical Intelligence par Anthropic agite le milieu de l&#39;IA</a></h3>
+<p>Une rumeur de week-end affirmant qu&#39;Anthropic s&#39;apprêtait à racheter la start-up de robotique Physical Intelligence s&#39;est propagée rapidement sur les réseaux, malgré un démenti de son PDG. Selon TechCrunch, les deux entreprises auraient bien tenu des discussions d&#39;acquisition au printemps 2026, mais Physical Intelligence a nié toute négociation en cours. L&#39;épisode illustre l&#39;effervescence spéculative autour du rapprochement entre modèles d&#39;IA de pointe et robotique physique.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://thequantuminsider.com/2026/07/22/shanghai-startup-unveils-data-center-ready-quantum-computer-at-waic-2026/" target="_blank" rel="noopener">Un ordinateur quantique au format serveur dévoilé à la WAIC 2026</a></h3>
+<p>Une start-up shanghaïenne a présenté à la Conférence mondiale sur l&#39;intelligence artificielle (WAIC 2026) un ordinateur quantique conçu pour s&#39;installer directement dans les racks des centres de données existants. Cette machine de deuxième génération serait le premier concept quantique pensé au format serveur standard, une étape vers l&#39;intégration du calcul quantique dans les infrastructures informatiques classiques plutôt que dans des laboratoires spécialisés.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260721000816.htm" target="_blank" rel="noopener">Une cartographie moléculaire révèle comment le virus de la grippe détourne nos cellules</a></h3>
+<p>Des chercheurs du Laboratoire européen de biologie moléculaire ont établi une carte détaillée montrant comment le virus de la grippe A prend le contrôle des cellules humaines. Le virus exploite des protéines humaines pour replier correctement ses propres protéines de surface et provoque la dissolution de structures nucléaires appelées paraspeckles, libérant des protéines utiles à sa réplication tout en affaiblissant les défenses antivirales de la cellule. L&#39;étude, combinant spectrométrie de masse par pontage et modélisation AlphaFold, ouvre une nouvelle voie pour étudier les interactions virus-hôte dans leur contexte naturel.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260721000825.htm" target="_blank" rel="noopener">Première atmosphère confirmée autour d&#39;une planète rocheuse en zone habitable</a></h3>
+<p>Des astronomes ont détecté la première atmosphère confirmée autour d&#39;une planète rocheuse située dans la zone habitable d&#39;une autre étoile. La planète, LHS 1140 b, à 48 années-lumière, a trahi son atmosphère par de l&#39;hélium s&#39;échappant lentement dans l&#39;espace. Les chercheurs estiment qu&#39;elle conserve cette enveloppe gazeuse depuis plus de trois milliards d&#39;années. Il s&#39;agit d&#39;une étape majeure dans la recherche de mondes potentiellement habitables, semblables à la Terre, au-delà de notre système solaire.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260721000818.htm" target="_blank" rel="noopener">Un signal solaire caché pourrait prédire les tempêtes spatiales sept ans à l&#39;avance</a></h3>
+<p>Un nouveau point de bascule découvert dans le cycle solaire de onze ans pourrait permettre de prévoir l&#39;activité du Soleil bien plus tôt qu&#39;auparavant. À ce moment de « bascule », la météorologie spatiale la plus violente s&#39;interrompt brusquement, et le nombre de taches solaires restantes renseigne sur la vigueur du cycle suivant. Présentée à la réunion nationale d&#39;astronomie de la Royal Astronomical Society, la méthode pourrait révéler la force du prochain cycle jusqu&#39;à sept ans avant son maximum ; les premières projections suggèrent un cycle 26 d&#39;intensité modérée.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260721000847.htm" target="_blank" rel="noopener">De nouvelles bactéries découvertes dans l&#39;estomac de cachalots pygmées</a></h3>
+<p>En étudiant des décennies d&#39;échouages de cachalots pygmées, des scientifiques ont identifié trois souches jusqu&#39;alors inconnues de bactéries du genre Helicobacter dans l&#39;estomac de ces cétacés. Les quatre animaux infectés présentaient d&#39;importantes lésions gastro-intestinales — inflammations, ulcères, cicatrices et parasites — sans que les bactéries aient été formellement reliées à leur mort. La découverte montre comment le suivi à long terme des mammifères marins peut révéler de nouveaux pathogènes chez des animaux difficiles à observer.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260721000844.htm" target="_blank" rel="noopener">Des mini-cerveaux de laboratoire pour prédire l&#39;efficacité des traitements d&#39;Alzheimer</a></h3>
+<p>Des modèles miniatures de cerveau cultivés à partir des cellules de patients ont révélé des différences marquées dans la manière dont les tissus atteints par la maladie d&#39;Alzheimer réagissent à un antidépresseur. Ces « organoïdes » pourraient à terme aider à prédire quels traitements fonctionneront chez tel ou tel patient, ouvrant la voie à une approche plus personnalisée de cette maladie neurodégénérative dont les essais cliniques restent souvent décevants.</p>
+</article>
+<footer class="site">Généré automatiquement &middot; Julien Nury</footer>
+</div>
+</body>
+</html>

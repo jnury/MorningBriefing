@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Briefing du matin — 22 juin 2026</title>
+<script>(function(){try{var t=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+<style>:root,:root[data-theme="dark"]{--ink:#e7e9ec;--muted:#9aa0aa;--line:#2a2e35;--accent:#6db3f2;--bg:#15171b;
+  --up:#46c46f;--down:#f0635e;
+  --badge-bg:#262a31;--badge-ink:#aab4c2;
+  --badge-ai-bg:#2c2740;--badge-ai-ink:#c4b5f5;
+  --badge-science-bg:#1d3a2c;--badge-science-ink:#7fd6a6;
+  --badge-it-bg:#1f2e47;--badge-it-ink:#8fb6ee}
+:root[data-theme="light"]{--ink:#1a1a1a;--muted:#6b6b6b;--line:#e6e6e6;--accent:#0b5cad;--bg:#ffffff;
+  --up:#0a7a2f;--down:#b3261e;
+  --badge-bg:#eef1f5;--badge-ink:#41506b;
+  --badge-ai-bg:#eae6fb;--badge-ai-ink:#5b3ea8;
+  --badge-science-bg:#e3f3ec;--badge-science-ink:#1f7a4d;
+  --badge-it-bg:#e7eefb;--badge-it-ink:#28508f}
+*{box-sizing:border-box}
+html{color-scheme:dark}
+html[data-theme="light"]{color-scheme:light}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.6;font-size:18px}
+.wrap{max-width:680px;margin:0 auto;padding:24px 20px 80px}
+header.site{display:flex;justify-content:space-between;align-items:baseline;
+  border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:8px;flex-wrap:wrap;gap:8px}
+header.site .date{font-size:15px;color:var(--muted)}
+header.site nav{display:flex;align-items:center}
+header.site nav a{color:var(--accent);text-decoration:none;font-size:15px;margin-left:16px}
+header.site nav a:hover{text-decoration:underline}
+.theme-toggle{margin-left:16px;padding:4px;border:0;background:none;color:var(--muted);cursor:pointer;
+  line-height:0;border-radius:8px;transition:color .15s ease,background .15s ease}
+.theme-toggle:hover{color:var(--accent);background:var(--badge-bg)}
+.theme-toggle svg{width:20px;height:20px;display:block}
+.theme-toggle .icon-sun{display:none}
+.theme-toggle .icon-moon{display:block}
+:root[data-theme="light"] .theme-toggle .icon-sun{display:block}
+:root[data-theme="light"] .theme-toggle .icon-moon{display:none}
+h1{font-size:26px;letter-spacing:-0.01em;margin:18px 0 4px}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);
+  margin:40px 0 12px;font-weight:600}
+h3{font-size:19px;margin:22px 0 4px;line-height:1.35}
+h3 a{color:var(--ink);text-decoration:none}
+h3 a:hover{color:var(--accent)}
+p{margin:8px 0}
+.lead{color:var(--muted);margin-top:0}
+.weather{display:flex;gap:28px;flex-wrap:wrap}
+.weather .city{flex:1 1 200px}
+.weather .city .wx-row{display:flex;align-items:center;gap:10px;margin:4px 0}
+.wx{width:34px;height:34px;color:var(--accent);flex:none}
+.weather .city .t{font-size:22px;font-weight:600}
+.weather .city .c{color:var(--muted)}
+.markets{display:flex;flex-wrap:wrap;gap:14px 26px;margin:10px 0;font-variant-numeric:tabular-nums}
+.markets .idx{display:inline-flex;gap:8px;align-items:baseline}
+.markets .idx-name{font-weight:600}
+.up{color:var(--up)}.down{color:var(--down)}
+.world li{margin:6px 0}
+.badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;padding:2px 8px;border-radius:999px;margin-right:8px;vertical-align:middle;background:var(--badge-bg);color:var(--badge-ink)}
+.badge-ai{background:var(--badge-ai-bg);color:var(--badge-ai-ink)}
+.badge-science{background:var(--badge-science-bg);color:var(--badge-science-ink)}
+.badge-it{background:var(--badge-it-bg);color:var(--badge-it-ink)}
+.archive li{margin:8px 0;list-style:none}
+.archive ul{padding:0}
+.archive a{color:var(--accent);text-decoration:none;font-size:18px}
+.degraded{color:var(--muted);font-size:14px;font-style:italic;margin:4px 0 0}
+.editions{display:grid;gap:14px;padding:0;margin:18px 0}
+.editions li{list-style:none;border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.editions h3{margin:0 0 4px}
+.editions .meta{color:var(--muted);font-size:14px}
+.editions a{color:var(--accent);text-decoration:none}
+.editions a:hover{text-decoration:underline}
+footer.site{margin-top:60px;border-top:1px solid var(--line);padding-top:14px;
+  color:var(--muted);font-size:14px}
+@media(max-width:480px){body{font-size:17px}.wrap{padding:18px 16px 60px}h1{font-size:23px}}</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+<span class="brand">Briefing du matin</span>
+<nav><a href="../../index.html">Éditions</a><a href="index.html">Aujourd'hui</a><a href="archive.html">Archives</a><button class="theme-toggle" type="button" aria-label="Basculer le thème clair/sombre" title="Thème clair/sombre" onclick="(function(){var d=document.documentElement;var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n);}catch(e){}})();"><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></button></nav>
+</header>
+<h1>Briefing du 22 juin 2026</h1>
+<h2>Météo</h2>
+<div class="weather"><div class="city">
+<div class="name">Genève</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg><span class="t">37° / 22°</span></div>
+<div class="c">Couvert &middot; 0 % de précip.</div>
+</div><div class="city">
+<div class="name">Lausanne</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg><span class="t">36° / 23°</span></div>
+<div class="c">Couvert &middot; 0 % de précip.</div>
+</div></div>
+<h2>La Suisse en bref</h2>
+<ul class="world">
+<li>La Fête de la musique a animé tout le week-end Genève (près de 500 concerts, spectacles et ateliers du 19 au 21 juin) et Lausanne (60 scènes, 180 concerts et 2500 musiciens le 21 juin).</li>
+<li>Quelque 5000 personnes ont participé à Morat (FR) à la cérémonie marquant le 550e anniversaire de la bataille de Morat, au lendemain d'un riche programme commémoratif.</li>
+</ul>
+<h2>Le monde en bref</h2>
+<ul class="world">
+<li>Les pourparlers de paix entre les États-Unis et l'Iran, sous médiation du Qatar et du Pakistan, se sont ouverts au Bürgenstock en Suisse, le vice-président américain JD Vance saluant une « réunion historique » et de « grands progrès ».</li>
+<li>Coupe du monde de football 2026 : l'Espagne a écrasé l'Arabie saoudite 4-0 (doublé d'Oyarzabal, but de Lamine Yamal), l'Uruguay et le Cap-Vert ont fait match nul 2-2 et la Belgique a été tenue en échec par l'Iran 0-0.</li>
+<li>La Fête de la musique (World Music Day) a été célébrée pour le solstice d'été dans plus de 120 pays, la France comptant à elle seule environ 18 000 concerts pour quelque 10 millions de spectateurs.</li>
+</ul>
+<h2>Marchés &middot; Indices américains : clôture du 18 juin 2026 (Bourses US fermées le 19 juin pour Juneteenth) ; indices européens : clôture du 19 juin 2026</h2>
+<div class="markets"><span class="idx"><span class="idx-name">Nasdaq</span> <span class="up">+1.91 %</span></span>
+<span class="idx"><span class="idx-name">Dow Jones</span> <span class="up">+0.14 %</span></span>
+<span class="idx"><span class="idx-name">SMI</span> <span class="up">+0.06 %</span></span>
+<span class="idx"><span class="idx-name">Euro Stoxx 50</span> <span class="down">-0.30 %</span></span></div>
+<p class="lead">Avant la réouverture de lundi, Wall Street avait terminé en nette hausse le 18 juin (Nasdaq +1,9 %, Dow quasi stable) tandis que les Bourses européennes finissaient le 19 juin sans direction marquée, le SMI à peine positif et l&#39;Euro Stoxx 50 en léger repli.</p>
+<h2>Tech · IT, Science &amp; IA</h2>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://www.sciencedaily.com/releases/2026/06/260620100312.htm" target="_blank" rel="noopener">Une simple torsion rapproche les ordinateurs quantiques de la réalité</a></h3>
+<p>Des chercheurs de l&#39;University of Technology Sydney ont montré qu&#39;en torsadant des couches de nitrure de bore hexagonal, on peut piloter de façon contrôlée les émetteurs de lumière quantique intégrés dans le matériau. Cette technique permet d&#39;ajuster de manière répétée la couleur et la longueur d&#39;onde de la lumière émise, bien plus fortement qu&#39;auparavant. Elle ouvre une voie pratique pour fabriquer des composants quantiques accordables, avec des applications dans l&#39;informatique quantique, les communications sécurisées et les capteurs de haute précision.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260621060305.htm" target="_blank" rel="noopener">Une batterie sodium-ion chinoise rivalise avec les cellules lithium de Tesla</a></h3>
+<p>Une analyse montre qu&#39;une batterie sodium-ion du fabricant chinois Hina atteint des performances comparables à celles des cellules lithium-ion de Tesla, avec une qualité de fabrication similaire et une conception sans languette à double aluminium. Le sodium, abondant et bon marché, constitue une alternative séduisante au lithium. La technologie doit toutefois encore progresser sur la charge à basse température et la densité énergétique avant une adoption à grande échelle dans les véhicules électriques.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260620100422.htm" target="_blank" rel="noopener">Les neurones brisent leur ADN pour construire le cerveau</a></h3>
+<p>Des chercheurs de l&#39;Université de Kyoto ont découvert que les neurones en développement subissent des cassures double brin de leur ADN lorsqu&#39;ils se faufilent dans les espaces étroits du cerveau en formation. Malgré la gravité de ces dommages, un cerveau sain les répare en moins de 24 heures, les neurones continuant de fonctionner normalement car les cassures touchent surtout des régions non essentielles du génome plutôt que des gènes critiques.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260621060301.htm" target="_blank" rel="noopener">Des familles de centenaires révèlent un indice génétique rare d&#39;un vieillissement en bonne santé</a></h3>
+<p>En étudiant des familles particulièrement longévives, des chercheurs ont identifié des variants génétiques rares associés à une meilleure santé prolongée, dont une mutation prometteuse du gène CGAS présente dans deux familles. Ce variant semble réduire la réponse inflammatoire tout en préservant la capacité de l&#39;organisme à combattre les infections et à se réparer. Les résultats suggèrent qu&#39;analyser des familles entières, plutôt que des individus isolés, peut révéler des facteurs protecteurs permettant de rester plus longtemps à l&#39;abri des maladies.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260621060322.htm" target="_blank" rel="noopener">Le brunissement des lacs bouleverse les populations de poissons</a></h3>
+<p>Les lacs d&#39;eau douce d&#39;Amérique du Nord et d&#39;Europe s&#39;assombrissent sous l&#39;effet d&#39;un afflux de composés carbonés issus des sols et du changement climatique, un phénomène appelé « brunissement ». Cette eau plus sombre favorise les espèces dotées d&#39;adaptations sensorielles spécialisées, comme le doré et le grand brochet, à la vision nocturne et à la ligne latérale performantes, tandis que les espèces dépendantes de la vue, telles que la truite, l&#39;achigan et la perche, déclinent et grandissent plus lentement dans ces eaux troubles.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260620100432.htm" target="_blank" rel="noopener">La tubuline empêche l&#39;agrégation des protéines toxiques liées à Alzheimer et Parkinson</a></h3>
+<p>Des chercheurs du Baylor College of Medicine ont découvert que la tubuline, protéine qui forme les microtubules des cellules cérébrales, peut empêcher l&#39;accumulation toxique des protéines Tau et alpha-synucléine. Plutôt que de bloquer la formation de gouttelettes protéiques, la tubuline réoriente ces protéines potentiellement nocives vers des fonctions cellulaires productives. Cette approche sélective ouvre une piste thérapeutique prometteuse contre la maladie d&#39;Alzheimer et la maladie de Parkinson.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260620100428.htm" target="_blank" rel="noopener">Étude de Yale : près de la moitié des aînés s&#39;améliorent avec l&#39;âge</a></h3>
+<p>Une étude de l&#39;Université Yale portant sur plus de dix ans de données et plus de 11 000 Américains âgés révèle que près de la moitié d&#39;entre eux ont connu des progrès mesurables de leurs fonctions cognitives, physiques, ou des deux. Les personnes ayant des croyances plus positives sur le vieillissement étaient nettement plus susceptibles d&#39;enregistrer ces gains, ce qui remet en cause l&#39;idée reçue selon laquelle vieillir signifie un déclin inéluctable et continu.</p>
+</article>
+<footer class="site">Généré automatiquement &middot; Julien Nury</footer>
+</div>
+</body>
+</html>

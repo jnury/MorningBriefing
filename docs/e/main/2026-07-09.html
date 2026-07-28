@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Briefing du matin — 9 juillet 2026</title>
+<script>(function(){try{var t=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+<style>:root,:root[data-theme="dark"]{--ink:#e7e9ec;--muted:#9aa0aa;--line:#2a2e35;--accent:#6db3f2;--bg:#15171b;
+  --up:#46c46f;--down:#f0635e;
+  --badge-bg:#262a31;--badge-ink:#aab4c2;
+  --badge-ai-bg:#2c2740;--badge-ai-ink:#c4b5f5;
+  --badge-science-bg:#1d3a2c;--badge-science-ink:#7fd6a6;
+  --badge-it-bg:#1f2e47;--badge-it-ink:#8fb6ee}
+:root[data-theme="light"]{--ink:#1a1a1a;--muted:#6b6b6b;--line:#e6e6e6;--accent:#0b5cad;--bg:#ffffff;
+  --up:#0a7a2f;--down:#b3261e;
+  --badge-bg:#eef1f5;--badge-ink:#41506b;
+  --badge-ai-bg:#eae6fb;--badge-ai-ink:#5b3ea8;
+  --badge-science-bg:#e3f3ec;--badge-science-ink:#1f7a4d;
+  --badge-it-bg:#e7eefb;--badge-it-ink:#28508f}
+*{box-sizing:border-box}
+html{color-scheme:dark}
+html[data-theme="light"]{color-scheme:light}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.6;font-size:18px}
+.wrap{max-width:680px;margin:0 auto;padding:24px 20px 80px}
+header.site{display:flex;justify-content:space-between;align-items:baseline;
+  border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:8px;flex-wrap:wrap;gap:8px}
+header.site .date{font-size:15px;color:var(--muted)}
+header.site nav{display:flex;align-items:center}
+header.site nav a{color:var(--accent);text-decoration:none;font-size:15px;margin-left:16px}
+header.site nav a:hover{text-decoration:underline}
+.theme-toggle{margin-left:16px;padding:4px;border:0;background:none;color:var(--muted);cursor:pointer;
+  line-height:0;border-radius:8px;transition:color .15s ease,background .15s ease}
+.theme-toggle:hover{color:var(--accent);background:var(--badge-bg)}
+.theme-toggle svg{width:20px;height:20px;display:block}
+.theme-toggle .icon-sun{display:none}
+.theme-toggle .icon-moon{display:block}
+:root[data-theme="light"] .theme-toggle .icon-sun{display:block}
+:root[data-theme="light"] .theme-toggle .icon-moon{display:none}
+h1{font-size:26px;letter-spacing:-0.01em;margin:18px 0 4px}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);
+  margin:40px 0 12px;font-weight:600}
+h3{font-size:19px;margin:22px 0 4px;line-height:1.35}
+h3 a{color:var(--ink);text-decoration:none}
+h3 a:hover{color:var(--accent)}
+p{margin:8px 0}
+.lead{color:var(--muted);margin-top:0}
+.weather{display:flex;gap:28px;flex-wrap:wrap}
+.weather .city{flex:1 1 200px}
+.weather .city .wx-row{display:flex;align-items:center;gap:10px;margin:4px 0}
+.wx{width:34px;height:34px;color:var(--accent);flex:none}
+.weather .city .t{font-size:22px;font-weight:600}
+.weather .city .c{color:var(--muted)}
+.markets{display:flex;flex-wrap:wrap;gap:14px 26px;margin:10px 0;font-variant-numeric:tabular-nums}
+.markets .idx{display:inline-flex;gap:8px;align-items:baseline}
+.markets .idx-name{font-weight:600}
+.up{color:var(--up)}.down{color:var(--down)}
+.world li{margin:6px 0}
+.badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;padding:2px 8px;border-radius:999px;margin-right:8px;vertical-align:middle;background:var(--badge-bg);color:var(--badge-ink)}
+.badge-ai{background:var(--badge-ai-bg);color:var(--badge-ai-ink)}
+.badge-science{background:var(--badge-science-bg);color:var(--badge-science-ink)}
+.badge-it{background:var(--badge-it-bg);color:var(--badge-it-ink)}
+.archive li{margin:8px 0;list-style:none}
+.archive ul{padding:0}
+.archive a{color:var(--accent);text-decoration:none;font-size:18px}
+.degraded{color:var(--muted);font-size:14px;font-style:italic;margin:4px 0 0}
+.editions{display:grid;gap:14px;padding:0;margin:18px 0}
+.editions li{list-style:none;border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.editions h3{margin:0 0 4px}
+.editions .meta{color:var(--muted);font-size:14px}
+.editions a{color:var(--accent);text-decoration:none}
+.editions a:hover{text-decoration:underline}
+footer.site{margin-top:60px;border-top:1px solid var(--line);padding-top:14px;
+  color:var(--muted);font-size:14px}
+@media(max-width:480px){body{font-size:17px}.wrap{padding:18px 16px 60px}h1{font-size:23px}}</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+<span class="brand">Briefing du matin</span>
+<nav><a href="../../index.html">Éditions</a><a href="index.html">Aujourd'hui</a><a href="archive.html">Archives</a><button class="theme-toggle" type="button" aria-label="Basculer le thème clair/sombre" title="Thème clair/sombre" onclick="(function(){var d=document.documentElement;var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n);}catch(e){}})();"><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></button></nav>
+</header>
+<h1>Briefing du 9 juillet 2026</h1>
+<h2>Météo</h2>
+<div class="weather"><div class="city">
+<div class="name">Genève</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="M20 12h2"/><path d="m19.07 4.93-1.41 1.41"/><path d="M15.947 12.65a4 4 0 0 0-5.925-4.128"/><path d="M13 22H7a5 5 0 1 1 4.9-6H13a3 3 0 0 1 0 6Z"/></svg><span class="t">34° / 22°</span></div>
+<div class="c">Principalement ensoleillé &middot; 0 % de précip.</div>
+</div><div class="city">
+<div class="name">Lausanne</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="M20 12h2"/><path d="m19.07 4.93-1.41 1.41"/><path d="M15.947 12.65a4 4 0 0 0-5.925-4.128"/><path d="M13 22H7a5 5 0 1 1 4.9-6H13a3 3 0 0 1 0 6Z"/></svg><span class="t">33° / 23°</span></div>
+<div class="c">Principalement ensoleillé &middot; 0 % de précip.</div>
+</div></div>
+<h2>La Suisse en bref</h2>
+<ul class="world">
+<li>La Suisse s'est qualifiée mardi soir pour les quarts de finale de la Coupe du monde 2026, une première depuis 1954.</li>
+<li>Face à la crise de trésorerie née du passage à TarDoc, Vaud et Genève relèvent leurs avances au CHUV et aux HUG pour compenser les factures ambulatoires non émises depuis le début 2026.</li>
+<li>La chanteuse franco-haïtienne Naïka a enflammé le Montreux Jazz Lab, confirmant son statut de révélation pop de l'été.</li>
+</ul>
+<h2>Le monde en bref</h2>
+<ul class="world">
+<li>Au sommet de l'OTAN à Ankara, l'Alliance a dévoilé des dizaines de milliards de contrats d'armement et Donald Trump a annoncé la levée des sanctions contre la Turquie, ouvrant la voie à un possible retour d'Ankara dans le programme F-35.</li>
+<li>En Hongrie, le nouveau Premier ministre Péter Magyar a suspendu les journaux de la télévision publique M1 et de la radio Kossuth pour refonder un service public indépendant, tournant la page de seize ans de médias d'État sous Viktor Orbán.</li>
+<li>Le tableau des quarts de finale de la Coupe du monde 2026 est complet, réunissant France, Maroc, Norvège, Angleterre, Espagne, Belgique, Argentine et Suisse.</li>
+</ul>
+<h2>Marchés &middot; clôture du 8 juillet 2026</h2>
+<div class="markets"><span class="idx"><span class="idx-name">Nasdaq</span> <span class="up">+0.20 %</span></span>
+<span class="idx"><span class="idx-name">Dow Jones</span> <span class="down">-1.09 %</span></span>
+<span class="idx"><span class="idx-name">SMI</span> <span class="down">-1.30 %</span></span>
+<span class="idx"><span class="idx-name">Euro Stoxx 50</span> <span class="down">-1.20 %</span></span></div>
+<p class="lead">Séance contrastée: le Nasdaq a limité les dégâts (+0,2%) tandis que le Dow Jones (-1,1%), le SMI (-1,3%) et l&#39;Euro Stoxx 50 (-1,2%) ont reculé, plombés par les tensions américano-iraniennes, la flambée du pétrole et une correction dans les semi-conducteurs.</p>
+<h2>Tech · IT, Science &amp; IA</h2>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/" target="_blank" rel="noopener">SpaceXAI lance Grok 4.5, qualifié de modèle « de classe Opus » par Elon Musk</a></h3>
+<p>SpaceXAI a dévoilé Grok 4.5, présenté par Elon Musk comme un modèle de tout premier plan, « de classe Opus », capable de rivaliser avec les meilleurs systèmes du marché. Cette nouvelle version marque une montée en gamme notable de la famille Grok, avec des progrès annoncés sur le raisonnement et la qualité des réponses. Le lancement s&#39;inscrit dans une compétition de plus en plus intense entre les grands laboratoires d&#39;IA.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/" target="_blank" rel="noopener">OpenAI publie de nouveaux modèles vocaux pour des conversations en direct plus naturelles</a></h3>
+<p>OpenAI a présenté une nouvelle génération de modèles vocaux destinés à rendre les échanges en temps réel plus fluides et naturels. L&#39;objectif est de réduire la latence et d&#39;améliorer l&#39;expressivité, afin que les assistants conversationnels tiennent un dialogue vocal proche d&#39;une conversation humaine. Ces modèles ouvrent la voie à des applications d&#39;assistance, de service client et d&#39;accessibilité plus réactives.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/" target="_blank" rel="noopener">Google Photos ajoute un outil d&#39;IA « Video Remix »</a></h3>
+<p>Google Photos intègre un nouvel outil baptisé « Video Remix » qui utilise l&#39;IA générative pour transformer et remixer les vidéos personnelles des utilisateurs. La fonctionnalité permet de recréer ou de restyliser des séquences existantes en quelques manipulations, prolongeant la stratégie de Google visant à enrichir sa galerie photo d&#39;outils créatifs automatisés.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/" target="_blank" rel="noopener">Une startup estime que la robotique va vivre son « moment ChatGPT »</a></h3>
+<p>General Intuition ambitionne de devenir le modèle de fondation de l&#39;« IA physique », une base commune sur laquelle d&#39;autres entreprises de robotique construiraient leurs machines. Son dirigeant Pim de Witte estime que l&#39;IA incarnée suivra la trajectoire des grands modèles de langage: des jeux de données de meilleure qualité permettront des modèles capables de transférer l&#39;intuition du mouvement et de l&#39;interaction d&#39;un environnement à un autre.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/" target="_blank" rel="noopener">Meta veut rendre ses lunettes IA moins intrusives, mais sa stratégie interroge</a></h3>
+<p>Meta ajoute une protection à ses lunettes connectées: la caméra sera désactivée si la LED signalant l&#39;enregistrement est masquée ou trafiquée, afin d&#39;empêcher les prises de vue clandestines. Le même jour, l&#39;entreprise a toutefois annoncé que Meta AI pourrait utiliser les photos Instagram publiques des utilisateurs pour générer des images, sauf refus explicite, ravivant les questions sur la vie privée.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/" target="_blank" rel="noopener">Prime Intellect lève 130 millions de dollars pour aider les entreprises à bâtir leurs propres agents IA</a></h3>
+<p>Prime Intellect a bouclé une série A de 130 millions de dollars pour développer sa plateforme permettant aux entreprises de concevoir et déployer leurs propres agents IA. La levée illustre l&#39;appétit persistant des investisseurs pour les infrastructures d&#39;agents autonomes, considérées comme la prochaine étape de l&#39;adoption de l&#39;IA en entreprise.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/" target="_blank" rel="noopener">SambaNova lève 1 milliard de dollars et atteint une valorisation de 11 milliards</a></h3>
+<p>Le concepteur de puces d&#39;IA SambaNova a annoncé un premier closing de série F de 1 milliard de dollars, portant sa valorisation à 11 milliards, cinq mois seulement après son précédent tour majeur. L&#39;opération confirme la course au financement des fabricants de semi-conducteurs spécialisés dans l&#39;inférence et l&#39;entraînement des modèles.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/" target="_blank" rel="noopener">Ces startups d&#39;IA voient leurs revenus croître de plus en plus vite</a></h3>
+<p>Plusieurs jeunes pousses de l&#39;IA affichent des accélérations spectaculaires de leurs revenus. Mercor a dépassé 2 milliards de dollars de revenus annualisés bruts en juin, quatre mois après avoir franchi le milliard. Anthropic, de son côté, a annoncé avoir dépassé un rythme de revenus annualisé de 47 milliards de dollars fin mai, moins de deux mois après avoir franchi les 30 milliards.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/" target="_blank" rel="noopener">Le détecteur de deepfakes de Google sert à démentir un montage visant McConnell</a></h3>
+<p>Le système de détection de contenus synthétiques développé par Google a été utilisé pour établir qu&#39;une image circulant à propos du sénateur Mitch McConnell était un montage. Le cas illustre l&#39;usage concret des outils de traçabilité et de provenance des médias pour lutter contre la désinformation à l&#39;ère de l&#39;IA générative.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/07/08/with-eu-backing-quantumdiamonds-aims-to-speed-up-chip-manufacturing/" target="_blank" rel="noopener">QuantumDiamonds veut accélérer la fabrication de puces, avec le soutien de l&#39;UE</a></h3>
+<p>Soutenue par des financements européens, la startup QuantumDiamonds développe des capteurs quantiques à base de diamant destinés à inspecter les puces électroniques avec une précision inédite. La technologie vise à repérer plus vite les défauts en production, un enjeu clé pour la souveraineté et la compétitivité de l&#39;industrie européenne des semi-conducteurs.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/07/08/apple-to-produce-made-in-america-wireless-chips-with-broadcom/" target="_blank" rel="noopener">Apple produira aux États-Unis des puces sans fil avec Broadcom</a></h3>
+<p>Apple a annoncé un partenariat avec Broadcom pour fabriquer aux États-Unis des puces sans fil « Made in America ». L&#39;accord s&#39;inscrit dans la stratégie de relocalisation d&#39;une partie de la chaîne d&#39;approvisionnement d&#39;Apple et répond aux pressions politiques en faveur d&#39;une production de semi-conducteurs sur le sol américain.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/07/08/autonomous-drone-delivery-startup-manna-plots-major-u-s-expansion/" target="_blank" rel="noopener">La startup de livraison par drone Manna prépare une grande expansion aux États-Unis</a></h3>
+<p>La société irlandaise Manna, spécialisée dans la livraison autonome par drone, planifie un déploiement d&#39;ampleur sur le marché américain. Après ses opérations en Europe, l&#39;entreprise mise sur des vols automatisés pour livrer repas et petits colis en quelques minutes, dans un secteur en pleine structuration réglementaire.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/07/08/another-massive-data-breach-exposed-millions-of-drivers-license-numbers/" target="_blank" rel="noopener">Une nouvelle fuite de données expose des millions de numéros de permis de conduire</a></h3>
+<p>Une importante violation de données a exposé des millions de numéros de permis de conduire, s&#39;ajoutant à une série d&#39;incidents récents touchant des informations personnelles sensibles. L&#39;affaire rappelle la persistance des failles de sécurité chez les grands détenteurs de données et les risques d&#39;usurpation d&#39;identité pour les personnes concernées.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://www.helpnetsecurity.com/2026/07/08/20-latest-open-source-cybersecurity-tools/" target="_blank" rel="noopener">Vingt outils de cybersécurité open source à garder à portée de main</a></h3>
+<p>Help Net Security a recensé une nouvelle vague d&#39;outils open source de cybersécurité couvrant la recherche de vulnérabilités, les tests applicatifs, la sécurité des conteneurs, la protection des postes et la sécurité de l&#39;IA. Parmi eux, AIMap cartographie à l&#39;échelle d&#39;Internet les systèmes d&#39;inférence IA exposés, les identifie et évalue leur niveau de risque via des tests d&#39;attaque ciblés sur des cibles autorisées.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260708022154.htm" target="_blank" rel="noopener">Des physiciens de Heidelberg réconcilient deux théories quantiques opposées</a></h3>
+<p>Des chercheurs de l&#39;Université de Heidelberg affirment avoir unifié deux approches jusqu&#39;ici concurrentes de la théorie quantique, offrant un cadre commun là où les descriptions divergeaient. Ce rapprochement théorique pourrait clarifier des questions fondamentales sur la mesure et la dynamique des systèmes quantiques et ouvrir de nouvelles pistes de recherche.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260708022208.htm" target="_blank" rel="noopener">Un rare requin lutin filmé vivant pour la première fois dans les grands fonds</a></h3>
+<p>Des scientifiques ont filmé pour la première fois un requin lutin vivant dans son habitat naturel des grandes profondeurs. Cette espèce énigmatique, connue surtout par des spécimens morts, offre aux chercheurs un aperçu inédit de son comportement et de son anatomie, précieux pour comprendre la biodiversité des abysses.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260707025047.htm" target="_blank" rel="noopener">Des scientifiques utilisent l&#39;IA pour percer l&#39;un des grands mystères de l&#39;eau</a></h3>
+<p>Grâce à l&#39;intelligence artificielle, des chercheurs ont éclairci l&#39;un des comportements les plus déroutants de l&#39;eau, molécule pourtant essentielle mais aux propriétés atypiques. Les simulations assistées par IA ont permis de modéliser sa structure à une échelle inaccessible aux méthodes classiques, avec des implications pour la chimie, la biologie et les sciences des matériaux.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260707054108.htm" target="_blank" rel="noopener">L&#39;ADN ancien révèle l&#39;effondrement mystérieux des bâtisseurs de mégalithes d&#39;Europe</a></h3>
+<p>L&#39;analyse d&#39;ADN ancien apporte un nouvel éclairage sur le déclin des populations néolithiques qui ont érigé les mégalithes d&#39;Europe. Les données génétiques suggèrent des bouleversements démographiques et des remplacements de populations, aidant à reconstituer une page encore obscure de la préhistoire du continent.</p>
+</article>
+<footer class="site">Généré automatiquement &middot; Julien Nury</footer>
+</div>
+</body>
+</html>

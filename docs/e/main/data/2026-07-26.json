@@ -1,0 +1,244 @@
+{
+  "edition": "main",
+  "title": "Briefing du matin",
+  "date": "2026-07-26",
+  "generatedAt": "2026-07-26T06:15:00+02:00",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Genève",
+          "high": 26,
+          "low": 18,
+          "condition": "Pluie modérée",
+          "weathercode": 63,
+          "precipProbability": 60
+        },
+        {
+          "name": "Lausanne",
+          "high": 24,
+          "low": 18,
+          "condition": "Orage avec grêle",
+          "weathercode": 96,
+          "precipProbability": 70
+        }
+      ]
+    },
+    {
+      "topic": "swiss",
+      "label": "La Suisse en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "items": [
+        {
+          "headline": "Environ 10'000 personnes ont défilé samedi à Berne pour la Pride, sous le slogan « Fort·e·s. Et encore plus fort·e·s ensemble », d'un cortège coloré parti de la Waisenhausplatz jusqu'à la Place fédérale.",
+          "publishedAt": "2026-07-25"
+        },
+        {
+          "headline": "Fribourg accueille la 141e Fête romande de lutte suisse, organisée pour le centenaire du club de lutte de Fribourg et environs, la lutte revenant en ville pour la première fois depuis cinquante ans.",
+          "publishedAt": "2026-07-25"
+        },
+        {
+          "headline": "Reprise de Super League pour les clubs romands : Lausanne-Sport a arraché le nul 1-1 contre Grasshopper tandis que Servette s'est incliné 0-1 devant Bâle.",
+          "publishedAt": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "items": [
+        {
+          "headline": "Washington et Londres préparent une conférence de haut niveau dans la capitale britannique pour bâtir une coalition internationale chargée de protéger la navigation commerciale dans le détroit d'Ormuz, tandis qu'une délégation omanaise s'est rendue à Téhéran pour discuter de sa réouverture.",
+          "publishedAt": "2026-07-25"
+        },
+        {
+          "headline": "L'avion militaire A400M a réalisé près de Lacanau, en Gironde, son tout premier largage opérationnel de retardant contre un incendie, une première mondiale offrant l'équivalent de trois Canadair en volume.",
+          "publishedAt": "2026-07-25"
+        },
+        {
+          "headline": "Sur le Tour de France, Richard Carapaz a remporté l'étape reine de l'Alpe d'Huez devant Remco Evenepoel, Tadej Pogacar conservant le maillot jaune malgré 45 secondes concédées.",
+          "publishedAt": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "topic": "markets",
+      "label": "Marchés",
+      "kind": "dataset",
+      "asOf": "clôture du 24 juillet 2026",
+      "summary": "Séance de vendredi contrastée : l'Europe a nettement progressé et le Dow a rebondi, tandis que le Nasdaq a reculé sous le poids des valeurs de semi-conducteurs.",
+      "indices": [
+        {
+          "name": "Nasdaq",
+          "changePct": -0.64
+        },
+        {
+          "name": "Dow Jones",
+          "changePct": 0.46
+        },
+        {
+          "name": "SMI",
+          "changePct": 0.54
+        },
+        {
+          "name": "Euro Stoxx 50",
+          "changePct": 1.1
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "items": [
+        {
+          "category": "AI",
+          "title": "Anthropic lance Opus 5",
+          "url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+          "publishedAt": "2026-07-24",
+          "summary": "Anthropic a présenté vendredi Opus 5, nouvelle itération de son modèle phare. Plus petit que Fable 5, il le devance pourtant sur plusieurs benchmarks tout en restant moins cher et moins restrictif. L'entreprise met en avant sa capacité à vérifier son propre travail et à itérer jusqu'à réussir, illustrée par l'écriture autonome de pipelines de vision par ordinateur à partir de consignes incomplètes. Opus 5 échappe à la politique de rétention des données de 30 jours appliquée aux modèles Fable et Mythos, un point important pour les utilisateurs soucieux de confidentialité. Anthropic indique que ses classificateurs de sécurité se déclencheront 85% moins souvent que pour Fable 5, tout en maintenant les garde-fous sur les tâches sensibles. Une fonction bêta « Automatic Fallbacks » redirige les requêtes bloquées vers des modèles moins puissants plutôt que de renvoyer une erreur. Le lancement suit Opus 4.8 de deux mois seulement."
+        },
+        {
+          "category": "AI",
+          "title": "Le nouveau mode vocal d'OpenAI arrive sur l'application ChatGPT pour ordinateur",
+          "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+          "publishedAt": "2026-07-24",
+          "summary": "OpenAI a déployé ChatGPT Voice sur son application de bureau, permettant de piloter des agents et d'accomplir des tâches sur l'ordinateur à la voix. La fonctionnalité s'appuie sur les modèles vocaux ChatGPT-Live récemment introduits et fonctionne avec ChatGPT Work et Codex pour enchaîner des tâches en plusieurs étapes. Sur macOS, l'utilisateur peut accorder à l'application un accès à l'écran via Appshots afin qu'elle consulte le contenu des sites et des applications ouvertes. Cette version pour ordinateur est plus avancée que celle des smartphones : elle accepte la dictée de commandes complexes comportant de nombreuses étapes et relance l'utilisateur lorsqu'une saisie est nécessaire."
+        },
+        {
+          "category": "IT",
+          "title": "Une ligne électrique tombée révèle un problème croissant des centres de données IA",
+          "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+          "publishedAt": "2026-07-25",
+          "summary": "La chute d'une ligne électrique en Virginie du Nord a provoqué la déconnexion brutale de plus de 3 gigawatts de centres de données du réseau, déclenchant une pointe de tension à travers la région PJM. Il a fallu onze minutes supplémentaires pour que le réseau se stabilise, provoquant des vacillements d'éclairage dans plusieurs États. En détectant la perturbation, tous les centres de données ont basculé en quelques secondes sur leurs alimentations de secours, retirant simultanément une demande énorme à un réseau desservant 67 millions de clients. Le phénomène s'aggrave : un incident comparable en 2024 ne concernait que 1,5 gigawatt, alors que les centres de données devraient passer de 6% à 24% de la charge totale de PJM d'ici 2040. Les pistes évoquées consistent à leur imposer de « traverser » les perturbations plutôt que de se déconnecter, et à installer des systèmes de batteries tampons."
+        },
+        {
+          "category": "AI",
+          "title": "Face à la riposte américaine sur l'IA chinoise, l'industrie s'oppose à de larges restrictions sur les poids ouverts",
+          "url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
+          "publishedAt": "2026-07-24",
+          "summary": "Alors que Washington réfléchit à sa réponse aux progrès de l'IA chinoise, plusieurs acteurs majeurs du secteur — dont Hugging Face, Meta, Microsoft, Mistral et Nvidia — ont signé une lettre ouverte appelant les responsables politiques à ne pas imposer de restrictions générales et « prématurées » sur les modèles à poids ouverts. Les signataires estiment que de telles mesures pénaliseraient la recherche et l'écosystème open source occidental sans freiner réellement les capacités des laboratoires chinois."
+        },
+        {
+          "category": "Science",
+          "title": "SpaceX déploie les premiers satellites Starlink V3 mais perd encore un booster",
+          "url": "https://techcrunch.com/2026/07/24/spacex-launches-new-v3-starlink-satellites-but-suffers-another-booster-failure/",
+          "publishedAt": "2026-07-24",
+          "summary": "SpaceX a déployé vendredi ses premiers satellites Starlink de troisième génération lors du treizième vol d'essai de sa méga-fusée Starship, une avancée pour son réseau internet spatial. Le booster Super Heavy a toutefois de nouveau échoué lors de son amerrissage simulé dans le golfe du Mexique, reproduisant les difficultés rencontrées lors du vol inaugural de la V3 en mai. L'étage supérieur s'est mieux comporté : il a survécu à la rentrée atmosphérique et a flotté dans l'océan Indien sans exploser, permettant d'examiner ses tuiles de bouclier thermique. Malgré ce revers, SpaceX a démontré pouvoir communiquer avec l'ensemble des nouveaux satellites depuis l'espace, même si ceux-ci se sont consumés avant d'atteindre l'orbite."
+        },
+        {
+          "category": "AI",
+          "title": "Monday.com rejoint la longue liste des entreprises tech invoquant l'IA pour justifier des licenciements",
+          "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+          "publishedAt": "2026-07-25",
+          "summary": "Monday.com a annoncé la suppression d'environ 600 postes, soit 20% de ses effectifs, dans le cadre d'une restructuration autour de sa « stratégie de croissance pilotée par l'IA ». Selon une analyse du Financial Times, les entreprises technologiques américaines ont supprimé près de 140'000 emplois depuis le début de 2026, Amazon, Oracle, Meta et Microsoft représentant à eux seuls environ 50'000 de ces suppressions. TechCrunch recense plus de vingt vagues de licenciements significatives cette année, PayPal ayant retranché plus de 4500 postes et Block près de la moitié de ses effectifs au nom des gains d'efficacité de l'IA. Fait notable, les données de marché indiquent que les sociétés invoquant l'IA sous-performent le Nasdaq de près de 10% dans les trente séances suivant l'annonce, signe du scepticisme des investisseurs."
+        },
+        {
+          "category": "IT",
+          "title": "Anduril en discussions pour lever des fonds sur une valorisation de 100 milliards de dollars",
+          "url": "https://techcrunch.com/2026/07/24/anduril-reportedly-in-talks-to-raise-funding-at-100b-valuation-more-than-3x-last-years-mark/",
+          "publishedAt": "2026-07-24",
+          "summary": "L'entreprise de technologies de défense Anduril négocierait un nouveau tour de table susceptible de porter sa valorisation à environ 100 milliards de dollars, soit une hausse de quelque 40 milliards et plus du triple du niveau atteint l'an dernier. Cette progression illustre l'appétit persistant des investisseurs pour les fournisseurs de systèmes autonomes et de défense logicielle."
+        },
+        {
+          "category": "AI",
+          "title": "Prentis, nouveau laboratoire d'IA cofondé par Reid Hoffman et Mark Pincus, veut lever 100 millions de dollars",
+          "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
+          "publishedAt": "2026-07-24",
+          "summary": "Prentis, un nouveau laboratoire de recherche en intelligence artificielle consacré aux modèles capables d'utiliser un ordinateur, est en discussions pour lever 100 millions de dollars sur une valorisation d'un milliard. Il a été cofondé par l'entrepreneur en série Ritankar Das aux côtés de deux figures de la tech, Reid Hoffman et Mark Pincus."
+        },
+        {
+          "category": "AI",
+          "title": "Pourquoi Cognition a racheté Poke : la personnalité des IA devient un avantage concurrentiel",
+          "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
+          "publishedAt": "2026-07-24",
+          "summary": "The Interaction Company of California, éditrice de Poke — un assistant IA avec lequel on échange par messages comme avec un ami — a été rachetée par la start-up de programmation assistée par IA Cognition, pour un montant valorisant la jeune pousse dans le bas de la fourchette des neuf chiffres. TechCrunch analyse ce rachat comme le signe que le ton et la personnalité d'un assistant deviennent un différenciateur commercial à part entière, au-delà des seules performances brutes des modèles."
+        },
+        {
+          "category": "IT",
+          "title": "World, la start-up biométrique de Sam Altman, lève 52,5 millions de dollars via une vente de jetons",
+          "url": "https://techcrunch.com/2026/07/24/sam-altmans-biometric-startup-world-raises-52-5-million-via-crypto-sale/",
+          "publishedAt": "2026-07-24",
+          "summary": "World, la start-up de vérification d'identité en ligne cofondée par le patron d'OpenAI Sam Altman, a levé 52,5 millions de dollars auprès d'investisseurs stratégiques par le biais d'une vente de jetons cryptographiques. Le projet, qui repose sur la reconnaissance biométrique de l'iris pour distinguer les humains des robots, poursuit ainsi son financement dans un contexte où la preuve d'humanité en ligne devient un enjeu central."
+        },
+        {
+          "category": "IT",
+          "title": "Facebook lance une application Marketplace dédiée aux vendeurs et un système de vérification gratuit",
+          "url": "https://techcrunch.com/2026/07/24/facebook-launches-a-dedicated-marketplace-app-for-sellers-adds-a-free-verification-system/",
+          "publishedAt": "2026-07-24",
+          "summary": "Facebook déploie une série de nouveautés, dont des applications dédiées aux vendeurs sur Marketplace et un système de vérification gratuit permettant de prouver que l'on est un être humain sur des services comme Dating, Marketplace et Groupes. Le réseau social introduit également une nouvelle interface immersive pour la vidéo. Ces changements visent à limiter les faux comptes et les arnaques sur des services où la confiance entre inconnus conditionne l'usage."
+        },
+        {
+          "category": "AI",
+          "title": "Attie, l'assistant IA de Bluesky, devient un outil de recherche sociale ouvert",
+          "url": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
+          "publishedAt": "2026-07-24",
+          "summary": "Attie, l'assistant IA de Bluesky qui permettait déjà de composer des fils personnalisés sans écrire une ligne de code, évolue vers un outil de recherche ouvert. Une nouvelle fonction baptisée Quests autorise les utilisateurs à lui demander des informations et à suivre la circulation des actualités à l'échelle de l'ensemble du réseau social."
+        },
+        {
+          "category": "IT",
+          "title": "Waymo envisagerait de mettre fin à son partenariat avec Uber",
+          "url": "https://techcrunch.com/2026/07/24/waymo-reportedly-mulling-a-breakup-with-uber/",
+          "publishedAt": "2026-07-24",
+          "summary": "Waymo réfléchirait à rompre son partenariat avec Uber, selon des informations rapportées par TechCrunch. L'accord permettait de proposer les robotaxis de la filiale d'Alphabet via l'application d'Uber sur plusieurs marchés américains ; une séparation traduirait la volonté de Waymo d'exploiter directement sa propre plateforme à mesure que sa flotte s'étend."
+        },
+        {
+          "category": "IT",
+          "title": "Le Vietnam veut restreindre l'accès des mineurs aux réseaux sociaux",
+          "url": "https://techcrunch.com/2026/07/24/social-media-ban-children-countries-list/",
+          "publishedAt": "2026-07-24",
+          "summary": "Le Vietnam étudie une restriction de l'accès des enfants aux réseaux sociaux, rejoignant un nombre croissant de pays qui légifèrent en ce sens. TechCrunch dresse la liste de ces juridictions, d'ampleur et de sévérité variables, alors que le débat sur l'âge minimal et la vérification d'identité en ligne s'internationalise."
+        },
+        {
+          "category": "AI",
+          "title": "Midjourney rachète l'application d'astrologie Co-Star",
+          "url": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/",
+          "publishedAt": "2026-07-24",
+          "summary": "Midjourney, le laboratoire connu pour son générateur d'images par IA, a fait l'acquisition de Co-Star, application d'astrologie populaire pour ses horoscopes quotidiens au ton singulier. Le rapprochement, inattendu, illustre l'intérêt des acteurs de l'IA générative pour des marques grand public dotées d'une identité éditoriale forte et d'une base d'utilisateurs fidèle."
+        },
+        {
+          "category": "IT",
+          "title": "La Boring Company d'Elon Musk lèverait des fonds sur une valorisation de 20 milliards de dollars",
+          "url": "https://techcrunch.com/2026/07/25/elon-musks-boring-company-reportedly-raising-funding-at-a-20-billion-valuation/",
+          "publishedAt": "2026-07-25",
+          "summary": "La Boring Company, l'entreprise de creusement de tunnels fondée par Elon Musk, serait en train de lever des fonds sur une valorisation de 20 milliards de dollars. La société, connue pour son Loop de Las Vegas, poursuit ses ambitions de réseaux souterrains urbains malgré un déploiement commercial encore limité."
+        },
+        {
+          "category": "AI",
+          "title": "Des bibliothécaires organisent des ateliers « Éviter l'IA » qui font le buzz",
+          "url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+          "publishedAt": "2026-07-25",
+          "summary": "Des bibliothécaires américains organisent des ateliers intitulés « Avoiding AI », devenus viraux, à destination des personnes lassées de voir l'intelligence artificielle s'immiscer partout dans leurs outils numériques. Ces séances enseignent des méthodes concrètes pour désactiver les fonctions IA, choisir des services alternatifs et reprendre la main sur ses usages, dans un mouvement de réappropriation face aux géants de la tech."
+        },
+        {
+          "category": "Science",
+          "title": "Vénus pourrait se déchirer de l'intérieur",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260724061434.htm",
+          "publishedAt": "2026-07-24",
+          "summary": "Des chercheurs de l'ETH Zurich ont utilisé des simulations 3D avancées pour montrer que certaines des immenses vallées de rift de Vénus se sont formées bien plus récemment qu'on ne le pensait, remettant en cause l'âge supposé de plus de 100 millions d'années. Ces rifts pourraient s'élargir de 3 à 10 centimètres par an et présentent, lorsqu'ils sont géologiquement jeunes, des flancs surélevés caractéristiques. À mesure que la croûte de la planète se relâche, ces crêtes s'aplanissent et s'effacent, selon un processus différent de l'érosion terrestre. Les résultats suggèrent un intérieur bien plus actif que ne le supposaient les scientifiques, contredisant l'idée d'une Vénus géologiquement endormie, et pourraient aider à cibler les régions à activité tectonique ou volcanique pour de futures missions d'exploration."
+        },
+        {
+          "category": "Science",
+          "title": "L'Univers peut distancer la lumière sans enfreindre les règles d'Einstein",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260724061444.htm",
+          "publishedAt": "2026-07-25",
+          "summary": "L'expansion cosmique permet à des galaxies lointaines de s'éloigner plus vite que la lumière sans violer la relativité : ce n'est pas qu'elles se déplacent à travers l'espace à vitesse supraluminique, c'est l'espace qui les sépare de nous qui grandit. L'Univers observable s'étend sur environ 45 milliards d'années-lumière alors qu'il n'a que 13,77 milliards d'années, précisément parce que l'espace n'a cessé de s'étirer. Nous voyons encore ces galaxies parce que la lumière qui nous parvient aujourd'hui a été émise il y a longtemps, quand elles étaient bien plus proches. Il existe toutefois une limite : un horizon cosmologique situé vers 17 milliards d'années-lumière, au-delà duquel la lumière émise aujourd'hui ne nous atteindra jamais. Dans une centaine de milliards d'années, l'énergie sombre aura fait disparaître de notre vue presque toutes les galaxies hors du Groupe local."
+        },
+        {
+          "category": "Science",
+          "title": "Les GLP-1 par voie orale pourraient apaiser le circuit cérébral des envies alimentaires",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260724061439.htm",
+          "publishedAt": "2026-07-25",
+          "summary": "Des chercheurs financés par les National Institutes of Health ont découvert que les nouvelles versions orales des médicaments GLP-1, comme l'orforglipron et le danuglipron, réduiraient l'alimentation liée au plaisir par un mécanisme jusqu'ici inconnu. Chez la souris, ces molécules activent l'amygdale centrale, une région cérébrale profonde impliquée dans la récompense, ce qui atténue ensuite la libération de dopamine lors des prises alimentaires motivées par le plaisir. Contrairement au sémaglutide injectable, qui agit surtout par suppression de l'appétit via l'hypothalamus et le tronc cérébral, ces petites molécules orales semblent donc court-circuiter directement le circuit de la récompense. Les auteurs y voient des applications possibles au-delà de la perte de poids, notamment dans le traitement des troubles liés à l'usage de substances."
+        }
+      ]
+    }
+  ]
+}

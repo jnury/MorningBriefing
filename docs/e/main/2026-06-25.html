@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Briefing du matin — 25 juin 2026</title>
+<script>(function(){try{var t=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+<style>:root,:root[data-theme="dark"]{--ink:#e7e9ec;--muted:#9aa0aa;--line:#2a2e35;--accent:#6db3f2;--bg:#15171b;
+  --up:#46c46f;--down:#f0635e;
+  --badge-bg:#262a31;--badge-ink:#aab4c2;
+  --badge-ai-bg:#2c2740;--badge-ai-ink:#c4b5f5;
+  --badge-science-bg:#1d3a2c;--badge-science-ink:#7fd6a6;
+  --badge-it-bg:#1f2e47;--badge-it-ink:#8fb6ee}
+:root[data-theme="light"]{--ink:#1a1a1a;--muted:#6b6b6b;--line:#e6e6e6;--accent:#0b5cad;--bg:#ffffff;
+  --up:#0a7a2f;--down:#b3261e;
+  --badge-bg:#eef1f5;--badge-ink:#41506b;
+  --badge-ai-bg:#eae6fb;--badge-ai-ink:#5b3ea8;
+  --badge-science-bg:#e3f3ec;--badge-science-ink:#1f7a4d;
+  --badge-it-bg:#e7eefb;--badge-it-ink:#28508f}
+*{box-sizing:border-box}
+html{color-scheme:dark}
+html[data-theme="light"]{color-scheme:light}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.6;font-size:18px}
+.wrap{max-width:680px;margin:0 auto;padding:24px 20px 80px}
+header.site{display:flex;justify-content:space-between;align-items:baseline;
+  border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:8px;flex-wrap:wrap;gap:8px}
+header.site .date{font-size:15px;color:var(--muted)}
+header.site nav{display:flex;align-items:center}
+header.site nav a{color:var(--accent);text-decoration:none;font-size:15px;margin-left:16px}
+header.site nav a:hover{text-decoration:underline}
+.theme-toggle{margin-left:16px;padding:4px;border:0;background:none;color:var(--muted);cursor:pointer;
+  line-height:0;border-radius:8px;transition:color .15s ease,background .15s ease}
+.theme-toggle:hover{color:var(--accent);background:var(--badge-bg)}
+.theme-toggle svg{width:20px;height:20px;display:block}
+.theme-toggle .icon-sun{display:none}
+.theme-toggle .icon-moon{display:block}
+:root[data-theme="light"] .theme-toggle .icon-sun{display:block}
+:root[data-theme="light"] .theme-toggle .icon-moon{display:none}
+h1{font-size:26px;letter-spacing:-0.01em;margin:18px 0 4px}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);
+  margin:40px 0 12px;font-weight:600}
+h3{font-size:19px;margin:22px 0 4px;line-height:1.35}
+h3 a{color:var(--ink);text-decoration:none}
+h3 a:hover{color:var(--accent)}
+p{margin:8px 0}
+.lead{color:var(--muted);margin-top:0}
+.weather{display:flex;gap:28px;flex-wrap:wrap}
+.weather .city{flex:1 1 200px}
+.weather .city .wx-row{display:flex;align-items:center;gap:10px;margin:4px 0}
+.wx{width:34px;height:34px;color:var(--accent);flex:none}
+.weather .city .t{font-size:22px;font-weight:600}
+.weather .city .c{color:var(--muted)}
+.markets{display:flex;flex-wrap:wrap;gap:14px 26px;margin:10px 0;font-variant-numeric:tabular-nums}
+.markets .idx{display:inline-flex;gap:8px;align-items:baseline}
+.markets .idx-name{font-weight:600}
+.up{color:var(--up)}.down{color:var(--down)}
+.world li{margin:6px 0}
+.badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;padding:2px 8px;border-radius:999px;margin-right:8px;vertical-align:middle;background:var(--badge-bg);color:var(--badge-ink)}
+.badge-ai{background:var(--badge-ai-bg);color:var(--badge-ai-ink)}
+.badge-science{background:var(--badge-science-bg);color:var(--badge-science-ink)}
+.badge-it{background:var(--badge-it-bg);color:var(--badge-it-ink)}
+.archive li{margin:8px 0;list-style:none}
+.archive ul{padding:0}
+.archive a{color:var(--accent);text-decoration:none;font-size:18px}
+.degraded{color:var(--muted);font-size:14px;font-style:italic;margin:4px 0 0}
+.editions{display:grid;gap:14px;padding:0;margin:18px 0}
+.editions li{list-style:none;border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.editions h3{margin:0 0 4px}
+.editions .meta{color:var(--muted);font-size:14px}
+.editions a{color:var(--accent);text-decoration:none}
+.editions a:hover{text-decoration:underline}
+footer.site{margin-top:60px;border-top:1px solid var(--line);padding-top:14px;
+  color:var(--muted);font-size:14px}
+@media(max-width:480px){body{font-size:17px}.wrap{padding:18px 16px 60px}h1{font-size:23px}}</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+<span class="brand">Briefing du matin</span>
+<nav><a href="../../index.html">Éditions</a><a href="index.html">Aujourd'hui</a><a href="archive.html">Archives</a><button class="theme-toggle" type="button" aria-label="Basculer le thème clair/sombre" title="Thème clair/sombre" onclick="(function(){var d=document.documentElement;var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n);}catch(e){}})();"><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></button></nav>
+</header>
+<h1>Briefing du 25 juin 2026</h1>
+<h2>Météo</h2>
+<div class="weather"><div class="city">
+<div class="name">Genève</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 16.326A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 .5 8.973"/><path d="m13 12-3 5h4l-3 5"/></svg><span class="t">37° / 23°</span></div>
+<div class="c">Orage avec grêle possible &middot; 10 % de précip.</div>
+</div><div class="city">
+<div class="name">Lausanne</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg><span class="t">33° / 23°</span></div>
+<div class="c">Couvert &middot; 3 % de précip.</div>
+</div></div>
+<h2>La Suisse en bref</h2>
+<ul class="world">
+<li>Le Conseil fédéral présente les grandes lignes de sa stratégie de coopération internationale dès 2029, avec un recentrage du développement, des compétences clarifiées entre DDC et SECO et un renforcement de l'aide humanitaire.</li>
+<li>À la Coupe du monde, la Suisse bat le Canada 3-1 et se qualifie pour la suite du tournoi en terminant deuxième de son groupe.</li>
+<li>À Genève, le Conseil d'État nomme Carlo Panico directeur général de l'office des autorisations de construire (OAC) à compter du 1er octobre 2026.</li>
+</ul>
+<h2>Le monde en bref</h2>
+<ul class="world">
+<li>Le directeur général de l'AIEA, Rafael Grossi, affirme que ses inspecteurs visiteront les sites nucléaires iraniens dans le cadre de l'accord intérimaire américano-iranien, tandis que Téhéran conditionne toute visite à un accord final.</li>
+<li>Quatorzième journée de la Coupe du monde 2026 : le Brésil s'impose 3-0 face à l'Écosse et plusieurs sélections, dont la Suisse, bouclent leur phase de groupes.</li>
+<li>Une canicule exceptionnelle frappe l'Europe de l'Ouest, avec des records de température battus en France et des alertes rouges déclenchées au Royaume-Uni et en Espagne pour des dizaines de millions de personnes.</li>
+</ul>
+<h2>Marchés &middot; clôture du 24 juin 2026</h2>
+<div class="markets"><span class="idx"><span class="idx-name">Nasdaq</span> <span class="down">-0.43 %</span></span>
+<span class="idx"><span class="idx-name">Dow Jones</span> <span class="up">+0.35 %</span></span>
+<span class="idx"><span class="idx-name">SMI</span> <span class="up">+0.66 %</span></span>
+<span class="idx"><span class="idx-name">Euro Stoxx 50</span> <span class="down">-0.90 %</span></span></div>
+<p class="lead">Séance contrastée : Wall Street avance en ordre dispersé (Dow en hausse, Nasdaq en repli avant les résultats de Micron) pendant que le SMI progresse et que l&#39;Euro Stoxx 50 recule après ses récents records.</p>
+<h2>Tech · IT, Science &amp; IA</h2>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/" target="_blank" rel="noopener">OpenAI dévoile « Jalapeño », sa première puce d&#39;inférence maison conçue avec Broadcom</a></h3>
+<p>OpenAI a présenté « Jalapeño », son premier processeur d&#39;inférence sur mesure, développé en partenariat avec Broadcom. Pensée pour exécuter des modèles déjà entraînés, la puce vise à réduire les coûts d&#39;exploitation et la dépendance de l&#39;entreprise au matériel de Nvidia. Lors des premiers tests, elle afficherait des performances par watt nettement supérieures, en particulier pour les modèles de codage en temps réel. Cette annonce illustre la course des grands acteurs de l&#39;IA à intégrer leur propre silicium afin de maîtriser leurs infrastructures et leurs marges.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://www.modular.com/blog/qualcomm-to-acquire-modular" target="_blank" rel="noopener">Qualcomm rachète la start-up Modular pour près de 4 milliards de dollars</a></h3>
+<p>Qualcomm a annoncé l&#39;acquisition, en actions, de la start-up logicielle d&#39;IA Modular pour environ 3,9 milliards de dollars. Modular développe le langage Mojo et le moteur d&#39;inférence MAX, une pile logicielle indépendante du matériel permettant d&#39;écrire le code d&#39;IA une seule fois et de l&#39;exécuter sur CPU, GPU, NPU et ASIC sans réécriture. L&#39;opération vise directement CUDA, la plateforme qui verrouille les développeurs dans l&#39;écosystème de Nvidia. La transaction, soumise aux approbations réglementaires, devrait être bouclée au second semestre 2026 et renforce la position de Qualcomm dans l&#39;infrastructure d&#39;IA et les centres de données.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/" target="_blank" rel="noopener">Des chercheurs en IA continuent de quitter Google pour ses rivaux</a></h3>
+<p>Plusieurs chercheurs de premier plan, dont Jonas Adler et Alexander Pritzel, quittent Google pour rejoindre Anthropic, prolongeant une série de départs marquants après ceux de scientifiques de renom. Ce mouvement illustre la guerre des talents qui fait rage dans l&#39;IA, où les laboratoires se disputent à prix d&#39;or les meilleurs profils. Pour Google, ces départs successifs posent la question de sa capacité à retenir ses équipes de recherche alors que la concurrence s&#39;intensifie autour des modèles de pointe.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/" target="_blank" rel="noopener">Meta lance une application compagnon d&#39;IA pour les créateurs de Facebook</a></h3>
+<p>Facebook réinvente son outil Creator Studio sous la forme d&#39;une application autonome dopée à l&#39;IA, destinée à aider les créateurs à développer leur audience sur le réseau social. L&#39;application assistante doit faciliter la gestion des contenus, l&#39;analyse des performances et l&#39;engagement de la communauté. Cette initiative confirme la volonté de Meta d&#39;intégrer l&#39;IA générative au cœur de ses services pour fidéliser les créateurs, un public clé face à la concurrence des autres plateformes.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/" target="_blank" rel="noopener">Figma ajoute des couches de code, des animations et de nouvelles fonctions d&#39;IA</a></h3>
+<p>Figma a présenté une mise à jour majeure de son outil de conception : une nouvelle couche de code, la prise en charge du mouvement et des shaders, ainsi que la possibilité de créer des plug-ins personnalisés à l&#39;aide de l&#39;IA. Ces ajouts rapprochent encore le design et le développement, en permettant aux équipes de prototyper des interactions plus riches et d&#39;automatiser certaines tâches directement dans l&#39;outil. Figma poursuit ainsi sa stratégie d&#39;intégration de l&#39;IA générative pour fluidifier le travail des designers et des développeurs.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://news.microsoft.com/source/2026/06/24/microsofts-new-ai-in-education-report-highlights-widespread-adoption-and-increasing-demand-for-support/" target="_blank" rel="noopener">Microsoft publie son rapport annuel sur l&#39;IA dans l&#39;éducation</a></h3>
+<p>Microsoft a dévoilé la troisième édition de son rapport annuel sur l&#39;IA dans l&#39;éducation, qui met en évidence une adoption désormais largement répandue et une demande croissante d&#39;accompagnement. L&#39;entreprise souligne l&#39;enjeu d&#39;aider les établissements à passer de l&#39;expérimentation à une mise en œuvre concrète et responsable. À l&#39;occasion, Microsoft annonce aussi une nouvelle vague d&#39;expériences pédagogiques assistées par l&#39;IA, proposées sans coût supplémentaire en amont du salon ISTELive 26.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/" target="_blank" rel="noopener">L&#39;IA devait supprimer les postes d&#39;ingénieurs : les données montrent leur résilience</a></h3>
+<p>Alors que les licenciements dans la tech ont atteint en mai leur plus haut niveau mensuel depuis des années, l&#39;IA étant souvent citée comme cause, de nouvelles données nuancent le tableau pour l&#39;ingénierie logicielle. Loin de s&#39;effondrer, l&#39;emploi des développeurs apparaît parmi les plus résilients face à l&#39;automatisation. L&#39;analyse suggère que l&#39;IA transforme le métier davantage qu&#39;elle ne le détruit, en augmentant la productivité tout en maintenant une demande soutenue de compétences techniques.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/" target="_blank" rel="noopener">La pénurie de puces mémoire profite à un fabricant américain</a></h3>
+<p>La grave pénurie de puces mémoire, composant critique pour les modèles d&#39;IA gourmands en calcul, devrait persister jusqu&#39;en 2027. Micron, premier fabricant américain de mémoire informatique, en tire largement parti et voit sa valorisation atteindre des sommets. La tension sur l&#39;offre, alimentée par l&#39;explosion des besoins des centres de données, soutient les prix et redonne du pouvoir de négociation aux producteurs, tout en renchérissant le coût des infrastructures d&#39;IA pour l&#39;ensemble du secteur.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/" target="_blank" rel="noopener">Agility Robotics prévoit son entrée en Bourse via un SPAC à 2,5 milliards de dollars</a></h3>
+<p>Le spécialiste des robots humanoïdes Agility Robotics prévoit de s&#39;introduire en Bourse via une fusion avec le véhicule d&#39;acquisition Churchill Capital Corp XI, dans une opération valorisée à environ 2,5 milliards de dollars et générant plus de 620 millions de dollars de produits. Ce financement doit accélérer le déploiement de ses robots, notamment dans la logistique et l&#39;entreposage. L&#39;opération illustre le regain d&#39;intérêt des marchés pour la robotique humanoïde, portée par les promesses d&#39;automatisation des tâches physiques.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/06/24/slate-autos-radically-simple-electric-truck-starts-at-24950/" target="_blank" rel="noopener">Slate Auto dévoile son pick-up électrique à 24 950 dollars</a></h3>
+<p>La start-up Slate Auto, soutenue par Jeff Bezos, a révélé le prix de départ de son pick-up électrique radicalement simplifié : 24 950 dollars. Le véhicule mise sur une conception épurée et personnalisable pour proposer une électrique abordable, à rebours de la montée en gamme du secteur. Ce positionnement tarifaire agressif vise à élargir l&#39;accès à la mobilité électrique et à se démarquer dans un marché où le coût reste un frein majeur à l&#39;adoption.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/06/24/heres-why-slate-changed-the-battery-in-its-cheap-ev-truck/" target="_blank" rel="noopener">Slate explique pourquoi elle a changé la batterie de son pick-up électrique économique</a></h3>
+<p>Slate Auto détaille les raisons du changement de batterie de son pick-up électrique à bas coût. Le constructeur a revu sa chimie et son architecture pour optimiser le compromis entre prix, autonomie et disponibilité des composants. Ces ajustements, opérés avant le lancement, montrent les arbitrages techniques nécessaires pour tenir un tarif agressif tout en garantissant fiabilité et performance, dans un contexte de tensions sur l&#39;approvisionnement en cellules et en matériaux pour batteries.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260623083104.htm" target="_blank" rel="noopener">Une étude remet en cause une croyance répandue sur la vitamine D et le soleil</a></h3>
+<p>Une étude menée auprès de près de 300 personnes dans le nord de la Grande-Bretagne montre que, dans les groupes les plus à risque, les taux de vitamine D restent faibles toute l&#39;année, y compris en été. Ces résultats nuancent l&#39;idée selon laquelle l&#39;exposition au soleil suffit à garantir un statut adéquat en vitamine D. Les chercheurs soulignent l&#39;intérêt d&#39;un suivi et, le cas échéant, d&#39;une supplémentation ciblée pour les populations vulnérables, plutôt que de compter uniquement sur l&#39;ensoleillement saisonnier.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260623014028.htm" target="_blank" rel="noopener">Les virus de la grippe exploiteraient les « empreintes de mort » des cellules</a></h3>
+<p>En se désagrégeant, les cellules mourantes laissent de minuscules « empreintes de mort » contenant des particules nouvellement découvertes qui aident le système immunitaire à nettoyer les débris. Des chercheurs ont toutefois constaté que les virus de la grippe peuvent détourner ce processus : ils se dissimulent dans ces enveloppes microscopiques et pourraient s&#39;en servir pour se propager vers les cellules voisines. Cette découverte ouvre des pistes pour mieux comprendre la diffusion virale et imaginer de nouvelles stratégies thérapeutiques.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260623083146.htm" target="_blank" rel="noopener">La conscience pourrait émerger sous des formes de vie très différentes</a></h3>
+<p>Les philosophes Eric Schwitzgebel et Jeremy Pober avancent que la conscience pourrait apparaître sous de nombreuses formes de vie, y compris chez des êtres constitués de matériaux radicalement différents de ceux que l&#39;on connaît sur Terre. Leur réflexion élargit le champ des entités potentiellement conscientes au-delà du modèle biologique terrestre, avec des implications pour l&#39;étude de l&#39;esprit, l&#39;astrobiologie et l&#39;éthique de l&#39;intelligence artificielle. Un travail conceptuel qui invite à repenser les critères mêmes de la conscience.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260623083101.htm" target="_blank" rel="noopener">Comment naissent vraiment les reines des abeilles : la découverte des « berceaux royaux »</a></h3>
+<p>Pendant des décennies, on a cru que la gelée royale était l&#39;ingrédient secret transformant une simple larve d&#39;abeille en reine. Une nouvelle étude révèle un processus bien plus complexe : de jeunes ouvrières fabriquent de véritables « berceaux royaux » en cire sur mesure, régulent soigneusement la chaleur et l&#39;humidité, et mobilisent des équipes entières de soigneuses pour élever les futures reines. Ces structures, bien plus que de simples contenants protecteurs, jouent un rôle déterminant dans la fabrication d&#39;une reine.</p>
+</article>
+<footer class="site">Généré automatiquement &middot; Julien Nury</footer>
+</div>
+</body>
+</html>

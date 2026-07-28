@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Briefing du matin — 13 juillet 2026</title>
+<script>(function(){try{var t=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+<style>:root,:root[data-theme="dark"]{--ink:#e7e9ec;--muted:#9aa0aa;--line:#2a2e35;--accent:#6db3f2;--bg:#15171b;
+  --up:#46c46f;--down:#f0635e;
+  --badge-bg:#262a31;--badge-ink:#aab4c2;
+  --badge-ai-bg:#2c2740;--badge-ai-ink:#c4b5f5;
+  --badge-science-bg:#1d3a2c;--badge-science-ink:#7fd6a6;
+  --badge-it-bg:#1f2e47;--badge-it-ink:#8fb6ee}
+:root[data-theme="light"]{--ink:#1a1a1a;--muted:#6b6b6b;--line:#e6e6e6;--accent:#0b5cad;--bg:#ffffff;
+  --up:#0a7a2f;--down:#b3261e;
+  --badge-bg:#eef1f5;--badge-ink:#41506b;
+  --badge-ai-bg:#eae6fb;--badge-ai-ink:#5b3ea8;
+  --badge-science-bg:#e3f3ec;--badge-science-ink:#1f7a4d;
+  --badge-it-bg:#e7eefb;--badge-it-ink:#28508f}
+*{box-sizing:border-box}
+html{color-scheme:dark}
+html[data-theme="light"]{color-scheme:light}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.6;font-size:18px}
+.wrap{max-width:680px;margin:0 auto;padding:24px 20px 80px}
+header.site{display:flex;justify-content:space-between;align-items:baseline;
+  border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:8px;flex-wrap:wrap;gap:8px}
+header.site .date{font-size:15px;color:var(--muted)}
+header.site nav{display:flex;align-items:center}
+header.site nav a{color:var(--accent);text-decoration:none;font-size:15px;margin-left:16px}
+header.site nav a:hover{text-decoration:underline}
+.theme-toggle{margin-left:16px;padding:4px;border:0;background:none;color:var(--muted);cursor:pointer;
+  line-height:0;border-radius:8px;transition:color .15s ease,background .15s ease}
+.theme-toggle:hover{color:var(--accent);background:var(--badge-bg)}
+.theme-toggle svg{width:20px;height:20px;display:block}
+.theme-toggle .icon-sun{display:none}
+.theme-toggle .icon-moon{display:block}
+:root[data-theme="light"] .theme-toggle .icon-sun{display:block}
+:root[data-theme="light"] .theme-toggle .icon-moon{display:none}
+h1{font-size:26px;letter-spacing:-0.01em;margin:18px 0 4px}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);
+  margin:40px 0 12px;font-weight:600}
+h3{font-size:19px;margin:22px 0 4px;line-height:1.35}
+h3 a{color:var(--ink);text-decoration:none}
+h3 a:hover{color:var(--accent)}
+p{margin:8px 0}
+.lead{color:var(--muted);margin-top:0}
+.weather{display:flex;gap:28px;flex-wrap:wrap}
+.weather .city{flex:1 1 200px}
+.weather .city .wx-row{display:flex;align-items:center;gap:10px;margin:4px 0}
+.wx{width:34px;height:34px;color:var(--accent);flex:none}
+.weather .city .t{font-size:22px;font-weight:600}
+.weather .city .c{color:var(--muted)}
+.markets{display:flex;flex-wrap:wrap;gap:14px 26px;margin:10px 0;font-variant-numeric:tabular-nums}
+.markets .idx{display:inline-flex;gap:8px;align-items:baseline}
+.markets .idx-name{font-weight:600}
+.up{color:var(--up)}.down{color:var(--down)}
+.world li{margin:6px 0}
+.badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;padding:2px 8px;border-radius:999px;margin-right:8px;vertical-align:middle;background:var(--badge-bg);color:var(--badge-ink)}
+.badge-ai{background:var(--badge-ai-bg);color:var(--badge-ai-ink)}
+.badge-science{background:var(--badge-science-bg);color:var(--badge-science-ink)}
+.badge-it{background:var(--badge-it-bg);color:var(--badge-it-ink)}
+.archive li{margin:8px 0;list-style:none}
+.archive ul{padding:0}
+.archive a{color:var(--accent);text-decoration:none;font-size:18px}
+.degraded{color:var(--muted);font-size:14px;font-style:italic;margin:4px 0 0}
+.editions{display:grid;gap:14px;padding:0;margin:18px 0}
+.editions li{list-style:none;border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.editions h3{margin:0 0 4px}
+.editions .meta{color:var(--muted);font-size:14px}
+.editions a{color:var(--accent);text-decoration:none}
+.editions a:hover{text-decoration:underline}
+footer.site{margin-top:60px;border-top:1px solid var(--line);padding-top:14px;
+  color:var(--muted);font-size:14px}
+@media(max-width:480px){body{font-size:17px}.wrap{padding:18px 16px 60px}h1{font-size:23px}}</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+<span class="brand">Briefing du matin</span>
+<nav><a href="../../index.html">Éditions</a><a href="index.html">Aujourd'hui</a><a href="archive.html">Archives</a><button class="theme-toggle" type="button" aria-label="Basculer le thème clair/sombre" title="Thème clair/sombre" onclick="(function(){var d=document.documentElement;var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n);}catch(e){}})();"><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></button></nav>
+</header>
+<h1>Briefing du 13 juillet 2026</h1>
+<h2>Météo</h2>
+<div class="weather"><div class="city">
+<div class="name">Genève</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M16 14v6"/><path d="M8 14v6"/><path d="M12 16v6"/></svg><span class="t">37° / 23°</span></div>
+<div class="c">Averses faibles &middot; 3 % de précip.</div>
+</div><div class="city">
+<div class="name">Lausanne</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg><span class="t">33° / 23°</span></div>
+<div class="c">Couvert &middot; 3 % de précip.</div>
+</div></div>
+<h2>La Suisse en bref</h2>
+<ul class="world">
+<li>La Suisse a été éliminée en quart de finale de la Coupe du monde par l'Argentine (3-1 a.p.) à Kansas City, après avoir égalisé par Dan Ndoye puis évolué à dix suite à l'expulsion de Breel Embolo.</li>
+<li>MétéoSuisse a maintenu et étendu son alerte canicule de degré 3 sur le Plateau romand, le bassin lémanique et le Tessin, avec des maximales de 31 à 35 degrés et une vague de chaleur appelée à durer.</li>
+<li>Genève s'apprête à vivre la 20e édition des Aubes musicales, avec 35 concerts gratuits à 6h sur la jetée des Bains des Pâquis, du 13 juillet au 16 août.</li>
+</ul>
+<h2>Le monde en bref</h2>
+<ul class="world">
+<li>L'Iran a lancé des salves de missiles et de drones contre des bases américaines et plusieurs pays du Golfe (Qatar, Émirats, Bahreïn, Koweït) en riposte à des frappes américaines visant environ 140 cibles sur son territoire.</li>
+<li>Les demi-finales de la Coupe du monde sont fixées après des quarts décidés en prolongation: l'Angleterre affrontera l'Argentine à Atlanta et la France jouera contre l'Espagne à Dallas.</li>
+<li>Kiev a de nouveau été visée par des missiles balistiques et des essaims de drones russes, faisant plusieurs blessés et relançant les appels européens à renforcer la défense antiaérienne ukrainienne.</li>
+</ul>
+<h2>Marchés &middot; clôture du vendredi 10 juillet 2026</h2>
+<div class="markets"><span class="idx"><span class="idx-name">Nasdaq</span> <span class="up">+0.29 %</span></span>
+<span class="idx"><span class="idx-name">Dow Jones</span> <span class="up">+0.29 %</span></span>
+<span class="idx"><span class="idx-name">SMI</span> <span class="up">+0.14 %</span></span>
+<span class="idx"><span class="idx-name">Euro Stoxx 50</span> <span class="down">-0.23 %</span></span></div>
+<p class="lead">Wall Street a terminé la semaine en légère hausse et le SMI a grappillé du terrain, tandis que l&#39;Euro Stoxx 50 a fini en repli, pénalisé par la faiblesse du secteur technologique et les tensions au Moyen-Orient.</p>
+<h2>Tech · IT, Science &amp; IA</h2>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/" target="_blank" rel="noopener">OpenAI lève temporairement les limites d&#39;usage de GPT-5.6 Sol</a></h3>
+<p>Face à une demande qui a explosé en 48 heures, OpenAI a temporairement supprimé la limite d&#39;usage de cinq heures pour son modèle le plus puissant, GPT-5.6 Sol, sur les formules Plus, Pro et Business, et a réinitialisé les compteurs d&#39;utilisation de tous les comptes. L&#39;entreprise indique par ailleurs optimiser l&#39;efficacité du modèle afin qu&#39;il consomme moins de jetons pour un même travail. Les tâches locales et les tâches exécutées dans le cloud continuent de partager un quota commun, et des plafonds globaux restent en vigueur : l&#39;accès est fortement élargi, mais pas illimité.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/" target="_blank" rel="noopener">Anthropic prolonge l&#39;accès gratuit à Claude Fable 5 pour ses abonnés payants jusqu&#39;au 19 juillet</a></h3>
+<p>Anthropic prolonge une troisième fois l&#39;accès sans supplément à Claude Fable 5, son modèle le plus capable, pour les abonnés Pro, Max, Team et Enterprise premium, désormais jusqu&#39;au 19 juillet. L&#39;accès reste plafonné à 50% des limites hebdomadaires de l&#39;abonnement, le modèle puisant dans le même réservoir d&#39;usage que les autres versions de Claude ; au-delà, il faut acheter des crédits supplémentaires ou basculer sur un autre modèle. La promotion ne concerne ni les comptes gratuits ni l&#39;API. L&#39;entreprise précise que Fable 5 restera durablement inclus dans les abonnements « lorsqu&#39;il y aura assez de puissance de calcul », signe que la mesure relève avant tout de la gestion de capacité.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/" target="_blank" rel="noopener">« Ghostcommit » : une injection de prompt cachée dans des images piège les agents de revue de code</a></h3>
+<p>Des chercheurs de l&#39;Université du Missouri-Kansas City ont démontré une attaque baptisée Ghostcommit, qui dissimule des instructions malveillantes par stéganographie dans des images PNG jointes à une pull request. Un fichier AGENTS.md oriente l&#39;agent de revue vers l&#39;image ; la charge reste dormante jusqu&#39;à ce qu&#39;un développeur demande une fonctionnalité banale, puis l&#39;agent extrait les secrets des fichiers .env et les encode en constantes entières d&#39;apparence légitime. Les chercheurs relèvent que 73% des pull requests fusionnées n&#39;ont reçu aucune revue humaine substantielle et que des outils comme CodeRabbit excluent les images par défaut. L&#39;attaque a fonctionné avec plusieurs modèles ; Claude Code l&#39;a refusée. Un détecteur multimodal atteint 98,75% de précision.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/" target="_blank" rel="noopener">L&#39;Australie alerte sur une campagne mondiale visant les CMS vulnérables</a></h3>
+<p>Le Centre australien de cybersécurité (ACSC) met en garde contre une campagne d&#39;exploitation de grande ampleur ciblant des systèmes de gestion de contenu non à jour, qui a déjà touché de nombreuses entreprises australiennes. Les attaquants déposent des webshells sur les sites compromis pour interrompre des services, voler des identifiants, installer d&#39;autres logiciels malveillants et progresser dans le réseau. WordPress, Craft CMS, MaxSite CMS, MetInfo et Joomla JCE sont concernés, ainsi que des extensions comme Simple File List, Ninja Forms, WPvivid Backup ou Gravity Forms. L&#39;ACSC recommande d&#39;appliquer les correctifs, de supprimer les composants inutilisés et de surveiller la création de fichiers non autorisés, et note que la campagne pourrait être assistée par IA.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/" target="_blank" rel="noopener">OpenAI mise sur les familles et fait entrer ChatGPT dans le foyer</a></h3>
+<p>OpenAI recrute un chef de produit dédié aux expériences ChatGPT pour les familles, les aidants et les personnes âgées. Selon Sensor Tower, la base d&#39;utilisateurs vieillit : la part des 35 ans et plus est passée de 26% à 31% en un an, et près d&#39;un parent américain sur quatre utilise désormais le service. Le mouvement intervient alors qu&#39;OpenAI fait face à des plaintes de parents et a déjà déployé des contrôles parentaux, un routage des conversations sensibles et une fonction « contact de confiance ». Des experts y voient l&#39;amorce d&#39;une tendance sectorielle : forfaits familiaux, mémoire partagée au sein du foyer, tutorat par IA et garde-fous renforcés sur l&#39;ensemble des plateformes grand public.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/07/12/techcrunch-mobility-a-robotaxi-ultimatum/" target="_blank" rel="noopener">Robotaxis : la NHTSA met les développeurs en demeure après la rupture Waymo-Uber</a></h3>
+<p>L&#39;administrateur de la NHTSA, Jonathan Morrison, a adressé une mise en demeure aux développeurs de véhicules autonomes : l&#39;incapacité à détecter et à réagir correctement aux interventions des services d&#39;urgence constitue une « insuffisance fonctionnelle », et l&#39;agence exige des solutions d&#39;ici la fin du mois. Waymo, premier opérateur de robotaxis aux États-Unis, est particulièrement scruté après plusieurs incidents, dont des véhicules à plat devant être remorqués lors des embouteillages du 4 juillet à San Francisco. Le contexte est celui de la fin du partenariat Waymo-Uber à Phoenix. Côté financement, Rivian a levé 1,32 milliard de dollars pour accélérer la production de son SUV R2.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/" target="_blank" rel="noopener">Even Realities G2 : des lunettes connectées sans caméra qui misent sur la productivité</a></h3>
+<p>Even Realities lance les G2, des lunettes connectées à 599 dollars dépourvues de caméra, qui privilégient la productivité plutôt que l&#39;enregistrement de l&#39;entourage. Pesant 35 grammes, elles embarquent un affichage tête haute monochrome vert, plus lumineux (1200 nits) et plus grand que celui des G1, avec traduction en temps réel, transcription de réunions, bulles de contexte générées par IA et navigation pas à pas ; l&#39;autonomie atteint deux jours avec l&#39;étui rechargeable. Le test relève une connexion au téléphone parfois capricieuse, un assistant vocal en difficulté dans le bruit et des usages quotidiens encore limités. L&#39;entreprise, devenue licorne, doit étoffer ses logiciels maison pour rendre l&#39;objet réellement indispensable.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/" target="_blank" rel="noopener">Reed Jobs (Yosemite) veut soigner le cancer en s&#39;appuyant sur l&#39;IA</a></h3>
+<p>Reed Jobs détaille la stratégie de Yosemite, son fonds de capital-risque consacré à l&#39;oncologie : lancé en 2023, il compte désormais 17 collaborateurs et près de 25 sociétés en portefeuille, avec un second fonds visant 350 millions de dollars. Sa particularité est de créer des entreprises à partir de recherches académiques précoces plutôt que d&#39;investir dans des sociétés existantes. Il décrit une industrie pharmaceutique confrontée au plus grand mur de brevets de son histoire, mais assise sur des liquidités record, ce qui alimente les acquisitions. L&#39;IA est passée du gadget au cœur du travail du fonds : accélération des tâches ingrates de la découverte de médicaments et bras de contrôle synthétiques dans les essais cliniques. Cible privilégiée : la protéine p53.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260710003535.htm" target="_blank" rel="noopener">La protéine tau, associée à Alzheimer, jouerait un rôle clé dans la mémoire durable</a></h3>
+<p>Des chercheurs de l&#39;Université Flinders, avec l&#39;UNSW et Macquarie, montrent chez la souris que la protéine tau, habituellement associée à la maladie d&#39;Alzheimer, possède un rôle physiologique inattendu : elle aide à organiser et à stabiliser les souvenirs pour qu&#39;ils persistent dans le temps. Tau sélectionnerait les neurones chargés de stocker un souvenir et réduirait le bruit de fond neuronal lors de son encodage. Elle n&#39;est pas nécessaire à l&#39;apprentissage immédiat, mais devient déterminante pour la mémoire à long terme. Les formes anormales de tau perturbent à la fois la formation et la récupération des souvenirs, suggérant que les troubles mnésiques d&#39;Alzheimer relèvent d&#39;un défaut d&#39;organisation et d&#39;accès plutôt que d&#39;une simple perte.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260711010120.htm" target="_blank" rel="noopener">Des physiciens reproduisent en laboratoire l&#39;extraction d&#39;énergie d&#39;un trou noir</a></h3>
+<p>Une équipe de l&#39;Advanced Science Research Center du CUNY Graduate Center a reproduit en laboratoire le processus Penrose-Zel&#39;dovitch, théorisé il y a plus de cinquante ans, qui permet d&#39;extraire de l&#39;énergie d&#39;un trou noir en rotation. Plutôt que de faire tourner un objet, les chercheurs ont construit un anneau de résonateurs électroniques dont les propriétés sont modifiées très rapidement selon des motifs synchronisés, créant l&#39;illusion d&#39;une rotation ultrarapide sans aucun mouvement mécanique. Des ondes électromagnétiques dotées de caractéristiques de rotation précises en ont extrait de l&#39;énergie et se sont trouvées amplifiées. Ce dispositif à métamatériaux ouvre des perspectives en communications sans fil, en photonique et pour les technologies quantiques.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260711010127.htm" target="_blank" rel="noopener">Les grands fonds marins nourris par une source de nourriture insoupçonnée</a></h3>
+<p>Des chercheurs de l&#39;Université du Danemark du Sud ont recréé de la « neige marine » à partir de diatomées, dans des cuves rotatives sous pression simulant les grands fonds. Résultat : en descendant, les particules perdent environ 50% de leur carbone et 58 à 63% de leur azote, sous l&#39;effet de la pression hydrostatique qui agit « comme un pressoir géant ». La matière organique dissoute ainsi libérée, essentiellement protéines et sucres, nourrit immédiatement les microbes des profondeurs : les populations bactériennes ont été multipliées par trente en deux jours. Cette découverte modifie la compréhension du cycle du carbone : une part importante resterait en suspension dans les eaux profondes pendant des siècles avant de remonter, plutôt que d&#39;être enfouie dans les sédiments.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260711010122.htm" target="_blank" rel="noopener">Le mystère de la plus grande extinction de masse de la Terre enfin élucidé</a></h3>
+<p>Une équipe de Stanford a mesuré la consommation d&#39;oxygène de divers organismes marins actuels, dont des brachiopodes collectés dans les îles San Juan, à différentes températures. Elle montre que l&#39;extinction Permien-Trias, il y a environ 252 millions d&#39;années, a éliminé quelque 96% des espèces marines parce que les animaux au métabolisme lent n&#39;ont pas pu s&#39;adapter au réchauffement des océans et à la baisse de l&#39;oxygène. Les survivants — poissons, coquillages, gastéropodes, oursins — disposaient d&#39;un métabolisme rapide et d&#39;adaptations (muscles et branchies plus puissants) absentes chez les espèces paléozoïques. Les auteurs soulignent que le rythme actuel du réchauffement dépasse largement celui de l&#39;époque, ce qui rend l&#39;avertissement d&#39;autant plus sérieux.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260712011912.htm" target="_blank" rel="noopener">Le cerveau se recâble pour accomplir réellement plusieurs tâches à la fois</a></h3>
+<p>Des chercheurs du Georgetown University Medical Center ont fait réaliser à des volontaires plus de 30 000 essais de tri d&#39;images sur une application mobile, pendant cinq à dix semaines, avec IRM fonctionnelle et EEG avant et après entraînement. L&#39;entraînement intensif réorganise physiquement les circuits cérébraux : une tâche qui mobilisait d&#39;abord le cortex préfrontal, centre du contrôle conscient, migre vers le cortex temporal. Le cortex préfrontal, ainsi libéré, redevient disponible pour une seconde tâche, permettant un véritable traitement simultané et non un simple va-et-vient entre activités. Selon le chercheur principal Patrick Cox, l&#39;entraînement crée dans le lobe temporal une aire sélective qui n&#39;existait pas auparavant.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260710003521.htm" target="_blank" rel="noopener">Des ultrasons pour stopper l&#39;arthrose avant qu&#39;elle ne s&#39;installe</a></h3>
+<p>Des chercheurs de l&#39;Université d&#39;Alabama à Huntsville montrent que des ultrasons continus de faible intensité pourraient prévenir l&#39;arthrose post-traumatique en modifiant le comportement des cellules immunitaires. En exposant des macrophages à des fragments de fibronectine, pour simuler les conditions d&#39;une articulation lésée, puis en analysant la transcriptomique et des modèles computationnels, ils ont observé une baisse des marqueurs inflammatoires et une hausse des marqueurs associés à la réparation tissulaire. Orienter les macrophages vers un état de type M2 réduirait l&#39;inflammation chronique tout en favorisant la cicatrisation. Cette approche non invasive et sans médicament pourrait aider les articulations blessées à guérir au lieu d&#39;évoluer vers une arthrose.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260711010131.htm" target="_blank" rel="noopener">Un lien inattendu entre la sérotonine et la dégénérescence de la valve mitrale</a></h3>
+<p>Une étude multicentrique menée par le Columbia University Irving Medical Center, avec le Children&#39;s Hospital of Philadelphia et l&#39;Université de Pennsylvanie, a croisé les données cliniques de plus de 9000 patients opérés de la valve mitrale, une centaine de biopsies de valves, des souris transgéniques et des cellules valvulaires humaines. Une activité réduite du transporteur de la sérotonine accélérerait la dégénérescence chez les personnes déjà atteintes. Les patients souffrant d&#39;insuffisance mitrale dégénérative, traités par antidépresseurs ISRS et porteurs du variant génétique « long-long » du 5-HTTLPR, ont été opérés plus jeunes. Les valves saines ne semblent pas affectées. Le récepteur HTR2B se dessine comme cible thérapeutique potentielle.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260710003511.htm" target="_blank" rel="noopener">Pourquoi l&#39;or ne se ternit jamais : l&#39;explication atomique</a></h3>
+<p>Des chercheurs de l&#39;Université Tulane ont simulé par ordinateur le comportement des atomes et des électrons à la surface de l&#39;or, en étudiant l&#39;interaction de molécules d&#39;oxygène avec deux types de surfaces courantes. Ils montrent que les atomes de surface se réarrangent spontanément selon des motifs protecteurs qui rendent la réaction avec l&#39;oxygène extrêmement difficile : ces réagencements réduisent la réactivité d&#39;un facteur d&#39;un milliard à mille milliards, formant une barrière protectrice à l&#39;échelle atomique. Au-delà de l&#39;éclat durable des bijoux, la découverte pourrait aider à concevoir de meilleurs catalyseurs à base d&#39;or pour l&#39;industrie et les énergies propres — à condition, comme le résume un chercheur, de « piéger » l&#39;or pour qu&#39;il dissocie l&#39;oxygène.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260710003529.htm" target="_blank" rel="noopener">Yale identifie comment la maladie de Parkinson se propage dans le cerveau</a></h3>
+<p>Des chercheurs de la Yale School of Medicine ont criblé 4400 groupes de cellules modifiées portant différentes protéines de surface afin d&#39;identifier celles qui se lient à l&#39;alpha-synucléine mal repliée, protéine centrale de la maladie de Parkinson. Deux protéines neuronales de surface, mGluR4 et NPDC1, agissent comme des transporteurs facilitant la propagation de l&#39;alpha-synucléine d&#39;une cellule cérébrale à l&#39;autre. Des souris génétiquement privées de ces protéines, puis exposées à la protéine toxique, ont montré une progression nettement ralentie de la maladie et une préservation des neurones dopaminergiques. Le responsable de l&#39;étude, Stephen Strittmatter, y voit une cible thérapeutique permettant d&#39;espérer freiner la maladie plutôt que d&#39;en traiter seulement les symptômes.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260711010116.htm" target="_blank" rel="noopener">Un médicament expérimental inverse la stéatohépatite en réparant l&#39;intestin</a></h3>
+<p>Des chercheurs de Michigan Medicine (Université du Michigan) ont testé le DT-109, un tripeptide dérivé de la glycine, sur des modèles animaux, souris et primates non humains, atteints de forme sévère de maladie du foie gras. Le composé inverse la stéatohépatite associée à un dysfonctionnement métabolique (MASH) en réparant la barrière intestinale : il réduit les populations de Clostridium perfringens et la production d&#39;ammoniac, empêchant les toxines de passer dans la circulation sanguine et de déclencher l&#39;inflammation hépatique. Selon Eugene Chen, le DT-109 protège l&#39;épithélium intestinal et limite l&#39;afflux systémique de produits microbiens nocifs. Cette approche par l&#39;intestin ouvre une piste de traitement pour une maladie qui touche environ 7% de la population mondiale et reste sans thérapie efficace.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/07/260710003540.htm" target="_blank" rel="noopener">Les mantes asiatiques invasives menacent la faune européenne</a></h3>
+<p>Une étude publiée dans le Journal of Orthoptera Research, menée par Roberto Battiston, classe officiellement deux mantes asiatiques, Hierodula tenuidentata et Hierodula patellifera, parmi les espèces exotiques envahissantes en Europe. Chaque oothèque libère environ 200 jeunes, presque le double de la mante européenne, ce qui permet une croissance rapide des populations. Ces prédatrices s&#39;attaquent à des pollinisateurs comme les abeilles, mais aussi à de petits vertébrés (rainettes, lézards). Les milieux urbains les favorisent, notamment via les hôtels à insectes et les îlots de chaleur qui allongent leur saison d&#39;activité. Surprise de l&#39;étude : les chats domestiques sont leur principal prédateur vertébré (45% des cas observés). Plus de 2300 signalements citoyens alimentent la surveillance.</p>
+</article>
+<footer class="site">Généré automatiquement &middot; Julien Nury</footer>
+</div>
+</body>
+</html>

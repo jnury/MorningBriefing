@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Briefing du matin — 16 juin 2026</title>
+<script>(function(){try{var t=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',t==='light'?'light':'dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+<style>:root,:root[data-theme="dark"]{--ink:#e7e9ec;--muted:#9aa0aa;--line:#2a2e35;--accent:#6db3f2;--bg:#15171b;
+  --up:#46c46f;--down:#f0635e;
+  --badge-bg:#262a31;--badge-ink:#aab4c2;
+  --badge-ai-bg:#2c2740;--badge-ai-ink:#c4b5f5;
+  --badge-science-bg:#1d3a2c;--badge-science-ink:#7fd6a6;
+  --badge-it-bg:#1f2e47;--badge-it-ink:#8fb6ee}
+:root[data-theme="light"]{--ink:#1a1a1a;--muted:#6b6b6b;--line:#e6e6e6;--accent:#0b5cad;--bg:#ffffff;
+  --up:#0a7a2f;--down:#b3261e;
+  --badge-bg:#eef1f5;--badge-ink:#41506b;
+  --badge-ai-bg:#eae6fb;--badge-ai-ink:#5b3ea8;
+  --badge-science-bg:#e3f3ec;--badge-science-ink:#1f7a4d;
+  --badge-it-bg:#e7eefb;--badge-it-ink:#28508f}
+*{box-sizing:border-box}
+html{color-scheme:dark}
+html[data-theme="light"]{color-scheme:light}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.6;font-size:18px}
+.wrap{max-width:680px;margin:0 auto;padding:24px 20px 80px}
+header.site{display:flex;justify-content:space-between;align-items:baseline;
+  border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:8px;flex-wrap:wrap;gap:8px}
+header.site .date{font-size:15px;color:var(--muted)}
+header.site nav{display:flex;align-items:center}
+header.site nav a{color:var(--accent);text-decoration:none;font-size:15px;margin-left:16px}
+header.site nav a:hover{text-decoration:underline}
+.theme-toggle{margin-left:16px;padding:4px;border:0;background:none;color:var(--muted);cursor:pointer;
+  line-height:0;border-radius:8px;transition:color .15s ease,background .15s ease}
+.theme-toggle:hover{color:var(--accent);background:var(--badge-bg)}
+.theme-toggle svg{width:20px;height:20px;display:block}
+.theme-toggle .icon-sun{display:none}
+.theme-toggle .icon-moon{display:block}
+:root[data-theme="light"] .theme-toggle .icon-sun{display:block}
+:root[data-theme="light"] .theme-toggle .icon-moon{display:none}
+h1{font-size:26px;letter-spacing:-0.01em;margin:18px 0 4px}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);
+  margin:40px 0 12px;font-weight:600}
+h3{font-size:19px;margin:22px 0 4px;line-height:1.35}
+h3 a{color:var(--ink);text-decoration:none}
+h3 a:hover{color:var(--accent)}
+p{margin:8px 0}
+.lead{color:var(--muted);margin-top:0}
+.weather{display:flex;gap:28px;flex-wrap:wrap}
+.weather .city{flex:1 1 200px}
+.weather .city .wx-row{display:flex;align-items:center;gap:10px;margin:4px 0}
+.wx{width:34px;height:34px;color:var(--accent);flex:none}
+.weather .city .t{font-size:22px;font-weight:600}
+.weather .city .c{color:var(--muted)}
+.markets{display:flex;flex-wrap:wrap;gap:14px 26px;margin:10px 0;font-variant-numeric:tabular-nums}
+.markets .idx{display:inline-flex;gap:8px;align-items:baseline}
+.markets .idx-name{font-weight:600}
+.up{color:var(--up)}.down{color:var(--down)}
+.world li{margin:6px 0}
+.badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;padding:2px 8px;border-radius:999px;margin-right:8px;vertical-align:middle;background:var(--badge-bg);color:var(--badge-ink)}
+.badge-ai{background:var(--badge-ai-bg);color:var(--badge-ai-ink)}
+.badge-science{background:var(--badge-science-bg);color:var(--badge-science-ink)}
+.badge-it{background:var(--badge-it-bg);color:var(--badge-it-ink)}
+.archive li{margin:8px 0;list-style:none}
+.archive ul{padding:0}
+.archive a{color:var(--accent);text-decoration:none;font-size:18px}
+.degraded{color:var(--muted);font-size:14px;font-style:italic;margin:4px 0 0}
+.editions{display:grid;gap:14px;padding:0;margin:18px 0}
+.editions li{list-style:none;border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.editions h3{margin:0 0 4px}
+.editions .meta{color:var(--muted);font-size:14px}
+.editions a{color:var(--accent);text-decoration:none}
+.editions a:hover{text-decoration:underline}
+footer.site{margin-top:60px;border-top:1px solid var(--line);padding-top:14px;
+  color:var(--muted);font-size:14px}
+@media(max-width:480px){body{font-size:17px}.wrap{padding:18px 16px 60px}h1{font-size:23px}}</style>
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+<span class="brand">Briefing du matin</span>
+<nav><a href="../../index.html">Éditions</a><a href="index.html">Aujourd'hui</a><a href="archive.html">Archives</a><button class="theme-toggle" type="button" aria-label="Basculer le thème clair/sombre" title="Thème clair/sombre" onclick="(function(){var d=document.documentElement;var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n);}catch(e){}})();"><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></button></nav>
+</header>
+<h1>Briefing du 16 juin 2026</h1>
+<h2>Météo</h2>
+<div class="weather"><div class="city">
+<div class="name">Genève</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg><span class="t">30° / 16°</span></div>
+<div class="c">Couvert &middot; 0 % de précip.</div>
+</div><div class="city">
+<div class="name">Lausanne</div>
+<div class="wx-row"><svg class="wx" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M16 14v6"/><path d="M8 14v6"/><path d="M12 16v6"/></svg><span class="t">27° / 17°</span></div>
+<div class="c">Pluie faible &middot; 0 % de précip.</div>
+</div></div>
+<h2>La Suisse en bref</h2>
+<ul class="world">
+<li>Le Conseil des États a levé son opposition, ouvrant la voie au congé parental de 24 semaines à Genève, qui deviendrait le premier canton à franchir ce cap, avec une entrée en vigueur espérée en janvier 2027.</li>
+<li>Genève a accueilli six chefs d'État et de gouvernement du G7 avant leur déplacement au sommet d'Évian, un dispositif dont le président de la Confédération Guy Parmelin s'est dit fier.</li>
+</ul>
+<h2>Le monde en bref</h2>
+<ul class="world">
+<li>Les États-Unis et l'Iran ont finalisé un accord destiné à mettre fin à la guerre et à rouvrir le détroit d'Ormuz, Donald Trump et JD Vance ayant signé virtuellement le texte qui ouvre 60 jours de négociations nucléaires.</li>
+<li>La Coupe du monde de football 2026 a battu son plein à travers les villes hôtes américaines, avec notamment un match nul arraché par le Japon face à la Suède.</li>
+<li>Le Royaume-Uni a annoncé de nouvelles restrictions d'accès aux grandes plateformes sociales pour les mineurs, rejoignant un mouvement mondial de renforcement de la sécurité des enfants en ligne.</li>
+</ul>
+<h2>Marchés &middot; clôture du 15 juin 2026</h2>
+<div class="markets"><span class="idx"><span class="idx-name">Nasdaq</span> <span class="up">+3.07 %</span></span>
+<span class="idx"><span class="idx-name">Dow Jones</span> <span class="up">+0.92 %</span></span>
+<span class="idx"><span class="idx-name">SMI</span> <span class="up">+0.07 %</span></span>
+<span class="idx"><span class="idx-name">Euro Stoxx 50</span> <span class="up">+0.82 %</span></span></div>
+<p class="lead">Les marchés ont nettement progressé, portés par l&#39;annonce d&#39;un accord entre Washington et Téhéran et le repli des cours du pétrole, les indices américains menant la hausse tandis que l&#39;Europe avançait plus modestement.</p>
+<h2>Tech · IT, Science &amp; IA</h2>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/" target="_blank" rel="noopener">Salesforce rachète la plateforme d&#39;IA de service client Fin pour 3,6 milliards de dollars</a></h3>
+<p>Salesforce a annoncé l&#39;acquisition de Fin, plateforme d&#39;agents IA de service client (anciennement Intercom), pour 3,6 milliards de dollars. Selon le PDG Marc Benioff, l&#39;opération doit renforcer Agentforce, l&#39;offre d&#39;agents IA d&#39;entreprise du groupe. Fin résout des requêtes clients sur de multiples canaux : chat en direct, WhatsApp, SMS, appels téléphoniques et Slack. La transaction devrait se clôturer au quatrième trimestre de l&#39;exercice fiscal 2027 de Salesforce.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/06/15/fox-to-acquire-roku-in-22-billion-deal/" target="_blank" rel="noopener">Fox rachète Roku dans une opération évaluée à 22 milliards de dollars</a></h3>
+<p>Fox a confirmé le rachat de la plateforme de streaming Roku pour environ 22 milliards de dollars, en titres et en liquidités. La fusion créerait le troisième plus grand groupe de télévision américain, réunissant les chaînes d&#39;information et de sport de Fox, sa plateforme Tubi et la technologie de télévision connectée de Roku, présente dans 100 millions de foyers. C&#39;est l&#39;une des plus grandes acquisitions médias depuis des années. La transaction est attendue au premier semestre 2027.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://techcrunch.com/2026/06/15/a-satellite-just-learned-to-find-things-on-its-own-heres-what-that-means/" target="_blank" rel="noopener">Un satellite a appris à repérer des cibles de manière autonome grâce à un modèle de vision-langage</a></h3>
+<p>En avril 2026, le satellite YAM-9 de Loft Orbital a utilisé le modèle de vision-langage Gemma 3 de Google DeepMind pour identifier seul des zones d&#39;intérêt, première utilisation rapportée d&#39;une telle IA en orbite. L&#39;avancée pourrait transformer l&#39;observation de la Terre en réduisant le volume de données brutes transmises au sol et en ouvrant la voie à une surveillance continue, le traitement s&#39;effectuant directement à bord plutôt que via des analystes humains.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/" target="_blank" rel="noopener">NewCore sort de l&#39;ombre avec 66 millions de dollars pour donner une identité aux agents IA</a></h3>
+<p>La start-up de cybersécurité NewCore est sortie de la furtivité avec 66 millions de dollars de financement. Elle entend répondre à un défi que beaucoup d&#39;entreprises rencontreront en déployant des agents IA : comment authentifier, gouverner et contrôler à grande échelle ces agents qui agissent de plus en plus comme des collaborateurs. L&#39;enjeu est d&#39;attribuer une identité vérifiable à chaque agent pour encadrer ses droits et ses actions.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/" target="_blank" rel="noopener">Meta lance un « mode IA » sur Facebook qui exploite les informations publiques de ses plateformes</a></h3>
+<p>Meta a déployé un nouveau « mode IA » sur Facebook, capable de puiser dans les informations publiques disponibles à travers ses différentes plateformes pour générer des réponses et des recommandations personnalisées. La fonctionnalité illustre l&#39;intégration croissante de l&#39;IA générative dans les réseaux sociaux du groupe, tout en relançant les questions sur l&#39;usage des données publiques des utilisateurs.</p>
+</article>
+<article>
+<h3><span class="badge badge-ai">AI</span> <a href="https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/" target="_blank" rel="noopener">Sarvam devient la nouvelle licorne de l&#39;IA en Inde avec une levée de 234 millions de dollars</a></h3>
+<p>La start-up indienne Sarvam est devenue la dernière licorne de l&#39;IA du pays après une levée de fonds de 234 millions de dollars menée par HCLTech. Spécialisée dans les modèles de langue adaptés aux langues et aux usages indiens, l&#39;entreprise illustre la montée en puissance de l&#39;écosystème local de l&#39;intelligence artificielle et l&#39;intérêt des grands groupes technologiques pour les modèles souverains.</p>
+</article>
+<article>
+<h3><span class="badge badge-it">IT</span> <a href="https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/" target="_blank" rel="noopener">Des experts en cybersécurité dénoncent l&#39;interdiction par Washington des modèles les plus puissants d&#39;Anthropic</a></h3>
+<p>Des vétérans de la cybersécurité ont protesté contre la décision du gouvernement américain d&#39;interdire l&#39;usage des modèles d&#39;IA les plus puissants d&#39;Anthropic, qualifiant la mesure de « dangereuse ». Selon eux, ces outils sont devenus essentiels à la défense informatique et leur interdiction priverait les équipes de sécurité de capacités d&#39;analyse précieuses. Le débat illustre les tensions entre régulation de l&#39;IA et besoins opérationnels.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260615033841.htm" target="_blank" rel="noopener">Une étude explore la possible transmission inter-espèces de la maladie du dépérissement chronique</a></h3>
+<p>De nouveaux travaux montrent que la maladie du dépérissement chronique (chronic wasting disease) peut se propager silencieusement, des prions infectieux étant présents même chez des animaux ne présentant aucun symptôme. Les chercheurs explorent le risque d&#39;une transmission à d&#39;autres espèces, ce qui pose la question de la surveillance des populations de cervidés et de possibles barrières d&#39;espèce encore mal comprises.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260615033846.htm" target="_blank" rel="noopener">Des chercheurs découvrent une faille des « polluants éternels »</a></h3>
+<p>Des scientifiques ont identifié une faiblesse inattendue des PFAS, ces « polluants éternels » réputés indestructibles. Sous une lumière ultraviolette intense, des radicaux d&#39;hydrogène parviennent à briser les liaisons chimiques très stables de ces composés. La découverte ouvre des pistes pour des méthodes de dégradation et de dépollution plus efficaces de substances aujourd&#39;hui omniprésentes dans l&#39;eau et l&#39;environnement.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260615033851.htm" target="_blank" rel="noopener">Des messages extraterrestres pourraient avoir atteint la Terre sans que nous les remarquions</a></h3>
+<p>Une recherche en SETI suggère que d&#39;éventuels signaux extraterrestres pourraient nous parvenir brouillés par les étoiles situées sur leur trajet, qui dégraderaient ou déformeraient l&#39;information. Selon les chercheurs, cela impliquerait de revoir les stratégies de détection et d&#39;analyse des signaux, certains messages potentiels ayant pu passer inaperçus avec les méthodes actuelles.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260615033849.htm" target="_blank" rel="noopener">Un matériau étrange peut devenir solide ou se désagréger en quelques secondes</a></h3>
+<p>Des chercheurs ont montré que des particules en forme d&#39;agrafes peuvent s&#39;enchevêtrer pour former un matériau à la fois solide et flexible. Contrairement aux matériaux classiques, ces particules peuvent être verrouillées en une structure rigide puis rapidement défaites par de simples vibrations. Cette réversibilité ouvre des perspectives pour des matériaux reconfigurables, par exemple dans la construction temporaire ou la robotique.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260614011854.htm" target="_blank" rel="noopener">En transformant une laitue rouge en laitue verte, des chercheurs font une découverte surprenante</a></h3>
+<p>À l&#39;aide de l&#39;édition du génome, des chercheurs ont bloqué la production des pigments rouges de la laitue. De façon inattendue, l&#39;absence de ces pigments a entraîné l&#39;accumulation d&#39;autres composés bénéfiques pour la plante. Le résultat illustre comment la modification d&#39;une seule voie métabolique peut rediriger les ressources de la plante et améliorer sa valeur nutritionnelle.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260614011848.htm" target="_blank" rel="noopener">Des physiciens d&#39;Oxford créent un nouvel état quantique « chat de Schrödinger »</a></h3>
+<p>Des physiciens de l&#39;Université d&#39;Oxford ont créé un nouveau type d&#39;état quantique de type « chat de Schrödinger », assemblé à partir de composantes elles-mêmes hautement quantiques. Cette superposition d&#39;états inédite enrichit la compréhension des systèmes quantiques complexes et pourrait nourrir les recherches sur l&#39;information et le calcul quantiques, où la maîtrise de tels états est cruciale.</p>
+</article>
+<article>
+<h3><span class="badge badge-science">Science</span> <a href="https://www.sciencedaily.com/releases/2026/06/260614011845.htm" target="_blank" rel="noopener">Sous nos pieds s&#39;étend une « autoroute fongique » cartographiée pour la première fois</a></h3>
+<p>Des scientifiques ont cartographié pour la première fois le vaste réseau souterrain de champignons mycorhiziens qui relie les racines des plantes et soutient une grande partie de la vie sur Terre. Cette « autoroute fongique » s&#39;étend sur des distances vertigineuses et joue un rôle clé dans le stockage du carbone et la santé des écosystèmes, ce qui en fait un enjeu majeur pour la protection des sols.</p>
+</article>
+<footer class="site">Généré automatiquement &middot; Julien Nury</footer>
+</div>
+</body>
+</html>
