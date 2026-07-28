@@ -1,9 +1,11 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtempSync, mkdirSync, writeFileSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, writeFileSync, existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { parseArgs, resolveEditions, loadBucketsFromDisk, parseGhActiveUser } from '../generate.mjs';
+import {
+  parseArgs, resolveEditions, loadBucketsFromDisk, parseGhActiveUser, recordCostsAndPublish,
+} from '../generate.mjs';
 import { composeEdition } from '../lib/compose.mjs';
 
 test('defaults: full run, push enabled, every edition', () => {
@@ -137,3 +139,56 @@ test('a malformed on-disk bucket degrades composeEdition to a skipped section ra
   });
   assert.deepEqual(data.sections, []);
 });
+
+// This is the Critical review finding: recordCosts (mkdirSync/appendFileSync
+// against logs/) used to run unguarded between "editions composed" and
+// "editions published", inside main()'s outer try/catch -- an I/O failure
+// there discarded every edition already composed and valid, before any of
+// them got the chance to publish. Reproduced the way the reviewer reproduced
+// the original bug: logs/ is a *file*, so mkdirSync throws EEXIST -- a real
+// filesystem condition, not a stubbed-out recordCosts.
+test('recordCostsAndPublish still publishes composed editions when cost recording fails', async () => {
+  const root = tmpRoot();
+  writeFileSync(join(root, 'logs'), 'not a directory');
+
+  const topics = { weather: { id: 'weather', kind: 'provider', label: 'Météo' } };
+  const edition = { id: 'main', title: 'Briefing', sections: [
+    { topic: 'weather', params: { cities: [{ name: 'Genève' }] } },
+  ] };
+  // Built through the real composeEdition (provider kind, so no runClaude/
+  // network involved) rather than hand-assembled, so this is a genuinely
+  // valid composed edition -- the same shape recordCostsAndPublish sees from
+  // main().
+  const data = await composeEdition(edition, {
+    root, date: DATE, topics, template: 'x',
+    bucketResults: new Map([['weather', { ok: true, data: WEATHER_BUCKET() }]]),
+    now: () => 'x', log: () => {},
+  });
+
+  // log() itself is what's broken here (same logs/ path), so the error
+  // cannot land in generate.log -- it can only reach the console fallback.
+  const consoleErrors = [];
+  const originalConsoleError = console.error;
+  console.error = (msg) => consoleErrors.push(msg);
+  let published;
+  try {
+    published = recordCostsAndPublish({
+      composed: [data], config: { topics }, date: DATE,
+      buckets: [], bucketResults: new Map(), selections: [],
+      stageDurations: { collectMs: 1, composeMs: 1 }, root,
+    });
+  } finally {
+    console.error = originalConsoleError;
+  }
+
+  assert.equal(published, 1);
+  assert.ok(existsSync(join(root, 'docs', 'e', 'main', 'data', `${DATE}.json`)));
+  assert.ok(consoleErrors.some((m) => /co(û|u)t\/usage a échoué/.test(m)));
+});
+
+function WEATHER_BUCKET() {
+  return {
+    bucketId: 'weather', date: DATE, collectedAt: 'x',
+    cities: [{ name: 'Genève', high: 24, low: 13, condition: 'Ensoleillé', weathercode: 0, precipProbability: 10 }],
+  };
+}

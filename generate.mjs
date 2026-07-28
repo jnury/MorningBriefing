@@ -44,33 +44,79 @@ export function resolveEditions(configEditions, editionIds) {
   return configEditions.filter((e) => editionIds.includes(e.id));
 }
 
-function log(line) {
-  const dir = join(ROOT, 'logs');
-  mkdirSync(dir, { recursive: true });
-  appendFileSync(join(dir, 'generate.log'), `${new Date().toISOString()} ${line}\n`);
+// Never throws: this is called from everywhere, including the publish loop
+// itself, so a broken logs/ (unwritable dir, a stray file sitting where the
+// directory should be, disk full) must degrade to a console line rather than
+// take the run down -- logging must never be able to break what it is only
+// supposed to be describing.
+function log(line, root = ROOT) {
+  try {
+    const dir = join(root, 'logs');
+    mkdirSync(dir, { recursive: true });
+    appendFileSync(join(dir, 'generate.log'), `${new Date().toISOString()} ${line}\n`);
+  } catch (err) {
+    console.error(`ERREUR: écriture du journal impossible (${err.message}) : ${line}`);
+    return;
+  }
   console.log(line);
 }
 
 // Turns this run's bucket/selection outcomes into the human log lines and the
-// costs.jsonl record. Kept separate from the collect/compose calls above so a
-// broken cost line can never be the thing that stops a briefing from
-// publishing — everything here is best-effort logging of work already done.
-function recordCosts({ date, bucketResults, topics, selections, stageDurations }) {
-  const buckets = [...bucketResults].map(([id, r]) => ({
-    id, kind: topics[id]?.kind ?? null, ok: r.ok, usage: r.usage ?? emptyUsage(), durationMs: r.durationMs ?? null,
+// costs.jsonl record. This function does NOT protect itself — mkdirSync/
+// appendFileSync can throw (unwritable logs/, disk full, a permissions
+// problem) — so it is only ever safe to call from inside the try/catch in
+// recordCostsAndPublish below. `buckets` (the planned bucket list, not the
+// topic config) supplies `kind` and `consumers` per id, so each bucket entry
+// records every edition that shares it — a shared bucket's cost otherwise has
+// no way to be attributed to the editions it served.
+export function recordCosts({ date, buckets, bucketResults, selections, stageDurations }, root = ROOT) {
+  const planned = new Map(buckets.map((b) => [b.id, b]));
+  const bucketEntries = [...bucketResults].map(([id, r]) => ({
+    id,
+    kind: planned.get(id)?.kind ?? null,
+    consumers: planned.get(id)?.consumers ?? [],
+    ok: r.ok,
+    usage: r.usage ?? emptyUsage(),
+    durationMs: r.durationMs ?? null,
   }));
 
-  for (const b of buckets) log(bucketCostLine(b));
-  for (const s of selections) log(selectionCostLine(s));
+  for (const b of bucketEntries) log(bucketCostLine(b), root);
+  for (const s of selections) log(selectionCostLine(s), root);
 
   const record = buildCostRecord({
-    date, timestamp: new Date().toISOString(), buckets, selections, stageDurations,
+    date, timestamp: new Date().toISOString(), buckets: bucketEntries, selections, stageDurations,
   });
-  log(totalsLine(date, record.totals, stageDurations));
+  log(totalsLine(date, record.totals, stageDurations), root);
 
-  const dir = join(ROOT, 'logs');
+  const dir = join(root, 'logs');
   mkdirSync(dir, { recursive: true });
   appendFileSync(join(dir, 'costs.jsonl'), `${JSON.stringify(record)}\n`);
+}
+
+// The boundary that actually delivers the "cost logging can never stop a
+// briefing" guarantee: recordCosts is wrapped so any failure inside it — I/O
+// or otherwise — is logged and swallowed here rather than reaching main()'s
+// outer catch, which would abandon every edition already composed before a
+// single one got the chance to publish. Only a publish-time failure
+// (validation, site write) may suppress a publish after this point.
+export function recordCostsAndPublish({
+  composed, config, date, buckets, bucketResults, selections, stageDurations, root = ROOT,
+}) {
+  try {
+    recordCosts({ date, buckets, bucketResults, selections, stageDurations }, root);
+  } catch (err) {
+    log(`ERREUR: enregistrement du coût/usage a échoué (ignoré) : ${err.message}`, root);
+  }
+
+  let published = 0;
+  for (const data of composed) {
+    const { valid, errors } = validateEditionData(data, config);
+    if (!valid) { log(`édition ${data.edition}: NON PUBLIÉE — ${errors.join(' | ')}`, root); continue; }
+    writeEditionPages(root, data);
+    log(`édition ${data.edition}: publiée (${data.sections.length} section(s))`, root);
+    published++;
+  }
+  return published;
 }
 
 // The repo is published under an account whose write access lives in a separate
@@ -220,19 +266,10 @@ async function main() {
       })));
       const composeMs = Date.now() - composeStart;
 
-      recordCosts({
-        date, bucketResults, topics: config.topics, selections,
+      const published = recordCostsAndPublish({
+        composed, config, date, buckets, bucketResults, selections,
         stageDurations: { collectMs, composeMs },
       });
-
-      let published = 0;
-      for (const data of composed) {
-        const { valid, errors } = validateEditionData(data, config);
-        if (!valid) { log(`édition ${data.edition}: NON PUBLIÉE — ${errors.join(' | ')}`); continue; }
-        writeEditionPages(ROOT, data);
-        log(`édition ${data.edition}: publiée (${data.sections.length} section(s))`);
-        published++;
-      }
       // Some editions failing while others publish is a partial success — the whole
       // point of per-edition isolation. But nothing published is a failed run: an
       // unattended job that reports OK on a morning with an empty site is worse

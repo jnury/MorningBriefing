@@ -259,6 +259,21 @@ test('composeEdition works without a recordSelection callback (optional, does no
   assert.equal(data.sections.length, 1);
 });
 
+// composeEdition calls are run concurrently across editions (Promise.all in
+// generate.mjs), so a throwing recordSelection must be contained to the
+// section it was called for — an unguarded callback would take down every
+// other edition's compose along with it, defeating the per-section isolation
+// this module maintains everywhere else.
+test('a throwing recordSelection does not break composeEdition or drop the section', async () => {
+  const edition = { id: 'main', title: 'B', sections: [{ topic: 'tech', max: 2 }] };
+  const data = await composeEdition(edition, ctx(tmpRoot(), {
+    recordSelection: () => { throw new Error('logging boom'); },
+  }));
+  assert.equal(data.sections.length, 1);
+  assert.deepEqual(data.sections[0].items.map((i) => i.title), ['t3', 't1']);
+  assert.ok(!data.sections[0].degraded);
+});
+
 test('a provider section is omitted when none of its cities match the bucket, other sections still publish', async () => {
   const logs = [];
   const edition = { id: 'main', title: 'B', sections: [

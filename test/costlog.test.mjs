@@ -25,6 +25,11 @@ test('bucketCostLine shows ÉCHEC and n/d for a failed bucket with no usage', ()
   assert.match(line, /n\/d/);
 });
 
+test('bucketCostLine tolerates a missing usage field entirely rather than throwing', () => {
+  const line = bucketCostLine({ id: 'tech', ok: true, durationMs: 100 });
+  assert.match(line, /n\/d/);
+});
+
 test('selectionCostLine identifies the edition and topic', () => {
   const line = selectionCostLine({
     edition: 'main', topic: 'tech', ok: true, durationMs: 3100,
@@ -74,4 +79,18 @@ test('buildCostRecord totals stay null when nothing reported any usage', () => {
   const buckets = [{ id: 'weather', kind: 'provider', ok: true, durationMs: 50, usage: emptyUsage() }];
   const record = buildCostRecord({ date: '2026-07-28', timestamp: 'x', buckets, selections: [], stageDurations: {} });
   assert.equal(record.totals.costUsd, null);
+});
+
+// The attribution gap: a bucket shared by two editions (e.g. the markets
+// dataset bucket, which does make a real claude call at collection) must
+// show which editions consumed it, since its cost is a single shared cost
+// that cannot be meaningfully split per edition.
+test('buildCostRecord carries consumers on each bucket entry, defaulting to empty when absent', () => {
+  const buckets = [
+    { id: 'markets', kind: 'dataset', ok: true, durationMs: 500, consumers: ['main', 'carlos'], usage: usage({ costUsd: 0.05 }) },
+    { id: 'weather', kind: 'provider', ok: true, durationMs: 50, usage: emptyUsage() },
+  ];
+  const record = buildCostRecord({ date: '2026-07-28', timestamp: 'x', buckets, selections: [], stageDurations: {} });
+  assert.deepEqual(record.buckets[0].consumers, ['main', 'carlos']);
+  assert.deepEqual(record.buckets[1].consumers, []);
 });
