@@ -1,59 +1,42 @@
-import { readFileSync, writeFileSync, existsSync, mkdirSync, appendFileSync } from 'node:fs';
+import { readFileSync, existsSync, mkdirSync, appendFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
 import { zurichDate } from './lib/clock.mjs';
-import { validateBriefing } from './lib/schema.mjs';
-import { writeEdition, rebuildArchive } from './lib/site.mjs';
+import { loadConfig } from './lib/config.mjs';
+import { planBuckets } from './lib/plan.mjs';
+import { collectAll, bucketPath, runClaudeCollect } from './lib/collect.mjs';
+import { composeEdition } from './lib/compose.mjs';
+import { validateEditionData } from './lib/schema.mjs';
+import { writeEditionPages, rebuildEditionArchive, rebuildLanding } from './lib/site.mjs';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 
 export function parseArgs(argv) {
-  const o = { renderOnly: false, date: null, push: true };
+  const o = { renderOnly: false, recompose: false, date: null, push: true, editionIds: null };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--render-only') o.renderOnly = true;
+    else if (a === '--recompose') o.recompose = true;
     else if (a === '--no-push') o.push = false;
     else if (a === '--date') {
       o.date = argv[++i];
       if (!/^\d{4}-\d{2}-\d{2}$/.test(o.date || '')) throw new Error(`--date invalide: ${o.date}`);
+    } else if (a === '--edition') {
+      const id = argv[++i];
+      if (!id || id.startsWith('--')) throw new Error('--edition attend un identifiant');
+      o.editionIds = [...(o.editionIds || []), id];
     } else throw new Error(`argument inconnu: ${a}`);
   }
+  if (o.renderOnly && o.recompose) throw new Error('--render-only et --recompose sont incompatibles');
   return o;
 }
 
 function log(line) {
   const dir = join(ROOT, 'logs');
   mkdirSync(dir, { recursive: true });
-  const stamp = new Date().toISOString();
-  appendFileSync(join(dir, 'generate.log'), `${stamp} ${line}\n`);
+  appendFileSync(join(dir, 'generate.log'), `${new Date().toISOString()} ${line}\n`);
   console.log(line);
-}
-
-function runClaude(date, outPath) {
-  const tmpl = readFileSync(join(ROOT, 'prompts', 'briefing.md'), 'utf8');
-  const promptPath = outPath.replaceAll('\\', '/');
-  const prompt = tmpl.replaceAll('{{DATE}}', date).replaceAll('{{OUTPUT_PATH}}', promptPath);
-  log(`claude: démarrage de la recherche pour ${date}`);
-  // Scope to exactly the tools the briefing needs. In headless (-p) mode a
-  // non-allowlisted tool is denied (not prompted), so the run stays unattended
-  // without granting blanket bypass permissions.
-  const res = spawnSync(
-    'claude -p --model opus --allowedTools "WebSearch,WebFetch,Write" --output-format json',
-    { input: prompt, encoding: 'utf8', shell: true, maxBuffer: 32 * 1024 * 1024, cwd: ROOT },
-  );
-  if (res.error) throw res.error;
-  log(`claude: code de sortie ${res.status}`);
-  if (res.status !== 0) log(`claude stderr: ${(res.stderr || '').slice(0, 2000)}`);
-  return res;
-}
-
-function loadAndValidate(outPath) {
-  if (!existsSync(outPath)) throw new Error(`fichier de données absent: ${outPath}`);
-  const data = JSON.parse(readFileSync(outPath, 'utf8'));
-  const { valid, errors } = validateBriefing(data);
-  if (!valid) throw new Error(`validation échouée:\n - ${errors.join('\n - ')}`);
-  return data;
 }
 
 // The repo is published under an account whose write access lives in a separate
@@ -83,11 +66,10 @@ function gitPublish(date) {
     return r.stdout;
   };
   run('git add docs');
-  const status = spawnSync('git status --porcelain', { cwd: ROOT, encoding: 'utf8', shell: true }).stdout;
+  const status = spawnSync('git status --porcelain docs', { cwd: ROOT, encoding: 'utf8', shell: true }).stdout;
   if (!status.trim()) { log('git: aucun changement à publier'); return; }
   run(`git commit -m "briefing: ${date}"`);
 
-  // Switch gh account for the push only, then restore the previous one.
   const previous = ghActiveUser();
   const mustSwitch = previous !== PUBLISH_GH_USER;
   try {
@@ -99,20 +81,72 @@ function gitPublish(date) {
   }
 }
 
+// Re-reads buckets from disk so --recompose can skip collection entirely.
+function loadBucketsFromDisk(buckets, date) {
+  const results = new Map();
+  for (const b of buckets) {
+    const path = bucketPath(ROOT, date, b.id);
+    if (!existsSync(path)) { results.set(b.id, { ok: false, error: `vivier absent: ${path}` }); continue; }
+    try { results.set(b.id, { ok: true, data: JSON.parse(readFileSync(path, 'utf8')) }); }
+    catch (err) { results.set(b.id, { ok: false, error: err.message }); }
+  }
+  return results;
+}
+
 async function main() {
   const opts = parseArgs(process.argv.slice(2));
   const date = opts.date || zurichDate();
-  const outPath = join(ROOT, 'docs', 'data', `${date}.json`);
 
   try {
-    if (!opts.renderOnly) {
-      mkdirSync(dirname(outPath), { recursive: true });
-      runClaude(date, outPath);
+    const config = loadConfig(ROOT);
+    const editions = opts.editionIds
+      ? config.editions.filter((e) => opts.editionIds.includes(e.id))
+      : config.editions;
+    if (editions.length === 0) throw new Error(`aucune édition ne correspond à ${opts.editionIds?.join(', ')}`);
+
+    if (opts.renderOnly) {
+      let rendered = 0;
+      for (const edition of editions) {
+        const path = join(ROOT, 'docs', 'e', edition.id, 'data', `${date}.json`);
+        if (!existsSync(path)) { log(`rendu: ${edition.id} ignorée (pas de données pour ${date})`); continue; }
+        writeEditionPages(ROOT, JSON.parse(readFileSync(path, 'utf8')));
+        rendered++;
+      }
+      log(`rendu: ${rendered} édition(s) re-rendue(s) pour ${date}`);
+    } else {
+      const buckets = planBuckets(config, { editionIds: editions.map((e) => e.id) });
+      log(`plan: ${buckets.length} vivier(s) — ${buckets.map((b) => b.id).join(', ')}`);
+
+      const bucketResults = opts.recompose
+        ? loadBucketsFromDisk(buckets, date)
+        : await collectAll(buckets, {
+            root: ROOT, date, house: config.house, topics: config.topics,
+            template: readFileSync(join(ROOT, 'prompts', 'collect.md'), 'utf8'),
+            concurrency: 4, runClaude: runClaudeCollect,
+          });
+
+      for (const [id, r] of bucketResults) {
+        log(r.ok ? `collecte: ${id} OK` : `collecte: ${id} ÉCHEC — ${r.error}`);
+      }
+
+      const selectTemplate = readFileSync(join(ROOT, 'prompts', 'select.md'), 'utf8');
+      for (const edition of editions) {
+        const data = await composeEdition(edition, {
+          root: ROOT, date, topics: config.topics, template: selectTemplate,
+          bucketResults, now: () => new Date().toISOString(), log,
+        });
+        const { valid, errors } = validateEditionData(data, config);
+        if (!valid) { log(`édition ${edition.id}: NON PUBLIÉE — ${errors.join(' | ')}`); continue; }
+        writeEditionPages(ROOT, data);
+        log(`édition ${edition.id}: publiée (${data.sections.length} section(s))`);
+      }
     }
-    const data = loadAndValidate(outPath);
-    writeEdition(ROOT, data);
-    rebuildArchive(ROOT);
-    log(`rendu: site mis à jour pour ${date}`);
+
+    // Archives and landing are rebuilt from every configured edition, not just
+    // the ones generated this run, so a --edition run never truncates the site.
+    for (const edition of config.editions) rebuildEditionArchive(ROOT, edition);
+    rebuildLanding(ROOT, config.editions);
+
     if (opts.push) gitPublish(date);
     log(`OK: briefing ${date} terminé`);
   } catch (err) {

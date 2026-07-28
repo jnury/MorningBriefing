@@ -2,20 +2,40 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { parseArgs } from '../generate.mjs';
 
-test('defaults: claude on, no explicit date', () => {
-  const o = parseArgs([]);
-  assert.equal(o.renderOnly, false);
-  assert.equal(o.date, null);
-  assert.equal(o.push, true);
+test('defaults: full run, push enabled, every edition', () => {
+  assert.deepEqual(parseArgs([]), {
+    renderOnly: false, recompose: false, date: null, push: true, editionIds: null,
+  });
 });
 
-test('--render-only and --date and --no-push', () => {
-  const o = parseArgs(['--render-only', '--date', '2026-06-09', '--no-push']);
-  assert.equal(o.renderOnly, true);
-  assert.equal(o.date, '2026-06-09');
-  assert.equal(o.push, false);
+test('--no-push disables publishing', () => {
+  assert.equal(parseArgs(['--no-push']).push, false);
 });
 
-test('rejects malformed --date', () => {
-  assert.throws(() => parseArgs(['--date', '09-06-2026']));
+test('--render-only and --recompose set their flags', () => {
+  assert.equal(parseArgs(['--render-only']).renderOnly, true);
+  assert.equal(parseArgs(['--recompose']).recompose, true);
+});
+
+test('--date accepts an ISO date and rejects anything else', () => {
+  assert.equal(parseArgs(['--date', '2026-07-28']).date, '2026-07-28');
+  assert.throws(() => parseArgs(['--date', '28-07-2026']), /date/);
+  assert.throws(() => parseArgs(['--date']), /date/);
+});
+
+test('--edition may be repeated and accumulates ids', () => {
+  assert.deepEqual(parseArgs(['--edition', 'main']).editionIds, ['main']);
+  assert.deepEqual(parseArgs(['--edition', 'main', '--edition', 'carlos']).editionIds, ['main', 'carlos']);
+});
+
+test('--edition requires a value', () => {
+  assert.throws(() => parseArgs(['--edition']), /edition/);
+});
+
+test('unknown arguments are rejected', () => {
+  assert.throws(() => parseArgs(['--nope']), /inconnu/);
+});
+
+test('--render-only and --recompose together are rejected', () => {
+  assert.throws(() => parseArgs(['--render-only', '--recompose']), /ensemble|incompatible/i);
 });
