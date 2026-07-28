@@ -4,6 +4,7 @@ import { mkdtempSync, mkdirSync, writeFileSync, readFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { collectAll, bucketPath, runShell } from '../lib/collect.mjs';
+import { emptyUsage } from '../lib/usage.mjs';
 
 const TOPICS = {
   weather: { id: 'weather', kind: 'provider', label: 'Météo' },
@@ -73,6 +74,75 @@ test('collects a researched bucket and validates it', async () => {
   const results = await collectAll(buckets, ctx(root, run));
   assert.equal(results.get('tech').ok, true);
   assert.equal(results.get('tech').data.items.length, 1);
+});
+
+// A stdout JSON payload alongside a status-0 exit stands in for the real
+// `claude -p --output-format json` result: collectAll must parse it into the
+// result entry rather than only ever caring about the bucket file it wrote.
+test('a successful collect records its usage/cost and a wall-clock duration', async () => {
+  const root = tmpRoot();
+  const resultJson = JSON.stringify({
+    total_cost_usd: 0.1234, num_turns: 3,
+    usage: { input_tokens: 1000, output_tokens: 200, cache_creation_input_tokens: 50, cache_read_input_tokens: 10,
+      server_tool_use: { web_search_requests: 2, web_fetch_requests: 1 } },
+  });
+  const run = (prompt, outPath) => {
+    mkdirSync(join(outPath, '..'), { recursive: true });
+    writeFileSync(outPath, JSON.stringify({ bucketId: 'tech', date: DATE, collectedAt: 'x', shape: 'card', items: [item()] }));
+    return { status: 0, stdout: resultJson };
+  };
+  const buckets = [{ id: 'tech', kind: 'topic', size: 50, hints: [], params: {}, consumers: ['main'] }];
+  const results = await collectAll(buckets, ctx(root, run));
+  const r = results.get('tech');
+  assert.equal(r.ok, true);
+  assert.equal(r.usage.costUsd, 0.1234);
+  assert.equal(r.usage.numTurns, 3);
+  assert.equal(r.usage.webSearchRequests, 2);
+  assert.equal(typeof r.durationMs, 'number');
+  assert.ok(r.durationMs >= 0);
+});
+
+// The whole point of instrumenting a failure path: a bucket that burned
+// tokens and then failed (non-zero exit here) must still surface that spend,
+// not silently drop it because the run itself was a failure.
+test('a failed collect (non-zero exit) still records the usage the run reported', async () => {
+  const root = tmpRoot();
+  const resultJson = JSON.stringify({ total_cost_usd: 0.07, num_turns: 1, usage: { input_tokens: 500, output_tokens: 100 } });
+  const run = () => ({ status: 1, stdout: resultJson, stderr: 'boom' });
+  const buckets = [{ id: 'tech', kind: 'topic', size: 50, hints: [], params: {}, consumers: ['main'] }];
+  const results = await collectAll(buckets, ctx(root, run));
+  const r = results.get('tech');
+  assert.equal(r.ok, false);
+  assert.equal(r.usage.costUsd, 0.07);
+  assert.equal(r.usage.inputTokens, 500);
+});
+
+// Same guarantee, but for a failure that only surfaces after the process
+// exited 0 — an invalid bucket caught by validateBucket. The spend already
+// happened by the time validation runs.
+test('a bucket that fails validation still records the usage the run reported', async () => {
+  const root = tmpRoot();
+  const resultJson = JSON.stringify({ total_cost_usd: 0.02, num_turns: 1 });
+  const run = (prompt, outPath) => {
+    mkdirSync(join(outPath, '..'), { recursive: true });
+    writeFileSync(outPath, JSON.stringify({
+      bucketId: 'tech', date: DATE, collectedAt: 'x', shape: 'card',
+      items: [{ ...item(), publishedAt: '2026-01-01' }], // stale, fails validation
+    }));
+    return { status: 0, stdout: resultJson };
+  };
+  const buckets = [{ id: 'tech', kind: 'topic', size: 50, hints: [], params: {}, consumers: ['main'] }];
+  const results = await collectAll(buckets, ctx(root, run));
+  const r = results.get('tech');
+  assert.equal(r.ok, false);
+  assert.equal(r.usage.costUsd, 0.02);
+});
+
+test('a provider bucket (no claude call) reports null usage rather than fabricating cost', async () => {
+  const root = tmpRoot();
+  const buckets = [{ id: 'weather', kind: 'provider', hints: [], params: { cities: [{ name: 'Genève', lat: 46.2, lon: 6.14 }] }, consumers: ['main'] }];
+  const results = await collectAll(buckets, ctx(root, () => ({ status: 0 })));
+  assert.deepEqual(results.get('weather').usage, emptyUsage());
 });
 
 // --recompose reloads buckets from disk (buckets/<date>/<id>.json) instead of

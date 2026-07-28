@@ -4,6 +4,7 @@ import { mkdtempSync, mkdirSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { composeEdition, selectCities, selectIndices, fallbackItems } from '../lib/compose.mjs';
+import { emptyUsage } from '../lib/usage.mjs';
 
 const TOPICS = {
   weather: { id: 'weather', kind: 'provider', label: 'Météo' },
@@ -215,6 +216,47 @@ test('a dataset section with a partial index match is still published, with the 
   assert.equal(data.sections.length, 1);
   assert.deepEqual(data.sections[0].indices.map((i) => i.name), ['Nasdaq', 'SMI']);
   assert.ok(logs.some((l) => l.includes('Nasdaq Composite')));
+});
+
+test('a successful selection pass reports its usage via recordSelection', async () => {
+  const root = tmpRoot();
+  const resultJson = JSON.stringify({ total_cost_usd: 0.03, num_turns: 1, usage: { input_tokens: 300, output_tokens: 50 } });
+  const runClaude = (prompt, outPath) => {
+    mkdirSync(join(outPath, '..'), { recursive: true });
+    writeFileSync(outPath, JSON.stringify({ items: [card(1)] }));
+    return { status: 0, stdout: resultJson };
+  };
+  const selections = [];
+  const edition = { id: 'main', title: 'B', sections: [{ topic: 'tech', max: 2 }] };
+  await composeEdition(edition, ctx(root, { runClaude, recordSelection: (e) => selections.push(e) }));
+  assert.equal(selections.length, 1);
+  assert.deepEqual(selections[0], {
+    edition: 'main', topic: 'tech', ok: true,
+    usage: { ...emptyUsage(), costUsd: 0.03, numTurns: 1, inputTokens: 300, outputTokens: 50 },
+    durationMs: selections[0].durationMs,
+  });
+  assert.equal(typeof selections[0].durationMs, 'number');
+});
+
+// The same guarantee as the collect side: a selection pass that spent tokens
+// and then failed (non-zero exit here) must still surface that spend even
+// though the section degrades to the bucket's own ordering.
+test('a failed (degraded) selection pass still reports the usage the run incurred', async () => {
+  const resultJson = JSON.stringify({ total_cost_usd: 0.015, num_turns: 1 });
+  const runClaude = () => ({ status: 1, stdout: resultJson, stderr: 'boom' });
+  const selections = [];
+  const edition = { id: 'main', title: 'B', sections: [{ topic: 'tech', max: 2 }] };
+  const data = await composeEdition(edition, ctx(tmpRoot(), { runClaude, recordSelection: (e) => selections.push(e) }));
+  assert.equal(data.sections[0].degraded, true);
+  assert.equal(selections.length, 1);
+  assert.equal(selections[0].ok, false);
+  assert.equal(selections[0].usage.costUsd, 0.015);
+});
+
+test('composeEdition works without a recordSelection callback (optional, does not throw)', async () => {
+  const edition = { id: 'main', title: 'B', sections: [{ topic: 'tech', max: 2 }] };
+  const data = await composeEdition(edition, ctx(tmpRoot()));
+  assert.equal(data.sections.length, 1);
 });
 
 test('a provider section is omitted when none of its cities match the bucket, other sections still publish', async () => {

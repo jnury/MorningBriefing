@@ -9,6 +9,8 @@ import { collectAll, bucketPath, runClaudeCollect } from './lib/collect.mjs';
 import { composeEdition } from './lib/compose.mjs';
 import { validateEditionData, validateBucket } from './lib/schema.mjs';
 import { writeEditionPages, rebuildEditionArchive, rebuildLanding } from './lib/site.mjs';
+import { emptyUsage } from './lib/usage.mjs';
+import { bucketCostLine, selectionCostLine, totalsLine, buildCostRecord } from './lib/costlog.mjs';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 
@@ -47,6 +49,28 @@ function log(line) {
   mkdirSync(dir, { recursive: true });
   appendFileSync(join(dir, 'generate.log'), `${new Date().toISOString()} ${line}\n`);
   console.log(line);
+}
+
+// Turns this run's bucket/selection outcomes into the human log lines and the
+// costs.jsonl record. Kept separate from the collect/compose calls above so a
+// broken cost line can never be the thing that stops a briefing from
+// publishing — everything here is best-effort logging of work already done.
+function recordCosts({ date, bucketResults, topics, selections, stageDurations }) {
+  const buckets = [...bucketResults].map(([id, r]) => ({
+    id, kind: topics[id]?.kind ?? null, ok: r.ok, usage: r.usage ?? emptyUsage(), durationMs: r.durationMs ?? null,
+  }));
+
+  for (const b of buckets) log(bucketCostLine(b));
+  for (const s of selections) log(selectionCostLine(s));
+
+  const record = buildCostRecord({
+    date, timestamp: new Date().toISOString(), buckets, selections, stageDurations,
+  });
+  log(totalsLine(date, record.totals, stageDurations));
+
+  const dir = join(ROOT, 'logs');
+  mkdirSync(dir, { recursive: true });
+  appendFileSync(join(dir, 'costs.jsonl'), `${JSON.stringify(record)}\n`);
 }
 
 // The repo is published under an account whose write access lives in a separate
@@ -167,6 +191,7 @@ async function main() {
       const buckets = planBuckets(config, { editionIds: editions.map((e) => e.id) });
       log(`plan: ${buckets.length} vivier(s) — ${buckets.map((b) => b.id).join(', ')}`);
 
+      const collectStart = Date.now();
       const bucketResults = opts.recompose
         ? loadBucketsFromDisk(buckets, date, config.topics)
         : await collectAll(buckets, {
@@ -174,6 +199,7 @@ async function main() {
             template: readFileSync(join(ROOT, 'prompts', 'collect.md'), 'utf8'),
             concurrency: 4, runClaude: runClaudeCollect,
           });
+      const collectMs = Date.now() - collectStart;
 
       for (const [id, r] of bucketResults) {
         log(r.ok ? `collecte: ${id} OK` : `collecte: ${id} ÉCHEC — ${r.error}`);
@@ -185,10 +211,19 @@ async function main() {
       // the same event-loop-blocking pitfall as collection would otherwise
       // apply here across editions.
       const selectTemplate = readFileSync(join(ROOT, 'prompts', 'select.md'), 'utf8');
+      const selections = [];
+      const composeStart = Date.now();
       const composed = await Promise.all(editions.map((edition) => composeEdition(edition, {
         root: ROOT, date, topics: config.topics, template: selectTemplate,
         bucketResults, now: () => new Date().toISOString(), log,
+        recordSelection: (entry) => selections.push(entry),
       })));
+      const composeMs = Date.now() - composeStart;
+
+      recordCosts({
+        date, bucketResults, topics: config.topics, selections,
+        stageDurations: { collectMs, composeMs },
+      });
 
       let published = 0;
       for (const data of composed) {
