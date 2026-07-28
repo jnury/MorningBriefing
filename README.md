@@ -69,7 +69,10 @@ yet, drop a `config/topics/<id>.json` next to the others; no code changes.
 
 ## Troubleshooting
 
-- A run failed → check `logs/generate.log`; inspect `docs/data/<date>.json`; refine
-  `prompts/briefing.md` if the model's output keeps missing the schema.
+- A run failed → check `logs/generate.log`; inspect the raw research under
+  `buckets/<date>/<bucketId>.json` and, per edition, the composed data at
+  `docs/e/<id>/data/<date>.json`; refine `prompts/collect.md` (research) or
+  `prompts/select.md` (editorial selection) if the model's output keeps
+  missing the schema.
 - Push fails unattended → run `git push` once manually so Git Credential Manager caches
   your GitHub credentials.
