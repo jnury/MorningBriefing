@@ -137,17 +137,23 @@ async function main() {
         log(r.ok ? `collecte: ${id} OK` : `collecte: ${id} ÉCHEC — ${r.error}`);
       }
 
+      // Select passes are Claude runs of their own (one per edition × topic
+      // section); each composeEdition call is independent of the others, so
+      // they are started together rather than awaited one edition at a time —
+      // the same event-loop-blocking pitfall as collection would otherwise
+      // apply here across editions.
       const selectTemplate = readFileSync(join(ROOT, 'prompts', 'select.md'), 'utf8');
+      const composed = await Promise.all(editions.map((edition) => composeEdition(edition, {
+        root: ROOT, date, topics: config.topics, template: selectTemplate,
+        bucketResults, now: () => new Date().toISOString(), log,
+      })));
+
       let published = 0;
-      for (const edition of editions) {
-        const data = await composeEdition(edition, {
-          root: ROOT, date, topics: config.topics, template: selectTemplate,
-          bucketResults, now: () => new Date().toISOString(), log,
-        });
+      for (const data of composed) {
         const { valid, errors } = validateEditionData(data, config);
-        if (!valid) { log(`édition ${edition.id}: NON PUBLIÉE — ${errors.join(' | ')}`); continue; }
+        if (!valid) { log(`édition ${data.edition}: NON PUBLIÉE — ${errors.join(' | ')}`); continue; }
         writeEditionPages(ROOT, data);
-        log(`édition ${edition.id}: publiée (${data.sections.length} section(s))`);
+        log(`édition ${data.edition}: publiée (${data.sections.length} section(s))`);
         published++;
       }
       // Some editions failing while others publish is a partial success — the whole

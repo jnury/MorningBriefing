@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { mkdtempSync, mkdirSync, writeFileSync, readFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { collectAll, bucketPath } from '../lib/collect.mjs';
+import { collectAll, bucketPath, runShell } from '../lib/collect.mjs';
 
 const TOPICS = {
   weather: { id: 'weather', kind: 'provider', label: 'Météo' },
@@ -28,6 +28,20 @@ function ctx(root, runClaude, over = {}) {
 }
 
 const tmpRoot = () => mkdtempSync(join(tmpdir(), 'mb-col-'));
+
+// Real, tiny node scripts stand in for `claude` here — never the real process,
+// but real child processes, so runShell is exercised against actual OS
+// scheduling rather than a JS-level mock that would yield control regardless
+// of whether the production code is truly asynchronous.
+const helpersDir = mkdtempSync(join(tmpdir(), 'mb-col-helpers-'));
+const sleepScript = join(helpersDir, 'sleep.mjs');
+writeFileSync(sleepScript, 'setTimeout(() => process.exit(0), Number(process.argv[2] || 100));\n');
+const echoStdinScript = join(helpersDir, 'echo-stdin.mjs');
+writeFileSync(echoStdinScript, [
+  "let data = '';",
+  "process.stdin.on('data', (c) => { data += c; });",
+  "process.stdin.on('end', () => { process.stdout.write(data); process.exit(0); });",
+].join('\n'));
 
 // A fake collector that writes the bucket file the real Claude run would write.
 function writingRunner(payloadFor) {
@@ -180,4 +194,61 @@ test('concurrency: 1 runs collectors strictly one at a time', async () => {
   assert.equal(results.size, 5);
   assert.ok([...results.values()].every((r) => r.ok));
   assert.equal(peak, 1, `pic de concurrence ${peak}, attendu exactement 1`);
+});
+
+test('runShell delivers the prompt on stdin to the child process', async () => {
+  const root = tmpRoot();
+  const res = await runShell(`node "${echoStdinScript}"`, {
+    input: 'CONTENU DU PROMPT', cwd: root, maxBuffer: 1024 * 1024,
+  });
+  assert.equal(res.status, 0);
+  assert.equal(res.stdout, 'CONTENU DU PROMPT');
+});
+
+// This is the regression test for the spawnSync bug: it runs the real, exported
+// runShell (the async spawn wrapper collectOne actually calls in production)
+// against real child processes, not a JS-level async mock. A mock with
+// `await new Promise(r => setTimeout(r, ms))` yields control on its own and
+// would pass even if the production runner still used spawnSync — which is
+// exactly why the pre-existing concurrency tests above did not catch the bug.
+// spawnSync blocks the whole Node process for the child's lifetime, so with
+// N === concurrency (every bucket eligible to start at once) a spawnSync-based
+// runner would still serialise them behind worker 1: wall-clock ~= N * SLEEP_MS.
+// A genuinely async runner instead costs about one SLEEP_MS plus one process
+// spawn, regardless of N.
+test('collectAll genuinely overlaps slow collectors instead of serialising them (regression: spawnSync blocked the event loop)', async () => {
+  const root = tmpRoot();
+  const topics = { ...TOPICS };
+  const ids = ['a', 'b', 'c', 'd'];
+  const buckets = [];
+  for (const id of ids) {
+    topics[id] = { ...TOPICS.world, id };
+    buckets.push({ id, kind: 'topic', size: 10, hints: [], params: {}, consumers: ['main'] });
+  }
+
+  const SLEEP_MS = 300;
+  const run = async (prompt, outPath) => {
+    const res = await runShell(`node "${sleepScript}" ${SLEEP_MS}`, {
+      input: prompt, cwd: root, maxBuffer: 1024 * 1024,
+    });
+    const id = outPath.match(/([a-d])\.json$/)[1];
+    mkdirSync(join(outPath, '..'), { recursive: true });
+    writeFileSync(outPath, JSON.stringify({
+      bucketId: id, date: DATE, collectedAt: 'x', shape: 'headline',
+      items: [{ headline: 'h', publishedAt: '2026-07-27' }],
+    }));
+    return { status: res.status, stderr: res.stderr };
+  };
+
+  const start = Date.now();
+  const results = await collectAll(buckets, ctx(root, run, { concurrency: 4, topics }));
+  const elapsed = Date.now() - start;
+
+  assert.equal(results.size, 4);
+  assert.ok([...results.values()].every((r) => r.ok), JSON.stringify([...results.values()]));
+  // Serialised (the bug) would take roughly 4 * SLEEP_MS = 1200ms plus four
+  // process-spawn overheads. Genuinely concurrent takes roughly one SLEEP_MS
+  // plus one spawn. The threshold sits well below the serial floor while
+  // leaving generous room for process-spawn variance on a loaded machine.
+  assert.ok(elapsed < SLEEP_MS * 2.5, `délai ${elapsed}ms — les collecteurs semblent sérialisés`);
 });
