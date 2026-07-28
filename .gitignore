@@ -8,3 +8,6 @@ Examples/
 
 # Local config with personal details (email, etc.) — never commit
 config.local.json
+
+# Subagent-driven-development scratch (ledger, briefs, review packages)
+.superpowers/
