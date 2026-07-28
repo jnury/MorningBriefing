@@ -22,6 +22,7 @@ const CARLOS = {
   id: 'carlos', title: 'C', order: 2,
   sections: [
     { topic: 'weather', params: { cities: [{ name: 'Zurich', lat: 47.37, lon: 8.54 }, { name: 'Genève', lat: 46.2, lon: 6.14 }] } },
+    { topic: 'markets', params: { indices: ['SMI', 'CAC 40'] } },
     { topic: 'world', max: 5 },
     { topic: 'tech', max: 10, hints: ['cybersécurité', 'IA'] },
   ],
@@ -40,7 +41,7 @@ test('weather cities are unioned across editions, deduplicated by name', () => {
 
 test('market indices are unioned across editions', () => {
   const m = planBuckets(cfg).find((b) => b.id === 'markets');
-  assert.deepEqual(m.params.indices, ['Nasdaq', 'SMI']);
+  assert.deepEqual(m.params.indices, ['Nasdaq', 'SMI', 'CAC 40']);
 });
 
 test('hints are unioned across editions, deduplicated, first-seen order', () => {
@@ -69,11 +70,12 @@ test('provider and dataset buckets have no size', () => {
 
 test('consumers lists the editions using each bucket', () => {
   const byId = Object.fromEntries(planBuckets(cfg).map((b) => [b.id, b]));
+  assert.deepEqual(byId.markets.consumers, ['main', 'carlos']);
   assert.deepEqual(byId.tech.consumers, ['main', 'carlos']);
   assert.deepEqual(byId.world.consumers, ['carlos']);
 });
 
 test('editionIds narrows planning to the requested editions only', () => {
   const ids = planBuckets(cfg, { editionIds: ['carlos'] }).map((b) => b.id);
-  assert.deepEqual(ids, ['tech', 'weather', 'world']);
+  assert.deepEqual(ids, ['markets', 'tech', 'weather', 'world']);
 });
