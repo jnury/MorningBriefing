@@ -100,6 +100,27 @@ test('select prompt still carries the topic editorial line, so preferences canno
   assert.match(p, /Aucun fait divers\./);
 });
 
+// fill() used replaceAll(literalKey, String(value)) -- the value is a normal
+// string argument, but replaceAll still scans it for $$, $&, $`, $' special
+// replacement patterns. config/ prose is French editorial text the user
+// edits freely, so a preference containing "$&" must not silently corrupt
+// the prompt.
+test('collect prompt is not corrupted by a research/editorial value containing a $&-style pattern', () => {
+  const topic = { ...SWISS, research: 'Priorité aux thèmes A&B ($&) de la veille.' };
+  const p = buildCollectPrompt(args(topic, { id: 'swiss', kind: 'topic', size: 10, hints: [], params: {} }));
+  assert.match(p, /Priorité aux thèmes A&B \(\$&\) de la veille\./);
+});
+
+test('select prompt is not corrupted by a prefs value containing a $&-style pattern', () => {
+  const p = buildSelectPrompt({
+    template: selectTpl, topic: TECH,
+    section: { topic: 'tech', max: 5, prefs: 'IA d\'abord ($&), puis le reste.' },
+    edition: { id: 'main', title: 'Briefing' },
+    bucketPath: 'b.json', outPath: 'o.json', date: '2026-07-28',
+  });
+  assert.match(p, /IA d'abord \(\$&\), puis le reste\./);
+});
+
 test('select prompt handles a section without prefs', () => {
   const p = buildSelectPrompt({
     template: selectTpl, topic: TECH,
