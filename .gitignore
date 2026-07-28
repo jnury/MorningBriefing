@@ -11,3 +11,7 @@ config.local.json
 
 # Subagent-driven-development scratch (ledger, briefs, review packages)
 .superpowers/
+
+# Collected research buckets — scratch, not site content. Kept locally so
+# `--recompose` can re-run the editorial pass without paying for research again.
+buckets/
