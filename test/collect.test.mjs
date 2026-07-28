@@ -123,5 +123,36 @@ test('never runs more collectors at once than the concurrency cap', async () => 
   const results = await collectAll(buckets, ctx(root, run, { concurrency: 2, topics }));
   assert.equal(results.size, 5);
   assert.ok([...results.values()].every((r) => r.ok));
-  assert.ok(peak <= 2, `pic de concurrence ${peak} > 2`);
+  // Exact, not just <=: this also catches a regression that silently serialises
+  // the pool (peak stuck at 1), which `peak <= 2` alone would never flag.
+  assert.equal(peak, 2, `pic de concurrence ${peak}, attendu exactement 2`);
+});
+
+test('concurrency: 1 runs collectors strictly one at a time', async () => {
+  const root = tmpRoot();
+  const topics = { ...TOPICS };
+  const buckets = [];
+  for (const id of ['a', 'b', 'c', 'd', 'e']) {
+    topics[id] = { ...TOPICS.world, id };
+    buckets.push({ id, kind: 'topic', size: 10, hints: [], params: {}, consumers: ['main'] });
+  }
+
+  let running = 0, peak = 0;
+  const run = async (prompt, outPath) => {
+    running++; peak = Math.max(peak, running);
+    await new Promise((r) => setTimeout(r, 5));
+    running--;
+    const id = outPath.match(/([a-e])\.json$/)[1];
+    mkdirSync(join(outPath, '..'), { recursive: true });
+    writeFileSync(outPath, JSON.stringify({
+      bucketId: id, date: DATE, collectedAt: 'x', shape: 'headline',
+      items: [{ headline: 'h', publishedAt: '2026-07-27' }],
+    }));
+    return { status: 0 };
+  };
+
+  const results = await collectAll(buckets, ctx(root, run, { concurrency: 1, topics }));
+  assert.equal(results.size, 5);
+  assert.ok([...results.values()].every((r) => r.ok));
+  assert.equal(peak, 1, `pic de concurrence ${peak}, attendu exactement 1`);
 });
