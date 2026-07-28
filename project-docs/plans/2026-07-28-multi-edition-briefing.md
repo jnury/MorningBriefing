@@ -1369,9 +1369,13 @@ test('nav links use the given prefix for depth-1 pages', () => {
   assert.match(renderEdition(data, { linkPrefix: '../' }), /href="\.\.\/archive\.html"/);
 });
 
-test('links back to the landing page', () => {
-  assert.match(renderEdition(data, { linkPrefix: '../' }), /href="\.\.\/\.\.\/index\.html"/);
+// The production call is renderEdition(data, { linkPrefix: '' }) — every page of
+// an edition sits in docs/e/<id>/, so the landing page is two levels up. Asserting
+// this with the default prefix is what catches an off-by-one in the path.
+test('links back to the landing page two levels up, as called in production', () => {
+  assert.match(renderEdition(data), /href="\.\.\/\.\.\/index\.html"/);
 });
+
 ```
 
 Replace `test/render-archive.test.mjs`:
@@ -1435,6 +1439,11 @@ test('an edition with no published date is shown without a link to today', () =>
   const html = renderLanding([{ id: 'neuf', title: 'Nouveau', latestDate: null }]);
   assert.match(html, /Nouveau/);
   assert.ok(!html.includes('href="e/neuf/index.html"'), 'pas de lien vers une édition jamais publiée');
+});
+
+test('a hostile edition id cannot break out of the href attribute', () => {
+  const html = renderLanding([{ id: '"><script>alert(1)</script>', title: 'X', latestDate: '2026-07-28' }]);
+  assert.ok(!html.includes('<script>alert(1)</script>'), 'l\'id doit être échappé dans le href');
 });
 ```
 
@@ -1560,9 +1569,9 @@ ${data.sections.map(renderSection).join('\n')}`;
     brand: data.title,
     bodyHtml: body,
     linkPrefix,
-    // Edition pages live at docs/e/<id>/, so the landing page is two levels up
-    // from a dated page and one level up from the edition home page.
-    homeHref: `${linkPrefix}../index.html`,
+    // Every page of an edition sits in docs/e/<id>/ — home, dated and archive
+    // alike — so the landing page at docs/index.html is always two levels up.
+    homeHref: `${linkPrefix}../../index.html`,
   });
 }
 
@@ -1577,7 +1586,7 @@ export function renderArchive({ title, dates }, { linkPrefix = '' } = {}) {
     brand: title,
     bodyHtml: body,
     linkPrefix,
-    homeHref: `${linkPrefix}../index.html`,
+    homeHref: `${linkPrefix}../../index.html`,
   });
 }
 
@@ -1585,7 +1594,7 @@ export function renderLanding(entries, { linkPrefix = '' } = {}) {
   const card = (e) => {
     const meta = e.latestDate
       ? `<p class="meta">Dernière édition : ${frenchDate(e.latestDate)}</p>
-<p><a href="${linkPrefix}e/${e.id}/index.html">Lire</a> &middot; <a href="${linkPrefix}e/${e.id}/archive.html">Archives</a></p>`
+<p><a href="${linkPrefix}e/${escapeHtml(e.id)}/index.html">Lire</a> &middot; <a href="${linkPrefix}e/${escapeHtml(e.id)}/archive.html">Archives</a></p>`
       : '<p class="meta">Aucune édition publiée pour l\'instant.</p>';
     return `<li><h3>${escapeText(e.title)}</h3>${meta}</li>`;
   };
