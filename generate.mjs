@@ -7,7 +7,7 @@ import { loadConfig } from './lib/config.mjs';
 import { planBuckets } from './lib/plan.mjs';
 import { collectAll, bucketPath, runClaudeCollect } from './lib/collect.mjs';
 import { composeEdition } from './lib/compose.mjs';
-import { validateEditionData } from './lib/schema.mjs';
+import { validateEditionData, validateBucket } from './lib/schema.mjs';
 import { writeEditionPages, rebuildEditionArchive, rebuildLanding } from './lib/site.mjs';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
@@ -92,13 +92,23 @@ function gitPublish(date) {
 }
 
 // Re-reads buckets from disk so --recompose can skip collection entirely.
-function loadBucketsFromDisk(buckets, date) {
+// Validated exactly like a freshly collected bucket (collectOne does the same
+// check), so this path and the normal collection path leave composeEdition the
+// same invariant: every `ok: true` result has already passed validateBucket.
+// Without this, a malformed on-disk bucket reached composeEdition unguarded,
+// which dereferences `.cities` / `.indices` / `.items` and can throw out of
+// the whole run instead of just omitting that section.
+export function loadBucketsFromDisk(buckets, date, topics, root = ROOT) {
   const results = new Map();
   for (const b of buckets) {
-    const path = bucketPath(ROOT, date, b.id);
+    const path = bucketPath(root, date, b.id);
     if (!existsSync(path)) { results.set(b.id, { ok: false, error: `vivier absent: ${path}` }); continue; }
-    try { results.set(b.id, { ok: true, data: JSON.parse(readFileSync(path, 'utf8')) }); }
-    catch (err) { results.set(b.id, { ok: false, error: err.message }); }
+    try {
+      const data = JSON.parse(readFileSync(path, 'utf8'));
+      const { valid, errors } = validateBucket(data, topics[b.id], date);
+      if (!valid) { results.set(b.id, { ok: false, error: errors.join(' | ') }); continue; }
+      results.set(b.id, { ok: true, data });
+    } catch (err) { results.set(b.id, { ok: false, error: err.message }); }
   }
   return results;
 }
@@ -126,7 +136,7 @@ async function main() {
       log(`plan: ${buckets.length} vivier(s) — ${buckets.map((b) => b.id).join(', ')}`);
 
       const bucketResults = opts.recompose
-        ? loadBucketsFromDisk(buckets, date)
+        ? loadBucketsFromDisk(buckets, date, config.topics)
         : await collectAll(buckets, {
             root: ROOT, date, house: config.house, topics: config.topics,
             template: readFileSync(join(ROOT, 'prompts', 'collect.md'), 'utf8'),

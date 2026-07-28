@@ -1,6 +1,10 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseArgs, resolveEditions } from '../generate.mjs';
+import { mkdtempSync, mkdirSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { parseArgs, resolveEditions, loadBucketsFromDisk } from '../generate.mjs';
+import { composeEdition } from '../lib/compose.mjs';
 
 test('defaults: full run, push enabled, every edition', () => {
   assert.deepEqual(parseArgs([]), {
@@ -56,4 +60,55 @@ test('resolveEditions rejects a single unknown id even when others match', () =>
 
 test('resolveEditions rejects when every requested id is unknown', () => {
   assert.throws(() => resolveEditions(CONFIG_EDITIONS, ['nope']), /nope/);
+});
+
+const tmpRoot = () => mkdtempSync(join(tmpdir(), 'mb-gen-'));
+const DATE = '2026-07-28';
+const TOPICS = {
+  tech: { id: 'tech', kind: 'topic', label: 'Tech', shape: 'card', categories: ['AI'], bucketMin: 30, maxAgeDays: 2 },
+  weather: { id: 'weather', kind: 'provider', label: 'Météo' },
+};
+
+function writeBucket(root, id, payload) {
+  const dir = join(root, 'buckets', DATE);
+  mkdirSync(dir, { recursive: true });
+  writeFileSync(join(dir, `${id}.json`), JSON.stringify(payload));
+}
+
+// --recompose used to skip validateBucket entirely: collectOne validates on
+// the normal path, but re-reading straight from disk did not, so a malformed
+// bucket left over from a previous run reached composeEdition unguarded.
+test('loadBucketsFromDisk marks a malformed on-disk bucket as failed instead of passing it through', () => {
+  const root = tmpRoot();
+  writeBucket(root, 'tech', { bucketId: 'tech', date: DATE }); // no collectedAt, no items
+  const results = loadBucketsFromDisk([{ id: 'tech' }], DATE, TOPICS, root);
+  assert.equal(results.get('tech').ok, false);
+  assert.match(results.get('tech').error, /collectedAt|items/);
+});
+
+test('loadBucketsFromDisk accepts a well-formed on-disk bucket', () => {
+  const root = tmpRoot();
+  writeBucket(root, 'weather', {
+    bucketId: 'weather', date: DATE, collectedAt: 'x',
+    cities: [{ name: 'Genève', high: 24, low: 13, condition: 'Ensoleillé', weathercode: 0, precipProbability: 10 }],
+  });
+  const results = loadBucketsFromDisk([{ id: 'weather' }], DATE, TOPICS, root);
+  assert.equal(results.get('weather').ok, true);
+  assert.equal(results.get('weather').data.cities[0].name, 'Genève');
+});
+
+// The point of validating in loadBucketsFromDisk: it routes a malformed
+// bucket through the same section-omission logic collectOne's output already
+// relies on, instead of letting composeEdition dereference invalid data and
+// throw out of the whole run (fallbackItems is called from inside a catch
+// block, so that throw used to escape composeEdition entirely).
+test('a malformed on-disk bucket degrades composeEdition to a skipped section rather than throwing', async () => {
+  const root = tmpRoot();
+  writeBucket(root, 'tech', { bucketId: 'tech', date: DATE }); // fails validateBucket
+  const bucketResults = loadBucketsFromDisk([{ id: 'tech' }], DATE, TOPICS, root);
+  const edition = { id: 'main', title: 'B', sections: [{ topic: 'tech', max: 2 }] };
+  const data = await composeEdition(edition, {
+    root, date: DATE, topics: TOPICS, template: 'x', bucketResults, now: () => 'x', log: () => {},
+  });
+  assert.deepEqual(data.sections, []);
 });
