@@ -104,6 +104,44 @@ test('an item the editor invented is dropped — selection cannot add to the buc
   assert.deepEqual(data.sections[0].items.map((i) => i.title), ['t2']);
 });
 
+test('two bucket items colliding on url are broken by publishedAt — the editor picks the first, not the second', async () => {
+  const root = tmpRoot();
+  const dup = (n, publishedAt) => ({ category: 'AI', title: 'shared', url: 'https://e.com/shared', publishedAt, summary: `s${n}` });
+  const first = dup(1, '2026-07-26');
+  const second = dup(2, '2026-07-27');
+  const bucket = { bucketId: 'tech', date: DATE, collectedAt: 'x', shape: 'card', items: [first, second] };
+  const runClaude = (prompt, outPath) => {
+    mkdirSync(join(outPath, '..'), { recursive: true });
+    writeFileSync(outPath, JSON.stringify({ items: [{ ...first }] }));
+    return { status: 0 };
+  };
+  const bucketResults = new Map([['tech', { ok: true, data: bucket }]]);
+  const edition = { id: 'main', title: 'B', sections: [{ topic: 'tech', max: 2 }] };
+  const data = await composeEdition(edition, ctx(root, { runClaude, bucketResults }));
+  assert.equal(data.sections[0].items.length, 1);
+  assert.equal(data.sections[0].items[0].publishedAt, '2026-07-26');
+  assert.equal(data.sections[0].items[0].summary, 's1');
+});
+
+test('a tampered copy still resolves to the bucket item, with its original fields intact', async () => {
+  const root = tmpRoot();
+  const real = { category: 'AI', title: 'Titre réel', url: 'https://e.com/uniq', publishedAt: '2026-07-25', summary: 'Résumé réel' };
+  const tampered = { category: 'AI', title: 'Titre modifié', url: 'https://e.com/uniq', publishedAt: '2026-07-27', summary: 'Résumé modifié' };
+  const bucket = { bucketId: 'tech', date: DATE, collectedAt: 'x', shape: 'card', items: [real] };
+  const runClaude = (prompt, outPath) => {
+    mkdirSync(join(outPath, '..'), { recursive: true });
+    writeFileSync(outPath, JSON.stringify({ items: [tampered] }));
+    return { status: 0 };
+  };
+  const bucketResults = new Map([['tech', { ok: true, data: bucket }]]);
+  const edition = { id: 'main', title: 'B', sections: [{ topic: 'tech', max: 1 }] };
+  const data = await composeEdition(edition, ctx(root, { runClaude, bucketResults }));
+  assert.equal(data.sections[0].items.length, 1);
+  assert.equal(data.sections[0].items[0].title, 'Titre réel');
+  assert.equal(data.sections[0].items[0].summary, 'Résumé réel');
+  assert.equal(data.sections[0].items[0].publishedAt, '2026-07-25');
+});
+
 test('the max is enforced even if the editor returns more', async () => {
   const root = tmpRoot();
   const runClaude = (prompt, outPath) => {
