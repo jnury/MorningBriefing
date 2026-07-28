@@ -77,6 +77,7 @@ import assert from 'node:assert/strict';
 import { mkdtempSync, mkdirSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { loadConfig } from '../lib/config.mjs';
 
 // Builds a throwaway config tree so tests never depend on the real config/.
@@ -396,8 +397,10 @@ Append to `test/config.test.mjs`:
 
 ```javascript
 test('the real config/ tree loads without errors', () => {
-  const root = new URL('..', import.meta.url).pathname;
-  const cfg = loadConfig(process.platform === 'win32' ? root.slice(1) : root);
+  // fileURLToPath, not URL.pathname: the repo path contains a space, which
+  // pathname leaves percent-encoded and readdirSync then fails to find.
+  const root = fileURLToPath(new URL('..', import.meta.url));
+  const cfg = loadConfig(root);
   assert.ok(cfg.topics.tech, 'topic tech attendu');
   assert.ok(cfg.editions.some((e) => e.id === 'main'), 'édition main attendue');
 });
@@ -726,7 +729,7 @@ test('edition rejects a stale item, same rule as the bucket', () => {
   assert.match(r.errors.join(' '), /trop ancien/);
 });
 
-test('edition accepts an empty sections array — a fully failed run publishes nothing, not garbage', () => {
+test('edition rejects an empty sections array — a fully failed run publishes nothing, not an empty page', () => {
   const r = validateEditionData(editionData({ sections: [] }), CONFIG);
   assert.equal(r.valid, false);
   assert.match(r.errors.join(' '), /aucune section/);
@@ -2896,8 +2899,8 @@ export function convertLegacy(legacy, { editionId, title, labels = LABELS }) {
 function main() {
   const dryRun = process.argv.includes('--dry-run');
   const config = loadConfig(ROOT);
-  const main = config.editions.find((e) => e.id === 'main');
-  if (!main) throw new Error('édition « main » introuvable dans config/editions/');
+  const mainEdition = config.editions.find((e) => e.id === 'main');
+  if (!mainEdition) throw new Error('édition « main » introuvable dans config/editions/');
 
   const legacyDir = join(ROOT, 'docs', 'data');
   const files = existsSync(legacyDir)
@@ -2908,7 +2911,7 @@ function main() {
   let converted = 0;
   for (const file of files) {
     const legacy = JSON.parse(readFileSync(join(legacyDir, file), 'utf8'));
-    const data = convertLegacy(legacy, { editionId: main.id, title: main.title });
+    const data = convertLegacy(legacy, { editionId: mainEdition.id, title: mainEdition.title });
 
     // Legacy items are older than maxAgeDays by construction, so freshness is
     // checked against the edition's own date rather than today's.
