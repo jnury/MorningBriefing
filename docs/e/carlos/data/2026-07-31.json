@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-07-31",
+  "generatedAt": "2026-07-31T03:10:34.748Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 33,
+          "low": 23,
+          "condition": "Couvert",
+          "weathercode": 3,
+          "precipProbability": 40
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Donald Trump a annoncé un accord sur le désarmement complet du Hamas à Gaza, conclu avec son « Conseil de la paix », les armes devant être inventoriées et entreposées par un comité national palestinien en parallèle d'un retrait progressif israélien.",
+          "publishedAt": "2026-07-30"
+        },
+        {
+          "headline": "Le Conseil de sécurité de l'ONU a tenu son premier vote de paille pour désigner le successeur d'António Guterres, la Costaricienne Rebeca Grynspan arrivant en tête avec dix voix « encourage ».",
+          "publishedAt": "2026-07-30"
+        },
+        {
+          "headline": "La Commission européenne a lancé son appel d'offres pour jusqu'à sept « gigafactories » d'intelligence artificielle, avec 10 milliards d'euros publics censés mobiliser plus de 30 milliards au total.",
+          "publishedAt": "2026-07-30"
+        },
+        {
+          "headline": "Le Portugal a approuvé une contribution de solidarité temporaire de 33 % sur les superprofits 2026 des compagnies pétrolières et de raffinage.",
+          "publishedAt": "2026-07-30"
+        },
+        {
+          "headline": "Le Brésil a autorisé la mise sur le marché du générique d'un traitement GLP-1 commercialisé par le groupe suisse Sandoz, pour un lancement prévu fin 2026.",
+          "publishedAt": "2026-07-29"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "Cisco : une faille zero-day de Secure Firewall Management Center exploitée dans la nature",
+          "url": "https://www.securityweek.com/cisco-secure-fmc-zero-day-exploited-in-the-wild/",
+          "publishedAt": "2026-07-30",
+          "summary": "Cisco a confirmé l'exploitation active de CVE-2026-20316, une vulnérabilité de gravité élevée affectant Secure Firewall Management Center. Le défaut repose sur des identifiants statiques : un attaquant distant non authentifié peut se connecter avec un compte à faibles privilèges, récupérer des informations sensibles, puis enchaîner avec d'autres failles FMC pour élever ses privilèges. Cisco indique avoir eu connaissance des exploitations en juillet 2026 et a publié des correctifs ainsi que des indicateurs de compromission. La CISA a inscrit la faille à son catalogue KEV en imposant aux agences fédérales une remédiation au 1er août 2026. Les instances dont l'interface d'administration n'est pas exposée à Internet présentent une surface d'attaque nettement réduite. La découverte est attribuée à Horizon3.ai."
+        },
+        {
+          "category": "IT",
+          "title": "La CISA alerte le secteur de l'eau après des attaques coordonnées sur des automates dans le Minnesota",
+          "url": "https://www.securityweek.com/cisa-urges-water-sector-to-protect-ot-after-coordinated-attacks-on-plcs/",
+          "publishedAt": "2026-07-30",
+          "summary": "La CISA a publié une alerte urgente destinée aux services d'eau et d'assainissement après des attaques coordonnées ayant perturbé les commandes automatisées de plus de 30 réseaux d'eau communautaires du Minnesota les 26 et 27 juillet. Les assaillants ont modifié des mots de passe pour verrouiller les opérateurs et déconnecté des automates programmables en changeant leurs adresses IP, provoquant des avis d'ébullition et un retour au pilotage manuel. La CISA recommande trois mesures immédiates : déconnecter les PLC d'Internet et passer par VPN ou passerelle, activer la protection par mot de passe en changeant les identifiants par défaut, et restreindre les accès distants par liste blanche d'adresses IP. Elle insiste sur les modems cellulaires non documentés installés par des opérateurs ou des prestataires. Aucune attribution officielle n'a été prononcée."
+        },
+        {
+          "category": "IT",
+          "title": "« CosmosEscape » : une faille d'Azure Cosmos DB exposait une clé valable sur toute la plateforme",
+          "url": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
+          "publishedAt": "2026-07-30",
+          "summary": "Des chercheurs ont détaillé CosmosEscape, une vulnérabilité du moteur de requêtes Gremlin d'Azure Cosmos DB permettant de s'évader du bac à sable et d'atteindre les bases de n'importe quel locataire. La chaîne d'exploitation démarre par une requête forgée contre une base Gremlin contrôlée par l'attaquant, aboutit à l'exécution de code sur les serveurs de passerelle multi-tenants, puis expose un secret de signature valable sur toute la plateforme ainsi qu'un annuaire régional des comptes — de quoi récupérer la clé primaire de n'importe quel client. La faille exploitait des restrictions de bac à sable ignorant les capacités de réflexion .NET. Signalée à Microsoft en novembre 2025, l'entrée vulnérable a été bloquée en 48 heures et la remédiation achevée dans toutes les régions en juillet 2026. Microsoft dit n'avoir constaté aucun impact client. Détails complets attendus à Black Hat USA le 6 août."
+        },
+        {
+          "category": "IT",
+          "title": "JetBrains corrige une faille critique de TeamCity permettant l'exécution de code à distance",
+          "url": "https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/",
+          "publishedAt": "2026-07-30",
+          "summary": "JetBrains a divulgué CVE-2026-63077, une vulnérabilité critique de contournement d'authentification menant à l'exécution de code arbitraire dans TeamCity On-Premises. Un attaquant disposant d'un accès HTTPS peut détourner le protocole de polling des agents pour exécuter des commandes système, ce qui expose données sensibles, configurations, identifiants et l'ensemble de la chaîne CI/CD. Toutes les versions On-Premises sont concernées ; les correctifs sont livrés dans les versions 2025.11.7 et 2026.1.3, avec un plugin de sécurité disponible pour les installations depuis 2017.1. Le problème a été signalé en privé le 10 juillet et corrigé le 27. Aucune exploitation n'était constatée à la publication, mais TeamCity a un lourd passif d'attaques par des groupes de rançongiciels et des acteurs étatiques : le correctif est prioritaire."
+        },
+        {
+          "category": "IT",
+          "title": "VMware : Broadcom corrige une évasion de machine virtuelle critique sur ESXi et deux failles vCenter",
+          "url": "https://www.securityweek.com/critical-vm-escape-vulnerability-patched-in-vmware-esxi/",
+          "publishedAt": "2026-07-29",
+          "summary": "Broadcom a publié des correctifs pour cinq vulnérabilités touchant ESXi, vCenter, Workstation et Fusion, dont trois critiques. CVE-2026-47876 est une écriture hors limites dans l'adaptateur VMXNET3 d'ESXi : un attaquant disposant de privilèges administrateur locaux sur une machine virtuelle peut exécuter du code arbitraire sur l'hôte, soit une évasion complète. CVE-2026-59309 permet un contournement d'authentification sur vCenter et CVE-2026-59310 une exécution de code à distance. S'y ajoutent CVE-2026-41703 (gravité élevée, divulgation d'informations ou déni de service sur ESXi, Workstation et Fusion) et CVE-2026-41709 (faible, élévation de privilèges contournant la journalisation). Aucune exploitation n'est confirmée à ce stade, mais les failles VMware sont historiquement armées très rapidement : le déploiement des mises à jour doit être prioritaire."
+        },
+        {
+          "category": "IT",
+          "title": "Ruflo : une faille MCP notée 10/10 ouvrait un shell distant et permettait d'empoisonner la mémoire des agents",
+          "url": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
+          "publishedAt": "2026-07-29",
+          "summary": "Baptisée RufRoot, CVE-2026-59726 atteint le score maximal de 10.0. Elle affecte Ruflo, plateforme d'orchestration d'agents pour Claude et OpenAI Codex, dans toutes les versions antérieures à 3.16.3. En cause : un pont Model Context Protocol exposé par défaut sur le port 3001, à l'écoute sur toutes les interfaces réseau. Un attaquant distant non authentifié pouvait invoquer tools/call puis terminal_execute pour obtenir un shell dans le conteneur, lire toutes les clés d'API des fournisseurs, consulter les conversations des utilisateurs et injecter des données dans la mémoire des agents. Le mainteneur a publié la version corrective en 24 heures après la divulgation responsable du 30 juin, avec authentification, écoute sur la boucle locale et authentification MongoDB. Recommandations : fermer les ports 3001 et 27017, faire tourner les clés LLM, auditer la base."
+        },
+        {
+          "category": "IT",
+          "title": "Amazon attribue les attaques sur les paquets npm debug, chalk et axios à des hackers nord-coréens",
+          "url": "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/",
+          "publishedAt": "2026-07-30",
+          "summary": "Amazon rattache, avec un niveau de confiance moyen, plusieurs compromissions majeures de l'écosystème npm au groupe nord-coréen Sapphire Sleet (alias BlueNoroff, Stardust Chollima) : typo-crypto en mars 2025, debug et chalk en septembre 2025 — qui ont touché environ 10 % des environnements cloud en deux heures — et axios en mars 2026, un paquet à plus de 100 millions de téléchargements hebdomadaires. Le mode opératoire repose sur l'ingénierie sociale des mainteneurs, suivie de la publication de mises à jour piégées automatiquement distribuées. Le rapport décrit des tactiques en évolution : fragmentation du code malveillant entre plusieurs paquets, construction préalable d'une réputation, découplage du comportement malveillant du contenu du paquet, chiffrement renforcé et « slopsquatting » — l'enregistrement de noms de paquets hallucinés par les assistants de code IA. Amazon investit 12,5 millions dans l'initiative Akrites."
+        },
+        {
+          "category": "IT",
+          "title": "Rails : une faille critique permet de lire les fichiers du serveur via un simple téléversement d'image",
+          "url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+          "publishedAt": "2026-07-29",
+          "summary": "CVE-2026-66066 (CVSS 9.5) permet à un attaquant non authentifié de lire des fichiers arbitraires sur un serveur Rails au moyen d'images spécialement forgées. L'avis précise que la faille peut exposer l'environnement du processus Rails et des secrets tels que secret_key_base, la clé maître, les mots de passe de base de données, les identifiants de stockage cloud et des jetons d'API. Sont concernées les versions 7.0.0 à 7.2.3.1, 8.0.0 à 8.0.5 et 8.1.0 à 8.1.3, à condition que l'application utilise libvips pour le traitement d'images d'Active Storage et accepte des téléversements d'utilisateurs non fiables. Il faut passer en 7.2.3.2, 8.0.5.1 ou 8.1.3.1 — ce qui exige libvips 8.13 ou plus récent — puis faire tourner tous les secrets lisibles par le processus applicatif."
+        },
+        {
+          "category": "IT",
+          "title": "Chrome 151 corrige 370 vulnérabilités, dont sept critiques",
+          "url": "https://www.securityweek.com/chrome-151-patches-370-vulnerabilities/",
+          "publishedAt": "2026-07-30",
+          "summary": "Google a publié Chrome 151 avec un total inhabituel de 370 correctifs de sécurité : 7 failles critiques, 71 de gravité élevée, 170 moyennes et 122 faibles. Les problèmes critiques comprennent quatre use-after-free dans Compositing, Views, Skia et Ozone, deux défauts de validation insuffisante dans Dawn et ANGLE, et une condition de course dans Updater. Trente vulnérabilités touchent ANGLE, le backend WebGL open source utilisé par Chrome pour tout le rendu graphique. Google a identifié 349 de ces failles en interne ; les chercheurs externes en ont rapporté 21 et ont reçu 58 500 dollars de primes. Le navigateur cumule ainsi plus de 1 800 vulnérabilités corrigées depuis janvier 2026. Les versions distribuées sont 151.0.7922.71/.72 sous Windows et macOS, et 151.0.7922.71 sous Linux."
+        },
+        {
+          "category": "IT",
+          "title": "Kubernetes : vérifier la chaîne d'approvisionnement au runtime grâce à Node Resource Interface",
+          "url": "https://www.cncf.io/blog/2026/07/30/runtime-supply-chain-verification-using-the-node-resource-interface-nri/",
+          "publishedAt": "2026-07-30",
+          "summary": "Sascha Grunert détaille sur le blog de la CNCF une approche de vérification de la chaîne d'approvisionnement des conteneurs qui ne s'arrête pas à la couche API de Kubernetes. Les outils habituels — webhooks d'admission comme Kyverno, OPA Gatekeeper ou Sigstore Policy Controller — valident signatures et politiques au moment de l'admission, mais laissent une fenêtre entre la décision et l'exécution effective sur le nœud. L'article montre comment s'appuyer sur Node Resource Interface (NRI), le point d'extension des runtimes de conteneurs, pour porter la vérification jusqu'au démarrage du conteneur sur le nœud lui-même. Un sujet directement utile aux équipes plateforme qui cherchent à durcir leurs clusters après la vague d'attaques sur les dépendances open source."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Bras de fer au sommet du football mondial : les 55 fédérations de l'UEFA ont voté à l'unanimité contre le projet d'Infantino d'ouvrir la Coupe du monde à des investisseurs privés via l'entité « FIFA Forward Enterprise », menaçant de boycotter les futures éditions, tandis que la Concacaf rejetait elle aussi le plan.",
+          "publishedAt": "2026-07-30"
+        },
+        {
+          "headline": "VTT, championnats d'Europe de Monteceneri (Tessin) : la Suisse a ouvert son compteur avec trois médailles en short-track, l'or pour Sina Frei, l'argent pour Alessandra Keller et le bronze pour Dario Lillo.",
+          "publishedAt": "2026-07-30"
+        },
+        {
+          "headline": "Football, Conference League : le FC Lugano a validé sa qualification en écrasant 5-1 le KF Dukagjini au Kosovo, avec un doublé de Behrens, après son succès 1-0 à l'aller.",
+          "publishedAt": "2026-07-29"
+        }
+      ]
+    }
+  ]
+}
