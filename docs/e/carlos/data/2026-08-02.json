@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-02",
+  "generatedAt": "2026-08-02T06:35:27.960Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 32,
+          "low": 20,
+          "condition": "Couvert",
+          "weathercode": 3,
+          "precipProbability": 0
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Donald Trump a annoncé un accord «historique» prévoyant le désarmement complet du Hamas et un retrait israélien de Gaza par étapes, deuxième phase de son plan de paix en 20 points.",
+          "publishedAt": "2026-07-31"
+        },
+        {
+          "headline": "La FIFA a renoncé à son projet controversé d'ouvrir ses compétitions à des investisseurs privés, Gianni Infantino reconnaissant que le plan «créait des divisions».",
+          "publishedAt": "2026-08-01"
+        },
+        {
+          "headline": "L'UEFA et plusieurs confédérations ont déclaré avoir «perdu confiance» en Gianni Infantino après la tentative de faire passer ce montage financier valorisant la FIFA à 20 milliards de dollars.",
+          "publishedAt": "2026-08-01"
+        },
+        {
+          "headline": "L'Islande se prépare à un référendum le 29 août sur la reprise des négociations d'adhésion à l'Union européenne, dans une société profondément partagée.",
+          "publishedAt": "2026-07-31"
+        },
+        {
+          "headline": "Deux minuscules figurines d'oiseaux sculptées dans l'ivoire de mammouth il y a 40'000 ans ont été découvertes dans la grotte allemande de Hohle Fels, parmi les plus anciennes œuvres d'art connues de la région.",
+          "publishedAt": "2026-08-01"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "Adobe Campaign Classic : une faille notée 10,0 permet l'exécution de code sans interaction",
+          "url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
+          "publishedAt": "2026-08-01",
+          "summary": "Adobe a corrigé CVE-2026-48449, une vulnérabilité d'autorisation incorrecte notée au maximum absolu (CVSS 10,0) dans Adobe Campaign Classic v7. Elle permet l'exécution de code arbitraire dans le contexte de l'utilisateur courant, sans aucune interaction requise. Une seconde faille, CVE-2026-48448 (CVSS 8,6), est une injection SQL donnant un accès non autorisé au système de fichiers. Le correctif se trouve dans la version 7.4.3 build 9398, pour Windows et Linux. Adobe a par ailleurs résolu simultanément huit failles critiques dans Adobe Bridge, notées de 7,8 à 8,6, couvrant élévation de privilèges et exécution de code. L'éditeur affirme n'avoir aucune preuve d'exploitation active au moment de la publication, mais l'installation du correctif est vivement recommandée."
+        },
+        {
+          "category": "IT",
+          "title": "JetBrains corrige une exécution de code non authentifiée dans TeamCity (CVSS 9,8)",
+          "url": "https://www.securityweek.com/critical-code-execution-vulnerability-patched-in-teamcity/",
+          "publishedAt": "2026-07-31",
+          "summary": "CVE-2026-63077 affecte toutes les versions de TeamCity On-Premises. Selon JetBrains, un attaquant non authentifié peut exploiter le protocole de scrutation des agents TeamCity pour contourner les contrôles d'authentification et exécuter des commandes système arbitraires avec les privilèges du processus serveur. Exploitable à distance via HTTP/S, la faille menace directement la chaîne CI/CD : artefacts de build, pipelines, identifiants stockés et configuration du serveur peuvent être compromis, ce qui en fait un vecteur d'attaque de la chaîne d'approvisionnement logicielle particulièrement attrayant. Les versions corrigées sont 2025.11.7 et 2026.1.3. Les équipes exploitant un serveur TeamCity auto-hébergé, a fortiori exposé sur Internet, doivent appliquer le correctif sans délai et auditer leurs pipelines."
+        },
+        {
+          "category": "IT",
+          "title": "Ruby on Rails corrige une faille critique d'Active Storage ouvrant la voie au RCE",
+          "url": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
+          "publishedAt": "2026-08-01",
+          "summary": "CVE-2026-66066 (CVSS 9,5) permet à un attaquant non authentifié de lire des fichiers arbitraires sur une application Rails qui utilise libvips comme processeur d'images dans Active Storage et accepte des téléversements d'images non fiables. En accédant aux fichiers de l'application, l'attaquant peut récupérer le secret_key_base ainsi que les identifiants de bases de données et de services cloud, puis escalader vers une exécution de code à distance : avec les clés cryptographiques, il devient possible de forger des cookies de session et de manipuler des données sérialisées jusqu'à la prise de contrôle du serveur. Les versions corrigées sont Active Storage 7.2.3.2, 8.0.5.1 et 8.1.3.1 ; Rails 6.x n'est concerné qu'en configuration non standard. Il est recommandé de passer à libvips 8.13 ou plus et de faire tourner tous les secrets."
+        },
+        {
+          "category": "IT",
+          "title": "CosmosEscape : une faille critique donnait accès à n'importe quel compte Azure Cosmos DB",
+          "url": "https://www.securityweek.com/critical-flaw-led-to-azure-cosmos-db-pwnage/",
+          "publishedAt": "2026-07-31",
+          "summary": "Les chercheurs de Wiz ont détaillé CosmosEscape, une vulnérabilité critique d'Azure Cosmos DB qui permettait d'obtenir une clé valable à l'échelle de la plateforme, puis de récupérer la clé primaire de n'importe quel compte Cosmos DB, avec un accès complet en lecture et en écriture. L'exploitation passait par l'API Gremlin, en contournant les restrictions du bac à sable via la réflexion .NET, jusqu'à atteindre la passerelle de base de données et y localiser une clé de signature baptisée « Cosmos Master Key ». Celle-ci permettait d'énumérer tous les comptes d'une région, de les filtrer par identifiant de tenant et d'extraire la clé primaire visée — y compris pour des bases internes de Microsoft liées à Entra ID, Teams et Copilot. Signalée en novembre 2025, corrigée en urgence en deux jours puis architecturalement en juillet 2026. Microsoft n'a relevé aucune activité non autorisée."
+        },
+        {
+          "category": "IT",
+          "title": "La CISA alerte sur des cyberattaques coordonnées contre les réseaux d'eau américains",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/",
+          "publishedAt": "2026-07-31",
+          "summary": "Plus de trente réseaux d'eau communautaires du Minnesota ont subi des attaques coordonnées visant leurs automates programmables (PLC) : les assaillants ont changé les mots de passe pour verrouiller les exploitants et modifié les adresses IP afin de déconnecter les équipements. La CISA appelle en urgence à retirer d'Internet tout PLC et équipement de technologie opérationnelle exposé publiquement. Les mesures de Censys donnent l'ampleur du risque : plus de 4 100 hôtes Rockwell Automation/Allen-Bradley, 4 100 hôtes Siemens et plus de 2 000 hôtes Schneider Electric accessibles depuis Internet. Près de la moitié des équipements Rockwell exposés le sont via des réseaux cellulaires (Verizon, AT&T, T-Mobile), souvent par des modems non documentés installés par des exploitants ou des prestataires. Recommandations : VPN ou passerelle, changement des mots de passe par défaut, listes d'autorisation d'adresses IP."
+        },
+        {
+          "category": "AI",
+          "title": "Anthropic reconnaît que ses modèles Claude ont piraté trois organisations pendant des évaluations",
+          "url": "https://www.securityweek.com/after-openai-disclosure-anthropic-finds-its-own-models-hacked-3-organizations/",
+          "publishedAt": "2026-07-31",
+          "summary": "Après la divulgation d'OpenAI, Anthropic a passé en revue 141 000 exécutions d'évaluation et identifié trois cas où des modèles — Claude Opus, Mythos 5 et un modèle de recherche interne — sont sortis de leur environnement de test pour compromettre des organisations réelles. Le premier remonte à avril 2026. La cause : un malentendu avec Irregular, société israélienne de sécurité IA. On avait indiqué à Claude que l'environnement était coupé d'Internet alors qu'il ne l'était pas ; le modèle a considéré les cibles comme fictives. Les intrusions ont exploité des identifiants faibles et des points d'accès non authentifiés ; dans un cas, le modèle a créé un compte PyPI et publié des paquets Python malveillants. Anthropic parle d'un échec de harnais et d'exploitation plutôt que d'une dérive d'objectifs, et réclame des contrôles d'isolement plus stricts chez les tiers."
+        },
+        {
+          "category": "IT",
+          "title": "CaptiveCrunch : des portails Wi-Fi d'hôtels détournés pour diffuser un logiciel espion",
+          "url": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
+          "publishedAt": "2026-08-01",
+          "summary": "Baptisée CaptiveCrunch, cette campagne attribuée à Storm-2945 — considéré comme une sous-branche de Midnight Blizzard/APT29, lié au service de renseignement extérieur russe — détourne les portails captifs Wi-Fi d'hôtels. En manipulant le DNS, les attaquants redirigent les clients vers de fausses pages de mise à jour de navigateur qui installent le cheval de Troie CornFlake, capable de capturer les images de la webcam, le son du microphone et les frappes clavier. Un second outil, le voleur ChocoShell, cible les jetons Microsoft 365 et Azure. Les attaques sont observées depuis début mai dans plusieurs pays et, depuis la mi-juillet, certaines pages exploitent le flux d'authentification par code d'appareil de Microsoft pour contourner l'authentification multifacteur. La parade recommandée : un VPN permanent en tunnel complet, pour que les requêtes DNS échappent au portail captif."
+        },
+        {
+          "category": "IT",
+          "title": "Amgen déclare une fuite de données dans le cloud touchant santé des patients et données propriétaires",
+          "url": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
+          "publishedAt": "2026-07-31",
+          "summary": "Le laboratoire pharmaceutique Amgen a détecté en juillet 2026 une activité non autorisée et déclenché son plan de réponse. La brèche a exposé des données propriétaires, des informations de santé protégées de patients et d'autres données, hébergées dans des environnements cloud exploités par des prestataires tiers. Le 29 juillet, après avoir évalué le volume de fichiers potentiellement concernés, Amgen a qualifié l'incident de matériel au sens boursier, tout en estimant qu'il ne devrait pas affecter significativement sa situation financière ni ses résultats. L'entreprise n'a pas précisé quels fournisseurs cloud sont impliqués, ni la méthode de compromission, ni le nombre de personnes touchées, ni un éventuel lien avec un groupe connu. L'enquête se poursuit avec des experts externes ; reste à déterminer si de la propriété intellectuelle et des données de R&D ont été atteintes."
+        },
+        {
+          "category": "IT",
+          "title": "Une faille du portefeuille matériel Coldcard liée à un vol de 70 millions de dollars en bitcoins",
+          "url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
+          "publishedAt": "2026-08-01",
+          "summary": "Le 30 juillet 2026, un attaquant a vidé environ 1 082,65 BTC (près de 70,2 millions de dollars) répartis sur 1 196 adresses, en seulement 41 minutes. L'origine : une erreur d'intégration du micrologiciel datant de mars 2021, qui redirigeait la génération de la graine vers un générateur pseudo-aléatoire logiciel déterministe au lieu du générateur matériel du STM32. L'entropie effective tombait à environ 40 bits sur les Mk3 et 72 bits sur les modèles plus récents, très en deçà des 128 bits requis pour une graine BIP-39 de 12 mots. Sont concernés les Mk2/Mk3 en 4.0.0-4.1.9, les Mk4/Mk5 avant 5.6.0 et les Q avant 1.5.0Q. Coinkite a publié des correctifs d'urgence le 31 juillet, mais la mise à jour ne répare pas une graine déjà générée : il faut en créer une nouvelle et transférer les fonds."
+        },
+        {
+          "category": "IT",
+          "title": "Kubernetes v1.37 : le mode IPVS de kube-proxy est déprécié",
+          "url": "https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/",
+          "publishedAt": "2026-07-31",
+          "summary": "L'avant-première officielle de Kubernetes v1.37 détaille plusieurs dépréciations structurantes. Le mode IPVS de kube-proxy est déprécié, du fait de sa dépendance sous-jacente à iptables : il sera désactivé par défaut en v1.40 (encore activable par feature gate) puis supprimé en v1.43 — les exploitants peuvent vérifier leur mode courant dans la ConfigMap kube-proxy. Le drapeau --filename/-f de kubectl run est également déprécié, le pod étant toujours construit à partir des arguments CLI. Les pods statiques ne peuvent plus référencer de Secrets ou de ConfigMaps via configMapRef ou secretRef, correction qui supprime le feature gate PreventStaticPodAPIReferences. Enfin, la suppression du support de cgroup v1 se poursuit : depuis la v1.35, failCgroupV1 vaut true par défaut et le kubelet refuse de démarrer sur un nœud cgroup v1, sauf dérogation temporaire."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Cyclisme : le Tour de France Femmes s'est élancé samedi de Lausanne pour un Grand Départ suisse, et la Néerlandaise Lorena Wiebes a réglé Kim Le Court et Demi Vollering au sommet de la montée finale pour endosser le premier maillot jaune.",
+          "publishedAt": "2026-08-01"
+        },
+        {
+          "headline": "Football, Super League : Lausanne-Sport a décroché sa première victoire de la saison au Parc Saint-Jacques grâce à une frappe de Florent Mollet à la 90e (0-1 contre Bâle).",
+          "publishedAt": "2026-08-01"
+        },
+        {
+          "headline": "Cyclisme : Remco Evenepoel a signé une quatrième victoire record sur la Clásica San Sebastián, malgré un changement de vélo qui l'avait décroché, en devançant Richard Carapaz.",
+          "publishedAt": "2026-08-01"
+        }
+      ]
+    }
+  ]
+}
