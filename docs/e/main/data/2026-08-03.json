@@ -77,6 +77,14 @@
       "summary": "Wall Street a bouclé un mois de juillet agité sur une note franchement positive, portée par les résultats d'Amazon et les valeurs technologiques, tandis que l'Europe terminait la séance quasi étale et que la Bourse suisse cédait un peu de terrain.",
       "indices": [
         {
+          "name": "Nasdaq",
+          "changePct": 1
+        },
+        {
+          "name": "Dow Jones",
+          "changePct": 0.53
+        },
+        {
           "name": "SMI",
           "changePct": -0.32
         },
