@@ -76,6 +76,56 @@ test('selectIndices reports an index name that did not match the bucket', () => 
   assert.deepEqual(selectIndices(s, MARKETS_BUCKET).missing, ['Nasdaq Composite']);
 });
 
+// The collector answers a request for "Nasdaq" with the formal "Nasdaq
+// Composite", which exact matching dropped: main's markets section published
+// 2 of its 4 indices every day from 2026-07-29 to 2026-08-03 while the data
+// sat in the bucket. The requested name is also what gets displayed, so the
+// compact index strip stays compact whatever wording the collector chose.
+const FORMAL_BUCKET = {
+  bucketId: 'markets', date: DATE, collectedAt: 'x', asOf: 'clôture du 27', summary: 'Calme.',
+  indices: [
+    { name: 'Nasdaq Composite', changePct: 1.0 },
+    { name: 'Dow Jones Industrial Average', changePct: 0.53 },
+    { name: 'SMI', changePct: -0.32 },
+  ],
+};
+
+test('selectIndices matches a formal index name against the short requested one', () => {
+  const s = { topic: 'markets', params: { indices: ['Nasdaq', 'Dow Jones', 'SMI'] } };
+  const out = selectIndices(s, FORMAL_BUCKET);
+  assert.deepEqual(out.missing, []);
+  assert.deepEqual(out.indices.map((i) => i.name), ['Nasdaq', 'Dow Jones', 'SMI']);
+  assert.deepEqual(out.indices.map((i) => i.changePct), [1.0, 0.53, -0.32]);
+});
+
+test('selectIndices reports each name it had to match loosely', () => {
+  const s = { topic: 'markets', params: { indices: ['Nasdaq', 'SMI'] } };
+  const out = selectIndices(s, FORMAL_BUCKET);
+  assert.deepEqual(out.loose, [{ requested: 'Nasdaq', found: 'Nasdaq Composite' }]);
+});
+
+test('selectIndices ignores case and accents when matching', () => {
+  const bucket = { ...FORMAL_BUCKET, indices: [{ name: 'EURO STOXX 50', changePct: 0.21 }] };
+  const out = selectIndices({ topic: 'markets', params: { indices: ['Euro Stoxx 50'] } }, bucket);
+  assert.deepEqual(out.missing, []);
+  assert.equal(out.indices[0].changePct, 0.21);
+});
+
+test('selectIndices does not match a different index sharing a prefix word', () => {
+  const bucket = { ...FORMAL_BUCKET, indices: [{ name: 'SMIC', changePct: 1 }] };
+  const out = selectIndices({ topic: 'markets', params: { indices: ['SMI'] } }, bucket);
+  assert.deepEqual(out.missing, ['SMI']);
+});
+
+test('selectIndices prefers an exact match over a longer loose one', () => {
+  const bucket = { ...FORMAL_BUCKET, indices: [
+    { name: 'Nasdaq Composite', changePct: 1.0 }, { name: 'Nasdaq', changePct: 2.0 },
+  ] };
+  const out = selectIndices({ topic: 'markets', params: { indices: ['Nasdaq'] } }, bucket);
+  assert.equal(out.indices[0].changePct, 2.0);
+  assert.deepEqual(out.loose, []);
+});
+
 test('fallbackItems takes the top max in bucket order', () => {
   assert.deepEqual(fallbackItems({ max: 2 }, TECH_BUCKET).map((i) => i.title), ['t1', 't2']);
 });

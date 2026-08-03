@@ -35,6 +35,16 @@ test('collect prompt substitutes date, house rules, research text and output pat
 // The cap is a validation boundary, not a writing target. Asking for the cap
 // produced summaries at 141-154 words against a 150 cap for days running, so
 // the prompt aims at summaryTargetWords and leaves the rest as headroom.
+// Left to itself the collector answers "Nasdaq" with "Nasdaq Composite", which
+// compose then has to match loosely. Asking for the names verbatim fixes it at
+// the source; the loose match stays as the safety net.
+test('collect prompt asks for the requested index names verbatim', () => {
+  const bucket = { id: 'markets', kind: 'dataset', hints: [], params: { indices: ['Nasdaq', 'SMI'] } };
+  const p = buildCollectPrompt({ ...args(MARKETS, bucket), topic: MARKETS, bucket });
+  assert.match(p, /Nasdaq, SMI/);
+  assert.match(p, /exactement|EXACTEMENT/, 'le nom demandé doit être repris tel quel');
+});
+
 test('collect prompt aims at the target length and still names the hard cap', () => {
   const topic = { ...TECH, summaryTargetWords: 120 };
   const p = buildCollectPrompt(args(topic, { id: 'tech', kind: 'topic', size: 30, hints: [], params: {} }));
