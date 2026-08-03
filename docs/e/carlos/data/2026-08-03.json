@@ -1,0 +1,73 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-03",
+  "generatedAt": "2026-08-03T03:09:30.587Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 35,
+          "low": 23,
+          "condition": "Couvert",
+          "weathercode": 3,
+          "precipProbability": 20
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Donald Trump a annulé les frappes prévues contre l'Iran à la demande de l'Arabie saoudite, des Émirats et du Qatar, et annoncé la reprise des négociations dès lundi.",
+          "publishedAt": "2026-08-02"
+        },
+        {
+          "headline": "Téhéran a indiqué que ses discussions avec Oman sur la réouverture du détroit d'Ormuz étaient « en phase finale », un accord de principe prévoyant la levée totale du blocage maritime.",
+          "publishedAt": "2026-08-02"
+        },
+        {
+          "headline": "Les obligations de transparence du règlement européen sur l'intelligence artificielle sont entrées en application le 2 août : signalement des chatbots, marquage des contenus générés par IA et étiquetage des hypertrucages.",
+          "publishedAt": "2026-08-02"
+        },
+        {
+          "headline": "Washington a annoncé vouloir intensifier ses efforts pour relancer les pourparlers de paix entre Moscou et Kiev.",
+          "publishedAt": "2026-08-02"
+        },
+        {
+          "headline": "Le Rhin est descendu à son niveau le plus bas jamais mesuré à Cologne, 68 centimètres, réduisant fortement les capacités de fret fluvial en Allemagne.",
+          "publishedAt": "2026-08-02"
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Tour de France Femmes : Lorena Wiebes s'impose au sprint à Genève au terme de la 2e étape partie d'Aigle et conserve le maillot jaune, la Suissesse Noemi Rüegg terminant 8e et pointant au 4e rang du général à 20 secondes.",
+          "publishedAt": "2026-08-02"
+        },
+        {
+          "headline": "Cyclisme : Remco Evenepoel remporte la Clásica San Sebastián devant Richard Carapaz et devient recordman de l'épreuve avec une quatrième victoire.",
+          "publishedAt": "2026-08-01"
+        },
+        {
+          "headline": "Super League : Young Boys écrase Thoune 6-0 au Stockhorn Arena, avec un doublé d'Essende et des buts de Monteiro, Blum, Fernandes et Imeri.",
+          "publishedAt": "2026-08-01"
+        }
+      ]
+    }
+  ]
+}

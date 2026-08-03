@@ -1,0 +1,90 @@
+{
+  "edition": "main",
+  "title": "Briefing du matin",
+  "date": "2026-08-03",
+  "generatedAt": "2026-08-03T03:09:21.699Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Genève",
+          "high": 37,
+          "low": 20,
+          "condition": "Orage",
+          "weathercode": 96,
+          "precipProbability": 33
+        },
+        {
+          "name": "Lausanne",
+          "high": 35,
+          "low": 22,
+          "condition": "Orage",
+          "weathercode": 95,
+          "precipProbability": 25
+        }
+      ]
+    },
+    {
+      "topic": "swiss",
+      "label": "La Suisse en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Le Tour de France Femmes a bouclé son Grand Départ suisse par une deuxième étape entre Aigle et Genève, remportée au sprint sur les quais du Mont-Blanc par la Néerlandaise Lorena Wiebes, qui conserve le maillot jaune.",
+          "publishedAt": "2026-08-02"
+        },
+        {
+          "headline": "Lausanne et le comité d'organisation tirent un bilan « très positif » du Grand Départ suisse du Tour de France Femmes, avec une ferveur populaire massive et aucun incident sécuritaire.",
+          "publishedAt": "2026-08-02"
+        },
+        {
+          "headline": "Triplé suisse historique chez les moins de 23 ans aux Européens de VTT du Monte Ceneri, avec la victoire d'Annina Hutter devant Fiona Schibler et la Neuchâteloise Elina Benoit.",
+          "publishedAt": "2026-08-02"
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Donald Trump a annulé les frappes prévues contre l'Iran à la demande de l'Arabie saoudite, des Émirats et du Qatar, et annoncé la reprise des négociations dès lundi.",
+          "publishedAt": "2026-08-02"
+        },
+        {
+          "headline": "Les obligations de transparence du règlement européen sur l'intelligence artificielle sont entrées en application le 2 août : signalement des chatbots, marquage des contenus générés par IA et étiquetage des hypertrucages.",
+          "publishedAt": "2026-08-02"
+        },
+        {
+          "headline": "Les Jeux du Commonwealth se sont clos à Glasgow après onze jours de compétition, l'Australie dominant le tableau des médailles avec 70 titres et 170 podiums, avant la passation à Ahmedabad pour 2030.",
+          "publishedAt": "2026-08-02"
+        }
+      ]
+    },
+    {
+      "topic": "markets",
+      "label": "Marchés",
+      "kind": "dataset",
+      "asOf": "clôture du 31 juillet 2026",
+      "summary": "Wall Street a bouclé un mois de juillet agité sur une note franchement positive, portée par les résultats d'Amazon et les valeurs technologiques, tandis que l'Europe terminait la séance quasi étale et que la Bourse suisse cédait un peu de terrain.",
+      "indices": [
+        {
+          "name": "SMI",
+          "changePct": -0.32
+        },
+        {
+          "name": "Euro Stoxx 50",
+          "changePct": 0.21
+        }
+      ]
+    }
+  ]
+}
