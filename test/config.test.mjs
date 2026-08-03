@@ -83,6 +83,16 @@ test('loadConfig rejects an unknown topic kind', () => {
   assert.throws(() => loadConfig(root), /bizarre/);
 });
 
+// A target above the cap would ask the collector for summaries that validation
+// is guaranteed to discard, so the contradiction has to fail at load time.
+test('loadConfig rejects a summary target above the hard cap', () => {
+  const root = tmpConfig({
+    topics: { tech: { ...TECH, summaryTargetWords: 200 } },
+    editions: { main: { id: 'main', title: 'M', sections: [{ topic: 'tech', max: 5 }] } },
+  });
+  assert.throws(() => loadConfig(root), /summaryTargetWords/);
+});
+
 test('the real config/ tree loads without errors', () => {
   // fileURLToPath, not URL.pathname: the repo path contains a space, which
   // pathname leaves percent-encoded and readdirSync then fails to find.

@@ -28,7 +28,57 @@ test('countWords counts whitespace-separated words', () => {
 });
 
 test('a well-formed card bucket validates', () => {
-  assert.deepEqual(validateBucket(bucket(), TECH, '2026-07-28'), { valid: true, errors: [] });
+  const r = validateBucket(bucket(), TECH, '2026-07-28');
+  assert.equal(r.valid, true);
+  assert.deepEqual(r.errors, []);
+  assert.deepEqual(r.dropped, []);
+  assert.equal(r.data.items.length, 1);
+});
+
+// A bucket is an over-collected candidate pool (see OVERCOLLECT in plan.mjs),
+// not a publishable artefact: one malformed candidate must cost that candidate,
+// never the whole pool. On 2026-08-03 a single tech summary came in 4 words over
+// the 150-word cap and erased all 33 items from both editions.
+test('bucket drops a single invalid item and keeps the rest of the pool', () => {
+  const long = Array.from({ length: 151 }, (_, i) => `m${i}`).join(' ');
+  const items = [card({ title: 'A' }), card({ title: 'B', summary: long }), card({ title: 'C' })];
+  const r = validateBucket(bucket({ items }), TECH, '2026-07-28');
+
+  assert.equal(r.valid, true, 'the pool survives one bad candidate');
+  assert.deepEqual(r.errors, []);
+  assert.deepEqual(r.data.items.map((i) => i.title), ['A', 'C'], 'only the offender is removed');
+  assert.equal(r.dropped.length, 1);
+  assert.equal(r.dropped[0].index, 1);
+  assert.match(r.dropped[0].errors.join(' '), /150 mots/);
+});
+
+test('bucket drops stale, miscategorised and malformed candidates alike', () => {
+  const items = [
+    card({ title: 'ok' }),
+    card({ title: 'vieux', publishedAt: '2026-07-20' }),
+    card({ title: 'futur', publishedAt: '2026-07-29' }),
+    card({ title: 'categorie', category: 'Sport' }),
+    card({ title: 'url', url: 'ftp://x' }),
+  ];
+  const r = validateBucket(bucket({ items }), TECH, '2026-07-28');
+  assert.equal(r.valid, true);
+  assert.deepEqual(r.data.items.map((i) => i.title), ['ok']);
+  assert.equal(r.dropped.length, 4);
+});
+
+test('bucket stays invalid when every candidate is dropped, and says why', () => {
+  const long = Array.from({ length: 151 }, (_, i) => `m${i}`).join(' ');
+  const r = validateBucket(bucket({ items: [card({ summary: long })] }), TECH, '2026-07-28');
+  assert.equal(r.valid, false);
+  // The per-item reason must survive into the fatal message, or a bucket that
+  // fails wholesale becomes undiagnosable.
+  assert.match(r.errors.join(' '), /150 mots/);
+});
+
+test('a structural error is still fatal however many items are valid', () => {
+  const r = validateBucket(bucket({ bucketId: 'autre' }), TECH, '2026-07-28');
+  assert.equal(r.valid, false);
+  assert.match(r.errors.join(' '), /bucketId/);
 });
 
 test('bucket rejects an item older than the topic maxAgeDays', () => {

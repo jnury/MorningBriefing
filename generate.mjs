@@ -207,9 +207,15 @@ export function loadBucketsFromDisk(buckets, date, topics, root = ROOT) {
     if (!existsSync(path)) { results.set(b.id, { ok: false, error: `vivier absent: ${path}` }); continue; }
     try {
       const data = JSON.parse(readFileSync(path, 'utf8'));
-      const { valid, errors } = validateBucket(data, topics[b.id], date);
-      if (!valid) { results.set(b.id, { ok: false, error: errors.join(' | ') }); continue; }
-      results.set(b.id, { ok: true, data });
+      const validated = validateBucket(data, topics[b.id], date);
+      if (!validated.valid) { results.set(b.id, { ok: false, error: validated.errors.join(' | ') }); continue; }
+      for (const d of validated.dropped) {
+        log(`vivier ${b.id} — élément ${d.index} écarté (${d.errors.join(' ; ')})`);
+      }
+      // The on-disk bucket keeps every candidate the collector wrote; the
+      // filtered copy is what composes, so --recompose and a fresh collection
+      // hand composeEdition the same already-validated items.
+      results.set(b.id, { ok: true, data: validated.data });
     } catch (err) { results.set(b.id, { ok: false, error: err.message }); }
   }
   return results;
@@ -243,7 +249,7 @@ async function main() {
         : await collectAll(buckets, {
             root: ROOT, date, house: config.house, topics: config.topics,
             template: readFileSync(join(ROOT, 'prompts', 'collect.md'), 'utf8'),
-            concurrency: 4, runClaude: runClaudeCollect,
+            concurrency: 4, runClaude: runClaudeCollect, log,
           });
       const collectMs = Date.now() - collectStart;
 

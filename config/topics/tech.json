@@ -7,6 +7,7 @@
   "bucketMin": 30,
   "maxAgeDays": 2,
   "summaryMaxWords": 150,
+  "summaryTargetWords": 120,
   "research": "Actualités pertinentes en informatique (IT), science et intelligence artificielle, publiées la veille. Pour chaque élément : une `category` parmi celles autorisées, un `title`, l'`url` de la source PRIMAIRE, un `publishedAt` vérifié et un `summary` en français.",
   "sources": [
     "archives datées d'éditeurs (ex. techcrunch.com/2026/MM/JJ/)",

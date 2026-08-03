@@ -170,6 +170,42 @@ test('persists a researched bucket to disk so --recompose can reload it', async 
   assert.deepEqual(onDisk, results.get('world').data);
 });
 
+// The editor selects by reading the bucket FILE, while compose only accepts
+// items from the validated pool. If the file kept a candidate the pool had
+// dropped, the editor could spend one of its N slots on it and silently come
+// back with N-1 cards -- which is exactly what the 2026-08-03 recompose did.
+// Persisting the filtered pool keeps the file and the pool the same thing.
+test('persists the filtered pool so the editor never sees a dropped candidate', async () => {
+  const root = tmpRoot();
+  const long = Array.from({ length: 151 }, (_, i) => `m${i}`).join(' ');
+  const run = writingRunner(() => ({
+    bucketId: 'tech', date: DATE, collectedAt: 'x', shape: 'card',
+    items: [item(), { ...item(), title: 'trop long', summary: long }, item()],
+  }));
+  const buckets = [{ id: 'tech', kind: 'topic', size: 30, hints: [], params: {}, consumers: ['main'] }];
+  const results = await collectAll(buckets, ctx(root, run));
+
+  const result = results.get('tech');
+  assert.equal(result.ok, true);
+  assert.equal(result.data.items.length, 2);
+  const onDisk = JSON.parse(readFileSync(bucketPath(root, DATE, 'tech'), 'utf8'));
+  assert.deepEqual(onDisk, result.data, 'le fichier est le vivier validé');
+  assert.ok(!onDisk.items.some((i) => i.title === 'trop long'));
+});
+
+test('logs each dropped candidate so a drifting collector is visible', async () => {
+  const root = tmpRoot();
+  const long = Array.from({ length: 151 }, (_, i) => `m${i}`).join(' ');
+  const run = writingRunner(() => ({
+    bucketId: 'tech', date: DATE, collectedAt: 'x', shape: 'card',
+    items: [item(), { ...item(), summary: long }],
+  }));
+  const lines = [];
+  const buckets = [{ id: 'tech', kind: 'topic', size: 30, hints: [], params: {}, consumers: ['main'] }];
+  await collectAll(buckets, ctx(root, run, { log: (l) => lines.push(l) }));
+  assert.match(lines.join('\n'), /élément 1 écarté.*150 mots/);
+});
+
 test('marks a bucket failed when the run exits non-zero', async () => {
   const root = tmpRoot();
   const buckets = [{ id: 'tech', kind: 'topic', size: 50, hints: [], params: {}, consumers: ['main'] }];

@@ -32,6 +32,21 @@ test('collect prompt substitutes date, house rules, research text and output pat
   assert.ok(!p.includes('{{'), 'aucun placeholder ne doit subsister');
 });
 
+// The cap is a validation boundary, not a writing target. Asking for the cap
+// produced summaries at 141-154 words against a 150 cap for days running, so
+// the prompt aims at summaryTargetWords and leaves the rest as headroom.
+test('collect prompt aims at the target length and still names the hard cap', () => {
+  const topic = { ...TECH, summaryTargetWords: 120 };
+  const p = buildCollectPrompt(args(topic, { id: 'tech', kind: 'topic', size: 30, hints: [], params: {} }));
+  assert.match(p, /120 mots/);
+  assert.match(p, /150 mots/, 'le plafond dur reste énoncé');
+});
+
+test('collect prompt falls back to the cap when no target is configured', () => {
+  const p = buildCollectPrompt(args(TECH, { id: 'tech', kind: 'topic', size: 30, hints: [], params: {} }));
+  assert.match(p, /150 mots/);
+});
+
 test('collect prompt states the derived bucket size and the age limit', () => {
   const p = buildCollectPrompt(args(TECH, { id: 'tech', kind: 'topic', size: 50, hints: [], params: {} }));
   assert.match(p, /50/);
