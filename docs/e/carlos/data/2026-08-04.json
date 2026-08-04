@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-04",
+  "generatedAt": "2026-08-04T03:10:32.502Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 34,
+          "low": 23,
+          "condition": "Orage",
+          "weathercode": 96,
+          "precipProbability": 45
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "En Hongrie, le nouveau premier ministre Péter Magyar a démantelé en quelques mois le système bâti en seize ans par Viktor Orbán, la télévision publique allant jusqu'à présenter ses excuses à l'antenne : « Les médias publics ne peuvent pas mentir. »",
+          "publishedAt": "2026-08-03"
+        },
+        {
+          "headline": "Tour de France Femmes : la Norvégienne Sigrid Ytterhus Haugset s'impose sur la troisième étape entre Genève et Poligny et s'empare du maillot jaune avec plus de deux minutes d'avance.",
+          "publishedAt": "2026-08-03"
+        },
+        {
+          "headline": "Championnats d'Europe de sports aquatiques à Paris : le Britannique Ranjuo Tomblin décroche son quatrième titre en natation artistique, tandis que Vasilina Khandoshka remporte son premier titre européen en solo libre.",
+          "publishedAt": "2026-08-03"
+        },
+        {
+          "headline": "L'Espagne s'apprête à vivre le 12 août sa première éclipse solaire totale depuis plus d'un siècle, dont la bande de totalité traversera aussi l'Islande et le Groenland.",
+          "publishedAt": "2026-08-03"
+        },
+        {
+          "headline": "New York et Paris arrivent en tête de l'indice mondial d'attractivité touristique urbaine 2026, qui valorise désormais l'expérience vécue et la notoriété plutôt que le seul nombre de visiteurs.",
+          "publishedAt": "2026-08-03"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "Attaques sur les réseaux d'eau : la Géorgie et le Michigan rejoignent la liste des États touchés",
+          "url": "https://www.theregister.com/security/2026/08/03/georgia-michigan-say-water-systems-hacked-by-iran-tied-crew/5282262",
+          "publishedAt": "2026-08-03",
+          "summary": "La Géorgie et le Michigan portent à au moins neuf le nombre d'États américains visés par une campagne coordonnée contre des réseaux d'eau. Plus de trente sites du Minnesota avaient été ciblés les 26 et 27 juillet, et neuf systèmes d'eau du Michigan signalent une activité hostile. Aucune perturbation opérationnelle ni conséquence sanitaire n'est rapportée. Les attaques visent des automates programmables Rockwell Automation/Allen-Bradley, le FBI avertissant que des équipements Schneider Electric et Siemens sont également dans le viseur d'acteurs liés à l'Iran, en particulier le groupe CyberAv3ngers rattaché aux Gardiens de la révolution. Le FBI n'a pas attribué publiquement la campagne. Ni la Géorgie ni le Michigan n'ont publié de communication officielle, se contentant de confirmer les faits à la presse."
+        },
+        {
+          "category": "IT",
+          "title": "« Pass-ta-key » : trois attaques permettent à un malware de détourner les passkeys synchronisées par Google",
+          "url": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
+          "publishedAt": "2026-08-03",
+          "summary": "L'unité 42 de Palo Alto Networks détaille trois techniques visant les passkeys stockées dans Google Password Manager sur des machines Windows compromises. « Pass-ta-key » usurpe l'identité d'un appareil de confiance en s'appuyant sur la clé d'identité adossée au TPM de Chrome pour obtenir des réponses d'authentification valides, sans biométrie ni interaction. « Silver Pass-ta-key » enregistre une clé de vérification contrôlée par l'attaquant lors d'un réenrôlement, permettant de falsifier la preuve de vérification depuis un autre poste. « Golden Pass-ta-key », la plus grave, extrait de la mémoire de Chrome le secret du domaine de sécurité et déchiffre l'ensemble des passkeys synchronisées. Les tests ont réussi contre eBay. Google a retiré la clé maîtresse de ses journaux, mais elle reste lisible en mémoire."
+        },
+        {
+          "category": "IT",
+          "title": "Le Wi-Fi des hôtels transformé en vecteur d'attaque contre les comptes Microsoft 365",
+          "url": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
+          "publishedAt": "2026-08-03",
+          "summary": "Microsoft attribue la campagne « CaptiveCrunch » au groupe russe Midnight Blizzard (APT29), plus précisément au sous-ensemble Storm-2945. Les attaquants modifient les réglages DNS des équipements de portail captif d'hôtels et de centres de conférence pour rediriger les voyageurs vers des pages malveillantes : faux écrans de connexion Microsoft 365, hameçonnage par device code exploitant les flux Entra ID, et fausses invites de mise à jour du navigateur ou du système suivant la méthode ClickFix. Deux implants sont déployés : CornFlake, un cheval de Troie d'accès distant écrit en Go qui enregistre les frappes, vole des identifiants et assure la persistance, et ChocoShell, un voleur d'identifiants PowerShell en mémoire visant navigateurs et jetons d'authentification. La campagne est active depuis mai 2026."
+        },
+        {
+          "category": "IT",
+          "title": "Le rançongiciel INC devient l'acteur dominant sur les failles SonicWall SMA 1000",
+          "url": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
+          "publishedAt": "2026-08-03",
+          "summary": "Resecurity observe une accélération marquée du groupe INC Ransomware, qui exploite les CVE-2026-15409 et CVE-2026-15410 dans les boîtiers VPN SonicWall Secure Mobile Access série 1000, corrigés à la mi-juillet. Le groupe revendique désormais 885 victimes, dont une vague publiée entre le 17 juillet et le 1er août touchant des organisations privées et publiques en Australie, aux États-Unis, aux Émirats arabes unis, en Colombie et en Suisse. Rapid7 relève que les attaquants extraient identifiants à forte valeur, bases de sessions actives et graines de configuration TOTP, ce qui neutralise l'authentification multifacteur. Volexity fait remonter l'exploitation avant divulgation au 22 juin 2026, sous le nom de cluster UTA0533, avec le script Python KNUCKLEBALL, le proxy Suo5 et le webshell Java ORANGETAIL."
+        },
+        {
+          "category": "IT",
+          "title": "N-able : une faille d'authentification de N-central activement exploitée après un correctif incomplet",
+          "url": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
+          "publishedAt": "2026-08-03",
+          "summary": "N-able alerte sur la CVE-2026-18577, un contournement d'authentification critique de sa plateforme de supervision à distance N-central, né d'un correctif incomplet pour la CVE-2026-18576. La faille permet la prise de contrôle de comptes administrateurs sur les instances hébergées comme sur site, ce qui expose directement les prestataires de services managés et, en cascade, leurs clients. L'exploitation dans la nature a été constatée le 1er août 2026. Toutes les versions antérieures à 2026.3 sont concernées ; le correctif 2026.3.1.7 a été déployé automatiquement sur les déploiements hébergés, mais doit être installé manuellement sur site. Les indicateurs de compromission incluent un service « Cloudflared » enregistré et un svchost.exe placé dans les dossiers Documents, signe d'une persistance par tunnel Cloudflare."
+        },
+        {
+          "category": "IT",
+          "title": "Fuite de données de plus de 100 000 policiers britanniques après le piratage de la PNLD",
+          "url": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
+          "publishedAt": "2026-08-03",
+          "summary": "La Police National Legal Database, qui sert 43 forces de police d'Angleterre et du pays de Galles ainsi que la British Transport Police, a subi une intrusion détectée le 26 juillet 2026. Le groupe ExfilSquad revendique le vol de 1,9 Go de données, dont 114 000 fiches d'abonnés de la PNLD et 21 000 comptes du site « Ask the Police », soit 135 000 enregistrements de contact au total. Sont exposés les noms complets, organisations et adresses électroniques de policiers, de personnels et de professionnels de la justice pénale, ainsi que des utilisateurs ayant posé des questions en ligne. Aucun mot de passe ni information confidentielle sur des victimes, témoins ou délinquants ne serait concerné. Une rançon a été réclamée ; l'enquête associe la National Crime Agency et l'ICO."
+        },
+        {
+          "category": "IT",
+          "title": "Trois failles dans Hugging Face Diffusers permettent l'exécution de code depuis un dépôt de modèles",
+          "url": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
+          "publishedAt": "2026-08-03",
+          "summary": "Trois vulnérabilités de la bibliothèque Diffusers de Hugging Face permettent à un dépôt de modèles piégé d'exécuter discrètement du code arbitraire sur la machine qui le charge. La CVE-2026-44827 (CVSS 8,8) injecte du code via un pipeline nommé « None.py » qui contourne le réglage trust_remote_code=False ; la CVE-2026-44513 (CVSS 8,8) exploite le flux custom_pipeline malgré ce même réglage ; la CVE-2026-45804 (CVSS 7,5) est une condition de course permettant de modifier le code entre deux requêtes HTTP successives vers le Hub. Toutes les versions antérieures à 0.38.0, publiée en mai 2026, sont concernées, en particulier les appels à DiffusionPipeline.from_pretrained avec pipelines personnalisés. Le risque vise surtout les chaînes de production et d'intégration continue des entreprises."
+        },
+        {
+          "category": "IT",
+          "title": "KindaRails2Shell : une faille critique d'Active Storage expose les secrets des applications Rails",
+          "url": "https://www.helpnetsecurity.com/2026/08/03/kindarails2shell-cve-2026-66066-vulnerability/",
+          "publishedAt": "2026-08-03",
+          "summary": "Surnommée KindaRails2Shell, la CVE-2026-66066 exploite la façon dont libvips traite certains formats de fichiers spécialisés depuis Active Storage de Ruby on Rails. Un attaquant non authentifié peut faire passer un fichier piégé pour une image ; lors de la génération de la vignette, le serveur est amené à divulguer des fichiers arbitraires, y compris son environnement de processus et donc ses identifiants et secrets, avec une escalade possible vers l'exécution de code à distance. Sont concernés Rails 7.0 avant 7.2.3.2, 8.0 avant 8.0.5.1, 8.1 avant 8.1.3.1, et Rails 6.x en configuration non standard. Les correctifs datent du 29 juillet 2026 ; il faut aussi passer libvips en 8.13 ou plus, poser VIPS_BLOCK_UNTRUSTED et faire tourner les clés. Un code d'exploitation circule."
+        },
+        {
+          "category": "IT",
+          "title": "AWS s'associe à Superblocks pour intégrer le « vibe coding » dans les clouds privés des entreprises",
+          "url": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/",
+          "publishedAt": "2026-08-03",
+          "summary": "AWS et Superblocks ont annoncé un accord de commercialisation conjointe pluriannuel permettant d'embarquer l'outil de développement assisté par IA de Superblocks directement dans les comptes AWS des clients. Les applications générées s'appuient automatiquement sur les bases Amazon Aurora et sur Amazon Bedrock, et les données ne quittent jamais le périmètre du client, avec l'audit, le chiffrement et les contrôles réseau associés, résume le PDG Brad Menezes. L'objectif affiché est de ramener sous le contrôle des DSI des applications qui prolifèrent autrement en shadow IT. AWS aidera à vendre l'outil via son Marketplace et son réseau de partenaires. La startup compte 50 salariés et 60 millions de dollars levés. Le montage illustre la volonté des hyperscalers de découpler modèles et couche applicative."
+        },
+        {
+          "category": "IT",
+          "title": "La CISA publie des lignes directrices pour l'usage et la publication de logiciels libres",
+          "url": "https://www.helpnetsecurity.com/2026/08/03/cisa-oss-security-guidance/",
+          "publishedAt": "2026-08-03",
+          "summary": "La CISA américaine publie un guide destiné aux agences fédérales, structuré autour de quatre volets. Pour l'usage, elle demande de traiter le logiciel libre comme n'importe quel actif : évaluation de sécurité avant adoption, inventaire, suivi des dépendances et application rapide des correctifs. Pour la contribution, elle encourage à reverser correctifs de sécurité et documentation, en veillant à ne pas exposer mots de passe, clés de chiffrement ou détails d'infrastructure. Pour la publication, elle invite à envisager l'ouverture dès la conception, sauf obstacle juridique ou de sécurité, avec revue préalable du code et publication d'une politique de divulgation des vulnérabilités. Le guide traite enfin à part les systèmes d'IA ouverts, en rappelant qu'une licence libre n'implique pas la publication des données d'entraînement."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Au tirage au sort des barrages européens effectué lundi à Nyon, Thoune a hérité de Lech Poznan ou Klaksvik en Europa League tandis que Sion pourrait recevoir l'Ajax Amsterdam à Tourbillon en Conference League, sous réserve de passer le 3e tour préliminaire.",
+          "publishedAt": "2026-08-03"
+        },
+        {
+          "headline": "Tadej Pogacar disputera le Tour d'Espagne (22 août-13 septembre) pour la première fois depuis 2019, l'équipe UAE Emirates-XRG ayant officialisé lundi la participation du Slovène au seul grand tour manquant à son palmarès.",
+          "publishedAt": "2026-08-03"
+        },
+        {
+          "headline": "Sur le Tour de France Femmes, la Norvégienne Sigrid Ytterhus Haugset (Uno-X Mobility) a fait coup double lundi entre Genève et Poligny (157 km) en s'imposant au terme d'une échappée solitaire d'une centaine de kilomètres, s'emparant au passage du maillot jaune.",
+          "publishedAt": "2026-08-03"
+        }
+      ]
+    }
+  ]
+}
