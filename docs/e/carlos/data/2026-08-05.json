@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-05",
+  "generatedAt": "2026-08-05T03:10:46.964Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 31,
+          "low": 23,
+          "condition": "Pluie faible",
+          "weathercode": 61,
+          "precipProbability": 63
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "L'Iran et Oman ont progressé vers un accord rouvrant le détroit d'Ormuz, avec un couloir d'entrée contrôlé par Téhéran et un couloir de sortie côté omanais, perspective d'apaisement pour un cinquième du commerce mondial d'hydrocarbures.",
+          "publishedAt": "2026-08-04"
+        },
+        {
+          "headline": "Wall Street a clôturé sur des records — S&P 500 +1,8 %, Dow +900 points, Nasdaq +2,6 % — portée par la chute de près de 5 % du pétrole sur les espoirs d'accord autour d'Ormuz.",
+          "publishedAt": "2026-08-04"
+        },
+        {
+          "headline": "Le niveau historiquement bas du Danube, tombé à une dizaine de centimètres à Budapest, a poussé plusieurs gouvernements d'Europe centrale et orientale à des mesures d'urgence pour éviter une crise énergétique.",
+          "publishedAt": "2026-08-03"
+        },
+        {
+          "headline": "Washington a révoqué le visa de l'ambassadrice du Brésil Maria Luiza Ribeiro Viotti, mesure de réciprocité dans un bras de fer diplomatique avec Brasilia sur la nomination des ambassadeurs.",
+          "publishedAt": "2026-08-04"
+        },
+        {
+          "headline": "Les Européens ont affiché leur solidarité avec Madrid après l'arrivée massive de migrants à Ceuta, la Commission promettant un appui de Frontex tout en excluant que ces entrées ouvrent l'accès au continent.",
+          "publishedAt": "2026-08-03"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "ChainDrop : un ver infecte plus de 1300 paquets npm cumulant 2 milliards de téléchargements mensuels",
+          "url": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
+          "publishedAt": "2026-08-04",
+          "summary": "Une attaque de chaîne d'approvisionnement d'une ampleur inédite frappe l'écosystème JavaScript. Le maliciel auto-propagateur ChainDrop est parti du compte GitHub d'un mainteneur de Keyv, puis s'est diffusé de dépendance en dépendance : Aikido recense au moins 868 paquets sur 1381 versions, dont Cacheable, flat-cache et file-entry-cache, soit environ deux milliards de téléchargements mensuels. Un script « preinstall » télécharge le runtime Bun pour exécuter un voleur d'informations obscurci qui aspire jetons GitHub et npm, identifiants AWS, secrets Kubernetes et accès aux bases de données, les chiffre, puis les exfiltre vers un dépôt GitHub public avant de contaminer les autres paquets du mainteneur. Deliveroo, Picsart, Qlik ou ServiceTitan figurent parmi les organisations touchées. Les experts recommandent de considérer les machines infectées comme entièrement compromises et de faire tourner tous les jetons."
+        },
+        {
+          "category": "IT",
+          "title": "La CISA ajoute au catalogue KEV une faille N-able N-central activement exploitée",
+          "url": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
+          "publishedAt": "2026-08-04",
+          "summary": "L'agence américaine de cybersécurité a inscrit la CVE-2026-18577 (CVSS 8.2) à son catalogue des vulnérabilités activement exploitées. Ce contournement d'authentification permet à un attaquant distant d'obtenir un accès administrateur aux serveurs N-central, puis de détourner la fonction intégrée Take Control pour rebondir vers les postes gérés et s'y installer durablement — un scénario particulièrement critique pour les prestataires de services managés. La faille découle d'un correctif incomplet de la CVE-2026-18556 ; N-able l'a corrigée dans la version 2026.3 HF1. Les chercheurs ont observé de la reconnaissance visant les contrôleurs de domaine, de l'énumération de processus et des déplacements latéraux, avec des fichiers « svchost.exe » suspects et un service nommé « Cloudflared ». Les agences fédérales civiles avaient jusqu'au 6 août pour appliquer le correctif."
+        },
+        {
+          "category": "IT",
+          "title": "Le rançongiciel INC domine l'exploitation des failles zero-day des SonicWall SMA 1000",
+          "url": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
+          "publishedAt": "2026-08-03",
+          "summary": "Le groupe INC Ransomware s'impose comme le principal acteur exploitant les CVE-2026-15409 et CVE-2026-15410, deux vulnérabilités récemment divulguées des passerelles VPN SonicWall Secure Mobile Access série 1000. L'enchaînement des deux failles permet l'exécution de commandes arbitraires sur les équipements. Les attaquants en extraient des identifiants à forte valeur, les bases de sessions actives et surtout les graines TOTP de l'authentification multifacteur, ce qui leur assure un accès persistant et facilite les déplacements latéraux dans les réseaux d'entreprise. Selon Resecurity, l'activité s'est nettement accélérée début août ; le site de fuite du groupe revendique 885 victimes, dont de nouvelles entités privées et publiques en Australie, aux États-Unis, aux Émirats arabes unis, en Colombie et en Suisse. SonicWall avait publié ses correctifs à la mi-juillet."
+        },
+        {
+          "category": "IT",
+          "title": "Faille critique dans cPanel : un client d'hébergement peut exécuter du SQL en tant que root",
+          "url": "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
+          "publishedAt": "2026-08-04",
+          "summary": "La CVE-2026-58048, notée 9.4 sur l'échelle CVSS, affecte cPanel & WHM, la console d'administration la plus répandue chez les hébergeurs mutualisés. Elle permet à un client authentifié d'exécuter des commandes SQL avec les privilèges root de la base de données, brisant l'isolation entre comptes et pouvant, selon la configuration, déboucher sur une compromission au niveau du système d'exploitation. Le défaut provient d'une mauvaise préservation du mode SQL lors des opérations de renommage de bases. L'éditeur a publié des correctifs pour de nombreuses branches (11.110.0.137, 11.118.0.71, 11.126.0.78, 11.134.0.48, 11.136.0.32, et 138.1.6 pour WP Squared). En attendant la mise à jour, les administrateurs peuvent révoquer l'accès aux fonctions MySQL depuis WHM. Aucune exploitation active n'était documentée lors de la publication."
+        },
+        {
+          "category": "IT",
+          "title": "Plus de 130 millions de dollars volés en exploitant un défaut des portefeuilles matériels Coldcard",
+          "url": "https://techcrunch.com/2026/08/04/hackers-steal-over-130-million-by-exploiting-bug-in-offline-hardware-wallets/",
+          "publishedAt": "2026-08-04",
+          "summary": "Une seule ligne de code datant de 2021 est à l'origine de l'un des plus gros vols de cryptomonnaies de l'année. Les portefeuilles matériels Coldcard généraient des phrases de récupération prévisibles au lieu d'être réellement aléatoires : il suffisait donc de rejouer le processus de génération des clés pour reconstituer les phrases des victimes, sans jamais toucher aux appareils. Au moins une douzaine de groupes distincts ont exploité la faille, pour un préjudice évalué à environ 130 millions de dollars. Le cas est d'autant plus marquant que les victimes appliquaient scrupuleusement les bonnes pratiques — appareils hors ligne, phrases jamais partagées et conservées en coffre-fort. Coinkite, l'éditeur, appelle ses utilisateurs à mettre à jour leur matériel et à migrer vers de nouvelles phrases de récupération."
+        },
+        {
+          "category": "IT",
+          "title": "TP-Link corrige quinze failles dans le provisionnement sans contact d'Omada",
+          "url": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
+          "publishedAt": "2026-08-04",
+          "summary": "Les chercheurs de Vedere Labs (Forescout) ont mis au jour quinze vulnérabilités dans le système de zero-touch provisioning de la gamme Omada de TP-Link, qui couvre points d'accès Wi-Fi, commutateurs Ethernet et PoE, passerelles Internet et routeurs VPN. Elles portent les identifiants CVE-2025-9289 à CVE-2025-9293, CVE-2025-15544 et CVE-2025-15627 à CVE-2025-15631, quatre autres découvertes restant sans CVE. Au menu : clés cryptographiques codées en dur, divulgation d'informations, exécution de code à distance et détournement d'équipements. Combinées aux CVE-2025-7850 et CVE-2025-7851 déjà connues, elles permettent de pénétrer un réseau via le contrôleur ou les appareils clients, en exploitant des numéros de série prévisibles, des identifiants par défaut et des conditions de course lors de l'adoption. Forescout a recensé plus de 1800 contrôleurs Omada exposés sur Internet."
+        },
+        {
+          "category": "IT",
+          "title": "77 extensions Open VSX collectaient en douce les informations des développeurs",
+          "url": "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/",
+          "publishedAt": "2026-08-04",
+          "summary": "Manifold Security a identifié une campagne coordonnée de 77 extensions malveillantes publiées sur la place de marché Open VSX entre le 26 juillet et le 1er août 2026. Toutes se faisaient passer pour des outils de développement légitimes — une approche dite du « jumeau maléfique » — et communiquaient avec une infrastructure enregistrée le 15 juillet sur le domaine mangorbit[.]com. Cinquante-huit d'entre elles se contentaient de collecter des informations système de base : nom d'hôte, nom du dossier de travail, version de l'éditeur. Les dix-neuf autres poussaient la reconnaissance beaucoup plus loin, jusqu'au nom d'utilisateur du système, aux identifiants machine, aux détails des dépôts Git, aux branches et aux métadonnées d'intégration continue de GitHub, GitLab et Azure DevOps. Retirées d'Open VSX le 3 août, elles doivent encore être désinstallées manuellement des postes."
+        },
+        {
+          "category": "IT",
+          "title": "Trois attaques contre le gestionnaire de mots de passe de Google menacent les comptes protégés par passkey",
+          "url": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
+          "publishedAt": "2026-08-03",
+          "summary": "L'unité 42 de Palo Alto Networks décrit trois techniques visant Google Password Manager dans Chrome sur des machines Windows équipées d'un TPM, toutes conditionnées à la présence préalable d'un maliciel sur le poste. « Pass-ta-key » extrait la clé d'identité de l'appareil pour forger de fausses assertions d'authentification et contourner la vérification utilisateur sur certains sites. « Silver Pass-ta-key » force un réenrôlement de l'appareil pour y inscrire la clé de vérification de l'attaquant, autorisant des connexions futures sans la victime. « Golden Pass-ta-key » déclenche un réenrôlement afin d'extraire de la mémoire de Chrome le Security Domain Secret de 32 octets, qui déchiffre les clés privées des passkeys synchronisées. Aucun CVE n'a été attribué et aucune exploitation dans la nature n'est signalée ; Google n'a pas documenté de remédiation."
+        },
+        {
+          "category": "IT",
+          "title": "Kubernetes : Gateway API v1.6 fait passer TCPRoute et UDPRoute en version stable",
+          "url": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/",
+          "publishedAt": "2026-08-03",
+          "summary": "Le blog officiel de Kubernetes détaille la sortie de Gateway API v1.6.0, dont l'apport majeur est la promotion de TCPRoute et UDPRoute du statut expérimental au canal Standard, en API v1. Jusqu'ici, seul le routage HTTP et TLS de niveau 7 bénéficiait d'une stabilité garantie ; le trafic brut de couche 4 gagne enfin des garanties de production, ce qui ouvre la voie à des configurations portables pour les bases de données, le DNS, la voix sur IP, le jeu en ligne et la télémétrie IoT. Les versions v1alpha2 sont dépréciées et disparaîtront dans une prochaine livraison. Second changement structurant : les ressources expérimentales migrent vers un groupe d'API distinct, gateway.networking.x-k8s.io, avec un préfixe « X », afin de séparer nettement ce qui est prêt pour la production de ce qui ne l'est pas."
+        },
+        {
+          "category": "IT",
+          "title": "Le Texas suspend les nouveaux centres de données et impose des audits",
+          "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
+          "publishedAt": "2026-08-04",
+          "summary": "Le gouverneur Greg Abbott soumet tout nouveau projet de centre de données à un audit obligatoire, mené conjointement par la commission des services publics du Texas et le gestionnaire de réseau ERCOT. Les chiffres expliquent ce revirement : la file d'attente de raccordement d'ERCOT est passée de 233 gigawatts en janvier à 474 gigawatts en août, dont environ 90 % de projets de centres de données — soit plus de cinq fois la pointe de consommation de tout l'État. Les audits porteront sur la demande en électricité et en eau sur site et hors site, l'atténuation du bruit, la maîtrise de l'éclairage, le recours aux incitations fiscales et la structure de propriété. Le Texas, deuxième État américain pour le nombre de centres de données, voit ses prix de l'électricité grimper malgré le quadruplement de son solaire utilitaire entre 2021 et 2025."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Tour de France Femmes : la Suissesse Marlen Reusser (Movistar) a remporté le contre-la-montre de la 4e étape entre Gevrey-Chambertin et Dijon (21 km) en 27'30, devançant Lieke Nooijen de 4 secondes, et s'est emparée du maillot jaune avec 14 secondes d'avance sur Demi Vollering.",
+          "publishedAt": "2026-08-04"
+        },
+        {
+          "headline": "Le Servette FC Chênois féminin a lancé idéalement sa campagne européenne en dominant le Dinamo-BSUPC de Minsk 3-0 en demi-finale du 2e tour qualificatif de la Ligue des champions, grâce à Garance Nein (16 ans), Laura Strik et Paola Hernandez.",
+          "publishedAt": "2026-08-04"
+        },
+        {
+          "headline": "Conference League : le FC Sion affrontera en barrage le vainqueur du duel entre l'Ajax Amsterdam et les Irlandais de Shelbourne, avec un match aller le 20 août à Tourbillon.",
+          "publishedAt": "2026-08-03"
+        }
+      ]
+    }
+  ]
+}
