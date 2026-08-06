@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-06",
+  "generatedAt": "2026-08-06T03:10:57.058Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 29,
+          "low": 23,
+          "condition": "Averses",
+          "weathercode": 80,
+          "precipProbability": 33
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Téhéran a annoncé un accord avec Oman sur une route maritime partagée dans le détroit d'Ormuz, Washington et Mascate évoquant un arrangement intérimaire imminent pour rouvrir ce passage vital au commerce pétrolier mondial.",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "headline": "Portés par une saison de résultats exceptionnelle et l'espoir d'un accord sur Ormuz, le Dow Jones et le S&P 500 ont signé de nouveaux records de clôture pendant que le brut reculait de près de 6% sous les 76 dollars.",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "headline": "L'Allemagne a battu son record historique de production solaire avec 12 milliards de kWh injectés dans le réseau au cours du seul mois de juillet.",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "headline": "La Néerlandaise Demi Vollering a remporté la 5e étape du Tour de France Femmes à Belleville-en-Beaujolais, mais la Bernoise Marlen Reusser conserve le maillot jaune avec 14 secondes d'avance.",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "headline": "L'Italie a dévoilé un réseau unifié de 1546 kilomètres de sentiers de pèlerinage convergeant vers Assise, à la veille de la visite du pape pour le huitième centenaire de la mort de saint François.",
+          "publishedAt": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "La CISA ajoute trois failles activement exploitées : Langflow, N-able N-central et Apache Tomcat",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
+          "publishedAt": "2026-08-05",
+          "summary": "L'agence américaine de cybersécurité a inscrit trois vulnérabilités à son catalogue des failles activement exploitées. La plus grave, CVE-2026-9198 dans IBM Langflow (CVSS 9.8), permet une exécution de code à distance sans authentification sur les déploiements par défaut ; des preuves de concept circulent publiquement depuis fin juillet. CVE-2026-18576 dans N-able N-central autorise le détournement d'un compte administrateur sans authentification et touche toutes les versions antérieures à 2026.3, un correctif d'urgence ayant été diffusé le 1er août. Enfin CVE-2026-34486 dans Apache Tomcat (CVSS 7.5) corrige incomplètement une faille de chiffrement antérieure ; des acteurs sinophones ont tenté de l'exploiter sur neuf serveurs en juillet. Les agences fédérales devaient appliquer les mesures d'atténuation d'ici le vendredi 7 août."
+        },
+        {
+          "category": "IT",
+          "title": "Cisco publie douze bulletins de sécurité, dont deux critiques sur Catalyst SD-WAN et IOS XE",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-L4XfJg8S",
+          "publishedAt": "2026-08-05",
+          "summary": "Le PSIRT de Cisco a diffusé douze avis de sécurité couvrant plusieurs gammes de produits. Deux sont classés critiques : cinq CVE dans Catalyst SD-WAN Software (CVE-2026-20303, 20304, 20310, 20312 et 20313) notées 9.9 sur l'échelle CVSS, et sept CVE dans IOS XE Software (CVE-2026-20267 à 20273) notées 9.8. Quatre bulletins de gravité élevée s'y ajoutent : une injection d'arguments dans l'Integrated Management Controller (8.8), deux dénis de service sur les protocoles XMPP et BEEP d'IOS et IOS XE (8.6 chacun) et un déni de service SNMP sur IOS XE (7.7). Six avis de gravité moyenne concernent notamment SD-WAN Manager, RoomOS et des failles de cross-site scripting. Cisco recommande la mise à niveau vers les versions corrigées indiquées dans chaque bulletin."
+        },
+        {
+          "category": "IT",
+          "title": "Veeam, Terraform MCP et Django corrigent des failles critiques, dont un CVSS 10.0 de fuite entre locataires",
+          "url": "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html",
+          "publishedAt": "2026-08-05",
+          "summary": "Trois éditeurs majeurs ont publié des correctifs de sécurité importants. Le serveur MCP Terraform de HashiCorp décroche la note maximale avec CVE-2026-16498 (CVSS 10.0) : le jeton Terraform d'un utilisateur pouvait être réutilisé pour les requêtes d'un autre, une fuite entre locataires ne touchant que le mode HTTP/Streamable, corrigée en 1.1.0. Chez Veeam, la console Service Provider corrige CVE-2026-58073 (9.5), qui permettait à un attaquant non authentifié d'usurper un agent géré, et CVE-2026-58072 (9.0), une écriture arbitraire de fichier menant à l'exécution de code. Django, enfin, publie les versions 6.0.8 et 5.2.17 pour quatre failles, dont une brèche GeoDjango permettant d'écrire un fichier sur disque. Aucune exploitation active n'était constatée au 5 août."
+        },
+        {
+          "category": "IT",
+          "title": "OVSwrap : une faille du noyau Linux donne le root à tout utilisateur local via Open vSwitch",
+          "url": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
+          "publishedAt": "2026-08-05",
+          "summary": "Baptisée OVSwrap, la vulnérabilité CVE-2026-64531 (CVSS 7.8) touche le chemin de données Open vSwitch du noyau Linux. Un utilisateur local ordinaire peut l'exploiter en créant des espaces de noms utilisateur et réseau privés, ce qui lui confère la capacité CAP_NET_ADMIN à l'intérieur de cet espace. Le bug tient à ce qu'Open vSwitch stocke les actions de flux générées dans des attributs Netlink dont le champ nla_len ne fait que 16 bits : au-delà de 65 535 octets, la valeur repasse à zéro et corrompt la mémoire. Une preuve de concept publique embarque des données précalculées pour environ 800 noyaux x86-64 et fonctionne en configuration par défaut sur Debian, Ubuntu, Fedora, Arch, Alpine, AlmaLinux et CentOS Stream. Les séries 6.13 à 6.17, 6.19 et 7.0, en fin de vie, ne recevront aucun correctif amont."
+        },
+        {
+          "category": "IT",
+          "title": "Paperclip AI : trois failles, dont un CVSS 10.0, permettent d'exécuter des commandes via l'import d'agents malveillants",
+          "url": "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
+          "publishedAt": "2026-08-05",
+          "summary": "Paperclip, plan de contrôle open source servant à orchestrer des flottes d'agents d'intelligence artificielle, corrige trois vulnérabilités graves. CVE-2026-41679 atteint le score maximal de 10.0 : elle ne requiert ni compte préexistant ni interaction de la victime sur les déploiements accessibles depuis le réseau, dès lors que l'inscription par défaut est activée, et permet l'exécution de commandes à distance par l'import d'un agent piégé. La deuxième (GHSA-x8hx-rhr2-9rf7, CVSS 9.6) exploite le DNS rebinding pour viser les installations locales et exécuter des commandes avec les privilèges du développeur. La troisième (CVSS 8.3) expose des informations sensibles faute de contrôles d'authentification sur certaines routes d'API. La cause commune : traiter la configuration des agents comme de la donnée alors qu'elle est exécutable. Correctif en v2026.416.0."
+        },
+        {
+          "category": "IT",
+          "title": "TP-Link corrige quinze failles du provisionnement Omada permettant de pénétrer des réseaux",
+          "url": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
+          "publishedAt": "2026-08-04",
+          "summary": "TP-Link a publié des correctifs pour quinze vulnérabilités affectant le mécanisme de provisionnement sans intervention de son écosystème Omada. Contrôleurs, passerelles, commutateurs, points d'accès, plateformes OLT, services en nuage, applications mobiles, caméras IP et objets connectés domestiques sont concernés. Les problèmes vont des clés cryptographiques codées en dur à la divulgation d'informations, en passant par l'exécution de code à distance, le détournement et l'usurpation d'équipements. Onze identifiants CVE ont été attribués, quatre autres découvertes n'en ayant pas reçu. Les chercheurs ont démontré qu'en enchaînant ces défauts avec les CVE-2025-7850 et CVE-2025-7851 déjà connues, il devenait possible d'infiltrer un réseau via des identifiants compromis et l'usurpation d'un appareil. Plus de 1800 contrôleurs Omada sont exposés sur internet."
+        },
+        {
+          "category": "IT",
+          "title": "Piratage de Snowflake : le Canadien Connor Moucka plaide coupable, 165 organisations touchées",
+          "url": "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
+          "publishedAt": "2026-08-05",
+          "summary": "Connor Riley Moucka, 26 ans, alias Waifu, a plaidé coupable de quatre chefs d'accusation — fraude informatique, fraude électronique, usurpation d'identité aggravée et complot — dans l'affaire des vols massifs de données sur les comptes Snowflake. Il encourt jusqu'à 32 ans de prison ; la peine sera prononcée le 27 octobre. Au moins 165 organisations ont été visées entre février et octobre 2024, touchant plus de 100 millions de personnes : AT&T, Ticketmaster, Santander, Pure Storage, Advance Auto Parts, Neiman Marcus ou encore le district scolaire de Los Angeles. Les attaquants récupéraient des identifiants via des logiciels voleurs, puis accédaient aux comptes Snowflake dépourvus d'authentification multifacteur. Ils ont extorqué au moins 2,5 millions de dollars en bitcoin et revendu des données pour 495 000 dollars supplémentaires."
+        },
+        {
+          "category": "IT",
+          "title": "Le créateur du rançongiciel Ransom Cartel condamné à seize ans de prison",
+          "url": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/",
+          "publishedAt": "2026-08-05",
+          "summary": "Maksim Silnikau, Biélorusse de 40 ans, a été condamné à seize ans de prison par un tribunal fédéral de Virginie orientale pour complot contre les États-Unis, complot de fraude électronique et usurpation d'identité aggravée. Actif sur les forums cybercriminels russophones depuis 2005 sous les pseudonymes J.P. Morgan et lansky, il avait lancé publiquement Ransom Cartel en décembre 2021, un service de rançongiciel clé en main : il fournissait à ses affiliés outils et identifiants volés et gérait un site dédié aux négociations. Au moins dix-huit entreprises ont été attaquées entre 2021 et 2023, pour 6,7 millions de dollars de pertes identifiées et 5,2 millions d'extorsions tentées. Une jeune pousse de technologie médicale est restée paralysée deux mois ; deux cabinets d'avocats ont payé 125 000 et 300 000 dollars."
+        },
+        {
+          "category": "IT",
+          "title": "Des jetons d'API n8n fuités ouvraient 321 instances actives au vol d'identifiants",
+          "url": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
+          "publishedAt": "2026-08-05",
+          "summary": "GitGuardian a recensé 4576 identifiants uniques associés à 1255 noms d'hôtes dans des commits GitHub publics, tous liés à la plateforme d'automatisation n8n. Sur les 896 instances joignables testées, 321 ont accepté au moins un jeton fuité, soit environ 36 % des systèmes accessibles. Ces jetons donnent accès aux flux de travail, aux identifiants stockés, aux données d'exécution et aux tables internes ; les chercheurs montrent qu'un attaquant disposant de privilèges d'API suffisants peut référencer ces identifiants dans de nouveaux flux et faire agir l'instance en son nom. Aucune CVE ni outil spécialisé n'est requis : de simples requêtes HTTP et les fonctions documentées de l'API REST suffisent. La divulgation responsable s'est heurtée à l'inertie : une seule organisation sur sept contactées a révoqué ses secrets rapidement."
+        },
+        {
+          "category": "IT",
+          "title": "Kali365 détourne l'authentification Microsoft par code d'appareil contre les entreprises américaines",
+          "url": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
+          "publishedAt": "2026-08-05",
+          "summary": "Kali365 est un kit d'hameçonnage exploitant le flux d'authentification par code d'appareil de Microsoft, principalement dirigé contre des organisations américaines. La télémétrie d'ANY.RUN enregistre plus de 80 sessions publiques par semaine liées à la campagne. L'attaque se déroule en trois temps : la victime reçoit une fausse page de service professionnel imitant SharePoint, OneDrive ou DocuSign, elle est redirigée vers le portail de connexion authentique de Microsoft où elle saisit un code fourni par l'attaquant, lequel récupère alors des jetons d'accès aux ressources Microsoft 365. La difficulté de détection tient précisément à ce que l'authentification se déroule sur la véritable page Microsoft : l'activité paraît banale et laisse aux attaquants un long délai avant repérage. Industrie, technologie, santé, administration, conseil et prestataires de sécurité figurent parmi les cibles."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Lara Gut-Behrami met un terme immédiat à sa carrière à 35 ans, la Tessinoise renonçant à revenir après sa grave blessure au genou gauche, avec trois médailles olympiques, neuf médailles mondiales et deux gros globes de cristal au palmarès.",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "headline": "Fragilisé par son projet avorté d'ouverture aux investisseurs privés, Gianni Infantino a réuni mercredi au Maroc, au siège africain de la FIFA près de Rabat, plusieurs hauts responsables en réunion de crise, tandis que l'instance présentait ses excuses.",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "headline": "Tour de France Femmes : Demi Vollering a remporté la 5e étape à Belleville-en-Beaujolais au sprint devant Marlen Reusser, qui conserve le maillot jaune pour 12 secondes, alors que Pauline Ferrand-Prévôt a cédé 2'35\" et dit adieu à un second sacre.",
+          "publishedAt": "2026-08-05"
+        }
+      ]
+    }
+  ]
+}
