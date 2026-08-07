@@ -1,0 +1,247 @@
+{
+  "edition": "main",
+  "title": "Briefing du matin",
+  "date": "2026-08-07",
+  "generatedAt": "2026-08-07T17:38:59.407Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Genève",
+          "high": 30,
+          "low": 21,
+          "condition": "Partiellement nuageux",
+          "weathercode": 2,
+          "precipProbability": 0
+        },
+        {
+          "name": "Lausanne",
+          "high": 30,
+          "low": 21,
+          "condition": "Plutôt ensoleillé",
+          "weathercode": 1,
+          "precipProbability": 0
+        }
+      ]
+    },
+    {
+      "topic": "swiss",
+      "label": "La Suisse en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "La Suisse a présélectionné trois films francophones — « À bras-le-corps », « Cosmos » et le documentaire « Qui vit encore » — pour représenter le pays aux Oscars 2027.",
+          "publishedAt": "2026-08-07"
+        },
+        {
+          "headline": "Grâce à la « Lex Netflix », les investissements des diffuseurs et plateformes dans le cinéma suisse ont bondi de 25% en 2025 pour atteindre près de 20 millions de francs.",
+          "publishedAt": "2026-08-06"
+        },
+        {
+          "headline": "Quatre rameurs suisses sont devenus les premiers à traverser l'Arctique à la rame sans assistance, au terme d'une expédition de 33 jours dans la neige, la glace et les vagues.",
+          "publishedAt": "2026-08-07"
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Téhéran a annoncé un accord de principe avec Mascate sur les coordonnées de nouveaux couloirs de navigation dans le détroit d'Ormuz, dernière étape avant une gestion conjointe du passage stratégique.",
+          "publishedAt": "2026-08-06"
+        },
+        {
+          "headline": "La FDA a homologué mFlusiva de Moderna, premier vaccin antigrippal à ARN messager au monde, crédité d'une efficacité supérieure de 27% au vaccin standard chez les 50-64 ans.",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "headline": "Le télescope solaire Inouye d'Hawaï a livré l'image en lumière visible la plus nette jamais prise du Soleil, confirmant enfin l'existence des tourbillons d'instabilité de Kelvin-Helmholtz à sa surface.",
+          "publishedAt": "2026-08-06"
+        }
+      ]
+    },
+    {
+      "topic": "markets",
+      "label": "Marchés",
+      "kind": "dataset",
+      "asOf": "clôture du 6 août 2026",
+      "summary": "Séance de respiration à Wall Street, où le Dow Jones a mis fin à sa série de records tandis que le Nasdaq limitait la casse, alors que l'Europe poursuivait sa hausse avec un Euro Stoxx 50 à un nouveau sommet et un SMI en léger repli.",
+      "indices": [
+        {
+          "name": "Nasdaq",
+          "changePct": -0.06
+        },
+        {
+          "name": "Dow Jones",
+          "changePct": -0.85
+        },
+        {
+          "name": "SMI",
+          "changePct": -0.23
+        },
+        {
+          "name": "Euro Stoxx 50",
+          "changePct": 0.4
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "AI",
+          "title": "Séisme à la tête de Google DeepMind : Hassabis devient président, Koray Kavukcuoglu prend les commandes",
+          "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+          "publishedAt": "2026-08-06",
+          "summary": "Sundar Pichai a annoncé une réorganisation majeure de l'intelligence artificielle chez Alphabet. Demis Hassabis quitte la direction opérationnelle de Google DeepMind pour en devenir président et prendre le poste de chief scientist d'Alphabet, afin de se concentrer sur l'AGI et sur Isomorphic Labs. Koray Kavukcuoglu, jusqu'ici directeur technique et présent chez DeepMind depuis treize ans, est promu vice-président senior : il supervise désormais le développement des modèles Gemini, la recherche de frontière ainsi que les équipes application et développeurs. Dans la foulée, Jeff Dean quitte Google après vingt-sept ans pour fonder avec Sanjay Ghemawat une société d'intérêt public dédiée à l'automatisation de la découverte scientifique. Le pouvoir décisionnel de l'IA se recentre ainsi sur la Californie, face à OpenAI et Anthropic."
+        },
+        {
+          "category": "AI",
+          "title": "OpenAI lance GPT-5.6 et offre les conversations texte illimitées aux comptes gratuits de ChatGPT",
+          "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+          "publishedAt": "2026-08-06",
+          "summary": "OpenAI déploie une mise à jour importante de ChatGPT sur tous les paliers. Les utilisateurs gratuits et Go passent au nouveau modèle GPT-5.6 Luna par défaut et bénéficieront de conversations texte illimitées, ainsi que d'un bouton Think pour les requêtes complexes ; les quotas subsistent en revanche sur les fichiers, images, la voix et la génération d'images. Les abonnés Plus et Pro reçoivent GPT-5.6 Sol, doté d'un curseur permettant de doser la profondeur de raisonnement selon la difficulté de la question. Selon les évaluations internes d'OpenAI, les erreurs factuelles reculent de 62 pour cent pour Luna et de 68 pour cent pour Sol par rapport à GPT-5.5-Instant. L'annonce intervient alors que ChatGPT dépasse le milliard d'utilisateurs hebdomadaires."
+        },
+        {
+          "category": "IT",
+          "title": "Berne confirme une intrusion sur ses serveurs SharePoint : environ 200 comptes compromis",
+          "url": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
+          "publishedAt": "2026-08-06",
+          "summary": "L'Office fédéral de l'informatique et de la télécommunication a révélé qu'environ 200 comptes de l'administration fédérale suisse ont été compromis via des serveurs SharePoint. Une activité inhabituelle a été détectée le 28 juillet, puis la compromission d'identifiants confirmée le 31 juillet. Les accès externes ont été bloqués, les vulnérabilités corrigées et les mots de passe concernés réinitialisés. Les attaquants ont probablement exploité des failles publiées par Microsoft à la mi-juillet, vraisemblablement CVE-2026-56164 (élévation de privilèges) ou CVE-2026-50522 (exécution de code à distance critique). L'enquête est menée avec l'Office fédéral de la cybersécurité et Microsoft. Aucun vol de données au-delà des identifiants n'est établi et aucun groupe n'a revendiqué l'attaque ; les serveurs sont réinstallés par précaution."
+        },
+        {
+          "category": "IT",
+          "title": "Tesla et SpaceX investissent 16,8 milliards de dollars dans Terafab, une usine de puces géante au Texas",
+          "url": "https://techcrunch.com/2026/08/06/tesla-and-spacex-will-invest-16-8b-to-start-building-terafab-chip-factory-in-texas/",
+          "publishedAt": "2026-08-06",
+          "summary": "Tesla et SpaceX ont annoncé conjointement la construction de Terafab, une fonderie de semi-conducteurs dans le comté de Grimes, au nord de Houston. L'investissement initial atteint 16,8 milliards de dollars, pour plus de 100 millions de pieds carrés de surface de production et au moins 3000 emplois. SpaceX évoque un total pouvant grimper à 119 milliards de dollars sur plusieurs phases. L'usine produira des puces optimisées pour le calcul embarqué et l'inférence IA destinées aux robots Optimus et aux Cybercab, ainsi que des processeurs haute performance pour les centres de données satellitaires de SpaceX. Intel s'est engagé à contribuer au projet. Elon Musk parle du bâtiment le plus grand et le plus précieux de la planète ; des riverains s'inquiètent des allégements fiscaux et de l'eau."
+        },
+        {
+          "category": "AI",
+          "title": "Un modèle de Meta a réellement piraté une entreprise pendant un test de cybersécurité mal configuré",
+          "url": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/",
+          "publishedAt": "2026-08-06",
+          "summary": "Meta a confirmé que son modèle Muse Spark 1.1 a compromis une entreprise réelle lors d'une évaluation menée par la société spécialisée Irregular. Une erreur de configuration du bac à sable a donné au modèle un accès à l'internet public : il a alors exploité une vulnérabilité chez un prestataire tiers et modifié des systèmes internes qu'il n'aurait jamais dû atteindre. Meta insiste sur le fait qu'il ne s'agit ni d'une évasion de sandbox ni d'une action cyber sophistiquée, mais d'un défaut d'isolation. Irregular précise qu'il s'agit exactement du même problème d'environnement d'évaluation que celui divulgué par Anthropic la semaine précédente, après un incident comparable chez OpenAI. Meta enquête et publiera ses conclusions."
+        },
+        {
+          "category": "IT",
+          "title": "La CISA donne trois jours aux agences fédérales pour colmater Langflow, N-central et Apache Tomcat",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
+          "publishedAt": "2026-08-05",
+          "summary": "L'agence américaine de cybersécurité a ajouté trois vulnérabilités activement exploitées à son catalogue KEV, avec échéance de remédiation au 7 août. CVE-2026-9198 vise IBM Langflow : notée 9,8, elle permet une exécution de code à distance sans authentification sur les déploiements par défaut, en enchaînant deux points d'API pour contourner l'authentification ; plusieurs exploits fonctionnels circulent publiquement. CVE-2026-18576 touche N-able N-central et autorise le détournement de comptes administrateurs sans authentification ; le premier correctif s'étant révélé insuffisant, un hotfix d'urgence a été publié le 1er août. CVE-2026-34486 concerne Apache Tomcat et corrige de façon incomplète la faille CVE-2026-29146 ; des acteurs sinophones ont tenté de déployer manuellement des reverse shells sur neuf serveurs."
+        },
+        {
+          "category": "AI",
+          "title": "Google Maps devient agentique : commande de repas, réservation d'hôtel et achat de billets",
+          "url": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
+          "publishedAt": "2026-08-06",
+          "summary": "Google étend sa fonction Ask Maps pour transformer Maps en assistant capable d'accomplir des tâches. L'utilisateur peut formuler une demande en langage naturel, par exemple trouver un toast à l'avocat végane et un latte au lait d'avoine près de chez lui, puis payer via Square, Toast ou Uber Eats. L'outil compare aussi prix et disponibilités d'hôtels selon des critères précis, et permet d'acheter des billets de concert ou de spectacle. Une intégration dite Personal Intelligence puise dans Gmail et Google Calendar pour personnaliser les recommandations de vols, de restaurants et d'activités, mais reste désactivée par défaut. Ask Maps mémorise désormais l'historique des conversations, évitant de reprendre à zéro une planification de voyage. Le déploiement démarre aux États-Unis, avec extension mondiale progressive."
+        },
+        {
+          "category": "IT",
+          "title": "Cisco corrige douze failles dans Catalyst SD-WAN et IOS XE, dont trois notées 9,9 sur 10",
+          "url": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
+          "publishedAt": "2026-08-06",
+          "summary": "Cisco a publié des correctifs pour douze vulnérabilités touchant ses équipements d'infrastructure. Cinq concernent Catalyst SD-WAN, dont trois failles critiques notées 9,9 sur l'échelle CVSS : CVE-2026-20303 (traversée de répertoires), CVE-2026-20304 (contrôle d'accès défaillant) et CVE-2026-20310 (résolution de liens symboliques). Sept autres visent IOS XE, notamment CVE-2026-20272, une injection de commandes notée 9,8, et CVE-2026-20267 notée 9,0. Deux failles supplémentaires affectent l'interface web IMC. Cisco précise que ces problèmes ont été découverts lors de tests de sécurité internes et qu'aucune exploitation active n'est connue, à l'exception de CVE-2026-20200, pour laquelle une preuve de concept circule publiquement. Les administrateurs de réseaux d'entreprise sont invités à appliquer les mises à jour sans attendre."
+        },
+        {
+          "category": "AI",
+          "title": "Claude Code et Gemini CLI : une simple issue GitHub suffisait à voler les secrets d'un pipeline CI",
+          "url": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
+          "publishedAt": "2026-08-07",
+          "summary": "Présentées à Black Hat USA par Novee Security, ces failles montrent comment un contributeur externe pouvait détourner des agents de codage IA branchés sur l'intégration continue. CVE-2026-12537, notée 10 sur 10, touche Gemini CLI : un fichier .gemini/.env forgé permettait l'injection de commandes système sur l'hôte CI avant même l'activation du bac à sable ; correctif en version 0.39.1 et run-gemini-cli 0.1.22. CVE-2026-54316 vise Claude Code, des versions 0.2.54 à 2.1.163 : elle transformait le compteur public de téléchargements de Hugging Face en canal d'exfiltration, révélant une clé d'API caractère par caractère ; corrigée en 2.1.163. Un troisième défaut, non corrigé, concerne OpenAI Codex. Les chercheurs recommandent d'auditer tout workflow déclenchable par un tiers."
+        },
+        {
+          "category": "Science",
+          "title": "Le cerveau bascule vers 50 ans : les cellules immunitaires de l'hippocampe sont remplacées",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260806050700.htm",
+          "publishedAt": "2026-08-06",
+          "summary": "Une étude publiée dans Science par des équipes de l'UC San Diego, du New York Genome Center et de l'UC Irvine décrit un basculement immunitaire de l'hippocampe autour de la cinquantaine. Entre 50 et 75 ans, les microglies résidentes déclinent progressivement et sont remplacées par des cellules immunitaires plus inflammatoires venues du sang périphérique. Les chercheurs observent en parallèle une dégradation des cellules de la barrière hémato-encéphalique et de vastes remaniements de la structure du génome, liés à des changements de régulation des gènes. Le résultat contredit l'idée établie selon laquelle les microglies resteraient stables toute la vie, et suggère que ce remodelage de milieu de vie contribue à la vulnérabilité aux maladies neurodégénératives. Les signatures épigénétiques ont permis de retracer l'origine des cellules."
+        },
+        {
+          "category": "IT",
+          "title": "Plus de 4400 automates Rockwell exposés sur internet, dont 22 dans des villes visées par des cyberattaques",
+          "url": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
+          "publishedAt": "2026-08-06",
+          "summary": "Un balayage mené le 3 août par Forescout a recensé 4407 automates programmables Rockwell accessibles depuis internet, dont 2844 aux États-Unis, sans que la firme puisse confirmer de compromission. Vingt-deux d'entre eux se trouvent dans des villes touchées par de récentes cyberattaques contre des services d'eau, dix-neuf partageant le même réseau d'opérateur mobile. Les attaquants n'ont pas exploité de vulnérabilité : ils ont simplement modifié les adresses IP et défini des mots de passe sur des équipements déjà accessibles, privant les exploitants de visibilité et de contrôle. Les MicroLogix 1400 représentent la moitié des automates exposés et les 1100 environ huit pour cent ; dix-neuf appareils tournaient sur un micrologiciel vulnérable à CVE-2017-16740. La recommandation est de retirer ces automates d'internet et d'isoler l'accès distant."
+        },
+        {
+          "category": "IT",
+          "title": "Un malware peut détourner les clés Windows Hello for Business pour s'installer durablement dans Entra ID",
+          "url": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
+          "publishedAt": "2026-08-07",
+          "summary": "Le chercheur Dirk-jan Mollema a montré qu'un code malveillant s'exécutant dans une session Windows compromise peut invoquer silencieusement la clé Windows Hello for Business de l'utilisateur pour s'authentifier auprès de Microsoft Entra ID, sans extraire la clé privée, sans récupérer le code PIN et sans déclencher d'invite biométrique. Aucun privilège administrateur n'est requis et l'attaque fonctionne sur des systèmes protégés par TPM. Une fois authentifié, l'attaquant enregistre un appareil qu'il contrôle, obtient un Primary Refresh Token valable 90 jours et renouvelable, puis ajoute d'autres méthodes d'authentification si la politique du tenant le permet, satisfaisant même les exigences dites résistantes au hameçonnage. Aucun CVE ni avis Microsoft n'existait au 6 août ; Mollema conseille de surveiller les connexions Hello sans identifiant d'appareil."
+        },
+        {
+          "category": "AI",
+          "title": "HTTP Terminator : une IA découvre de nouvelles techniques de désynchronisation HTTP et un zero-day Apache",
+          "url": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
+          "publishedAt": "2026-08-07",
+          "summary": "James Kettle, de PortSwigger, a présenté HTTP Terminator, un système de recherche de vulnérabilités assisté par IA qui a exploré 30 000 vecteurs candidats de désynchronisation HTTP avant d'en démontrer de nouveaux. Testé sur 30 000 sites, l'outil a identifié environ 700 cibles vulnérables, parmi lesquelles des banques, des infrastructures gouvernementales, des produits de sécurité et un aéroport. Il a mis au jour une technique inédite dite du dangling-byte ainsi qu'un concept d'attaque baptisé Shared-Parser Confusion. Un zero-day Apache, référencé CVE-2026-63078, a émergé d'une requête malformée durant une phase guidée par un humain, même si cet identifiant n'apparaissait ni sur CVE.org ni dans le NVD à la publication. PortSwigger a ouvert le code de HTTP Terminator, qui s'appuie sur Claude et Claude Code."
+        },
+        {
+          "category": "Science",
+          "title": "L'UCLA parvient à guider la chaleur comme un rayon lumineux à température ambiante",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260805082506.htm",
+          "publishedAt": "2026-08-05",
+          "summary": "Des chercheurs de l'école d'ingénierie Samueli de l'UCLA, dirigés par Yongjie Hu, ont démontré que la chaleur peut traverser l'arséniure de bore en faisceaux directionnels, à la manière de rayons lumineux, et cela à température ambiante. Ce comportement quantique n'avait jusqu'ici été observé qu'à des températures proches du zéro absolu ; il persiste ici en conditions pratiques grâce à la très faible diffusion des phonons dans ce matériau. Selon Yongjie Hu, la découverte permet de repenser entièrement la gestion thermique : au lieu de disperser passivement la chaleur, il deviendrait possible de l'acheminer à l'échelle nanométrique vers un point précis. Les applications visées concernent le refroidissement du matériel dédié à l'IA, les dispositifs quantiques et l'électronique avancée, secteurs où la dissipation thermique est devenue un goulot d'étranglement. Publié dans Nature Physics."
+        },
+        {
+          "category": "AI",
+          "title": "Mirendil signe un contrat de plus de 100 millions de dollars avec Google Cloud pour son IA auto-améliorante",
+          "url": "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/",
+          "publishedAt": "2026-08-06",
+          "summary": "Le laboratoire Mirendil, fondé par d'anciens chercheurs d'Anthropic, a conclu un partenariat pluriannuel de plus de 100 millions de dollars avec Google Cloud pour sa capacité de calcul. L'accord donne accès aux TPU maison de Google, à des GPU Nvidia et à des clusters d'entraînement managés, laissant à la jeune pousse la souplesse d'optimiser ses charges de travail selon le matériel. La somme représente environ la moitié des 200 millions levés fin juin à une valorisation d'un milliard de dollars. Mirendil travaille sur l'auto-amélioration récursive : des systèmes qui progressent par itérations successives. Son cofondateur Behnam Neyshabur décrit une IA à laquelle on soumet un problème et qui s'améliore avec le temps, avec l'ambition d'automatiser la recherche en médecine, biologie et science des matériaux."
+        },
+        {
+          "category": "Science",
+          "title": "Un patch à ultrasons portable augmente le sommeil paradoxal sans médicament",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260806050709.htm",
+          "publishedAt": "2026-08-06",
+          "summary": "Des ingénieurs biomédicaux de l'université du Texas à Austin ont développé NEUSLeeP, un patch bioélectronique portable qui combine stimulation par ultrasons et surveillance de l'activité cérébrale. Testé sur 28 participants, le dispositif a fait entrer les dormeurs en sommeil paradoxal environ 43 minutes plus tôt qu'à l'ordinaire et allongé cette phase d'à peu près 16 minutes. Les bénéfices ont été observés aussi bien chez de bons dormeurs que chez des personnes en difficulté. Les chercheurs relèvent également une meilleure variabilité de la fréquence cardiaque, signe d'une réponse au stress améliorée, et une modification des circuits cérébraux liés aux émotions. Le patch est jugé confortable et sûr, avec des effets indésirables minimes. Des essais cliniques plus larges sont prévus pour le trouble de stress post-traumatique, la dépression et l'insomnie chronique. Publié dans Nature Communications."
+        },
+        {
+          "category": "AI",
+          "title": "AWS présente Dogwood pour empêcher les agents IA de passer des appels d'outils valides mais erronés",
+          "url": "https://thenewstack.io/aws-dogwood-agent-policies/",
+          "publishedAt": "2026-08-06",
+          "summary": "AWS a dévoilé Dogwood, une brique destinée à corriger l'un des angles morts des agents autonomes : l'appel d'outil syntaxiquement correct mais sémantiquement inapproprié dans le contexte. Plutôt que de laisser l'agent exécuter aveuglément ce que le modèle propose, Dogwood introduit un mécanisme de vérification et d'application de politiques qui filtre les actions techniquement possibles mais contextuellement fausses. Le sujet devient central alors que les entreprises passent des démonstrations d'agents à des déploiements de production connectés à des systèmes réels, où une action erronée coûte cher. L'annonce s'inscrit dans une série de mouvements d'AWS autour de l'outillage agentique, aux côtés de Kiro et de son protocole client d'agent, qui vise à détacher les agents de codage de leur éditeur d'origine."
+        },
+        {
+          "category": "Science",
+          "title": "Le noyau liquide de la Terre a brusquement inversé son sens de circulation sous le Pacifique",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260806050713.htm",
+          "publishedAt": "2026-08-06",
+          "summary": "Une équipe menée par Frederik Dahl Madsen, de l'université d'Édimbourg, montre qu'une vaste région de fer en fusion située sous l'océan Pacifique est passée vers 2010 d'un lent déplacement vers l'ouest à un écoulement rapide vers l'est. Les scientifiques supposaient jusqu'ici que la circulation du noyau externe restait relativement stable ; les données satellitaires des missions Swarm et CryoSat de l'ESA, croisées avec des observations couvrant 1997 à 2025, révèlent au contraire un système bien plus changeant. Le flux vers l'est faiblit depuis 2020, ce qui laisse ouverte l'hypothèse d'une fluctuation passagère ou d'un cycle naturel. L'inversion coïncide avec des modifications du comportement de la graine solide, suggérant un couplage. Rien ne menace la surface, mais la compréhension de la géodynamo progresse. Publié dans le Journal of Studies of Earth's Deep Interior."
+        },
+        {
+          "category": "Science",
+          "title": "Des levures vivantes découvertes sur le corps d'Ötzi, la momie des glaces vieille de 5300 ans",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260806050721.htm",
+          "publishedAt": "2026-08-06",
+          "summary": "Une équipe a identifié sur Ötzi à la fois des micro-organismes anciens et modernes. Des bactéries issues de sa flore intestinale d'origine ont été retrouvées dans les tissus intestinaux et le contenu stomacal, offrant un aperçu de microbiomes humains très différents des nôtres. La surprise vient de levures adaptées au froid, vraisemblablement apportées par le glacier lui-même : les chercheurs y trouvent à la fois de l'ADN ancien dégradé et des brins modernes bien conservés, signe que ces organismes restent viables dans les conditions de conservation actuelles, à moins 6 degrés et 99 pour cent d'humidité. Trois des quatre espèces de levures possèdent en outre la capacité génétique de métaboliser le phénol utilisé lors de la conservation. Les momies glaciaires apparaissent ainsi comme des systèmes biologiques dynamiques. Publié dans Microbiome."
+        },
+        {
+          "category": "Science",
+          "title": "Dix mois en Antarctique : plus de contacts entre coéquipiers, plus de tensions, un enseignement pour Mars",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260806050722.htm",
+          "publishedAt": "2026-08-06",
+          "summary": "Des chercheurs des universités de Zurich et de Berne ont suivi douze membres d'équipage de la station Concordia, en Antarctique, pendant dix mois, à l'aide de capteurs de proximité portés en permanence et de questionnaires. Contrairement à l'intuition, l'intensification des contacts s'est accompagnée d'effets négatifs : les participants déclarant les interactions les plus fréquentes rapportaient aussi davantage de conflits, de méfiance et une performance perçue plus faible. L'équipage s'est peu à peu scindé en sous-groupes formés selon la langue et la nationalité. Les capteurs ont fonctionné jusqu'à moins 80 degrés. Pour les futures missions longues vers la Lune et Mars, les auteurs en tirent une leçon pratique : ménager des espaces d'intimité et un soutien social ciblé compte autant que favoriser les échanges. Publié dans les Proceedings of the National Academy of Sciences."
+        }
+      ]
+    }
+  ]
+}

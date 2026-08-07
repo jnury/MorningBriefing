@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-07",
+  "generatedAt": "2026-08-07T17:37:55.404Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 29,
+          "low": 20,
+          "condition": "Partiellement nuageux",
+          "weathercode": 2,
+          "precipProbability": 10
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Le Vatican a confirmé le premier voyage de Léon XIV en Amérique du Sud, onze jours du 6 au 17 novembre entre l'Uruguay, l'Argentine et le Pérou, première visite papale à Buenos Aires et Montevideo depuis près de quarante ans.",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "headline": "La Mauricienne Kim Le Court-Pienaar a remporté au sprint la 6e étape du Tour de France Femmes à Tournon-sur-Rhône, la Suissesse Marlen Reusser conservant le maillot jaune avec 12 secondes d'avance sur Demi Vollering.",
+          "publishedAt": "2026-08-06"
+        },
+        {
+          "headline": "Téhéran a annoncé un accord de principe avec Mascate sur les coordonnées de nouveaux couloirs de navigation dans le détroit d'Ormuz, dernière étape avant une gestion conjointe du passage stratégique.",
+          "publishedAt": "2026-08-06"
+        },
+        {
+          "headline": "La FDA a homologué mFlusiva de Moderna, premier vaccin antigrippal à ARN messager au monde, crédité d'une efficacité supérieure de 27% au vaccin standard chez les 50-64 ans.",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "headline": "Le télescope solaire Inouye d'Hawaï a livré l'image en lumière visible la plus nette jamais prise du Soleil, confirmant enfin l'existence des tourbillons d'instabilité de Kelvin-Helmholtz à sa surface.",
+          "publishedAt": "2026-08-06"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "Berne confirme une intrusion sur ses serveurs SharePoint : environ 200 comptes compromis",
+          "url": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
+          "publishedAt": "2026-08-06",
+          "summary": "L'Office fédéral de l'informatique et de la télécommunication a révélé qu'environ 200 comptes de l'administration fédérale suisse ont été compromis via des serveurs SharePoint. Une activité inhabituelle a été détectée le 28 juillet, puis la compromission d'identifiants confirmée le 31 juillet. Les accès externes ont été bloqués, les vulnérabilités corrigées et les mots de passe concernés réinitialisés. Les attaquants ont probablement exploité des failles publiées par Microsoft à la mi-juillet, vraisemblablement CVE-2026-56164 (élévation de privilèges) ou CVE-2026-50522 (exécution de code à distance critique). L'enquête est menée avec l'Office fédéral de la cybersécurité et Microsoft. Aucun vol de données au-delà des identifiants n'est établi et aucun groupe n'a revendiqué l'attaque ; les serveurs sont réinstallés par précaution."
+        },
+        {
+          "category": "IT",
+          "title": "Cisco corrige douze failles dans Catalyst SD-WAN et IOS XE, dont trois notées 9,9 sur 10",
+          "url": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
+          "publishedAt": "2026-08-06",
+          "summary": "Cisco a publié des correctifs pour douze vulnérabilités touchant ses équipements d'infrastructure. Cinq concernent Catalyst SD-WAN, dont trois failles critiques notées 9,9 sur l'échelle CVSS : CVE-2026-20303 (traversée de répertoires), CVE-2026-20304 (contrôle d'accès défaillant) et CVE-2026-20310 (résolution de liens symboliques). Sept autres visent IOS XE, notamment CVE-2026-20272, une injection de commandes notée 9,8, et CVE-2026-20267 notée 9,0. Deux failles supplémentaires affectent l'interface web IMC. Cisco précise que ces problèmes ont été découverts lors de tests de sécurité internes et qu'aucune exploitation active n'est connue, à l'exception de CVE-2026-20200, pour laquelle une preuve de concept circule publiquement. Les administrateurs de réseaux d'entreprise sont invités à appliquer les mises à jour sans attendre."
+        },
+        {
+          "category": "AI",
+          "title": "Claude Code et Gemini CLI : une simple issue GitHub suffisait à voler les secrets d'un pipeline CI",
+          "url": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
+          "publishedAt": "2026-08-07",
+          "summary": "Présentées à Black Hat USA par Novee Security, ces failles montrent comment un contributeur externe pouvait détourner des agents de codage IA branchés sur l'intégration continue. CVE-2026-12537, notée 10 sur 10, touche Gemini CLI : un fichier .gemini/.env forgé permettait l'injection de commandes système sur l'hôte CI avant même l'activation du bac à sable ; correctif en version 0.39.1 et run-gemini-cli 0.1.22. CVE-2026-54316 vise Claude Code, des versions 0.2.54 à 2.1.163 : elle transformait le compteur public de téléchargements de Hugging Face en canal d'exfiltration, révélant une clé d'API caractère par caractère ; corrigée en 2.1.163. Un troisième défaut, non corrigé, concerne OpenAI Codex. Les chercheurs recommandent d'auditer tout workflow déclenchable par un tiers."
+        },
+        {
+          "category": "IT",
+          "title": "La CISA donne trois jours aux agences fédérales pour colmater Langflow, N-central et Apache Tomcat",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
+          "publishedAt": "2026-08-05",
+          "summary": "L'agence américaine de cybersécurité a ajouté trois vulnérabilités activement exploitées à son catalogue KEV, avec échéance de remédiation au 7 août. CVE-2026-9198 vise IBM Langflow : notée 9,8, elle permet une exécution de code à distance sans authentification sur les déploiements par défaut, en enchaînant deux points d'API pour contourner l'authentification ; plusieurs exploits fonctionnels circulent publiquement. CVE-2026-18576 touche N-able N-central et autorise le détournement de comptes administrateurs sans authentification ; le premier correctif s'étant révélé insuffisant, un hotfix d'urgence a été publié le 1er août. CVE-2026-34486 concerne Apache Tomcat et corrige de façon incomplète la faille CVE-2026-29146 ; des acteurs sinophones ont tenté de déployer manuellement des reverse shells sur neuf serveurs."
+        },
+        {
+          "category": "IT",
+          "title": "SCTPhantom : une faille Linux vieille de dix-huit ans permet de devenir root et de s'échapper des conteneurs",
+          "url": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
+          "publishedAt": "2026-08-07",
+          "summary": "Référencée CVE-2026-64564 et surnommée SCTPhantom, cette vulnérabilité de type use-after-free se cache dans le code réseau SCTP du noyau Linux depuis 2008 et affecte toutes les versions publiées depuis Linux 2.6.25. Une erreur de logique dans la reconfiguration dynamique d'adresses permet à un attaquant local de libérer des zones mémoire tout en conservant des pointeurs pendants. Le Zhuque Lab de Tencent a démontré l'obtention des privilèges root et l'évasion d'environnements conteneurisés, avec six succès sur huit tentatives en laboratoire. L'exploitation reste locale et suppose que SCTP soit accessible, ce qui limite la surface d'attaque. Les correctifs sont sortis le 3 août dans les noyaux 7.1.6, 6.18.42, 6.12.101 et 6.6.148. Aucun code d'exploitation public n'a été observé."
+        },
+        {
+          "category": "IT",
+          "title": "Un malware peut détourner les clés Windows Hello for Business pour s'installer durablement dans Entra ID",
+          "url": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
+          "publishedAt": "2026-08-07",
+          "summary": "Le chercheur Dirk-jan Mollema a montré qu'un code malveillant s'exécutant dans une session Windows compromise peut invoquer silencieusement la clé Windows Hello for Business de l'utilisateur pour s'authentifier auprès de Microsoft Entra ID, sans extraire la clé privée, sans récupérer le code PIN et sans déclencher d'invite biométrique. Aucun privilège administrateur n'est requis et l'attaque fonctionne sur des systèmes protégés par TPM. Une fois authentifié, l'attaquant enregistre un appareil qu'il contrôle, obtient un Primary Refresh Token valable 90 jours et renouvelable, puis ajoute d'autres méthodes d'authentification si la politique du tenant le permet, satisfaisant même les exigences dites résistantes au hameçonnage. Aucun CVE ni avis Microsoft n'existait au 6 août ; Mollema conseille de surveiller les connexions Hello sans identifiant d'appareil."
+        },
+        {
+          "category": "IT",
+          "title": "Zapscape : une faille de KVM permet à une machine virtuelle imbriquée de s'évader vers l'hôte Linux",
+          "url": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
+          "publishedAt": "2026-08-06",
+          "summary": "La vulnérabilité CVE-2026-64561, baptisée Zapscape, affecte l'hyperviseur KVM sur architecture x86 dans les noyaux Linux 5.9 et ultérieurs, dès lors que la virtualisation imbriquée est exposée à des invités non fiables. Il s'agit d'un use-after-free dans la gestion de la shadow MMU : un ordonnancement incorrect des vérifications de racine obsolète laisse le traitement des fautes de page opérer sur une racine déjà invalidée, créant des pointeurs pendants et des écritures après libération. Un attaquant disposant de privilèges dans une machine invitée de niveau L1 peut ainsi sortir de l'isolation et exécuter du code root sur l'hôte. Sur Intel, l'exposition des longueurs de parcours EPT 4 et 5 est requise. Le correctif est intégré aux noyaux 6.6.148, 6.12.101, 6.18.42, 7.1.6 et 7.2-rc5."
+        },
+        {
+          "category": "IT",
+          "title": "Plus de 4400 automates Rockwell exposés sur internet, dont 22 dans des villes visées par des cyberattaques",
+          "url": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
+          "publishedAt": "2026-08-06",
+          "summary": "Un balayage mené le 3 août par Forescout a recensé 4407 automates programmables Rockwell accessibles depuis internet, dont 2844 aux États-Unis, sans que la firme puisse confirmer de compromission. Vingt-deux d'entre eux se trouvent dans des villes touchées par de récentes cyberattaques contre des services d'eau, dix-neuf partageant le même réseau d'opérateur mobile. Les attaquants n'ont pas exploité de vulnérabilité : ils ont simplement modifié les adresses IP et défini des mots de passe sur des équipements déjà accessibles, privant les exploitants de visibilité et de contrôle. Les MicroLogix 1400 représentent la moitié des automates exposés et les 1100 environ huit pour cent ; dix-neuf appareils tournaient sur un micrologiciel vulnérable à CVE-2017-16740. La recommandation est de retirer ces automates d'internet et d'isoler l'accès distant."
+        },
+        {
+          "category": "IT",
+          "title": "WordPress corrige une faille XSS pré-authentification pouvant mener à l'exécution de code PHP",
+          "url": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
+          "publishedAt": "2026-08-07",
+          "summary": "La vulnérabilité CVE-2026-64638, notée 8,9, est un cross-site scripting réfléchi présent sur l'écran de connexion de WordPress et exploitable sans aucune authentification. Elle provient d'un assainissement incohérent des entrées : le nom d'utilisateur d'une tentative de connexion échouée traverse plusieurs analyseurs qui interprètent différemment les chaînes ressemblant à des balises, laissant passer des éléments DOM contrôlés par l'attaquant. Le code s'exécute dans le navigateur du visiteur sans interaction supplémentaire et peut s'enchaîner vers une exécution de code PHP si un administrateur connecté consulte une page piégée : exposition des identifiants de base de données, création de comptes administrateurs persistants, commandes système avec les droits du worker PHP. Le correctif WordPress 7.0.3 est sorti le 6 août et a été rétroporté jusqu'à la version 4.7."
+        },
+        {
+          "category": "IT",
+          "title": "Google alerte : des pirates appellent les employés de la finance pour voler leurs accès et extorquer",
+          "url": "https://techcrunch.com/2026/08/06/google-says-hackers-are-calling-financial-firm-employees-to-hack-and-extort-victims/",
+          "publishedAt": "2026-08-06",
+          "summary": "Les chercheurs de Google décrivent une campagne de vishing visant les grandes sociétés financières américaines. Les attaquants téléphonent sur les portables personnels des employés en se faisant passer pour des collègues ou le support informatique, afin de récupérer identifiants et codes d'authentification multifacteur. Parmi les cibles évoquées figurent Blackstone, Apollo Global Management, KKR et CME Group. Google identifie quatre groupes, Falcon, Helix, Pink et Redact, susceptibles d'appartenir au collectif UNC6671, qui exploitent des sites publics de divulgation pour faire pression sur leurs victimes. Un portefeuille de cryptomonnaie associé a reçu environ 10 millions de dollars en bitcoin depuis le début de 2026, pour des rançons demandées entre 750 000 et 3 millions. L'industrie, la santé, l'immobilier et la tech ont aussi été visés."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Tour de France Femmes : la Bernoise Marlen Reusser conserve le maillot jaune avec 12 secondes d'avance sur Demi Vollering à l'issue de la 6e étape entre Montbrison et Tournon-sur-Rhône, remportée au sprint par la Mauricienne Kim Le Court devant Cédrine Kerbaol et Puck Pieterse.",
+          "publishedAt": "2026-08-06"
+        },
+        {
+          "headline": "Football : Trabzonspor a officialisé la signature de Mohamed Salah, libre depuis son départ de Liverpool, pour un contrat de deux ans, l'Égyptien de 34 ans ayant été présenté aux supporters au Papara Park.",
+          "publishedAt": "2026-08-06"
+        },
+        {
+          "headline": "Mercato : le Real Madrid a officialisé l'arrivée de l'ailier ivoirien de 19 ans Yan Diomandé, engagé jusqu'au 30 juin 2033 pour environ 125 millions d'euros, le transfert le plus cher de l'histoire du RB Leipzig.",
+          "publishedAt": "2026-08-06"
+        }
+      ]
+    }
+  ]
+}
