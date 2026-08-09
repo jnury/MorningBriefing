@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-09",
+  "generatedAt": "2026-08-09T03:11:13.858Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 34,
+          "low": 23,
+          "condition": "Couvert",
+          "weathercode": 3,
+          "precipProbability": 5
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Abelardo de la Espriella a prêté serment comme président de la Colombie lors d'une cérémonie tenue à Cali, une première hors de Bogota, en présence notamment du roi Felipe VI et de plusieurs chefs d'État latino-américains.",
+          "publishedAt": "2026-08-07"
+        },
+        {
+          "headline": "Le département d'État américain a annoncé un milliard de dollars d'aide sécuritaire à la Colombie pour accompagner l'entrée en fonction du nouveau gouvernement.",
+          "publishedAt": "2026-08-07"
+        },
+        {
+          "headline": "Le président ukrainien Volodymyr Zelensky a effectué sa première visite officielle en Serbie, où Belgrade et Kiev ont promis de conclure d'ici la fin de l'année un accord de libre-échange bloqué depuis 2005.",
+          "publishedAt": "2026-08-08"
+        },
+        {
+          "headline": "En Hongrie, le parti Tisza du Premier ministre Péter Magyar a désigné l'ancien président de la Cour suprême András Baka comme candidat à la présidence de la République, un vote parlementaire étant prévu mardi.",
+          "publishedAt": "2026-08-08"
+        },
+        {
+          "headline": "L'Iran et Oman se disent tout proches d'un accord fixant des couloirs de navigation temporaires dans le détroit d'Ormuz, même si Téhéran prévient qu'une réouverture complète dépendra du respect par Washington du mémorandum de juin.",
+          "publishedAt": "2026-08-08"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "Zero-day Metabase noté 10.0 exploité dans la nature : accès administrateur sans authentification",
+          "url": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
+          "publishedAt": "2026-08-08",
+          "summary": "Une faille de sévérité maximale (CVSS 10.0, avis GHSA-vwf4-m7j8-wcjf) dans l'outil de BI Metabase est activement exploitée. Elle permet à un attaquant non authentifié d'injecter du SQL arbitraire dans la base applicative et d'obtenir un accès administrateur : modification de la configuration, vol des identifiants de bases connectées, extraction massive de données. Les versions 1.58 à 1.63 sont concernées, avec des correctifs par branche. Les instances Metabase Cloud ont été mises à jour par l'éditeur, mais les déploiements auto-hébergés doivent être corrigés en urgence. Le fabricant d'ordinateurs Framework a confirmé une exposition de données clients (noms, e-mails, adresses postales et numéros de téléphone) via cette vulnérabilité."
+        },
+        {
+          "category": "IT",
+          "title": "Framework prévient « tous ses clients » d'une fuite de données",
+          "url": "https://techcrunch.com/2026/08/07/computer-maker-framework-notifies-all-customers-of-a-data-breach/",
+          "publishedAt": "2026-08-07",
+          "summary": "Le fabricant d'ordinateurs portables modulaires Framework notifie l'ensemble de ses clients d'une violation de données. L'intrusion est liée à l'exploitation du zero-day critique affectant Metabase, l'outil d'informatique décisionnelle que l'entreprise utilisait pour analyser ses données : la faille permettait à un attaquant non authentifié d'obtenir des privilèges d'administrateur et d'extraire le contenu des bases connectées. Les informations exposées comprennent les noms, adresses électroniques, adresses postales et numéros de téléphone des clients. L'affaire illustre l'effet domino des vulnérabilités touchant des outils internes réputés secondaires : un tableau de bord analytique mal exposé suffit à compromettre l'intégralité d'un fichier clients. Framework fait partie des premières victimes identifiées de cette campagne, aux côtés d'autres organisations ayant signalé des vols de données."
+        },
+        {
+          "category": "IT",
+          "title": "CVE-2026-8037 : la faille Progress Kemp LoadMaster entre au catalogue KEV après 792 tentatives d'exploitation",
+          "url": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
+          "publishedAt": "2026-08-08",
+          "summary": "La CISA a ajouté le 7 août la CVE-2026-8037 à son catalogue des vulnérabilités activement exploitées. Il s'agit d'une injection de commandes (CVSS 9.6) dans les répartiteurs de charge Progress Kemp LoadMaster, due à des entrées non assainies sur plusieurs points d'API, qui permet à un attaquant non authentifié d'exécuter du code arbitraire sur l'équipement. Les télémétries font état de 792 tentatives d'exploitation en 41 jours, depuis 65 adresses IP réparties dans 18 pays, la dernière activité datant du 4 août. Les agences fédérales américaines ont jusqu'au 10 août pour appliquer le correctif, au titre de la directive BOD 26-04. La faille avait été détaillée en juin par watchTowr Labs, dans une fonction escape_quotes() mal conçue."
+        },
+        {
+          "category": "IT",
+          "title": "N-able publie un second correctif d'urgence pour N-central, exploité pour atteindre les systèmes gérés",
+          "url": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
+          "publishedAt": "2026-08-08",
+          "summary": "N-able a diffusé un « Hotfix 2 » pour sa plateforme de supervision et de gestion à distance N-central, face à l'exploitation continue de la CVE-2026-18577. Cette faille, un correctif incomplet de la CVE-2026-18556, permet un contournement d'authentification et la prise de contrôle de comptes. Le sujet est particulièrement sensible : N-central est utilisé par des prestataires informatiques infogéreurs, si bien qu'une compromission de la console donne aux attaquants un accès aux systèmes des clients gérés, avec des mécanismes de persistance observés. La CISA avait inscrit la vulnérabilité à son catalogue des failles activement exploitées début août, imposant des délais de correction aux agences fédérales américaines. Les administrateurs sont invités à appliquer immédiatement le durcissement supplémentaire et à rechercher des traces de compromission."
+        },
+        {
+          "category": "IT",
+          "title": "SCTPhantom : une faille Linux vieille de 18 ans permet root et évasion de conteneur",
+          "url": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
+          "publishedAt": "2026-08-07",
+          "summary": "La CVE-2026-64564, baptisée SCTPhantom, est une vulnérabilité de type use-after-free présente depuis 2008 dans l'implémentation SCTP du noyau Linux. Le noyau vérifie une demande de suppression sur une adresse mais agit sur un chemin sélectionné à partir d'une autre, libérant de la mémoire et laissant un pointeur pendant. Un utilisateur local peut ainsi escalader ses privilèges jusqu'à root et, selon les tests du Tencent Zhuque Lab, s'échapper d'un conteneur — un risque direct pour les plateformes conteneurisées. Debian 13, Ubuntu 24.04, Rocky Linux 9, RHEL 9 et OpenCloudOS sont touchés. Les correctifs sont sortis le 3 août dans les noyaux 7.1.6, 6.18.42, 6.12.101 et 6.6.148. Score CVSS v4.0 de 8,5 ; aucun exploit public connu."
+        },
+        {
+          "category": "IT",
+          "title": "Près de 800 paquets npm malveillants diffusent un RAT multiplateforme",
+          "url": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
+          "publishedAt": "2026-08-07",
+          "summary": "Une campagne d'empoisonnement de la chaîne d'approvisionnement logicielle a publié près de 800 paquets malveillants sur le registre npm. Les noms sont typosquattés — apparemment générés automatiquement — et les fichiers README incitent les développeurs à les charger via require(). La charge utile, un téléchargeur baptisé WEL1DROPPER (suivi sous le nom « Flooding Dropper » par Sonatype), récupère ses modules depuis des hôtes Cloudflare Workers, avec repli sur des enregistrements DNS TXT du domaine wel1[.]ru, puis distribue un cheval de Troie d'accès à distance et un voleur d'informations adaptés à Windows, macOS et Linux — dont le framework de commande et contrôle Sliver sur Linux. Les chercheurs y voient l'évolution de la campagne « Moika » d'avril 2026, forte de 250 paquets."
+        },
+        {
+          "category": "IT",
+          "title": "Atlassian Rovo détourné pour exfiltrer des données Jira, Confluence et SharePoint",
+          "url": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
+          "publishedAt": "2026-08-08",
+          "summary": "Deux équipes de recherche ont décrit indépendamment des moyens de faire exfiltrer des données d'entreprise par l'assistant IA Rovo d'Atlassian. PromptArmor documente une injection de prompt par le contenu : des instructions cachées dans un fichier déposé déclenchent la collecte de données ; signalée le 23 mai, elle était encore non corrigée à la publication du 5 août. Varonis Threat Labs décrit « RovoBlast », qui abuse d'un paramètre d'URL rovoChatPrompt pour précharger des instructions malveillantes et exfiltrer en un clic tout ce qui est accessible, y compris des clés d'API ; corrigé côté serveur le 8 juillet, récompensé 6 000 dollars. Jira, Confluence et les applications tierces connectées (SharePoint, Outlook) sont concernés. Atlassian permet de restreindre Rovo par application et par groupe."
+        },
+        {
+          "category": "IT",
+          "title": "HTTP Terminator : une IA découvre de nouvelles techniques de desync et un zero-day Apache",
+          "url": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
+          "publishedAt": "2026-08-07",
+          "summary": "James Kettle, directeur de la recherche chez PortSwigger, a construit avec l'aide de l'IA un système baptisé HTTP Terminator, utilisant Claude pour l'extraction documentaire et la génération de cas de test, et Claude Code pour la phase d'investigation. L'outil a testé 30 000 vecteurs de désynchronisation HTTP candidats sur 30 000 sites autorisés et identifié environ 700 cibles vulnérables : banques, infrastructures gouvernementales, produits de sécurité, un aéroport. Une seule technique fondée sur l'en-tête Content-Type a exposé plus de 200 sites, dont une grande banque américaine. La recherche met au jour de nouveaux déclencheurs de desync, un motif de double correspondance Content-Length, une technique dite « dangling-byte », un zero-day dans Apache Traffic Server (CVE-2026-63078) et le concept de « Shared-Parser Confusion ». L'outil est publié en open source."
+        },
+        {
+          "category": "IT",
+          "title": "TrueConf compromis : des installeurs clients piégés avec des portes dérobées",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
+          "publishedAt": "2026-08-08",
+          "summary": "Le groupe hacktiviste Head Mare a exploité des serveurs de visioconférence TrueConf non corrigés pour remplacer les installeurs clients par des versions piégées. L'attaque passe par le port TCP 4307, ouvert par défaut, et enchaîne deux vulnérabilités (KLCERT-26-057 et KLCERT-26-058) permettant l'exécution de code puis l'évasion du bac à sable, avant une élévation de privilèges jusqu'à NT AUTHORITY\\SYSTEM. Les installeurs modifiés embarquent la porte dérobée PhantomCore, complétée par PhantomGraph, deux DLL qui reçoivent leurs commandes via Microsoft OneDrive. Les versions TrueConf Server 5.3.x avant 5.3.9, 5.4.x avant 5.4.9 et 5.5.x avant 5.5.5 sont vulnérables ; les correctifs datent du 18 juin. Kaspersky observe plusieurs campagnes actives contre des organisations russes de l'industrie, du transport, de l'énergie et de l'informatique."
+        },
+        {
+          "category": "IT",
+          "title": "Microsoft et Apple publient de nouvelles mises à jour de sécurité",
+          "url": "https://www.securityweek.com/microsoft-apple-release-fresh-security-updates/",
+          "publishedAt": "2026-08-07",
+          "summary": "Microsoft et Apple ont diffusé de nouveaux lots de correctifs de sécurité. Côté Microsoft, les mises à jour traitent des vulnérabilités critiques réparties sur Azure, Entra et SharePoint — un trio particulièrement sensible puisqu'il touche à l'infrastructure cloud, à l'identité et à la collaboration documentaire, c'est-à-dire aux briques dont la compromission ouvre l'accès à l'ensemble d'un environnement d'entreprise. SharePoint reste par ailleurs une cible privilégiée : plusieurs intrusions récentes, dont celle ayant visé l'office fédéral informatique suisse, ont reposé sur l'exploitation de serveurs non corrigés. Les équipes d'exploitation sont invitées à prioriser ces correctifs sur les composants exposés à Internet et à vérifier la configuration des identités privilégiées avant que des preuves de concept ne circulent publiquement."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Tour de France Femmes : Demi Vollering a remporté en solitaire la 8e étape entre Sisteron et Nice et s'est emparée du maillot jaune avec 17 secondes d'avance à la veille de l'arrivée.",
+          "publishedAt": "2026-08-08"
+        },
+        {
+          "headline": "Tennis : au WTA 1000 de Toronto, la Saint-Galloise Belinda Bencic s'est arrachée pour rallier les 8es de finale en battant Taylor Townsend 6-7 (5/7) 7-6 (7/4) 6-4 au terme de 3h25 de combat.",
+          "publishedAt": "2026-08-08"
+        },
+        {
+          "headline": "Course de montagne : la 53e Sierre-Zinal est revenue au Kényan Philemon Kiriago (2h26'24, doublé), tandis que la Roumaine Mădălina Florea s'est imposée chez les femmes en 2h55'44.",
+          "publishedAt": "2026-08-08"
+        }
+      ]
+    }
+  ]
+}
