@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-13",
+  "generatedAt": "2026-08-13T11:57:28.390Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 34,
+          "low": 20,
+          "condition": "Ensoleillé",
+          "weathercode": 0,
+          "precipProbability": 0
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Des millions d'Européens ont assisté mercredi soir à la première éclipse totale de Soleil visible depuis l'Islande, le Groenland et l'Espagne continentale — une première pour l'Espagne depuis 1905 — avec une phase partielle observée jusqu'à 93% en Suisse.",
+          "publishedAt": "2026-08-12"
+        },
+        {
+          "headline": "En Colombie, les secours sont entrés dans la « phase finale » des recherches après le séisme de magnitude 7,4 du 10 août dans le Chocó, le plus puissant du siècle dans le pays, avec des sauvetages encore réussis dans les décombres.",
+          "publishedAt": "2026-08-12"
+        },
+        {
+          "headline": "Le Conseil fédéral a fixé les grandes lignes du Sommet de Genève sur l'intelligence artificielle de juin 2027, placé sous la devise « Bridging Innovation and Trust », et nommé l'ex-directrice générale du CERN Fabiola Gianotti comme déléguée.",
+          "publishedAt": "2026-08-12"
+        },
+        {
+          "headline": "Trente-deux pays, dont la quasi-totalité des États européens, le Canada, l'Australie et la Nouvelle-Zélande, ont signé une déclaration commune condamnant les exécutions de manifestants en Iran et réclamant leur arrêt immédiat.",
+          "publishedAt": "2026-08-12"
+        },
+        {
+          "headline": "Les marchés américains ont progressé après une inflation de juillet conforme aux attentes (3,4% sur un an, 2,5% pour l'indice sous-jacent), rapprochant le S&P 500 de son record et éloignant l'hypothèse d'un tour de vis de la Fed en septembre.",
+          "publishedAt": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "Patch Tuesday d'août : Microsoft corrige 421 failles, dont une zero-day activement exploitée",
+          "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+          "publishedAt": "2026-08-11",
+          "summary": "Microsoft a publié le 11 août l'une de ses plus grosses fournées de correctifs de l'année : 421 vulnérabilités, dont 62 jugées critiques et 40 permettant l'exécution de code à distance. Une seule est activement exploitée dans la nature : CVE-2026-68820, un use-after-free dans le pilote AFD.sys de WinSock qui permet une élévation de privilèges (CVSS 7,0). Quatre RCE atteignent le score maximal de 9,8 : CVE-2026-62893 (serveur TFTP des services de déploiement Windows), CVE-2026-62878 (serveur DNS Windows, dépassement de tampon potentiellement propageable de machine en machine), CVE-2026-65791 (service cible iSCSI) et CVE-2026-62815 (Microsoft QUIC). Les serveurs DNS exposés sur Internet constituent la priorité absolue de déploiement."
+        },
+        {
+          "category": "IT",
+          "title": "Lazarus a exploité la zero-day Windows AFD.sys avant son correctif, avec deux nouvelles portes dérobées",
+          "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+          "publishedAt": "2026-08-12",
+          "summary": "Le groupe nord-coréen Lazarus exploitait CVE-2026-68820 — la faille d'élévation de privilèges du pilote AFD.sys corrigée la veille par Microsoft — avant sa publication. L'opération s'inscrit dans la campagne d'ingénierie sociale « Dream Job » : de faux recruteurs LinkedIn se faisant passer pour Lockheed Martin ciblaient des professionnels de la défense et de l'aérospatiale en France, en Allemagne, au Brésil et en Inde. Deux logiciels malveillants inédits ont été déployés : Troy, une porte dérobée résidant en mémoire acceptant 17 commandes (exfiltration, shell, injection de DLL), et MISTPEN, un téléchargeur modulaire recourant au chiffrement post-quantique ML-KEM. Les attaquants ont aussi utilisé FudModule 3.1, un rootkit noyau qui neutralise Smart App Control pour obtenir les privilèges SYSTEM."
+        },
+        {
+          "category": "IT",
+          "title": "Une faille critique de VMware vCenter exploitée dans 47 pays, cinq jours après sa divulgation",
+          "url": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
+          "publishedAt": "2026-08-12",
+          "summary": "CVE-2026-59310, une faille de traversée de répertoire dans VMware vCenter de Broadcom notée 9,8 sur 10, fait l'objet d'une campagne d'exploitation de grande ampleur alors que les correctifs datent de fin juillet. Selon QUIRSO, les premiers contacts entre systèmes compromis et infrastructures malveillantes remontent au 3 août, soit cinq jours seulement après la divulgation publique. La chaîne d'attaque combine l'accès initial par traversée de chemin puis l'installation de tâches cron malveillantes s'appuyant sur reverse_ssh, un outil open source de tunnel SSH, pour maintenir un accès persistant. Le décompte atteint 361 adresses IP victimes réparties dans 47 pays, avec les plus fortes concentrations en Allemagne, aux États-Unis, en Turquie, en Iran et en France. Un acteur étatique est suspecté."
+        },
+        {
+          "category": "IT",
+          "title": "SharePoint : le contournement d'authentification CVE-2026-55040 attaqué après la publication d'un exploit",
+          "url": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
+          "publishedAt": "2026-08-13",
+          "summary": "Corrigée en juillet, la faille CVE-2026-55040 (CVSS 9,1) de Microsoft SharePoint est désormais activement exploitée depuis que Rapid7 a publié une démonstration de faisabilité. Le défaut réside dans la validation des jetons JWT par deux classes de gestion de jetons, permettant à un attaquant de se faire passer pour un utilisateur ou un administrateur du site, de lire des fichiers et de modifier des données. L'exploitation consiste à envoyer un JWT avec l'algorithme « none », donc sans signature, accompagné d'une empreinte de certificat déjà connue du système. Douze tentatives ont été observées depuis huit adresses IP situées à Hong Kong, au Japon, aux Pays-Bas, à Taïwan et aux États-Unis, dont huit les 12 et 13 août. C'est la cinquième faille SharePoint exploitée en 2026."
+        },
+        {
+          "category": "IT",
+          "title": "Chaîne d'approvisionnement empoisonnée : deux versions malveillantes de LiteLLM exposent 2500 organisations",
+          "url": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
+          "publishedAt": "2026-08-12",
+          "summary": "Deux versions piégées de LiteLLM (1.82.7 et 1.82.8) ont été publiées sur PyPI le 24 mars, restées en ligne une quarantaine de minutes — mais PyPI recommande de considérer comme compromise toute installation effectuée jusqu'à 16h00 UTC ce jour-là. Le code malveillant, dissimulé dans un fichier litellm_init.pth, s'exécutait au démarrage de l'interpréteur Python, même sans importer la bibliothèque, et siphonnait variables d'environnement, clés SSH, identifiants cloud, jetons Kubernetes et mots de passe de bases de données. CloudSEK a analysé 434 000 fichiers dérobés, révélant une exposition potentielle de plus de 2500 organisations dont NVIDIA, Cisco, Deloitte, Volkswagen et FedEx. L'origine remonte au piratage du scanner Trivy, qui avait livré aux attaquants des jetons de publication PyPI."
+        },
+        {
+          "category": "IT",
+          "title": "Un chercheur publie une nouvelle zero-day Windows après des menaces juridiques de Microsoft",
+          "url": "https://techcrunch.com/2026/08/12/after-microsoft-threatened-legal-action-a-security-researcher-publishes-a-new-windows-zero-day-bug/",
+          "publishedAt": "2026-08-12",
+          "summary": "Le chercheur connu sous le pseudonyme Nightmare Eclipse a rendu publics les détails de ShieldBreak, une vulnérabilité du moteur de sécurité de Windows Defender permettant de passer d'un accès utilisateur limité au contrôle total du système. Windows 10, Windows 11 — y compris la version 25H2 — et Windows Server 2025 sont concernés. Microsoft indique « avoir connaissance de la vulnérabilité signalée » et enquêter sur sa validité, mais aucun correctif n'existe : il s'agit donc d'une véritable zero-day. C'est la deuxième divulgation consécutive de ce chercheur, qui dénonce depuis des mois le traitement de ses signalements par Microsoft. L'éditeur avait menacé de poursuites les chercheurs publiant des failles non corrigées, avant de revenir sur ses propos. Des attaquants réels ont déjà exploité ses précédentes divulgations."
+        },
+        {
+          "category": "IT",
+          "title": "Uber Freight enquête sur une revendication de vol de données par le groupe Helix",
+          "url": "https://techcrunch.com/2026/08/12/uber-freight-reportedly-investigating-after-hacking-group-claims-data-breach/",
+          "publishedAt": "2026-08-12",
+          "summary": "Le groupe criminel Helix affirme avoir dérobé à Uber Freight des boîtes de messagerie, des espaces de stockage cloud, des fichiers de comptabilité fournisseurs et des documents de répartition. Les échantillons fournis contiennent des échanges de courriels avec des clients datés de la mi-juin, dont TechCrunch n'a pas pu vérifier l'authenticité. Helix appartient au collectif suivi par Google sous le nom UNC6671 et privilégie l'ingénierie sociale, notamment l'hameçonnage vocal : les attaquants appellent les services d'assistance informatique en se faisant passer pour des employés afin d'obtenir une réinitialisation de mot de passe. Google juge ces méthodes rudimentaires mais « redoutablement efficaces ». L'analyse des portefeuilles bitcoin du groupe révèle au moins 10,6 millions de dollars de rançons encaissées entre janvier et mai."
+        },
+        {
+          "category": "IT",
+          "title": "Le WiFi ordinaire permet désormais d'identifier une personne avec une précision quasi parfaite",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260811052857.htm",
+          "publishedAt": "2026-08-12",
+          "summary": "Des chercheurs montrent qu'un équipement WiFi standard suffit à identifier un individu avec une exactitude proche de la perfection, en analysant la manière dont son corps perturbe la propagation des ondes radio dans une pièce. Chaque personne modifie le signal selon une signature caractéristique, liée à sa morphologie et à sa démarche, exploitable sans caméra, sans capteur porté et sans le moindre consentement de l'intéressé. Les applications légitimes existent — détection de chute chez les personnes âgées, domotique — mais l'implication en matière de vie privée est considérable : l'infrastructure réseau déjà déployée dans les logements, les bureaux et les commerces devient un dispositif de surveillance biométrique passif, indétectable et difficile à neutraliser."
+        },
+        {
+          "category": "AI",
+          "title": "Fermi, spécialiste du nucléaire pour centres de données IA, nomme enfin un directeur général",
+          "url": "https://techcrunch.com/2026/08/12/ai-nuclear-power-firm-fermi-finally-has-a-new-ceo/",
+          "publishedAt": "2026-08-12",
+          "summary": "Fermi, entreprise qui développe des capacités de production nucléaire destinées à alimenter les centres de données dédiés à l'intelligence artificielle, s'est dotée d'un nouveau directeur général après une période de vacance à sa tête. La nomination intervient dans un contexte où la consommation électrique des infrastructures d'entraînement et d'inférence est devenue le principal facteur limitant de l'expansion de l'IA, poussant les grands acteurs technologiques à sécuriser directement des sources d'énergie pilotables. Le nucléaire, y compris sous forme de petits réacteurs modulaires, s'impose comme la réponse privilégiée à cette contrainte, faute d'alternative bas carbone disponible en continu à l'échelle requise."
+        },
+        {
+          "category": "IT",
+          "title": "Blacksmith, spécialiste du test de code assisté par IA, multiplie sa valorisation par dix en un an",
+          "url": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
+          "publishedAt": "2026-08-12",
+          "summary": "Blacksmith a bouclé un tour de série B de 45 millions de dollars sur une valorisation de 550 millions, contre 60 millions lors de sa série A de 10 millions il y a moins d'un an — un facteur dix en quelques mois. L'entreprise développe des outils d'accélération et de validation des tests logiciels, un segment porté mécaniquement par l'essor de la génération de code par IA : plus les agents produisent de code, plus le goulot d'étranglement se déplace vers sa vérification et son intégration continue. Cette dynamique fait des infrastructures de test l'un des sous-secteurs les plus recherchés de l'outillage pour développeurs."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Le Bâlois Jason Joseph est devenu champion d'Europe du 110 m haies à Birmingham en 13''12, offrant à la Suisse son 14e titre européen d'athlétisme depuis 1934, devant le Français Just Kwaou-Mathey (13''16).",
+          "publishedAt": "2026-08-12"
+        },
+        {
+          "headline": "Le PSG a conservé sa Supercoupe d'Europe en battant Aston Villa 2-1 à Salzbourg, grâce à des buts de Khvicha Kvaratskhelia (20e) et Désiré Doué (61e).",
+          "publishedAt": "2026-08-12"
+        },
+        {
+          "headline": "Le Roumain David Popovici a décroché un troisième titre européen consécutif sur 100 m libre à Paris en 46''56, record des championnats, devant Egor Kornev (46''74) et Kristof Milak (46''87), tous trois sous les 47 secondes.",
+          "publishedAt": "2026-08-12"
+        }
+      ]
+    }
+  ]
+}
