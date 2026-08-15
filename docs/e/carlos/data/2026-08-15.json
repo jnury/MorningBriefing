@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-15",
+  "generatedAt": "2026-08-15T16:21:39.900Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 34,
+          "low": 23,
+          "condition": "Couvert",
+          "weathercode": 3,
+          "precipProbability": 10
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Colombie : quatre jours après le séisme de magnitude 7,4 qui a fait 281 morts, Bogota annonce un fonds de reconstruction tandis que Washington débloque 15,5 millions de dollars et l'Union européenne 2 millions d'euros d'aide d'urgence.",
+          "publishedAt": "2026-08-14"
+        },
+        {
+          "headline": "Espagne : le gouvernement de Pedro Sánchez a prolongé jusqu'en juin 2030 l'exploitation de la centrale nucléaire d'Almaraz, la plus puissante du pays, sécurisant 7 % de l'électricité nationale et près de 4000 emplois.",
+          "publishedAt": "2026-08-14"
+        },
+        {
+          "headline": "Grèce : l'ancien aéroport d'Athènes se mue en Ellinikon Park, futur plus grand parc urbain côtier d'Europe avec 200 hectares, 30 000 arbres et des « routes fraîches » jusqu'à 4 °C sous la température ambiante.",
+          "publishedAt": "2026-08-14"
+        },
+        {
+          "headline": "Belgique : la Grand-Place de Bruxelles s'est couverte d'un tapis de 700 000 fleurs reprenant « La Grande Vague » de Hokusai, pour les 160 ans des relations diplomatiques belgo-japonaises.",
+          "publishedAt": "2026-08-14"
+        },
+        {
+          "headline": "Croatie : le violent incendie qui a ravagé près de 1000 hectares près d'Omiš a été maîtrisé, les Canadair étant redéployés vers la péninsule de Pelješac où la situation est désormais stable.",
+          "publishedAt": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "Fisc français : la DGFiP confirme 678 000 contribuables touchés par la cyberattaque",
+          "url": "https://www.generation-nt.com/actualites/fisc-impots-plateforme-fuite-donnees-2079792",
+          "publishedAt": "2026-08-14",
+          "summary": "La Direction générale des Finances publiques a confirmé le 14 août l'ampleur de l'intrusion survenue fin juin 2026 dans son système d'information : environ 678 437 personnes concernées, dont 392 867 particuliers et 285 570 professionnels. L'attaquant a exploité des identifiants d'un VPN interne puis un outil interne de recherche sur les contribuables, avant d'être détecté et coupé en pleine exfiltration. Pour les particuliers, les données extraites incluent nom et prénom, quotient familial, revenu fiscal de référence et taux de prélèvement à la source. Les fichiers sont revendiqués à la vente depuis le 12 août sur un forum criminel. La CNIL sera notifiée, une plainte est déposée et l'ANSSI enquête. La communication officielle, très tardive au regard de l'incident de juin, est critiquée."
+        },
+        {
+          "category": "IT",
+          "title": "Cyberattaques iraniennes présumées contre des réseaux d'eau américains dans au moins sept États",
+          "url": "https://techcrunch.com/2026/08/14/what-we-know-about-the-alleged-iranian-hacks-on-u-s-water-utilities/",
+          "publishedAt": "2026-08-14",
+          "summary": "Une vague coordonnée d'attaques contre des régies d'eau américaines a débuté fin juillet : le Minnesota touché le premier le 28 juillet, avec plus de 30 communes affectées, puis l'Arkansas, la Géorgie, le New Jersey et le Michigan. Le FBI confirme des incidents dans « au moins sept États ». Sans attribution publique, les agences de renseignement se disent confiantes dans la responsabilité du Corps des gardiens de la révolution islamique. Forescout a recensé plus de 2 800 automates de systèmes d'eau américains exposés sur Internet. Certaines attaques ont provoqué des pertes de pression pouvant laisser s'infiltrer des eaux souterraines contaminées : Braham (Minnesota) a mis son usine hors ligne et plusieurs communes géorgiennes ont émis des avis d'ébullition par précaution."
+        },
+        {
+          "category": "IT",
+          "title": "VMware vCenter : la faille critique CVE-2026-59310 exploitée pour poser des accès SSH inversés",
+          "url": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
+          "publishedAt": "2026-08-13",
+          "summary": "Une faille de traversée de répertoire dans le serveur Syslog de vCenter, CVE-2026-59310, permet à un attaquant non authentifié disposant d'un accès réseau d'exécuter du code arbitraire. Broadcom l'a divulguée le 29 juillet 2026 sans proposer de contournement : seule la mise à jour protège. Les versions concernées sont vCenter 9.1 avant 9.1.0.0300, 9.0 avant 9.0.2.0100 et 8.0 avant 8.0 U3k ou 8.0 U2f. L'exploitation a démarré cinq jours après la divulgation ; au 7 août, les chercheurs avaient documenté 361 adresses IP compromises dans 47 pays, avec des concentrations en Allemagne, aux États-Unis, en Turquie, en Iran et en France. Les attaquants déploient ensuite le framework open source reverse_ssh pour maintenir un accès persistant via des canaux sortants."
+        },
+        {
+          "category": "IT",
+          "title": "Une faille zero-day dans GeoServer, notée 9.8, déjà sondée sur Internet",
+          "url": "https://thehackernews.com/2026/08/unpatched-geoserver-zero-day-targeted.html",
+          "publishedAt": "2026-08-13",
+          "summary": "Une injection SQL critique (GHSA-mqjf-5f49-2fjh, CVSS 9,8) affecte les filtres OGC de GeoServer lorsqu'ils s'appuient sur un DataStore PostGIS. Le défaut se situe dans la fonction jsonArrayContains, qui écrit une valeur utilisateur dans le SQL généré sans échappement, ouvrant la voie à une exécution de code à distance selon la configuration. Les versions vulnérables du composant gt-jdbc-postgis sont corrigées en 35.1, 34.5 et 33.6 ; côté GeoServer, les correctifs figurent dans les versions 3.0.1, 2.28.5 et 2.27.6. Les chercheurs observent déjà des balayages de masse : pour l'instant les attaquants se contentent de déclencher des erreurs pour identifier les systèmes vulnérables, un comportement appelé à changer vite. Il s'agit d'une régression de CVE-2023-25158."
+        },
+        {
+          "category": "IT",
+          "title": "Microsoft corrige LegacyHive, un zero-day Windows d'élévation de privilèges",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/",
+          "publishedAt": "2026-08-13",
+          "summary": "Le Patch Tuesday d'août corrige CVE-2026-62832, surnommée LegacyHive, une faille du service de profils utilisateur de Windows. Elle repose sur une résolution de lien défaillante avant accès au fichier : un attaquant authentifié en local peut lancer une application spécialement conçue pour charger la ruche de registre d'un autre utilisateur et obtenir des privilèges administrateur, sans aucune interaction de la victime. Sont concernés Windows 10 version 2004 et ultérieures ainsi que Windows Server 2022 et ultérieurs. Un exploit de démonstration publié par le chercheur « Nightmare Eclipse » montre qu'un compte non-administrateur peut modifier la ruche des classes et obtenir l'exécution de code lorsqu'un administrateur ouvre ensuite une session. ACROS Security proposait déjà des correctifs non officiels gratuits depuis juillet."
+        },
+        {
+          "category": "IT",
+          "title": "Apple alerte des utilisateurs dans 110 pays sur des attaques par logiciels espions mercenaires",
+          "url": "https://thehackernews.com/2026/08/apple-warns-users-in-110-countries-they.html",
+          "publishedAt": "2026-08-14",
+          "summary": "Apple a envoyé une nouvelle vague de notifications de menace à des utilisateurs répartis dans 110 pays, susceptibles d'être visés par des logiciels espions mercenaires. Depuis le lancement du programme fin 2021, plus de 150 pays ont été couverts. Ces alertes de haute confiance ne visent pas des victimes au hasard : elles ciblent des journalistes, militants, responsables politiques et diplomates en raison de leur activité ou de leur identité. Apple qualifie ces attaques de « menaces numériques parmi les plus avancées existant aujourd'hui » et refuse volontairement de désigner les commanditaires pour éviter que les attaquants n'adaptent leurs méthodes. Les alertes arrivent par l'écran de verrouillage, par courriel et sur la page du compte Apple, avec des recommandations : mises à jour, mode Isolement, protection en cas de vol."
+        },
+        {
+          "category": "IT",
+          "title": "Trezor victime d'une fuite touchant près de 14 000 clients via son prestataire logistique",
+          "url": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
+          "publishedAt": "2026-08-13",
+          "summary": "Le fabricant de portefeuilles matériels Trezor a annoncé la compromission de ShipMonk, son prestataire d'expédition : 11 742 clients ont vu leurs nom, courriel, téléphone et adresse de livraison exposés, plus 1 947 clients partiellement touchés. Les attaquants ont exploité une injection SQL critique dans Metabase, la plateforme d'analytique utilisée par ShipMonk, pour accéder aux données de commandes passées entre le 10 mai et le 8 août 2026. Les clients concernés se trouvent aux États-Unis, au Royaume-Uni, en Suède, en Colombie, au Brésil, en Italie et au Portugal. Trezor insiste : ses propres systèmes n'ont pas été compromis et les appareils restent sûrs, mais les clients doivent s'attendre à une hausse des tentatives d'hameçonnage. Framework et Tally ont subi la même faille Metabase ; ShipMonk fait l'objet d'une extorsion par ShinyHunters."
+        },
+        {
+          "category": "IT",
+          "title": "Mustang Panda ajoute un rootkit Windows signé à sa porte dérobée CoolClient",
+          "url": "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html",
+          "publishedAt": "2026-08-14",
+          "summary": "Selon Kaspersky, le groupe HoneyMyte, aussi connu sous le nom de Mustang Panda, déploie une version actualisée de sa porte dérobée CoolClient intégrant désormais un rootkit noyau Windows signé, ce qui élargit nettement ses capacités de dissimulation. Des victimes ont été identifiées en Birmanie, en Mongolie, au Pakistan et en Russie, dont des entités gouvernementales confirmées ; le maliciel arrive généralement après une infection par PlugX. Le pilote, nommé msagent.sys, protège au niveau du noyau processus, fichiers, clés de registre et communications avec le serveur de commande : il délie les processus des listes Windows, bloque l'accès aux fichiers via un minifiltre, masque les clés de registre et filtre les adresses IPv4 de commande. Il implémente 33 gestionnaires IOCTL et porte une signature valide d'une société chinoise."
+        },
+        {
+          "category": "IT",
+          "title": "Images de conteneurs non signées : une bombe à retardement à l'ère de l'IA",
+          "url": "https://thenewstack.io/unsigned-container-images-ai/",
+          "publishedAt": "2026-08-14",
+          "summary": "The New Stack alerte sur un angle mort persistant des déploiements cloud natifs : la grande majorité des images de conteneurs circulent sans signature cryptographique. Sans mécanisme de signature ni vérification à l'admission, les applications conteneurisées restent exposées aux attaques de chaîne d'approvisionnement et aux modifications non autorisées, un attaquant pouvant substituer une image altérée sans que le cluster ne s'en aperçoive. Le problème devient critique à mesure que les charges d'IA — modèles, agents, pipelines d'inférence — sont livrées sous forme d'images de conteneurs : le rayon d'action d'une image compromise s'en trouve démultiplié, puisqu'elle peut embarquer poids, dépendances et secrets d'accès. L'article plaide pour faire de la vérification d'images une pratique de sécurité fondamentale des plateformes Kubernetes, au même titre que la gestion des identités."
+        },
+        {
+          "category": "IT",
+          "title": "Le pari des hyperscalers sur le gaz naturel pourrait leur coûter cher",
+          "url": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
+          "publishedAt": "2026-08-14",
+          "summary": "Une prévision du cabinet Noreva jette un doute sur la stratégie énergétique des géants du cloud : le gaz naturel, aujourd'hui échangé entre 2 et 4,50 dollars par million de BTU, pourrait dépasser 10 dollars sur certains points de livraison américains. En cause : la demande liée à l'IA, le raccordement du marché de l'ouest du Texas aux marchés mondiaux, un ralentissement de la croissance de l'offre malgré les nouveaux gazoducs et la hausse des exportations de GNL. Or Meta construit une centrale de 7,5 GW en Louisiane, Amazon une de 7,6 GW au Texas, Microsoft et Google des unités de l'ordre du gigawatt. Le combustible représentant environ la moitié du coût de l'électricité produite, une flambée pèserait lourdement — d'autant que 80 % des consommateurs s'inquiètent déjà de l'effet des centres de données sur leur facture."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Athlétisme : la Suissesse Audrey Werro, 22 ans, a décroché son premier grand titre en devenant championne d'Europe du 800 m à Birmingham en 1'54\"81, record des championnats, devant la championne olympique britannique Keely Hodgkinson.",
+          "publishedAt": "2026-08-14"
+        },
+        {
+          "headline": "Natation : Noè Ponti a offert à la Suisse sa première médaille des Européens de Paris, le bronze du 100 m papillon en 49\"93, derrière le record d'Europe du Hongrois Kristof Milak (49\"48).",
+          "publishedAt": "2026-08-13"
+        },
+        {
+          "headline": "Athlétisme : deuxième médaille suisse de la soirée à Birmingham avec le bronze de Timothé Mumenthaler sur 200 m en 20\"26, ex aequo avec l'Italien Fausto Desalu, derrière l'Allemand Owen Ansah (19\"95).",
+          "publishedAt": "2026-08-14"
+        }
+      ]
+    }
+  ]
+}

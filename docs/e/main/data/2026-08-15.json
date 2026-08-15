@@ -1,0 +1,247 @@
+{
+  "edition": "main",
+  "title": "Briefing du matin",
+  "date": "2026-08-15",
+  "generatedAt": "2026-08-15T16:22:44.818Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Genève",
+          "high": 35,
+          "low": 21,
+          "condition": "Orage",
+          "weathercode": 96,
+          "precipProbability": 3
+        },
+        {
+          "name": "Lausanne",
+          "high": 30,
+          "low": 23,
+          "condition": "Averses",
+          "weathercode": 80,
+          "precipProbability": 10
+        }
+      ]
+    },
+    {
+      "topic": "swiss",
+      "label": "La Suisse en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Des chercheurs de l'EPFL ont mis au point de minuscules drones propulsés par des ondes sonores, capables de se déplacer dans l'air comme sur l'eau.",
+          "publishedAt": "2026-08-14"
+        },
+        {
+          "headline": "Les loyers proposés ont reculé en juillet dans quinze cantons sur vingt-six, Nidwald (-4,0%) et Genève (-1,5%) en tête, selon l'indice Homegate.",
+          "publishedAt": "2026-08-13"
+        },
+        {
+          "headline": "Le Lausanne-Sport a lancé sa campagne de Coupe de Suisse par une démonstration, un 6-0 face au FC Kosova Neuchâtel à la Tuilière.",
+          "publishedAt": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Espagne : le gouvernement de Pedro Sánchez a prolongé jusqu'en juin 2030 l'exploitation de la centrale nucléaire d'Almaraz, la plus puissante du pays, sécurisant 7 % de l'électricité nationale et près de 4000 emplois.",
+          "publishedAt": "2026-08-14"
+        },
+        {
+          "headline": "Grèce : l'ancien aéroport d'Athènes se mue en Ellinikon Park, futur plus grand parc urbain côtier d'Europe avec 200 hectares, 30 000 arbres et des « routes fraîches » jusqu'à 4 °C sous la température ambiante.",
+          "publishedAt": "2026-08-14"
+        },
+        {
+          "headline": "Belgique : la Grand-Place de Bruxelles s'est couverte d'un tapis de 700 000 fleurs reprenant « La Grande Vague » de Hokusai, pour les 160 ans des relations diplomatiques belgo-japonaises.",
+          "publishedAt": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "topic": "markets",
+      "label": "Marchés",
+      "kind": "dataset",
+      "asOf": "clôture du 14 août 2026",
+      "summary": "Repli généralisé et modéré des places boursières vendredi, les indices américains reculant légèrement après un sentiment du consommateur décevant tout en signant une troisième semaine de hausse, tandis que le SMI accuse la baisse la plus marquée et que l'Euro Stoxx 50 se stabilise près de ses records.",
+      "indices": [
+        {
+          "name": "Nasdaq",
+          "changePct": -0.28
+        },
+        {
+          "name": "Dow Jones",
+          "changePct": -0.2
+        },
+        {
+          "name": "SMI",
+          "changePct": -0.58
+        },
+        {
+          "name": "Euro Stoxx 50",
+          "changePct": -0.13
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "Fisc français : la DGFiP confirme 678 000 contribuables touchés par la cyberattaque",
+          "url": "https://www.generation-nt.com/actualites/fisc-impots-plateforme-fuite-donnees-2079792",
+          "publishedAt": "2026-08-14",
+          "summary": "La Direction générale des Finances publiques a confirmé le 14 août l'ampleur de l'intrusion survenue fin juin 2026 dans son système d'information : environ 678 437 personnes concernées, dont 392 867 particuliers et 285 570 professionnels. L'attaquant a exploité des identifiants d'un VPN interne puis un outil interne de recherche sur les contribuables, avant d'être détecté et coupé en pleine exfiltration. Pour les particuliers, les données extraites incluent nom et prénom, quotient familial, revenu fiscal de référence et taux de prélèvement à la source. Les fichiers sont revendiqués à la vente depuis le 12 août sur un forum criminel. La CNIL sera notifiée, une plainte est déposée et l'ANSSI enquête. La communication officielle, très tardive au regard de l'incident de juin, est critiquée."
+        },
+        {
+          "category": "AI",
+          "title": "Google lance Gemini 3.7 Flash, son modèle « de trait » pour le code et les agents",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+          "publishedAt": "2026-08-13",
+          "summary": "Trois semaines seulement après Gemini 3.6 Flash, Google dévoile Gemini 3.7 Flash, présenté comme son modèle « workhorse » le plus intelligent pour le code et les agents. Les gains annoncés sont marqués : 43,6 % sur FrontierCode 1.1 (contre 34,4 %), 65,3 % sur DeepSWE v1.1 (contre 49,0 %), 34,0 % sur le benchmark documentaire GDP.pdf et 30,4 % sur AutomationBench, plus un score Elo de 1588 en WebDev Arena. Tarif d'introduction jusqu'au 31 décembre 2026 : 0,75 $ par million de tokens en entrée et 3,75 $ en sortie, soit la moitié du prix de 3.6 Flash, avant retour à 1,50 $/7,50 $ en janvier. Disponible dans AI Studio, Android Studio, Antigravity, Gemini Enterprise et Gemini Spark dans plus de 160 pays."
+        },
+        {
+          "category": "AI",
+          "title": "IBM scelle un partenariat stratégique avec OpenAI pour l'IA en entreprise",
+          "url": "https://newsroom.ibm.com/2026-08-13-ibm-partners-with-openai-to-accelerate-secure-ai-deployment-for-enterprises-across-core-operations",
+          "publishedAt": "2026-08-13",
+          "summary": "IBM annonce un partenariat stratégique large avec OpenAI et rejoint son niveau de partenariat le plus élevé, l'Elite Partner Tier. L'accord porte sur trois axes : la transformation des opérations héritées (finance, achats, opérations client, RH) via l'intégration de GPT-5.6, Codex et ChatGPT Work dans IBM Consulting Advantage ; la modernisation applicative en combinant les outils de codage d'OpenAI à l'expertise sectorielle d'IBM ; et la cybersécurité, en mariant les modèles de pointe à IBM Autonomous Security dans le cadre du programme OpenAI Daybreak. IBM crée une « OpenAI Practice » dédiée réunissant des milliers de consultants et ingénieurs certifiés, ainsi que des unités déployées au plus près des clients des secteurs régulés : services financiers, secteur public, télécoms et distribution."
+        },
+        {
+          "category": "IT",
+          "title": "Cyberattaques iraniennes présumées contre des réseaux d'eau américains dans au moins sept États",
+          "url": "https://techcrunch.com/2026/08/14/what-we-know-about-the-alleged-iranian-hacks-on-u-s-water-utilities/",
+          "publishedAt": "2026-08-14",
+          "summary": "Une vague coordonnée d'attaques contre des régies d'eau américaines a débuté fin juillet : le Minnesota touché le premier le 28 juillet, avec plus de 30 communes affectées, puis l'Arkansas, la Géorgie, le New Jersey et le Michigan. Le FBI confirme des incidents dans « au moins sept États ». Sans attribution publique, les agences de renseignement se disent confiantes dans la responsabilité du Corps des gardiens de la révolution islamique. Forescout a recensé plus de 2 800 automates de systèmes d'eau américains exposés sur Internet. Certaines attaques ont provoqué des pertes de pression pouvant laisser s'infiltrer des eaux souterraines contaminées : Braham (Minnesota) a mis son usine hors ligne et plusieurs communes géorgiennes ont émis des avis d'ébullition par précaution."
+        },
+        {
+          "category": "AI",
+          "title": "Z.ai publie GLM-5.3 mais retient ses poids ouverts pour cause de capacités offensives",
+          "url": "https://www.marktechpost.com/2026/08/14/z-ai-ships-glm-5-3-without-retraining-the-base-model-better-at-complex-coding-and-long-horizon-tasks/",
+          "publishedAt": "2026-08-14",
+          "summary": "Le chinois Z.ai sort GLM-5.3 en conservant exactement le même modèle de base de 743 milliards de paramètres que GLM-5.2 : tous les gains viennent d'un post-entraînement massivement étendu. Les progrès sont spectaculaires sur les tâches longues — Terminal-Bench 3.0 passe de 4,6 à 28,3, DeepSWE v1.1 de 46,2 à 66,9. Surprise pour l'éditeur, la capacité offensive en cybersécurité a bondi plus vite que prévu : 84,5 % sur CyberGym, devant Mythos 5 (83,8 %) et GPT-5.6 Sol (83,6 %), et ExploitBench plus que doublé. Le modèle aurait identifié plus d'un millier de vulnérabilités critiques dans Linux, WebKit et FreeBSD. Conséquence : Z.ai reporte d'environ deux semaines la publication des poids, le temps de renforcer ses garde-fous."
+        },
+        {
+          "category": "IT",
+          "title": "VMware vCenter : la faille critique CVE-2026-59310 exploitée pour poser des accès SSH inversés",
+          "url": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
+          "publishedAt": "2026-08-13",
+          "summary": "Une faille de traversée de répertoire dans le serveur Syslog de vCenter, CVE-2026-59310, permet à un attaquant non authentifié disposant d'un accès réseau d'exécuter du code arbitraire. Broadcom l'a divulguée le 29 juillet 2026 sans proposer de contournement : seule la mise à jour protège. Les versions concernées sont vCenter 9.1 avant 9.1.0.0300, 9.0 avant 9.0.2.0100 et 8.0 avant 8.0 U3k ou 8.0 U2f. L'exploitation a démarré cinq jours après la divulgation ; au 7 août, les chercheurs avaient documenté 361 adresses IP compromises dans 47 pays, avec des concentrations en Allemagne, aux États-Unis, en Turquie, en Iran et en France. Les attaquants déploient ensuite le framework open source reverse_ssh pour maintenir un accès persistant via des canaux sortants."
+        },
+        {
+          "category": "AI",
+          "title": "DeepSeek lance V4-Pro et relève ses tarifs d'API jusqu'à 1 100 %",
+          "url": "https://www.caixinglobal.com/2026-08-14/deepseek-launches-v4-pro-and-raises-api-prices-by-as-much-as-1100-102473919.html",
+          "publishedAt": "2026-08-14",
+          "summary": "DeepSeek a officialisé le 13 août sa version de production V4-Pro, accompagnée d'une refonte tarifaire brutale : certains tarifs d'API grimpent jusqu'à 1 100 %. À partir du 17 août, l'éditeur abandonne ses prix forfaitaires au profit d'une grille heures pleines / heures creuses ; pour V4-Pro, le coût de sortie devient environ 2,28× l'ancien tarif hors pointe et 4,55× en pointe. Le modèle obtient un score de 53 sur Artificial Analysis, au niveau de GLM-5.2. Ce virage marque la sortie de DeepSeek de la guerre des prix de l'IA chinoise, alors même qu'OpenAI baissait fin juillet le tarif de GPT-5.6 Luna. L'entreprise vient de boucler son premier tour de financement externe, d'environ 50 milliards de yuans."
+        },
+        {
+          "category": "IT",
+          "title": "Microsoft corrige LegacyHive, un zero-day Windows d'élévation de privilèges",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/",
+          "publishedAt": "2026-08-13",
+          "summary": "Le Patch Tuesday d'août corrige CVE-2026-62832, surnommée LegacyHive, une faille du service de profils utilisateur de Windows. Elle repose sur une résolution de lien défaillante avant accès au fichier : un attaquant authentifié en local peut lancer une application spécialement conçue pour charger la ruche de registre d'un autre utilisateur et obtenir des privilèges administrateur, sans aucune interaction de la victime. Sont concernés Windows 10 version 2004 et ultérieures ainsi que Windows Server 2022 et ultérieurs. Un exploit de démonstration publié par le chercheur « Nightmare Eclipse » montre qu'un compte non-administrateur peut modifier la ruche des classes et obtenir l'exécution de code lorsqu'un administrateur ouvre ensuite une session. ACROS Security proposait déjà des correctifs non officiels gratuits depuis juillet."
+        },
+        {
+          "category": "AI",
+          "title": "Apple a entraîné son propre modèle d'IA pour la Chine avec l'aide d'Alibaba",
+          "url": "https://www.macrumors.com/2026/08/14/apple-trained-own-ai-model-for-china/",
+          "publishedAt": "2026-08-14",
+          "summary": "Apple a développé son propre grand modèle de langage destiné au marché chinois, avec l'appui d'Alibaba, plutôt que de s'appuyer uniquement sur un modèle tiers pour alimenter Apple Intelligence dans le pays. Le groupe deviendrait ainsi la première entreprise étrangère autorisée par Pékin à proposer un modèle propriétaire en Chine. Il s'agit d'une rupture avec sa stratégie précédente, qui consistait à s'adosser aux modèles domestiques pour introduire l'IA générative sur ses appareils vendus localement. Apple avait précédemment accepté d'intégrer le modèle Qwen d'Alibaba comme option, à l'image de son intégration de ChatGPT ailleurs, et avait brièvement publié une documentation pour connecter Qwen à Siri avant de la retirer. Le déploiement des fonctions d'IA en Chine est attendu dans les prochains mois."
+        },
+        {
+          "category": "AI",
+          "title": "Anthropic détaille le filigrane invisible qu'il applique aux textes générés par Claude",
+          "url": "https://www.anthropic.com/news/claude-text-watermark",
+          "publishedAt": "2026-08-14",
+          "summary": "Anthropic explique le fonctionnement du filigrane qu'il déploie sur les textes produits par Claude. Plutôt que d'ajouter quoi que ce soit au texte, le système biaise subtilement le choix des mots : là où plusieurs formulations sont équivalentes, une clé cryptographique oriente la sélection, si bien qu'on peut ensuite vérifier si une séquence est cohérente avec les décisions qu'aurait prises Claude avec cette clé. La méthode s'inspire de SynthID-Text, publié par Google DeepMind dans Nature en 2024. Anthropic affirme n'observer aucun effet sur la qualité, la créativité ou la lisibilité, aucun surcoût en tokens, et aucune possibilité d'identifier un utilisateur. Le signal reste faible sur les contenus factuels et disparaît si le texte est fortement réécrit ou traduit. Objectif : se conformer à l'AI Act européen."
+        },
+        {
+          "category": "IT",
+          "title": "Apple alerte des utilisateurs dans 110 pays sur des attaques par logiciels espions mercenaires",
+          "url": "https://thehackernews.com/2026/08/apple-warns-users-in-110-countries-they.html",
+          "publishedAt": "2026-08-14",
+          "summary": "Apple a envoyé une nouvelle vague de notifications de menace à des utilisateurs répartis dans 110 pays, susceptibles d'être visés par des logiciels espions mercenaires. Depuis le lancement du programme fin 2021, plus de 150 pays ont été couverts. Ces alertes de haute confiance ne visent pas des victimes au hasard : elles ciblent des journalistes, militants, responsables politiques et diplomates en raison de leur activité ou de leur identité. Apple qualifie ces attaques de « menaces numériques parmi les plus avancées existant aujourd'hui » et refuse volontairement de désigner les commanditaires pour éviter que les attaquants n'adaptent leurs méthodes. Les alertes arrivent par l'écran de verrouillage, par courriel et sur la page du compte Apple, avec des recommandations : mises à jour, mode Isolement, protection en cas de vol."
+        },
+        {
+          "category": "AI",
+          "title": "Google rend optionnel le filigrane visible sur ses contenus générés par IA",
+          "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+          "publishedAt": "2026-08-14",
+          "summary": "Google va permettre de désactiver le filigrane visible apposé sur les images, vidéos et morceaux générés par ses modèles Nano Banana, Omni et Lyria. Le réglage se trouve dans Paramètres > Media Watermark, dans Gemini et dans l'éditeur vidéo Flow, avec une arrivée annoncée dans Search. En revanche, les marquages invisibles SynthID et les métadonnées C2PA restent systématiquement appliqués. Josh Woodward, vice-président en charge de Gemini, évoque « un équilibre entre contrôle créatif et sécurité ». Google ouvre par ailleurs le code d'une bibliothèque baptisée Credentio, qui permettra aux développeurs d'intégrer une validation locale de provenance dans leurs applications. L'annonce intervient quelques jours après la décision d'Anthropic de filigraner les textes produits par Claude pour se conformer à la réglementation européenne."
+        },
+        {
+          "category": "IT",
+          "title": "Un mémo de la Maison-Blanche ouvre la voie au « hack-back » privé contre le crime organisé",
+          "url": "https://thehackernews.com/2026/08/trump-memo-paves-way-for-us-firms-to.html",
+          "publishedAt": "2026-08-14",
+          "summary": "Un mémorandum signé par Donald Trump autorise des entreprises américaines à mener des opérations cyber offensives contre des organisations criminelles transnationales. Le National Coordination Center dispose de 60 jours pour établir le programme. Deux types d'actions seraient permis : la surveillance cyber, c'est-à-dire l'accès non autorisé à des données, et les opérations à effet, visant à perturber ou détruire des systèmes. Les cibles doivent être des groupes étrangers, à l'exclusion de ceux relevant institutionnellement d'un gouvernement étranger. Les entreprises devront cesser immédiatement toute opération dépassant le cadre approuvé et signaler les débordements au NCC et au ministère de la Justice. Les juristes soulignent des risques juridiques réels, la loi américaine interdisant jusqu'ici les attaques informatiques privées sans autorisation judiciaire. Les pertes déclarées atteignent 20,8 milliards de dollars."
+        },
+        {
+          "category": "AI",
+          "title": "Grok 4.6 égale Fable 5 Max avec 85 % de rabais : les modèles téléchargeables fixent le prix",
+          "url": "https://thenewstack.io/grok-4-6-matched-fable-5-max/",
+          "publishedAt": "2026-08-14",
+          "summary": "The New Stack analyse une bascule de fond dans l'économie des modèles de langage : Grok 4.6 atteint la parité de performance avec Fable 5 Max tout en étant proposé environ 85 % moins cher. L'article défend l'idée que ce ne sont plus les laboratoires propriétaires qui fixent le prix du marché, mais la disponibilité de modèles téléchargeables : dès qu'un modèle de qualité comparable peut être récupéré et hébergé, il impose un plafond tarifaire à tous les autres. Le facteur déterminant du positionnement commercial cesse d'être le score brut sur les benchmarks pour devenir le coût par tâche. Cette lecture éclaire la série d'annonces de la semaine — baisses de prix chez Google et OpenAI, hausse à contre-courant chez DeepSeek."
+        },
+        {
+          "category": "Science",
+          "title": "Le JWST repère une « étoile trou noir » cent milliards de fois plus lumineuse qu'une étoile",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260813045538.htm",
+          "publishedAt": "2026-08-13",
+          "summary": "Des astronomes du MIT, menés par Rohan Naidu, ont identifié un objet cosmique sans équivalent connu : une « étoile trou noir », objet rouge extrêmement lumineux datant de quelques centaines de millions d'années après le Big Bang, qui produit environ cent milliards de fois plus d'énergie qu'une étoile ordinaire. Les chercheurs estiment qu'il abrite un trou noir d'environ 100 000 masses solaires, enveloppé dans une couche d'hydrogène dense de la taille de notre système solaire. « Vous avez quelque chose qui ressemble un peu à une étoile mais qui est cent milliards de fois plus brillant : impossible d'alimenter cela par fusion nucléaire », souligne Naidu. La découverte pourrait expliquer les mystérieux « petits points rouges » régulièrement observés par le télescope James Webb dans l'univers primitif. Publié dans Nature."
+        },
+        {
+          "category": "Science",
+          "title": "Le premier moteur thermique quantique supraconducteur pourrait débloquer les grands ordinateurs quantiques",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260814011041.htm",
+          "publishedAt": "2026-08-14",
+          "summary": "Des chercheurs de l'université Aalto, en Finlande, dirigés par le professeur Mikko Möttönen, ont réalisé le premier moteur thermique quantique cyclique à base de circuits supraconducteurs. Le dispositif convertit d'infimes quantités de chaleur, près du zéro absolu, en travail mesurable. Il associe un qubit transmon, un résonateur et un réfrigérateur quantique, et reproduit un cycle d'Otto — le même principe que les moteurs classiques — à l'intérieur du circuit, opéré dans un cryostat. « Notre réfrigérateur à circuit quantique peut être réglé pour chauffer comme pour refroidir le qubit à la demande », explique le premier auteur Tuomas Uusnäkki. L'enjeu est considérable : les grands ordinateurs quantiques exigent aujourd'hui des millions de câbles micro-ondes coûteux et bruyants, que des moteurs autonomes intégrés pourraient remplacer. Publié dans Nature Communications."
+        },
+        {
+          "category": "Science",
+          "title": "Des cellules immunitaires du sang envahissent le cerveau vieillissant, découvre Stanford",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260814011033.htm",
+          "publishedAt": "2026-08-14",
+          "summary": "Des chercheurs de Stanford montrent que, dès l'âge mûr, des cellules immunitaires venues de la circulation sanguine migrent en grand nombre dans le cerveau humain et s'y transforment en microglies, les cellules immunitaires propres au cerveau. Le résultat contredit l'idée longtemps admise d'un cerveau isolé du système immunitaire général. « Ce que nous avons trouvé, c'est qu'en réalité beaucoup de cellules immunitaires entrent dans le cerveau humain au cours du vieillissement », résume Julia Belk. L'équipe a retracé les lignées cellulaires en utilisant les mutations génétiques comme marqueurs, en comparant l'ADN d'échantillons de sang et de tissu cérébral. Le phénomène s'observe uniquement chez l'humain, ni chez la souris ni chez les primates non humains. À terme, on pourrait concevoir des cellules immunitaires ciblant les protéines des maladies neurodégénératives. Publié dans Nature."
+        },
+        {
+          "category": "Science",
+          "title": "Première détection de la lueur fantomatique d'un réacteur nucléaire à l'arrêt",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260814011036.htm",
+          "publishedAt": "2026-08-14",
+          "summary": "La collaboration Double Chooz, pilotée par le Max-Planck-Institut für Kernphysik de Heidelberg, a détecté pour la première fois les antineutrinos émis par un réacteur nucléaire à l'arrêt. L'expérience s'est déroulée à la centrale de Chooz, en France : les chercheurs ont exploité 17,2 jours de données pendant lesquels les deux tranches étaient hors service et identifié une centaine d'événements liés à la radioactivité résiduelle. Les antineutrinos n'interagissent qu'extrêmement rarement avec la matière, mais lorsqu'ils le font dans le détecteur, ils produisent un double signal lumineux caractéristique qui les distingue du bruit de fond. Les mesures collent aux prédictions théoriques sur la décroissance radioactive dans le cœur et les piscines de combustible usé. À terme, de tels détecteurs pourraient surveiller les réacteurs pendant leurs arrêts. Publié dans Physical Review Letters."
+        },
+        {
+          "category": "Science",
+          "title": "Les petites lunes de Neptune seraient les débris de mondes glacés brisés",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260813045545.htm",
+          "publishedAt": "2026-08-14",
+          "summary": "Une équipe de Caltech, menée par Ryleigh Davis, a détecté des minéraux argileux — des phyllosilicates riches en magnésium — à la surface des lunes internes de Neptune, Larissa et Galatea, ainsi que dans ses anneaux. Or ces minéraux ne se forment qu'en présence d'eau liquide, alors même qu'aucune glace d'eau n'y est décelée. L'interprétation retenue : la matière proviendrait des profondeurs de corps bien plus gros, détruits lors de la capture de Triton par Neptune. Ces petites lunes seraient donc les débris de mondes glacés anéantis par cette catastrophe cosmique ancienne, et non des objets formés sur place. Les observations proviennent du télescope spatial James Webb. Travaux publiés dans Science Advances et financés par la NASA via le Space Telescope Science Institute."
+        },
+        {
+          "category": "Science",
+          "title": "Un « interrupteur » cérébral explique pourquoi deux stratégies opposées font maigrir",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260814011039.htm",
+          "publishedAt": "2026-08-15",
+          "summary": "Des chercheurs de l'Institute of Metabolic Science de l'université de Cambridge ont élucidé un paradoxe pharmacologique : activer le récepteur GIP dans le tronc cérébral réduit l'appétit, tandis que le bloquer dans l'hypothalamus lève un frein sur les signaux de satiété. Deux approches diamétralement opposées sur le même récepteur aboutissent donc à une perte de poids, par des mécanismes distincts et localisés dans des régions cérébrales différentes. Cette cartographie explique pourquoi des candidats-médicaments agonistes et antagonistes du GIP donnent tous deux des résultats en clinique. Les auteurs estiment qu'une combinaison soigneusement calibrée de traitements ciblant le GIP avec les médicaments de la famille GLP-1 pourrait produire des effets nettement plus puissants que les traitements actuels. Résultats publiés dans Nature Metabolism."
+        }
+      ]
+    }
+  ]
+}
