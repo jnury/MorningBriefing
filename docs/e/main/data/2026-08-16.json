@@ -1,0 +1,247 @@
+{
+  "edition": "main",
+  "title": "Briefing du matin",
+  "date": "2026-08-16",
+  "generatedAt": "2026-08-16T03:12:05.941Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Genève",
+          "high": 32,
+          "low": 22,
+          "condition": "Averses",
+          "weathercode": 80,
+          "precipProbability": 40
+        },
+        {
+          "name": "Lausanne",
+          "high": 31,
+          "low": 23,
+          "condition": "Averses",
+          "weathercode": 80,
+          "precipProbability": 33
+        }
+      ]
+    },
+    {
+      "topic": "swiss",
+      "label": "La Suisse en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Valérie Dittli a annoncé qu'elle se représentait au Conseil d'État vaudois et entend convaincre les délégués du Centre Vaud le 2 septembre.",
+          "publishedAt": "2026-08-15"
+        },
+        {
+          "headline": "La Fribourgeoise Audrey Werro a été sacrée championne d'Europe du 800 m à Birmingham en 1'54\"81, record des championnats, en devançant la championne olympique Keely Hodgkinson deux jours après une chute en demi-finale.",
+          "publishedAt": "2026-08-15"
+        },
+        {
+          "headline": "À l'initiative de la Suisse et trois ans après l'accident du tunnel de base du Gothard, les autorités ferroviaires européennes ont durci les contrôles des wagons de marchandises, ramenant les intervalles d'inspection de 660'000 km à 50'000-300'000 km selon le type de roue.",
+          "publishedAt": "2026-08-15"
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "L'Iran et Oman ont conclu un accord sur une carte des routes maritimes du détroit d'Ormuz, après trois mois de négociations techniques destinées à sécuriser le passage des navires.",
+          "publishedAt": "2026-08-15"
+        },
+        {
+          "headline": "Les autorités européennes et l'industrie ferroviaire ont convenu de resserrer les contrôles des wagons de fret, trois ans après l'accident du tunnel de base du Gothard, sous l'impulsion de la Suisse.",
+          "publishedAt": "2026-08-15"
+        },
+        {
+          "headline": "L'administrateur de la NASA s'est dit « extrêmement confiant » quant à la tenue de la mission lunaire Artemis 3 en 2027.",
+          "publishedAt": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "topic": "markets",
+      "label": "Marchés",
+      "kind": "dataset",
+      "asOf": "clôture du vendredi 14 août 2026",
+      "summary": "Les places boursières ont toutes reculé vendredi, s'écartant de leurs records après des données décevantes sur la consommation américaine, le SMI accusant le repli le plus marqué et l'Euro Stoxx 50 se contentant d'une légère baisse.",
+      "indices": [
+        {
+          "name": "Nasdaq",
+          "changePct": -0.28
+        },
+        {
+          "name": "Dow Jones",
+          "changePct": -0.2
+        },
+        {
+          "name": "SMI",
+          "changePct": -0.58
+        },
+        {
+          "name": "Euro Stoxx 50",
+          "changePct": -0.09
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "AI",
+          "title": "SpaceX finalise le rachat de Cursor pour 60 milliards de dollars",
+          "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+          "publishedAt": "2026-08-15",
+          "summary": "SpaceX a officiellement bouclé l'acquisition de Cursor, la start-up d'assistance au codage par IA, dans une opération valorisée à 60 milliards de dollars payés en actions SpaceX. L'accord avait été annoncé en avril sous forme de partenariat assorti d'une option d'achat, levée après l'introduction en bourse de SpaceX en juin. Cursor met en avant l'accès à « la plus grande flotte de GPU au monde » et affirme que SpaceX construit la capacité de calcul nécessaire pour faire passer l'intelligence artificielle à une tout autre échelle. SpaceX loue déjà cette puissance de calcul à des clients comme Anthropic et Google, et avait auparavant absorbé xAI. L'opération concentre un peu plus l'infrastructure d'entraînement et d'inférence entre les mains d'Elon Musk."
+        },
+        {
+          "category": "IT",
+          "title": "Le ver ChainDrop contamine la chaîne d'approvisionnement npm",
+          "url": "https://www.theregister.com/security/2026/08/15/chaindrop-worm-crawls-into-npm-supply-chain-evades-standard-defenses/5287958",
+          "publishedAt": "2026-08-15",
+          "summary": "ChainDrop, variante du ver npm Shai-Hulud repérée le 4 août par plusieurs équipes de recherche, a compromis 444 paquets totalisant environ deux milliards de téléchargements mensuels, dont des dépendances d'infrastructure très répandues comme keyv, flat-cache et cache-manager. Sa particularité : il se propage via les archives tarball publiées plutôt que par des commits dans les dépôts, ce qui rend la relecture du code source aveugle à la falsification. Le logiciel malveillant installe en outre des hooks de démarrage dans les fichiers de configuration, si bien qu'ouvrir simplement un dépôt infecté dans VS Code ou Claude Code suffit à déclencher l'infection. Les défenses classiques de la chaîne d'approvisionnement logicielle se révèlent donc largement inopérantes face à cette technique."
+        },
+        {
+          "category": "IT",
+          "title": "Cyberattaques contre les régies d'eau américaines : la piste iranienne",
+          "url": "https://techcrunch.com/2026/08/14/what-we-know-about-the-alleged-iranian-hacks-on-u-s-water-utilities/",
+          "publishedAt": "2026-08-14",
+          "summary": "Une vague coordonnée d'attaques informatiques vise depuis fin juillet les services d'eau potable d'une douzaine d'États américains. Le FBI confirme des incidents dans au moins sept États — Minnesota, Arkansas, Géorgie, New Jersey, Michigan — après une première alerte du Minnesota, le 28 juillet, portant sur plus de trente communes. Les intrusions ont provoqué des perturbations opérationnelles : pertes de pression, risques de contamination, mises hors ligne préventives comme à Braham. Plus de 2 800 automates de contrôle de réseaux d'eau ont été retrouvés exposés sur Internet. Selon le Washington Post, les agences de renseignement américaines estiment avec confiance que le Corps des gardiens de la révolution islamique est responsable, sans que l'attribution officielle soit encore établie."
+        },
+        {
+          "category": "IT",
+          "title": "Les attaques menées par des agents IA autonomes inquiètent les infrastructures critiques",
+          "url": "https://www.theregister.com/security/2026/08/14/autonomous-ai-attacks-pose-clear-and-present-danger-to-critical-infrastructure/5287594",
+          "publishedAt": "2026-08-14",
+          "summary": "Des experts en cybersécurité qualifient les agents IA autonomes de « danger clair et présent » pour les infrastructures critiques. L'article revient sur un incident de juillet 2026 au cours duquel des attaquants ont déployé des agents IA open source pour pénétrer, par vagues successives, des systèmes gouvernementaux taïwanais et des entreprises du secteur de l'énergie. Tom Kellermann, de TrendAI, redoute que l'IA militarisée neutralise les systèmes de sécurité industriels et transforme des brèches numériques en catastrophes physiques. Le déséquilibre est structurel : les capacités offensives progressent plus vite que la défense, et les essaims défensifs autonomes restent, selon les spécialistes interrogés, à plus d'un an d'horizon, alors que les adversaires en déploient déjà sans contrainte éthique."
+        },
+        {
+          "category": "IT",
+          "title": "Faille critique SAP Commerce Cloud (CVE-2026-58231) déjà exploitée",
+          "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
+          "publishedAt": "2026-08-15",
+          "summary": "La vulnérabilité CVE-2026-58231, notée 10.0 sur l'échelle CVSS, touche SAP Commerce Cloud et fait l'objet de tentatives d'exploitation trois jours seulement après la publication du correctif, selon les pots de miel de Defused Cyber. La faille permet à un attaquant non authentifié d'abuser d'un client d'authentification par défaut et de soumettre des entrées spécialement conçues à des fonctions dont la validation est insuffisante, ouvrant la voie à l'exécution de code arbitraire et à la compromission de composants internes. Aucun code d'exploitation public n'était pourtant disponible. Onapsis recommande d'appliquer le correctif sans délai ou, à défaut, de mettre en place un filtrage par adresse IP. Les produits SAP restent une cible privilégiée des groupes d'espionnage liés à la Chine."
+        },
+        {
+          "category": "AI",
+          "title": "Nouvelle plainte contre xAI : plus de 7 000 images générées par Grok à partir d'une photo d'enfance",
+          "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+          "publishedAt": "2026-08-15",
+          "summary": "Une femme désignée sous le nom de « Jane Doe 4 » a rejoint la procédure judiciaire engagée contre xAI, la société d'Elon Musk. Elle affirme que son beau-père a utilisé Grok pour transformer une photographie d'elle prise à l'âge de onze ans en plus de 7 000 images sexuellement explicites ; l'homme s'est suicidé deux jours après la découverte des fichiers par les forces de l'ordre. « Cela prend la vie de tous les jours et la transforme en abus sexuel sur mineur », déclare-t-elle. La plainte s'ajoute à celle de trois adolescents du Tennessee qui reprochent à xAI l'insuffisance de ses garde-fous. La plateforme avait déjà été submergée de deepfakes sexualisés produits par Grok plus tôt en 2026. xAI, désormais sous l'ombrelle de SpaceX, n'a pas réagi."
+        },
+        {
+          "category": "AI",
+          "title": "Anthropic détaille le filigrane invisible qui marquera les textes de Claude",
+          "url": "https://www.anthropic.com/news/claude-text-watermark",
+          "publishedAt": "2026-08-14",
+          "summary": "Anthropic a publié une explication technique du filigrane (watermark) que ses prochains modèles Claude appliqueront à leurs textes, pour se conformer aux exigences de transparence de l'AI Act européen. La méthode reprend l'approche SynthID-Text de Google DeepMind : elle ne modifie pas le contenu mais la source d'aléa utilisée pour choisir entre plusieurs mots équivalents, à la manière d'un dé remplacé par les décimales de pi. Le marquage est indétectable à la lecture, sans effet sur la qualité, la vitesse ou le coût, et ne contient aucune information identifiante. Il fonctionne moins bien sur les passages factuels et le code, où les choix lexicaux sont contraints. Une API de détection est annoncée ; images et fichiers passeront par les métadonnées C2PA."
+        },
+        {
+          "category": "AI",
+          "title": "Google rend optionnel le filigrane visible sur ses contenus générés par IA",
+          "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+          "publishedAt": "2026-08-14",
+          "summary": "Google autorise désormais les utilisateurs à désactiver le filigrane visible apposé sur les images, vidéos et morceaux musicaux générés par ses modèles. Josh Woodward, vice-président en charge de Gemini, précise que les marquages invisibles SynthID et les métadonnées C2PA restent appliqués au titre de la transparence. Le réglage se trouve dans Paramètres > Media Watermark et concerne les modèles Nano Banana, Omni et Lyria ; il est déployé dans Gemini et l'éditeur vidéo Flow, la prise en charge dans Search devant suivre. En parallèle, Google a ouvert le code d'une bibliothèque baptisée Credentio, qui permet aux développeurs d'intégrer une validation locale des références de contenu dans leurs propres applications."
+        },
+        {
+          "category": "AI",
+          "title": "Meta publie Muse Glimmer, un modèle agentique 30B ouvert et local",
+          "url": "https://www.infoq.com/news/2026/08/meta-muse-glimmer/",
+          "publishedAt": "2026-08-14",
+          "summary": "Meta AI Research a ouvert les poids de Muse Glimmer, un modèle de 30 milliards de paramètres publié sous licence Apache 2.0 et conçu pour tourner localement sur du matériel grand public. Il embarque un encodeur de perception dédié de 1,8 milliard de paramètres pour les entrées multimodales et revendique un débit environ 3,1 fois supérieur grâce au décodage spéculatif DFlash. Meta recommande 24 à 32 Go de mémoire unifiée ou de VRAM — puces Mac M4/M5 Max, RTX 4090/5090 — pour exécuter la version quantifiée en 4 bits avec son encodeur visuel et son cache de contexte. Les poids sont disponibles sur Hugging Face, avec un support natif de llama.cpp, ExecuTorch, Apple MLX, Ollama, LM Studio et vLLM."
+        },
+        {
+          "category": "IT",
+          "title": "Apple alerte des utilisateurs dans 110 pays sur des logiciels espions mercenaires",
+          "url": "https://thehackernews.com/2026/08/apple-warns-users-in-110-countries-they.html",
+          "publishedAt": "2026-08-14",
+          "summary": "Apple a envoyé une nouvelle vague de notifications à des utilisateurs répartis dans 110 pays, les avertissant qu'ils pourraient être visés par des logiciels espions mercenaires. La firme souligne que « le coût extrême, la sophistication et la portée mondiale de ces attaques en font l'une des menaces numériques les plus avancées existant aujourd'hui ». Depuis fin 2021, des alertes ont été adressées à des personnes dans plus de 150 pays, ciblées pour ce qu'elles sont ou ce qu'elles font : journalistes, militants, responsables politiques, diplomates. Apple ne désigne ni commanditaire ni région. Les notifications passent par l'écran de verrouillage, un courriel et une bannière sur la page du compte. Recommandations : authentification à deux facteurs, mode Isolement, protection en cas de vol, mises à jour."
+        },
+        {
+          "category": "IT",
+          "title": "Un mémorandum de Trump ouvre la voie au piratage offensif par des entreprises privées",
+          "url": "https://thehackernews.com/2026/08/trump-memo-paves-way-for-us-firms-to.html",
+          "publishedAt": "2026-08-14",
+          "summary": "La Maison-Blanche a publié un mémorandum présidentiel autorisant des entreprises américaines habilitées à mener des opérations cyber offensives contre des organisations criminelles transnationales étrangères. Le National Coordination Center doit établir sous soixante jours un programme encadrant deux types d'opérations : la surveillance cyber, c'est-à-dire l'accès non autorisé à des données, et les opérations à effets, soit la perturbation, le déni, la dégradation ou la destruction de systèmes. Les cibles doivent être des groupes étrangers commettant des délits informatiques contre le gouvernement, des personnes ou des intérêts américains ; il est interdit de viser des personnes ou des systèmes situés aux États-Unis. Le texte invoque 20,8 milliards de dollars de pertes déclarées. Des juristes s'inquiètent des zones grises légales."
+        },
+        {
+          "category": "AI",
+          "title": "Les agents IA échouent à mener une recherche scientifique originale",
+          "url": "https://techxplore.com/news/2026-08-ai-agents-struggle-scientific.html",
+          "publishedAt": "2026-08-14",
+          "summary": "Une étude menée par Peter Kirgis et ses collègues a confié à des agents IA de pointe six jours, un accès complet à Internet, des ressources de calcul et environ 3 000 dollars de crédits pour conduire des travaux de recherche sur deux sujets non publiés issus de conférences d'IA. Les articles produits ont reçu des notes de rejet — 2 sur 6 et 1 sur 6 — de la part d'évaluateurs experts. Ceux-ci relèvent que les agents comprenaient correctement les questions de recherche, mais que leurs protocoles expérimentaux étaient faibles et leur raisonnement scientifique déficient tout au long du processus. Les résultats, publiés en prépublication sur arXiv, tempèrent les promesses d'une automatisation prochaine de la découverte scientifique par des systèmes agentiques."
+        },
+        {
+          "category": "AI",
+          "title": "La start-up française Kog veut extraire trente fois plus d'inférence des GPU existants",
+          "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+          "publishedAt": "2026-08-14",
+          "summary": "La jeune pousse française Kog développe des optimisations logicielles bas niveau destinées à accélérer l'inférence des modèles d'IA sur des GPU classiques, à rebours de l'idée qu'il faudrait des puces spécialisées. L'entreprise revendique 3 000 tokens par seconde sur des cartes de centre de données AMD MI300X et Nvidia H200 avec son petit modèle maison Laneformer 2B, et évoque un potentiel d'inférence trente fois plus rapide, encore à démontrer sur de grands modèles de langage. Son approche exige des semaines ou des mois d'ingénierie par nouvelle puce. Le dirigeant Gaël Delalleau prévoit une démonstration sur un modèle majeur d'ici septembre, avant une levée de série A. Kog est soutenue par Bpifrance, French Tech 2030 et Scaleway."
+        },
+        {
+          "category": "Science",
+          "title": "Premier moteur thermique quantique supraconducteur, promesse pour les grands calculateurs",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260814011041.htm",
+          "publishedAt": "2026-08-14",
+          "summary": "Des chercheurs de l'université Aalto, en Finlande, ont fait fonctionner le premier moteur thermique quantique cyclique intégré dans un circuit supraconducteur. Le dispositif convertit en travail mesurable de la chaleur prélevée à une température proche du zéro absolu, en couplant un qubit transmon à un réfrigérateur quantique. Le professeur Mikko Möttönen souligne que cette démonstration pourrait réduire de façon décisive les besoins d'infrastructure des futurs ordinateurs quantiques : les architectures visant plusieurs centaines de milliers de qubits physiques exigeraient aujourd'hui des millions de câbles micro-ondes coûteux, que ce type de composant pourrait en partie remplacer. Les travaux sont publiés dans Nature Communications (DOI 10.1038/s41467-026-72651-x)."
+        },
+        {
+          "category": "Science",
+          "title": "Des cellules immunitaires du sang colonisent le cerveau humain vieillissant",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260814011033.htm",
+          "publishedAt": "2026-08-14",
+          "summary": "Des chercheurs de Stanford ont découvert que des cellules immunitaires issues de la circulation sanguine pénètrent dans le cerveau humain dès l'âge mûr et s'y transforment en microglies. « Ce que nous avons trouvé, c'est qu'en réalité beaucoup de cellules immunitaires entrent dans le cerveau humain au cours du vieillissement », explique la chercheuse Julia Belk. Ce résultat, publié dans Nature, remet en cause l'idée longtemps admise selon laquelle le système immunitaire cérébral fonctionnerait en vase clos tout au long de la vie. Le phénomène semble propre à l'espèce humaine : il n'a été observé ni chez la souris ni chez les primates. À terme, il pourrait ouvrir la voie à des cellules immunitaires périphériques modifiées pour éliminer les agrégats protéiques neurodégénératifs avant l'apparition des symptômes."
+        },
+        {
+          "category": "Science",
+          "title": "Un même récepteur cérébral fait maigrir qu'on l'active ou qu'on le bloque",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260814011039.htm",
+          "publishedAt": "2026-08-15",
+          "summary": "Des chercheurs de l'université de Cambridge ont élucidé un paradoxe qui intriguait les spécialistes de l'obésité : activer ou bloquer le récepteur GIPR entraîne dans les deux cas une perte de poids. L'explication tient à la localisation. Activer le récepteur dans le tronc cérébral réduit l'appétit ; le bloquer dans l'hypothalamus lève au contraire une sorte de frein sur les signaux de satiété. Les deux stratégies convergent donc vers le même effet par des voies distinctes. L'étude, dont la Dre Jo Lewis de l'Institute of Metabolic Science est première autrice, est publiée dans Nature Metabolism (DOI 10.1038/s42255-026-01575-z). Elle éclaire la conception des traitements combinant agonistes du GLP-1 et modulateurs du GIP."
+        },
+        {
+          "category": "Science",
+          "title": "Œstrogènes après 70 ans : moins de signes de maladie d'Alzheimer à l'autopsie",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260814011028.htm",
+          "publishedAt": "2026-08-14",
+          "summary": "Une étude portant sur plus de 21 000 femmes, relayée par l'American Academy of Neurology, associe l'hormonothérapie à base d'œstrogènes seuls, prise tardivement dans la vie, à un risque de démence nettement réduit : 39 % de diagnostics de démence en moins et 35 % de lésions cérébrales caractéristiques de la maladie d'Alzheimer en moins à l'autopsie. Parmi les participantes autopsiées, 18 % des utilisatrices ne présentaient aucun signe de la maladie, contre 10 % des non-utilisatrices ; les biomarqueurs indiquent également une moindre accumulation d'amyloïde. Les auteurs insistent sur le caractère purement associatif du résultat. L'autrice Jennifer Bruno rappelle que les participantes avaient commencé le traitement vers 70 ans, à rebours de la pratique actuelle. Publication dans Neurology."
+        },
+        {
+          "category": "Science",
+          "title": "La lueur fantôme d'un réacteur nucléaire à l'arrêt détectée pour la première fois",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260814011036.htm",
+          "publishedAt": "2026-08-14",
+          "summary": "La collaboration Double Chooz a mesuré pour la première fois l'émission d'antineutrinos persistant après l'arrêt d'un réacteur nucléaire. Les mesures ont été réalisées à la centrale de Chooz, dans les Ardennes françaises, à l'aide d'un détecteur placé à environ 400 mètres des cœurs. Durant 17,2 jours d'observation avec les deux réacteurs à l'arrêt, l'instrument a enregistré une centaine d'événements antineutrinos provenant de la radioactivité résiduelle des cœurs et des piscines de refroidissement du combustible usé. Les travaux, menés notamment par Anthony Onillon et Thierry Lasserre de l'Institut Max-Planck de physique nucléaire de Heidelberg, sont publiés dans Physical Review Letters. Ils intéressent aussi bien la physique des neutrinos que la surveillance des installations nucléaires."
+        },
+        {
+          "category": "Science",
+          "title": "L'intrication quantique est indispensable pour résoudre le problème des 36 officiers d'Euler",
+          "url": "https://phys.org/news/2026-08-quantum-latin-squares-euler-officers.html",
+          "publishedAt": "2026-08-14",
+          "summary": "Une équipe menée par Simeon Ball, de l'Université polytechnique de Catalogne, a démontré mathématiquement qu'il n'existe pas de carrés latins quantiques mutuellement orthogonaux d'ordre six sans intrication quantique. Autrement dit, l'intrication est strictement nécessaire pour résoudre la version quantique du célèbre problème des 36 officiers formulé par Leonhard Euler au XVIIIe siècle, dont on sait depuis longtemps qu'il n'admet aucune solution classique. Le résultat, publié dans Physical Review Letters (DOI 10.1103/hxzf-nmpx), établit une frontière nette entre combinatoire classique et combinatoire quantique et éclaire les ressources réellement mobilisées par les constructions quantiques utilisées notamment en correction d'erreurs."
+        },
+        {
+          "category": "Science",
+          "title": "La hausse du CO2 atmosphérique laisse une trace mesurable dans le sang humain",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260814235845.htm",
+          "publishedAt": "2026-08-15",
+          "summary": "Des chercheurs du Kids Research Institute Australia ont analysé plus de vingt ans de données sanitaires américaines et constaté une dérive parallèle à la montée du dioxyde de carbone atmosphérique. Sur environ 7 000 participants à l'enquête NHANES entre 1999 et 2020 — période durant laquelle le CO2 est passé d'environ 369 à plus de 420 ppm —, le bicarbonate sanguin a augmenté d'environ 7 %, tandis que le calcium et le phosphore ont reculé. Si la tendance se poursuit, les taux moyens de bicarbonate pourraient approcher la limite supérieure de la fourchette considérée aujourd'hui comme normale d'ici une cinquantaine d'années. L'étude paraît dans Air Quality, Atmosphere and Health (DOI 10.1007/s11869-026-01918-5)."
+        }
+      ]
+    }
+  ]
+}

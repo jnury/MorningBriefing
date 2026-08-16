@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-16",
+  "generatedAt": "2026-08-16T03:11:15.420Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 31,
+          "low": 23,
+          "condition": "Couvert",
+          "weathercode": 3,
+          "precipProbability": 53
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Le Liechtenstein adopte la primogéniture absolue : le prince héritier Alois a annoncé lors de la fête nationale que l'aînée comme l'aîné pourra désormais monter sur le trône.",
+          "publishedAt": "2026-08-15"
+        },
+        {
+          "headline": "Le Léopard d'or du 79e Festival de Locarno est revenu au film roumain « Nu e locul tau aici » de Florin Serban, tandis que Monica Bellucci décrochait un prix d'interprétation.",
+          "publishedAt": "2026-08-15"
+        },
+        {
+          "headline": "L'Italienne Sofia Fiorini a signé un record du monde du marathon marche en 3h15'11 aux Championnats d'Europe de Birmingham, où Massimo Stano a offert le doublé italien avec un record continental.",
+          "publishedAt": "2026-08-15"
+        },
+        {
+          "headline": "L'Italienne Nadia Battocletti est devenue la première athlète à réussir le doublé 5000-10 000 m lors de deux Championnats d'Europe consécutifs, avec un quatrième titre continental.",
+          "publishedAt": "2026-08-14"
+        },
+        {
+          "headline": "Les autorités européennes et l'industrie ferroviaire ont convenu de resserrer les contrôles des wagons de fret, trois ans après l'accident du tunnel de base du Gothard, sous l'impulsion de la Suisse.",
+          "publishedAt": "2026-08-15"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "Faille critique SAP Commerce Cloud (CVE-2026-58231) déjà exploitée",
+          "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
+          "publishedAt": "2026-08-15",
+          "summary": "La vulnérabilité CVE-2026-58231, notée 10.0 sur l'échelle CVSS, touche SAP Commerce Cloud et fait l'objet de tentatives d'exploitation trois jours seulement après la publication du correctif, selon les pots de miel de Defused Cyber. La faille permet à un attaquant non authentifié d'abuser d'un client d'authentification par défaut et de soumettre des entrées spécialement conçues à des fonctions dont la validation est insuffisante, ouvrant la voie à l'exécution de code arbitraire et à la compromission de composants internes. Aucun code d'exploitation public n'était pourtant disponible. Onapsis recommande d'appliquer le correctif sans délai ou, à défaut, de mettre en place un filtrage par adresse IP. Les produits SAP restent une cible privilégiée des groupes d'espionnage liés à la Chine."
+        },
+        {
+          "category": "IT",
+          "title": "Le ver ChainDrop contamine la chaîne d'approvisionnement npm",
+          "url": "https://www.theregister.com/security/2026/08/15/chaindrop-worm-crawls-into-npm-supply-chain-evades-standard-defenses/5287958",
+          "publishedAt": "2026-08-15",
+          "summary": "ChainDrop, variante du ver npm Shai-Hulud repérée le 4 août par plusieurs équipes de recherche, a compromis 444 paquets totalisant environ deux milliards de téléchargements mensuels, dont des dépendances d'infrastructure très répandues comme keyv, flat-cache et cache-manager. Sa particularité : il se propage via les archives tarball publiées plutôt que par des commits dans les dépôts, ce qui rend la relecture du code source aveugle à la falsification. Le logiciel malveillant installe en outre des hooks de démarrage dans les fichiers de configuration, si bien qu'ouvrir simplement un dépôt infecté dans VS Code ou Claude Code suffit à déclencher l'infection. Les défenses classiques de la chaîne d'approvisionnement logicielle se révèlent donc largement inopérantes face à cette technique."
+        },
+        {
+          "category": "IT",
+          "title": "Le partage d'écran de macOS exploité pour installer des mineurs Monero",
+          "url": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
+          "publishedAt": "2026-08-15",
+          "summary": "Le centre national de cybersécurité néerlandais (NCSC) alerte sur l'exploitation active de CVE-2026-65400, une faille CVSS 9.8 du partage d'écran de macOS corrigée en urgence par Apple le 6 août dans macOS Tahoe 26.6.1, Sequoia 15.7.9 et Sonoma 14.8.9. Le défaut, décrit comme un problème d'authentification résolu par une meilleure gestion d'état, permet à un attaquant réseau de contourner l'authentification du bureau à distance sans identifiants valides. Le NCSC a observé des compromissions sur des Mac exposés à Internet avec le port 5900 accessible : dans tous les cas, les attaquants ont obtenu les droits root et déposé un mineur de cryptomonnaie Monero. La faille a été découverte par Alfredo Pesoli, de Bynario. Mettre à jour ou désactiver le partage d'écran."
+        },
+        {
+          "category": "IT",
+          "title": "Cyberattaques contre les régies d'eau américaines : la piste iranienne",
+          "url": "https://techcrunch.com/2026/08/14/what-we-know-about-the-alleged-iranian-hacks-on-u-s-water-utilities/",
+          "publishedAt": "2026-08-14",
+          "summary": "Une vague coordonnée d'attaques informatiques vise depuis fin juillet les services d'eau potable d'une douzaine d'États américains. Le FBI confirme des incidents dans au moins sept États — Minnesota, Arkansas, Géorgie, New Jersey, Michigan — après une première alerte du Minnesota, le 28 juillet, portant sur plus de trente communes. Les intrusions ont provoqué des perturbations opérationnelles : pertes de pression, risques de contamination, mises hors ligne préventives comme à Braham. Plus de 2 800 automates de contrôle de réseaux d'eau ont été retrouvés exposés sur Internet. Selon le Washington Post, les agences de renseignement américaines estiment avec confiance que le Corps des gardiens de la révolution islamique est responsable, sans que l'attribution officielle soit encore établie."
+        },
+        {
+          "category": "IT",
+          "title": "Shell enquête après les revendications de vol de données du groupe Clop",
+          "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
+          "publishedAt": "2026-08-14",
+          "summary": "Shell confirme enquêter sur un incident de sécurité potentiel après que le gang rançongiciel Clop a revendiqué le vol de 89 Go de données. Selon les attaquants, les fichiers dérobés comprennent des plans d'ingénierie, des rapports d'essais d'installations numérisés, des photographies de sites industriels et des plans de projet. La compromission découlerait de l'exploitation de CVE-2026-12569, une faille critique des logiciels PTC Windchill et FlexPLM. Shell figure parmi 43 victimes revendiquées, aux côtés notamment de General Electric et Philips. Un porte-parole indique travailler avec ses équipes de sécurité et des experts externes. L'agence américaine CISA a ajouté la vulnérabilité à son catalogue des failles activement exploitées, et les autorités allemandes ont pressé les administrateurs de corriger sans délai."
+        },
+        {
+          "category": "IT",
+          "title": "Fuite RingCentral : les données de 1,6 million de comptes publiées",
+          "url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
+          "publishedAt": "2026-08-14",
+          "summary": "Le groupe d'extorsion ShinyHunters a diffusé les données de 1,6 million de comptes RingCentral, après avoir compromis les systèmes de l'éditeur de téléphonie cloud en juillet 2026. RingCentral, qui a révélé l'incident le 28 juillet, l'attribue à une campagne d'ingénierie sociale sophistiquée. Selon l'analyse de Have I Been Pwned portant sur le lot publié, les informations exposées comprennent noms, adresses électroniques, numéros de téléphone et adresses postales. Les attaquants avaient revendiqué le vol de 623 Go de données le 27 juillet ; face au refus de payer la rançon, ils ont mis en ligne une archive compressée de 280 Go sur leur site du dark web. RingCentral, qui sert plus de 600 000 entreprises, assure que sa plateforme n'a pas été affectée."
+        },
+        {
+          "category": "IT",
+          "title": "Un mémorandum de Trump ouvre la voie au piratage offensif par des entreprises privées",
+          "url": "https://thehackernews.com/2026/08/trump-memo-paves-way-for-us-firms-to.html",
+          "publishedAt": "2026-08-14",
+          "summary": "La Maison-Blanche a publié un mémorandum présidentiel autorisant des entreprises américaines habilitées à mener des opérations cyber offensives contre des organisations criminelles transnationales étrangères. Le National Coordination Center doit établir sous soixante jours un programme encadrant deux types d'opérations : la surveillance cyber, c'est-à-dire l'accès non autorisé à des données, et les opérations à effets, soit la perturbation, le déni, la dégradation ou la destruction de systèmes. Les cibles doivent être des groupes étrangers commettant des délits informatiques contre le gouvernement, des personnes ou des intérêts américains ; il est interdit de viser des personnes ou des systèmes situés aux États-Unis. Le texte invoque 20,8 milliards de dollars de pertes déclarées. Des juristes s'inquiètent des zones grises légales."
+        },
+        {
+          "category": "IT",
+          "title": "Le fisc français reconnaît une intrusion après la mise en vente de 2 millions de dossiers",
+          "url": "https://www.theregister.com/security/2026/08/14/french-tax-authority-admits-data-heist-after-crook-touts-2m-records/5287885",
+          "publishedAt": "2026-08-14",
+          "summary": "La Direction générale des finances publiques a confirmé avoir subi une cyberattaque fin juin 2026, après qu'un individu opérant sous le pseudonyme « ZeroBytes » a proposé à la vente, le 12 août sur un forum criminel, environ deux millions de dossiers de contribuables. L'attaquant a combiné des identifiants dérobés et une technique de contournement de l'authentification multifacteur pour obtenir un accès initial. La DGFiP conteste l'idée d'un accès toujours actif, affirmant que la brèche a été coupée fin juin lors d'un audit, mais reconnaît que l'intrusion a permis la consultation et l'extraction de données concernant des particuliers et des professionnels. L'administration s'engage à notifier les personnes concernées et la CNIL, dans une année déjà marquée par plusieurs incidents visant l'État français."
+        },
+        {
+          "category": "IT",
+          "title": "Cloudflare migre cdnjs, 9 milliards de requêtes par jour, sur sa propre plateforme",
+          "url": "https://www.infoq.com/news/2026/08/cloudflare-cdnjs-migration/",
+          "publishedAt": "2026-08-14",
+          "summary": "Cloudflare a achevé la migration de cdnjs, son réseau de diffusion de bibliothèques JavaScript et CSS utilisé par environ 12 % des sites web, vers sa propre plateforme pour développeurs. Le service traite quelque 9 milliards de requêtes quotidiennes, soit 108 000 requêtes par seconde en moyenne. L'infrastructure distribuée précédente cède la place aux services maison : R2 devient la source de vérité pour les fichiers publiés, KV stocke les métadonnées, les Workers traitent les requêtes, Workflows orchestre l'ingestion des paquets et Containers gère les tâches de compression. L'exercice, présenté comme un cas de « dogfooding » à l'échelle de la production, a conduit Cloudflare à relever ses propres limites : les sous-requêtes par Worker passent de 1 000 à 10 millions."
+        },
+        {
+          "category": "IT",
+          "title": "Cloudflare introduit des règles de cache appliquées après la réponse de l'origine",
+          "url": "https://www.infoq.com/news/2026/08/cloudflare-cache-rules/",
+          "publishedAt": "2026-08-15",
+          "summary": "Cloudflare a lancé les Cache Response Rules, un moteur de règles qui s'exécute après la réponse du serveur d'origine mais avant l'entrée du contenu dans le cache, en complément des Cache Rules existantes qui n'agissent que sur les attributs de la requête. Les administrateurs peuvent ainsi modifier les directives Cache-Control, gérer les étiquettes de cache et supprimer des en-têtes parasites comme Set-Cookie, ETag ou Last-Modified. La fonction répond à un problème courant : un en-tête Set-Cookie ajouté par erreur rend soudain non cacheable une ressource qui aurait dû être servie depuis chaque centre de données, dégradant le taux de succès du cache et alourdissant la charge sur l'origine. La nouveauté est disponible sur l'ensemble des formules tarifaires."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "La Fribourgeoise Audrey Werro est devenue championne d'Europe du 800 m en 1'54\"81, record des championnats, en devançant la Britannique Keely Hodgkinson à Birmingham.",
+          "publishedAt": "2026-08-14"
+        },
+        {
+          "headline": "Le relais suisse 4x100 m féminin (Di Tizio, Frey, Hoenke, Pointet/Kora) a décroché l'argent en 43\"12 aux Européens de Birmingham, première médaille de l'histoire du quatuor helvétique dans un grand championnat.",
+          "publishedAt": "2026-08-15"
+        },
+        {
+          "headline": "Coupe de Suisse, 1er tour : Bâle, Young Boys, Grasshopper et Servette (5-0 à Bavois) ont passé sans trembler, alors que Neuchâtel Xamax a dû se sauver aux tirs au but (4-3, 0-0 a.p.) sur le terrain du FC Meyrin.",
+          "publishedAt": "2026-08-15"
+        }
+      ]
+    }
+  ]
+}
