@@ -1,0 +1,247 @@
+{
+  "edition": "main",
+  "title": "Briefing du matin",
+  "date": "2026-08-17",
+  "generatedAt": "2026-08-17T03:11:24.116Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Genève",
+          "high": 29,
+          "low": 21,
+          "condition": "Orage",
+          "weathercode": 95,
+          "precipProbability": 63
+        },
+        {
+          "name": "Lausanne",
+          "high": 26,
+          "low": 21,
+          "condition": "Orage",
+          "weathercode": 96,
+          "precipProbability": 85
+        }
+      ]
+    },
+    {
+      "topic": "swiss",
+      "label": "La Suisse en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Une association lausannoise montera les 21 et 22 août un multiplexe de cinéma en plein air à trois écrans alimentés par batteries, avec un son diffusé en mode silent-disco.",
+          "publishedAt": "2026-08-16"
+        },
+        {
+          "headline": "Le Venoge Festival a réuni 75'000 personnes en cinq jours à Penthaz (VD) pour sa 30e édition, dépassant nettement les attentes des organisateurs.",
+          "publishedAt": "2026-08-16"
+        },
+        {
+          "headline": "Près de 800 tracteurs et machines agricoles anciens venus de toute l'Europe ont défilé à Vucherens (VD) pour la journée de clôture de la Rencontre nationale des vieux tracteurs.",
+          "publishedAt": "2026-08-16"
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Athlétisme : les championnats d'Europe de Birmingham se sont clos dimanche sur un quatrième titre d'affilée d'Armand Duplantis à la perche avec un record des championnats à 6,15 m, et sur les quatre médailles d'or de la Britannique Amy Hunt, une première en 92 ans d'histoire de la compétition.",
+          "publishedAt": "2026-08-16"
+        },
+        {
+          "headline": "Natation : Léon Marchand a remporté dimanche à Saint-Denis le titre européen du 400 m nage libre pour sa première finale internationale sur la distance, en 3'43\"14, effaçant un record de France vieux de quinze ans.",
+          "publishedAt": "2026-08-16"
+        },
+        {
+          "headline": "La Suisse a débloqué samedi 600'000 francs pour sécuriser et restaurer la laure des Grottes de Kiev, site du patrimoine mondial de l'UNESCO endommagé par une frappe russe, annonce faite sur place pour les 975 ans du complexe monastique.",
+          "publishedAt": "2026-08-15"
+        }
+      ]
+    },
+    {
+      "topic": "markets",
+      "label": "Marchés",
+      "kind": "dataset",
+      "asOf": "clôture du vendredi 14 août 2026",
+      "summary": "Séance de repli mesuré vendredi : Wall Street a lâché prise depuis ses records après des ventes au détail américaines décevantes (-0,6% en juillet), le SMI a nettement sous-performé tandis que l'Euro Stoxx 50 est resté quasi stable près de ses plus hauts.",
+      "indices": [
+        {
+          "name": "Nasdaq",
+          "changePct": -0.28
+        },
+        {
+          "name": "Dow Jones",
+          "changePct": -0.2
+        },
+        {
+          "name": "SMI",
+          "changePct": -0.58
+        },
+        {
+          "name": "Euro Stoxx 50",
+          "changePct": -0.09
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "AI",
+          "title": "SpaceX finalise le rachat de Cursor pour 60 milliards de dollars en actions",
+          "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+          "publishedAt": "2026-08-15",
+          "summary": "SpaceX a officiellement clos l'acquisition de Cursor, l'éditeur de l'assistant de programmation par IA, pour 60 milliards de dollars payés en actions. L'opération avait été préparée par un partenariat assorti d'une option d'achat en avril 2026, puis enclenchée en juin après l'introduction en bourse de SpaceX. Cursor met en avant l'accès à « la plus grande flotte de GPU au monde » et se positionne désormais comme la couche applicative de l'infrastructure de calcul du groupe. Ce rachat prolonge l'absorption de xAI par SpaceX et confirme la mue du constructeur spatial en acteur de l'IA, alors qu'il loue déjà de la capacité de calcul à des clients comme Anthropic et Google."
+        },
+        {
+          "category": "AI",
+          "title": "Stripe s'offrirait OpenRouter, la passerelle vers les modèles d'IA, pour plus de 7 milliards de dollars",
+          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+          "publishedAt": "2026-08-16",
+          "summary": "Selon Bloomberg, Stripe a bouclé le rachat d'OpenRouter pour plus de 7 milliards de dollars. La jeune pousse exploite une passerelle unifiée qui permet à un développeur de router chaque requête vers le modèle le mieux adapté en fonction du besoin et du budget, sans se lier à un fournisseur unique. Elle revendique 8 millions d'utilisateurs et l'accès à plus de 400 modèles. En mai, elle avait levé 113 millions de dollars en série B sur une valorisation de 1,3 milliard, avec Sequoia, Andreessen Horowitz, Menlo Ventures et CapitalG au tour de table. Son patron Alex Atallah décrivait OpenRouter comme « le Stripe de l'IA ». Stripe s'est refusé à tout commentaire, invoquant sa politique sur les rumeurs."
+        },
+        {
+          "category": "Science",
+          "title": "Une « étoile-trou noir » : les astronomes décrivent un type d'objet inédit dans l'univers primitif",
+          "url": "https://phys.org/news/2026-08-black-hole-star-astronomers-brand.html",
+          "publishedAt": "2026-08-16",
+          "summary": "Des astronomes du MIT et de leurs partenaires ont identifié grâce au télescope spatial James-Webb un objet sans équivalent connu, baptisé MoM-BH*-1. Il ressemble à une étoile gigantesque de la taille du système solaire, mais rayonne cent milliards de fois plus d'énergie qu'aucune étoile ne peut physiquement en produire. L'explication proposée est hybride : un trou noir central d'environ 100 000 masses solaires, enveloppé d'une couche d'hydrogène extraordinairement dense qui lui donne l'apparence d'une photosphère stellaire. Rohan Naidu, qui a dirigé les travaux, insiste sur l'échelle de cette enveloppe. La découverte pourrait résoudre l'énigme des « petits points rouges » repérés en abondance dans les images de l'univers jeune, l'un des débats les plus vifs de l'ère Webb."
+        },
+        {
+          "category": "IT",
+          "title": "SAP Commerce Cloud : la faille CVE-2026-58231 (CVSS 10.0) exploitée trois jours après le correctif",
+          "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
+          "publishedAt": "2026-08-15",
+          "summary": "Des tentatives d'exploitation visant CVE-2026-58231, une vulnérabilité de score CVSS maximal (10.0) dans SAP Commerce Cloud, ont été détectées trois jours seulement après la publication du correctif. La faille combine un défaut de contrôle d'autorisation et une validation d'entrée insuffisante : un attaquant non authentifié peut détourner un client d'authentification par défaut et soumettre des données spécialement forgées pour obtenir l'exécution de code arbitraire et compromettre des composants internes. L'impact est élevé sur la confidentialité, l'intégrité et la disponibilité. La société Defused Cyber a relevé ces attaques dans ses pots de miel alors qu'aucun code d'exploitation public n'était connu. Onapsis recommande d'appliquer le correctif sans délai ou, à défaut, de filtrer les adresses IP autorisées sur les points d'accès vulnérables."
+        },
+        {
+          "category": "IT",
+          "title": "macOS : une faille critique du partage d'écran (CVE-2026-65400) exploitée pour installer des mineurs Monero",
+          "url": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
+          "publishedAt": "2026-08-15",
+          "summary": "CVE-2026-65400 (CVSS 9.8) est un contournement d'authentification dans le composant Partage d'écran de macOS, corrigé en urgence dans macOS Tahoe 26.6.1, Sequoia 15.7.9 et Sonoma 14.8.9. Le centre national de cybersécurité néerlandais rapporte une exploitation active contre des Mac exposés sur Internet avec le port 5900 ouvert : les attaquants obtiennent les privilèges root et installent des mineurs de cryptomonnaie Monero. Apple décrit un problème d'authentification résolu par une meilleure gestion d'état ; la découverte revient à Alfredo Pesoli, de Bynario. La même vague de correctifs traite d'autres défauts sérieux, dont CVE-2026-43779 (9.8) permettant une interception réseau. À défaut de mise à jour immédiate, il est conseillé de désactiver le partage d'écran dans les réglages système."
+        },
+        {
+          "category": "IT",
+          "title": "Panne majeure chez Anthropic : Claude, Claude Code et Cowork hors service pendant près d'une heure",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
+          "publishedAt": "2026-08-16",
+          "summary": "Anthropic a confirmé une panne d'ampleur débutée vers 21h58 UTC le 16 août. L'incident a d'abord empêché une partie des utilisateurs de s'authentifier sur Claude.ai, Claude Code et Claude Cowork, avant de dégénérer en dégradation générale des performances sur claude.ai et platform.claude.com. Les utilisateurs rapportaient des échecs de connexion, des pages qui ne chargeaient pas et des requêtes interrompues. Les services concernés ont été classés en « panne majeure », tandis que la console Claude et l'API restaient opérationnelles. L'ensemble est revenu à la normale à 22h40 UTC. Anthropic n'a pas communiqué de cause racine, un silence habituel qui alimente les interrogations sur la dépendance croissante des équipes de développement à un fournisseur unique."
+        },
+        {
+          "category": "AI",
+          "title": "Dario Amodei : le rejet de l'IA est « fondamentalement une crise de confiance »",
+          "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+          "publishedAt": "2026-08-16",
+          "summary": "Le patron d'Anthropic a répondu à l'investisseur Gavin Baker, qui lui reproche d'alimenter l'hostilité du public par ses avertissements sur les risques de l'IA. Dario Amodei conteste la lecture catastrophiste de ses écrits, qu'il juge « à peu près également répartis entre risques et bénéfices », et déplace le débat : « Je pense que c'est fondamentalement une crise de confiance. Les gens ordinaires ne font confiance ni aux entreprises, ni aux gouvernements, ni à l'industrie technologique. » Il reconnaît que les acteurs de l'IA, Anthropic compris, n'ont pas encore tenu leurs grandes promesses. Il plaide pour une régulation qui freinerait les laboratoires de pointe tout en ménageant les plus petits concurrents, l'IA étant selon lui structurellement propice à la concentration du pouvoir."
+        },
+        {
+          "category": "Science",
+          "title": "Une structure de gluons cachée dans le proton pourrait réécrire les manuels de physique",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260815064805.htm",
+          "publishedAt": "2026-08-16",
+          "summary": "La collaboration STAR, auprès du collisionneur d'ions lourds RHIC du laboratoire de Brookhaven, avance que le nombre baryonique — l'une des propriétés les plus fondamentales de la matière, dont la conservation explique la stabilité du proton — ne serait pas porté par les quarks eux-mêmes, mais par une jonction de gluons en forme de Y qui les relie. Cette idée, longtemps théorique, trouve ici un appui expérimental en analysant ce qui subsiste après des collisions. Elle bouscule la description enseignée depuis des décennies, où le nombre baryonique se répartit entre les trois quarks de valence. Les résultats sont publiés dans Science (2026, volume 393, numéro 6812, page 727) et intéressent aussi la question de l'asymétrie matière-antimatière dans l'univers."
+        },
+        {
+          "category": "AI",
+          "title": "Anthropic détaille le filigrane invisible qui marquera les textes générés par Claude",
+          "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+          "publishedAt": "2026-08-15",
+          "summary": "Anthropic a précisé le fonctionnement du filigrane qui sera appliqué aux réponses de Claude. Le dispositif reprend l'approche SynthID-Text conçue par Google DeepMind en 2024 : le modèle oriente subtilement ses arbitrages de vocabulaire sans enjeu — choisir « couvert » plutôt que « gris » — de manière à inscrire un motif statistique indétectable à la lecture, mais reconnaissable par quiconque détient la clé. L'entreprise affirme que la qualité des sorties n'est pas affectée. Une API de détection est prévue. Une édition légère ne suffit pas à effacer la marque, contrairement à une réécriture complète ; le code proprement dit est peu concerné, la syntaxe laissant peu de liberté, mais les commentaires peuvent l'être. L'initiative répond aux exigences de transparence de l'AI Act européen."
+        },
+        {
+          "category": "Science",
+          "title": "Le Japon vise les lunes de Mars : la mission MMX rapportera des échantillons de Phobos",
+          "url": "https://phys.org/news/2026-08-japan-aims-moons-mars.html",
+          "publishedAt": "2026-08-16",
+          "summary": "La mission japonaise MMX (Martian Moons eXploration) doit décoller dans les prochains mois pour trois années autour de Mars. Objectif : prélever au moins dix grammes de matière à la surface de Phobos et observer Deimos sans s'y poser, avec un retour d'échantillons sur Terre attendu vers 2031, par atterrissage en Australie. L'enjeu scientifique est de trancher entre deux hypothèses concurrentes sur l'origine des deux lunes — un impact géant contre Mars ou la capture d'astéroïdes — ce qui éclairerait la formation des planètes telluriques et l'apparition de conditions habitables. Le CNES français, le DLR allemand, la NASA et l'ESA participent, notamment via le rover IDEFIX. La chinoise Tianwen-3, prévue pour 2028, vise un retour d'échantillons martiens à la même échéance."
+        },
+        {
+          "category": "AI",
+          "title": "Grok au cœur d'une plainte : 7000 images explicites générées à partir d'une photo d'enfance",
+          "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+          "publishedAt": "2026-08-15",
+          "summary": "Une femme désignée comme « Jane Doe 4 » a rejoint l'action en justice visant xAI, affirmant que son beau-père a utilisé Grok pour transformer une photo d'elle prise à onze ans en plus de 7000 images sexuellement explicites. L'homme s'est donné la mort deux jours après la découverte des fichiers lors d'une perquisition. La plainte initiale, déposée par trois adolescentes du Tennessee, reproche à xAI de n'avoir pas mis en place les garde-fous élémentaires empêchant la fabrication d'images intimes de personnes réelles, mineures comprises ; les plaignantes demandent le statut d'action collective. La plateforme X avait déjà été submergée d'images sexualisées produites par Grok plus tôt en 2026. xAI relève désormais de SpaceX après la réorganisation du groupe."
+        },
+        {
+          "category": "IT",
+          "title": "AWS ajoute une recherche vectorielle native à DynamoDB",
+          "url": "https://www.infoq.com/news/2026/08/aws-dynamodb-vector-search/",
+          "publishedAt": "2026-08-16",
+          "summary": "DynamoDB prend désormais en charge nativement les index vectoriels et les requêtes de plus proches voisins approximatifs, permettant de stocker les plongements aux côtés des données applicatives sans base spécialisée. Les index acceptent jusqu'à 4096 dimensions et trois fonctions de distance (euclidienne, cosinus, produit scalaire), avec filtrage en ligne et mise à l'échelle horizontale sans limite de stockage. AWS promet une latence inférieure à dix millisecondes jusqu'à des milliers de milliards de vecteurs. Les modèles d'embedding supportés incluent Titan Text Embeddings via Bedrock, Cohere Embed et ceux d'OpenAI. La facturation s'ajoute au coût de la table sur trois axes — écriture dans l'index, données traitées lors des recherches, stockage — mesurés à l'octet. La fonction est disponible dans toutes les régions DynamoDB."
+        },
+        {
+          "category": "Science",
+          "title": "Le Covid réveille des virus dormants, et l'un d'eux est associé au Covid long",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260814011034.htm",
+          "publishedAt": "2026-08-15",
+          "summary": "Une étude du Boston Children's Hospital publiée dans Nature a suivi plus de 1100 patients dans vingt hôpitaux américains et identifié onze virus latents réactivés dans les quarante jours suivant l'admission pour Covid-19. Les plus fréquents sont le virus d'Epstein-Barr, l'herpès simplex de type 1, le cytomégalovirus et les Anelloviridae. C'est cette dernière famille qui retient l'attention : sa réactivation est fortement associée au Covid long et à un handicap physique persistant. Contre-intuitivement, le déclencheur ne semble pas être l'immunosuppression mais l'inflammation, du moins pour Epstein-Barr et le cytomégalovirus. Les auteurs estiment que mieux comprendre ces réveils viraux pourrait déboucher sur des marqueurs diagnostiques et des pistes thérapeutiques pour les millions de personnes concernées."
+        },
+        {
+          "category": "IT",
+          "title": "AWS ouvre le code de Dogwood, un langage de règles pour encadrer les enchaînements d'outils des agents",
+          "url": "https://www.infoq.com/news/2026/08/aws-dogwood-agent-policy/",
+          "publishedAt": "2026-08-16",
+          "summary": "AWS a publié sous licence Apache 2.0 Dogwood, une extension de son langage de politiques Cedar destinée à gouverner non plus une requête isolée mais une séquence d'appels d'outils par un agent. Cedar est sans mémoire : la même requête donne toujours la même réponse. Dogwood introduit des conditions temporelles capables de raisonner sur l'historique des actions, ce qui permet d'exprimer des règles du type « obtenir une validation avant d'agir » ou « ne plus contacter l'extérieur après avoir consulté des données confidentielles ». Quatre opérateurs (formerly, count_within, count_distinct_within, sum_within) sont bâtis en macros sur une logique temporelle du premier ordre. L'interpréteur de référence sert à explorer le langage, pas à autoriser en production : l'évaluation temporelle exige une journalisation d'événements authentifiée et durable."
+        },
+        {
+          "category": "AI",
+          "title": "Pourquoi le manifeste de Mark Zuckerberg sur l'IA ne convainc pas",
+          "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+          "publishedAt": "2026-08-16",
+          "summary": "TechCrunch décortique le scepticisme suscité par la profession de foi du patron de Meta sur l'avenir de l'IA. Premier grief, le déficit de crédibilité : Rebecca Bellan rappelle qu'à l'ère des réseaux sociaux, la promesse de connecter chacun a accouché de l'appât à indignation et de la publicité. Zuckerberg se pose en « anti-Dario », plaidant contre tout ralentissement du développement quand ses concurrents insistent sur la prudence après une série d'incidents de cybersécurité. Autre contradiction, Glimmer exige un matériel spécifique hors de portée du grand public, ce qui cadre mal avec un discours universaliste. Enfin, la moitié du texte reste abstraite — créativité libérée — tandis que les propositions concrètes peinent à séduire, à l'image des podcasts générés pour ses enfants suggérés par Sam Altman."
+        },
+        {
+          "category": "Science",
+          "title": "« Le Whippet » : un trou noir déchiquette une étoile géante, mais un noyau semble avoir survécu",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260814235849.htm",
+          "publishedAt": "2026-08-15",
+          "summary": "L'événement AT2024wpp, surnommé « le Whippet », est l'un des phénomènes les plus énergétiques jamais observés : environ 400 milliards de fois la production énergétique du Soleil, au-delà de ce que produisent les supernovae connues, avec une onde de choc se propageant dans le gaz environnant à un cinquième de la vitesse de la lumière. Six mois après le pic, l'équipe dirigée par Daniel Perley, de l'université John-Moores de Liverpool, a détecté de l'hélium filant à plus de 6000 kilomètres par seconde, signe qu'une structure très liée pourrait avoir résisté à la destruction initiale. L'objet appartient à la catégorie rare et mal comprise des transitoires bleus lumineux et rapides (LFBOT). Publication dans les Monthly Notices of the Royal Astronomical Society."
+        },
+        {
+          "category": "IT",
+          "title": "Corma lève 60 millions de dollars pour combler le retard de l'IA défensive en cybersécurité",
+          "url": "https://www.theregister.com/security/2026/08/16/stopping-a-cyberattack-while-walking-your-dog-defensive-ai-security-ceo-says-its-not-ruff-to-do/5288126",
+          "publishedAt": "2026-08-16",
+          "summary": "Fondée il y a environ un an, la start-up Corma a bouclé un amorçage de 60 millions de dollars mené par Sequoia Capital, avec Khosla Ventures et Coatue. Son constat : les grands modèles progressent bien plus vite en attaque qu'en défense. Sur quatre modèles de pointe testés, les attaquants ont réussi à implanter une porte dérobée dans 85 % des tentatives, alors que les défenseurs n'ont détecté que 19 % des attaques. Corma déploie des agents qui travaillent comme des coéquipiers, en analysant journaux, configurations, pistes d'audit et états système — des données que les modèles lisent historiquement moins bien que du code. Chez des clients du Fortune 100, l'entreprise revendique une réduction de plus de 94 % des délais de réponse et une couverture multipliée par quinze."
+        },
+        {
+          "category": "Science",
+          "title": "La digoxine, médicament à dix centimes, réduit d'un quart les hospitalisations pour insuffisance cardiaque",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260814235858.htm",
+          "publishedAt": "2026-08-16",
+          "summary": "Un traitement dérivé de la digitale, utilisé depuis plus de deux siècles et vendu moins de dix centimes par jour, retrouve une actualité clinique. Des travaux menés au centre hospitalier universitaire de Groningue montrent que la digoxine à faible dose réduit d'environ 25 % les hospitalisations pour insuffisance cardiaque et pourrait diminuer de 19 % la mortalité cardiovasculaire. Le résultat est notable à l'heure où les traitements récents de l'insuffisance cardiaque coûtent plusieurs centaines d'euros par mois, ce qui limite leur diffusion dans les systèmes de santé sous contrainte. La digoxine avait été largement délaissée en raison d'une marge thérapeutique étroite et d'essais anciens jugés peu concluants ; l'approche à faible dose vise précisément à écarter le risque de surdosage."
+        },
+        {
+          "category": "IT",
+          "title": "Cloudflare instrumente les agents : traçage des appels de modèles et des exécutions d'outils",
+          "url": "https://www.infoq.com/news/2026/08/cloudflare-agent-tracing/",
+          "publishedAt": "2026-08-15",
+          "summary": "Le traçage d'agents inaugure la gamme Cloudflare Agents. Il enrichit l'observabilité existante des Workers en capturant les invocations d'agents, les appels de modèles, les exécutions d'outils et les validations, avec le modèle utilisé et la consommation de jetons en métadonnées. Les traces s'affichent en cascade, ce qui permet de voir l'appel de modèle juste au-dessus d'un mauvais argument passé à un outil. La bêta est gratuite jusqu'au 1er octobre 2026, avant bascule sur la tarification Workers Observability. Deux réserves : les cadriciels n'appliquent pas les mêmes réglages par défaut sur le stockage des charges utiles — Flue les conserve, d'autres exigent une activation explicite — et chaque span, y compris ceux internes au SDK, compte comme un événement facturable."
+        },
+        {
+          "category": "Science",
+          "title": "Des beagles modifiés par CRISPR ne produisent plus l'allergène majeur du chien",
+          "url": "https://phys.org/news/2026-08-gene-beagles-major-dog-allergen.html",
+          "publishedAt": "2026-08-16",
+          "summary": "Environ 15 % de la population mondiale est allergique au chien. Des chercheurs rapportent dans The CRISPR Journal avoir utilisé CRISPR-Cas9 pour supprimer la production de Can f 1, la protéine responsable de la majorité de ces réactions. Deux chiots beagles clonés, Alfie et Bailey, ne présentent aucune trace détectable de l'allergène dans leur salive, leurs poils et leurs squames. Lors d'un test cutané sur une volontaire allergique, les extraits issus des animaux édités n'ont provoqué aucune réaction, alors que ceux de beagles ordinaires et de races commercialisées comme hypoallergéniques déclenchaient tous des papules. Les auteurs insistent sur les préalables avant toute application commerciale : sécurité à long terme, surveillance du bien-être animal et respect intégral du cadre réglementaire."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-17",
+  "generatedAt": "2026-08-17T03:10:19.031Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 25,
+          "low": 20,
+          "condition": "Orage",
+          "weathercode": 96,
+          "precipProbability": 100
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Cinéma : le Léopard d'or de la 79e édition du Festival de Locarno a été décerné samedi au film roumain « Nu e locul tau aici » de Florin Șerban, Monica Bellucci et Kim Minhee recevant les prix d'interprétation.",
+          "publishedAt": "2026-08-15"
+        },
+        {
+          "headline": "Natation : Léon Marchand a remporté dimanche à Saint-Denis le titre européen du 400 m nage libre pour sa première finale internationale sur la distance, en 3'43\"14, effaçant un record de France vieux de quinze ans.",
+          "publishedAt": "2026-08-16"
+        },
+        {
+          "headline": "Athlétisme : les championnats d'Europe de Birmingham se sont clos dimanche sur un quatrième titre d'affilée d'Armand Duplantis à la perche avec un record des championnats à 6,15 m, et sur les quatre médailles d'or de la Britannique Amy Hunt, une première en 92 ans d'histoire de la compétition.",
+          "publishedAt": "2026-08-16"
+        },
+        {
+          "headline": "Football : Arsenal a lancé sa saison en battant Manchester City 3-0 en Community Shield à Cardiff dimanche, avec un but de Riccardo Calafiori après 24 secondes de jeu et un premier match manqué pour Enzo Maresca sur le banc mancunien.",
+          "publishedAt": "2026-08-16"
+        },
+        {
+          "headline": "Espace : SpaceX a établi samedi un record en lançant deux fusées Falcon 9 à 38,5 minutes d'intervalle depuis la Floride et la Californie, pour la constellation Globalstar et pour l'US Space Force.",
+          "publishedAt": "2026-08-15"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "SAP Commerce Cloud : la faille CVE-2026-58231 (CVSS 10.0) exploitée trois jours après le correctif",
+          "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
+          "publishedAt": "2026-08-15",
+          "summary": "Des tentatives d'exploitation visant CVE-2026-58231, une vulnérabilité de score CVSS maximal (10.0) dans SAP Commerce Cloud, ont été détectées trois jours seulement après la publication du correctif. La faille combine un défaut de contrôle d'autorisation et une validation d'entrée insuffisante : un attaquant non authentifié peut détourner un client d'authentification par défaut et soumettre des données spécialement forgées pour obtenir l'exécution de code arbitraire et compromettre des composants internes. L'impact est élevé sur la confidentialité, l'intégrité et la disponibilité. La société Defused Cyber a relevé ces attaques dans ses pots de miel alors qu'aucun code d'exploitation public n'était connu. Onapsis recommande d'appliquer le correctif sans délai ou, à défaut, de filtrer les adresses IP autorisées sur les points d'accès vulnérables."
+        },
+        {
+          "category": "IT",
+          "title": "macOS : une faille critique du partage d'écran (CVE-2026-65400) exploitée pour installer des mineurs Monero",
+          "url": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
+          "publishedAt": "2026-08-15",
+          "summary": "CVE-2026-65400 (CVSS 9.8) est un contournement d'authentification dans le composant Partage d'écran de macOS, corrigé en urgence dans macOS Tahoe 26.6.1, Sequoia 15.7.9 et Sonoma 14.8.9. Le centre national de cybersécurité néerlandais rapporte une exploitation active contre des Mac exposés sur Internet avec le port 5900 ouvert : les attaquants obtiennent les privilèges root et installent des mineurs de cryptomonnaie Monero. Apple décrit un problème d'authentification résolu par une meilleure gestion d'état ; la découverte revient à Alfredo Pesoli, de Bynario. La même vague de correctifs traite d'autres défauts sérieux, dont CVE-2026-43779 (9.8) permettant une interception réseau. À défaut de mise à jour immédiate, il est conseillé de désactiver le partage d'écran dans les réglages système."
+        },
+        {
+          "category": "IT",
+          "title": "SafePal : fuite de données touchant 39 798 clients, informations revendues et vague de phishing",
+          "url": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
+          "publishedAt": "2026-08-16",
+          "summary": "Le fabricant de portefeuilles matériels de cryptomonnaies SafePal a reconnu une compromission affectant 39 798 clients ayant commandé entre le 2 mars 2025 et le 11 avril 2026. Une faille d'autorisation dans la fonction de suivi de commande d'un module tiers permettait d'accéder aux commandes d'autrui ; une erreur de configuration a par ailleurs empêché la purge des données anciennes entre septembre 2025 et avril 2026. Noms, adresses électroniques et postales, numéros de téléphone et détails d'achat ont fuité, puis été mis en vente. L'entreprise assure que ni phrases de récupération, ni clés privées, ni données bancaires n'ont été touchées. Les clients sont ciblés par de faux courriels de mise à jour de micrologiciel et des appels frauduleux ; plus de trente sites contrefaits ont été fermés."
+        },
+        {
+          "category": "IT",
+          "title": "Evooo1Bot : un botnet Linux transforme les routeurs en relais de trafic SOCKS5",
+          "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
+          "publishedAt": "2026-08-15",
+          "summary": "Les chercheurs de Fortinet décrivent Evooo1Bot, un logiciel malveillant Linux modulaire dérivé de Mirai qui vise depuis juillet les équipements de passerelle exposés sur Internet — routeurs Alcatel, NETGEAR, Tenda, Mitsubishi Electric, Telesquare et D-Link. Sa finalité principale n'est pas le déni de service mais la conversion des appareils compromis en relais SOCKS5, permettant de masquer des activités malveillantes et de monétiser le parc infecté sous forme de proxys résidentiels. L'arsenal comprend des communications chiffrées avec le serveur de commande, un scanner de force brute SSH, un module de relais, un renifleur d'identifiants et une collection d'exploits, ainsi que seize méthodes d'inondation héritées de Mirai. Recommandations : mises à jour du micrologiciel, suppression des identifiants par défaut, désactivation de l'administration distante, remplacement des appareils obsolètes."
+        },
+        {
+          "category": "IT",
+          "title": "Wireshark 4.6.8 corrige 28 vulnérabilités et 25 anomalies",
+          "url": "https://isc.sans.edu/diary/Wireshark+468+Released/33248/",
+          "publishedAt": "2026-08-16",
+          "summary": "Le SANS Internet Storm Center signale la publication de Wireshark 4.6.8, une version de maintenance qui corrige 28 vulnérabilités et 25 anomalies. L'analyseur de trafic reste un outil de première ligne pour les équipes de réponse à incident et d'investigation numérique ; ses dissecteurs de protocoles, très nombreux, constituent une surface d'attaque récurrente, puisqu'ils traitent par construction des données non fiables issues du réseau ou de captures fournies par des tiers. Un volume de correctifs aussi élevé sur une version mineure invite à la mise à jour rapide des postes d'analyse, en particulier lorsqu'ils servent à ouvrir des fichiers de capture d'origine externe. Le détail des correctifs figure dans les notes de version officielles du projet."
+        },
+        {
+          "category": "IT",
+          "title": "Corma lève 60 millions de dollars pour combler le retard de l'IA défensive en cybersécurité",
+          "url": "https://www.theregister.com/security/2026/08/16/stopping-a-cyberattack-while-walking-your-dog-defensive-ai-security-ceo-says-its-not-ruff-to-do/5288126",
+          "publishedAt": "2026-08-16",
+          "summary": "Fondée il y a environ un an, la start-up Corma a bouclé un amorçage de 60 millions de dollars mené par Sequoia Capital, avec Khosla Ventures et Coatue. Son constat : les grands modèles progressent bien plus vite en attaque qu'en défense. Sur quatre modèles de pointe testés, les attaquants ont réussi à implanter une porte dérobée dans 85 % des tentatives, alors que les défenseurs n'ont détecté que 19 % des attaques. Corma déploie des agents qui travaillent comme des coéquipiers, en analysant journaux, configurations, pistes d'audit et états système — des données que les modèles lisent historiquement moins bien que du code. Chez des clients du Fortune 100, l'entreprise revendique une réduction de plus de 94 % des délais de réponse et une couverture multipliée par quinze."
+        },
+        {
+          "category": "IT",
+          "title": "AWS ajoute une recherche vectorielle native à DynamoDB",
+          "url": "https://www.infoq.com/news/2026/08/aws-dynamodb-vector-search/",
+          "publishedAt": "2026-08-16",
+          "summary": "DynamoDB prend désormais en charge nativement les index vectoriels et les requêtes de plus proches voisins approximatifs, permettant de stocker les plongements aux côtés des données applicatives sans base spécialisée. Les index acceptent jusqu'à 4096 dimensions et trois fonctions de distance (euclidienne, cosinus, produit scalaire), avec filtrage en ligne et mise à l'échelle horizontale sans limite de stockage. AWS promet une latence inférieure à dix millisecondes jusqu'à des milliers de milliards de vecteurs. Les modèles d'embedding supportés incluent Titan Text Embeddings via Bedrock, Cohere Embed et ceux d'OpenAI. La facturation s'ajoute au coût de la table sur trois axes — écriture dans l'index, données traitées lors des recherches, stockage — mesurés à l'octet. La fonction est disponible dans toutes les régions DynamoDB."
+        },
+        {
+          "category": "IT",
+          "title": "AWS ouvre le code de Dogwood, un langage de règles pour encadrer les enchaînements d'outils des agents",
+          "url": "https://www.infoq.com/news/2026/08/aws-dogwood-agent-policy/",
+          "publishedAt": "2026-08-16",
+          "summary": "AWS a publié sous licence Apache 2.0 Dogwood, une extension de son langage de politiques Cedar destinée à gouverner non plus une requête isolée mais une séquence d'appels d'outils par un agent. Cedar est sans mémoire : la même requête donne toujours la même réponse. Dogwood introduit des conditions temporelles capables de raisonner sur l'historique des actions, ce qui permet d'exprimer des règles du type « obtenir une validation avant d'agir » ou « ne plus contacter l'extérieur après avoir consulté des données confidentielles ». Quatre opérateurs (formerly, count_within, count_distinct_within, sum_within) sont bâtis en macros sur une logique temporelle du premier ordre. L'interpréteur de référence sert à explorer le langage, pas à autoriser en production : l'évaluation temporelle exige une journalisation d'événements authentifiée et durable."
+        },
+        {
+          "category": "IT",
+          "title": "Cloudflare instrumente les agents : traçage des appels de modèles et des exécutions d'outils",
+          "url": "https://www.infoq.com/news/2026/08/cloudflare-agent-tracing/",
+          "publishedAt": "2026-08-15",
+          "summary": "Le traçage d'agents inaugure la gamme Cloudflare Agents. Il enrichit l'observabilité existante des Workers en capturant les invocations d'agents, les appels de modèles, les exécutions d'outils et les validations, avec le modèle utilisé et la consommation de jetons en métadonnées. Les traces s'affichent en cascade, ce qui permet de voir l'appel de modèle juste au-dessus d'un mauvais argument passé à un outil. La bêta est gratuite jusqu'au 1er octobre 2026, avant bascule sur la tarification Workers Observability. Deux réserves : les cadriciels n'appliquent pas les mêmes réglages par défaut sur le stockage des charges utiles — Flue les conserve, d'autres exigent une activation explicite — et chaque span, y compris ceux internes au SDK, compte comme un événement facturable."
+        },
+        {
+          "category": "IT",
+          "title": "Cloudflare introduit les Cache Response Rules pour reprendre la main après la réponse de l'origine",
+          "url": "https://www.infoq.com/news/2026/08/cloudflare-cache-rules/",
+          "publishedAt": "2026-08-15",
+          "summary": "Cloudflare complète son moteur de règles par les Cache Response Rules, qui s'exécutent après la réponse du serveur d'origine mais avant la mise en cache, là où les Cache Rules classiques agissent en phase de requête. Trois actions sont proposées : supprimer les en-têtes qui rendent un contenu non cachable (Set-Cookie, ETag, Last-Modified), gérer les étiquettes de cache et modifier les directives Cache-Control. L'équipe résume le problème traité : un actif qui aurait dû être servi depuis chaque centre de données devient non cachable dès qu'un Set-Cookie traîne, ce qui dégrade le taux de succès et gonfle la bande passante vers l'origine. L'intérêt est de corriger ces comportements sans toucher à l'application, notamment lors d'une migration de CDN. Disponible sur toutes les formules."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Le relais 4x100m féminin suisse (Di Tizio-Frey, Hoenke, Pointet, Kora) a décroché en 43\"12 l'argent derrière la Grande-Bretagne, première médaille internationale de son histoire.",
+          "publishedAt": "2026-08-15"
+        },
+        {
+          "headline": "Dominic Lobalu a pris l'argent du 10'000m en 27'42\"67, derrière le Suédois Andreas Almgren, auteur d'un record des championnats en 27'23\"44.",
+          "publishedAt": "2026-08-15"
+        },
+        {
+          "headline": "Armand Duplantis a signé un quatrième titre européen consécutif à la perche en franchissant 6m15, nouveau record des championnats, devant le Grec Emmanouil Karalis (6m00).",
+          "publishedAt": "2026-08-16"
+        }
+      ]
+    }
+  ]
+}
