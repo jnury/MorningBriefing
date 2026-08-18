@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-18",
+  "generatedAt": "2026-08-18T03:09:30.574Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 27,
+          "low": 20,
+          "condition": "Couvert",
+          "weathercode": 3,
+          "precipProbability": 15
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "L'astronaute de la NASA Anil Menon et l'astronaute française de l'ESA Sophie Adenot sont prêts pour une sortie extravéhiculaire de six heures et demie destinée à remplacer une antenne de communication haut débit de la Station spatiale internationale.",
+          "publishedAt": "2026-08-17"
+        },
+        {
+          "headline": "Manchester City a accepté l'offre du FC Barcelone pour Rodri, Ballon d'or 2024, pour environ 76,5 millions d'euros et un contrat de quatre ans.",
+          "publishedAt": "2026-08-17"
+        },
+        {
+          "headline": "La Belgique a activé le mécanisme européen de protection civile face à l'incendie des Hautes Fagnes, désormais sous contrôle sur les fronts de Jalhay et de Montjoie et stoppé dans sa progression vers l'Allemagne.",
+          "publishedAt": "2026-08-17"
+        },
+        {
+          "headline": "La Turquie et l'Arabie saoudite porteront à 5 000 mégawatts leur coopération dans les renouvelables, avec un accord additionnel de 3 000 MW qui sera signé en marge de la COP31 d'Antalya.",
+          "publishedAt": "2026-08-16"
+        },
+        {
+          "headline": "Le RC Lens a remporté le Trophée des champions en battant le Paris Saint-Germain 1-0 devant son public de Bollaert-Delelis.",
+          "publishedAt": "2026-08-16"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "Faille critique dans GraphQL de GitLab : suppression de projets publics sans authentification (CVE-2026-19478)",
+          "url": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
+          "publishedAt": "2026-08-17",
+          "summary": "GitLab a publié des correctifs d'urgence, hors calendrier habituel, pour la CVE-2026-19478 (CVSS 9.4). Sous certaines conditions, une directive GraphQL permet à un utilisateur non authentifié de modifier ou supprimer à distance des projets publics et des données d'utilisateurs, sans aucune interaction. Les versions 18.2 à 18.11.10, 19.0 à 19.0.7, 19.1 à 19.1.5 et 19.2 à 19.2.3 sont touchées ; les correctifs figurent dans 19.2.4, 19.1.6, 19.0.8 et 18.11.11. GitLab n'a pas divulgué la directive concernée ni les conditions exactes d'exploitation. GitLab.com et GitLab Dedicated ne sont pas affectés : ce sont les installations auto-hébergées qui doivent être mises à jour sans délai. Une seconde faille CSRF (CVE-2026-19650, CVSS 7.1) a été corrigée simultanément."
+        },
+        {
+          "category": "IT",
+          "title": "Le greffon WordPress Forminator permet une exécution de code à distance non authentifiée (CVE-2026-15748)",
+          "url": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
+          "publishedAt": "2026-08-17",
+          "summary": "Une vulnérabilité notée 9.8 sur 10 affecte le greffon WordPress Forminator, installé sur quelque 600 000 sites, dans toutes les versions jusqu'à la 1.56.1 incluse. Selon Wordfence, la validation du type de fichier dans la fonction handle_file_upload est insuffisante : la liste noire d'extensions dangereuses procède par correspondance exacte de clé, ce qui permet à un attaquant non authentifié de téléverser des fichiers PHP arbitraires. L'exploitation exige que le formulaire comporte à la fois un champ de téléversement et un champ de sélection. En cas de succès, l'attaquant obtient l'exécution de code à distance et la prise de contrôle complète du site. La version 1.56.2, publiée le 31 juillet, corrige le problème."
+        },
+        {
+          "category": "IT",
+          "title": "GitHub victime d'une panne mondiale : jusqu'à 50 % d'erreurs sur les téléchargements de dépôts",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
+          "publishedAt": "2026-08-17",
+          "summary": "GitHub a confirmé le 17 août à 9h40 (heure de l'Est) une panne mondiale touchant l'ensemble de sa plateforme. Le tableau de bord d'état faisait état d'environ 20 % de taux d'erreur sur l'interface web et le trafic API, et d'environ 50 % sur les téléchargements de dépôts et d'archives. Les services affectés comprenaient GitHub Actions, les pull requests, les issues, l'authentification SAML, OIDC et SCIM, ainsi que Copilot, signalé dégradé à 10h31. À 11h42, l'entreprise indiquait appliquer des mesures d'atténuation, sans que les taux d'erreur soient revenus à la normale. Aucune cause racine n'avait été communiquée à l'heure de publication, l'enquête étant toujours en cours."
+        },
+        {
+          "category": "IT",
+          "title": "Vague sans précédent d'alertes Apple aux victimes de logiciels espions dans 110 pays",
+          "url": "https://techcrunch.com/2026/08/17/unprecedented-number-of-apple-users-received-recent-spyware-alert-say-investigators/",
+          "publishedAt": "2026-08-17",
+          "summary": "Apple a envoyé vendredi une salve de notifications de menace à des utilisateurs répartis dans 110 pays, la plus vaste jamais diffusée par l'entreprise. L'organisation Access Now dit avoir reçu 30 à 40 % de sollicitations de plus qu'à l'ordinaire ; des signalements proviennent du monde entier, y compris de militaires ukrainiens. John Scott-Railton, du Citizen Lab, juge « assez sans précédent » l'ampleur et la diversité géographique des témoignages publics. Mohammed Al-Maskati, d'Access Now, estime que la nouvelle méthode de notification d'Apple rend l'alerte plus difficile à ignorer. Si les logiciels espions mercenaires visent traditionnellement journalistes et militants, cette vague suggère un ciblage plus large. Les experts recommandent d'activer le mode Isolement, qu'aucune compromission confirmée n'a pris en défaut."
+        },
+        {
+          "category": "IT",
+          "title": "Un pirate revendique le vol de 3,6 millions de fiches employés depuis des tenants Azure",
+          "url": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
+          "publishedAt": "2026-08-17",
+          "summary": "Un acteur malveillant surnommé « TheHatman » met en vente 3,64 millions de fiches d'employés qu'il affirme avoir extraites des tenants Microsoft Azure de neuf grandes entreprises, dont McDonald's, Gap, Vodafone et Tata Consultancy Services. Le plus gros lot, 1,7 million d'enregistrements, concernerait McDonald's : noms, identifiants internes, courriels, intitulés de poste, téléphones et adresses. Le pirate dit avoir obtenu l'accès initial par pulvérisation de mots de passe et fatigue de l'authentification multifacteur. Tata Consultancy et Gap déclarent n'avoir trouvé aucune preuve de compromission, en notant que les données paraissent vieilles de plusieurs années et peu sensibles. Hudson Rock juge la structure des données authentique, mais l'authenticité globale reste invérifiée à ce stade."
+        },
+        {
+          "category": "IT",
+          "title": "Fuite de données au fisc français : 680 000 personnes concernées",
+          "url": "https://www.securityweek.com/680000-impacted-by-french-tax-authority-data-breach/",
+          "publishedAt": "2026-08-17",
+          "summary": "La Direction générale des finances publiques a subi une compromission touchant environ 680 000 personnes. Des attaquants ont utilisé les identifiants dérobés d'un employé et d'un compte tiers pour accéder aux systèmes en juin et juillet ; l'accès non autorisé a été interrompu dès sa détection. Les données exposées comprennent le revenu fiscal de référence, les taux de prélèvement à la source, des raisons sociales et identifiants d'entreprises, ainsi que des données cadastrales sur les adresses et surfaces de biens immobiliers. Les noms d'utilisateur et mots de passe n'ont pas été compromis. La DGFiP a signalé l'incident à la CNIL et prévoit de contacter directement toutes les personnes concernées ; l'enquête sur l'étendue exacte se poursuit."
+        },
+        {
+          "category": "IT",
+          "title": "Une faille du partage d'écran macOS exploitée en attaques pour installer des mineurs Monero",
+          "url": "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/",
+          "publishedAt": "2026-08-17",
+          "summary": "Le centre de cybersécurité néerlandais NCSC confirme l'exploitation active de la CVE-2026-65400, une faille de contournement d'authentification dans le partage d'écran de macOS. Les attaquants obtiennent un accès root et déploient des mineurs de cryptomonnaie Monero. Le chercheur Calif souligne la trivialité de l'attaque : « nommer un compte est la seule chose dont le bogue a besoin, ce n'est pas vraiment une barrière ». Apple avait corrigé la vulnérabilité le 6 août dans macOS Tahoe 26.6.1, Sequoia 15.7.9 et Sonoma 14.8.9. L'exploitation s'est accélérée après la publication d'un code de démonstration. Le NCSC observe des attaques visant les systèmes exposant le port 5900 sur Internet ; environ 40 000 machines resteraient vulnérables."
+        },
+        {
+          "category": "IT",
+          "title": "Certighost : un simple compte de domaine suffit à obtenir un certificat de contrôleur de domaine (CVE-2026-54121)",
+          "url": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
+          "publishedAt": "2026-08-17",
+          "summary": "Baptisée Certighost, la CVE-2026-54121 (CVSS 8.8) permet à un utilisateur Active Directory faiblement privilégié, disposant d'un simple compte de domaine, de contraindre une autorité de certification d'entreprise à émettre un certificat d'authentification valide pour un contrôleur de domaine. Le défaut réside dans la fonction de « chase » d'AD CS : l'autorité ne vérifie pas que les points de terminaison fournis dans les paramètres de routage sont bien des contrôleurs légitimes, ce qui permet de la rediriger vers une machine pirate fournissant une identité falsifiée. Muni d'un tel certificat, l'attaquant obtient des tickets Kerberos et peut exécuter un DCSync pour extraire les identifiants du domaine. Le correctif date du 14 juillet, la divulgation publique du 24 juillet."
+        },
+        {
+          "category": "IT",
+          "title": "Une faille GitHub Actions chez Snowflake permettait l'injection de commandes via une simple issue",
+          "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
+          "publishedAt": "2026-08-17",
+          "summary": "Wiz a découvert une injection de workflow dans le dépôt public snowflake-connector-net de Snowflake. Le fichier .github/workflows/jira_issue.yml insérait directement le titre et le corps d'issues publiques dans des commandes shell, sans assainissement. Le contrôle de permissions censé l'empêcher s'appuyait sur une propriété de pull request inexistante, qui s'évaluait à une chaîne vide et laissait passer n'importe quel émetteur. Les chercheurs ont exécuté des commandes et récupéré le jeton JIRA_API_TOKEN du compte qa@snowflake.net, offrant un accès en lecture aux projets d'ingénierie, de conformité et de chasse aux bogues. Le code vulnérable avait été fusionné le 18 juin, le signalement HackerOne date du 23 juin, corrigé le jour même, jeton pivoté le lendemain."
+        },
+        {
+          "category": "IT",
+          "title": "Amazon Bedrock ouvre l'inférence interrégionale aux modèles OpenAI et accueille GPT-5.6",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-cross-region-openai-v2/",
+          "publishedAt": "2026-08-17",
+          "summary": "AWS élargit la prise en charge des modèles OpenAI dans Amazon Bedrock : les modèles GPT-5.6 (Sol, Terra et Luna) sont désormais accessibles via le point de terminaison bedrock-runtime et les API Responses, Converse et Chat Completions. Surtout, Bedrock introduit l'inférence interrégionale pour ces modèles, avec deux modes. Le mode global route les requêtes depuis n'importe quelle région commerciale où le modèle est disponible, pour le débit le plus élevé et le prix au jeton le plus bas. Le mode géographique restreint le traitement à des zones prédéfinies, dont une nouvelle géographie États-Unis, afin de respecter les exigences de résidence des données. L'observabilité s'appuie sur la journalisation des invocations, CloudWatch et Cost Explorer."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Natation : Léon Marchand a décroché à Saint-Denis le titre européen du 400 m nage libre pour sa première finale internationale sur la distance, en 3'43\"14, nouveau record de France.",
+          "publishedAt": "2026-08-16"
+        },
+        {
+          "headline": "Athlétisme : Armand Duplantis a conclu les Championnats d'Europe de Birmingham par un quatrième titre consécutif à la perche, avec 6,15 m et un nouveau record des championnats.",
+          "publishedAt": "2026-08-16"
+        },
+        {
+          "headline": "Football : Lens a créé la surprise en battant le Paris Saint-Germain 1-0 pour s'adjuger le Trophée des champions.",
+          "publishedAt": "2026-08-16"
+        }
+      ]
+    }
+  ]
+}
