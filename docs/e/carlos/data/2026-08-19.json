@@ -1,0 +1,23 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-19",
+  "generatedAt": "2026-08-19T03:09:08.683Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 32,
+          "low": 21,
+          "condition": "Partiellement nuageux",
+          "weathercode": 2,
+          "precipProbability": 18
+        }
+      ]
+    }
+  ]
+}
