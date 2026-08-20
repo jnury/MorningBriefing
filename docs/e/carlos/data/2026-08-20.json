@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-20",
+  "generatedAt": "2026-08-20T12:36:11.012Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 28,
+          "low": 20,
+          "condition": "Orage",
+          "weathercode": 96,
+          "precipProbability": 80
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Ursula von der Leyen et António Costa affirment se tenir « fermement » aux côtés de la Cour pénale internationale après les nouvelles sanctions américaines visant sa présidente Tomoko Akane et un avocat du bureau du procureur.",
+          "publishedAt": "2026-08-19"
+        },
+        {
+          "headline": "Moderna et Merck annoncent le premier succès en phase 3 d'un vaccin thérapeutique à ARN messager personnalisé, qui réduit significativement les récidives de mélanome opéré chez 1137 patients.",
+          "publishedAt": "2026-08-19"
+        },
+        {
+          "headline": "Donald Trump et Mark Carney annoncent un accord commercial « très équitable » entre Washington et Ottawa, suspendant la hausse des droits de douane à 50% et ramenant à 25% ceux sur l'acier et l'aluminium canadiens.",
+          "publishedAt": "2026-08-19"
+        },
+        {
+          "headline": "La société pékinoise LandSpace réussit l'atterrissage du premier étage de sa fusée Zhuque-3, une première pour un lanceur orbital chinois et pour un acteur privé du pays.",
+          "publishedAt": "2026-08-19"
+        },
+        {
+          "headline": "En barrages aller de la Ligue des champions, le Celtic Glasgow s'impose 3-0 face au LASK et Bodø/Glimt l'emporte 3-1 à Nimègue.",
+          "publishedAt": "2026-08-19"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "La CISA ajoute quatre failles critiques activement exploitées : macOS, SharePoint, vCenter et Windows IKE",
+          "url": "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
+          "publishedAt": "2026-08-19",
+          "summary": "La CISA a inscrit quatre vulnérabilités critiques à son catalogue des failles activement exploitées : CVE-2026-65400 (macOS), CVE-2026-55040 (SharePoint), CVE-2026-59310 (VMware vCenter) et CVE-2026-33824 (service IKE de Windows), toutes notées 9.1 ou plus sur l'échelle CVSS. La faille macOS permet de contourner l'authentification du partage d'écran par le réseau ; celle de SharePoint de neutraliser une fonction de sécurité. Le traversal de chemin de vCenter, exploité par des acteurs soupçonnés d'être liés à la Chine, a servi à déployer des portes dérobées et des rançongiciels sur 361 adresses IP victimes dans 47 pays. Des campagnes de minage de cryptomonnaie ont aussi été observées. Les agences fédérales américaines devaient corriger leurs systèmes avant le 21 août."
+        },
+        {
+          "category": "IT",
+          "title": "Le rançongiciel Medusa a frappé plus de 500 organisations d'infrastructures critiques, alerte la CISA",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
+          "publishedAt": "2026-08-19",
+          "summary": "La CISA, le FBI et le département américain de la Santé ont publié un avis actualisé : le rançongiciel Medusa a compromis plus de 500 organisations d'infrastructures critiques aux États-Unis depuis juin 2021. Les secteurs touchés incluent la santé, la défense, l'industrie manufacturière, les services gouvernementaux et la finance, ainsi que l'éducation, le droit, l'assurance et la technologie. Le chiffre marque une nette progression par rapport à l'avis de mars 2025, qui recensait environ 300 victimes. Medusa opère en mode rançongiciel-as-a-service et recrute des courtiers en accès initial sur des forums criminels, avec des rétributions allant de 100 à un million de dollars. Les agences recommandent la correction des vulnérabilités, la segmentation réseau et le blocage des accès non fiables aux services distants."
+        },
+        {
+          "category": "IT",
+          "title": "Washington alerte sur des attaques assistées par IA contre les automates Siemens S7",
+          "url": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
+          "publishedAt": "2026-08-19",
+          "summary": "La NSA, la CISA, le FBI, le département de l'Énergie et l'agence de protection de l'environnement ont publié un avertissement conjoint : des attaquants utilisent des scripts générés par IA pour exploiter les automates programmables Siemens de la série S7. Ils s'appuient sur des services de scan d'internet pour repérer les équipements exposés, puis ciblent des vulnérabilités critiques, des logiciels obsolètes et des identifiants faibles. Des outils Python sur mesure, déguisés en logiciels de supervision légitimes, leur permettent d'accéder à la mémoire et aux données de configuration via le protocole S7comm. L'industrie, l'énergie, l'eau et la chimie sont les secteurs les plus exposés. Les agences conseillent d'inventorier les automates, d'appliquer les correctifs, de couper l'accès internet et de renforcer les contrôles d'accès."
+        },
+        {
+          "category": "IT",
+          "title": "Une faille RCE critique du service IKE de Windows désormais exploitée dans des attaques",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/",
+          "publishedAt": "2026-08-19",
+          "summary": "La vulnérabilité CVE-2026-33824, qui affecte les extensions du service Internet Key Exchange de Windows, est désormais exploitée dans la nature. Ce bug de double libération de mémoire touche toutes les versions supportées de Windows 10, Windows 11 et Windows Server. Un attaquant peut obtenir l'exécution de code à distance sans authentification, simplement en envoyant des paquets spécialement conçus vers les ports UDP 500 ou 4500. Microsoft avait corrigé la faille lors du Patch Tuesday d'avril 2026, mais de nombreux systèmes restent vulnérables. La CISA a confirmé l'exploitation active, ajouté la faille à son catalogue KEV et imposé aux agences fédérales un délai de trois jours. Les experts recommandent d'appliquer la mise à jour ou, à défaut, de bloquer le trafic entrant sur les ports concernés."
+        },
+        {
+          "category": "IT",
+          "title": "Comment T-Mobile a coupé un câble aux ciseaux pour chasser les pirates chinois de son réseau",
+          "url": "https://techcrunch.com/2026/08/19/t-mobile-chopped-a-cable-to-expel-chinese-hackers-from-its-network/",
+          "publishedAt": "2026-08-19",
+          "summary": "T-Mobile a repéré puis expulsé des pirates soutenus par le gouvernement chinois de son réseau en 2024, évitant la brèche majeure subie par d'autres opérateurs lors de la campagne Salt Typhoon. L'équipe de sécurité avait détecté une activité suspecte provenant d'un routeur compromis appartenant à un autre opérateur télécom. Après des mois d'enquête, le responsable sécurité Jeff Simon et trois collègues se sont rendus dans un centre de données voisin, ont sorti une paire de ciseaux et sectionné le câble reliant le système compromis au réseau. Cette action physique expéditive a empêché un vol massif de données clients et d'informations sur de hauts responsables gouvernementaux américains. Salt Typhoon a finalement touché des centaines d'entreprises, dont AT&T, Verizon, Charter et Windstream."
+        },
+        {
+          "category": "IT",
+          "title": "Les attaques par pulvérisation de mots de passe explosent de 155 fois en exploitant les trous du MFA",
+          "url": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
+          "publishedAt": "2026-08-19",
+          "summary": "Huntress Labs a mesuré une hausse de 155 fois des attaques par pulvérisation de mots de passe au premier semestre 2026, avec une campagne majeure visant l'interface Azure CLI de Microsoft. À la mi-juin, plus de 81 millions de tentatives de connexion ont abouti à 78 comptes compromis en deux semaines. La campagne baptisée LSHIY exploite ROPC, une méthode OAuth 2.1 obsolète qui transmet identifiant et mot de passe directement au point de terminaison de jeton, sans jamais déclencher d'invite MFA interactive. Sur 23 organisations touchées, huit n'avaient aucun MFA et les quinze autres avaient des politiques à portée limitée. Les attaquants recouraient à l'IPv6 et à des services BYOIP pour échapper aux blocages. Recommandations : MFA sans exception, désactivation de ROPC, accès Azure CLI restreint aux administrateurs."
+        },
+        {
+          "category": "IT",
+          "title": "La CISA donne trois jours aux agences fédérales pour corriger une RCE activement exploitée dans Ray",
+          "url": "https://www.theregister.com/security/2026/08/18/cisa-gives-feds-3-days-to-fix-actively-exploited-ray-rce-bug/5289007",
+          "publishedAt": "2026-08-18",
+          "summary": "La CISA impose aux agences fédérales américaines un délai exceptionnel de trois jours pour corriger la faille CVE-2025-62593 dans Ray, le framework open source de calcul distribué très utilisé pour les charges de travail Python et d'apprentissage automatique. Notée 9.4 sur l'échelle CVSS et divulguée en novembre 2025, elle permet une exécution de code à distance via le navigateur en s'appuyant sur des techniques de réattribution DNS. Le problème tient à l'absence historique d'authentification sur des points de terminaison critiques : il suffit qu'un développeur visite un site malveillant sous Firefox ou Safari. L'attaque peut même atteindre des instances Ray situées dans des réseaux d'entreprise privés. La version 2.52.0 corrige la faille ; le framework compte sept millions de téléchargements hebdomadaires."
+        },
+        {
+          "category": "IT",
+          "title": "Une attaque Spectre à distance sur Cloudflare Workers extrait un jeton JWT à 12 bits par seconde",
+          "url": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
+          "publishedAt": "2026-08-19",
+          "summary": "Des chercheurs ont dévoilé une attaque Spectre à distance visant Cloudflare Workers, capable d'extraire un jeton JSON Web Token depuis un Worker colocalisé à 12 bits par seconde, soit 360 fois plus vite qu'une démonstration comparable de 2021. L'attaque exploite les limites de l'isolation dynamique des processus (DyPrIs) de Cloudflare : attaquant et victime doivent occuper des isolats V8 distincts mais partager le même processus système. Cloudflare a déjà déployé des mesures d'atténuation, dont une version améliorée de DyPrIs, l'intégration du bac à sable V8 et des clés de protection mémoire appliquées par le matériel. L'entreprise affirme n'avoir relevé aucun indicateur d'exploitation active depuis trois ans et précise qu'aucune donnée client n'a été consultée lors de cette expérience contrôlée."
+        },
+        {
+          "category": "IT",
+          "title": "Le japonais Sakura Internet expose les données de 1,36 million de comptes",
+          "url": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/",
+          "publishedAt": "2026-08-19",
+          "summary": "Sakura Internet, hébergeur cloud et opérateur de centres de données japonais, a révélé un incident de sécurité pouvant toucher 1,36 million de comptes clients. Des pirates ont accédé le 9 août 2026 à son système de gestion commerciale, où sont stockés les contrats et les informations d'adhésion. La brèche a été découverte au cours de l'enquête sur un incident distinct visant Sakura Rental Server, qui avait impliqué des connexions non autorisées à 583 comptes. Selon l'entreprise, les mots de passe stockés sont hachés et devraient rester difficiles à déchiffrer, et le système compromis ne contenait aucune donnée de carte bancaire. Aucune exfiltration n'est confirmée à ce stade. Un porte-parole a précisé que l'incident n'était pas lié à un rançongiciel et n'avait donné lieu à aucune demande de rançon."
+        },
+        {
+          "category": "IT",
+          "title": "TerraPower mise sur le stockage thermique pour alimenter les centres de données d'IA",
+          "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
+          "publishedAt": "2026-08-19",
+          "summary": "TerraPower, la startup nucléaire fondée par Bill Gates, annoncera cette année son premier projet dédié à un centre de données, après un accord conclu en janvier avec Meta pour huit réacteurs Natrium. Son réacteur de 345 mégawatts refroidi aux sels fondus répond à un problème spécifique de l'IA : les variations brutales de puissance des charges GPU, qui peuvent mettre à mal les turbines classiques. L'atout tient au stockage thermique : plutôt que de moduler le réacteur, le système accumule la chaleur excédentaire dans du sodium fondu et la restitue pour produire de la vapeur supplémentaire lors des pics. L'équipement nucléaire, coûteux, reste ainsi à son rendement maximal. Les réacteurs affichent un facteur de charge de 92,5 %, mais s'accommodent mal des rampes rapides ; découpler chaleur et électricité lève ce verrou."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Énorme surprise au Masters 1000 de Cincinnati : la numéro 1 mondiale Aryna Sabalenka a été sortie en huitièmes par la Tchèque Sara Bejlek (20 ans, 35e), 7-6 (9/7) 6-4, pour la première victoire de sa carrière face à une joueuse du top 10.",
+          "publishedAt": "2026-08-19"
+        },
+        {
+          "headline": "Mondiaux d'équitation d'Aix-la-Chapelle : le Français Julien Epaillard a remporté l'épreuve de vitesse du saut d'obstacles devant 145 partants, Steve Guerdat sauvant l'honneur suisse avec un sans-faute et le 5e temps sur Dynamix alors que l'équipe de Suisse ne pointe qu'au 13e rang.",
+          "publishedAt": "2026-08-19"
+        },
+        {
+          "headline": "L'AS Monaco et Paul Pogba ont officialisé la résiliation anticipée du contrat du milieu français, un an après son retour de suspension pour dopage et seulement six matches de Ligue 1 disputés.",
+          "publishedAt": "2026-08-19"
+        }
+      ]
+    }
+  ]
+}
