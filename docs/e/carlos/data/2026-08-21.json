@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-21",
+  "generatedAt": "2026-08-21T08:35:54.465Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 21,
+          "low": 17,
+          "condition": "Orage",
+          "weathercode": 95,
+          "precipProbability": 100
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Des frappes de missiles balistiques russes ont fait 17 morts et plus de 40 blessés à Kiev et alentour, poussant le secrétaire général de l'ONU António Guterres à réclamer un cessez-le-feu immédiat.",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "headline": "Berne et Pékin ont bouclé les négociations sur un accord de libre-échange modernisé qui exonérera de droits de douane 99,8% des exportations suisses vers la Chine, avec pour la première fois des clauses sur le travail et l'environnement.",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "headline": "Dix jours après le séisme de magnitude 7,4 en Colombie, l'ONU a lancé un appel de 148,1 millions de dollars pour venir en aide à 1,2 million de personnes, certaines communautés restant difficiles d'accès.",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "headline": "L'Espagne a commencé à reloger les migrants installés sur la plage d'El Trampolín à Ceuta vers des abris temporaires d'une capacité initiale de 1800 places, appelés à être étendus.",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "headline": "La marine mexicaine a secouru 15 migrants cubains, dont quatre mineurs, à la dérive en mer depuis leur départ de Pinar del Río le 11 août.",
+          "publishedAt": "2026-08-21"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "La CISA alerte sur l'exploitation active d'une faille critique de MLflow",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
+          "publishedAt": "2026-08-20",
+          "summary": "La CISA a ajouté CVE-2026-64849 à son catalogue des vulnérabilités activement exploitées. Il s'agit d'une SSRF par DNS rebinding dans le système de webhooks de MLflow, la plateforme de suivi d'expériences ML utilisée par plus de 30 millions d'utilisateurs mensuels. Un attaquant non authentifié peut faire émettre au serveur des requêtes HTTP vers des points d'accès internes ou de loopback, et ainsi récupérer des identifiants cloud tels que des jetons IAM d'AWS. La version 3.15.0 corrige le défaut. Selon watchTowr, le balayage d'instances exposées a démarré quelques heures après l'attribution du CVE, et l'exploitation est désormais automatisée. Les agences fédérales américaines ont deux semaines pour corriger, au titre de la directive BOD 26-04."
+        },
+        {
+          "category": "IT",
+          "title": "Windows : une RCE critique dans le service IKE désormais exploitée",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/",
+          "publishedAt": "2026-08-19",
+          "summary": "CVE-2026-33824, une vulnérabilité de type double-free dans les extensions du service Internet Key Exchange de Windows, est activement exploitée. Un attaquant non authentifié peut obtenir l'exécution de code à distance en envoyant des paquets spécialement forgés sur les ports UDP 500 ou 4500. Toutes les versions supportées de Windows 10, Windows 11 et Windows Server sont concernées, ce qui donne à la faille une surface d'exposition considérable, notamment sur les passerelles VPN IPsec exposées à Internet. La CISA a inscrit le défaut à son catalogue et ordonné aux agences fédérales de corriger sous trois jours au titre de la directive BOD 26-04. À défaut de correctif immédiat, Microsoft recommande de bloquer le trafic UDP entrant sur 500 et 4500, ou de le restreindre aux pairs connus."
+        },
+        {
+          "category": "IT",
+          "title": "Citrix corrige un contournement d'authentification critique sur NetScaler",
+          "url": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
+          "publishedAt": "2026-08-20",
+          "summary": "Citrix a publié des correctifs pour deux failles NetScaler ADC et Gateway. La plus grave, CVE-2026-19490 (CVSS 9,3), permet un contournement d'authentification sur les serveurs virtuels Gateway et AAA configurés avec des actions SAML. La seconde, CVE-2026-19489 (CVSS 8,8), est un dépassement mémoire qui suppose l'activation de SIP ALG sur un groupe LSN. Les branches 14.1 antérieures à 14.1-73.32 et 13.1 antérieures à 13.1-63.21 sont vulnérables, y compris certaines déclinaisons FIPS. Une atténuation par listes de refus globales est disponible depuis la console NetScaler. Les failles ont été signalées par Samarth Vashisht, de l'équipe de tests d'intrusion de JPMorgan Chase. Aucune exploitation n'est encore observée, mais les vulnérabilités Citrix récentes ont été armées en quelques jours."
+        },
+        {
+          "category": "IT",
+          "title": "Zimbra : une injection de commandes via SNMP exploitée pour du RCE non authentifié",
+          "url": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
+          "publishedAt": "2026-08-20",
+          "summary": "CVE-2026-73570, une injection de commandes notée 8,9 sur l'échelle CVSS, touche Zimbra Collaboration dans toutes les versions antérieures à 10.1.20. Un attaquant non authentifié peut envoyer des requêtes SMTP forgées et obtenir l'exécution de commandes système arbitraires sur le serveur de messagerie. Zimbra a publié le correctif le mois dernier, mais l'exploitation se poursuit dans la nature sur les instances non mises à jour. Le CERT polonais recommande de surveiller /var/log/zimbra.log et d'inspecter plusieurs répertoires sensibles à la recherche d'activité suspecte sur les trente derniers jours. Le contexte est chargé : une faille Zimbra antérieure, CVE-2025-66376, avait déjà été instrumentalisée depuis juillet 2025 par le groupe Laundry Bear, lié à la Russie, contre des serveurs gouvernementaux et commerciaux."
+        },
+        {
+          "category": "IT",
+          "title": "Attaque sur la chaîne logistique Rust : des crates piégées à 245 millions de téléchargements",
+          "url": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+          "publishedAt": "2026-08-20",
+          "summary": "Trois versions malveillantes de crates Rust ont été publiées depuis un compte de mainteneur compromis : arrayref 0.3.10, internment 0.8.7 et append-only-vec 0.1.9. Elles ont été retirées entre 86 et 107 minutes après leur mise en ligne. Le vecteur reposait sur une dépendance typosquattée, proc-macro1, imitant la légitime proc-macro2 et embarquant un script de build qui télécharge puis exécute une charge distante au moment de la compilation — donc avant même toute exécution du programme. Arrayref cumule à elle seule 245 millions de téléchargements. Aucun identifiant CVE n'a été attribué et aucune exploitation confirmée n'est rapportée. Les chercheurs relèvent des recoupements d'infrastructure avec des campagnes nord-coréennes visant les écosystèmes de paquets, sans attribution formelle."
+        },
+        {
+          "category": "IT",
+          "title": "« CDN Tsunami » : un facteur d'amplification de 350 via la traduction HTTP/3",
+          "url": "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html",
+          "publishedAt": "2026-08-20",
+          "summary": "Des chercheurs ont dévoilé deux attaques par déni de service exploitant la manière dont les réseaux de diffusion de contenu traduisent le trafic HTTP/3 en HTTP/1.1 vers les serveurs d'origine, avec un facteur d'amplification allant jusqu'à 350. Le mécanisme tient à la compression d'en-têtes QPACK : HTTP/1.1 ne disposant pas d'équivalent, le CDN doit réexpandre de petites valeurs indexées en en-têtes complets. Les six principaux CDN testés se sont révélés vulnérables — Alibaba, Baidu, Cloudflare, Amazon CloudFront, Fastly et Tencent — dont cinq à la variante par connexion. Les chercheurs ont recensé 42 330 sous-domaines potentiellement exposés. Tencent et Baidu ont déployé des correctifs. Les six mesures d'atténuation proposées relèvent du CDN, non du serveur d'origine."
+        },
+        {
+          "category": "IT",
+          "title": "L'hébergeur japonais Sakura Internet expose jusqu'à 1,36 million de comptes",
+          "url": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/",
+          "publishedAt": "2026-08-19",
+          "summary": "Sakura Internet, l'un des principaux fournisseurs japonais de cloud et de centres de données, a révélé qu'un accès non autorisé à son système de gestion commerciale le 9 août 2026 avait potentiellement exposé les informations de contrat et d'adhésion de jusqu'à 1,36 million de comptes clients. L'entreprise est un acteur sensible : elle figure parmi les fournisseurs nationaux retenus pour le programme Government Cloud du Japon. Elle indique que les mots de passe stockés sont hachés et difficilement exploitables, et que le système concerné ne contient pas de données de carte bancaire. L'intrusion a été découverte lors de l'enquête sur une compromission distincte du service Sakura Rental Server, avec 583 connexions frauduleuses. Aucun rançongiciel ni demande de rançon n'est en cause, malgré la présence de maliciels supprimés depuis."
+        },
+        {
+          "category": "IT",
+          "title": "Washington accuse des pirates d'attaquer les réseaux d'eau à l'aide de l'IA",
+          "url": "https://techcrunch.com/2026/08/20/us-says-hackers-are-targeting-vulnerable-water-systems-with-the-help-of-ai/",
+          "publishedAt": "2026-08-20",
+          "summary": "La CISA, le FBI et la NSA alertent conjointement sur une campagne visant les automates programmables Siemens S7 déployés dans les réseaux d'eau, l'énergie, l'industrie et l'agriculture aux États-Unis. Fait notable : les attaquants s'appuient sur l'IA générative pour produire des scripts d'exploitation à partir d'informations publiquement disponibles, ce qui abaisse fortement le coût d'entrée pour cibler des équipements tournant sur des versions obsolètes. La campagne est attribuée à des acteurs présumés iraniens, déjà connus pour avoir visé des fournisseurs d'eau et d'énergie américains. Des intrusions confirmées ont touché des installations dans le Minnesota, le Michigan, l'Arkansas, la Géorgie et le New Jersey. Les collectivités rurales restent les plus exposées, faute d'isolation de leurs automates vis-à-vis d'Internet."
+        },
+        {
+          "category": "IT",
+          "title": "Medusa : plus de 500 organisations d'infrastructures critiques touchées",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
+          "publishedAt": "2026-08-19",
+          "summary": "La CISA, le ministère américain de la Santé et le FBI confirment que le rançongiciel Medusa a compromis plus de 500 organisations d'infrastructures critiques aux États-Unis depuis juin 2021. Les victimes couvrent la santé, l'industrie de défense, les services publics, l'informatique et la finance, ainsi que les secteurs médical, éducatif, juridique et assurantiel. Actif depuis janvier 2021, Medusa a évolué d'une variante fermée vers un modèle de rançongiciel-comme-service rémunérant ses affiliés entre 100 dollars et un million de dollars pour un accès initial. Le groupe recrute des courtiers d'accès sur les forums criminels. Les agences recommandent de corriger les vulnérabilités exposées, de segmenter les réseaux pour limiter les déplacements latéraux et de bloquer l'accès non fiable aux services internes distants."
+        },
+        {
+          "category": "IT",
+          "title": "Une faille d'isolated-vm permet de s'échapper du bac à sable JavaScript",
+          "url": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
+          "publishedAt": "2026-08-20",
+          "summary": "Une confusion de type dans la gestion de la transferList d'ExternalCopy permet à du code exécuté dans le bac à sable d'isolated-vm de corrompre la mémoire du processus hôte. Selon les cas, l'exploitation provoque un déni de service par plantage ou un détournement du flux de contrôle du processus hôte, pouvant mener à l'exécution de code à distance. Toutes les versions jusqu'à la 7.0.0 incluse sont vulnérables ; les correctifs figurent dans les versions 6.2.0 et 7.0.1 publiées début août. Le défaut est suivi sous GHSA-864f-rcv7-6rh4 et n'a pas encore reçu d'identifiant CVE. Il a été découvert par Cristian-Alexandru Staicu, d'Endor Labs. L'enjeu est important : cette bibliothèque Node.js totalise environ un million de téléchargements npm hebdomadaires et sert précisément à exécuter du code non fiable."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Armand Duplantis a remporté le City Event d'Athletissima à Ouchy en franchissant 6m21, nouveau record du meeting, devant le Grec Emmanouil Karalis (6m16), avant d'échouer deux fois à 6m32.",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "headline": "Julian Alaphilippe, 34 ans et double champion du monde sur route, met un terme à sa carrière avec effet immédiat, renonçant à l'année de contrat qui lui restait chez Tudor.",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "headline": "Max Verstappen a prolongé son contrat avec Red Bull jusqu'en 2030, mettant fin aux rumeurs de départ vers Mercedes ou McLaren.",
+          "publishedAt": "2026-08-20"
+        }
+      ]
+    }
+  ]
+}

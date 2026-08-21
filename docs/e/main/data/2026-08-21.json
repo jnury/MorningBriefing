@@ -1,0 +1,247 @@
+{
+  "edition": "main",
+  "title": "Briefing du matin",
+  "date": "2026-08-21",
+  "generatedAt": "2026-08-21T08:36:42.813Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Genève",
+          "high": 23,
+          "low": 16,
+          "condition": "Orage",
+          "weathercode": 95,
+          "precipProbability": 100
+        },
+        {
+          "name": "Lausanne",
+          "high": 21,
+          "low": 16,
+          "condition": "Orage",
+          "weathercode": 95,
+          "precipProbability": 100
+        }
+      ]
+    },
+    {
+      "topic": "swiss",
+      "label": "La Suisse en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Stadler Rail a décroché une commande de 117 millions de francs auprès des Transports publics fribourgeois pour treize rames Flirt Evo, livrables dès décembre 2028.",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "headline": "Berne et Pékin ont bouclé la modernisation de leur accord de libre-échange : à terme, 99,8 % des exportations suisses entreront en Chine sans droits de douane.",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "headline": "Le commerce extérieur suisse a rebondi en juillet avec des exportations en hausse de 13,8 % à 27,79 milliards de francs, portées par la pharma (+25,7 %), et un excédent commercial doublé à 8,14 milliards.",
+          "publishedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Berne et Pékin ont bouclé les négociations sur un accord de libre-échange modernisé qui exonérera de droits de douane 99,8% des exportations suisses vers la Chine, avec pour la première fois des clauses sur le travail et l'environnement.",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "headline": "Plus de 300 entreprises ont présenté leurs robots humanoïdes et industriels à la Conférence mondiale de la robotique de Pékin, l'industrie chinoise misant désormais sur l'Europe, le Moyen-Orient et l'Asie du Sud-Est.",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "headline": "La République démocratique du Congo va recevoir 70'000 doses de vaccin Ervebo pour protéger les soignants et les communautés en première ligne face à l'épidémie d'Ebola de souche Bundibugyo.",
+          "publishedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "topic": "markets",
+      "label": "Marchés",
+      "kind": "dataset",
+      "asOf": "clôture du 20 août 2026",
+      "summary": "Séance de repli généralisé jeudi, Wall Street lâchant le plus de terrain sous l'effet du rebond des rendements obligataires, de la remontée du pétrole et de la chute de Walmart, tandis que l'Europe limite la casse et que le SMI résiste grâce à l'accord de libre-échange sino-suisse.",
+      "indices": [
+        {
+          "name": "Nasdaq",
+          "changePct": -1
+        },
+        {
+          "name": "Dow Jones",
+          "changePct": -1.32
+        },
+        {
+          "name": "SMI",
+          "changePct": -0.13
+        },
+        {
+          "name": "Euro Stoxx 50",
+          "changePct": -0.35
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "AI",
+          "title": "Stripe rachète OpenRouter, le « Stripe des LLM »",
+          "url": "https://thenewstack.io/stripe-acquires-openrouter-tokens/",
+          "publishedAt": "2026-08-20",
+          "summary": "Stripe a acquis OpenRouter, la place de marché qui agrège des centaines de modèles de langage derrière une seule API et que ses fondateurs présentaient eux-mêmes comme « le Stripe des LLM ». Le comparant est donc devenu l'acquéreur. L'opération illustre la consolidation accélérée de la couche d'infrastructure de l'IA : le routage entre modèles, la facturation à l'usage et la mesure des tokens deviennent des actifs stratégiques, au même titre que le paiement en ligne l'a été pour le commerce. Pour Stripe, c'est une extension au-delà des transactions vers la monétisation de l'inférence. Pour les équipes techniques, la question devient celle de la neutralité future d'un routeur multi-modèles désormais adossé à un géant du paiement. Les conditions financières n'ont pas été détaillées."
+        },
+        {
+          "category": "IT",
+          "title": "La CISA alerte sur l'exploitation active d'une faille critique de MLflow",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
+          "publishedAt": "2026-08-20",
+          "summary": "La CISA a ajouté CVE-2026-64849 à son catalogue des vulnérabilités activement exploitées. Il s'agit d'une SSRF par DNS rebinding dans le système de webhooks de MLflow, la plateforme de suivi d'expériences ML utilisée par plus de 30 millions d'utilisateurs mensuels. Un attaquant non authentifié peut faire émettre au serveur des requêtes HTTP vers des points d'accès internes ou de loopback, et ainsi récupérer des identifiants cloud tels que des jetons IAM d'AWS. La version 3.15.0 corrige le défaut. Selon watchTowr, le balayage d'instances exposées a démarré quelques heures après l'attribution du CVE, et l'exploitation est désormais automatisée. Les agences fédérales américaines ont deux semaines pour corriger, au titre de la directive BOD 26-04."
+        },
+        {
+          "category": "IT",
+          "title": "Windows : une RCE critique dans le service IKE désormais exploitée",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/",
+          "publishedAt": "2026-08-19",
+          "summary": "CVE-2026-33824, une vulnérabilité de type double-free dans les extensions du service Internet Key Exchange de Windows, est activement exploitée. Un attaquant non authentifié peut obtenir l'exécution de code à distance en envoyant des paquets spécialement forgés sur les ports UDP 500 ou 4500. Toutes les versions supportées de Windows 10, Windows 11 et Windows Server sont concernées, ce qui donne à la faille une surface d'exposition considérable, notamment sur les passerelles VPN IPsec exposées à Internet. La CISA a inscrit le défaut à son catalogue et ordonné aux agences fédérales de corriger sous trois jours au titre de la directive BOD 26-04. À défaut de correctif immédiat, Microsoft recommande de bloquer le trafic UDP entrant sur 500 et 4500, ou de le restreindre aux pairs connus."
+        },
+        {
+          "category": "IT",
+          "title": "Des failles dans l'outil AIT-GUI de la NASA permettraient d'envoyer des commandes à des engins spatiaux",
+          "url": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
+          "publishedAt": "2026-08-20",
+          "summary": "Les chercheurs de Cycode ont divulgué une chaîne de vulnérabilités dans AIT-GUI, composant de l'AMMOS Instrument Toolkit développé par la NASA et le JPL. Elle permet à un attaquant non authentifié d'émettre des commandes arbitraires sur le bus de commande des engins spatiaux et instruments. La chaîne principale (GHSA-p9r8-2q67-fp86) est notée 9,4 en CVSS v3.1 ; un défaut d'authentification associé a reçu l'identifiant CVE-2026-60112 (9,3 en CVSS v4). En cause : un serveur qui écoute par défaut sur toutes les interfaces (0.0.0.0:8080) et délivre des cookies de session sans exiger d'identifiants, ce qui permet ensuite d'envoyer des requêtes POST non authentifiées. Trois catégories de faiblesses sont identifiées : authentification manquante, CSRF et traversée de répertoires. La version 2.5.2, publiée le 12 août, ne corrige que partiellement le problème."
+        },
+        {
+          "category": "AI",
+          "title": "OpenAI regagne du terrain sur Anthropic auprès des entreprises",
+          "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+          "publishedAt": "2026-08-20",
+          "summary": "Les données de Ramp, qui suit les dépenses de plus de 70 000 entreprises américaines, montrent qu'Anthropic conservait en juillet 2026 près de 44 % du marché professionnel contre presque 40 % pour OpenAI — mais qu'OpenAI croît désormais plus vite au troisième trimestre. Le rapport de force bascule au rythme des sorties de modèles : GPT-5.6 Sol séduit fortement les développeurs, tandis que Fable 5 d'Anthropic a déçu, en raison de son tarif et d'exigences de rétention de données imposées par la réglementation. L'enseignement principal n'est pas tant le classement que la volatilité : les entreprises changent de fournisseur sans état d'âme. Le marché s'élargit par ailleurs, la part de clients Ramp payant pour des services d'IA atteignant près de 56 %."
+        },
+        {
+          "category": "AI",
+          "title": "ChatGPT peut désormais rédiger et envoyer vos SMS via un connecteur Apple Messages",
+          "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+          "publishedAt": "2026-08-20",
+          "summary": "OpenAI a publié un connecteur Apple Messages permettant de relier sa messagerie à ChatGPT. L'assistant peut alors trier, analyser et modifier les messages, rédiger des brouillons, suggérer des réponses, effectuer des recherches dans l'historique, supprimer des échanges et envoyer des textos à la place de l'utilisateur. Le connecteur fonctionne avec les versions personnelles comme professionnelles, y compris Codex et ChatGPT Work. OpenAI affirme que le traitement s'effectue localement sur l'appareil et que l'ensemble des messages n'est pas indexé, sans détailler la mécanique technique. L'entreprise déconseille explicitement d'activer l'approbation permanente pour l'envoi : cela supprimerait la dernière occasion de relire un message avant que ChatGPT ne l'expédie en votre nom."
+        },
+        {
+          "category": "IT",
+          "title": "Washington accuse des pirates d'attaquer les réseaux d'eau à l'aide de l'IA",
+          "url": "https://techcrunch.com/2026/08/20/us-says-hackers-are-targeting-vulnerable-water-systems-with-the-help-of-ai/",
+          "publishedAt": "2026-08-20",
+          "summary": "La CISA, le FBI et la NSA alertent conjointement sur une campagne visant les automates programmables Siemens S7 déployés dans les réseaux d'eau, l'énergie, l'industrie et l'agriculture aux États-Unis. Fait notable : les attaquants s'appuient sur l'IA générative pour produire des scripts d'exploitation à partir d'informations publiquement disponibles, ce qui abaisse fortement le coût d'entrée pour cibler des équipements tournant sur des versions obsolètes. La campagne est attribuée à des acteurs présumés iraniens, déjà connus pour avoir visé des fournisseurs d'eau et d'énergie américains. Des intrusions confirmées ont touché des installations dans le Minnesota, le Michigan, l'Arkansas, la Géorgie et le New Jersey. Les collectivités rurales restent les plus exposées, faute d'isolation de leurs automates vis-à-vis d'Internet."
+        },
+        {
+          "category": "IT",
+          "title": "Zimbra : une injection de commandes via SNMP exploitée pour du RCE non authentifié",
+          "url": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
+          "publishedAt": "2026-08-20",
+          "summary": "CVE-2026-73570, une injection de commandes notée 8,9 sur l'échelle CVSS, touche Zimbra Collaboration dans toutes les versions antérieures à 10.1.20. Un attaquant non authentifié peut envoyer des requêtes SMTP forgées et obtenir l'exécution de commandes système arbitraires sur le serveur de messagerie. Zimbra a publié le correctif le mois dernier, mais l'exploitation se poursuit dans la nature sur les instances non mises à jour. Le CERT polonais recommande de surveiller /var/log/zimbra.log et d'inspecter plusieurs répertoires sensibles à la recherche d'activité suspecte sur les trente derniers jours. Le contexte est chargé : une faille Zimbra antérieure, CVE-2025-66376, avait déjà été instrumentalisée depuis juillet 2025 par le groupe Laundry Bear, lié à la Russie, contre des serveurs gouvernementaux et commerciaux."
+        },
+        {
+          "category": "IT",
+          "title": "Citrix corrige un contournement d'authentification critique sur NetScaler",
+          "url": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
+          "publishedAt": "2026-08-20",
+          "summary": "Citrix a publié des correctifs pour deux failles NetScaler ADC et Gateway. La plus grave, CVE-2026-19490 (CVSS 9,3), permet un contournement d'authentification sur les serveurs virtuels Gateway et AAA configurés avec des actions SAML. La seconde, CVE-2026-19489 (CVSS 8,8), est un dépassement mémoire qui suppose l'activation de SIP ALG sur un groupe LSN. Les branches 14.1 antérieures à 14.1-73.32 et 13.1 antérieures à 13.1-63.21 sont vulnérables, y compris certaines déclinaisons FIPS. Une atténuation par listes de refus globales est disponible depuis la console NetScaler. Les failles ont été signalées par Samarth Vashisht, de l'équipe de tests d'intrusion de JPMorgan Chase. Aucune exploitation n'est encore observée, mais les vulnérabilités Citrix récentes ont été armées en quelques jours."
+        },
+        {
+          "category": "AI",
+          "title": "Un tiers des pages web publiées depuis ChatGPT portent la marque d'une IA",
+          "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+          "publishedAt": "2026-08-20",
+          "summary": "Selon une étude du Pew Research Center, 35 % des pages web publiées après le lancement de ChatGPT en novembre 2022 présentent des signes marqués d'écriture par IA. Les chercheurs ont analysé près de 500 000 pages en anglais issues des archives Common Crawl à l'aide de la technologie de détection d'Open Pangram. Les écarts entre domaines sont spectaculaires : les sites commerciaux en .com affichent un taux environ dix fois supérieur à celui des domaines .edu ou .gov, qui restent autour de 1 %. Les auteurs reconnaissent les limites de la détection automatique, susceptible de classer à tort des textes humains, mais l'échelle de l'échantillon rend la tendance crédible. À rapprocher du constat de Cloudflare : le trafic de robots dépasse désormais le trafic humain."
+        },
+        {
+          "category": "AI",
+          "title": "OpenAI ralentit l'entraînement de ses modèles, l'explication laisse sceptique",
+          "url": "https://thenewstack.io/openai-training-pause-cybersecurity/",
+          "publishedAt": "2026-08-19",
+          "summary": "OpenAI a ralenti l'entraînement de ses modèles, invoquant des motifs que tout le monde n'accepte pas au premier degré. L'article évoque « les premières étapes du délitement d'OpenAI », formulation volontairement provocatrice qui traduit une inquiétude réelle du secteur quant à la trajectoire du laboratoire. Les explications avancées touchent notamment aux considérations de cybersécurité liées aux capacités croissantes des modèles, mais plusieurs observateurs y voient plutôt des contraintes de calcul, de coûts ou de rendement décroissant des lois d'échelle. Le sujet mérite d'être suivi : un ralentissement durable chez le principal fournisseur de modèles de pointe aurait des répercussions immédiates sur les feuilles de route produit de milliers d'entreprises qui construisent sur son API."
+        },
+        {
+          "category": "Science",
+          "title": "Du diamant comprimé au-delà des pressions de Neptune règle un désaccord vieux de vingt ans",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260820002424.htm",
+          "publishedAt": "2026-08-20",
+          "summary": "En recourant à une compression pilotée par laser, des physiciens ont mesuré la température de fusion du diamant à des pressions supérieures à celles régnant dans l'intérieur de Neptune, obtenant enfin un accord avec les prédictions théoriques après vingt ans de divergence expérimentale. Les expériences confirment que le diamant flotterait dans le carbone liquide à haute pression, comme la glace sur l'eau, ce qui résout une observation antérieure déroutante. Elles montrent aussi que le diamant conserve sa structure cristalline jusqu'à la fusion, sans passer par une phase intermédiaire lors de la compression par choc. Les retombées sont doubles : de meilleurs modèles d'intérieur pour Uranus et Neptune, y compris la question des « pluies de diamant », et, côté fusion inertielle, la perspective de tripler le rendement énergétique."
+        },
+        {
+          "category": "Science",
+          "title": "Des paléoanthropologues proposent de réécrire l'arbre généalogique humain",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260820002413.htm",
+          "publishedAt": "2026-08-20",
+          "summary": "Des chercheurs de l'université Monash proposent de reclasser les genres Australopithecus et Paranthropus au sein du genre Homo, au motif que la nomenclature actuelle ne reflète plus les relations évolutives réelles. Les découvertes fossiles récentes ont brouillé nombre des traits qui servaient à séparer ces groupes : cerveau volumineux, usage avancé d'outils et autres caractères jadis considérés comme distinctifs se retrouvent chez des lignées qu'on croyait distinctes. Le registre fossile des quatre à cinq derniers millions d'années dessine une histoire non linéaire, faite de branches parallèles plutôt que d'une succession ordonnée. Élargir Homo offrirait, selon les auteurs, une représentation plus exacte et plus stable, limitant les reclassements à répétition à chaque nouvelle découverte. La proposition promet des débats nourris."
+        },
+        {
+          "category": "AI",
+          "title": "Le Nevada autorise Tesla, Uber et Waymo à déployer des milliers de robotaxis",
+          "url": "https://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada/",
+          "publishedAt": "2026-08-20",
+          "summary": "L'autorité des transports du Nevada a approuvé à l'unanimité trois autorisations permettant à Tesla, Uber et Waymo d'exploiter des services commerciaux de robotaxis dans le comté de Clark, qui englobe Las Vegas. Le total autorisé atteint 8 000 véhicules sur douze mois : 5 000 pour Tesla, 1 000 pour Waymo et 1 000 pour Uber via ses partenariats avec Motional et Zoox. L'ingénieur en chef de Tesla tempère : les 5 000 constituent un plafond, l'objectif réaliste étant de 2 500 véhicules la première année, pour des raisons opérationnelles plutôt que technologiques. Las Vegas devient ainsi le principal terrain d'affrontement du secteur. Les exploitants locaux de taxis et de voitures de location avec chauffeur se sont opposés aux permis, redoutant saturation et congestion."
+        },
+        {
+          "category": "IT",
+          "title": "Attaque sur la chaîne logistique Rust : des crates piégées à 245 millions de téléchargements",
+          "url": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+          "publishedAt": "2026-08-20",
+          "summary": "Trois versions malveillantes de crates Rust ont été publiées depuis un compte de mainteneur compromis : arrayref 0.3.10, internment 0.8.7 et append-only-vec 0.1.9. Elles ont été retirées entre 86 et 107 minutes après leur mise en ligne. Le vecteur reposait sur une dépendance typosquattée, proc-macro1, imitant la légitime proc-macro2 et embarquant un script de build qui télécharge puis exécute une charge distante au moment de la compilation — donc avant même toute exécution du programme. Arrayref cumule à elle seule 245 millions de téléchargements. Aucun identifiant CVE n'a été attribué et aucune exploitation confirmée n'est rapportée. Les chercheurs relèvent des recoupements d'infrastructure avec des campagnes nord-coréennes visant les écosystèmes de paquets, sans attribution formelle."
+        },
+        {
+          "category": "Science",
+          "title": "Le « château d'eau de l'Asie » perd 24 milliards de tonnes d'eau souterraine par an",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260820002454.htm",
+          "publishedAt": "2026-08-20",
+          "summary": "La Haute Asie montagneuse perd environ 24,2 milliards de tonnes d'eau souterraine par an, un déficit qui pèse sur la sécurité hydrique d'une douzaine de pays situés en aval. Les changements climatiques, en particulier ceux affectant la cryosphère, expliquent environ la moitié de la variabilité observée ; les prélèvements humains pour l'irrigation ont pris une importance croissante, surtout après 2010. Les pertes les plus lourdes se concentrent dans les bassins densément peuplés du Gange-Brahmapoutre, de l'Indus et de l'Amou-Daria. Une fonte glaciaire accrue vers les années 2060 pourrait ralentir temporairement le déclin, mais cet effet tampon n'est pas soutenable et sera suivi d'une accélération. L'étude combine données satellitaires et modèles assistés par IA pour reconstituer vingt ans d'évolution."
+        },
+        {
+          "category": "AI",
+          "title": "Google donne aux éditeurs un nouvel outil contre la perte de trafic due à l'IA",
+          "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+          "publishedAt": "2026-08-20",
+          "summary": "Google a lancé un bouton « Sources préférées » intégrable directement sur les sites des éditeurs, permettant aux lecteurs de désigner leurs médias favoris pour Search, Discover et Google News sans passer par les paramètres du moteur. L'objectif affiché est de compenser l'érosion du trafic provoquée par les réponses générées par IA : selon Google, les internautes sont deux fois plus susceptibles de cliquer vers une source lorsqu'elle est marquée comme préférée. Depuis le déploiement de la fonction en mai, plus de 345 000 sources distinctes ont été sélectionnées. Google ajoute par ailleurs la personnalisation du flux Discover en langage naturel et des préférences de synthèses audio sur Android. La mesure ne répond que partiellement aux griefs des éditeurs sur le résumé automatique de leurs contenus."
+        },
+        {
+          "category": "Science",
+          "title": "Inertia Enterprises accélère radicalement la fabrication de son combustible de fusion",
+          "url": "https://techcrunch.com/2026/08/20/inertia-enterprises-finds-a-way-to-make-its-fusion-fuel-fast/",
+          "publishedAt": "2026-08-20",
+          "summary": "La start-up Inertia Enterprises a ramené la fabrication d'une cible de combustible de fusion de plusieurs jours, durée constatée au National Ignition Facility, à deux ou trois heures, la croissance du cristal passant d'une semaine à une trentaine de minutes. C'est l'un des dix verrous majeurs à lever pour envisager une centrale commerciale ; l'entreprise a levé 450 millions de dollars. Elle a recruté des spécialistes de la production issus notamment d'Apple pour industrialiser des procédés de laboratoire. L'accélération réduit les stocks de tritium nécessaires, un point critique puisque ce combustible radioactif coûte environ 30 000 dollars le gramme et n'existe qu'à hauteur de 25 kilos dans le monde. Son laser, quatre fois plus puissant que celui du NIF, tolère en outre davantage d'imperfections sur les cibles."
+        },
+        {
+          "category": "Science",
+          "title": "Plus de mille interrupteurs génétiques expliquent la singularité de l'immunité féminine",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260819041239.htm",
+          "publishedAt": "2026-08-20",
+          "summary": "Des chercheurs ont identifié plus de mille interrupteurs génétiques dont le fonctionnement diffère entre cellules immunitaires masculines et féminines. Chez les femmes, l'activité génétique associée aux voies inflammatoires est supérieure, ce qui offre une meilleure défense antivirale mais accroît la susceptibilité aux maladies auto-immunes — un compromis biologique désormais documenté au niveau moléculaire. Contre-intuitivement, la plupart de ces interrupteurs se situent sur des autosomes et non sur les chromosomes sexuels. L'étude repère notamment des variants influençant l'expression, biaisée vers les femmes, de gènes liés au lupus érythémateux disséminé, une maladie qui touche environ neuf fois plus de femmes que d'hommes. Ces résultats ouvrent la voie à des traitements ajustés au profil immunitaire individuel plutôt qu'uniformes."
+        },
+        {
+          "category": "Science",
+          "title": "Schizophrénie : une perte de synapses asymétrique, plus marquée à gauche",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260820002443.htm",
+          "publishedAt": "2026-08-20",
+          "summary": "Une étude par tomographie par émission de positons menée sur 122 participants met en évidence, chez les personnes atteintes de schizophrénie, une réduction prononcée et diffuse des connexions synaptiques dans de nombreuses régions cérébrales. Le résultat inattendu tient à l'asymétrie : la perte est nettement plus importante à gauche qu'à droite. Les régions les plus touchées sont celles riches en récepteurs à la sérotonine, au GABA et au glutamate, ce qui suggère que l'architecture moléculaire locale conditionne la vulnérabilité. Cette atteinte synaptique ne recouvre pas les variations de volume cérébral habituellement observées en IRM standard, signe de processus biologiques distincts. Une modélisation informatique identifie une zone du lobe frontal gauche comme point de départ probable d'une propagation vers les régions connectées."
+        }
+      ]
+    }
+  ]
+}
