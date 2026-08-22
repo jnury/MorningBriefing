@@ -1,0 +1,247 @@
+{
+  "edition": "main",
+  "title": "Briefing du matin",
+  "date": "2026-08-22",
+  "generatedAt": "2026-08-22T03:11:34.420Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Genève",
+          "high": 24,
+          "low": 15,
+          "condition": "Averses",
+          "weathercode": 80,
+          "precipProbability": 13
+        },
+        {
+          "name": "Lausanne",
+          "high": 23,
+          "low": 16,
+          "condition": "Averses",
+          "weathercode": 80,
+          "precipProbability": 63
+        }
+      ]
+    },
+    {
+      "topic": "swiss",
+      "label": "La Suisse en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "La Suisse et la Chine ont bouclé à Berne l'élargissement de leur accord de libre-échange, qui rendra 99,8% des exportations suisses exemptes de droits de douane sur le marché chinois.",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "headline": "Les exportations suisses ont fortement rebondi en juillet (+13,8%, à 27,79 milliards de francs), portées par la pharma et la chimie, pour un excédent commercial de 8,14 milliards.",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "headline": "L'équipe de Suisse de saut d'obstacles a décroché aux Mondiaux d'Aix-la-Chapelle son billet pour les JO de Los Angeles 2028, avec Steve Guerdat en tête du classement individuel provisoire.",
+          "publishedAt": "2026-08-21"
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "La « coalition des volontaires » tiendra lundi à Kyiv un sommet coprésidé par Emmanuel Macron, Friedrich Merz et le nouveau Premier ministre britannique Andy Burnham, consacré aux garanties de sécurité et au renforcement de la défense antiaérienne ukrainienne.",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "headline": "Le secrétaire américain au Trésor Scott Bessent a promis « les sanctions les plus dures de l'histoire » contre l'Iran et averti les partenaires commerciaux de Téhéran qu'ils devraient choisir leur camp, une annonce détaillée attendue lundi.",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "headline": "Les dirigeants de six pays européens — France, Allemagne, Italie, Pays-Bas, Norvège et Royaume-Uni — ont jugé « inacceptables » les appels d'offres israéliens pour plus de 1200 logements dans la zone E1 en Cisjordanie et demandé leur retrait immédiat.",
+          "publishedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "topic": "markets",
+      "label": "Marchés",
+      "kind": "dataset",
+      "asOf": "clôture du vendredi 21 août 2026",
+      "summary": "Les places boursières ont toutes terminé la semaine dans le vert, portées par des statistiques économiques solides aux États-Unis et un apaisement des tensions sur le marché obligataire, le Dow Jones signant la plus forte hausse devant les indices européens et un Nasdaq plus mesuré.",
+      "indices": [
+        {
+          "name": "Nasdaq",
+          "changePct": 0.43
+        },
+        {
+          "name": "Dow Jones",
+          "changePct": 0.98
+        },
+        {
+          "name": "SMI",
+          "changePct": 0.62
+        },
+        {
+          "name": "Euro Stoxx 50",
+          "changePct": 0.63
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "AI",
+          "title": "Nvidia démontre que le « harness » compte désormais plus que le modèle lui-même",
+          "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+          "publishedAt": "2026-08-21",
+          "summary": "Des travaux de recherche de Nvidia montrent que l'enveloppe logicielle autour d'un modèle — outils, gestion de la mémoire, règles d'orchestration — pèse davantage que le modèle lui-même sur les tâches d'agents autonomes. Avec un harness sur mesure intégrant une bonne gestion mémoire et un agent superviseur « qui agit presque comme un PDG pour recadrer l'agent quand il dérive », Claude Opus 5 atteint 100 % sur le benchmark ARC-AGI-3, contre 30 % sans harness. OpenAI rapporte des effets comparables, de simples ajustements triplant ses scores. Databricks note de son côté que le choix du harness peut doubler les coûts d'exploitation, indépendamment du modèle. Nvidia plaide pour des harnesses ouverts, jugés plus contrôlables et plus sûrs que les systèmes fermés."
+        },
+        {
+          "category": "IT",
+          "title": "Microsoft corrige une faille de sévérité maximale dans Entra ID, déjà exploitée",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+          "publishedAt": "2026-08-21",
+          "summary": "Microsoft a corrigé CVE-2026-69836, une vulnérabilité de sévérité maximale dans Entra ID, sa plateforme d'identité cloud utilisée par Microsoft 365, Azure et Dynamics CRM Online. Il s'agit d'une désérialisation de données non fiables permettant l'exécution de code à distance : un attaquant sans aucun privilège peut la déclencher via une attaque de faible complexité. Microsoft indique que la faille a été exploitée dans des attaques réelles, tout en précisant qu'aucun code d'exploitation n'est encore public. Le correctif a été appliqué côté service : les clients n'ont aucune action à mener. La vulnérabilité a été identifiée en interne par l'ingénieur sécurité Robert Fitzpatrick. Compte tenu du rôle central d'Entra ID dans l'authentification d'entreprise, l'incident relance les inquiétudes sur la concentration du risque identitaire dans le cloud."
+        },
+        {
+          "category": "IT",
+          "title": "Plus de 9 300 clés AWS divulguées sont encore actives et donnent le contrôle de comptes d'entreprise",
+          "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
+          "publishedAt": "2026-08-21",
+          "summary": "Truffle Security révèle que plus de 9 300 clés d'accès AWS exposées publiquement entre août 2022 et août 2026 restent valides. Parmi elles, 817 sont rattachées à des entreprises, dont 526 clés root et 242 assorties de la politique AdministratorAccess ; 768 clés vivantes offrent un contrôle total du compte AWS. Sur 10 616 clés vérifiées, 88 % s'authentifiaient encore le 10 août. Hugging Face concentre à lui seul 8 482 expositions. L'âge médian des clés atteint 1 831 jours, soit environ cinq ans, la plus ancienne remontant à 17,4 ans, et seules 13,7 % ont été renouvelées. Les chercheurs recommandent de supprimer les clés root, de faire tourner les identifiants exposés et d'activer des alertes de budget."
+        },
+        {
+          "category": "AI",
+          "title": "Claude Opus 4.6 reste vulnérable à un jailbreak menant à des contenus sexuels explicites",
+          "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+          "publishedAt": "2026-08-21",
+          "summary": "TechCrunch rapporte que Claude Opus 4.6 d'Anthropic peut être amené à produire des contenus sexuellement explicites malgré des règles internes l'interdisant, avec dix succès sur dix tentatives directes lors des tests. Un chercheur britannique a mis au point une technique de jailbreak multi-tours combinant manipulation et appels à la cohérence pour pousser progressivement les anciens modèles Claude vers des contenus prohibés. Les générations plus récentes, Opus 4.7 et Opus 5, résistent à la méthode, mais Anthropic continue de proposer les versions vulnérables via son API et des services tiers comme Azure et Amazon Bedrock. Le jeu de rôle sexuel représente moins de 0,1 % des conversations Claude, mais la faille pose un problème de conformité avec la nouvelle loi du Colorado protégeant les mineurs."
+        },
+        {
+          "category": "IT",
+          "title": "GitLab : la faille CVE-2026-19478 exploitée dans la nature quelques jours après sa divulgation",
+          "url": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
+          "publishedAt": "2026-08-21",
+          "summary": "CVE-2026-19478 (CVSS 9,4) est une injection de code qui permet à un attaquant non authentifié de modifier ou supprimer des projets GitLab accessibles publiquement, sans le moindre identifiant. Les chercheurs de watchTowr ont reproduit la vulnérabilité « en quelques minutes après sa divulgation » et observent déjà une exploitation active contre leurs honeypots. Sont concernées les éditions Community et Enterprise en versions 18.2, 19.0, 19.1 et 19.2 antérieures aux correctifs 18.11.11, 19.0.8, 19.1.6 et 19.2.4. L'attaque passe par les directives GraphQL et autorise la suppression de dépôts, la falsification d'enregistrements de merge et le retrait de mainteneurs. À défaut de correctif immédiat, il est conseillé de restreindre l'accès non authentifié à /api/graphql et de retirer l'accès public aux dépôts."
+        },
+        {
+          "category": "Science",
+          "title": "Une IA pourrait prédire la réponse à un vaccin avant même l'injection",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260820202842.htm",
+          "publishedAt": "2026-08-21",
+          "summary": "Des chercheurs de l'Institut Biodesign de l'Arizona State University, dirigés par Joshua LaBaer, ont analysé les échantillons sanguins de plus de 4 000 participants pour repérer des anticorps « sentinelles » annonçant la vigueur de la réponse vaccinale. Combinés à une analyse par intelligence artificielle, certains biomarqueurs permettent de prédire qui répondra bien à un vaccin, avant même son administration. Résultat inattendu : l'état de santé seul est un mauvais indicateur, puisque des personnes immunodéprimées développent parfois une forte réponse tandis que 5 à 6 % des participants en bonne santé réagissent faiblement. L'approche ouvre la voie à des stratégies vaccinales personnalisées, identifiant les personnes nécessitant des doses supplémentaires ou des protections renforcées. Les travaux sont parus dans Cell Press Blue."
+        },
+        {
+          "category": "AI",
+          "title": "Une attaque par injection de contexte chiffré permet à des pages web de voler des données de conversation Grok",
+          "url": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
+          "publishedAt": "2026-08-20",
+          "summary": "Adversa AI a dévoilé la « Cryptographic Context Injection », une technique qui chiffre des instructions malveillantes dans des pages web pour contourner les classificateurs de contenu, la charge étant déchiffrée par l'environnement d'exécution de code de Grok. L'attaque exfiltre le nom de l'utilisateur, sa localisation approximative, son niveau d'abonnement et les invites de la conversation en cours, sans confirmation ni avertissement visible. Le taux de succès atteint 40 % sur vingt tentatives depuis juin 2026, les échecs venant des difficultés de déchiffrement du modèle plutôt que d'une détection. Adversa a signalé la faille à xAI le 3 juin 2026 sans obtenir de correctif. La même méthode affecte Gemini en mode Deep Thinking. Les experts recommandent de mettre en quarantaine les contenus non fiables et de conditionner les actions sortantes à une validation humaine."
+        },
+        {
+          "category": "IT",
+          "title": "Attaque sur la chaîne d'approvisionnement Rust : la crate arrayref empoisonnée pour diffuser un infostealer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
+          "publishedAt": "2026-08-20",
+          "summary": "Des attaquants ont détourné un compte de mainteneur pour publier, en 23 minutes, des versions malveillantes des crates Rust arrayref (53 millions de téléchargements sur 90 jours, 245 millions au total), append-only-vec et internment. Le code injecté ajoutait une fausse dépendance nommée proc-macro1, typosquattant proc-macro2, exécutée dès la compilation pour livrer des charges spécifiques à chaque système. L'infostealer siphonne les identifiants de Chrome, Brave et Edge et se rend persistant via les clés Run du registre Windows, les LaunchAgents macOS et systemd sous Linux. L'épisode a duré environ 1 h 30 avant retrait par crates.io. Des projets majeurs sont concernés, dont blake3, egui, eframe, iced et des outils Ethereum et Solana. Les chercheurs relèvent de fortes similitudes avec de récentes campagnes nord-coréennes."
+        },
+        {
+          "category": "AI",
+          "title": "Apple supprimerait plus de 200 postes dans les équipes Siri et Vision Pro",
+          "url": "https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/",
+          "publishedAt": "2026-08-21",
+          "summary": "Apple supprimerait plus de 200 postes, environ une centaine dans la division Vision Pro et autant dans les équipes Siri et Intelligent Systems Experience. L'entreprise déclare vouloir « faire évoluer son activité pour offrir les meilleures expériences » et précise que de nouveaux rôles seront créés en parallèle. La direction redéploie ses ressources vers ses initiatives d'intelligence artificielle plus récentes et vers de nouvelles catégories d'appareils. Ces coupes interviennent dans un contexte tendu : positionnement contesté sur l'IA, pénurie mondiale de mémoire qui renchérit la fabrication, hausses de prix récentes sur Mac et iPad. Apple vient par ailleurs de lancer un programme de location d'appareils avec Klarna et poursuit OpenAI pour appropriation présumée de secrets industriels. Le casque Vision Pro peine toujours à trouver son marché."
+        },
+        {
+          "category": "IT",
+          "title": "La CISA alerte sur l'exploitation d'une faille critique de MLflow, plateforme d'ingénierie IA",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
+          "publishedAt": "2026-08-20",
+          "summary": "CVE-2026-64849 est une faille SSRF par DNS rebinding dans le système de livraison de webhooks de MLflow, la plateforme open source d'ingénierie IA qui totalise plus de 30 millions de téléchargements mensuels. Un attaquant non authentifié peut atteindre des services internes et les métadonnées d'instance cloud, jusqu'à dérober des identifiants IAM AWS, sans aucun privilège. Le point d'entrée est l'endpoint /test, détourné pour forcer le serveur à émettre des requêtes HTTP vers des cibles arbitraires et en lire les réponses. La CISA a ajouté la faille à son catalogue des vulnérabilités exploitées ; les agences fédérales américaines doivent corriger sous quatorze jours au titre de la directive BOD 26-04. Le correctif est disponible dans MLflow 3.15.0. watchTowr a observé des scans quelques heures après l'attribution du CVE."
+        },
+        {
+          "category": "AI",
+          "title": "Starcloud lève 250 millions de dollars pour ses centres de données en orbite",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+          "publishedAt": "2026-08-21",
+          "summary": "Starcloud a obtenu une extension de 250 millions de dollars à sa série A de mars, portant sa valorisation à 2,3 milliards. Les fonds financeront une usine plus grande et le vaisseau Starcloud-3, conçu pour la fusée Starship de SpaceX. Le PDG Philip Johnston souligne que « le lancement est très contraint en ce moment, le programme Falcon 9 devant s'achever en 2028 ». L'entreprise a demandé à la FCC l'autorisation d'exploiter 88 000 engins et prévoit de lancer en 2027 de nouveaux satellites de calcul de 8 kW en covoiturage. Nvidia a investi 25 millions dans le tour et développe avec Starcloud une puce spatiale, la Vera Rubin Space-1. La société exploite déjà des GPU H100 en orbite pour de l'inférence, notamment pour des agences gouvernementales américaines."
+        },
+        {
+          "category": "Science",
+          "title": "Le dépistage du cancer colorectal à domicile réduit de 43 % le risque d'en mourir",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260820202833.htm",
+          "publishedAt": "2026-08-21",
+          "summary": "Une étude suédoise menée par le Karolinska Institutet et l'université d'Umeå, à partir du programme de dépistage de Stockholm-Gotland, montre que la participation au dépistage du cancer colorectal réduit de 43 % le risque d'en mourir. Les chercheurs ont suivi 376 511 personnes pendant quatorze ans et recensé 1 668 décès par cancer colorectal. Le test consiste en un kit à domicile permettant de rechercher dans un échantillon de selles « d'infimes quantités de sang invisibles à l'œil nu ». Nuance importante : la simple invitation au dépistage abaisse le risque de 26 %, alors que la participation effective atteint 43 %, ce qui souligne le poids de l'engagement des personnes concernées. Les résultats sont publiés dans JAMA Network Open."
+        },
+        {
+          "category": "AI",
+          "title": "Nvidia s'allie au développeur de centres de données Cloverleaf Infrastructure",
+          "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
+          "publishedAt": "2026-08-21",
+          "summary": "Nvidia a annoncé un partenariat stratégique avec Cloverleaf Infrastructure, entreprise qui développe des infrastructures de centres de données et met en relation opérateurs électriques et exploitants. Le montant n'est pas divulgué, mais le Wall Street Journal évoque « plusieurs centaines de millions de dollars » et Reuters une prise de participation minoritaire. Fondée en 2024, Cloverleaf avait déjà levé 300 millions auprès de NGP Capital et Sandbrook Capital. L'opération illustre la stratégie de Nvidia consistant à réinvestir ses profits dans le financement de centres de données pour l'IA, qui achèteront ensuite ses systèmes — une boucle d'auto-renforcement. Elle intervient quelques jours après un investissement de 1,5 milliard de dollars dans SB Energy, projet de centre de données lié à OpenAI dans l'Ohio."
+        },
+        {
+          "category": "Science",
+          "title": "Trois minutes de sprint produisent ce que 90 minutes d'exercice modéré ne font pas",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260821012208.htm",
+          "publishedAt": "2026-08-21",
+          "summary": "Des chercheurs de la Rockefeller University ont comparé les effets moléculaires d'un exercice intense et d'un effort modéré, avec des écarts spectaculaires. Six sprints de trente secondes modifient près d'un quart des protéines sanguines mesurées et plus de 200 métabolites, là où 90 minutes de vélo ne produisent que des variations minimes. Beaucoup des protéines activées par le sprint sont associées, chez 53 000 participants de la UK Biobank, à un risque réduit d'obésité et de diabète de type 2 ainsi qu'à un vieillissement biologique plus lent. Le mécanisme passe par une signalisation cellulaire rapide libérant des protéines dans le sang, les cellules graisseuses montrant une activité génique notable. L'étude, publiée dans Cell Reports Medicine, interroge les recommandations classiques en matière d'activité physique."
+        },
+        {
+          "category": "IT",
+          "title": "Kubernetes publie la release candidate v1.37.0-rc.1 avant la sortie du 26 août",
+          "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.0-rc.1",
+          "publishedAt": "2026-08-20",
+          "summary": "Le projet Kubernetes a publié v1.37.0-rc.1, dernière étape avant la disponibilité générale de la version 1.37 prévue le 26 août 2026. La même journée ont également été livrés les correctifs v1.36.4, v1.35.8 et v1.34.11 pour les branches maintenues. La v1.37 apporte le passage en GA de l'API Metrics, les taints et tolerations d'équipements pour DRA, des ulimits par conteneur, ainsi que de nouveaux mécanismes de coordination d'éviction de pods. Côté ruptures, la version exige containerd 2.0 ou supérieur, les pods statiques ne peuvent plus référencer de Secrets ni de ConfigMaps, kubectl run --filename est déprécié, le mode ipvs de kube-proxy poursuit sa dépréciation et les nœuds cgroup v1 empêcheront le démarrage du kubelet."
+        },
+        {
+          "category": "Science",
+          "title": "L'hormone GDF15 protège le foie sans passer par la perte de poids",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260820202854.htm",
+          "publishedAt": "2026-08-21",
+          "summary": "Des chercheurs de l'université McMaster, sous la direction du professeur Gregory Steinberg et du professeur assistant Dongdong Wang, ont découvert que GDF15, hormone connue pour couper l'appétit et favoriser l'amaigrissement, protège aussi le foie de l'inflammation et de la fibrose par une voie cerveau-foie jusqu'ici inconnue. GDF15 déclenche une signalisation qui provoque la libération de glucocorticoïdes, lesquels réduisent l'inflammation hépatique et la formation de cicatrices, indépendamment de toute perte de poids. Ces résultats laissent entrevoir des traitements ciblant directement l'inflammation du foie chez les patients atteints de MASH, y compris lorsque l'amaigrissement seul ne suffit pas. L'étude a paru dans Cell Metabolism le 10 août 2026 ; elle a été financée par le CRSNG, les IRSC, Diabète Canada et Novo Nordisk, fournisseur de l'hormone."
+        },
+        {
+          "category": "AI",
+          "title": "Rillet lève 100 millions de dollars et devient licorne en 48 heures",
+          "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
+          "publishedAt": "2026-08-21",
+          "summary": "Rillet, plateforme comptable conçue nativement pour l'IA, a levé 100 millions de dollars sur une valorisation d'un milliard, en seulement 48 heures après un conseil d'administration où le PDG Nicolas Kopp a présenté ses indicateurs de croissance. La société a doublé son revenu annualisé au dernier trimestre et compte 600 clients, dont beaucoup migrent depuis des systèmes historiques. Le tour de série C réunit Iconiq, Sequoia et Andreessen Horowitz, portant le total levé à 200 millions. Le marché visé souffre d'une pénurie de talents : le nombre de diplômés en comptabilité recule depuis 2010 et 61 % des directions financières peinent à recruter. Rillet est bâtie pour faire travailler agents IA et humains ensemble, avec des fonctions de gouvernance permettant d'auditer chaque décision de l'IA."
+        },
+        {
+          "category": "Science",
+          "title": "Un magnétisme caché au cœur des noyaux atomiques explique une énigme de rayons gamma",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260820202849.htm",
+          "publishedAt": "2026-08-21",
+          "summary": "Des physiciens ont résolu un mystère vieux de plusieurs décennies : pourquoi certains noyaux atomiques émettent un excès inattendu de rayons gamma de basse énergie. L'expérience, menée à la Facility for Rare Isotope Beams avec le Lawrence Livermore National Laboratory, a suivi la désintégration d'un isotope radioactif du cuivre en zinc, en séparant les transitions électriques — déplacements de position des protons — des transitions magnétiques, où neutrons et protons basculent. Seule la transition magnétique produit le surcroît de rayonnement observé, ce qui en établit l'origine magnétique. Publiés dans Nature, ces résultats devraient affiner les modèles nucléaires utilisés en astrophysique, dans l'énergie et la sécurité nucléaires, et améliorer la compréhension de la formation des éléments lourds dans les étoiles et lors des fusions d'étoiles à neutrons."
+        },
+        {
+          "category": "AI",
+          "title": "Michael Polansky entraîne un modèle d'IA sur de la peau humaine maintenue vivante",
+          "url": "https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/",
+          "publishedAt": "2026-08-21",
+          "summary": "Michael Polansky a fondé en 2022 Outer Biosciences, une startup de biotechnologie qui met l'IA au service de la découverte d'ingrédients cosmétiques à partir de tissus humains vivants. L'entreprise maintient des tissus cutanés humains en vie hors du corps pendant jusqu'à un mois, contre quelques jours pour le standard du secteur, grâce à un système de support propriétaire. « Un modèle d'IA prédit quels composés non testés sont susceptibles d'avoir un effet bénéfique sur une fonction cutanée précise », explique le fondateur. La société génère un nouvel ingrédient candidat toutes les six semaines environ et compte six pistes actives. Elle a levé quelque 23 millions de dollars et emploie dix-neuf personnes près de Cambridge, dans le Massachusetts. Elle prévoit de céder ou licencier ses ingrédients à des groupes de cosmétique et de pharmacie."
+        },
+        {
+          "category": "Science",
+          "title": "Une gouttelette quantique d'un nouveau genre parvient à se maintenir seule",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260820202846.htm",
+          "publishedAt": "2026-08-21",
+          "summary": "Des physiciens de l'université Monash, en collaboration avec l'université de Heidelberg, prédisent que bosons et fermions peuvent se combiner pour former des gouttelettes quantiques stables et auto-liées, ce qui bouscule les hypothèses admises sur les systèmes de particules en interaction forte. « Ces deux types de particules très différents peuvent s'équilibrer parfaitement pour créer une gouttelette stable », explique le doctorant Sam Foster, premier auteur. Le cadre théorique développé permet d'explorer des régimes fortement corrélés et révèle des phases quantiques complexes inaccessibles aux modèles antérieurs. Les auteurs estiment que leurs prédictions sont testables avec les dispositifs existants d'atomes ultrafroids, avec à la clé des applications potentielles pour les capteurs quantiques et le calcul quantique. L'étude paraît dans Physical Review Letters."
+        }
+      ]
+    }
+  ]
+}

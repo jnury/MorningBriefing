@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-22",
+  "generatedAt": "2026-08-22T03:10:44.468Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 21,
+          "low": 15,
+          "condition": "Orage",
+          "weathercode": 95,
+          "precipProbability": 53
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "La « coalition des volontaires » tiendra lundi à Kyiv un sommet coprésidé par Emmanuel Macron, Friedrich Merz et le nouveau Premier ministre britannique Andy Burnham, consacré aux garanties de sécurité et au renforcement de la défense antiaérienne ukrainienne.",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "headline": "Des céramiques et objets des XVe et XVIe siècles mis au jour dans l'Insula Meridionalis de Pompéi prouvent que le site était habité dès la Renaissance, bien avant les premières fouilles bourboniennes de 1748.",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "headline": "« La Jeune Fille à la perle » de Vermeer a été dévoilée au Musée d'art de Nakanoshima à Osaka pour cinq semaines, son premier prêt international depuis plus de dix ans et sa première venue au Japon en quatorze ans.",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "headline": "Le canal de Panama va réduire son trafic de 36 à 34 navires par jour dès septembre, puis à 32 dès le 15 septembre, la sécheresse liée à El Niño ayant fait chuter les précipitations de 34 % par rapport à la moyenne historique.",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "headline": "Le cimentier suisse Holcim rachète l'allemand Fermacell au groupe James Hardie pour 840 millions d'euros, s'offrant six sites de production et plus de 1000 employés dans treize marchés européens.",
+          "publishedAt": "2026-08-21"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "Microsoft corrige une faille de sévérité maximale dans Entra ID, déjà exploitée",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+          "publishedAt": "2026-08-21",
+          "summary": "Microsoft a corrigé CVE-2026-69836, une vulnérabilité de sévérité maximale dans Entra ID, sa plateforme d'identité cloud utilisée par Microsoft 365, Azure et Dynamics CRM Online. Il s'agit d'une désérialisation de données non fiables permettant l'exécution de code à distance : un attaquant sans aucun privilège peut la déclencher via une attaque de faible complexité. Microsoft indique que la faille a été exploitée dans des attaques réelles, tout en précisant qu'aucun code d'exploitation n'est encore public. Le correctif a été appliqué côté service : les clients n'ont aucune action à mener. La vulnérabilité a été identifiée en interne par l'ingénieur sécurité Robert Fitzpatrick. Compte tenu du rôle central d'Entra ID dans l'authentification d'entreprise, l'incident relance les inquiétudes sur la concentration du risque identitaire dans le cloud."
+        },
+        {
+          "category": "IT",
+          "title": "Cisco corrige neuf failles dans Crosswork et Secure Workload, dont cinq notées CVSS 10.0",
+          "url": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
+          "publishedAt": "2026-08-21",
+          "summary": "Cisco a publié des correctifs pour neuf vulnérabilités réparties sur deux gammes de produits, découvertes lors de tests internes et non exploitées à ce jour. Côté Crosswork Data Gateway, Network Controller et Planning (7.2.1 et antérieures, corrigés en 7.2.1-SP) : une injection SQL (CVE-2026-20030, CVSS 10.0), une absence d'authentification sur une fonction critique (CVE-2026-20357, 10.0), un contrôle externe du système de fichiers (CVE-2026-20358, 10.0) et des identifiants insuffisamment protégés (CVE-2026-20359, 9.9). Côté Secure Workload, en SaaS comme en on-premise, cinq failles supplémentaires dont un contrôle d'accès défaillant et un contournement d'authentification tous deux à 10.0. Les versions corrigées sont 3.10.9.1 et 4.0.4.16. Une mise à jour prioritaire est recommandée."
+        },
+        {
+          "category": "IT",
+          "title": "GitLab : la faille CVE-2026-19478 exploitée dans la nature quelques jours après sa divulgation",
+          "url": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
+          "publishedAt": "2026-08-21",
+          "summary": "CVE-2026-19478 (CVSS 9,4) est une injection de code qui permet à un attaquant non authentifié de modifier ou supprimer des projets GitLab accessibles publiquement, sans le moindre identifiant. Les chercheurs de watchTowr ont reproduit la vulnérabilité « en quelques minutes après sa divulgation » et observent déjà une exploitation active contre leurs honeypots. Sont concernées les éditions Community et Enterprise en versions 18.2, 19.0, 19.1 et 19.2 antérieures aux correctifs 18.11.11, 19.0.8, 19.1.6 et 19.2.4. L'attaque passe par les directives GraphQL et autorise la suppression de dépôts, la falsification d'enregistrements de merge et le retrait de mainteneurs. À défaut de correctif immédiat, il est conseillé de restreindre l'accès non authentifié à /api/graphql et de retirer l'accès public aux dépôts."
+        },
+        {
+          "category": "IT",
+          "title": "Plus de 9 300 clés AWS divulguées sont encore actives et donnent le contrôle de comptes d'entreprise",
+          "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
+          "publishedAt": "2026-08-21",
+          "summary": "Truffle Security révèle que plus de 9 300 clés d'accès AWS exposées publiquement entre août 2022 et août 2026 restent valides. Parmi elles, 817 sont rattachées à des entreprises, dont 526 clés root et 242 assorties de la politique AdministratorAccess ; 768 clés vivantes offrent un contrôle total du compte AWS. Sur 10 616 clés vérifiées, 88 % s'authentifiaient encore le 10 août. Hugging Face concentre à lui seul 8 482 expositions. L'âge médian des clés atteint 1 831 jours, soit environ cinq ans, la plus ancienne remontant à 17,4 ans, et seules 13,7 % ont été renouvelées. Les chercheurs recommandent de supprimer les clés root, de faire tourner les identifiants exposés et d'activer des alertes de budget."
+        },
+        {
+          "category": "IT",
+          "title": "Citrix presse ses clients de corriger deux nouvelles failles NetScaler, dont un contournement d'authentification",
+          "url": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
+          "publishedAt": "2026-08-20",
+          "summary": "Citrix appelle ses administrateurs à sécuriser sans délai leurs équipements NetScaler Gateway et NetScaler ADC. CVE-2026-19490, jugée critique, est un contournement d'authentification affectant les configurations en serveur virtuel AAA ou en Gateway avec action SAML activée. CVE-2026-19489, de sévérité élevée, est un débordement mémoire exploitable en déni de service lorsque le SIP ALG est activé sur des configurations NAT à grande échelle. Les versions corrigées sont 14.1-73.32 et suivantes, 13.1-63.21 et suivantes, ainsi que les builds FIPS correspondants. Aucune exploitation n'est confirmée à ce stade, mais Citrix rappelle que ses correctifs ont déjà été retournés en armes en quelques jours. Plus de 22 000 instances ADC et près de 1 800 Gateway restent exposées sur Internet."
+        },
+        {
+          "category": "IT",
+          "title": "La CISA alerte sur l'exploitation d'une faille critique de MLflow, plateforme d'ingénierie IA",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
+          "publishedAt": "2026-08-20",
+          "summary": "CVE-2026-64849 est une faille SSRF par DNS rebinding dans le système de livraison de webhooks de MLflow, la plateforme open source d'ingénierie IA qui totalise plus de 30 millions de téléchargements mensuels. Un attaquant non authentifié peut atteindre des services internes et les métadonnées d'instance cloud, jusqu'à dérober des identifiants IAM AWS, sans aucun privilège. Le point d'entrée est l'endpoint /test, détourné pour forcer le serveur à émettre des requêtes HTTP vers des cibles arbitraires et en lire les réponses. La CISA a ajouté la faille à son catalogue des vulnérabilités exploitées ; les agences fédérales américaines doivent corriger sous quatorze jours au titre de la directive BOD 26-04. Le correctif est disponible dans MLflow 3.15.0. watchTowr a observé des scans quelques heures après l'attribution du CVE."
+        },
+        {
+          "category": "IT",
+          "title": "La CISA impose aux agences fédérales de corriger deux failles TrueConf Server activement exploitées",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
+          "publishedAt": "2026-08-21",
+          "summary": "La CISA a ordonné aux agences fédérales américaines de corriger deux vulnérabilités critiques de TrueConf Server, plateforme de messagerie et de visioconférence auto-hébergée. CVE-2026-72529 est une absence d'authentification permettant à un attaquant non authentifié d'« exécuter un script arbitraire sur le serveur » via le port 4307/TCP ; CVE-2026-72530 est une évasion de bac à sable menant à l'exécution de code à distance par injection. La date butoir de mise en conformité est fixée au 3 septembre 2026. Selon Kaspersky, le groupe hacktiviste Head Mare exploite ces failles depuis au moins juillet 2026 pour diffuser des installateurs clients trojanisés contenant une porte dérobée, visant surtout des organisations russes des transports, de l'énergie, de l'informatique et du logiciel."
+        },
+        {
+          "category": "IT",
+          "title": "Une faille RCE critique de Zimbra désormais activement exploitée",
+          "url": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
+          "publishedAt": "2026-08-20",
+          "summary": "Le CERT polonais alerte sur l'exploitation active d'une vulnérabilité critique d'exécution de code à distance dans Zimbra Collaboration Suite, logée dans le composant de supervision SNMP. Lorsque les notifications SNMP sont activées, « des attaquants non authentifiés peuvent envoyer des requêtes SMTP spécialement conçues pouvant entraîner l'exécution de commandes arbitraires du système d'exploitation ». Zimbra avait publié le 20 juillet 2026 la version 10.1.20, qui corrige le problème par un meilleur assainissement des entrées. Plus de 12 100 serveurs Zimbra restent exposés sur Internet, dont 4 382 en Europe et 4 492 en Asie, sans que leur état de mise à jour soit connu. Les serveurs Zimbra sont une cible récurrente de groupes étatiques comme APT29, APT28 et Winter Vivern, pour du vol d'identifiants et de la compromission de messagerie."
+        },
+        {
+          "category": "IT",
+          "title": "Attaque sur la chaîne d'approvisionnement Rust : la crate arrayref empoisonnée pour diffuser un infostealer",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
+          "publishedAt": "2026-08-20",
+          "summary": "Des attaquants ont détourné un compte de mainteneur pour publier, en 23 minutes, des versions malveillantes des crates Rust arrayref (53 millions de téléchargements sur 90 jours, 245 millions au total), append-only-vec et internment. Le code injecté ajoutait une fausse dépendance nommée proc-macro1, typosquattant proc-macro2, exécutée dès la compilation pour livrer des charges spécifiques à chaque système. L'infostealer siphonne les identifiants de Chrome, Brave et Edge et se rend persistant via les clés Run du registre Windows, les LaunchAgents macOS et systemd sous Linux. L'épisode a duré environ 1 h 30 avant retrait par crates.io. Des projets majeurs sont concernés, dont blake3, egui, eframe, iced et des outils Ethereum et Solana. Les chercheurs relèvent de fortes similitudes avec de récentes campagnes nord-coréennes."
+        },
+        {
+          "category": "IT",
+          "title": "Kubernetes publie la release candidate v1.37.0-rc.1 avant la sortie du 26 août",
+          "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.0-rc.1",
+          "publishedAt": "2026-08-20",
+          "summary": "Le projet Kubernetes a publié v1.37.0-rc.1, dernière étape avant la disponibilité générale de la version 1.37 prévue le 26 août 2026. La même journée ont également été livrés les correctifs v1.36.4, v1.35.8 et v1.34.11 pour les branches maintenues. La v1.37 apporte le passage en GA de l'API Metrics, les taints et tolerations d'équipements pour DRA, des ulimits par conteneur, ainsi que de nouveaux mécanismes de coordination d'éviction de pods. Côté ruptures, la version exige containerd 2.0 ou supérieur, les pods statiques ne peuvent plus référencer de Secrets ni de ConfigMaps, kubectl run --filename est déprécié, le mode ipvs de kube-proxy poursuit sa dépréciation et les nœuds cgroup v1 empêcheront le démarrage du kubelet."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Tennis : Jannik Sinner, no 1 mondial, a annoncé vendredi son forfait pour l'US Open, son genou droit ayant besoin de plus de temps pour guérir.",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "headline": "Athlétisme : une semaine après son titre européen, la Fribourgeoise Audrey Werro a remporté le 800 m d'Athletissima à Lausanne en 1'55\"33, nouveau record du meeting.",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "headline": "Athlétisme : Armand Duplantis a dominé le concours de la perche d'Athletissima en franchissant 6,21 m, record du meeting, devant le Grec Emmanouil Karalis.",
+          "publishedAt": "2026-08-20"
+        }
+      ]
+    }
+  ]
+}
