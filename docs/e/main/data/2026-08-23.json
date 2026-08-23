@@ -1,0 +1,247 @@
+{
+  "edition": "main",
+  "title": "Briefing du matin",
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-23T03:10:27.356Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Genève",
+          "high": 26,
+          "low": 14,
+          "condition": "Couvert",
+          "weathercode": 3,
+          "precipProbability": 3
+        },
+        {
+          "name": "Lausanne",
+          "high": 25,
+          "low": 15,
+          "condition": "Couvert",
+          "weathercode": 3,
+          "precipProbability": 3
+        }
+      ]
+    },
+    {
+      "topic": "swiss",
+      "label": "La Suisse en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Le Grand-Saconnex (GE) a inauguré à la Ferme Pommier une Ressourcerie où chacun peut déposer et récupérer gratuitement meubles et objets afin de réduire les déchets.",
+          "publishedAt": "2026-08-22"
+        },
+        {
+          "headline": "Le festival Lauz'One, dédié à la multiculturalité lausannoise et à ses plus de 160 nationalités, revient du 27 au 30 août pour une 5e édition avec une cinquantaine de performances et un banquet antigaspi.",
+          "publishedAt": "2026-08-22"
+        },
+        {
+          "headline": "A 38 ans, le vététiste suisse Martin Fanger a remporté la 36e édition du Grand Raid entre Verbier et Grimentz, bouclant les 125 km en 6h19'29 avec plus de trois minutes d'avance sur Urs Huber.",
+          "publishedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Une réunion de la « coalition des volontaires », coprésidée par Emmanuel Macron, Friedrich Merz et Keir Starmer et réunissant plus de trente pays, se tiendra lundi 24 août à Kiev avec Volodymyr Zelensky, pour renforcer la défense antiaérienne et travailler aux garanties de sécurité, le jour des 35 ans de l'indépendance ukrainienne.",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "headline": "À la COP17 sur la désertification à Oulan-Bator, les États ont confirmé l'objectif de restaurer un milliard d'hectares de terres d'ici 2030, avec plus de 70 plans nationaux de gestion de la sécheresse déposés et environ 2 milliards de dollars de projets d'investissement en préparation.",
+          "publishedAt": "2026-08-22"
+        },
+        {
+          "headline": "L'OMS a annoncé l'acheminement de 70 000 doses du vaccin Ervebo en République démocratique du Congo, dont 50 000 pour protéger les soignants de première ligne et 20 000 pour un essai clinique avancé contre la souche Bundibugyo du virus Ebola, jusqu'ici sans vaccin homologué.",
+          "publishedAt": "2026-08-21"
+        }
+      ]
+    },
+    {
+      "topic": "markets",
+      "label": "Marchés",
+      "kind": "dataset",
+      "asOf": "clôture du vendredi 21 août 2026",
+      "summary": "Toutes les grandes places ont terminé la dernière séance de la semaine dans le vert, l'apaisement du marché obligataire ayant permis un rebond marqué du Dow Jones et des indices européens, malgré un bilan hebdomadaire encore négatif à Wall Street.",
+      "indices": [
+        {
+          "name": "Nasdaq",
+          "changePct": 0.43
+        },
+        {
+          "name": "Dow Jones",
+          "changePct": 0.98
+        },
+        {
+          "name": "SMI",
+          "changePct": 0.62
+        },
+        {
+          "name": "Euro Stoxx 50",
+          "changePct": 0.63
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "Microsoft corrige une faille Entra ID de sévérité maximale déjà exploitée",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+          "publishedAt": "2026-08-21",
+          "summary": "Microsoft a publié 22 correctifs pour ses services cloud, dont plusieurs vulnérabilités de sévérité maximale. La plus préoccupante, CVE-2026-69836, touche Entra ID, la plateforme d'identité qui sert de porte d'entrée à l'ensemble de l'écosystème Microsoft 365 et Azure : une désérialisation de données non fiables permet l'exécution de code sans privilège préalable et avec une complexité d'attaque faible. Trois autres failles critiques sont corrigées : deux élévations de privilèges non authentifiées dans Azure Arc (CVE-2026-65816 et CVE-2026-69555), une dans Exchange Online (CVE-2026-65801) et une exécution de code à distance dans Azure Managed Instance for Apache Cassandra (CVE-2026-65770). Microsoft affirme que le code d'exploitation n'est pas public et que les correctifs sont déjà déployés côté service, sans action requise des clients."
+        },
+        {
+          "category": "IT",
+          "title": "GitLab : la faille CVE-2026-19478 exploitée quelques jours après sa divulgation",
+          "url": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
+          "publishedAt": "2026-08-21",
+          "summary": "Une vulnérabilité d'injection de code notée 9,4 sur l'échelle CVSS est activement exploitée dans GitLab. Passant par une directive GraphQL, elle permet à un attaquant non authentifié de modifier ou de supprimer des projets publics : effacement de dépôts entiers, falsification d'enregistrements de merge, bannissement des mainteneurs. Sont concernées les versions 18.2 avant 18.11.11, 19.0 avant 19.0.8, 19.1 avant 19.1.6 et 19.2 avant 19.2.4. La société watchTowr a observé l'exploitation depuis ses honeypots et souligne que « les attaquants outillés par l'IA compriment le délai entre divulgation et exploitation ». Les recommandations : mettre à jour en priorité, chercher dans les journaux web les requêtes contenant « @gl_introduced », et restreindre l'accès non authentifié à /api/graphql en attendant."
+        },
+        {
+          "category": "AI",
+          "title": "Nvidia démontre que le harnais compte désormais davantage que le modèle",
+          "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+          "publishedAt": "2026-08-21",
+          "summary": "L'article analyse un basculement dans la manière d'obtenir de la performance des systèmes d'IA : ce n'est plus le modèle brut qui fait la différence, mais le « harnais » qui l'entoure — orchestration, mémoire, outillage, boucles de vérification et gestion du contexte. Nvidia en fournit l'illustration avec des résultats obtenus par ingénierie d'exécution plutôt que par montée en taille de paramètres, dans la même veine que ses travaux sur le transfert linéaire de cache entre modèles. La conséquence est directe pour les équipes techniques : l'avantage compétitif se déplace vers l'infrastructure d'agents et l'évaluation, domaines où une organisation peut progresser sans dépendre du prochain modèle frontière ni de budgets d'entraînement inaccessibles."
+        },
+        {
+          "category": "Science",
+          "title": "Le JWST suggère que les premières galaxies sont quatre fois plus massives qu'on ne le pensait",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260822015141.htm",
+          "publishedAt": "2026-08-22",
+          "summary": "Des observations du télescope spatial James-Webb portant sur neuf galaxies mûres, ayant cessé de former des étoiles il y a des milliards d'années, indiquent qu'elles abritent une proportion bien plus élevée d'étoiles de faible masse que les galaxies comparables à la Voie lactée. En révisant la fonction de masse initiale utilisée pour convertir la lumière observée en masse stellaire, les auteurs obtiennent des masses totales trois à quatre fois supérieures aux estimations antérieures. Le résultat aggrave une énigme déjà posée par le JWST, qui avait détecté des galaxies étonnamment massives peu après le Big Bang : les modèles de formation galactique peinent à produire de telles structures aussi tôt. Corollaire inattendu, les planètes orbitant autour d'étoiles peu massives auraient été plus répandues qu'estimé dans l'Univers jeune."
+        },
+        {
+          "category": "IT",
+          "title": "Cisco corrige neuf failles Crosswork et Secure Workload, dont cinq notées 10.0",
+          "url": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
+          "publishedAt": "2026-08-21",
+          "summary": "Cisco a publié un lot de correctifs couvrant neuf vulnérabilités dans ses plateformes Crosswork et Secure Workload, dont cinq atteignent le score CVSS maximal de 10.0. Ces produits occupent une position névralgique dans les réseaux opérateurs et les grandes infrastructures d'entreprise : Crosswork orchestre l'automatisation réseau, Secure Workload assure la micro-segmentation des charges de travail. Une compromission y ouvrirait un accès transversal à l'ensemble du parc administré. L'équipementier n'a pas signalé d'exploitation en cours au moment de la publication, mais la conjonction d'un score maximal et d'un rôle d'administration centralisée place ces correctifs en tête des priorités de patching pour les équipes d'infrastructure."
+        },
+        {
+          "category": "AI",
+          "title": "Les grands laboratoires d'IA restent muets sur la façon dont ils confineraient un modèle devenu incontrôlable",
+          "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+          "publishedAt": "2026-08-22",
+          "summary": "Une étude de Guidelight AI Standards a évalué Anthropic, Google, OpenAI, Meta et xAI sur six critères de sécurité et conclut qu'aucun ne publie de plan de confinement pour un modèle qui chercherait à échapper au contrôle humain. Un tel plan préciserait quelles permissions révoquer, quelles contraintes opérationnelles imposer et selon quelle procédure d'arrêt. OpenAI obtient la meilleure note (3 sur 5) pour avoir suspendu des charges de travail après des incidents, sans plan formel pour autant ; Anthropic et Meta ferment la marche. Steven Adler, directeur scientifique de Guidelight, estime que les entreprises disposent de « peu de protocoles prêts pour une urgence ». La pression réglementaire monte avec SB 53 en Californie, le RAISE Act à New York et la proposition bipartisane d'AI Kill Switch Act."
+        },
+        {
+          "category": "AI",
+          "title": "Nvidia montre qu'une simple algèbre linéaire remplace les transferts coûteux de cache entre modèles",
+          "url": "https://venturebeat.com/technology/nvidia-finds-that-simple-linear-math-can-replace-costly-ai-model-handoffs",
+          "publishedAt": "2026-08-21",
+          "summary": "Des chercheurs de Nvidia ont trouvé un moyen de transférer le cache clé-valeur d'un modèle de langage à un autre sans recalculer tout l'historique de conversation, un goulot d'étranglement majeur des systèmes agentiques qui alternent entre modèles en cours de session. Constatant que le cache inter-modèles présente une structure largement linéaire, ils évitent l'entraînement d'un réseau de neurones au profit d'une régression ridge par tête d'attention, d'une sélection des couches sources et d'une projection dans l'espace de contenu après retrait des encodages positionnels. Résultat : un transfert 2,7 à 25 fois plus rapide, conservant 73 à 98 % de la précision du modèle cible au sein de familles compatibles (Qwen3, Llama 3.1, Ministral 3). Un cache de 32 768 jetons passe de 7 secondes à 278 millisecondes."
+        },
+        {
+          "category": "IT",
+          "title": "La CISA alerte sur l'exploitation d'une faille critique de MLflow",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
+          "publishedAt": "2026-08-21",
+          "summary": "L'agence américaine de cybersécurité a ajouté à son catalogue des vulnérabilités activement exploitées une faille critique de MLflow, la plateforme open source de gestion du cycle de vie des modèles d'apprentissage automatique. Les agences fédérales reçoivent l'ordre de corriger dans les délais réglementaires. L'alerte est significative au-delà du périmètre gouvernemental : MLflow est déployé dans un très grand nombre de pipelines MLOps d'entreprise, souvent sur des serveurs internes considérés comme non exposés et donc peu durcis, alors qu'ils concentrent jeux de données d'entraînement, artefacts de modèles et identifiants d'accès aux entrepôts de données. C'est l'un des premiers signaux nets que l'outillage IA lui-même devient une cible de choix, et non plus seulement un sujet d'expérimentation offensive."
+        },
+        {
+          "category": "AI",
+          "title": "Les entreprises qui réussissent avec les agents IA sont celles qui bornent leur autonomie",
+          "url": "https://venturebeat.com/orchestration/enterprises-winning-with-ai-agents-are-limiting-how-much-the-agents-can-do-alone",
+          "publishedAt": "2026-08-22",
+          "summary": "VentureBeat rapporte un enseignement convergent des déploiements d'agents en entreprise : les organisations qui obtiennent des résultats sont celles qui restreignent délibérément le périmètre d'action de leurs agents, en leur assignant des responsabilités précises et des règles explicites, plutôt que celles qui recherchent l'autonomie maximale. Le constat contredit le discours dominant sur les agents généralistes capables d'enchaîner des tâches de bout en bout. En pratique, les architectures qui tiennent reposent sur des périmètres étroits, des points de validation humaine aux étapes sensibles et une traçabilité des actions. Ce cadrage rejoint les préoccupations soulevées par ailleurs sur les protocoles de confinement, et suggère que la maturité opérationnelle de l'IA agentique passe par la contrainte plutôt que par la liberté."
+        },
+        {
+          "category": "Science",
+          "title": "Le LHC révèle la géométrie nucléaire changeante de l'oxygène et du néon",
+          "url": "https://phys.org/news/2026-08-lhc-collisions-reveal-oxygen-neon.html",
+          "publishedAt": "2026-08-21",
+          "summary": "Les collisions oxygène-oxygène et néon-néon réalisées au Grand collisionneur de hadrons produisent des motifs d'écoulement collectif — elliptique et triangulaire — cohérents avec une réponse de type fluide à la géométrie initiale du choc, ce qui permet de remonter à la forme des noyaux eux-mêmes. Dans les collisions frontales, le néon présente un signal elliptique plus marqué que l'oxygène, signe que le noyau de néon-20 est moins sphérique que celui d'oxygène-16. Les mesures d'écoulement triangulaire s'écartent en revanche des prédictions quantitatives des modèles, indiquant la nécessité de cadres théoriques mieux adaptés aux fluctuations événement par événement dans les petits systèmes. Les auteurs soulignent qu'une détermination quantitative de la déformation exigera des études dédiées supplémentaires."
+        },
+        {
+          "category": "IT",
+          "title": "Des centaines de clés AWS fuitées donnent le contrôle total de comptes d'entreprise",
+          "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
+          "publishedAt": "2026-08-21",
+          "summary": "Une étude recense plus de 9 300 clés d'accès AWS exposées publiquement, dont une partie substantielle reste active alors que certaines circulent depuis 2022. Des centaines d'entre elles offrent un contrôle complet des comptes concernés, avec la possibilité de créer des ressources, d'exfiltrer des données ou de pivoter dans l'infrastructure. Le constat pointe moins une faille technique qu'une défaillance de gouvernance : les secrets fuitent par les dépôts de code, les images de conteneurs et les fichiers de configuration, et personne ne les révoque ensuite. La parade tient à des mesures connues mais inégalement appliquées — rotation systématique, identifiants temporaires par rôle, analyse de secrets en intégration continue et surveillance des clés à privilèges étendus."
+        },
+        {
+          "category": "AI",
+          "title": "OpenAI demande à la Californie de renforcer son projet de loi sur la sécurité de l'IA",
+          "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+          "publishedAt": "2026-08-22",
+          "summary": "Prise de position notable dans un secteur habituellement occupé à alléger les textes qui le visent : OpenAI a fait savoir que la Californie devrait durcir son projet de loi sur la sécurité de l'intelligence artificielle. L'entreprise, longtemps critiquée pour son lobbying contre certaines dispositions de l'État, se range cette fois du côté d'exigences plus fortes. L'intervention arrive alors que la Californie a déjà adopté SB 53 sur la transparence des cadres de sécurité et que la question du confinement des modèles fait l'objet de rapports critiques. Elle s'inscrit aussi dans un contexte de concurrence réglementaire entre États américains, où les grands laboratoires arbitrent entre régime fédéral uniforme et mosaïque de législations locales."
+        },
+        {
+          "category": "Science",
+          "title": "Parler plusieurs langues serait associé à un cerveau jusqu'à treize ans plus jeune",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260821012226.htm",
+          "publishedAt": "2026-08-21",
+          "summary": "Une étude portant sur des personnes maîtrisant plusieurs langues met en évidence un écart marqué entre âge biologique du cerveau et âge chronologique : les locuteurs de quatre langues présentent des marqueurs suggérant un vieillissement cérébral inférieur d'environ treize ans. L'effet suit une gradation avec le nombre de langues pratiquées, ce qui renforce la plausibilité d'un lien causal plutôt que d'une simple corrélation. L'hypothèse dominante reste celle de la réserve cognitive : la gestion permanente de plusieurs systèmes linguistiques sollicite le contrôle exécutif et l'inhibition, entretenant des réseaux dont la dégradation accompagne habituellement le vieillissement. Ces travaux relancent l'intérêt de l'apprentissage des langues comme facteur modifiable de santé cognitive, dans un contexte multilingue particulièrement pertinent en Suisse."
+        },
+        {
+          "category": "IT",
+          "title": "Une faille critique d'isolated-vm permet une exécution de code sur l'hôte",
+          "url": "https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/",
+          "publishedAt": "2026-08-21",
+          "summary": "Un bug de confusion de types dans isolated-vm, la bibliothèque Node.js utilisée pour exécuter du code JavaScript non fiable dans un environnement cloisonné, permet une évasion du bac à sable V8 et un détournement du flot de contrôle jusqu'à l'exécution de code sur la machine hôte. La portée est notable car isolated-vm est précisément l'outil choisi par les plateformes qui font tourner du code fourni par leurs utilisateurs : fonctions serverless, moteurs de règles, extensions applicatives et, de plus en plus, exécution du code produit par des agents IA. La faille supprime la frontière de sécurité que ces architectures tiennent pour acquise, et impose une mise à jour immédiate de la dépendance dans toutes les chaînes concernées."
+        },
+        {
+          "category": "AI",
+          "title": "Slack veut sortir le codage assisté par IA du terminal pour l'amener dans la conversation d'équipe",
+          "url": "https://venturebeat.com/orchestration/slack-wants-to-drag-ai-coding-out-of-the-terminal-and-into-the-group-chat",
+          "publishedAt": "2026-08-21",
+          "summary": "Slack lance Slack Code, qui intègre plusieurs agents de codage IA dans des canaux dédiés afin que le développement assisté se déroule sous les yeux de l'équipe plutôt que dans le terminal d'un développeur isolé. L'idée est de rendre visibles les instructions données, les modifications produites et les décisions prises, et d'ouvrir la supervision collective : un collègue peut relire, corriger le cap ou reprendre la main. Le produit prend le contre-pied des interfaces en ligne de commande qui dominent aujourd'hui l'usage des agents de code, en pariant que le goulot d'étranglement n'est plus la génération de code mais sa revue et sa coordination. Il place aussi Slack en concurrence directe avec les intégrations d'agents des forges logicielles."
+        },
+        {
+          "category": "Science",
+          "title": "Une fibre gelée fait interagir lumière et son mille fois plus fortement",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260821012228.htm",
+          "publishedAt": "2026-08-22",
+          "summary": "Des chercheurs ont obtenu une amplification d'environ trois ordres de grandeur du couplage entre photons et phonons dans une fibre optique refroidie, où les ondes lumineuses et les vibrations acoustiques du matériau échangent de l'énergie avec une efficacité inédite. Ce type d'interaction, à la base de la diffusion Brillouin, sert déjà à fabriquer des lasers à très faible bruit, des filtres micro-ondes accordables et des capteurs répartis capables de mesurer température et déformation sur des kilomètres. Un renforcement de cette ampleur ouvre la voie à des dispositifs beaucoup plus compacts et à des mémoires optomécaniques susceptibles de stocker brièvement l'information portée par la lumière, brique recherchée pour les réseaux quantiques."
+        },
+        {
+          "category": "AI",
+          "title": "Inherent affirme que son « coéquipier » IA surpasse Anthropic et OpenAI en réplication de recherche",
+          "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+          "publishedAt": "2026-08-22",
+          "summary": "Inherent, laboratoire londonien fondé par d'anciens de Google DeepMind, annonce que son agent Faraday a devancé Claude Opus 4.8 et GPT-5.5 sur une tâche de reproduction d'articles scientifiques publiés, sans connaissance préalable des résultats. Le point remarquable tient à l'écart de taille : Faraday s'appuie sur Qwen 3.6, un modèle de seulement 27 milliards de paramètres, face à des systèmes nettement plus massifs. Le cofondateur Edward Hughes insiste sur la méthode plutôt que sur le score : l'équipe a recouru à l'apprentissage par renforcement pour inculquer un « goût de la recherche », c'est-à-dire l'intuition des expériences qui valent la peine et d'un protocole solide, plutôt que d'encoder des règles. La start-up, sortie de l'ombre avec 50 millions de dollars d'amorçage, vise 20 à 25 employés d'ici la fin de l'année."
+        },
+        {
+          "category": "Science",
+          "title": "Des sondes interplanétaires captent une partie d'éjection de masse coronale invisible depuis la Terre",
+          "url": "https://phys.org/news/2026-08-interplanetary-spacecraft-capture-coronal-mass.html",
+          "publishedAt": "2026-08-21",
+          "summary": "En combinant les mesures de plusieurs sondes réparties dans le système solaire interne, des chercheurs ont observé une composante d'éjection de masse coronale qui échappe totalement aux instruments placés dans l'axe Terre-Soleil. Ces éruptions solaires, faites de plasma et de champ magnétique, constituent la principale menace pour les satellites, les réseaux électriques et les liaisons radio, et leur prévision reste largement dépendante de vues frontales difficiles à interpréter. Disposer de points de vue latéraux permet de reconstituer la structure tridimensionnelle réelle du nuage éjecté et son orientation magnétique, paramètre déterminant pour la sévérité d'un orage géomagnétique. Le résultat plaide pour des architectures de surveillance multi-points plutôt que pour un observatoire unique."
+        },
+        {
+          "category": "AI",
+          "title": "Cloudflare lance Bot Preference Sync pour aligner robots.txt et politiques anti-IA",
+          "url": "https://blog.cloudflare.com/bot-preference-sync/",
+          "publishedAt": "2026-08-21",
+          "summary": "Cloudflare a mis en service Bot Preference Sync, une fonction qui met automatiquement à jour le fichier robots.txt d'un site en fonction des règles définies pour les robots d'IA, évitant aux éditeurs de maintenir un fichier statique en parallèle de leur configuration. Trois catégories sont distinguées — recherche, agents et entraînement — avec pour chacune des options d'autorisation, de blocage sur les pages publicitaires ou de blocage total, et une directive de refus d'entraînement. Les robots à usage mixte doivent démontrer qu'ils respectent la préférence « pas d'entraînement », proposent un mécanisme de retrait et offrent une visibilité sur l'usage des contenus, faute de quoi ils sont bloqués. La fonction est déployée sur toutes les offres et activée par défaut pour les nouveaux clients."
+        },
+        {
+          "category": "Science",
+          "title": "Un complément à base de levure pourrait renforcer l'immunité antitumorale",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260821012230.htm",
+          "publishedAt": "2026-08-21",
+          "summary": "Des travaux indiquent que le bêta-glucane issu de la levure améliore la réponse immunitaire face aux tumeurs en reprogrammant les cellules immunitaires précoces au niveau de la moelle osseuse, plutôt qu'en agissant sur les cellules matures déjà en circulation. Ce mécanisme relève de ce que l'on appelle l'immunité entraînée : une reprogrammation épigénétique des progéniteurs qui rend leur descendance durablement plus réactive. L'intérêt tient au caractère peu coûteux et bien toléré de la molécule, envisageable en complément des immunothérapies existantes dont l'efficacité reste limitée à une fraction des patients. Comme toujours à ce stade, le passage du modèle expérimental à un bénéfice clinique démontré demeure l'étape la plus incertaine."
+        }
+      ]
+    }
+  ]
+}

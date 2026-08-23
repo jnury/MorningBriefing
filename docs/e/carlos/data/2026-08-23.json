@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-23T03:09:41.644Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 24,
+          "low": 15,
+          "condition": "Couvert",
+          "weathercode": 3,
+          "precipProbability": 0
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Une réunion de la « coalition des volontaires », coprésidée par Emmanuel Macron, Friedrich Merz et Keir Starmer et réunissant plus de trente pays, se tiendra lundi 24 août à Kiev avec Volodymyr Zelensky, pour renforcer la défense antiaérienne et travailler aux garanties de sécurité, le jour des 35 ans de l'indépendance ukrainienne.",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "headline": "À la COP17 sur la désertification à Oulan-Bator, les États ont confirmé l'objectif de restaurer un milliard d'hectares de terres d'ici 2030, avec plus de 70 plans nationaux de gestion de la sécheresse déposés et environ 2 milliards de dollars de projets d'investissement en préparation.",
+          "publishedAt": "2026-08-22"
+        },
+        {
+          "headline": "Le Mexique reprendra dès le 24 août ses exportations de bétail vers les États-Unis par le poste-frontière de Douglas (Arizona), après un an d'embargo lié à la lucilie bouchère, sous un régime de contrôles renforcés (puces RFID, lecteurs électroniques et chiens détecteurs).",
+          "publishedAt": "2026-08-22"
+        },
+        {
+          "headline": "En visite à Saint-Marin pour le centenaire des relations diplomatiques avec le Saint-Siège, le pape Léon XIV a salué la plus ancienne république du monde comme un modèle de liberté politique et de service au bien commun, mettant en garde contre les systèmes qui placent le pouvoir au-dessus de la personne humaine.",
+          "publishedAt": "2026-08-22"
+        },
+        {
+          "headline": "Tadej Pogacar a remporté le contre-la-montre inaugural de 9,4 km de la Vuelta dans les rues de Monaco pour 0,09 seconde devant Ethan Hayter, s'emparant du premier maillot rouge de l'édition 2026.",
+          "publishedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "Microsoft corrige une faille Entra ID de sévérité maximale déjà exploitée",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+          "publishedAt": "2026-08-21",
+          "summary": "Microsoft a publié 22 correctifs pour ses services cloud, dont plusieurs vulnérabilités de sévérité maximale. La plus préoccupante, CVE-2026-69836, touche Entra ID, la plateforme d'identité qui sert de porte d'entrée à l'ensemble de l'écosystème Microsoft 365 et Azure : une désérialisation de données non fiables permet l'exécution de code sans privilège préalable et avec une complexité d'attaque faible. Trois autres failles critiques sont corrigées : deux élévations de privilèges non authentifiées dans Azure Arc (CVE-2026-65816 et CVE-2026-69555), une dans Exchange Online (CVE-2026-65801) et une exécution de code à distance dans Azure Managed Instance for Apache Cassandra (CVE-2026-65770). Microsoft affirme que le code d'exploitation n'est pas public et que les correctifs sont déjà déployés côté service, sans action requise des clients."
+        },
+        {
+          "category": "IT",
+          "title": "GitLab : la faille CVE-2026-19478 exploitée quelques jours après sa divulgation",
+          "url": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
+          "publishedAt": "2026-08-21",
+          "summary": "Une vulnérabilité d'injection de code notée 9,4 sur l'échelle CVSS est activement exploitée dans GitLab. Passant par une directive GraphQL, elle permet à un attaquant non authentifié de modifier ou de supprimer des projets publics : effacement de dépôts entiers, falsification d'enregistrements de merge, bannissement des mainteneurs. Sont concernées les versions 18.2 avant 18.11.11, 19.0 avant 19.0.8, 19.1 avant 19.1.6 et 19.2 avant 19.2.4. La société watchTowr a observé l'exploitation depuis ses honeypots et souligne que « les attaquants outillés par l'IA compriment le délai entre divulgation et exploitation ». Les recommandations : mettre à jour en priorité, chercher dans les journaux web les requêtes contenant « @gl_introduced », et restreindre l'accès non authentifié à /api/graphql en attendant."
+        },
+        {
+          "category": "IT",
+          "title": "Cisco corrige neuf failles Crosswork et Secure Workload, dont cinq notées 10.0",
+          "url": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
+          "publishedAt": "2026-08-21",
+          "summary": "Cisco a publié un lot de correctifs couvrant neuf vulnérabilités dans ses plateformes Crosswork et Secure Workload, dont cinq atteignent le score CVSS maximal de 10.0. Ces produits occupent une position névralgique dans les réseaux opérateurs et les grandes infrastructures d'entreprise : Crosswork orchestre l'automatisation réseau, Secure Workload assure la micro-segmentation des charges de travail. Une compromission y ouvrirait un accès transversal à l'ensemble du parc administré. L'équipementier n'a pas signalé d'exploitation en cours au moment de la publication, mais la conjonction d'un score maximal et d'un rôle d'administration centralisée place ces correctifs en tête des priorités de patching pour les équipes d'infrastructure."
+        },
+        {
+          "category": "IT",
+          "title": "La CISA alerte sur l'exploitation d'une faille critique de MLflow",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
+          "publishedAt": "2026-08-21",
+          "summary": "L'agence américaine de cybersécurité a ajouté à son catalogue des vulnérabilités activement exploitées une faille critique de MLflow, la plateforme open source de gestion du cycle de vie des modèles d'apprentissage automatique. Les agences fédérales reçoivent l'ordre de corriger dans les délais réglementaires. L'alerte est significative au-delà du périmètre gouvernemental : MLflow est déployé dans un très grand nombre de pipelines MLOps d'entreprise, souvent sur des serveurs internes considérés comme non exposés et donc peu durcis, alors qu'ils concentrent jeux de données d'entraînement, artefacts de modèles et identifiants d'accès aux entrepôts de données. C'est l'un des premiers signaux nets que l'outillage IA lui-même devient une cible de choix, et non plus seulement un sujet d'expérimentation offensive."
+        },
+        {
+          "category": "IT",
+          "title": "Des centaines de clés AWS fuitées donnent le contrôle total de comptes d'entreprise",
+          "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
+          "publishedAt": "2026-08-21",
+          "summary": "Une étude recense plus de 9 300 clés d'accès AWS exposées publiquement, dont une partie substantielle reste active alors que certaines circulent depuis 2022. Des centaines d'entre elles offrent un contrôle complet des comptes concernés, avec la possibilité de créer des ressources, d'exfiltrer des données ou de pivoter dans l'infrastructure. Le constat pointe moins une faille technique qu'une défaillance de gouvernance : les secrets fuitent par les dépôts de code, les images de conteneurs et les fichiers de configuration, et personne ne les révoque ensuite. La parade tient à des mesures connues mais inégalement appliquées — rotation systématique, identifiants temporaires par rôle, analyse de secrets en intégration continue et surveillance des clés à privilèges étendus."
+        },
+        {
+          "category": "IT",
+          "title": "Citrix presse ses administrateurs de corriger de nouvelles failles NetScaler",
+          "url": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
+          "publishedAt": "2026-08-21",
+          "summary": "Citrix a publié un avis de sécurité portant sur deux vulnérabilités affectant NetScaler et appelle à une remédiation immédiate. Les appliances NetScaler, utilisées comme contrôleurs de mise à disposition d'applications et passerelles d'accès distant, sont par construction exposées sur Internet et placées en amont des applications métier : l'historique récent — de CitrixBleed aux vagues d'exploitation successives — montre que chaque avis y est rapidement suivi de tentatives à grande échelle. Les équipes concernées sont invitées à appliquer les versions corrigées, mais aussi à invalider les sessions actives après mise à jour, un point souvent négligé qui a laissé des accès persistants lors des épisodes précédents."
+        },
+        {
+          "category": "IT",
+          "title": "Une faille critique d'isolated-vm permet une exécution de code sur l'hôte",
+          "url": "https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/",
+          "publishedAt": "2026-08-21",
+          "summary": "Un bug de confusion de types dans isolated-vm, la bibliothèque Node.js utilisée pour exécuter du code JavaScript non fiable dans un environnement cloisonné, permet une évasion du bac à sable V8 et un détournement du flot de contrôle jusqu'à l'exécution de code sur la machine hôte. La portée est notable car isolated-vm est précisément l'outil choisi par les plateformes qui font tourner du code fourni par leurs utilisateurs : fonctions serverless, moteurs de règles, extensions applicatives et, de plus en plus, exécution du code produit par des agents IA. La faille supprime la frontière de sécurité que ces architectures tiennent pour acquise, et impose une mise à jour immédiate de la dépendance dans toutes les chaînes concernées."
+        },
+        {
+          "category": "IT",
+          "title": "Transformer les requêtes lentes en indicateurs de fiabilité exploitables avec OpenTelemetry",
+          "url": "https://www.cncf.io/blog/2026/08/21/how-to-turn-slow-queries-into-actionable-reliability-metrics-with-opentelemetry/",
+          "publishedAt": "2026-08-21",
+          "summary": "Publié sur le blog de la CNCF par Severin Neumann (Causely), cet article traite d'un problème quotidien des plateformes cloud natives : les requêtes SQL lentes dégradent l'expérience utilisateur et déclenchent des défaillances en cascade lorsque les délais d'attente saturent les pools de connexions et se propagent aux services amont. L'auteur montre comment instrumenter ces requêtes avec OpenTelemetry pour passer de traces brutes à des métriques de fiabilité directement exploitables, corrélées aux objectifs de niveau de service plutôt qu'aux seules moyennes de latence. La démarche vise à réduire le délai de diagnostic dans les architectures Kubernetes, où l'origine d'une dégradation observée en bordure se situe fréquemment plusieurs couches plus bas, dans la base de données."
+        },
+        {
+          "category": "AI",
+          "title": "Nvidia s'associe au développeur de centres de données Cloverleaf",
+          "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
+          "publishedAt": "2026-08-21",
+          "summary": "Nvidia noue un partenariat avec Cloverleaf, promoteur spécialisé dans le développement de centres de données, poursuivant une stratégie qui consiste à ne plus se contenter de vendre des accélérateurs mais à sécuriser en amont les capacités d'hébergement et surtout le raccordement électrique. Le goulot d'étranglement du secteur s'est en effet déplacé du silicium vers la puissance disponible et les délais de raccordement au réseau, qui se comptent désormais en années dans plusieurs marchés. En s'impliquant dans la conception des sites, le fabricant s'assure que ses architectures à forte densité trouvent des emplacements viables, et consolide sa position d'acteur intégré de la chaîne de valeur de l'IA."
+        },
+        {
+          "category": "IT",
+          "title": "Alibaba Cloud prévoit de réduire sa dépendance aux puces occidentales",
+          "url": "https://www.theregister.com/off-prem/2026/08/21/alibaba-cloud-plans-to-use-fewer-western-chips-to-boost-its-already-huge-ai-margins/5290815",
+          "publishedAt": "2026-08-21",
+          "summary": "Alibaba Cloud entend diminuer la part des composants occidentaux dans son infrastructure, un choix motivé autant par la marge que par la souveraineté : le fournisseur affiche déjà des marges élevées sur ses services d'IA et le recours à des accélérateurs conçus en interne ou approvisionnés localement en améliorerait encore l'économie, tout en réduisant l'exposition aux restrictions à l'exportation américaines. La démarche illustre la bifurcation en cours de l'infrastructure mondiale d'IA en deux écosystèmes matériels distincts. Pour les entreprises européennes, l'enjeu est celui de la portabilité : des piles logicielles optimisées pour des accélérateurs non-Nvidia impliquent des chaînes d'outils différentes et compliquent les stratégies multicloud entre fournisseurs occidentaux et chinois."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Cyclisme — Tadej Pogacar remporte le contre-la-montre inaugural de la Vuelta à Monaco (9,4 km en 10'57\"14) pour neuf millièmes devant Ethan Hayter et endosse le premier maillot rouge de sa carrière.",
+          "publishedAt": "2026-08-22"
+        },
+        {
+          "headline": "Football — Le Real Madrid de José Mourinho arrache la victoire 2-1 à l'Espanyol grâce à un but du remplaçant Carlos Espí dans les toutes dernières secondes.",
+          "publishedAt": "2026-08-22"
+        },
+        {
+          "headline": "Tennis — Arthur Fils balaie Flavio Cobolli 6-3, 6-4 en 1h07 à Cincinnati et se qualifie pour la première finale de Masters 1000 de sa carrière, à 22 ans.",
+          "publishedAt": "2026-08-22"
+        }
+      ]
+    }
+  ]
+}
