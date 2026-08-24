@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-24",
+  "generatedAt": "2026-08-24T03:11:11.234Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 25,
+          "low": 15,
+          "condition": "Pluie faible",
+          "weathercode": 61,
+          "precipProbability": 5
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Emmanuel Macron a ouvert à Paris une visite d'État de deux jours du prince héritier saoudien Mohammed ben Salmane, consacrée à la sécurité régionale, à l'énergie et à la coopération économique.",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "headline": "Lando Norris (McLaren) a remporté le dernier Grand Prix de F1 disputé à Zandvoort devant Kimi Antonelli et George Russell, signant sa deuxième victoire consécutive.",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "headline": "L'équipe chinoise All Gamers a été sacrée championne de l'Esports World Cup 2026 à Paris, recevant des mains d'Emmanuel Macron un trophée assorti de 7 millions de dollars.",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "headline": "Le Britannique Matthew Brennan, 21 ans, a décroché à Manosque sa première victoire d'étape sur un grand tour lors de la 2e étape de la Vuelta, Tadej Pogacar conservant le maillot rouge.",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "headline": "La Semaine mondiale de l'eau s'est ouverte dimanche à Stockholm, alors que les conflits liés à l'eau ont quasiment quadruplé depuis 2020, avec 420 cas recensés en 2024.",
+          "publishedAt": "2026-08-23"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "Une manipulation des registres du contrôleur DRAM brise l'isolation mémoire des processeurs",
+          "url": "https://www.infoq.com/news/2026/08/amd-memory-exploit/",
+          "publishedAt": "2026-08-23",
+          "summary": "Le chercheur Christopher Domas a divulgué « skitter-creek-bath-salts », un projet open source démontrant qu'il est possible de franchir les frontières de privilèges d'un processeur en manipulant les registres de traduction du contrôleur mémoire. En modifiant dynamiquement la correspondance entre adresses physiques et adresses DRAM au niveau de la logique matérielle — via des bits de configuration comme BankSwizzleMode —, l'attaque contourne les mécanismes de contrôle situés en amont, qui valident les adresses avant cette traduction. Sont ainsi neutralisés les Extended Page Tables, la limite TSEG du System Management Mode et les enclaves du Platform Security Processor. Sont principalement concernés les processeurs AMD de familles 14h, 15h et 16h, où un logiciel en Ring 0 accède à ces registres. La parade : verrouiller strictement ces registres dès le démarrage."
+        },
+        {
+          "category": "IT",
+          "title": "ToxicPanda 2.0 détourne les permissions VPN d'Android pour bloquer Google Play",
+          "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
+          "publishedAt": "2026-08-23",
+          "summary": "Le cheval de Troie bancaire Android ToxicPanda a fortement évolué : il vise désormais 349 applications bancaires, financières, crypto et de portefeuilles électroniques dans seize pays, et accepte 167 commandes distantes. Sa nouveauté la plus retorse consiste à demander la permission de service VPN pour créer une interface réseau locale et « bloquer les communications de Google Play et des services Google Play », empêchant vérifications de sécurité et mises à jour avant l'extraction de la charge utile. Via les services d'accessibilité, il active les options développeur et le débogage sans fil pour obtenir un accès shell et exécuter des commandes à privilèges élevés sans invite système. S'y ajoutent superpositions invisibles, faux écrans de verrouillage capturant codes PIN et schémas. Zimperium a publié les indicateurs de compromission."
+        },
+        {
+          "category": "IT",
+          "title": "Des pirates infectent les autoradios Android de voitures avec un botnet de proxys",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
+          "publishedAt": "2026-08-22",
+          "summary": "Kaspersky a mis au jour une attaque par chaîne d'approvisionnement visant les autoradios Android du fournisseur chinois DoFun. Le maliciel, nommé JarService, se propage via l'application légitime de mise à jour de l'appareil, distribuée par un serveur MQTT, puis télécharge des charges chiffrées dialoguant avec des serveurs de commande. Il prend en charge neuf commandes distinctes, dont l'émission de requêtes HTTP, l'exécution de JavaScript et des tests d'accessibilité d'hôtes. Objectif : transformer les unités infectées en nœuds de proxy résidentiel et mener de la fraude publicitaire. L'acteur identifié, le groupe MoYu, est déjà lié au botnet BadBox. Kaspersky souligne que « le maliciel n'interfère pas avec la conduite ni les systèmes critiques du véhicule ». DoFun, averti, a corrigé la faille. C'est le premier cas documenté sur ce type d'appareil."
+        },
+        {
+          "category": "IT",
+          "title": "Manic, Grandoreiro et ToxicPanda 2.0 : trois chevaux de Troie bancaires en pleine ascension",
+          "url": "https://www.securityweek.com/banking-trojans-manic-grandoreiro-toxicpanda-2-0-in-the-spotlight/",
+          "publishedAt": "2026-08-22",
+          "summary": "Trois familles de maliciels bancaires montent en puissance simultanément. Manic, cheval de Troie Android mêlant fraude bancaire et espionnage, cible d'abord l'Ukraine mais aussi la Russie, l'Europe et les plateformes crypto ; il embarque un « relais maillé hors ligne » permettant aux données collectées de transiter par les appareils infectés voisins quand la communication directe est coupée. Grandoreiro, maliciel Windows d'origine brésilienne vieux de dix ans, poursuit son évolution malgré les opérations de police : ses campagnes récentes visant le Mexique recourent au détournement de DLL via une application légitime pour échapper à la détection. ToxicPanda 2.0, enfin, gère 167 commandes distantes, vise près de 350 applications financières dans seize pays et automatise l'abus du débogage sans fil ADB pour l'élévation de privilèges."
+        },
+        {
+          "category": "IT",
+          "title": "« Si vous n'utilisez pas l'IA pour attaquer vos propres systèmes, vos adversaires le feront »",
+          "url": "https://www.theregister.com/security/2026/08/22/if-youre-not-using-ai-to-attack-your-own-systems-your-adversaries-will/5291346",
+          "publishedAt": "2026-08-22",
+          "summary": "Les défenseurs doivent adopter les agents IA pour le red teaming et les tests d'intrusion, faute de quoi ils subiront ceux des attaquants. Matt Hartman, ex-responsable cyber par intérim de la CISA, avertit qu'« il existe un risque énorme lié à l'IA agentique et aux identités machine » et recommande de « traiter chaque agent comme une identité à privilèges ». Rob Joyce, ex-patron cyber de la NSA, tranche : « vous serez red-teamé, que vous payiez pour cela ou non ». Armadin et Tenex.ai revendiquent « la plus vaste cyberattaque IA en conditions réelles jamais contrôlée » : 17 millions d'actions offensives et 38 chemins d'attaque validés en trois jours, l'équivalent de quatre mois pour cinq analystes. Les tests annuels ou trimestriels ne suivent plus, sur la vitesse, l'étendue et la sophistication."
+        },
+        {
+          "category": "IT",
+          "title": "Cloudflare ouvre le code de Cloudflare OS, sa plateforme IA interne à permissions strictes",
+          "url": "https://www.infoq.com/news/2026/08/cloudflare-os-ai-platform-secure/",
+          "publishedAt": "2026-08-23",
+          "summary": "Cloudflare publie en open source (licence Apache 2.0) Cloudflare OS, une plateforme permettant aux équipes de créer des applications internes assistées par IA sans sacrifier le cloisonnement. Chaque utilisateur dispose d'une instance isolée exécutée dans des isolats V8 pilotés par le runtime workerd, ce qui empêche les fuites entre locataires et autorise la modification de code sans impact partagé. La sécurité repose sur des « Gatekeepers », un modèle par capacités où les agents n'ont aucune permission ambiante et n'accèdent qu'à des ressources explicitement délimitées — une rupture avec les implémentations larges du Model Context Protocol. Depuis mai 2026 en interne : plus de 4 000 outils métier créés en trente jours par des non-développeurs, environ 10 000 heures récupérées côté commercial, près de 250 000 bugs potentiels détectés."
+        },
+        {
+          "category": "IT",
+          "title": "OVHcloud relève fortement ses tarifs, victime de la ruée de l'IA sur la mémoire",
+          "url": "https://www.infoq.com/news/2026/08/ovhcloud-memory-price-rise/",
+          "publishedAt": "2026-08-23",
+          "summary": "OVHcloud annonce des hausses de prix applicables en septembre 2026 : jusqu'à 87 % sur les serveurs de jeu, 40 à 59 % sur les équipements récents. En cause, la réorientation des trois grands fabricants de RAM vers la mémoire à haute bande passante destinée aux GPU, au détriment de la DDR standard. Le fondateur Octave Klaba chiffre le choc : « Ce mois-ci, en juin 2026, nous payons la RAM six fois le prix de juin 2025 », avec une projection à neuf fois en septembre et douze fois début 2027. Les SSD sont à 3,23 fois et les disques durs à 1,48 fois le niveau de 2025. AWS, mieux intégré verticalement, n'a relevé que ses Capacity Blocks GPU d'environ 20 %."
+        },
+        {
+          "category": "IT",
+          "title": "Nvidia investit dans Cloverleaf pour colmater les fissures de l'infrastructure IA",
+          "url": "https://www.theregister.com/systems/2026/08/22/cloverleaf-deal-is-latest-example-of-nvidia-using-its-war-chest-to-patch-cracks-in-the-ai-bubble/5291369",
+          "publishedAt": "2026-08-22",
+          "summary": "Nvidia a annoncé une prise de participation minoritaire dans Cloverleaf Infrastructure, société fondée en 2024 spécialisée dans le foncier et l'alimentation électrique des centres de données IA. L'objectif : lever les goulets d'étranglement qui freinent les ventes de GPU. Les puces Blackwell exigent un refroidissement liquide que toutes les installations ne savent pas fournir, et les racks passeront l'an prochain d'environ 250 kW à 600 kW. La multiplication des datacenters IA sature par ailleurs les réseaux électriques, forçant de nombreux sites à produire leur propre courant. Beaucoup de gros clients de Nvidia ne possèdent pas leurs datacenters et louent de la capacité. Via sa plateforme DSX et l'option DSX Flex, Nvidia mobilise sa trésorerie pour soutenir tout l'écosystème dont dépendent ses ventes."
+        },
+        {
+          "category": "IT",
+          "title": "Comment Cursor a contourné les limites de passage à l'échelle de Git",
+          "url": "https://www.theregister.com/devops/2026/08/23/how-cursor-beat-gits-scalability-shortcomings/5291421",
+          "publishedAt": "2026-08-23",
+          "summary": "Cursor a conçu Origin, un service qui marie stockage objet et disque local pour dépasser les limites de Git. Le problème : Git, magasin adressé par contenu, oblige les serveurs à parcourir des graphes acycliques entiers, et la solution historique de GitHub, « Spokes », maintient trois copies NVMe synchronisées de chaque dépôt, un mécanisme qui s'effondre à mesure que les réplicas se multiplient. S'y ajoutent les innombrables dépôts éphémères créés par les agents IA. Origin utilise Amazon S3 comme source de vérité, sous forme de journaux d'écriture immuables, tout en conservant des dépôts NVMe locaux pour les opérations sensibles à la latence. Les autres réplicas se synchronisent de façon asynchrone. Vicent Martí résume : le système « ingère les push aussi vite que le disque le permet »."
+        },
+        {
+          "category": "IT",
+          "title": "TikTok accepte de payer 400 millions de dollars pour clore le litige sur la vie privée des enfants",
+          "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
+          "publishedAt": "2026-08-22",
+          "summary": "TikTok et sa maison mère ByteDance versent 400 millions de dollars pour solder la plainte fédérale déposée en 2024 sur la protection des données des mineurs. Selon le ministère de la Justice, 300 millions seront payés immédiatement et 100 millions supplémentaires conditionnés à « l'entrée d'une ordonnance annulant un décret de consentement antérieur » visant Musical.ly, prédécesseur de TikTok. La plainte, portée conjointement par le DOJ et la FTC, dénonçait des « violations massives de la vie privée des enfants » : création sciemment autorisée de comptes par des moins de 13 ans, collecte illégale de données en « Kids Mode » et refus d'honorer les demandes de suppression parentales. Il s'agit de l'un des plus gros recouvrements jamais obtenus au titre de la loi COPPA."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Tennis : Arthur Fils a battu Frances Tiafoe 6-3 1-6 6-0 en finale du Masters 1000 de Cincinnati, décrochant à 22 ans son premier titre à ce niveau et le premier pour la France depuis douze ans.",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "headline": "Formule 1 : Lando Norris (McLaren) a remporté le Grand Prix des Pays-Bas à Zandvoort devant Kimi Antonelli et George Russell, dans une course marquée par la sortie de piste de Max Verstappen dès le premier tour.",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "headline": "Liga : le Real Madrid a lancé sa saison par un succès 2-1 à Espanyol pour le retour de José Mourinho sur le banc madrilène, l'entraîneur portugais dénonçant ensuite le « harcèlement » subi par Vinicius Junior.",
+          "publishedAt": "2026-08-23"
+        }
+      ]
+    }
+  ]
+}
