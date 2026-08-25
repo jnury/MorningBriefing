@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-25T03:10:01.701Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 24,
+          "low": 17,
+          "condition": "Averses",
+          "weathercode": 80,
+          "precipProbability": 100
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "L'Union européenne a approuvé 6,1 milliards d'euros pour la défense ukrainienne, dans le cadre d'un programme de prêts de 90 milliards, Ursula von der Leyen assurant que « l'Europe livrera à l'Ukraine ce dont elle a besoin, quand elle en a besoin ».",
+          "publishedAt": "2026-08-24"
+        },
+        {
+          "headline": "L'Islande vote samedi 29 août sur la reprise des négociations d'adhésion à l'Union européenne, un scrutin que Bruxelles espère transformer en première « success story » d'élargissement par le Nord.",
+          "publishedAt": "2026-08-24"
+        },
+        {
+          "headline": "Un des plus grands centres de données dédiés à l'IA d'Europe, porté par Schwarz Digits pour 11 milliards d'euros et environ 100 000 GPU, s'implante dans le Brandebourg sur le site d'une ancienne centrale, avec énergies renouvelables et refroidissement en circuit fermé.",
+          "publishedAt": "2026-08-24"
+        },
+        {
+          "headline": "La « coalition des volontaires » s'est réunie à Kyiv pour la fête de l'indépendance, le nouveau Premier ministre britannique Andy Burnham y effectuant son premier déplacement à l'étranger et promettant d'aider l'Ukraine à produire ses propres missiles de longue portée.",
+          "publishedAt": "2026-08-24"
+        },
+        {
+          "headline": "Emmanuel Macron a promulgué la loi interdisant le téléphone portable au lycée, une mesure applicable dès la rentrée scolaire de la semaine suivante.",
+          "publishedAt": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "La CISA impose un correctif d'urgence pour une faille Zimbra activement exploitée",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
+          "publishedAt": "2026-08-24",
+          "summary": "L'agence américaine de cybersécurité ordonne aux administrations fédérales de corriger sous trois jours la CVE-2026-73570, une exécution de code à distance dans Zimbra Collaboration Suite. La faille provient d'une mauvaise validation des données lors du traitement des notifications SNMP : un attaquant non authentifié peut, via des requêtes SMTP forgées, exécuter des commandes sous l'identité de l'utilisateur zimbra. Seuls les serveurs dont les notifications SNMP sont activées sont concernés ; le correctif figure dans la version 10.1.20 publiée le 20 juillet. Le CERT polonais a signalé les premières exploitations le 19 août ; plus de 270 instances compromises étaient recensées le 23 août, sur environ 12 000 serveurs exposés. Il est conseillé de vérifier les redémarrages inattendus et les fichiers déposés récemment."
+        },
+        {
+          "category": "IT",
+          "title": "Keycloak : une faille critique de réinitialisation de mot de passe permet de prendre tout compte",
+          "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
+          "publishedAt": "2026-08-24",
+          "summary": "Une vulnérabilité critique de contournement d'authentification, référencée CVE-2026-18963 et notée 9,1 sur l'échelle CVSS, affecte le gestionnaire d'identités open source Keycloak. Elle tient à une validation d'état défaillante dans le flux d'authentification reset-credentials : une requête spécialement forgée vers ce point d'entrée contourne l'exigence de jeton de vérification par courriel et autorise le changement direct du mot de passe de n'importe quel compte, y compris administrateur. Aucune interaction utilisateur n'est requise, ce qui a valu au bogue sa classification critique par Red Hat. Sont concernées les versions antérieures à 26.7.2 en amont, ainsi que les paquets Red Hat 26.4 et 26.6 antérieurs aux correctifs. Contournement temporaire : désactiver la fonction « mot de passe oublié » dans tous les royaumes."
+        },
+        {
+          "category": "IT",
+          "title": "UAT-10147 industrialise ses intrusions avec l'IA et déploie la porte dérobée SPECTRE",
+          "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+          "publishedAt": "2026-08-24",
+          "summary": "Cisco Talos décrit un groupe cybercriminel sinophone, UAT-10147, qui exploite à grande échelle des vulnérabilités publiquement divulguées (Zimbra, AjaxPro, Telerik UI, Alibaba Nacos) pour compromettre des serveurs dans l'éducation, les médias, la technologie et le jeu vidéo, au Brésil, en Bolivie, en Chine, au Canada et au Vietnam. L'originalité tient à l'automatisation : outre Metasploit et ysoserial, les attaquants recourent à des outils assistés par IA comme PentestGPT et le scanner DeepAudit, ainsi qu'à un guide de désérialisation ViewState en ASP.NET. La chaîne d'attaque combine élévation de privilèges via EfsPotato, pilotes vulnérables détournés (RTCore64.sys, DBUtil_2_3.sys), l'implant web BadIIS, Gh0stCringe, Noodle RAT et Quasar, puis la porte dérobée multiplateforme SPECTRE, accompagnée d'un rootkit Linux."
+        },
+        {
+          "category": "IT",
+          "title": "WordPress : deux contournements d'authentification exploités dans le greffon SSO miniOrange",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
+          "publishedAt": "2026-08-24",
+          "summary": "Des attaquants exploitent activement deux failles critiques du greffon miniOrange SAML 2.0 Single Sign-On pour WordPress, référencées CVE-2026-61979 et CVE-2026-15981. La première laisse l'assaillant imposer l'algorithme de signature de la réponse SAML : en choisissant HMAC-SHA1, il utilise la clé publique du fournisseur d'identité comme secret partagé pour forger une signature valide. La seconde fait interpréter une erreur de vérification OpenSSL (valeur -1) comme un succès, laissant passer des signatures malformées. Enchaînées, elles ouvrent une session administrateur légitime. Patchstack documente un incident du 16 août où DigitalOcean a bloqué une session anormale sur l'édition Standard 16.1.9. Des correctifs existent pour les sept éditions, mais l'avis initial ne couvrait que la version gratuite."
+        },
+        {
+          "category": "IT",
+          "title": "Une faille non corrigée des routeurs Calix expose les appareils du réseau domestique",
+          "url": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
+          "publishedAt": "2026-08-24",
+          "summary": "Les routeurs résidentiels Calix GS7 XGS (GS5239XG), largement distribués par des fournisseurs d'accès américains sous le nom GigaSpire 7u10txg, exposent le point de contrôle MiniUPnPd sur l'interface WAN, port TCP 5000, sans aucun contrôle d'accès. Référencée CVE-2026-75501 et présente sur le micrologiciel EXOS/6.6.47, la faille permet à un attaquant distant non authentifié d'envoyer des requêtes SOAP pour ajouter, supprimer ou énumérer des règles de redirection de ports, contournant ainsi la traduction d'adresses et le pare-feu, et exposant à Internet les équipements internes. Le chercheur Brian Khan Quintana, sans réponse de l'éditeur depuis le 7 juin, est passé par le CERT/CC. Palliatif : désactiver UPnP, option parfois verrouillée par l'opérateur."
+        },
+        {
+          "category": "IT",
+          "title": "Opération QUICSILVER : espionnage du gouvernement birman avec la porte dérobée QUICAgent",
+          "url": "https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html",
+          "publishedAt": "2026-08-24",
+          "summary": "Seqrite Labs documente une campagne d'espionnage visant le gouvernement et le secteur informatique du Myanmar, attribuée avec une confiance modérée à un acteur lié à la Chine. Repérée en avril 2026, avec des variantes en juin et juillet, elle utilise de fausses invitations à une cérémonie de remise de diplômes rédigées en birman et attribuées au département des technologies de l'information et de la cybersécurité. La chaîne d'infection repose sur un fichier de disque dur virtuel contenant un raccourci déguisé en PDF, qui lance ftp.exe, binaire Microsoft légitime, pour reconstruire une charge utile en plusieurs étapes. Le résultat, QUICAgent, est une porte dérobée en Go communiquant par protocole QUIC sur le port UDP 443, avec évasion de bac à sable."
+        },
+        {
+          "category": "IT",
+          "title": "ReliaQuest confirme une tentative de vol de données après une intrusion revendiquée par ShinyHunters",
+          "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
+          "publishedAt": "2026-08-24",
+          "summary": "L'entreprise de cybersécurité ReliaQuest révèle que des attaquants se faisant passer pour sa propre équipe de sécurité ont visé ses salariés. Le mode opératoire combine une fausse page d'authentification unique hébergée sur un domaine ressemblant, reliaquest.claims, et des appels téléphoniques frauduleux utilisant le nom d'un employé réel. Un collaborateur a saisi ses identifiants et validé une notification d'authentification multifacteur, ouvrant un accès en lecture seule au tableau de bord d'identités. Les contrôles de confiance des appareils ont ensuite bloqué toute connexion applicative. « Aucune application ni aucun système de ReliaQuest n'a été consulté, et aucune donnée client n'a été touchée », affirme la société, qui a révoqué les sessions et jetons. ShinyHunters a revendiqué l'opération avec des captures d'écran."
+        },
+        {
+          "category": "IT",
+          "title": "Atlassian détaille son analyse automatisée des causes racines pour incidents cloud natifs",
+          "url": "https://www.cncf.io/blog/2026/08/24/automating-root-cause-analysis-at-scale-multi-signal-correlation-for-cloud-native-incident-response/",
+          "publishedAt": "2026-08-24",
+          "summary": "Publié par la CNCF, ce retour d'expérience d'Atlassian décrit un système qui automatise la recherche de causes racines lors d'incidents dans des architectures cloud natives, en traitant le problème comme une corrélation sur trois dimensions : type de signal, temps et topologie de services. Le flux comprend cinq étapes : réduction du périmètre grâce aux cartes de services dérivées d'OpenTelemetry, qui ramènent l'analyse de centaines à quelques dizaines de services ; détection d'anomalies spécialisée par signal ; corrélation temporelle sur des fenêtres d'environ cinq minutes ; inférence causale par parcours du graphe de dépendances ; puis classement d'hypothèses assorties d'explications lisibles. La déduplication s'avère décisive à l'échelle : un même motif rejoué 47 fois ne produit qu'une hypothèse, avec un compteur."
+        },
+        {
+          "category": "IT",
+          "title": "Nvidia lance en production son accélérateur d'inférence Groq 3 LPX",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-groq-3-lpx-now-in-full-production-with-world-class-speed-for-agentic-ai",
+          "publishedAt": "2026-08-24",
+          "summary": "Nvidia annonce la production à grande échelle du Groq 3 LPX, accélérateur d'inférence interactive conçu pour la génération de jetons des systèmes d'IA agentique. Extension de la plateforme Vera Rubin, il repose sur une conception conjointe de sept puces et cinq racks dédiés, associés aux DPU BlueField-4, aux racks de processeurs Vera et à l'Ethernet Spectrum-6 SPX. Dans les mesures d'Artificial Analysis, il atteint 3400 jetons produits par seconde sur Gemma 4 31B avec une fenêtre de contexte de 100 000 jetons, soit une réactivité annoncée quatre fois supérieure aux plateformes concurrentes. Nebius est le premier nuage d'IA à l'intégrer, dans sa plateforme Token Factory. Jensen Huang décrit l'inférence comme « le moteur de croissance de l'IA »."
+        },
+        {
+          "category": "IT",
+          "title": "SpaceXAI adopte le processeur Vera de Nvidia, jusqu'à l'orbite",
+          "url": "https://nvidianews.nvidia.com/news/spacexai-adopts-nvidia-vera-cpu-to-accelerate-agentic-ai-at-massive-scale",
+          "publishedAt": "2026-08-24",
+          "summary": "Nvidia annonce que SpaceXAI déploiera ses processeurs Vera pour accélérer ses applications d'IA agentique. La puce embarque 88 cœurs Olympus conçus par Nvidia, la technologie Spatial Multithreading et une mémoire LPDDR5X offrant jusqu'à 1,2 To/s de bande passante, pour des tâches jusqu'à 1,8 fois plus rapides qu'un processeur x86. SpaceXAI l'utilisera pour l'orchestration d'agents et l'exécution de code, étendra l'infrastructure de Grok avec Vera Rubin à mesure qu'elle approche le gigawatt, et prépare un satellite Starmind fondé sur un système Vera Rubin NVL72 optimisé pour le calcul en orbite. Ian Buck : « Vera donne aux agents la performance nécessaire pour agir en temps réel. »"
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Hippisme : le Jurassien Steve Guerdat, sacré champion du monde de saut d'obstacles avec Dynamix de Belheme à Aix-la-Chapelle (0,86 point), devient le premier cavalier de l'histoire à cumuler les titres olympique, mondial, européen et la Coupe du monde.",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "headline": "Formule 1 : Lando Norris a signé sa deuxième victoire consécutive en remportant le dernier Grand Prix des Pays-Bas de l'histoire à Zandvoort, devant Kimi Antonelli, qui reste en tête du championnat avec 242 points.",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "headline": "Vuelta : la 3e étape entre Gruissan et Font-Romeu a été purement et simplement annulée à une quinzaine de kilomètres de l'arrivée après un violent orage de grêle, sans classement ni vainqueur, Tadej Pogacar conservant le maillot rouge.",
+          "publishedAt": "2026-08-24"
+        }
+      ]
+    }
+  ]
+}
