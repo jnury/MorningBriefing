@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T03:09:23.402Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 31,
+          "low": 20,
+          "condition": "Couvert",
+          "weathercode": 3,
+          "precipProbability": 5
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Des archéologues ont mis au jour à Lima les vestiges d'un hôpital colonial des années 1570 qui soignait les marins de passage dans les ports du Pacifique, jusqu'à 70 lits et six sépultures retrouvées.",
+          "publishedAt": "2026-08-26"
+        },
+        {
+          "headline": "Les pays de l'UE ont supporté près de 41 milliards d'euros de surcoûts d'importations d'énergies fossiles depuis mars à cause de la crise d'Ormuz, selon des données relayées par Euronews.",
+          "publishedAt": "2026-08-26"
+        },
+        {
+          "headline": "L'Iran et Oman ont annoncé un accord de partage des eaux et des revenus du détroit d'Ormuz, assorti d'un corridor de navigation conjoint et d'un déminage coordonné sur 30 à 60 jours.",
+          "publishedAt": "2026-08-26"
+        },
+        {
+          "headline": "Des milliers de participants ont teint de rouge les rues de Buñol, en Espagne, pour l'édition 2026 de la Tomatina, la plus grande bataille de tomates du monde.",
+          "publishedAt": "2026-08-26"
+        },
+        {
+          "headline": "Karolína Muchová et Jakub Menšík ont remporté le tournoi de double mixte de l'US Open, disputé sur un format accéléré avant le début du tableau principal.",
+          "publishedAt": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "Boston Scientific paralysé mondialement par une cyberattaque",
+          "url": "https://techcrunch.com/2026/08/26/medical-device-maker-boston-scientific-says-a-cyberattack-is-causing-a-global-disruption-to-its-operations/",
+          "publishedAt": "2026-08-26",
+          "summary": "Le fabricant de dispositifs médicaux Boston Scientific, basé dans le Massachusetts, a signalé dans un dépôt auprès de la SEC une cyberattaque débutée mardi, provoquant « des perturbations et des limitations d'accès » à ses systèmes informatiques et applications métier. Les capacités d'expédition et de traitement des commandes sont affectées à l'échelle mondiale. L'entreprise, qui traite environ 48 millions de patients par an, n'a pas précisé si les porteurs de dispositifs implantés — stimulateurs cardiaques, défibrillateurs — étaient concernés. Des milliers de salariés du site de Cork, en Irlande, auraient été renvoyés chez eux après la coupure des communications réseau. L'incident s'inscrit dans une série d'attaques visant Abbott, Medtronic et Stryker. Ni la cause ni un éventuel vol de données n'ont été communiqués."
+        },
+        {
+          "category": "IT",
+          "title": "La CISA confirme des attaques contre plus de 100 réseaux d'eau américains en juillet",
+          "url": "https://techcrunch.com/2026/08/26/cisa-confirms-hackers-targeted-over-100-us-water-systems-during-july/",
+          "publishedAt": "2026-08-26",
+          "summary": "La CISA a confirmé que plus d'une centaine de systèmes d'eau et d'assainissement exposés sur Internet ont été visés aux États-Unis durant le mois de juillet. Les attaques ont principalement ciblé des automates programmables industriels (PLC) de Rockwell, Schneider Electric et Siemens, qui pilotent les équipements physiques des exploitants. Des installations du Michigan, du Minnesota et d'au moins cinq autres États ont été touchées. Si les interruptions d'approvisionnement sont restées limitées, certaines intrusions ont permis de désactiver des procédures d'arrêt et des alarmes, créant des situations potentiellement dangereuses, et ont entraîné des arrêts d'exploitation le temps des investigations. Les services de renseignement américains attribueraient ces opérations à des acteurs soutenus par l'Iran, sans attribution officielle formelle."
+        },
+        {
+          "category": "IT",
+          "title": "Faille critique Gitea (CVE-2026-60004) activement exploitée pour du cryptominage",
+          "url": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
+          "publishedAt": "2026-08-26",
+          "summary": "La CVE-2026-60004, notée 9,8 sur l'échelle CVSS, permet à un utilisateur disposant d'un accès en écriture à un dépôt d'exécuter des commandes shell arbitraires sous l'identité du compte système Gitea, via le point d'entrée diffpatch. Comme Gitea autorise l'inscription ouverte par défaut, un attaquant externe peut créer un compte et un dépôt sans identifiants préalables. Toutes les versions depuis la 1.17 sont concernées ; le correctif se trouve dans la 1.27.1. La CISA a inscrit la faille à son catalogue KEV le 25 août 2026 et impose aux agences fédérales américaines un correctif avant le 28 août. Un administrateur rapporte une attaque déployant un dropper de type mineur de cryptomonnaie consommant plus de 70 % du CPU."
+        },
+        {
+          "category": "IT",
+          "title": "Chaîne d'exploitation SharePoint : des attaquants testent un enchaînement RCE non authentifié",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/",
+          "publishedAt": "2026-08-26",
+          "summary": "Des acteurs malveillants enchaînent deux vulnérabilités SharePoint pour viser une exécution de code à distance non authentifiée. La CVE-2026-55040, contournement d'authentification par jeton JWT, permet d'agir comme utilisateur ou administrateur du site ; un PoC signé Stephen Fewer (Rapid7) circule depuis le 11 août. Elle se combine à la CVE-2026-63520, une RCE dans les Business Connectivity Services, dont VulnCheck a publié un PoC le 24 août. Selon Defused, des pots de miel ont observé l'exploitation du contournement JWT suivie d'énumérations d'administration et de sondages du Business Data Catalog, sans exécution de code confirmée à ce stade. La CISA considère la première faille comme exploitée depuis le 18 août. Shadowserver recense plus de 8 700 serveurs SharePoint exposés sur Internet."
+        },
+        {
+          "category": "IT",
+          "title": "Le FBI démantèle l'infrastructure QTFY liée à l'État chinois",
+          "url": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html",
+          "publishedAt": "2026-08-26",
+          "summary": "Le département de la Justice américain a annoncé la saisie de deux plateformes d'attaque, QScan et QTRouter, exploitées par le groupe QTFY, employé par la société Nanjing Xinjiuwei Network Technology qui compte parmi ses clients le ministère de la Sécurité d'État et l'Armée populaire de libération. Les victimes recensées incluent la NASA, la Réserve fédérale, les départements de l'Énergie, de la Justice et de la Santé, les National Institutes of Health et le Sénat américain. Le FBI a travaillé environ un an avec Lumen Black Lotus Labs. Les domaines critiques étant codés en dur dans le maliciel, la saisie neutralise durablement les deux plateformes. Selon le directeur du FBI Kash Patel, ces outils servaient à « masquer l'origine des attaques »."
+        },
+        {
+          "category": "IT",
+          "title": "Kaltura mwEmbed : deux failles non corrigées, dont une RCE notée 10 sur 10",
+          "url": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
+          "publishedAt": "2026-08-26",
+          "summary": "Deux vulnérabilités affectent le lecteur vidéo Kaltura via le point d'entrée mwEmbedLoader.php, qui passe le paramètre ServiceUrl à la fonction PHP unserialize() sans validation. La CVE-2026-19913 (CVSS 9,1) permet à un attaquant non authentifié de lire des fichiers arbitraires, par exemple local.ini exposant identifiants et mots de passe de base de données. La CVE-2026-19912 (CVSS 10,0) exploite un paramètre uiconf_id non assaini et des séquences de traversée de répertoires pour écrire des objets sérialisés malveillants dans des répertoires accessibles par le web, aboutissant à une exécution de code. Les versions html5lib v2.45, v2.103 et antérieures sont concernées, y compris sur le CDN partagé de Kaltura. Aucun correctif : le CERT/CC n'a pas réussi à joindre l'éditeur."
+        },
+        {
+          "category": "IT",
+          "title": "Deux SOC face au même red team de la CISA : l'un ne voit rien, l'autre réagit en minutes",
+          "url": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html",
+          "publishedAt": "2026-08-25",
+          "summary": "L'avis AA26-237A de la CISA compare deux exercices d'équipe rouge menés simultanément, avec des méthodes identiques, contre deux opérateurs d'infrastructures critiques. Chez l'organisation A, un prestataire de services gouvernementaux, la compromission a été totale et jamais détectée : identifiants par défaut d'une application web, élévation de privilèges via des services de certificats Active Directory mal configurés, clés AWS statiques, vol de jetons de rafraîchissement primaires et applications Entra ID surprivilégiées. La fatigue d'alerte et un SOC fragmenté expliquent l'aveuglement. L'organisation B, un service d'eau et d'assainissement, a détecté et contenu l'attaque en 2 à 20 minutes, un hôte bastion bloquant les sorties Internet et protégeant l'OT. La CISA rappelle que les outils ne valent que par les personnes et procédures qui les soutiennent."
+        },
+        {
+          "category": "IT",
+          "title": "GPUThor : une attaque Rowhammer qui vainc la protection ECC des GPU Nvidia",
+          "url": "https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access/",
+          "publishedAt": "2026-08-26",
+          "summary": "Des chercheurs ont dévoilé GPUThor, une variante de Rowhammer capable de contourner les protections par code correcteur d'erreurs (ECC) des GPU Nvidia, ouvrant la voie à des dénis de service et à une élévation de privilèges jusqu'au niveau root. La technique s'appuie sur des motifs de martèlement mémoire non uniformes qui échappent aux mitigations Target Row Refresh, atteignant des taux de basculement de bits nettement supérieurs aux attaques GPU précédentes. Les cartes de station de travail Ampere à mémoire GDDR6 sont confirmées vulnérables : RTX A4000, A4500, A5000 et A6000. Les A100 serveur et certaines Blackwell pourraient l'être aussi. Nvidia recommande d'activer SYS-ECC et l'isolation IOMMU/DMA, de surveiller la télémétrie d'erreurs et d'éviter le partage de GPU entre locataires."
+        },
+        {
+          "category": "IT",
+          "title": "Ubiquiti corrige trois vulnérabilités de sévérité maximale sur UniFi",
+          "url": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-security-vulnerabilities/",
+          "publishedAt": "2026-08-26",
+          "summary": "Ubiquiti a publié des correctifs pour trois failles d'exécution de code à distance ne nécessitant aucune authentification ni interaction utilisateur, exploitables en attaques de faible complexité. La CVE-2026-77537 affecte l'application UniFi Protect via une validation d'entrée défaillante et permet de compromettre les équipements non corrigés. La CVE-2026-77550 est une injection CRLF dans UniFi OS ouvrant la voie à un contournement d'authentification. La CVE-2026-77554 est une injection de commandes dans l'application UniFi Talk, le système de téléphonie VoIP. Les versions corrigées sont UniFi Protect 7.2.105 ou ultérieure, UniFi Talk 5.3.2 ou ultérieure et UniFi OS Server. Le fabricant a par ailleurs corrigé le même jour 18 problèmes de sévérité critique répartis sur plusieurs gammes de produits."
+        },
+        {
+          "category": "IT",
+          "title": "Kubernetes v1.37 « Garhwal » est disponible avec 67 évolutions",
+          "url": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/",
+          "publishedAt": "2026-08-26",
+          "summary": "L'équipe de release a publié Kubernetes v1.37, baptisée « Garhwal » d'après une région himalayenne de l'Uttarakhand, en Inde. Cette version rassemble 67 améliorations : 16 fonctionnalités passent en stable, 23 en bêta, 27 entrent en alpha et une dépréciation est actée. Parmi les points saillants, l'initialisation résiliente du cache de watch (feature gate ResilientWatchCacheInitialization) est finalisée avec l'achèvement du WatchCacheInitializationPostStartHook, améliorant la robustesse du serveur d'API au démarrage. Le logo de la version, tissé à la manière de la vannerie ringaal, symbolise l'empilement des contributions successives. Les équipes d'exploitation ont désormais matière à planifier leurs mises à niveau de clusters, la cadence trimestrielle du projet restant tenue."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Athlétisme : en ouverture de Weltklasse Zurich dans la halle Wanner de la gare centrale, Angelica Moser signe un record de Suisse en salle à 4m85 et monte pour la première fois sur le podium zurichois, derrière l'Américaine Hana Moll (4m90, record personnel).",
+          "publishedAt": "2026-08-26"
+        },
+        {
+          "headline": "Ligue des champions : Lyon s'incline 1-2 à domicile contre Fenerbahçe (3-2 au cumulé) et manque la phase de ligue 2026/27.",
+          "publishedAt": "2026-08-26"
+        },
+        {
+          "headline": "NFL : les propriétaires de la ligue approuvent à l'unanimité la vente des Seattle Seahawks à la famille Khosla pour 9,612 milliards de dollars, un record absolu pour une franchise sportive.",
+          "publishedAt": "2026-08-26"
+        }
+      ]
+    }
+  ]
+}
