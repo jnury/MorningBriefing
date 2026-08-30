@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-30",
+  "generatedAt": "2026-08-30T03:11:44.634Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 26,
+          "low": 19,
+          "condition": "Couvert",
+          "weathercode": 3,
+          "precipProbability": 5
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Donald Trump a annoncé le « plus gros accord pétrolier de l'histoire mondiale » avec Caracas, donnant aux États-Unis le contrôle majoritaire de quelque 65 milliards de barils de réserves prouvées, un texte que la présidente par intérim Delcy Rodríguez présente comme une étape de redressement économique pour le Venezuela.",
+          "publishedAt": "2026-08-29"
+        },
+        {
+          "headline": "Les Islandais ont voté lors d'un référendum consultatif très serré sur la reprise des négociations d'adhésion à l'Union européenne, gelées depuis treize ans, les résultats étant attendus dans la nuit.",
+          "publishedAt": "2026-08-29"
+        },
+        {
+          "headline": "La Norvège est entrée en deuil national après la mort du roi Harald V à 89 ans, doyen des monarques européens après 35 ans de règne, auquel succède immédiatement son fils Haakon VIII, attendu mardi devant le Parlement pour son serment.",
+          "publishedAt": "2026-08-29"
+        },
+        {
+          "headline": "Roger Federer a été intronisé au International Tennis Hall of Fame de Newport, aux côtés de la journaliste Mary Carillo, lors d'une cérémonie très émue où le Bâlois a parlé de « l'un des plus grands honneurs de ma vie ».",
+          "publishedAt": "2026-08-29"
+        },
+        {
+          "headline": "Tour d'Espagne : Bryan Coquard a décroché sa toute première victoire d'étape sur un grand tour au sprint de la 8e étape, journée marquée par l'abandon du maillot rouge Tadej Pogacar après une chute, Enric Mas prenant la tête du classement général.",
+          "publishedAt": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "McKesson confirme une intrusion, ShinyHunters revendique 284 millions d'enregistrements de patients",
+          "url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
+          "publishedAt": "2026-08-28",
+          "summary": "Le distributeur pharmaceutique McKesson a confirmé une intrusion après que le groupe d'extorsion ShinyHunters a revendiqué le vol de données de patients. Les attaquants disent avoir compromis des comptes Okta d'employés par hameçonnage vocal, puis accédé aux environnements Salesforce et Snowflake. Ils revendiquent environ 284 millions d'enregistrements — un décompte de lignes, non de personnes uniques — et près d'un téraoctet exfiltré entre le 21 et le 25 août 2026. Les données citées comprennent noms, adresses, dates de naissance, numéros de sécurité sociale, identifiants patients, numéros Medicaid, dossiers médicaux, traitements, allergies et rendez-vous, ainsi que des données RH et des communications internes. La rançon exigée atteint 55,2 millions de dollars avec un ultimatum de 72 heures, resté sans réponse selon le groupe."
+        },
+        {
+          "category": "IT",
+          "title": "ServiceNow corrige trois failles notées CVSS 10.0 sur sa plateforme IA",
+          "url": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
+          "publishedAt": "2026-08-28",
+          "summary": "ServiceNow a publié des correctifs pour quatre failles de sa plateforme IA, dont trois notées CVSS 10.0. CVE-2026-18885 est une injection de code dans l'API GraphQL Composite Data permettant une exécution de code arbitraire non authentifiée ; CVE-2026-18886 est un contrôle d'accès défaillant dans le traitement des images de configuration système, ouvrant une élévation de privilèges ; CVE-2026-74820 est une injection SQL via une clause ORDER BY à schéma dynamique. Les trois s'exploitent à distance sans privilège ni interaction utilisateur et compromettent confidentialité, intégrité et disponibilité. Une quatrième faille, CVE-2026-6876 (CVSS 8.7), permet une évasion de bac à sable. Les versions Xanadu, Yokohama, Zurich et Australia sont concernées. Les instances hébergées ont été mises à jour ; l'éditeur ne signale aucune exploitation connue à ce stade."
+        },
+        {
+          "category": "IT",
+          "title": "PaperCut : deux failles enchaînées pour un RCE non authentifié, exploitation active et correctif contournable",
+          "url": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
+          "publishedAt": "2026-08-28",
+          "summary": "Des attaquants enchaînent deux vulnérabilités PaperCut pour obtenir une exécution de code à distance sans authentification, dans des attaques déjà observées. CVE-2026-81578 (CVSS 8.8) est un contrôle d'accès défaillant de l'interface d'administration web, qui laisse des requêtes non authentifiées déclencher des actions avant la fin de la validation ; CVE-2026-82078 (CVSS 9.4) est un chargement dynamique de classes non sécurisé dans les utilitaires de base de données, sans liste d'autorisation. Les versions NG et MF 24, 25 et 26 sont touchées. Les chercheurs de watchTowr décrivent le contournement d'authentification, puis l'édition d'un fichier de configuration pour déclencher le RCE. L'activité post-exploitation inclut des commandes de reconnaissance encodées en Base64 et des classes Java qui s'autodétruisent et nettoient les journaux. Un second correctif d'urgence reste contournable."
+        },
+        {
+          "category": "IT",
+          "title": "Plus de 8300 serveurs Gitea exposés restent vulnérables à une exécution de code à distance",
+          "url": "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/",
+          "publishedAt": "2026-08-28",
+          "summary": "Plus de 8300 serveurs Gitea exposés sur Internet restent vulnérables à CVE-2026-60004, une injection de code menant à l'exécution de commandes à distance, selon les relevés de Shadowserver. La faille touche le point d'API diffpatch et exige un accès en écriture à un dépôt — une condition faible, puisque l'auto-inscription activée par défaut permet à un inconnu de créer un compte puis un dépôt. L'attaquant exécute alors des commandes shell arbitraires avec les droits du compte de service Gitea. Des campagnes déploient déjà des logiciels de minage de cryptomonnaie sur les instances compromises. Le correctif existe depuis la version 1.27.1, publiée le 27 juillet 2026. La CISA a inscrit la vulnérabilité à son catalogue des failles activement exploitées et imposé aux agences fédérales américaines une correction au 28 août, au titre de la directive BOD 26-04."
+        },
+        {
+          "category": "IT",
+          "title": "Berlin refuse de payer les pirates de Rhysida, qui publient les données volées",
+          "url": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
+          "publishedAt": "2026-08-28",
+          "summary": "Le gouvernement du Land de Berlin a confirmé être la cible d'une tentative d'extorsion après la compromission de son réseau administratif en août, et refuse de payer. Les données ont été exfiltrées entre le 7 et le 12 août, notamment au sein du département sénatorial chargé de la mobilité, des transports, de la protection du climat et de l'environnement ; les services touchés ont été déconnectés le 14 août, l'incident rendu public le 17, et l'ensemble des départements reconnectés le 23. Le 28 août, les attaquants ont publié les données volées sur le darknet, revendiquant 5,79 To concernant environ 12 076 personnes — des chiffres non vérifiés par Berlin. Le maire-gouverneur Kai Wegner déclare que « le Land de Berlin est victime de chantage ». Le groupe Rhysida est mis en cause."
+        },
+        {
+          "category": "IT",
+          "title": "Deux Australiens arrêtés, présentés comme les têtes du groupe TeamPCP et du ver Shai-Hulud",
+          "url": "https://www.theregister.com/security/2026/08/28/australian-cops-cuff-alleged-teampcp-masterminds/5293157",
+          "publishedAt": "2026-08-28",
+          "summary": "La police fédérale australienne a arrêté deux hommes de Perth, âgés de 21 et 23 ans, présentés comme des participants principaux du syndicat cybercriminel TeamPCP. Le FBI identifie l'un d'eux, Ruben Thomson, comme le chef présumé du groupe ; la presse australienne nomme le second, Louis Michael Gaebler. L'enquête, ouverte en avril 2026 avec l'appui du FBI, a démarré après la découverte de code malveillant inséré dans des logiciels d'un dépôt open source. Le groupe est associé au ver Shai-Hulud visant les paquets npm et à l'attaque de chaîne d'approvisionnement contre le scanner open source Trivy, détectée en mars 2026. Selon les autorités australiennes, ces attaques auraient potentiellement compromis plus de 1000 organisations dans le monde, permis le vol de plus de 500 000 identifiants et l'exfiltration d'au moins 300 Go de données."
+        },
+        {
+          "category": "IT",
+          "title": "APT28 déploie la porte dérobée HOOKEDGE contre des cibles diplomatiques européennes",
+          "url": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
+          "publishedAt": "2026-08-28",
+          "summary": "Le groupe Insikt de Recorded Future documente HOOKEDGE, une porte dérobée légère écrite en script batch Windows et attribuée à APT28 (Fancy Bear, Forest Blizzard, suivi sous le nom BlueDelta). La campagne, active de fin septembre 2025 à début avril 2026, visait des organisations gouvernementales et diplomatiques en Roumanie, en Espagne et en Turquie. L'accès initial passe par des documents Word à macros aux leurres diplomatiques. L'infrastructure abuse du service webhook[.]site pour le commandement, la mise à disposition de charges utiles et l'exfiltration. L'architecture est à deux étages : un implant de premier accès balise toutes les 30 minutes, les cibles de valeur étant basculées vers des points d'accès dédiés à intervalle de 5 minutes. Microsoft Edge est lancé en mode headless pour récupérer et exécuter des charges .cmd, avec persistance par tâches planifiées et autoeffacement."
+        },
+        {
+          "category": "IT",
+          "title": "Cinq failles critiques d'extensions et thèmes WordPress permettent la prise de contrôle de sites",
+          "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+          "publishedAt": "2026-08-29",
+          "summary": "Cinq vulnérabilités critiques touchant des extensions et un thème WordPress très diffusés permettent la prise de contrôle complète de sites. GiveWP est la plus grave avec CVE-2026-82222 (CVSS 10.0), une injection d'objet PHP menant à l'exécution de commandes arbitraires sur le serveur d'hébergement. Suivent quatre failles notées 9.8 : CVE-2026-76581 dans WPMU DEV Dashboard, un contournement d'authentification donnant un accès administrateur ; CVE-2026-18431 dans le thème Avada, une écriture de fichier arbitraire menant au RCE ; CVE-2026-19632 dans TranslatePress, qui expose l'URL brute de réinitialisation du mot de passe administrateur ; et CVE-2026-19598 dans Pods, une élévation de privilèges autorisant l'écrasement de mots de passe. Wordfence et Patchstack pointent des causes communes : protections de sérialisation insuffisantes et données non validées."
+        },
+        {
+          "category": "IT",
+          "title": "Une faille critique de cPanel donne le contrôle root d'un serveur mutualisé à un simple client",
+          "url": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
+          "publishedAt": "2026-08-28",
+          "summary": "Une faille critique de cPanel & WebHost Manager, référencée CVE-2026-65643, permet à un simple titulaire de compte authentifié de créer des fichiers arbitraires sur le serveur, puis d'obtenir une exécution de code en tant que root — soit le contrôle complet de la machine. Le problème réside dans les fonctions de domaines parqués et de domaines additionnels. Dans un environnement d'hébergement mutualisé, cela signifie qu'un seul client peut prendre la main sur l'ensemble du serveur, et donc sur les sites de tous les autres. Toutes les versions supportées sont concernées ; les correctifs figurent dans les builds 11.110.0.141, 11.134.0.53, 11.136.0.37, 11.138.0.2 et 11.138.1.7 (WP Squared) ou ultérieures. Les serveurs en mise à jour quotidienne automatique sont corrigés sans intervention ; les autres peuvent lancer /scripts/upcp --force. Aucun score CVSS n'était publié."
+        },
+        {
+          "category": "IT",
+          "title": "AWS dévoile Resilient Network Graph, son réseau de centre de données à plat et quasi aléatoire",
+          "url": "https://www.theregister.com/networks/2026/08/29/aws-mumbles-about-its-cost-busting-networking-tech-when-it-should-be-shouting/5293379",
+          "publishedAt": "2026-08-29",
+          "summary": "Amazon Web Services a détaillé Resilient Network Graph, la refonte à plat et sur un seul niveau du réseau de ses centres de données, qui abandonne les topologies hiérarchiques classiques au profit d'un câblage volontairement quasi aléatoire. Deux protocoles maison l'accompagnent : SIDR pour le plan de contrôle et le routage piloté par l'intention, et Spraypoint pour les décisions d'acheminement. AWS revendique jusqu'à 40 % d'efficacité énergétique en plus et une connectivité proche du débit nominal entre deux points quelconques de son infrastructure ; l'architecture est désormais le choix par défaut pour la plupart des nouvelles constructions. Interrogés sur la répercussion des économies, les dirigeants concèdent que la marge reste chez AWS, l'entreprise faisant valoir en contrepartie des tarifs stables depuis 2020 sur les instances existantes et une hausse limitée à 9 % sur les nouvelles instances Graviton5."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Coup de tonnerre sur la Vuelta : Tadej Pogacar, maillot rouge et archi-favori, a abandonné après une lourde chute à 31 km de l'arrivée de la 8e étape, souffrant d'une fracture cervicale et d'une commotion — le premier abandon sur un grand tour de sa carrière.",
+          "publishedAt": "2026-08-29"
+        },
+        {
+          "headline": "Vuelta, 8e étape : le Français Bryan Coquard a signé à Xeraco sa toute première victoire sur un grand tour au terme d'un sprint marqué par les chutes, devant Mads Pedersen, tandis qu'Enric Mas hérite du maillot rouge avec une minute d'avance sur Primoz Roglic.",
+          "publishedAt": "2026-08-29"
+        },
+        {
+          "headline": "Roger Federer a été intronisé au International Tennis Hall of Fame de Newport, dès sa première année d'éligibilité et entouré de sa famille et d'une brochette de légendes (Navratilova, Edberg, Safin, McEnroe, Roddick), à la veille du début de l'US Open.",
+          "publishedAt": "2026-08-29"
+        }
+      ]
+    }
+  ]
+}
