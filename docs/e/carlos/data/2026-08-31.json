@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-08-31",
+  "generatedAt": "2026-08-31T03:11:56.296Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 25,
+          "low": 19,
+          "condition": "Orage",
+          "weathercode": 95,
+          "precipProbability": 83
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "La NASA a lancé avec succès le télescope spatial Nancy-Grace-Roman dimanche matin depuis le Centre spatial Kennedy, à bord d'une Falcon Heavy, pour une mission d'exploration de la matière noire, de l'énergie sombre et des exoplanètes.",
+          "publishedAt": "2026-08-30"
+        },
+        {
+          "headline": "L'Argentine a détrôné les Pays-Bas, triples tenantes du titre, en s'imposant aux tirs au but (3-1 après un 1-1) en finale du Mondial féminin de hockey sur gazon.",
+          "publishedAt": "2026-08-29"
+        },
+        {
+          "headline": "Roger Federer a été intronisé au International Tennis Hall of Fame de Newport lors d'une cérémonie très émue, dès sa première année d'éligibilité et aux côtés de la journaliste Mary Carillo.",
+          "publishedAt": "2026-08-30"
+        },
+        {
+          "headline": "Le Grand Slam de judo de Lausanne s'est achevé sur une première mondiale — l'intégration du para-judo à une étape du World Judo Tour — et sur l'attribution à la Suisse des championnats du monde 2028.",
+          "publishedAt": "2026-08-30"
+        },
+        {
+          "headline": "L'Espagnol Enric Mas a remporté la 9e étape de la Vuelta au sommet de l'Alto de Aitana et consolidé son maillot rouge, avec 1'18\" d'avance sur Primož Roglič.",
+          "publishedAt": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "Zero-day PaperCut exploité en production : 47 % des serveurs restent sans correctif",
+          "url": "https://securityaffairs.com/198107/uncategorized/hackers-are-probing-papercut-servers-and-47-still-have-no-patch.html",
+          "publishedAt": "2026-08-30",
+          "summary": "Deux failles (CVE-2026-81578 et CVE-2026-82078) permettent une exécution de code à distance pré-authentification sur les serveurs d'impression PaperCut NG/MF : un défaut de contrôle d'autorisation — PaperCut vérifie le droit d'afficher une page plutôt que celui d'exécuter l'action — combiné à un chargement de classes Java non sécurisé dans un utilitaire de base de données, aboutissant à du code arbitraire avec les privilèges SYSTEM. Huntress a confirmé l'exploitation active dans deux environnements clients, avec des commandes de reconnaissance rapides (whoami, ver, tasklist). Sur environ 2 500 installations suivies, 47 % tournent encore en version 23 ou antérieure, pour lesquelles aucun correctif n'existe. Les parcs concernés sont massivement des écoles, hôpitaux et administrations."
+        },
+        {
+          "category": "IT",
+          "title": "Manchester Airports Group : FulcrumSec revendique le vol de 86 Go et 8,7 millions de clients touchés",
+          "url": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
+          "publishedAt": "2026-08-30",
+          "summary": "Le groupe d'extorsion FulcrumSec revendique le vol d'environ 86 Go de données chez Manchester Airports Group, qui exploite les aéroports de Manchester, London Stansted et East Midlands. Environ 8,7 millions de clients seraient concernés, la plupart pour leur seule adresse e-mail, mais près de 200 000 enregistrements contiendraient des dates de voyage à venir et des références de réservation rattachées à des identités. Les données comprennent horaires d'arrivée, terminal utilisé, montants payés et historique de dépenses. Selon FulcrumSec, l'accès a été obtenu via des identifiants d'API Iterable propres aux aéroports, exposés dans du JavaScript côté client. MAG affirme avoir contacté toutes les personnes affectées sans commenter les détails techniques. FulcrumSec, actif depuis 2025, exfiltre sans chiffrer."
+        },
+        {
+          "category": "IT",
+          "title": "Cinq failles critiques dans des extensions WordPress, dont un CVSS 10.0 sur GiveWP",
+          "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+          "publishedAt": "2026-08-29",
+          "summary": "Cinq vulnérabilités critiques touchent des plugins et thèmes WordPress très répandus et permettent la prise de contrôle du site ou l'exécution de code à distance. GiveWP culmine à CVSS 10.0 (CVE-2026-82222) avec une injection d'objet PHP transformable en RCE. Quatre autres atteignent 9.8 : le tableau de bord WPMU DEV (CVE-2026-76581) via un contournement d'authentification donnant un accès administrateur, le thème Avada (CVE-2026-18431) avec écriture de fichier arbitraire menant à du RCE, TranslatePress (CVE-2026-19632) qui expose l'URL brute de réinitialisation du mot de passe administrateur, et Pods (CVE-2026-19598) qui autorise une élévation de privilèges vers Administrateur. Une mise à jour immédiate des installations concernées est recommandée."
+        },
+        {
+          "category": "IT",
+          "title": "TerminalFix : de faux CAPTCHA Cloudflare poussent les victimes vers PowerShell pour installer un backdoor",
+          "url": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+          "publishedAt": "2026-08-30",
+          "summary": "Microsoft documente TerminalFix, une variante de ClickFix qui, au lieu de la boîte Exécuter de Windows, dirige les visiteurs vers Windows Terminal ou PowerShell — ce qui augmente les chances qu'un script multi-lignes complexe s'exécute correctement. Le faux CAPTCHA Cloudflare fait copier-coller une commande qui télécharge une archive ZIP contenant un binaire légitime (LockScreenContentServer.exe) et une DLL piégée (dui70.dll) exploitée par sideloading. La DLL récupère les charges suivantes dissimulées dans des images PNG hébergées sur des domaines contrôlés. La persistance passe par des clés Run et des tâches planifiées. Le backdoor final, un client Python, tunnelise du trafic TCP arbitraire vers gitnow[.]dev:443 via WebSocket chiffré, offrant un accès proxy réseau persistant et permettant l'énumération d'Active Directory."
+        },
+        {
+          "category": "IT",
+          "title": "19 modules malveillants dans des extensions Chrome et Edge : portefeuilles crypto et identifiants siphonnés",
+          "url": "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/",
+          "publishedAt": "2026-08-30",
+          "summary": "Les chercheurs de Socket ont identifié 19 modules malveillants répartis dans plusieurs extensions Chrome et Edge, au sein d'une campagne active depuis début 2024. Le framework, conçu pour être hautement extensible, vide les portefeuilles EVM, Solana et Tron, vole les identifiants de plateformes comme Coinbase et Binance, exfiltre l'historique de navigation et affiche de fausses invites de mise à jour du navigateur. L'extension « Enable Right Click & Copy — Smart Unlock + OCR » comptait au moins 70 000 utilisateurs Chrome et 10 000 sur Edge au moment de sa bascule. Cinq extensions ont été rachetées à leurs auteurs d'origine puis empoisonnées via une mise à jour automatique. Google les a retirées ; certaines restaient disponibles sur le store Edge."
+        },
+        {
+          "category": "IT",
+          "title": "Rhysida frappe l'administration de Berlin à trois semaines des élections régionales",
+          "url": "https://securityaffairs.com/198064/cyber-crime/rhysida-ransomware-group-targets-berlin-government-ahead-of-vote.html",
+          "publishedAt": "2026-08-29",
+          "summary": "Le groupe de rançongiciel Rhysida a revendiqué le 28 août sur son site de fuite l'attaque du réseau administratif du Land de Berlin. L'exfiltration se serait déroulée du 7 au 12 août, la brèche ayant été rendue publique le 17. Les attaquants annoncent 5,79 To de données, environ 1,44 million de fichiers : informations personnelles sur 12 076 individus, plus de 5 000 dossiers de personnel et d'infractions administratives, mots de passe en clair, identifiants système et analyses de vulnérabilité du réseau d'eau potable berlinois. Berlin refuse toute rançon — « le Land de Berlin ne cédera pas au chantage ». Les autorités assurent que les systèmes électoraux, à trois semaines du scrutin du 20 septembre, ne sont pas compromis."
+        },
+        {
+          "category": "IT",
+          "title": "Qubes OS : QSB-118 décrit une exécution de code arbitraire dans dom0 via qvm-copy-to-vm",
+          "url": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
+          "publishedAt": "2026-08-29",
+          "summary": "Le bulletin de sécurité Qubes QSB-118 décrit une faille affectant toutes les versions de Qubes OS, le correctif étant publié pour Qubes 4.3. Si un utilisateur lance un qvm-copy-to-vm depuis dom0 vers une qube compromise, l'attaquant peut injecter une commande arbitraire dans dom0 et prendre le contrôle complet du système — soit exactement le scénario que l'architecture de compartimentation de Qubes cherche à empêcher. La cause racine tient à la fonction de remontée d'erreur : sanitize_remote_filename() supprime bien les caractères non-ASCII et les guillemets du nom de fichier distant, mais laisse passer les métacaractères shell, ensuite interprétés par l'appel system() servant à afficher la boîte de dialogue d'erreur."
+        },
+        {
+          "category": "IT",
+          "title": "Robot humanoïde Unitree G1 : root sans authentification par Bluetooth, et propagation possible entre robots",
+          "url": "https://securityaffairs.com/198085/hacking/hack-one-robot-reach-the-next-unitree-g1-security-flaws.html",
+          "publishedAt": "2026-08-29",
+          "summary": "Deux vulnérabilités (CVE-2026-76639 et CVE-2026-76640) permettent d'obtenir un shell root non authentifié sur le robot humanoïde Unitree G1, vendu environ 20 000 dollars, à portée Bluetooth. La première tient à une validation insuffisante des noms de fichiers lors de l'ajout de « connaissances » au service de chatbot, ouvrant une traversée de répertoire et l'écriture de fichiers arbitraires. La seconde exploite une caractéristique Bluetooth acceptant les écritures d'appareils non appairés, combinée à une API cloud qui déchiffrait le blob d'amorçage pour n'importe quel compte Unitree gratuit, sans vérifier la propriété du robot. Un débordement de tampon (charge de 1 050 octets dans 500) donne alors le shell root. Un robot compromis peut en attaquer d'autres à portée."
+        },
+        {
+          "category": "IT",
+          "title": "AWS révèle son réseau « Resilient Network Graph » : 40 % d'efficacité énergétique en plus, gardés en marge",
+          "url": "https://www.theregister.com/networks/2026/08/29/aws-mumbles-about-its-cost-busting-networking-tech-when-it-should-be-shouting/5293379",
+          "publishedAt": "2026-08-29",
+          "summary": "AWS déploie une architecture réseau à un seul niveau, plate et volontairement câblée de manière quasi aléatoire, baptisée Resilient Network Graph : elle améliore la résilience tout en réduisant les coûts, avec jusqu'à 40 % d'efficacité énergétique supplémentaire, et devient le standard des nouveaux datacenters. Pour router entre des milliers de chemins équivalents, Amazon a développé son propre protocole SIDR (Scalable Intent-Driven Routing), associé à Spraypoint pour l'acheminement. Tous les datacenters, y compris les nouvelles installations dédiées au machine learning, sont bâtis sur les mêmes spécifications. AWS reconnaît toutefois que ces gains sont conservés en marge plutôt que répercutés : les tarifs d'instances n'ont pas bougé depuis 2020, et AWS Interconnect introduit une facturation réseau forfaitaire."
+        },
+        {
+          "category": "IT",
+          "title": "Amazon ECS Express Mode : faire tourner un conteneur sans gérer ce qui l'entoure",
+          "url": "https://thenewstack.io/amazon-ecs-express-mode/",
+          "publishedAt": "2026-08-29",
+          "summary": "The New Stack détaille Amazon ECS Express Mode, dont le principe tient dans la formule de l'article : « votre conteneur tourne ; tout ce qui l'entoure ne devrait pas être votre problème ». Le service vise à supprimer la charge opérationnelle qui accompagne habituellement une mise en production sur ECS — répartiteur de charge, réseau, mise à l'échelle, points d'entrée publics — en la prenant en charge automatiquement, pour laisser l'équipe se concentrer sur l'application conteneurisée elle-même. La démarche s'inscrit dans le mouvement plus large de simplification des plateformes de conteneurs, où les fournisseurs cloud cherchent à offrir une expérience proche du PaaS sans renoncer au modèle de conteneurs standard ni à l'écosystème existant."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Tour d'Espagne : Enric Mas s'impose au sommet de l'Alto de Aitana lors de la 9e étape et conforte son maillot rouge, hérité la veille après la chute et l'abandon de Tadej Pogacar.",
+          "publishedAt": "2026-08-30"
+        },
+        {
+          "headline": "Golf : Scottie Scheffler s'adjuge le Tour Championship à East Lake (-16) et remporte la FedEx Cup devant Viktor Hovland et Ryan Gerard.",
+          "publishedAt": "2026-08-31"
+        },
+        {
+          "headline": "Mondiaux de VTT : la Zurichoise Sina Frei décroche son premier titre mondial de cross-country au Val di Sole, Nicole Koller complétant la fête suisse avec le bronze.",
+          "publishedAt": "2026-08-30"
+        }
+      ]
+    }
+  ]
+}
