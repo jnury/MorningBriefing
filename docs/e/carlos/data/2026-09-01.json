@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-09-01",
+  "generatedAt": "2026-09-01T03:10:10.736Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 24,
+          "low": 17,
+          "condition": "Couvert",
+          "weathercode": 3,
+          "precipProbability": 0
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "La Commission européenne a désigné ChatGPT, Reddit et Roblox au titre du règlement sur les services numériques, les soumettant d'ici janvier 2027 aux obligations les plus strictes de l'UE en matière de protection des utilisateurs.",
+          "publishedAt": "2026-08-31"
+        },
+        {
+          "headline": "Des physiciens de l'ISTA ont montré qu'un « bain quantique » de photons micro-ondes corrélés peut intriquer de façon entièrement autonome des bits quantiques distants, confirmant une prédiction théorique vieille de plus de vingt ans.",
+          "publishedAt": "2026-08-31"
+        },
+        {
+          "headline": "Les factions rivales libyennes ont signé à Tripoli, sous l'égide de l'ONU, une feuille de route prévoyant des élections législatives et présidentielle sous autorité exécutive unique dans un délai maximum de 24 mois.",
+          "publishedAt": "2026-08-30"
+        },
+        {
+          "headline": "Le télescope spatial Nancy Grace Roman de la NASA a décollé de Cap Canaveral à bord d'une Falcon Heavy pour un voyage de trois mois vers le point de Lagrange L2, d'où il sondera la matière noire, l'énergie sombre et les exoplanètes.",
+          "publishedAt": "2026-08-30"
+        },
+        {
+          "headline": "Les ministres des Finances et gouverneurs de banques centrales du G20 se sont réunis à Asheville, en Caroline du Nord, pour deux jours consacrés à la croissance, aux déséquilibres mondiaux, à la dette souveraine et à la résilience des chaînes d'approvisionnement.",
+          "publishedAt": "2026-08-31"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "ServiceNow corrige trois vulnérabilités critiques d'injection de code notées 10/10",
+          "url": "https://www.securityweek.com/servicenow-patches-3-critical-code-injection-vulnerabilities/",
+          "publishedAt": "2026-08-31",
+          "summary": "ServiceNow a publié des correctifs pour quatre failles touchant sa plateforme IA et la Now Platform, dont trois notées 10 sur 10 en CVSS. CVE-2026-18885 permet l'exécution de code arbitraire avec accès et modification de données ; CVE-2026-18886 est un contrôle d'accès défaillant ouvrant la voie à la manipulation de données et à l'élévation de privilèges ; CVE-2026-74820 est une injection SQL autorisant l'exécution de requêtes arbitraires. Les trois sont exploitables sans authentification ni interaction utilisateur. CVE-2026-6876 (8.7) permet une évasion de bac à sable. Les instances hébergées ont été corrigées par l'éditeur, mais les déploiements auto-hébergés doivent appliquer eux-mêmes les hotfixes — un processus qui, souligne l'expert Jason Brown, prend souvent des semaines."
+        },
+        {
+          "category": "IT",
+          "title": "Ruby on Rails : la faille critique « KindaRails2Shell » (CVE-2026-66066) désormais exploitée",
+          "url": "https://www.securityweek.com/critical-ruby-on-rails-vulnerability-in-attackers-crosshairs/",
+          "publishedAt": "2026-08-31",
+          "summary": "Des attaquants exploitent CVE-2026-66066, une faille critique de Ruby on Rails notée 9,5, environ un mois après la publication des correctifs fin juillet. Baptisée « KindaRails2Shell », elle permet la lecture de fichiers arbitraires, donc l'exfiltration de secrets et, en chaîne, l'exécution de code à distance. Le défaut vient d'une divergence d'interprétation des types de fichiers : Rails se fie au content-type fourni par le client, tandis que libvips lit les octets magiques. Un attaquant non authentifié peut ainsi enchaîner libmatio et HDF5 pour lire des fichiers serveur et récupérer identifiants et clés de stockage. VulnCheck recense environ 7 000 instances vulnérables exposées et prévient que les versions corrigées restent exploitables via un gadget de désérialisation non patché."
+        },
+        {
+          "category": "IT",
+          "title": "PaperCut publie un second correctif d'urgence pour deux zero-days activement exploitées",
+          "url": "https://www.securityweek.com/more-details-emerge-on-exploited-papercut-vulnerabilities/",
+          "publishedAt": "2026-08-31",
+          "summary": "PaperCut a diffusé un deuxième patch d'urgence pour deux vulnérabilités zero-day exploitées dans ses solutions d'impression NG et MF. CVE-2026-81578 est un contournement d'authentification de sévérité élevée permettant de modifier la configuration à distance ; CVE-2026-82078 est une faille critique de chargement dynamique de classes non sécurisé : en manipulant les paramètres de configuration, un attaquant peut faire exécuter du bytecode Java arbitraire sous le contexte du serveur. Combinées, elles donnent une exécution de code pré-authentification sur un serveur exposé. Huntress a observé des tentatives d'exploitation dès le 26 août chez au moins deux clients, et watchTowr a découvert des contournements du premier correctif. Environ 1 000 instances PaperCut restent exposées, surtout en Amérique du Nord et en Europe."
+        },
+        {
+          "category": "IT",
+          "title": "McKesson confirme une fuite massive : des millions de dossiers patients revendiqués par ShinyHunters",
+          "url": "https://techcrunch.com/2026/08/31/hackers-claim-millions-of-patient-records-stolen-during-data-breach-at-healthcare-giant-mckesson/",
+          "publishedAt": "2026-08-31",
+          "summary": "Le groupe ShinyHunters revendique le vol de millions de dossiers patients chez McKesson, l'un des plus grands distributeurs pharmaceutiques américains. Les attaquants seraient entrés par hameçonnage et ingénierie sociale sur des comptes employés, avant de piller les environnements cloud Snowflake et Salesforce de l'entreprise. Les données dérobées comprendraient noms, adresses et numéros de sécurité sociale, mais aussi des informations de santé protégées : diagnostics, traitements et allergies. McKesson a confirmé l'incident et anticipe une « dégradation intermittente du service » pour les hôpitaux qu'elle approvisionne. Les pirates réclameraient une rançon de 55 millions de dollars. Cette attaque s'inscrit dans une série visant le secteur de la santé, après Boston Scientific et Stryker."
+        },
+        {
+          "category": "IT",
+          "title": "Manchester Airports Group : 8,7 millions de clients potentiellement touchés, FulcrumSec revendique 86 Go",
+          "url": "https://www.securityweek.com/extortion-group-claims-manchester-airports-group-data-breach/",
+          "publishedAt": "2026-08-31",
+          "summary": "Le groupe d'extorsion FulcrumSec revendique la compromission de Manchester Airports Group, premier exploitant aéroportuaire du Royaume-Uni. MAG avait révélé l'incident le 27 août : des attaquants ont exfiltré des données de réservations de parking, d'accès aux salons et de services Fast Track sur les aéroports de Manchester, London Stansted et East Midlands. Environ 8,7 millions de clients pourraient être concernés, avec des adresses e-mail, des numéros de téléphone, des immatriculations de véhicules et des codes postaux. Les pirates disent détenir quelque 86 gigaoctets et menacent de les publier. MAG confirme que la brèche provient d'une base hébergée par un tiers et avoir reçu une demande de rançon, sans impact sur les opérations aéroportuaires. FulcrumSec, apparu en 2025, avait déjà visé Novo Nordisk et LexisNexis."
+        },
+        {
+          "category": "IT",
+          "title": "Berlin confirme un vol de 5,79 To de données après une attaque du rançongiciel Rhysida",
+          "url": "https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/",
+          "publishedAt": "2026-08-31",
+          "summary": "L'administration de la ville de Berlin a confirmé un vol de données consécutif à une attaque du rançongiciel Rhysida découverte à la mi-août. Les assaillants revendiquent environ 5,79 To, soit quelque 1,44 million de fichiers contenant des documents administratifs, des données personnelles, des identifiants et des évaluations d'infrastructures sensibles. Le maire Kai Wergner a annoncé que la ville ne paierait pas la rançon, l'affaire étant désormais entre les mains d'enquêteurs régionaux et fédéraux. Les attaquants font pression en brandissant les sanctions du RGPD et donnent quatre jours avant publication des fichiers. L'analyse forensique montre que le département sénatorial de la mobilité et des transports est également touché, les systèmes ayant été déconnectés le 14 août. Aucune donnée électorale n'a été compromise."
+        },
+        {
+          "category": "IT",
+          "title": "Boston Scientific se relève difficilement d'une cyberattaque qui bloque ses expéditions",
+          "url": "https://www.securityweek.com/boston-scientific-still-recovering-from-cyberattack/",
+          "publishedAt": "2026-08-31",
+          "summary": "Boston Scientific, poids lourd des technologies médicales, a détecté une cyberattaque le 25 août qui a désorganisé sa production, le traitement des commandes et ses expéditions dans le monde entier. L'incident touche certains systèmes informatiques sur site ; les dispositifs cardiaques implantables déjà posés ne sont pas compromis, mais les activations à distance de certains moniteurs cardiaques ont été perturbées. L'entreprise a mandaté CrowdStrike et d'autres spécialistes pour l'enquête et affirme n'avoir observé aucun signe d'activité malveillante sur ses réseaux depuis le 25 août, ce qui suggère une brèche contenue. Une reprise partielle des expéditions était attendue dans la semaine, sans calendrier complet de rétablissement. Aucun groupe cybercriminel n'a revendiqué l'attaque à ce stade."
+        },
+        {
+          "category": "IT",
+          "title": "Le groupe chinois Fire Ant transforme des routeurs Cisco en plateformes d'espionnage",
+          "url": "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms/",
+          "publishedAt": "2026-08-31",
+          "summary": "La société de réponse à incident Sygnia a constaté que le groupe chinois Fire Ant a délaissé les hyperviseurs VMware au profit des routeurs Cisco et des serveurs d'authentification. Les attaquants déploient un maliciel sur mesure qui crée des interfaces de tunnel GRE cachées et supprime les journaux système pour se maintenir sans être détecté. La stratégie, dite de « la cible derrière la cible », consiste à utiliser les routeurs compromis comme postes d'observation pour capturer le trafic réseau et sonder les environnements sensibles connectés. Les chercheurs ont aussi identifié une porte dérobée inédite, BridgeAgent, déguisée en logiciel de supervision Zabbix. Le mode opératoire recoupe largement celui du groupe d'espionnage UNC3886, avec falsification systématique des journaux et des horodatages pour entraver les investigations."
+        },
+        {
+          "category": "IT",
+          "title": "Microsoft alerte sur TerminalFix, une variante de ClickFix qui ouvre un tunnel inverse dans le réseau",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
+          "publishedAt": "2026-08-31",
+          "summary": "Microsoft décrit TerminalFix, une variante sophistiquée des attaques ClickFix qui pousse les victimes à exécuter des commandes PowerShell malveillantes via de faux CAPTCHA Cloudflare sur des sites compromis. Contrairement aux campagnes ClickFix classiques, l'objectif n'est pas de déposer un voleur d'informations mais d'établir un tunnel inverse dans le réseau de la victime. La commande préchargée dans le presse-papiers télécharge une archive ZIP ; le maliciel dissimule son code dans des images PNG par stéganographie, persiste via des tâches planifiées et reconnaît contrôleurs de domaine et Active Directory. Un module Python se connecte au serveur de commande gitnow[.]dev en WebSocket chiffré pour un relais SOCKS5. Microsoft recommande de restreindre PowerShell et de renouveler immédiatement les identifiants d'administrateur de domaine."
+        },
+        {
+          "category": "IT",
+          "title": "Panne majeure d'Exchange Online : e-mails, authentification et Microsoft 365 perturbés pendant des heures",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
+          "publishedAt": "2026-08-31",
+          "summary": "Microsoft a reconnu une panne étendue d'Exchange Online démarrée à 17h30 UTC, qui a débordé sur OneDrive, SharePoint Online, Teams, Purview et Defender XDR. Les utilisateurs ont subi des retards et des échecs d'envoi et de réception de messages, des erreurs d'authentification et des dysfonctionnements de la recherche. La cause identifiée tient à « une configuration d'authentification centrale utilisée par plusieurs services internes » de l'infrastructure Exchange Online. Microsoft a appliqué des mitigations ciblées en réinitialisant manuellement des configurations serveur, avec un début de rétablissement en soirée. Des dizaines de milliers de signalements ont été enregistrés sur Outlook et Microsoft 365. C'est la troisième panne notable d'Exchange Online après celles d'avril et juin 2026."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Séisme à l'US Open : Novak Djokovic, visiblement malade, s'incline en cinq sets (7-6, 5-7, 4-6, 6-2, 6-1) face à l'Argentin Mariano Navone (49e mondial), sa première élimination au 1er tour d'un Grand Chelem depuis 2006.",
+          "publishedAt": "2026-08-31"
+        },
+        {
+          "headline": "Retour gagnant de Carlos Alcaraz à Flushing Meadows (6-4, 6-4, 6-4 contre Roman Safiullin) pour son premier match depuis sa blessure au poignet en avril, tandis qu'Aryna Sabalenka lance sa quête d'un troisième titre consécutif en écartant Camila Osorio (6-4, 6-4).",
+          "publishedAt": "2026-08-31"
+        },
+        {
+          "headline": "La Suissesse Sina Frei décroche en solitaire son premier titre de championne du monde de cross-country à Val di Sole, avec sa compatriote Nicole Koller sur la 3e marche du podium derrière l'Italienne Martina Berta.",
+          "publishedAt": "2026-08-30"
+        }
+      ]
+    }
+  ]
+}
