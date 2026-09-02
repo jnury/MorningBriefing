@@ -1,0 +1,152 @@
+{
+  "edition": "carlos",
+  "title": "Briefing de Carlos",
+  "date": "2026-09-02",
+  "generatedAt": "2026-09-02T03:11:43.496Z",
+  "sections": [
+    {
+      "topic": "weather",
+      "label": "Météo",
+      "kind": "provider",
+      "cities": [
+        {
+          "name": "Zurich",
+          "high": 26,
+          "low": 16,
+          "condition": "Couvert",
+          "weathercode": 3,
+          "precipProbability": 0
+        }
+      ]
+    },
+    {
+      "topic": "world",
+      "label": "Le monde en bref",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "L'aéroport international Simón Bolívar de Maiquetía, qui dessert Caracas, a rouvert partiellement au trafic commercial près de dix semaines après les séismes de juin, plusieurs compagnies dont Copa, Avianca, American Airlines et LATAM annonçant le retour de leurs vols.",
+          "publishedAt": "2026-09-01"
+        },
+        {
+          "headline": "Au Kosovo, le Vetëvendosje d'Albin Kurti et la Ligue démocratique de Lumir Abdixhiku se sont entendus sur l'ancien juge constitutionnel Bekim Sejdiu comme candidat commun à la présidence, ouvrant la voie à la sortie d'un blocage institutionnel de plusieurs mois.",
+          "publishedAt": "2026-08-31"
+        },
+        {
+          "headline": "Le roi Haakon VIII a prêté serment de fidélité à la Constitution norvégienne devant le Storting, première étape symbolique de son règne après trente-cinq ans de règne de son père Harald V.",
+          "publishedAt": "2026-09-01"
+        },
+        {
+          "headline": "La Chine a annoncé que sa capacité solaire installée avait dépassé pour la première fois celle du charbon fin juillet, avec 1,286 milliard de kilowatts contre 1,285, le photovoltaïque produisant déjà environ un huitième de l'électricité du pays.",
+          "publishedAt": "2026-09-01"
+        },
+        {
+          "headline": "La réunion des ministres des Finances et gouverneurs de banques centrales du G20 s'est conclue à Asheville sur une déclaration de la présidence approuvée par dix-neuf des vingt membres, consacrée à la croissance mondiale, aux chaînes d'approvisionnement, à la dette et à l'éducation financière.",
+          "publishedAt": "2026-09-01"
+        }
+      ]
+    },
+    {
+      "topic": "tech",
+      "label": "Tech · IT, Science & IA",
+      "kind": "topic",
+      "shape": "card",
+      "degraded": false,
+      "items": [
+        {
+          "category": "IT",
+          "title": "Faille critique JFrog Artifactory (CVE-2026-82329) exploitée pour forger des jetons administrateur",
+          "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
+          "publishedAt": "2026-09-01",
+          "summary": "Des attaquants exploitent activement CVE-2026-82329, un contournement d'authentification noté 9.8 sur l'échelle CVSS, dans les instances auto-hébergées de JFrog Artifactory. La faille réside dans JFrog Access, le composant chargé d'émettre et de valider les identifiants : les installations dépourvues de clé de jonction supplémentaire reçoivent une clé « fantôme » que les attaquants peuvent réutiliser pour fabriquer des jetons d'accès et se créer des comptes administrateur sans authentification préalable. JFrog avait publié ses correctifs le 28 août (version 7.161.20 et branches 7.146, 7.133, 7.125, 7.117, 7.111). Dès le 1er septembre, les attaquants énuméraient utilisateurs, groupes et secrets. Artifactory hébergeant les binaires logiciels des entreprises, le risque de compromission de la chaîne d'approvisionnement est majeur."
+        },
+        {
+          "category": "IT",
+          "title": "PaperCut : l'exploitation de deux failles passe des sondages à de véritables intrusions",
+          "url": "https://www.securityweek.com/papercut-exploitation-escalates-to-active-intrusions/",
+          "publishedAt": "2026-09-01",
+          "summary": "Deux vulnérabilités non authentifiées de PaperCut NG/MF, CVE-2026-82078 et CVE-2026-81578, sont désormais enchaînées pour contourner l'authentification puis exécuter du code à distance sur les serveurs d'impression exposés. Selon le responsable du renseignement de WatchTowr, l'activité a « nettement évolué, et rapidement » : on ne voit plus de simples sondages de reconnaissance mais des intrusions réelles avec présence humaine au clavier et déploiement d'outils d'accès distant. Des courtiers en accès initiaux figurent parmi les opérateurs. Plus d'un millier d'instances PaperCut sont exposées sur Internet. La CISA a ajouté les deux identifiants à son catalogue des vulnérabilités activement exploitées, imposant aux agences fédérales américaines une remédiation au 14 septembre 2026."
+        },
+        {
+          "category": "IT",
+          "title": "Une faille critique de Langflow exploitée pour voler des clés OpenAI et AWS",
+          "url": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
+          "publishedAt": "2026-09-01",
+          "summary": "CVE-2026-0768 est une exécution de code à distance non authentifiée dans Langflow, le framework Python open source de création d'applications d'IA. Le défaut se niche dans le validateur de code de l'éditeur de composants personnalisés, qui exécute une chaîne fournie par l'utilisateur sans contrôle suffisant : l'attaquant obtient l'exécution avec les privilèges root. Les versions 1.4.2 et antérieures sont vulnérables, la 1.11.6 corrige le problème. VulnCheck a comptabilisé plus de 360 tentatives d'exploitation, majoritairement en provenance de Russie et visant des pots de miel britanniques. Les charges observées cherchent les identifiants d'administration, les secrets AWS, les clés d'API OpenAI, les accès SSH et l'historique bash. Langflow accumule ainsi sa sixième vulnérabilité exploitée en 2026."
+        },
+        {
+          "category": "IT",
+          "title": "Le gang de rançongiciels The Gentlemen revendique une intrusion chez Nutex Health",
+          "url": "https://www.securityweek.com/ransomware-gang-claims-nutex-health-data-breach/",
+          "publishedAt": "2026-09-01",
+          "summary": "Le groupe The Gentlemen, également suivi sous le nom Storm-2697, a inscrit Nutex Health sur son site de fuite hébergé sur Tor, menaçant de publier les données volées sous neuf jours. Nutex Health, société de services et d'exploitation de santé installée à Houston (Texas), a indiqué dans un dépôt auprès de la SEC que la compromission touche des informations relatives aux patients, aux employés, aux praticiens, ainsi que des données commerciales et financières. L'entreprise déclare n'avoir pas encore identifié d'impact opérationnel significatif, tout en reconnaissant des contentieux en cours liés à l'incident. Apparu au milieu de l'année 2025, The Gentlemen pratique la double extorsion — chiffrement des systèmes et exfiltration préalable — et revendique plus de 580 victimes réparties dans plus de 75 pays."
+        },
+        {
+          "category": "IT",
+          "title": "Aesto Health : une violation de données touche 9,5 millions de patients",
+          "url": "https://www.securityweek.com/9-5-million-impacted-by-aesto-health-data-breach/",
+          "publishedAt": "2026-09-01",
+          "summary": "Aesto Health, prestataire technologique de santé basé à Birmingham (Alabama), spécialisé dans la migration de données, les échanges de dossiers médicaux électroniques et l'archivage de données historiques, a notifié aux autorités sanitaires américaines une compromission affectant environ 9,54 millions de personnes. Les données exfiltrées comprennent noms, numéros de sécurité sociale, permis de conduire, dates de naissance, numéros de comptes financiers, informations médicales, données d'assurance santé et identifiants fiscaux. La chronologie est éloquente : l'exfiltration s'est déroulée du 2 au 18 décembre 2025, l'enquête n'a établi le périmètre complet que le 26 mai 2026 et l'avis public date de juin 2026. Au moins vingt-quatre clients prestataires de soins, répartis sur plusieurs États, sont concernés, certains ayant choisi de notifier eux-mêmes leurs patients."
+        },
+        {
+          "category": "IT",
+          "title": "Des attaquants détournent l'outil d'administration Faronics Deploy pour installer ScreenConnect",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
+          "publishedAt": "2026-09-01",
+          "summary": "Une campagne d'hameçonnage a compromis plus de 457 postes entre le 21 juillet et le 20 août 2026 en détournant Faronics Deploy, plateforme légitime de gestion d'endpoints en nuage. Les courriels imitent une correspondance professionnelle et dirigent la victime vers des sites qui téléchargent un installateur Faronics authentique mais déguisé sous le nom « Adobe.exe ». La machine est alors enrôlée dans un déploiement contrôlé par l'attaquant, qui exécute à distance des scripts PowerShell sans aucune interaction de l'utilisateur, puis installe ConnectWise ScreenConnect comme second canal d'accès distant, selon les chercheurs de Huntress. Faronics a mis en place des mesures anti-abus après notification le 5 août, l'activité chutant nettement dès le 21. Les administrateurs peuvent chercher des traces dans `C:\\ProgramData\\Faronics\\Logs\\ScriptRunner.log`."
+        },
+        {
+          "category": "IT",
+          "title": "La panne Microsoft 365 s'éternise sur plusieurs jours, mais la situation s'améliore",
+          "url": "https://techcrunch.com/2026/09/01/microsoft-365-outage-drags-on-but-things-are-improving/",
+          "publishedAt": "2026-09-01",
+          "summary": "Entamée le 31 août, la panne de Microsoft 365 se poursuivait encore le 1er septembre. Microsoft l'impute à une erreur de configuration dans un composant central d'authentification, mal déployée sur une partie de son infrastructure. Les services touchés forment une liste inhabituellement longue : Outlook, SharePoint, Teams, Copilot, Purview, Defender XDR, le centre d'administration Microsoft 365 et Universal Print. L'éditeur a constaté une reprise progressive du flux de messagerie lundi soir, puis une amélioration de la recherche mardi matin, avant de passer en « surveillance étendue » sans déclarer pour autant le rétablissement complet. L'incident illustre la dépendance des entreprises à une couche d'identité unique : quand elle vacille, la bureautique, la collaboration et jusqu'aux outils de sécurité tombent ensemble."
+        },
+        {
+          "category": "IT",
+          "title": "Kubernetes v1.37 : etcd RangeStream réduit la mémoire consommée par les grandes lectures",
+          "url": "https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/",
+          "publishedAt": "2026-09-01",
+          "summary": "Kubernetes v1.37 promeut en bêta, et active par défaut, etcd RangeStream : une version en flux du RPC Range d'etcd v3.7. Là où le Range classique assemble en mémoire la page complète avant de l'envoyer, obligeant serveur d'API et etcd à détenir simultanément l'intégralité de la charge utile, RangeStream découpe la réponse en fragments dont la taille s'adapte dynamiquement à celle des objets, et libère la mémoire au fil du transfert. Le bénéfice porte sur les lectures volumineuses — typiquement des listes de Pods — jusqu'ici sources d'une consommation mémoire imprévisible et de risques d'OOM en cas de lectures concurrentes. Il faut Kubernetes v1.37 et etcd v3.7 au minimum ; la fonction se désactive via `--feature-gates=EtcdRangeStream=false`, et les métriques `etcdstream_` du serveur d'API permettent de vérifier son usage."
+        },
+        {
+          "category": "IT",
+          "title": "Kubernetes v1.37 : la Storage Version Migration atteint la disponibilité générale",
+          "url": "https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/",
+          "publishedAt": "2026-08-31",
+          "summary": "L'API intégrée `storagemigration.k8s.io/v1` et son contrôleur passent en disponibilité générale dans Kubernetes v1.37, activés par défaut sur tous les clusters. Le problème résolu est classique et pénible : lorsqu'on change la version de stockage d'une ressource, les objets déjà enregistrés conservent leur ancien format tant qu'ils ne sont pas réécrits, ce qui bloque la suppression d'anciennes versions d'API, la rotation des clés de chiffrement au repos et la modernisation des schémas de CRD. Les administrateurs devaient jusqu'ici enchaîner des scripts `kubectl get`/`kubectl replace` ou déployer le composant externe kube-storage-version-migrator. Désormais, il suffit de créer un objet StorageVersionMigration déclaratif désignant le groupe et la ressource : le contrôleur intégré se charge de migrer les objets existants vers la version de stockage par défaut."
+        },
+        {
+          "category": "IT",
+          "title": "AWS ouvre à tous les instances EC2 R9g et R9gd propulsées par Graviton5",
+          "url": "https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/",
+          "publishedAt": "2026-08-31",
+          "summary": "Les instances optimisées pour la mémoire R9g et R9gd, premières à embarquer les processeurs AWS Graviton5, sont désormais généralement disponibles. AWS annonce jusqu'à 25 % de performance de calcul supplémentaire par vCPU par rapport à la génération précédente, une mémoire DDR5 à 8800 MT/s présentée comme la plus rapide du marché cloud, et un cache L3 cinq fois plus grand pour améliorer la localité des données. Les plus grandes tailles atteignent 100 Gbit/s de bande passante réseau et 72 Gbit/s vers EBS, avec un traitement de paquets jusqu'à trois fois supérieur et la prise en charge de l'Instance Bandwidth Configuration, qui permet d'arbitrer l'allocation entre EBS et VPC. Le lancement couvre pour l'instant les régions Virginie du Nord, Ohio, Oregon et Francfort, en Savings Plans, à la demande, Spot ou hôtes dédiés."
+        }
+      ]
+    },
+    {
+      "topic": "sport",
+      "label": "Sport",
+      "kind": "topic",
+      "shape": "headline",
+      "degraded": false,
+      "items": [
+        {
+          "headline": "Lionel Messi a annoncé sa retraite internationale à 39 ans, six semaines après la finale du Mondial perdue par l'Argentine, au terme de 207 sélections et 125 buts avec l'Albiceleste.",
+          "publishedAt": "2026-08-31"
+        },
+        {
+          "headline": "Carlos Alcaraz, tenant du titre, a signé un retour victorieux à l'US Open face à Roman Safiullin (6-4 6-4 6-4) après 139 jours d'absence pour une blessure au poignet.",
+          "publishedAt": "2026-08-31"
+        },
+        {
+          "headline": "Le mercato estival s'est refermé mardi soir sur un record absolu de dépenses en Premier League, 3,48 milliards de livres, devant la Serie A (843,6 millions).",
+          "publishedAt": "2026-09-02"
+        }
+      ]
+    }
+  ]
+}
